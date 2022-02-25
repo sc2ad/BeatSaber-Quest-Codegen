@@ -32,7 +32,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: System
@@ -90,7 +89,7 @@ namespace UnityEngine::ProBuilder {
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, transforms);
     }
     // static public UnityEngine.GameObject EmptyGameObjectWithTransform(UnityEngine.Transform t)
-    // Offset: 0x1CCCF64
+    // Offset: 0x1F407AC
     static UnityEngine::GameObject* EmptyGameObjectWithTransform(UnityEngine::Transform* t);
     // static public T NextEnumValue(T current)
     // Offset: 0xFFFFFFFF
@@ -103,13 +102,13 @@ namespace UnityEngine::ProBuilder {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, current);
     }
     // static public System.String ControlKeyString(System.Char character)
-    // Offset: 0x1CCD05C
+    // Offset: 0x1F408A4
     static ::StringW ControlKeyString(::Il2CppChar character);
     // static public System.Boolean TryParseColor(System.String value, ref UnityEngine.Color col)
-    // Offset: 0x1CCD134
+    // Offset: 0x1F4097C
     static bool TryParseColor(::StringW value, ByRef<UnityEngine::Color> col);
     // static public UnityEngine.Vector3[] StringToVector3Array(System.String str)
-    // Offset: 0x1CCD3B8
+    // Offset: 0x1F40C00
     static ::ArrayW<UnityEngine::Vector3> StringToVector3Array(::StringW str);
     // static public T DemandComponent(UnityEngine.Component component)
     // Offset: 0xFFFFFFFF

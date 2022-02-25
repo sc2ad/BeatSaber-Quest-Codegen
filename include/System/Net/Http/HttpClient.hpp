@@ -22,6 +22,8 @@ namespace System::Net::Http {
   class HttpResponseMessage;
   // Forward declaring type: HttpCompletionOption
   struct HttpCompletionOption;
+  // Forward declaring type: HttpContent
+  class HttpContent;
   // Forward declaring type: HttpRequestMessage
   class HttpRequestMessage;
   // Forward declaring type: HttpMessageHandler
@@ -47,7 +49,6 @@ namespace System::Net::Http::Headers {
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
-  template<typename TResult>
   class Task_1;
 }
 // Completed forward declares
@@ -71,8 +72,8 @@ namespace System::Net::Http {
     char ___base_padding[0x7] = {};
     // Nested type: System::Net::Http::HttpClient::$SendAsyncWorker$d__47
     struct $SendAsyncWorker$d__47;
-    // Nested type: System::Net::Http::HttpClient::$GetStringAsync$d__52
-    struct $GetStringAsync$d__52;
+    // Nested type: System::Net::Http::HttpClient::$GetStringAsync$d__53
+    struct $GetStringAsync$d__53;
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
@@ -138,34 +139,40 @@ namespace System::Net::Http {
     // Get instance field reference: private System.TimeSpan timeout
     System::TimeSpan& dyn_timeout();
     // public System.Int64 get_MaxResponseContentBufferSize()
-    // Offset: 0x17C9364
+    // Offset: 0x1901F50
     int64_t get_MaxResponseContentBufferSize();
     // public System.Void set_Timeout(System.TimeSpan value)
-    // Offset: 0x17C936C
+    // Offset: 0x1901F58
     void set_Timeout(System::TimeSpan value);
     // static private System.Void .cctor()
-    // Offset: 0x17C9DAC
+    // Offset: 0x1902ABC
     static void _cctor();
-    // public System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> GetAsync(System.String requestUri, System.Net.Http.HttpCompletionOption completionOption)
-    // Offset: 0x17C955C
-    System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* GetAsync(::StringW requestUri, System::Net::Http::HttpCompletionOption completionOption);
+    // public System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> GetAsync(System.Uri requestUri, System.Net.Http.HttpCompletionOption completionOption)
+    // Offset: 0x1902148
+    System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* GetAsync(System::Uri* requestUri, System::Net::Http::HttpCompletionOption completionOption);
+    // public System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> PostAsync(System.Uri requestUri, System.Net.Http.HttpContent content)
+    // Offset: 0x1902304
+    System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* PostAsync(System::Uri* requestUri, System::Net::Http::HttpContent* content);
+    // public System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request)
+    // Offset: 0x19023F8
+    System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* SendAsync(System::Net::Http::HttpRequestMessage* request);
     // public System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request, System.Net.Http.HttpCompletionOption completionOption)
-    // Offset: 0x17C96E4
+    // Offset: 0x190227C
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* SendAsync(System::Net::Http::HttpRequestMessage* request, System::Net::Http::HttpCompletionOption completionOption);
     // public System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request, System.Net.Http.HttpCompletionOption completionOption, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x17C976C
+    // Offset: 0x190247C
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* SendAsync(System::Net::Http::HttpRequestMessage* request, System::Net::Http::HttpCompletionOption completionOption, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsyncWorker(System.Net.Http.HttpRequestMessage request, System.Net.Http.HttpCompletionOption completionOption, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x17C9B68
+    // Offset: 0x1902878
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* SendAsyncWorker(System::Net::Http::HttpRequestMessage* request, System::Net::Http::HttpCompletionOption completionOption, System::Threading::CancellationToken cancellationToken);
-    // public System.Threading.Tasks.Task`1<System.String> GetStringAsync(System.String requestUri)
-    // Offset: 0x17C9C9C
-    System::Threading::Tasks::Task_1<::StringW>* GetStringAsync(::StringW requestUri);
+    // public System.Threading.Tasks.Task`1<System.String> GetStringAsync(System.Uri requestUri)
+    // Offset: 0x19029AC
+    System::Threading::Tasks::Task_1<::StringW>* GetStringAsync(System::Uri* requestUri);
     // private System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> <>n__0(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x17C9E2C
+    // Offset: 0x1902B3C
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* $$n__0(System::Net::Http::HttpRequestMessage* request, System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x17C90D8
+    // Offset: 0x1901CC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -174,7 +181,7 @@ namespace System::Net::Http {
       return THROW_UNLESS((::il2cpp_utils::New<HttpClient*, creationType>()));
     }
     // public System.Void .ctor(System.Net.Http.HttpMessageHandler handler, System.Boolean disposeHandler)
-    // Offset: 0x17C9204
+    // Offset: 0x1901DF0
     // Implemented from: System.Net.Http.HttpMessageInvoker
     // Base method: System.Void HttpMessageInvoker::.ctor(System.Net.Http.HttpMessageHandler handler, System.Boolean disposeHandler)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -183,12 +190,12 @@ namespace System::Net::Http {
       return THROW_UNLESS((::il2cpp_utils::New<HttpClient*, creationType>(handler, disposeHandler)));
     }
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x17C94B0
+    // Offset: 0x190209C
     // Implemented from: System.Net.Http.HttpMessageInvoker
     // Base method: System.Void HttpMessageInvoker::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // public override System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x17C99F0
+    // Offset: 0x1902700
     // Implemented from: System.Net.Http.HttpMessageInvoker
     // Base method: System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> HttpMessageInvoker::SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* SendAsync(System::Net::Http::HttpRequestMessage* request, System::Threading::CancellationToken cancellationToken);
@@ -226,11 +233,30 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Net::Http::HttpClient::GetAsync
 // Il2CppName: GetAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* (System::Net::Http::HttpClient::*)(::StringW, System::Net::Http::HttpCompletionOption)>(&System::Net::Http::HttpClient::GetAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* (System::Net::Http::HttpClient::*)(System::Uri*, System::Net::Http::HttpCompletionOption)>(&System::Net::Http::HttpClient::GetAsync)> {
   static const MethodInfo* get() {
-    static auto* requestUri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* requestUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* completionOption = &::il2cpp_utils::GetClassFromName("System.Net.Http", "HttpCompletionOption")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpClient*), "GetAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{requestUri, completionOption});
+  }
+};
+// Writing MetadataGetter for method: System::Net::Http::HttpClient::PostAsync
+// Il2CppName: PostAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* (System::Net::Http::HttpClient::*)(System::Uri*, System::Net::Http::HttpContent*)>(&System::Net::Http::HttpClient::PostAsync)> {
+  static const MethodInfo* get() {
+    static auto* requestUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
+    static auto* content = &::il2cpp_utils::GetClassFromName("System.Net.Http", "HttpContent")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpClient*), "PostAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{requestUri, content});
+  }
+};
+// Writing MetadataGetter for method: System::Net::Http::HttpClient::SendAsync
+// Il2CppName: SendAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* (System::Net::Http::HttpClient::*)(System::Net::Http::HttpRequestMessage*)>(&System::Net::Http::HttpClient::SendAsync)> {
+  static const MethodInfo* get() {
+    static auto* request = &::il2cpp_utils::GetClassFromName("System.Net.Http", "HttpRequestMessage")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpClient*), "SendAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{request});
   }
 };
 // Writing MetadataGetter for method: System::Net::Http::HttpClient::SendAsync
@@ -268,9 +294,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Net::Http::HttpClient::GetStringAsync
 // Il2CppName: GetStringAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::StringW>* (System::Net::Http::HttpClient::*)(::StringW)>(&System::Net::Http::HttpClient::GetStringAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::StringW>* (System::Net::Http::HttpClient::*)(System::Uri*)>(&System::Net::Http::HttpClient::GetStringAsync)> {
   static const MethodInfo* get() {
-    static auto* requestUri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* requestUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpClient*), "GetStringAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{requestUri});
   }
 };

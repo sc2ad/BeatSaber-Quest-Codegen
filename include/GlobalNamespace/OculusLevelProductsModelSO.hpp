@@ -21,7 +21,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Completed forward declares
@@ -90,19 +89,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.String> _assetFileToSku
     System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& dyn__assetFileToSku();
     // public OculusLevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
-    // Offset: 0x1368224
+    // Offset: 0x2BB1610
     ::ArrayW<GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData*> get_levelPackProductsData();
     // public OculusLevelProductsModelSO/LevelProductData GetLevelProductData(System.String levelId)
-    // Offset: 0x13641C4
+    // Offset: 0x2BAC8FC
     GlobalNamespace::OculusLevelProductsModelSO::LevelProductData* GetLevelProductData(::StringW levelId);
     // public OculusLevelProductsModelSO/LevelPackProductData GetLevelPackProductData(System.String levelPackId)
-    // Offset: 0x13683C4
+    // Offset: 0x2BB17B0
     GlobalNamespace::OculusLevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::StringW levelPackId);
     // public System.String GetLevelSku(System.String assetFile)
-    // Offset: 0x1368444
+    // Offset: 0x2BB1830
     ::StringW GetLevelSku(::StringW assetFile);
     // public System.Void .ctor()
-    // Offset: 0x13684C4
+    // Offset: 0x2BB18B0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -114,7 +113,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OculusLevelProductsModelSO*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x136822C
+    // Offset: 0x2BB1618
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

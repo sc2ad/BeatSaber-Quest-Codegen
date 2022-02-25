@@ -29,10 +29,8 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -61,7 +59,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [TooltipAttribute] Offset: 0xF3F410
+    // [TooltipAttribute] Offset: 0x1245D24
     // private System.Single _movementRange
     // Size: 0x4
     // Offset: 0x18
@@ -98,28 +96,28 @@ namespace GlobalNamespace {
     float minScoreDifference;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xF3F4AC
+    // [InjectAttribute] Offset: 0x1245DC0
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF3F4BC
+    // [InjectAttribute] Offset: 0x1245DD0
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x38
     GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0xF3F4CC
+    // [InjectAttribute] Offset: 0x1245DE0
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0xF3F4DC
+    // [InjectAttribute] Offset: 0x1245DF0
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x48
@@ -174,19 +172,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _lastFrameBaseScore
     float& dyn__lastFrameBaseScore();
     // protected System.Void Start()
-    // Offset: 0x117BFE8
+    // Offset: 0x2AAE818
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x117C0AC
+    // Offset: 0x2AAE8DC
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x117C188
+    // Offset: 0x2AAE9B8
     void Update();
     // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x117C09C
+    // Offset: 0x2AAE8CC
     void HandleStateChanged(GlobalNamespace::MultiplayerController::State state);
     // public System.Void .ctor()
-    // Offset: 0x117CA2C
+    // Offset: 0x2AAF25C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

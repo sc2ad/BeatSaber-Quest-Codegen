@@ -16,7 +16,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`1<TResult>
-  template<typename TResult>
   class Func_1;
 }
 // Completed forward declares
@@ -59,14 +58,14 @@ namespace UnityEngine {
     // Get instance field reference: private System.Func`1<System.Boolean> m_Predicate
     System::Func_1<bool>*& dyn_m_Predicate();
     // public System.Void .ctor(System.Func`1<System.Boolean> predicate)
-    // Offset: 0x243F9D0
+    // Offset: 0x27055E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WaitUntil* New_ctor(System::Func_1<bool>* predicate) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::WaitUntil::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WaitUntil*, creationType>(predicate)));
     }
     // public override System.Boolean get_keepWaiting()
-    // Offset: 0x243F96C
+    // Offset: 0x270557C
     // Implemented from: UnityEngine.CustomYieldInstruction
     // Base method: System.Boolean CustomYieldInstruction::get_keepWaiting()
     bool get_keepWaiting();

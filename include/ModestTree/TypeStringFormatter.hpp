@@ -14,7 +14,6 @@ namespace ModestTree {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: System
@@ -47,16 +46,16 @@ namespace ModestTree {
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.String> _prettyNameCache
     static void _set__prettyNameCache(System::Collections::Generic::Dictionary_2<System::Type*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x14F1634
+    // Offset: 0x16D36F0
     static void _cctor();
     // static public System.String PrettyName(System.Type type)
-    // Offset: 0x14EEF18
+    // Offset: 0x16D0FD4
     static ::StringW PrettyName(System::Type* type);
     // static private System.String PrettyNameInternal(System.Type type)
-    // Offset: 0x14F0F94
+    // Offset: 0x16D3050
     static ::StringW PrettyNameInternal(System::Type* type);
     // static private System.String GetCSharpTypeName(System.String typeName)
-    // Offset: 0x14F13C8
+    // Offset: 0x16D3484
     static ::StringW GetCSharpTypeName(::StringW typeName);
   }; // ModestTree.TypeStringFormatter
   #pragma pack(pop)

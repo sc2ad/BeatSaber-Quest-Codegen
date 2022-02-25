@@ -22,7 +22,6 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: PacketPool`1<T>
-  template<typename T>
   class PacketPool_1;
 }
 // Forward declaring namespace: LiteNetLib::Utils
@@ -75,22 +74,22 @@ namespace GlobalNamespace {
     // Get instance field reference: public PlayerStateHash playerState
     GlobalNamespace::PlayerStateHash& dyn_playerState();
     // static public PacketPool`1<ConnectedPlayerManager/PlayerStatePacket> get_pool()
-    // Offset: 0x1560824
+    // Offset: 0x2C3D3B8
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket*>* get_pool();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1564748
+    // Offset: 0x2C3E1B4
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1564754
+    // Offset: 0x2C3E1C0
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1564780
+    // Offset: 0x2C3E1EC
     void Release();
     // public ConnectedPlayerManager/PlayerStatePacket Init(PlayerStateHash states)
-    // Offset: 0x156402C
+    // Offset: 0x2C3D400
     GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket* Init(GlobalNamespace::PlayerStateHash states);
     // public System.Void .ctor()
-    // Offset: 0x15647DC
+    // Offset: 0x2C3E248
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

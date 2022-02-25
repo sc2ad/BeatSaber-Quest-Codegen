@@ -28,23 +28,18 @@ namespace LiteNetLib::Utils {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: System
 namespace System {
   // Skipping declaration: ValueType because it is already included!
   // Forward declaring type: Action`2<T1, T2>
-  template<typename T1, typename T2>
   class Action_2;
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Func`1<TResult>
-  template<typename TResult>
   class Func_1;
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: LiteNetLib
@@ -72,33 +67,24 @@ namespace LiteNetLib::Utils {
   class NetPacketProcessor : public ::Il2CppObject {
     public:
     // Nested type: LiteNetLib::Utils::NetPacketProcessor::HashCache_1<T>
-    template<typename T>
     class HashCache_1;
     // Nested type: LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate
     class SubscribeDelegate;
     // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass25_0_1<T>
-    template<typename T>
     class $$c__DisplayClass25_0_1;
     // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass26_0_2<T, TUserData>
-    template<typename T, typename TUserData>
     class $$c__DisplayClass26_0_2;
     // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass27_0_1<T>
-    template<typename T>
     class $$c__DisplayClass27_0_1;
     // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass28_0_2<T, TUserData>
-    template<typename T, typename TUserData>
     class $$c__DisplayClass28_0_2;
     // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass29_0_2<T, TUserData>
-    template<typename T, typename TUserData>
     class $$c__DisplayClass29_0_2;
     // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass30_0_1<T>
-    template<typename T>
     class $$c__DisplayClass30_0_1;
     // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass31_0_2<T, TUserData>
-    template<typename T, typename TUserData>
     class $$c__DisplayClass31_0_2;
     // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass32_0_1<T>
-    template<typename T>
     class $$c__DisplayClass32_0_1;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -135,7 +121,7 @@ namespace LiteNetLib::Utils {
     // Get instance field reference: private readonly LiteNetLib.Utils.NetDataWriter _netDataWriter
     LiteNetLib::Utils::NetDataWriter*& dyn__netDataWriter();
     // public System.Void .ctor(System.Int32 maxStringLength)
-    // Offset: 0x26C1CC4
+    // Offset: 0x2A4ED74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetPacketProcessor* New_ctor(int maxStringLength) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::.ctor");
@@ -151,7 +137,7 @@ namespace LiteNetLib::Utils {
       return ::il2cpp_utils::RunMethodRethrow<uint64_t, false>(this, ___generic__method);
     }
     // protected LiteNetLib.Utils.NetPacketProcessor/LiteNetLib.Utils.SubscribeDelegate GetCallbackFromData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x26C1E08
+    // Offset: 0x2A4EEB8
     LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate* GetCallbackFromData(LiteNetLib::Utils::NetDataReader* reader);
     // protected System.Void WriteHash(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0xFFFFFFFF
@@ -192,13 +178,13 @@ namespace LiteNetLib::Utils {
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___generic__method, constructor);
     }
     // public System.Void ReadAllPackets(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x26C1F48
+    // Offset: 0x2A4EFF8
     void ReadAllPackets(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void ReadAllPackets(LiteNetLib.Utils.NetDataReader reader, System.Object userData)
-    // Offset: 0x26C1FA0
+    // Offset: 0x2A4F050
     void ReadAllPackets(LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData);
     // public System.Void ReadPacket(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x26C1F98
+    // Offset: 0x2A4F048
     void ReadPacket(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Send(LiteNetLib.NetPeer peer, T packet, LiteNetLib.DeliveryMethod options)
     // Offset: 0xFFFFFFFF
@@ -277,7 +263,7 @@ namespace LiteNetLib::Utils {
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<uint8_t>, false>(this, ___generic__method, packet);
     }
     // public System.Void ReadPacket(LiteNetLib.Utils.NetDataReader reader, System.Object userData)
-    // Offset: 0x26C1FFC
+    // Offset: 0x2A4F0AC
     void ReadPacket(LiteNetLib::Utils::NetDataReader* reader, ::Il2CppObject* userData);
     // public System.Void Subscribe(System.Action`1<T> onReceive, System.Func`1<T> packetConstructor)
     // Offset: 0xFFFFFFFF
@@ -365,7 +351,7 @@ namespace LiteNetLib::Utils {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___generic__method);
     }
     // public System.Void .ctor()
-    // Offset: 0x26C1C08
+    // Offset: 0x2A4ECB8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

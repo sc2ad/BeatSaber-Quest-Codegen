@@ -53,6 +53,9 @@ namespace System::Text {
     uint8_t*& dyn_byteStart();
     // Get instance field reference: System.Char* charEnd
     ::Il2CppChar*& dyn_charEnd();
+    // public System.Int32 get_Remaining()
+    // Offset: 0xFFFFFFFF
+    int get_Remaining();
     // public System.Boolean Fallback(System.Byte[] bytesUnknown, System.Int32 index)
     // Offset: 0xFFFFFFFF
     bool Fallback(::ArrayW<uint8_t> bytesUnknown, int index);
@@ -60,25 +63,25 @@ namespace System::Text {
     // Offset: 0xFFFFFFFF
     ::Il2CppChar GetNextChar();
     // public System.Void Reset()
-    // Offset: 0x1DE9830
+    // Offset: 0x200C870
     void Reset();
     // System.Void InternalReset()
-    // Offset: 0x1DE8A68
+    // Offset: 0x200B534
     void InternalReset();
     // System.Void InternalInitialize(System.Byte* byteStart, System.Char* charEnd)
-    // Offset: 0x1DE87A8
+    // Offset: 0x200B274
     void InternalInitialize(uint8_t* byteStart, ::Il2CppChar* charEnd);
     // System.Boolean InternalFallback(System.Byte[] bytes, System.Byte* pBytes, ref System.Char* chars)
-    // Offset: 0x1DE9864
+    // Offset: 0x200C8A4
     bool InternalFallback(::ArrayW<uint8_t> bytes, uint8_t* pBytes, ByRef<::Il2CppChar*> chars);
     // System.Int32 InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
-    // Offset: 0x1DE9A10
+    // Offset: 0x200CA50
     int InternalFallback(::ArrayW<uint8_t> bytes, uint8_t* pBytes);
     // System.Void ThrowLastBytesRecursive(System.Byte[] bytesUnknown)
-    // Offset: 0x1DE9BA4
+    // Offset: 0x200CBE4
     void ThrowLastBytesRecursive(::ArrayW<uint8_t> bytesUnknown);
     // protected System.Void .ctor()
-    // Offset: 0x1DE9618
+    // Offset: 0x200C6A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -92,6 +95,14 @@ namespace System::Text {
   static_assert(sizeof(DecoderFallbackBuffer) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Text::DecoderFallbackBuffer::get_Remaining
+// Il2CppName: get_Remaining
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::DecoderFallbackBuffer::*)()>(&System::Text::DecoderFallbackBuffer::get_Remaining)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderFallbackBuffer*), "get_Remaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Text::DecoderFallbackBuffer::Fallback
 // Il2CppName: Fallback
 template<>

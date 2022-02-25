@@ -17,8 +17,8 @@ namespace System {
 namespace GlobalNamespace {
   // Forward declaring type: MultiplayerUnavailableReason
   struct MultiplayerUnavailableReason;
-  // Forward declaring type: MasterServerAvailabilityData
-  class MasterServerAvailabilityData;
+  // Forward declaring type: MultiplayerStatusData
+  class MultiplayerStatusData;
 }
 // Forward declaring namespace: Polyglot
 namespace Polyglot {
@@ -43,28 +43,28 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class MultiplayerUnavailableReasonMethods : public ::Il2CppObject {
     public:
-    // [LocalizationKeyAttribute] Offset: 0xF380B8
+    // [LocalizationKeyAttribute] Offset: 0x123E96C
     // static field const value: static private System.String kMultiplayerUnavailableServerOffline
     static constexpr const char* kMultiplayerUnavailableServerOffline = "MULTIPLAYER_UNAVAILABLE_SERVER_OFFLINE";
     // Get static field: static private System.String kMultiplayerUnavailableServerOffline
     static ::StringW _get_kMultiplayerUnavailableServerOffline();
     // Set static field: static private System.String kMultiplayerUnavailableServerOffline
     static void _set_kMultiplayerUnavailableServerOffline(::StringW value);
-    // [LocalizationKeyAttribute] Offset: 0xF380C8
+    // [LocalizationKeyAttribute] Offset: 0x123E97C
     // static field const value: static private System.String kMultiplayerUnavailableUpdateRequired
     static constexpr const char* kMultiplayerUnavailableUpdateRequired = "MULTIPLAYER_UNAVAILABLE_UPDATE_REQUIRED";
     // Get static field: static private System.String kMultiplayerUnavailableUpdateRequired
     static ::StringW _get_kMultiplayerUnavailableUpdateRequired();
     // Set static field: static private System.String kMultiplayerUnavailableUpdateRequired
     static void _set_kMultiplayerUnavailableUpdateRequired(::StringW value);
-    // [LocalizationKeyAttribute] Offset: 0xF380D8
+    // [LocalizationKeyAttribute] Offset: 0x123E98C
     // static field const value: static private System.String kMultiplayerUnavailableMaintenanceMode
     static constexpr const char* kMultiplayerUnavailableMaintenanceMode = "MULTIPLAYER_UNAVAILABLE_MAINTENANCE_MODE";
     // Get static field: static private System.String kMultiplayerUnavailableMaintenanceMode
     static ::StringW _get_kMultiplayerUnavailableMaintenanceMode();
     // Set static field: static private System.String kMultiplayerUnavailableMaintenanceMode
     static void _set_kMultiplayerUnavailableMaintenanceMode(::StringW value);
-    // [LocalizationKeyAttribute] Offset: 0xF380E8
+    // [LocalizationKeyAttribute] Offset: 0x123E99C
     // static field const value: static private System.String kMultiplayerUnavailableTryAgain
     static constexpr const char* kMultiplayerUnavailableTryAgain = "MULTIPLAYER_UNAVAILABLE_TRY_AGAIN";
     // Get static field: static private System.String kMultiplayerUnavailableTryAgain
@@ -72,19 +72,19 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kMultiplayerUnavailableTryAgain
     static void _set_kMultiplayerUnavailableTryAgain(::StringW value);
     // static public System.String LocalizedKey(MultiplayerUnavailableReason multiplayerUnavailableReason)
-    // Offset: 0x116C418
+    // Offset: 0x2A9E19C
     static ::StringW LocalizedKey(GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason);
     // static public System.String ErrorCode(MultiplayerUnavailableReason multiplayerUnavailableReason)
-    // Offset: 0x116C480
+    // Offset: 0x2A9E204
     static ::StringW ErrorCode(GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason);
-    // static public System.Boolean TryGetMultiplayerUnavailableReason(MasterServerAvailabilityData data, out MultiplayerUnavailableReason reason)
-    // Offset: 0x116D47C
-    static bool TryGetMultiplayerUnavailableReason(GlobalNamespace::MasterServerAvailabilityData* data, ByRef<GlobalNamespace::MultiplayerUnavailableReason> reason);
-    // static public System.String GetLocalizedMessage(MasterServerAvailabilityData data, Polyglot.Language language)
-    // Offset: 0x116D59C
-    static ::StringW GetLocalizedMessage(GlobalNamespace::MasterServerAvailabilityData* data, Polyglot::Language language);
+    // static public System.Boolean TryGetMultiplayerUnavailableReason(MultiplayerStatusData data, out MultiplayerUnavailableReason reason)
+    // Offset: 0x2A9F290
+    static bool TryGetMultiplayerUnavailableReason(GlobalNamespace::MultiplayerStatusData* data, ByRef<GlobalNamespace::MultiplayerUnavailableReason> reason);
+    // static public System.String GetLocalizedMessage(MultiplayerStatusData data, Polyglot.Language language)
+    // Offset: 0x2A9F3B0
+    static ::StringW GetLocalizedMessage(GlobalNamespace::MultiplayerStatusData* data, Polyglot::Language language);
     // static private System.Boolean VersionLessThan(System.String currentVersion, System.String minVersion)
-    // Offset: 0x117BD44
+    // Offset: 0x2AAE574
     static bool VersionLessThan(::StringW currentVersion, ::StringW minVersion);
   }; // MultiplayerUnavailableReasonMethods
   #pragma pack(pop)
@@ -111,9 +111,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerUnavailableReasonMethods::TryGetMultiplayerUnavailableReason
 // Il2CppName: TryGetMultiplayerUnavailableReason
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::MasterServerAvailabilityData*, ByRef<GlobalNamespace::MultiplayerUnavailableReason>)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::TryGetMultiplayerUnavailableReason)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::MultiplayerStatusData*, ByRef<GlobalNamespace::MultiplayerUnavailableReason>)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::TryGetMultiplayerUnavailableReason)> {
   static const MethodInfo* get() {
-    static auto* data = &::il2cpp_utils::GetClassFromName("", "MasterServerAvailabilityData")->byval_arg;
+    static auto* data = &::il2cpp_utils::GetClassFromName("", "MultiplayerStatusData")->byval_arg;
     static auto* reason = &::il2cpp_utils::GetClassFromName("", "MultiplayerUnavailableReason")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerUnavailableReasonMethods*), "TryGetMultiplayerUnavailableReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, reason});
   }
@@ -121,9 +121,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerUnavailableReasonMethods::GetLocalizedMessage
 // Il2CppName: GetLocalizedMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(GlobalNamespace::MasterServerAvailabilityData*, Polyglot::Language)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::GetLocalizedMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(GlobalNamespace::MultiplayerStatusData*, Polyglot::Language)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::GetLocalizedMessage)> {
   static const MethodInfo* get() {
-    static auto* data = &::il2cpp_utils::GetClassFromName("", "MasterServerAvailabilityData")->byval_arg;
+    static auto* data = &::il2cpp_utils::GetClassFromName("", "MultiplayerStatusData")->byval_arg;
     static auto* language = &::il2cpp_utils::GetClassFromName("Polyglot", "Language")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerUnavailableReasonMethods*), "GetLocalizedMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, language});
   }

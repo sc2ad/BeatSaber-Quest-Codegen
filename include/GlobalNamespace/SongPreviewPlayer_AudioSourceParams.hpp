@@ -40,21 +40,21 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 position;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [RangeAttribute] Offset: 0xF4AF08
+    // [RangeAttribute] Offset: 0x125191C
     // private System.Single _reverbZoneMix
     // Size: 0x4
     // Offset: 0x1C
     float reverbZoneMix;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xF4AF4C
+    // [RangeAttribute] Offset: 0x1251960
     // private System.Single _spatialBlend
     // Size: 0x4
     // Offset: 0x20
     float spatialBlend;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xF4AF8C
+    // [RangeAttribute] Offset: 0x12519A0
     // private System.Single _spread
     // Size: 0x4
     // Offset: 0x24
@@ -71,19 +71,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _spread
     float& dyn__spread();
     // public UnityEngine.Vector3 get_position()
-    // Offset: 0x1218C58
+    // Offset: 0x13D3AC8
     UnityEngine::Vector3 get_position();
     // public System.Single get_reverbZoneMix()
-    // Offset: 0x1218C64
+    // Offset: 0x13D3AD4
     float get_reverbZoneMix();
     // public System.Single get_spatialBlend()
-    // Offset: 0x1218C6C
+    // Offset: 0x13D3ADC
     float get_spatialBlend();
     // public System.Single get_spread()
-    // Offset: 0x1218C74
+    // Offset: 0x13D3AE4
     float get_spread();
     // public System.Void .ctor()
-    // Offset: 0x1218C7C
+    // Offset: 0x13D3AEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -11,24 +11,19 @@
 namespace GlobalNamespace {
   // Forward declaring type: IConnectedPlayer
   class IConnectedPlayer;
-  // Forward declaring type: GameplayServerMode
-  struct GameplayServerMode;
-  // Forward declaring type: DiscoveryPolicy
-  struct DiscoveryPolicy;
+  // Forward declaring type: GameplayServerConfiguration
+  struct GameplayServerConfiguration;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
   // Forward declaring type: IReadOnlyList`1<T>
-  template<typename T>
   class IReadOnlyList_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Completed forward declares
@@ -60,15 +55,9 @@ namespace GlobalNamespace {
     // public System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> get_rawConnectedPlayers()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* get_rawConnectedPlayers();
-    // public GameplayServerMode get_gameServerMode()
+    // public GameplayServerConfiguration get_configuration()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::GameplayServerMode get_gameServerMode();
-    // public DiscoveryPolicy get_discoveryPolicy()
-    // Offset: 0xFFFFFFFF
-    GlobalNamespace::DiscoveryPolicy get_discoveryPolicy();
-    // public System.Int32 get_maxPartySize()
-    // Offset: 0xFFFFFFFF
-    int get_maxPartySize();
+    GlobalNamespace::GameplayServerConfiguration get_configuration();
     // public System.Void add_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
     // Offset: 0xFFFFFFFF
     void add_playerConnectedEvent(System::Action_1<GlobalNamespace::IConnectedPlayer*>* value);
@@ -126,28 +115,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyStateDataModel*), "get_rawConnectedPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::ILobbyStateDataModel::get_gameServerMode
-// Il2CppName: get_gameServerMode
+// Writing MetadataGetter for method: GlobalNamespace::ILobbyStateDataModel::get_configuration
+// Il2CppName: get_configuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerMode (GlobalNamespace::ILobbyStateDataModel::*)()>(&GlobalNamespace::ILobbyStateDataModel::get_gameServerMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerConfiguration (GlobalNamespace::ILobbyStateDataModel::*)()>(&GlobalNamespace::ILobbyStateDataModel::get_configuration)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyStateDataModel*), "get_gameServerMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ILobbyStateDataModel::get_discoveryPolicy
-// Il2CppName: get_discoveryPolicy
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DiscoveryPolicy (GlobalNamespace::ILobbyStateDataModel::*)()>(&GlobalNamespace::ILobbyStateDataModel::get_discoveryPolicy)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyStateDataModel*), "get_discoveryPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::ILobbyStateDataModel::get_maxPartySize
-// Il2CppName: get_maxPartySize
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::ILobbyStateDataModel::*)()>(&GlobalNamespace::ILobbyStateDataModel::get_maxPartySize)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyStateDataModel*), "get_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ILobbyStateDataModel*), "get_configuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ILobbyStateDataModel::add_playerConnectedEvent

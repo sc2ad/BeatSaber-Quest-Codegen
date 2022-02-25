@@ -99,31 +99,31 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Boolean _uniqueStrOnly
     bool& dyn__uniqueStrOnly();
     // static public HoudiniEngineUnity.HEU_CookLogs get_Instance()
-    // Offset: 0x146FE5C
+    // Offset: 0x16405E4
     static HoudiniEngineUnity::HEU_CookLogs* get_Instance();
     // public System.String GetCookLogString()
-    // Offset: 0x146FF58
+    // Offset: 0x16406E0
     ::StringW GetCookLogString();
     // public System.Void AppendCookLog(System.String logStr)
-    // Offset: 0x146FF78
+    // Offset: 0x1640700
     void AppendCookLog(::StringW logStr);
     // public System.Void ClearCookLog()
-    // Offset: 0x147023C
+    // Offset: 0x16409C4
     void ClearCookLog();
     // public System.String GetCookLogFilePath()
-    // Offset: 0x14702A0
+    // Offset: 0x1640A28
     ::StringW GetCookLogFilePath();
     // public System.Void DeleteCookingFile()
-    // Offset: 0x147036C
+    // Offset: 0x1640AF4
     void DeleteCookingFile();
     // public System.Void WriteToLogFile(System.String logStr, System.Boolean checkLastLogStr)
-    // Offset: 0x147007C
+    // Offset: 0x1640804
     void WriteToLogFile(::StringW logStr, bool checkLastLogStr);
     // public System.Int64 GetFileSizeOfLogFile()
-    // Offset: 0x14703FC
+    // Offset: 0x1640B84
     int64_t GetFileSizeOfLogFile();
     // public System.Void .ctor()
-    // Offset: 0x146FED8
+    // Offset: 0x1640660
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

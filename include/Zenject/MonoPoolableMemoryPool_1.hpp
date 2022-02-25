@@ -32,7 +32,6 @@ namespace Zenject {
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: MonoPoolableMemoryPool`1<TValue>
-  template<typename TValue>
   class MonoPoolableMemoryPool_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -14,19 +14,15 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IList`1<T>
-  template<typename T>
   class IList_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Tuple`2<T1, T2>
-  template<typename T1, typename T2>
   class Tuple_2;
   // Forward declaring type: Tuple`3<T1, T2, T3>
-  template<typename T1, typename T2, typename T3>
   class Tuple_3;
   // Forward declaring type: Tuple`4<T1, T2, T3, T4>
-  template<typename T1, typename T2, typename T3, typename T4>
   class Tuple_4;
 }
 // Completed forward declares

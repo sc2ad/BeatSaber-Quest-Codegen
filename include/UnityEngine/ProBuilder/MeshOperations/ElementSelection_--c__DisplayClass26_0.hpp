@@ -16,13 +16,11 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: HashSet`1<T>
-  template<typename T>
   class HashSet_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -78,13 +76,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public System.Func`2<UnityEngine.ProBuilder.WingedEdge,System.Boolean> <>9__2
     System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>*& dyn_$$9__2();
     // System.Boolean <FindHoles>b__1(UnityEngine.ProBuilder.WingedEdge w)
-    // Offset: 0x17A1F08
+    // Offset: 0x19C76A4
     bool $FindHoles$b__1(UnityEngine::ProBuilder::WingedEdge* w);
     // System.Boolean <FindHoles>b__2(UnityEngine.ProBuilder.WingedEdge w)
-    // Offset: 0x17A1F74
+    // Offset: 0x19C7710
     bool $FindHoles$b__2(UnityEngine::ProBuilder::WingedEdge* w);
     // public System.Void .ctor()
-    // Offset: 0x17A1AF8
+    // Offset: 0x19C7294
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

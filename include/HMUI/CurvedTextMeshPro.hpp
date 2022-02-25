@@ -62,7 +62,7 @@ namespace HMUI {
     bool useScriptableObjectColors;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [NullAllowed] Offset: 0xF24AB8
+    // [NullAllowed] Offset: 0x122B5F8
     // private ColorSO _colorSo
     // Size: 0x8
     // Offset: 0xBE0
@@ -87,26 +87,26 @@ namespace HMUI {
     // Get instance field reference: private readonly HMUI.CurvedCanvasSettingsHelper _curvedCanvasSettingsHelper
     HMUI::CurvedCanvasSettingsHelper*& dyn__curvedCanvasSettingsHelper();
     // public System.Boolean get_useScriptableObjectColors()
-    // Offset: 0x149B94C
+    // Offset: 0x166C0D4
     bool get_useScriptableObjectColors();
     // public System.Void set_useScriptableObjectColors(System.Boolean value)
-    // Offset: 0x149B954
+    // Offset: 0x166C0DC
     void set_useScriptableObjectColors(bool value);
     // public System.Void __Refresh()
-    // Offset: 0x149BE28
+    // Offset: 0x166C5B0
     void __Refresh();
     // public override UnityEngine.Color get_color()
-    // Offset: 0x149B960
+    // Offset: 0x166C0E8
     // Implemented from: TMPro.TMP_Text
     // Base method: UnityEngine.Color TMP_Text::get_color()
     UnityEngine::Color get_color();
     // public override System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x149BA00
+    // Offset: 0x166C188
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::set_color(UnityEngine.Color value)
     void set_color(UnityEngine::Color value);
     // public System.Void .ctor()
-    // Offset: 0x149BE38
+    // Offset: 0x166C5C0
     // Implemented from: TMPro.TextMeshProUGUI
     // Base method: System.Void TextMeshProUGUI::.ctor()
     // Base method: System.Void TMP_Text::.ctor()
@@ -124,12 +124,12 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<CurvedTextMeshPro*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x149BA08
+    // Offset: 0x166C190
     // Implemented from: TMPro.TextMeshProUGUI
     // Base method: System.Void TextMeshProUGUI::OnEnable()
     void OnEnable();
     // protected override System.Void GenerateTextMesh()
-    // Offset: 0x149BA48
+    // Offset: 0x166C1D0
     // Implemented from: TMPro.TextMeshProUGUI
     // Base method: System.Void TextMeshProUGUI::GenerateTextMesh()
     void GenerateTextMesh();

@@ -26,7 +26,7 @@ namespace UnityEngine::UI {
   class Button::ButtonClickedEvent : public UnityEngine::Events::UnityEvent {
     public:
     // public System.Void .ctor()
-    // Offset: 0x166CB58
+    // Offset: 0x1871EAC
     // Implemented from: UnityEngine.Events.UnityEvent
     // Base method: System.Void UnityEvent::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

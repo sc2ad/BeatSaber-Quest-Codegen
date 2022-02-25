@@ -18,7 +18,6 @@ namespace HoudiniEngineUnity {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -42,13 +41,13 @@ namespace HoudiniEngineUnity {
     // Nested type: HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c
     class $$c;
     // static public HoudiniEngineUnity.Test_TreeInstance ToTestObject(UnityEngine.TreeInstance self)
-    // Offset: 0x267D5A8
+    // Offset: 0x2A11248
     static HoudiniEngineUnity::Test_TreeInstance* ToTestObject(UnityEngine::TreeInstance self);
     // static public HoudiniEngineUnity.Test_TreeInstance[] ToTestObject(UnityEngine.TreeInstance[] self)
-    // Offset: 0x267BA9C
+    // Offset: 0x2A0F73C
     static ::ArrayW<HoudiniEngineUnity::Test_TreeInstance*> ToTestObject(::ArrayW<UnityEngine::TreeInstance> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_TreeInstance> ToTestObject(System.Collections.Generic.List`1<UnityEngine.TreeInstance> self)
-    // Offset: 0x267D630
+    // Offset: 0x2A112D0
     static System::Collections::Generic::List_1<HoudiniEngineUnity::Test_TreeInstance*>* ToTestObject(System::Collections::Generic::List_1<UnityEngine::TreeInstance>* self);
   }; // HoudiniEngineUnity.Test_TreeInstance_Extensions
   #pragma pack(pop)

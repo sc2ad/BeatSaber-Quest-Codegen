@@ -21,7 +21,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -45,13 +44,13 @@ namespace HoudiniEngineUnity {
     // Nested type: HoudiniEngineUnity::Test_MeshFilter_Extensions::$$c
     class $$c;
     // static public HoudiniEngineUnity.Test_MeshFilter ToTestObject(UnityEngine.MeshFilter self)
-    // Offset: 0x267A628
+    // Offset: 0x2A0E2C8
     static HoudiniEngineUnity::Test_MeshFilter* ToTestObject(UnityEngine::MeshFilter* self);
     // static public HoudiniEngineUnity.Test_MeshFilter[] ToTestObject(UnityEngine.MeshFilter[] self)
-    // Offset: 0x267A68C
+    // Offset: 0x2A0E32C
     static ::ArrayW<HoudiniEngineUnity::Test_MeshFilter*> ToTestObject(::ArrayW<UnityEngine::MeshFilter*> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_MeshFilter> ToTestObject(System.Collections.Generic.List`1<UnityEngine.MeshFilter> self)
-    // Offset: 0x267A778
+    // Offset: 0x2A0E418
     static System::Collections::Generic::List_1<HoudiniEngineUnity::Test_MeshFilter*>* ToTestObject(System::Collections::Generic::List_1<UnityEngine::MeshFilter*>* self);
   }; // HoudiniEngineUnity.Test_MeshFilter_Extensions
   #pragma pack(pop)

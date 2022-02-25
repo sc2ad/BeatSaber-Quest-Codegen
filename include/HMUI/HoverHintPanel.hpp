@@ -106,25 +106,25 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean <isShown>k__BackingField
     bool& dyn_$isShown$k__BackingField();
     // public System.Boolean get_isShown()
-    // Offset: 0x14A540C
+    // Offset: 0x1675B94
     bool get_isShown();
     // private System.Void set_isShown(System.Boolean value)
-    // Offset: 0x14A5414
+    // Offset: 0x1675B9C
     void set_isShown(bool value);
     // protected System.Void Awake()
-    // Offset: 0x14A5420
+    // Offset: 0x1675BA8
     void Awake();
     // public System.Void Show(System.String text, UnityEngine.Transform parent, UnityEngine.Vector2 containerSize, UnityEngine.Rect spawnRect)
-    // Offset: 0x14A4EC0
+    // Offset: 0x1675648
     void Show(::StringW text, UnityEngine::Transform* parent, UnityEngine::Vector2 containerSize, UnityEngine::Rect spawnRect);
     // public System.Void Hide()
-    // Offset: 0x14A49F8
+    // Offset: 0x1675180
     void Hide();
     // private UnityEngine.Vector2 CalculatePanelPosition(UnityEngine.Vector2 containerSize, UnityEngine.Rect spawnRect, UnityEngine.Vector2 panelSize)
-    // Offset: 0x14A5528
+    // Offset: 0x1675CB0
     UnityEngine::Vector2 CalculatePanelPosition(UnityEngine::Vector2 containerSize, UnityEngine::Rect spawnRect, UnityEngine::Vector2 panelSize);
     // public System.Void .ctor()
-    // Offset: 0x14A5654
+    // Offset: 0x1675DDC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

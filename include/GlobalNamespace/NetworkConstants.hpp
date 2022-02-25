@@ -33,11 +33,35 @@ namespace GlobalNamespace {
   class NetworkConstants : public ::Il2CppObject {
     public:
     // static field const value: static public System.UInt32 kProtocolVersion
-    static constexpr const uint kProtocolVersion = 6u;
+    static constexpr const uint kProtocolVersion = 7u;
     // Get static field: static public System.UInt32 kProtocolVersion
     static uint _get_kProtocolVersion();
     // Set static field: static public System.UInt32 kProtocolVersion
     static void _set_kProtocolVersion(uint value);
+    // static field const value: static public System.UInt32 kHandshakeMessageType
+    static constexpr const uint kHandshakeMessageType = 3192347326u;
+    // Get static field: static public System.UInt32 kHandshakeMessageType
+    static uint _get_kHandshakeMessageType();
+    // Set static field: static public System.UInt32 kHandshakeMessageType
+    static void _set_kHandshakeMessageType(uint value);
+    // static field const value: static public System.UInt32 kUserMasterServerMessageType
+    static constexpr const uint kUserMasterServerMessageType = 1u;
+    // Get static field: static public System.UInt32 kUserMasterServerMessageType
+    static uint _get_kUserMasterServerMessageType();
+    // Set static field: static public System.UInt32 kUserMasterServerMessageType
+    static void _set_kUserMasterServerMessageType(uint value);
+    // static field const value: static public System.UInt32 kDedicatedServerMasterServerMessageType
+    static constexpr const uint kDedicatedServerMasterServerMessageType = 2u;
+    // Get static field: static public System.UInt32 kDedicatedServerMasterServerMessageType
+    static uint _get_kDedicatedServerMasterServerMessageType();
+    // Set static field: static public System.UInt32 kDedicatedServerMasterServerMessageType
+    static void _set_kDedicatedServerMasterServerMessageType(uint value);
+    // static field const value: static public System.UInt32 kGameLiftMessageType
+    static constexpr const uint kGameLiftMessageType = 3u;
+    // Get static field: static public System.UInt32 kGameLiftMessageType
+    static uint _get_kGameLiftMessageType();
+    // Set static field: static public System.UInt32 kGameLiftMessageType
+    static void _set_kGameLiftMessageType(uint value);
     // static field const value: static public System.String dedicatedServerState
     static constexpr const char* dedicatedServerState = "dedicated_server";
     // Get static field: static public System.String dedicatedServerState

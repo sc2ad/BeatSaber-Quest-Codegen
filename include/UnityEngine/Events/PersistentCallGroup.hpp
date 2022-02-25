@@ -14,7 +14,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: UnityEngine::Events
@@ -52,7 +51,7 @@ namespace UnityEngine::Events {
     protected:
     #endif
     #endif
-    // [FormerlySerializedAsAttribute] Offset: 0xEB906C
+    // [FormerlySerializedAsAttribute] Offset: 0x11AA0B0
     // private System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall> m_Calls
     // Size: 0x8
     // Offset: 0x10
@@ -67,13 +66,13 @@ namespace UnityEngine::Events {
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall> m_Calls
     System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>*& dyn_m_Calls();
     // public System.Int32 get_Count()
-    // Offset: 0x1D0C768
+    // Offset: 0x1EB9B28
     int get_Count();
     // public System.Void Initialize(UnityEngine.Events.InvokableCallList invokableList, UnityEngine.Events.UnityEventBase unityEventBase)
-    // Offset: 0x1D0C7B8
+    // Offset: 0x1EB9B78
     void Initialize(UnityEngine::Events::InvokableCallList* invokableList, UnityEngine::Events::UnityEventBase* unityEventBase);
     // public System.Void .ctor()
-    // Offset: 0x1D0C6F4
+    // Offset: 0x1EB9AB4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

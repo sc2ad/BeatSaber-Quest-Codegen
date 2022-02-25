@@ -35,10 +35,10 @@ namespace Oculus::Platform {
   class MessageWithUserProof : public Oculus::Platform::Message_1<Oculus::Platform::Models::UserProof*> {
     public:
     // protected Oculus.Platform.Models.UserProof GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x1760498
+    // Offset: 0x196CBB8
     Oculus::Platform::Models::UserProof* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1755EFC
+    // Offset: 0x196261C
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -48,7 +48,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithUserProof*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.UserProof GetUserProof()
-    // Offset: 0x1760454
+    // Offset: 0x196CB74
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.UserProof Message::GetUserProof()
     Oculus::Platform::Models::UserProof* GetUserProof();

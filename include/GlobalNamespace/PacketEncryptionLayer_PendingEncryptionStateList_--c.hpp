@@ -20,7 +20,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -45,13 +44,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Int32,EncryptionUtility/IEncryptionState>,EncryptionUtility/IEncryptionState> <>9__4_1
     static void _set_$$9__4_1(System::Func_2<System::Collections::Generic::KeyValuePair_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*>, GlobalNamespace::EncryptionUtility::IEncryptionState*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x180CD64
+    // Offset: 0x2DFDB88
     static void _cctor();
     // EncryptionUtility/IEncryptionState <GetSortedEncryptionStates>b__4_1(System.Collections.Generic.KeyValuePair`2<System.Int32,EncryptionUtility/IEncryptionState> kvp)
-    // Offset: 0x180CDD0
+    // Offset: 0x2DFDBF4
     GlobalNamespace::EncryptionUtility::IEncryptionState* $GetSortedEncryptionStates$b__4_1(System::Collections::Generic::KeyValuePair_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*> kvp);
     // public System.Void .ctor()
-    // Offset: 0x180CDC8
+    // Offset: 0x2DFDBEC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

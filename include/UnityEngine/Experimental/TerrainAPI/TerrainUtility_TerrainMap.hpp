@@ -31,7 +31,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Completed forward declares
@@ -86,7 +85,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
       // Get instance field reference: public readonly System.Int32 tileZ
       int& dyn_tileZ();
       // public System.Void .ctor(System.Int32 tileX, System.Int32 tileZ)
-      // Offset: 0x2696D28
+      // Offset: 0x2A28FCC
       // ABORTED: conflicts with another method.  TileCoord(int tileX, int tileZ);
     }; // UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap/UnityEngine.Experimental.TerrainAPI.TileCoord
     #pragma pack(pop)
@@ -181,28 +180,28 @@ namespace UnityEngine::Experimental::TerrainAPI {
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap/UnityEngine.Experimental.TerrainAPI.TileCoord,UnityEngine.Terrain> m_terrainTiles
     System::Collections::Generic::Dictionary_2<UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::TileCoord, UnityEngine::Terrain*>*& dyn_m_terrainTiles();
     // public UnityEngine.Terrain GetTerrain(System.Int32 tileX, System.Int32 tileZ)
-    // Offset: 0x2696BB4
+    // Offset: 0x2A28E58
     UnityEngine::Terrain* GetTerrain(int tileX, int tileZ);
     // static public UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap CreateFromPlacement(UnityEngine.Terrain originTerrain, UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap/UnityEngine.Experimental.TerrainAPI.TerrainFilter filter, System.Boolean fullValidation)
-    // Offset: 0x26965DC
+    // Offset: 0x2A28880
     static UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap* CreateFromPlacement(UnityEngine::Terrain* originTerrain, UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::TerrainFilter* filter, bool fullValidation);
     // static public UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap CreateFromPlacement(UnityEngine.Vector2 gridOrigin, UnityEngine.Vector2 gridSize, UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap/UnityEngine.Experimental.TerrainAPI.TerrainFilter filter, System.Boolean fullValidation)
-    // Offset: 0x2696DD8
+    // Offset: 0x2A2907C
     static UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap* CreateFromPlacement(UnityEngine::Vector2 gridOrigin, UnityEngine::Vector2 gridSize, UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::TerrainFilter* filter, bool fullValidation);
     // private System.Void AddTerrainInternal(System.Int32 x, System.Int32 z, UnityEngine.Terrain terrain)
-    // Offset: 0x26976E0
+    // Offset: 0x2A29984
     void AddTerrainInternal(int x, int z, UnityEngine::Terrain* terrain);
     // private System.Boolean TryToAddTerrain(System.Int32 tileX, System.Int32 tileZ, UnityEngine.Terrain terrain)
-    // Offset: 0x26974A8
+    // Offset: 0x2A2974C
     bool TryToAddTerrain(int tileX, int tileZ, UnityEngine::Terrain* terrain);
     // private System.Void ValidateTerrain(System.Int32 tileX, System.Int32 tileZ)
-    // Offset: 0x269783C
+    // Offset: 0x2A29AE0
     void ValidateTerrain(int tileX, int tileZ);
     // private UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap/UnityEngine.Experimental.TerrainAPI.ErrorCode Validate()
-    // Offset: 0x26975DC
+    // Offset: 0x2A29880
     UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::ErrorCode Validate();
     // public System.Void .ctor()
-    // Offset: 0x2697090
+    // Offset: 0x2A29334
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

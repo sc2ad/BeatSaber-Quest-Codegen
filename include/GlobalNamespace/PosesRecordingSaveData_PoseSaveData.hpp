@@ -32,71 +32,69 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // public System.Single posX
+    // public readonly System.Single posX
     // Size: 0x4
     // Offset: 0x10
     float posX;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // public System.Single posY
+    // public readonly System.Single posY
     // Size: 0x4
     // Offset: 0x14
     float posY;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // public System.Single posZ
+    // public readonly System.Single posZ
     // Size: 0x4
     // Offset: 0x18
     float posZ;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // public System.Single rotX
+    // public readonly System.Single rotX
     // Size: 0x4
     // Offset: 0x1C
     float rotX;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // public System.Single rotY
+    // public readonly System.Single rotY
     // Size: 0x4
     // Offset: 0x20
     float rotY;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // public System.Single rotZ
+    // public readonly System.Single rotZ
     // Size: 0x4
     // Offset: 0x24
     float rotZ;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // public System.Single rotW
+    // public readonly System.Single rotW
     // Size: 0x4
     // Offset: 0x28
     float rotW;
     // Field size check
     static_assert(sizeof(float) == 0x4);
     public:
-    // Get instance field reference: public System.Single posX
+    // Get instance field reference: public readonly System.Single posX
     float& dyn_posX();
-    // Get instance field reference: public System.Single posY
+    // Get instance field reference: public readonly System.Single posY
     float& dyn_posY();
-    // Get instance field reference: public System.Single posZ
+    // Get instance field reference: public readonly System.Single posZ
     float& dyn_posZ();
-    // Get instance field reference: public System.Single rotX
+    // Get instance field reference: public readonly System.Single rotX
     float& dyn_rotX();
-    // Get instance field reference: public System.Single rotY
+    // Get instance field reference: public readonly System.Single rotY
     float& dyn_rotY();
-    // Get instance field reference: public System.Single rotZ
+    // Get instance field reference: public readonly System.Single rotZ
     float& dyn_rotZ();
-    // Get instance field reference: public System.Single rotW
+    // Get instance field reference: public readonly System.Single rotW
     float& dyn_rotW();
-    // public System.Void .ctor()
-    // Offset: 0x11AE4D4
-    // Implemented from: System.Object
-    // Base method: System.Void Object::.ctor()
+    // public System.Void .ctor(System.Single posX, System.Single posY, System.Single posZ, System.Single rotX, System.Single rotY, System.Single rotZ, System.Single rotW)
+    // Offset: 0x13E7268
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PosesRecordingSaveData::PoseSaveData* New_ctor() {
+    static PosesRecordingSaveData::PoseSaveData* New_ctor(float posX, float posY, float posZ, float rotX, float rotY, float rotZ, float rotW) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PosesRecordingSaveData::PoseSaveData::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<PosesRecordingSaveData::PoseSaveData*, creationType>()));
+      return THROW_UNLESS((::il2cpp_utils::New<PosesRecordingSaveData::PoseSaveData*, creationType>(posX, posY, posZ, rotX, rotY, rotZ, rotW)));
     }
   }; // PosesRecordingSaveData/PoseSaveData
   #pragma pack(pop)

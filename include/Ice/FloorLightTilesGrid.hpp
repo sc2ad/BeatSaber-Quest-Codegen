@@ -19,7 +19,6 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: MemoryPoolContainer`1<T>
-  template<typename T>
   class MemoryPoolContainer_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -53,7 +52,7 @@ namespace Ice {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0xF65B94
+    // [InjectAttribute] Offset: 0x126C6C4
     // private readonly Ice.FloorLightTile/Ice.Pool _floorLightTileMemoryPool
     // Size: 0x8
     // Offset: 0x18
@@ -114,25 +113,25 @@ namespace Ice {
     // Get instance field reference: private System.Int32 _ySize
     int& dyn__ySize();
     // public System.Int32 get_ySize()
-    // Offset: 0x26A8A54
+    // Offset: 0x2A34B04
     int get_ySize();
     // public System.Void Init(UnityEngine.Vector3 anchorPoint, System.Int32 xSize, System.Int32 ySize, System.Single tileWidth, System.Single tileHeight)
-    // Offset: 0x26A7A78
+    // Offset: 0x2A33B28
     void Init(UnityEngine::Vector3 anchorPoint, int xSize, int ySize, float tileWidth, float tileHeight);
     // public System.Void HighlightTile(System.Int32 x, System.Int32 y, System.Single fadeInDuration, System.Single fadeOutDuration, UnityEngine.Color color)
-    // Offset: 0x26A7FD0
+    // Offset: 0x2A34080
     void HighlightTile(int x, int y, float fadeInDuration, float fadeOutDuration, UnityEngine::Color color);
     // public System.Void DespawnAllTiles()
-    // Offset: 0x26A8A5C
+    // Offset: 0x2A34B0C
     void DespawnAllTiles();
     // private System.Void HandleFloorLightTileDidFinish(Ice.FloorLightTile floorLightTile)
-    // Offset: 0x26A8B8C
+    // Offset: 0x2A34C3C
     void HandleFloorLightTileDidFinish(Ice::FloorLightTile* floorLightTile);
     // private System.Void DespawnTile(Ice.FloorLightTile floorLightTile)
-    // Offset: 0x26A8B1C
+    // Offset: 0x2A34BCC
     void DespawnTile(Ice::FloorLightTile* floorLightTile);
     // public System.Void .ctor()
-    // Offset: 0x26A8B90
+    // Offset: 0x2A34C40
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

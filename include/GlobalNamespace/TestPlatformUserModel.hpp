@@ -24,13 +24,11 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
-  template<typename TResult>
   class Task_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IReadOnlyList`1<T>
-  template<typename T>
   class IReadOnlyList_1;
 }
 // Completed forward declares
@@ -63,19 +61,19 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IPlatformUserModel*>(this);
     }
     // public System.Threading.Tasks.Task`1<UserInfo> GetUserInfo()
-    // Offset: 0x1202740
+    // Offset: 0x2AE5F08
     System::Threading::Tasks::Task_1<GlobalNamespace::UserInfo*>* GetUserInfo();
     // public System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> GetUserFriendsUserIds(System.Boolean cached)
-    // Offset: 0x1202840
+    // Offset: 0x2AE6008
     System::Threading::Tasks::Task_1<System::Collections::Generic::IReadOnlyList_1<::StringW>*>* GetUserFriendsUserIds(bool cached);
     // public System.Threading.Tasks.Task`1<PlatformUserAuthTokenData> GetUserAuthToken()
-    // Offset: 0x1202940
+    // Offset: 0x2AE6108
     System::Threading::Tasks::Task_1<GlobalNamespace::PlatformUserAuthTokenData*>* GetUserAuthToken();
     // public System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<System.String>> GetUserNamesForUserIds(System.Collections.Generic.IReadOnlyList`1<System.String> userIds)
-    // Offset: 0x1202A40
+    // Offset: 0x2AE6208
     System::Threading::Tasks::Task_1<System::Collections::Generic::IReadOnlyList_1<::StringW>*>* GetUserNamesForUserIds(System::Collections::Generic::IReadOnlyList_1<::StringW>* userIds);
     // public System.Void .ctor()
-    // Offset: 0x1202B40
+    // Offset: 0x2AE6308
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

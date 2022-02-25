@@ -16,7 +16,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: GlobalNamespace
@@ -50,16 +49,16 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<MissionNodeConnection,System.Single> <>9__15_1
     static void _set_$$9__15_1(System::Func_2<GlobalNamespace::MissionNodeConnection*, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x11631F0
+    // Offset: 0x2A6FC7C
     static void _cctor();
     // System.Single <UpdateNodesAndConnectionCoroutine>b__15_0(MissionNodeConnection connection)
-    // Offset: 0x116325C
+    // Offset: 0x2A6FCE8
     float $UpdateNodesAndConnectionCoroutine$b__15_0(GlobalNamespace::MissionNodeConnection* connection);
     // System.Single <UpdateNodesAndConnectionCoroutine>b__15_1(MissionNodeConnection connection)
-    // Offset: 0x1163324
+    // Offset: 0x2A6FDB0
     float $UpdateNodesAndConnectionCoroutine$b__15_1(GlobalNamespace::MissionNodeConnection* connection);
     // public System.Void .ctor()
-    // Offset: 0x1163254
+    // Offset: 0x2A6FCE0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

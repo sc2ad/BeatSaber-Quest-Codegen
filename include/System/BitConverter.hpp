@@ -29,67 +29,82 @@ namespace System {
     // Set static field: static public readonly System.Boolean IsLittleEndian
     static void _set_IsLittleEndian(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x1994EC8
+    // Offset: 0x1DAB83C
     static void _cctor();
     // static private System.Boolean AmILittleEndian()
-    // Offset: 0x1994024
+    // Offset: 0x1DAA790
     static bool AmILittleEndian();
+    // static public System.Byte[] GetBytes(System.Boolean value)
+    // Offset: 0x1DAA798
+    static ::ArrayW<uint8_t> GetBytes(bool value);
+    // static public System.Byte[] GetBytes(System.Char value)
+    // Offset: 0x1DAA810
+    static ::ArrayW<uint8_t> GetBytes(::Il2CppChar value);
     // static public System.Byte[] GetBytes(System.Int16 value)
-    // Offset: 0x199402C
+    // Offset: 0x1DAA874
     static ::ArrayW<uint8_t> GetBytes(int16_t value);
     // static public System.Byte[] GetBytes(System.Int32 value)
-    // Offset: 0x19940A0
+    // Offset: 0x1DAA8E8
     static ::ArrayW<uint8_t> GetBytes(int value);
     // static public System.Byte[] GetBytes(System.Int64 value)
-    // Offset: 0x1994114
+    // Offset: 0x1DAA95C
     static ::ArrayW<uint8_t> GetBytes(int64_t value);
     // static public System.Byte[] GetBytes(System.UInt16 value)
-    // Offset: 0x1994188
+    // Offset: 0x1DAA9D0
     static ::ArrayW<uint8_t> GetBytes(uint16_t value);
     // static public System.Byte[] GetBytes(System.UInt32 value)
-    // Offset: 0x19941EC
+    // Offset: 0x1DAAA34
     static ::ArrayW<uint8_t> GetBytes(uint value);
+    // static public System.Byte[] GetBytes(System.UInt64 value)
+    // Offset: 0x1DAAA98
+    static ::ArrayW<uint8_t> GetBytes(uint64_t value);
+    // static public System.Byte[] GetBytes(System.Single value)
+    // Offset: 0x1DAAAFC
+    static ::ArrayW<uint8_t> GetBytes(float value);
+    // static public System.Byte[] GetBytes(System.Double value)
+    // Offset: 0x1DAAB60
+    static ::ArrayW<uint8_t> GetBytes(double value);
     // static public System.Char ToChar(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x1994250
+    // Offset: 0x1DAABC4
     static ::Il2CppChar ToChar(::ArrayW<uint8_t> value, int startIndex);
     // static public System.Int16 ToInt16(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x1994314
+    // Offset: 0x1DAAC88
     static int16_t ToInt16(::ArrayW<uint8_t> value, int startIndex);
     // static public System.Int32 ToInt32(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x1994424
+    // Offset: 0x1DAAD98
     static int ToInt32(::ArrayW<uint8_t> value, int startIndex);
     // static public System.Int64 ToInt64(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x1994550
+    // Offset: 0x1DAAEC4
     static int64_t ToInt64(::ArrayW<uint8_t> value, int startIndex);
     // static public System.UInt16 ToUInt16(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x19946A8
+    // Offset: 0x1DAB01C
     static uint16_t ToUInt16(::ArrayW<uint8_t> value, int startIndex);
     // static public System.UInt32 ToUInt32(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x199476C
+    // Offset: 0x1DAB0E0
     static uint ToUInt32(::ArrayW<uint8_t> value, int startIndex);
     // static public System.UInt64 ToUInt64(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x1994830
+    // Offset: 0x1DAB1A4
     static uint64_t ToUInt64(::ArrayW<uint8_t> value, int startIndex);
     // static public System.Single ToSingle(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x19948F4
+    // Offset: 0x1DAB268
     static float ToSingle(::ArrayW<uint8_t> value, int startIndex);
     // static public System.Double ToDouble(System.Byte[] value, System.Int32 startIndex)
-    // Offset: 0x19949C0
+    // Offset: 0x1DAB334
     static double ToDouble(::ArrayW<uint8_t> value, int startIndex);
     // static private System.Char GetHexValue(System.Int32 i)
-    // Offset: 0x1994A8C
+    // Offset: 0x1DAB400
     static ::Il2CppChar GetHexValue(int i);
     // static public System.String ToString(System.Byte[] value, System.Int32 startIndex, System.Int32 length)
-    // Offset: 0x1994AA4
+    // Offset: 0x1DAB418
     static ::StringW ToString(::ArrayW<uint8_t> value, int startIndex, int length);
     // static public System.String ToString(System.Byte[] value)
-    // Offset: 0x1994E10
+    // Offset: 0x1DAB784
     static ::StringW ToString(::ArrayW<uint8_t> value);
     // static public System.Int64 DoubleToInt64Bits(System.Double value)
-    // Offset: 0x1994EB8
+    // Offset: 0x1DAB82C
     static int64_t DoubleToInt64Bits(double value);
     // static public System.Double Int64BitsToDouble(System.Int64 value)
-    // Offset: 0x1994EC0
+    // Offset: 0x1DAB834
     static double Int64BitsToDouble(int64_t value);
   }; // System.BitConverter
   #pragma pack(pop)
@@ -109,6 +124,24 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::BitConverter::AmILittleEndian)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::BitConverter*), "AmILittleEndian", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: System::BitConverter::GetBytes
+// Il2CppName: GetBytes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(bool)>(&System::BitConverter::GetBytes)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::BitConverter*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::BitConverter::GetBytes
+// Il2CppName: GetBytes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Il2CppChar)>(&System::BitConverter::GetBytes)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::BitConverter*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::BitConverter::GetBytes
@@ -153,6 +186,33 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(uint)>(&System::BitConverter::GetBytes)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::BitConverter*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::BitConverter::GetBytes
+// Il2CppName: GetBytes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(uint64_t)>(&System::BitConverter::GetBytes)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::BitConverter*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::BitConverter::GetBytes
+// Il2CppName: GetBytes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(float)>(&System::BitConverter::GetBytes)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::BitConverter*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::BitConverter::GetBytes
+// Il2CppName: GetBytes
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(double)>(&System::BitConverter::GetBytes)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::BitConverter*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };

@@ -16,7 +16,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Predicate`1<T>
-  template<typename T>
   class Predicate_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -27,7 +26,6 @@ namespace UnityEngine {
 // Forward declaring namespace: UnityEngine::Events
 namespace UnityEngine::Events {
   // Forward declaring type: UnityAction`1<T0>
-  template<typename T0>
   class UnityAction_1;
 }
 // Completed forward declares
@@ -68,28 +66,28 @@ namespace UnityEngine::UI {
     // Set static field: static public UnityEngine.Events.UnityAction`1<UnityEngine.Component> <>9__12_3
     static void _set_$$9__12_3(UnityEngine::Events::UnityAction_1<UnityEngine::Component*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1BA8B2C
+    // Offset: 0x1DD2D78
     static void _cctor();
     // System.Void <.cctor>b__5_0(UnityEngine.UI.LayoutRebuilder x)
-    // Offset: 0x1BA8B98
+    // Offset: 0x1DD2DE4
     void $_cctor$b__5_0(UnityEngine::UI::LayoutRebuilder* x);
     // System.Boolean <StripDisabledBehavioursFromList>b__10_0(UnityEngine.Component e)
-    // Offset: 0x1BA8BB4
+    // Offset: 0x1DD2E00
     bool $StripDisabledBehavioursFromList$b__10_0(UnityEngine::Component* e);
     // System.Void <Rebuild>b__12_0(UnityEngine.Component e)
-    // Offset: 0x1BA8C48
+    // Offset: 0x1DD2E94
     void $Rebuild$b__12_0(UnityEngine::Component* e);
     // System.Void <Rebuild>b__12_1(UnityEngine.Component e)
-    // Offset: 0x1BA8D14
+    // Offset: 0x1DD2F60
     void $Rebuild$b__12_1(UnityEngine::Component* e);
     // System.Void <Rebuild>b__12_2(UnityEngine.Component e)
-    // Offset: 0x1BA8DE0
+    // Offset: 0x1DD302C
     void $Rebuild$b__12_2(UnityEngine::Component* e);
     // System.Void <Rebuild>b__12_3(UnityEngine.Component e)
-    // Offset: 0x1BA8EB0
+    // Offset: 0x1DD30FC
     void $Rebuild$b__12_3(UnityEngine::Component* e);
     // public System.Void .ctor()
-    // Offset: 0x1BA8B90
+    // Offset: 0x1DD2DDC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

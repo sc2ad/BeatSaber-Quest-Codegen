@@ -408,13 +408,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Int32 PRnullCount
     int& dyn_PRnullCount();
     // static private System.Void .cctor()
-    // Offset: 0x18688EC
+    // Offset: 0x157DBB8
     static void _cctor();
     // System.Void Init()
-    // Offset: 0x1861FE8
+    // Offset: 0x157DB5C
     void Init();
     // System.Void .ctor()
-    // Offset: 0x1861F40
+    // Offset: 0x157DB54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

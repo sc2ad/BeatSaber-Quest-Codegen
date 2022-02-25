@@ -21,7 +21,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
   // Forward declaring type: Action
   class Action;
@@ -52,7 +51,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0xF3555C
+    // [InjectAttribute] Offset: 0x123BDF0
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x18
@@ -103,28 +102,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _interpolationFactor
     float& dyn__interpolationFactor();
     // public System.Single get_fixedDeltaTime()
-    // Offset: 0x1219E70
+    // Offset: 0x13D4CE0
     float get_fixedDeltaTime();
     // public System.Single get_interpolationFactor()
-    // Offset: 0x1219E7C
+    // Offset: 0x13D4CEC
     float get_interpolationFactor();
     // public System.Void add_songControllerFixedTimeDidUpdateEvent(System.Action`1<System.Single> value)
-    // Offset: 0x1219BE0
+    // Offset: 0x13D4A50
     void add_songControllerFixedTimeDidUpdateEvent(System::Action_1<float>* value);
     // public System.Void remove_songControllerFixedTimeDidUpdateEvent(System.Action`1<System.Single> value)
-    // Offset: 0x1219C84
+    // Offset: 0x13D4AF4
     void remove_songControllerFixedTimeDidUpdateEvent(System::Action_1<float>* value);
     // public System.Void add_songControllerTimeDidUpdateEvent(System.Action value)
-    // Offset: 0x1219D28
+    // Offset: 0x13D4B98
     void add_songControllerTimeDidUpdateEvent(System::Action* value);
     // public System.Void remove_songControllerTimeDidUpdateEvent(System.Action value)
-    // Offset: 0x1219DCC
+    // Offset: 0x13D4C3C
     void remove_songControllerTimeDidUpdateEvent(System::Action* value);
     // protected System.Void Update()
-    // Offset: 0x1219E84
+    // Offset: 0x13D4CF4
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1219FDC
+    // Offset: 0x13D4E4C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

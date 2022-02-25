@@ -20,7 +20,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -80,16 +79,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single intensity
     float& dyn_intensity();
     // static public System.Collections.Generic.List`1<PointLight> get_lights()
-    // Offset: 0x1DBC4DC
+    // Offset: 0x2090D80
     static System::Collections::Generic::List_1<GlobalNamespace::PointLight*>* get_lights();
     // protected System.Void OnEnable()
-    // Offset: 0x1DBC544
+    // Offset: 0x2090DE8
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1DBC5C8
+    // Offset: 0x2090E6C
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x1DBC64C
+    // Offset: 0x2090EF0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -102,7 +101,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PointLight*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1DBC654
+    // Offset: 0x2090EF8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

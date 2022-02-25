@@ -36,7 +36,7 @@ namespace LiteNetLib {
   class InvalidPacketException : public System::ArgumentException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1DC49AC
+    // Offset: 0x20DE180
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor()
     // Base method: System.Void SystemException::.ctor()
@@ -48,7 +48,7 @@ namespace LiteNetLib {
       return THROW_UNLESS((::il2cpp_utils::New<InvalidPacketException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1DC49B4
+    // Offset: 0x20DE188
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)
@@ -59,7 +59,7 @@ namespace LiteNetLib {
       return THROW_UNLESS((::il2cpp_utils::New<InvalidPacketException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x1DC49BC
+    // Offset: 0x20DE190
     // Implemented from: System.ArgumentException
     // Base method: System.Void ArgumentException::.ctor(System.String message, System.Exception innerException)
     // Base method: System.Void SystemException::.ctor(System.String message, System.Exception innerException)

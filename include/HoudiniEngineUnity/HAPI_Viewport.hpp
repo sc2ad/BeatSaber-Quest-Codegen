@@ -57,10 +57,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Single offset
     float& dyn_offset();
     // public System.Void .ctor(System.Boolean initializeFields)
-    // Offset: 0x1463398
+    // Offset: 0x1633B20
     HAPI_Viewport(bool initializeFields);
     // public System.Void Init()
-    // Offset: 0x1463428
+    // Offset: 0x1633BB0
     void Init();
   }; // HoudiniEngineUnity.HAPI_Viewport
   #pragma pack(pop)

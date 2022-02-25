@@ -12,7 +12,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: GlobalNamespace
@@ -23,6 +22,8 @@ namespace GlobalNamespace {
   struct BeatmapLevelSelectionMask;
   // Forward declaring type: GameplayServerConfiguration
   struct GameplayServerConfiguration;
+  // Forward declaring type: ActiveNetworkPlayerModelType
+  struct UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -62,12 +63,6 @@ namespace GlobalNamespace {
     // public System.Collections.Generic.IEnumerable`1<INetworkPlayer> get_localNetworkPlayers()
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* get_localNetworkPlayers();
-    // public System.String get_userId()
-    // Offset: 0xFFFFFFFF
-    ::StringW get_userId();
-    // public System.String get_userName()
-    // Offset: 0xFFFFFFFF
-    ::StringW get_userName();
     // public System.String get_secret()
     // Offset: 0xFFFFFFFF
     ::StringW get_secret();
@@ -86,6 +81,9 @@ namespace GlobalNamespace {
     // public System.Void ResetMasterServerReachability()
     // Offset: 0xFFFFFFFF
     void ResetMasterServerReachability();
+    // public System.Void SetActiveNetworkPlayerModelType(UnifiedNetworkPlayerModel/ActiveNetworkPlayerModelType activeNetworkPlayerModelType)
+    // Offset: 0xFFFFFFFF
+    void SetActiveNetworkPlayerModelType(GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType activeNetworkPlayerModelType);
   }; // IUnifiedNetworkPlayerModel
   #pragma pack(pop)
 }
@@ -121,22 +119,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* (GlobalNamespace::IUnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::IUnifiedNetworkPlayerModel::get_localNetworkPlayers)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "get_localNetworkPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::IUnifiedNetworkPlayerModel::get_userId
-// Il2CppName: get_userId
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::IUnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::IUnifiedNetworkPlayerModel::get_userId)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::IUnifiedNetworkPlayerModel::get_userName
-// Il2CppName: get_userName
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::IUnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::IUnifiedNetworkPlayerModel::get_userName)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::IUnifiedNetworkPlayerModel::get_secret
@@ -189,5 +171,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IUnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::IUnifiedNetworkPlayerModel::ResetMasterServerReachability)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "ResetMasterServerReachability", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::IUnifiedNetworkPlayerModel::SetActiveNetworkPlayerModelType
+// Il2CppName: SetActiveNetworkPlayerModelType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IUnifiedNetworkPlayerModel::*)(GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType)>(&GlobalNamespace::IUnifiedNetworkPlayerModel::SetActiveNetworkPlayerModelType)> {
+  static const MethodInfo* get() {
+    static auto* activeNetworkPlayerModelType = &::il2cpp_utils::GetClassFromName("", "UnifiedNetworkPlayerModel/ActiveNetworkPlayerModelType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "SetActiveNetworkPlayerModelType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{activeNetworkPlayerModelType});
   }
 };

@@ -18,7 +18,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: UnityEngine
@@ -72,28 +71,28 @@ namespace ModestTree::Util {
     // Set static field: static public System.Func`2<UnityEngine.GameObject,System.Boolean> <>9__23_0
     static void _set_$$9__23_0(System::Func_2<UnityEngine::GameObject*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x14F2338
+    // Offset: 0x16D43F4
     static void _cctor();
     // System.Boolean <get_AllLoadedScenes>b__3_0(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x14F23A4
+    // Offset: 0x16D4460
     bool $get_AllLoadedScenes$b__3_0(UnityEngine::SceneManagement::Scene scene);
     // UnityEngine.GameObject <GetRootParentOrSelf>b__15_0(UnityEngine.Transform x)
-    // Offset: 0x14F23D0
+    // Offset: 0x16D448C
     UnityEngine::GameObject* $GetRootParentOrSelf$b__15_0(UnityEngine::Transform* x);
     // System.Int32 <GetComponentsInChildrenTopDown>b__18_0(UnityEngine.Component x)
-    // Offset: 0x14F23EC
+    // Offset: 0x16D44A8
     int $GetComponentsInChildrenTopDown$b__18_0(UnityEngine::Component* x);
     // System.Int32 <GetComponentsInChildrenBottomUp>b__19_0(UnityEngine.Component x)
-    // Offset: 0x14F2484
+    // Offset: 0x16D4540
     int $GetComponentsInChildrenBottomUp$b__19_0(UnityEngine::Component* x);
     // UnityEngine.GameObject <GetAllGameObjects>b__22_0(UnityEngine.Transform x)
-    // Offset: 0x14F251C
+    // Offset: 0x16D45D8
     UnityEngine::GameObject* $GetAllGameObjects$b__22_0(UnityEngine::Transform* x);
     // System.Boolean <GetAllRootGameObjects>b__23_0(UnityEngine.GameObject x)
-    // Offset: 0x14F2538
+    // Offset: 0x16D45F4
     bool $GetAllRootGameObjects$b__23_0(UnityEngine::GameObject* x);
     // public System.Void .ctor()
-    // Offset: 0x14F239C
+    // Offset: 0x16D4458
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

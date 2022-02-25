@@ -17,7 +17,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Type
   class Type;
@@ -25,7 +24,6 @@ namespace System {
 // Forward declaring namespace: ModestTree::Util
 namespace ModestTree::Util {
   // Forward declaring type: ValuePair`2<T1, T2>
-  template<typename T1, typename T2>
   class ValuePair_2;
 }
 // Forward declaring namespace: Zenject
@@ -59,22 +57,22 @@ namespace Zenject {
     // Set static field: static public System.Func`2<Zenject.InitializableManager/Zenject.InitializableInfo,System.Int32> <>9__5_0
     static void _set_$$9__5_0(System::Func_2<Zenject::InitializableManager::InitializableInfo*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1AB3A84
+    // Offset: 0x1D3BB3C
     static void _cctor();
     // System.Int32 <.ctor>b__2_1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1AB3AF0
+    // Offset: 0x1D3BBA8
     int $_ctor$b__2_1(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // System.Int32 <Initialize>b__5_0(Zenject.InitializableManager/Zenject.InitializableInfo x)
-    // Offset: 0x1AB3B08
+    // Offset: 0x1D3BBC0
     int $Initialize$b__5_0(Zenject::InitializableManager::InitializableInfo* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1AB3B20
+    // Offset: 0x1D3BBD8
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1AB3B7C
+    // Offset: 0x1D3BC34
     static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1AB3AE8
+    // Offset: 0x1D3BBA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

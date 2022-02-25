@@ -26,16 +26,13 @@ namespace System::Net::Http::Headers {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
   // Forward declaring type: ICollection`1<T>
-  template<typename T>
   class ICollection_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Nullable`1<T>
-  template<typename T>
   struct Nullable_1;
 }
 // Completed forward declares
@@ -88,29 +85,42 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: System.String media_type
     ::StringW& dyn_media_type();
     // public System.String get_CharSet()
-    // Offset: 0x17C2F30
+    // Offset: 0x18FBB88
     ::StringW get_CharSet();
+    // public System.Void set_CharSet(System.String value)
+    // Offset: 0x18FBC90
+    void set_CharSet(::StringW value);
+    // public System.Void set_MediaType(System.String value)
+    // Offset: 0x18FB800
+    void set_MediaType(::StringW value);
     // public System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> get_Parameters()
-    // Offset: 0x17C2EB4
+    // Offset: 0x18FBB0C
     System::Collections::Generic::ICollection_1<System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters();
+    // public System.Void .ctor(System.String mediaType)
+    // Offset: 0x18F29FC
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static MediaTypeHeaderValue* New_ctor(::StringW mediaType) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::MediaTypeHeaderValue::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<MediaTypeHeaderValue*, creationType>(mediaType)));
+    }
     // protected System.Void .ctor(System.Net.Http.Headers.MediaTypeHeaderValue source)
-    // Offset: 0x17C2CBC
+    // Offset: 0x18FB914
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MediaTypeHeaderValue* New_ctor(System::Net::Http::Headers::MediaTypeHeaderValue* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::MediaTypeHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MediaTypeHeaderValue*, creationType>(source)));
     }
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x17C3038
+    // Offset: 0x18FBEB0
     ::Il2CppObject* System_ICloneable_Clone();
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.MediaTypeHeaderValue parsedValue)
-    // Offset: 0x17C3260
+    // Offset: 0x18FC0D8
     static bool TryParse(::StringW input, ByRef<System::Net::Http::Headers::MediaTypeHeaderValue*> parsedValue);
     // static System.Nullable`1<System.Net.Http.Headers.Token> TryParseMediaType(System.Net.Http.Headers.Lexer lexer, out System.String media)
-    // Offset: 0x17C33A8
+    // Offset: 0x18FBD20
     static System::Nullable_1<System::Net::Http::Headers::Token> TryParseMediaType(System::Net::Http::Headers::Lexer* lexer, ByRef<::StringW> media);
     // System.Void .ctor()
-    // Offset: 0x17C2F28
+    // Offset: 0x18FBB80
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -119,17 +129,17 @@ namespace System::Net::Http::Headers {
       return THROW_UNLESS((::il2cpp_utils::New<MediaTypeHeaderValue*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x17C3098
+    // Offset: 0x18FBF10
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x17C3168
+    // Offset: 0x18FBFE0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x17C31EC
+    // Offset: 0x18FC064
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -147,6 +157,24 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::MediaTypeHeaderValue*), "get_CharSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Net::Http::Headers::MediaTypeHeaderValue::set_CharSet
+// Il2CppName: set_CharSet
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::MediaTypeHeaderValue::*)(::StringW)>(&System::Net::Http::Headers::MediaTypeHeaderValue::set_CharSet)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::MediaTypeHeaderValue*), "set_CharSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::Net::Http::Headers::MediaTypeHeaderValue::set_MediaType
+// Il2CppName: set_MediaType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::MediaTypeHeaderValue::*)(::StringW)>(&System::Net::Http::Headers::MediaTypeHeaderValue::set_MediaType)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::MediaTypeHeaderValue*), "set_MediaType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::MediaTypeHeaderValue::get_Parameters
 // Il2CppName: get_Parameters
 template<>
@@ -155,6 +183,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::MediaTypeHeaderValue*), "get_Parameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Net::Http::Headers::MediaTypeHeaderValue::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::MediaTypeHeaderValue::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

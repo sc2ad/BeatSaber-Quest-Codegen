@@ -26,22 +26,22 @@ namespace Org::BouncyCastle::Utilities {
   class Strings : public ::Il2CppObject {
     public:
     // static System.Boolean IsOneOf(System.String s, params System.String[] candidates)
-    // Offset: 0x222C360
+    // Offset: 0x25A7F9C
     static bool IsOneOf(::StringW s, ::ArrayW<::StringW> candidates);
     // static public System.String FromByteArray(System.Byte[] bs)
-    // Offset: 0x222C3EC
+    // Offset: 0x25A8028
     static ::StringW FromByteArray(::ArrayW<uint8_t> bs);
     // static public System.Byte[] ToByteArray(System.Char[] cs)
-    // Offset: 0x222C4F0
+    // Offset: 0x25A812C
     static ::ArrayW<uint8_t> ToByteArray(::ArrayW<::Il2CppChar> cs);
     // static public System.Byte[] ToByteArray(System.String s)
-    // Offset: 0x222C5EC
+    // Offset: 0x25A8228
     static ::ArrayW<uint8_t> ToByteArray(::StringW s);
     // static public System.String FromAsciiByteArray(System.Byte[] bytes)
-    // Offset: 0x22299DC
+    // Offset: 0x25A5618
     static ::StringW FromAsciiByteArray(::ArrayW<uint8_t> bytes);
     // static public System.Byte[] ToAsciiByteArray(System.String s)
-    // Offset: 0x222C6E4
+    // Offset: 0x25A8320
     static ::ArrayW<uint8_t> ToAsciiByteArray(::StringW s);
   }; // Org.BouncyCastle.Utilities.Strings
   #pragma pack(pop)

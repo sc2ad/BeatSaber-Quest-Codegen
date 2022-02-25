@@ -33,7 +33,6 @@ namespace UnityEngine::TestTools {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`1<TResult>
-  template<typename TResult>
   class Func_1;
 }
 // Forward declaring namespace: NUnit::Framework::Internal::Commands
@@ -68,7 +67,6 @@ namespace UnityEngine::TestTools::Logging {
 // Type namespace: UnityEngine.TestTools
 namespace UnityEngine::TestTools {
   // Forward declaring type: BeforeAfterTestCommandBase`1<T>
-  template<typename T>
   class BeforeAfterTestCommandBase_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

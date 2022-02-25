@@ -67,25 +67,25 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Get instance field reference: readonly Org.BouncyCastle.Asn1.Asn1Sequence seq
     Org::BouncyCastle::Asn1::Asn1Sequence*& dyn_seq();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1C1B730
+    // Offset: 0x1E319B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CrlDistPoint* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::CrlDistPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CrlDistPoint*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X509.CrlDistPoint GetInstance(System.Object obj)
-    // Offset: 0x1C1B688
+    // Offset: 0x1E3190C
     static Org::BouncyCastle::Asn1::X509::CrlDistPoint* GetInstance(::Il2CppObject* obj);
     // public Org.BouncyCastle.Asn1.X509.DistributionPoint[] GetDistributionPoints()
-    // Offset: 0x1C1B75C
+    // Offset: 0x1E319E0
     ::ArrayW<Org::BouncyCastle::Asn1::X509::DistributionPoint*> GetDistributionPoints();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1C1B9E8
+    // Offset: 0x1E31C6C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x1C1B9F0
+    // Offset: 0x1E31C74
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

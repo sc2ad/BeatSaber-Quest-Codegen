@@ -15,7 +15,6 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: IReferenceCountingCache`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class IReferenceCountingCache_2;
   // Forward declaring type: IMediaAsyncLoader
   class IMediaAsyncLoader;
@@ -35,7 +34,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
-  template<typename TResult>
   class Task_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -46,7 +44,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Completed forward declares
@@ -103,74 +100,74 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IMediaAsyncLoader _mediaAsyncLoader
     GlobalNamespace::IMediaAsyncLoader*& dyn__mediaAsyncLoader();
     // public System.Void .ctor(IReferenceCountingCache`2<System.Int32,System.Threading.Tasks.Task`1<UnityEngine.AudioClip>> cache, IMediaAsyncLoader mediaAsyncLoader)
-    // Offset: 0x1312570
+    // Offset: 0x148D7BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioClipAsyncLoader* New_ctor(GlobalNamespace::IReferenceCountingCache_2<int, System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>*>* cache, GlobalNamespace::IMediaAsyncLoader* mediaAsyncLoader) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::AudioClipAsyncLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioClipAsyncLoader*, creationType>(cache, mediaAsyncLoader)));
     }
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> LoadPreview(IPreviewBeatmapLevel beatmapLevel)
-    // Offset: 0x13125A8
+    // Offset: 0x148D7F4
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* LoadPreview(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> LoadSong(IBeatmapLevel beatmapLevel)
-    // Offset: 0x131291C
+    // Offset: 0x148DB68
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* LoadSong(GlobalNamespace::IBeatmapLevel* beatmapLevel);
     // public System.Void UnloadPreview(IPreviewBeatmapLevel beatmapLevel)
-    // Offset: 0x1312C90
+    // Offset: 0x148DEDC
     void UnloadPreview(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
     // public System.Void UnloadSong(IBeatmapLevel beatmapLevel)
-    // Offset: 0x1312FD4
+    // Offset: 0x148E220
     void UnloadSong(GlobalNamespace::IBeatmapLevel* beatmapLevel);
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> Load(IAssetSongPreviewAudioClipProvider source)
-    // Offset: 0x1312794
+    // Offset: 0x148D9E0
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* Load(GlobalNamespace::IAssetSongPreviewAudioClipProvider* source);
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> Load(IAssetSongAudioClipProvider source)
-    // Offset: 0x1312B08
+    // Offset: 0x148DD54
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* Load(GlobalNamespace::IAssetSongAudioClipProvider* source);
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> Load(IFilePathSongPreviewAudioClipProvider source)
-    // Offset: 0x1312858
+    // Offset: 0x148DAA4
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* Load(GlobalNamespace::IFilePathSongPreviewAudioClipProvider* source);
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> Load(IFilePathSongAudioClipProvider source)
-    // Offset: 0x1312BCC
+    // Offset: 0x148DE18
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* Load(GlobalNamespace::IFilePathSongAudioClipProvider* source);
     // public System.Void Unload(IAssetSongPreviewAudioClipProvider source)
-    // Offset: 0x1312E4C
+    // Offset: 0x148E098
     void Unload(GlobalNamespace::IAssetSongPreviewAudioClipProvider* source);
     // public System.Void Unload(IAssetSongAudioClipProvider source)
-    // Offset: 0x1313190
+    // Offset: 0x148E3DC
     void Unload(GlobalNamespace::IAssetSongAudioClipProvider* source);
     // public System.Void Unload(IFilePathSongPreviewAudioClipProvider source)
-    // Offset: 0x1312F10
+    // Offset: 0x148E15C
     void Unload(GlobalNamespace::IFilePathSongPreviewAudioClipProvider* source);
     // public System.Void Unload(IFilePathSongAudioClipProvider source)
-    // Offset: 0x1313254
+    // Offset: 0x148E4A0
     void Unload(GlobalNamespace::IFilePathSongAudioClipProvider* source);
     // private System.Threading.Tasks.Task`1<UnityEngine.AudioClip> Load(UnityEngine.AudioClip audioClip)
-    // Offset: 0x1313318
+    // Offset: 0x148E564
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* Load(UnityEngine::AudioClip* audioClip);
     // private System.Threading.Tasks.Task`1<UnityEngine.AudioClip> Load(System.String audioClipFilePath)
-    // Offset: 0x13133DC
+    // Offset: 0x148E628
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* Load(::StringW audioClipFilePath);
     // private System.Threading.Tasks.Task`1<UnityEngine.AudioClip> Load(System.Int32 cacheKey, AudioClipAsyncLoader/LoadMethodDelegate loadMethodDelegate)
-    // Offset: 0x131369C
+    // Offset: 0x148E8E8
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* Load(int cacheKey, GlobalNamespace::AudioClipAsyncLoader::LoadMethodDelegate* loadMethodDelegate);
     // private System.Void Unload(UnityEngine.AudioClip audioClip)
-    // Offset: 0x13134A0
+    // Offset: 0x148E6EC
     void Unload(UnityEngine::AudioClip* audioClip);
     // private System.Void Unload(System.String audioClipFilePath)
-    // Offset: 0x13135B8
+    // Offset: 0x148E804
     void Unload(::StringW audioClipFilePath);
     // public System.Void Unload(System.Int32 cacheKey, System.Action`1<UnityEngine.AudioClip> onDelete)
-    // Offset: 0x1313AB4
+    // Offset: 0x148ED00
     void Unload(int cacheKey, System::Action_1<UnityEngine::AudioClip*>* onDelete);
     // public System.Int32 GetCacheKey(UnityEngine.AudioClip audioClip)
-    // Offset: 0x131366C
+    // Offset: 0x148E8B8
     int GetCacheKey(UnityEngine::AudioClip* audioClip);
     // public System.Int32 GetCacheKey(System.String audioClipFilePath)
-    // Offset: 0x1313880
+    // Offset: 0x148EACC
     int GetCacheKey(::StringW audioClipFilePath);
     // static public System.Void LogError(System.String message)
-    // Offset: 0x1313B84
+    // Offset: 0x148EDD0
     static void LogError(::StringW message);
   }; // AudioClipAsyncLoader
   #pragma pack(pop)

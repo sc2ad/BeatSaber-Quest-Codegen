@@ -28,7 +28,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Completed forward declares
@@ -87,22 +86,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private Saber _saber
     GlobalNamespace::Saber*& dyn__saber();
     // public System.Void add_didFinishEvent(System.Action`1<BombCutSoundEffect> value)
-    // Offset: 0x1181948
+    // Offset: 0x13B75B0
     void add_didFinishEvent(System::Action_1<GlobalNamespace::BombCutSoundEffect*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<BombCutSoundEffect> value)
-    // Offset: 0x11819EC
+    // Offset: 0x13B7654
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::BombCutSoundEffect*>* value);
     // public System.Void Init(UnityEngine.AudioClip audioClip, Saber saber, System.Single volume)
-    // Offset: 0x1181A90
+    // Offset: 0x13B76F8
     void Init(UnityEngine::AudioClip* audioClip, GlobalNamespace::Saber* saber, float volume);
     // protected System.Void LateUpdate()
-    // Offset: 0x1181B10
+    // Offset: 0x13B7778
     void LateUpdate();
     // private System.Void StopPlayingAndFinish()
-    // Offset: 0x1181BA4
+    // Offset: 0x13B780C
     void StopPlayingAndFinish();
     // public System.Void .ctor()
-    // Offset: 0x1181C2C
+    // Offset: 0x13B7894
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

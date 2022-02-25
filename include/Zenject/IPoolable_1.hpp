@@ -12,7 +12,6 @@
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: IPoolable`1<TParam1>
-  template<typename TParam1>
   class IPoolable_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

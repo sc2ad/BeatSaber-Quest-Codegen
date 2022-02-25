@@ -21,7 +21,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -45,13 +44,13 @@ namespace HoudiniEngineUnity {
     // Nested type: HoudiniEngineUnity::Test_AnimationCurve_Extensions::$$c
     class $$c;
     // static public HoudiniEngineUnity.Test_AnimationCurve ToTestObject(UnityEngine.AnimationCurve self)
-    // Offset: 0x178EF1C
+    // Offset: 0x19B56B8
     static HoudiniEngineUnity::Test_AnimationCurve* ToTestObject(UnityEngine::AnimationCurve* self);
     // static public HoudiniEngineUnity.Test_AnimationCurve[] ToTestObject(UnityEngine.AnimationCurve[] self)
-    // Offset: 0x178EF80
+    // Offset: 0x19B571C
     static ::ArrayW<HoudiniEngineUnity::Test_AnimationCurve*> ToTestObject(::ArrayW<UnityEngine::AnimationCurve*> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_AnimationCurve> ToTestObject(System.Collections.Generic.List`1<UnityEngine.AnimationCurve> self)
-    // Offset: 0x178F06C
+    // Offset: 0x19B5808
     static System::Collections::Generic::List_1<HoudiniEngineUnity::Test_AnimationCurve*>* ToTestObject(System::Collections::Generic::List_1<UnityEngine::AnimationCurve*>* self);
   }; // HoudiniEngineUnity.Test_AnimationCurve_Extensions
   #pragma pack(pop)

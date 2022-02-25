@@ -16,7 +16,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
   // Forward declaring type: Action
   class Action;
@@ -69,13 +68,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action <>9__1
     System::Action*& dyn_$$9__1();
     // System.Void <PresentMissionClearedIfNeeded>b__0()
-    // Offset: 0x11BCFC0
+    // Offset: 0x14202D8
     void $PresentMissionClearedIfNeeded$b__0();
     // System.Void <PresentMissionClearedIfNeeded>b__1()
-    // Offset: 0x11BD078
+    // Offset: 0x1420390
     void $PresentMissionClearedIfNeeded$b__1();
     // public System.Void .ctor()
-    // Offset: 0x11BCFB0
+    // Offset: 0x14202D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

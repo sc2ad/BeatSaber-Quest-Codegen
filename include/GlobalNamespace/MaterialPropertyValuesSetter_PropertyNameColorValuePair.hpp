@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Color color
     UnityEngine::Color& dyn_color();
     // public System.Void .ctor()
-    // Offset: 0x1DBA380
+    // Offset: 0x208EC24
     // Implemented from: MaterialPropertyValuesSetter/PropertyValuePairBase
     // Base method: System.Void PropertyValuePairBase::.ctor()
     // Base method: System.Void Object::.ctor()

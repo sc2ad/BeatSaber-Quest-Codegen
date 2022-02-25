@@ -58,13 +58,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public BeatmapIdentifierNetSerializable beatmap
     GlobalNamespace::BeatmapIdentifierNetSerializable*& dyn_beatmap();
     // System.Boolean <GetBeatmapData>b__0(IDifficultyBeatmapSet bds)
-    // Offset: 0x11BEE90
+    // Offset: 0x14221A8
     bool $GetBeatmapData$b__0(GlobalNamespace::IDifficultyBeatmapSet* bds);
     // System.Boolean <GetBeatmapData>b__2(IDifficultyBeatmap dbm)
-    // Offset: 0x11BEF64
+    // Offset: 0x142227C
     bool $GetBeatmapData$b__2(GlobalNamespace::IDifficultyBeatmap* dbm);
     // public System.Void .ctor()
-    // Offset: 0x11BEE88
+    // Offset: 0x14221A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

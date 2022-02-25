@@ -23,7 +23,6 @@ namespace UnityEngine::UI {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Completed forward declares
@@ -122,22 +121,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<HowToPlayViewController/HowToPlayOptions> didFinishEvent
     System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<HowToPlayViewController/HowToPlayOptions> value)
-    // Offset: 0x119DB88
+    // Offset: 0x13AB630
     void add_didFinishEvent(System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<HowToPlayViewController/HowToPlayOptions> value)
-    // Offset: 0x119DDC0
+    // Offset: 0x13AB868
     void remove_didFinishEvent(System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>* value);
     // public System.Void Setup(System.Boolean showTutorialButton)
-    // Offset: 0x119EF14
+    // Offset: 0x13AC9BC
     void Setup(bool showTutorialButton);
     // private System.Void <DidActivate>b__7_0()
-    // Offset: 0x119F054
+    // Offset: 0x13ACAFC
     void $DidActivate$b__7_0();
     // private System.Void <DidActivate>b__7_1()
-    // Offset: 0x119F0B8
+    // Offset: 0x13ACB60
     void $DidActivate$b__7_1();
     // public System.Void .ctor()
-    // Offset: 0x119F04C
+    // Offset: 0x13ACAF4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -151,7 +150,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HowToPlayViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x119EF50
+    // Offset: 0x13AC9F8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

@@ -15,14 +15,12 @@
 // Forward declaring namespace: System::Threading
 namespace System::Threading {
   // Forward declaring type: SparselyPopulatedArrayFragment`1<T>
-  template<typename T>
   class SparselyPopulatedArrayFragment_1;
 }
 // Completed forward declares
 // Type namespace: System.Threading
 namespace System::Threading {
   // Forward declaring type: SparselyPopulatedArrayAddInfo`1<T>
-  template<typename T>
   struct SparselyPopulatedArrayAddInfo_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

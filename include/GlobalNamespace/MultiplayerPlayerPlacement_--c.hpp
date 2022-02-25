@@ -16,7 +16,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Comparison`1<T>
-  template<typename T>
   class Comparison_1;
 }
 // Forward declaring namespace: GlobalNamespace
@@ -46,13 +45,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Comparison`1<IConnectedPlayer> <>9__4_0
     static void _set_$$9__4_0(System::Comparison_1<GlobalNamespace::IConnectedPlayer*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x11726C4
+    // Offset: 0x2AA44D8
     static void _cctor();
     // System.Int32 <SortPlayers>b__4_0(IConnectedPlayer p1, IConnectedPlayer p2)
-    // Offset: 0x1172730
+    // Offset: 0x2AA4544
     int $SortPlayers$b__4_0(GlobalNamespace::IConnectedPlayer* p1, GlobalNamespace::IConnectedPlayer* p2);
     // public System.Void .ctor()
-    // Offset: 0x1172728
+    // Offset: 0x2AA453C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -65,40 +65,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _accumulator
     float& dyn__accumulator();
     // static public System.Single get_time()
-    // Offset: 0x2641DDC
+    // Offset: 0x299ED0C
     static float get_time();
     // static private System.Void set_time(System.Single value)
-    // Offset: 0x2641E2C
+    // Offset: 0x299ED5C
     static void set_time(float value);
     // static public System.Single get_deltaTime()
-    // Offset: 0x2641E88
+    // Offset: 0x299EDB8
     static float get_deltaTime();
     // static private System.Void set_deltaTime(System.Single value)
-    // Offset: 0x2641ED8
+    // Offset: 0x299EE08
     static void set_deltaTime(float value);
     // static public System.Single get_fixedDeltaTime()
-    // Offset: 0x2641F34
+    // Offset: 0x299EE64
     static float get_fixedDeltaTime();
     // static private System.Void set_fixedDeltaTime(System.Single value)
-    // Offset: 0x2641F84
+    // Offset: 0x299EEB4
     static void set_fixedDeltaTime(float value);
     // static public System.Single get_interpolationFactor()
-    // Offset: 0x2641FE0
+    // Offset: 0x299EF10
     static float get_interpolationFactor();
     // static private System.Void set_interpolationFactor(System.Single value)
-    // Offset: 0x2642030
+    // Offset: 0x299EF60
     static void set_interpolationFactor(float value);
     // protected System.Void Awake()
-    // Offset: 0x264208C
+    // Offset: 0x299EFBC
     void Awake();
     // protected System.Void FixedUpdate()
-    // Offset: 0x264213C
+    // Offset: 0x299F06C
     void FixedUpdate();
     // protected System.Void Update()
-    // Offset: 0x26421EC
+    // Offset: 0x299F11C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x26423A0
+    // Offset: 0x299F2D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

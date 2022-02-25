@@ -51,14 +51,14 @@ namespace System::Net {
     // Get instance field reference: public System.Int32 Offset
     int& dyn_Offset();
     // public System.Void .ctor(System.Byte[] chunk)
-    // Offset: 0x18BABA4
+    // Offset: 0x17A8930
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoChunkStream::Chunk* New_ctor(::ArrayW<uint8_t> chunk) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::MonoChunkStream::Chunk::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoChunkStream::Chunk*, creationType>(chunk)));
     }
     // public System.Int32 Read(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x18BA088
+    // Offset: 0x17A7E14
     int Read(::ArrayW<uint8_t> buffer, int offset, int size);
   }; // System.Net.MonoChunkStream/System.Net.Chunk
   #pragma pack(pop)

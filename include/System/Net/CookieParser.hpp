@@ -59,17 +59,17 @@ namespace System::Net {
     // Get instance field reference: private System.Net.CookieTokenizer m_tokenizer
     System::Net::CookieTokenizer*& dyn_m_tokenizer();
     // System.Void .ctor(System.String cookieString)
-    // Offset: 0x15E9A6C
+    // Offset: 0x1AAE610
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CookieParser* New_ctor(::StringW cookieString) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::CookieParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CookieParser*, creationType>(cookieString)));
     }
     // System.Net.Cookie Get()
-    // Offset: 0x15E9AE4
+    // Offset: 0x1AAE688
     System::Net::Cookie* Get();
     // static System.String CheckQuoted(System.String value)
-    // Offset: 0x15E549C
+    // Offset: 0x1AAA03C
     static ::StringW CheckQuoted(::StringW value);
   }; // System.Net.CookieParser
   #pragma pack(pop)

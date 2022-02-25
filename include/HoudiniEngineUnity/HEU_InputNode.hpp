@@ -41,7 +41,6 @@ namespace HoudiniEngineUnity {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -379,199 +378,199 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_InputNodeUICache _uiCache
     HoudiniEngineUnity::HEU_InputNodeUICache*& dyn__uiCache();
     // public HoudiniEngineUnity.HEU_InputNode/HoudiniEngineUnity.InputNodeType get_InputType()
-    // Offset: 0x159297C
+    // Offset: 0x1781E2C
     HoudiniEngineUnity::HEU_InputNode::InputNodeType get_InputType();
     // public HoudiniEngineUnity.HEU_InputNode/HoudiniEngineUnity.InputObjectType get_ThisInputObjectType()
-    // Offset: 0x1592984
+    // Offset: 0x1781E34
     HoudiniEngineUnity::HEU_InputNode::InputObjectType get_ThisInputObjectType();
     // public HoudiniEngineUnity.HEU_InputNode/HoudiniEngineUnity.InputObjectType get_PendingInputObjectType()
-    // Offset: 0x159298C
+    // Offset: 0x1781E3C
     HoudiniEngineUnity::HEU_InputNode::InputObjectType get_PendingInputObjectType();
     // public System.Void set_PendingInputObjectType(HoudiniEngineUnity.HEU_InputNode/HoudiniEngineUnity.InputObjectType value)
-    // Offset: 0x1592994
+    // Offset: 0x1781E44
     void set_PendingInputObjectType(HoudiniEngineUnity::HEU_InputNode::InputObjectType value);
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputObjectInfo> get_InputObjects()
-    // Offset: 0x159299C
+    // Offset: 0x1781E4C
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputObjectInfo*>* get_InputObjects();
     // public System.Int32 get_InputNodeID()
-    // Offset: 0x15929A4
+    // Offset: 0x1781E54
     int get_InputNodeID();
     // public System.Boolean get_RequiresCook()
-    // Offset: 0x15929AC
+    // Offset: 0x1781E5C
     bool get_RequiresCook();
     // public System.Void set_RequiresCook(System.Boolean value)
-    // Offset: 0x15929B4
+    // Offset: 0x1781E64
     void set_RequiresCook(bool value);
     // public System.Boolean get_RequiresUpload()
-    // Offset: 0x15929C0
+    // Offset: 0x1781E70
     bool get_RequiresUpload();
     // public System.Void set_RequiresUpload(System.Boolean value)
-    // Offset: 0x15929C8
+    // Offset: 0x1781E78
     void set_RequiresUpload(bool value);
     // public System.String get_InputName()
-    // Offset: 0x15929D4
+    // Offset: 0x1781E84
     ::StringW get_InputName();
     // public System.String get_LabelName()
-    // Offset: 0x15929DC
+    // Offset: 0x1781E8C
     ::StringW get_LabelName();
     // public System.String get_ParamName()
-    // Offset: 0x15929E4
+    // Offset: 0x1781E94
     ::StringW get_ParamName();
     // public System.Void set_ParamName(System.String value)
-    // Offset: 0x15929EC
+    // Offset: 0x1781E9C
     void set_ParamName(::StringW value);
     // public System.Boolean get_KeepWorldTransform()
-    // Offset: 0x15929F4
+    // Offset: 0x1781EA4
     bool get_KeepWorldTransform();
     // public System.Void set_KeepWorldTransform(System.Boolean value)
-    // Offset: 0x15929FC
+    // Offset: 0x1781EAC
     void set_KeepWorldTransform(bool value);
     // public System.Boolean get_PackGeometryBeforeMerging()
-    // Offset: 0x1592A08
+    // Offset: 0x1781EB8
     bool get_PackGeometryBeforeMerging();
     // public System.Void set_PackGeometryBeforeMerging(System.Boolean value)
-    // Offset: 0x1592A10
+    // Offset: 0x1781EC0
     void set_PackGeometryBeforeMerging(bool value);
     // public HoudiniEngineUnity.HEU_HoudiniAsset get_ParentAsset()
-    // Offset: 0x1592A1C
+    // Offset: 0x1781ECC
     HoudiniEngineUnity::HEU_HoudiniAsset* get_ParentAsset();
     // public HoudiniEngineUnity.HEU_InputInterfaceTilemapSettings get_TilemapSettings()
-    // Offset: 0x1592A34
+    // Offset: 0x1781EE4
     HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* get_TilemapSettings();
     // public System.Boolean IsAssetInput()
-    // Offset: 0x1592A24
+    // Offset: 0x1781ED4
     bool IsAssetInput();
     // static public HoudiniEngineUnity.HEU_InputNode CreateSetupInput(System.Int32 nodeID, System.Int32 inputIndex, System.String inputName, System.String labelName, HoudiniEngineUnity.HEU_InputNode/HoudiniEngineUnity.InputNodeType inputNodeType, HoudiniEngineUnity.HEU_HoudiniAsset parentAsset)
-    // Offset: 0x1592A3C
+    // Offset: 0x1781EEC
     static HoudiniEngineUnity::HEU_InputNode* CreateSetupInput(int nodeID, int inputIndex, ::StringW inputName, ::StringW labelName, HoudiniEngineUnity::HEU_InputNode::InputNodeType inputNodeType, HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
     // public System.Void SetInputNodeID(System.Int32 nodeID)
-    // Offset: 0x1592AD4
+    // Offset: 0x1781F84
     void SetInputNodeID(int nodeID);
     // public System.Void DestroyAllData(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1592ADC
+    // Offset: 0x1781F8C
     void DestroyAllData(HoudiniEngineUnity::HEU_SessionBase* session);
     // private System.Void ResetInputObjectTransforms()
-    // Offset: 0x1592D50
+    // Offset: 0x1782200
     void ResetInputObjectTransforms();
     // public System.Void ResetInputNode(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1592E24
+    // Offset: 0x17822D4
     void ResetInputNode(HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void InsertInputEntry(System.Int32 index, UnityEngine.GameObject newInputGameObject)
-    // Offset: 0x1592EFC
+    // Offset: 0x17823AC
     void InsertInputEntry(int index, UnityEngine::GameObject* newInputGameObject);
     // public UnityEngine.GameObject GetInputEntryGameObject(System.Int32 index)
-    // Offset: 0x1593238
+    // Offset: 0x17826E8
     UnityEngine::GameObject* GetInputEntryGameObject(int index);
     // public System.Void AddInputEntryAtEnd(UnityEngine.GameObject newEntryGameObject)
-    // Offset: 0x1593440
+    // Offset: 0x17828F0
     void AddInputEntryAtEnd(UnityEngine::GameObject* newEntryGameObject);
     // public HoudiniEngineUnity.HEU_InputObjectInfo AddInputEntryAtEndMesh(UnityEngine.GameObject newEntryGameObject)
-    // Offset: 0x15935E0
+    // Offset: 0x1782A90
     HoudiniEngineUnity::HEU_InputObjectInfo* AddInputEntryAtEndMesh(UnityEngine::GameObject* newEntryGameObject);
     // public System.Void RemoveAllInputEntries()
-    // Offset: 0x1592CE0
+    // Offset: 0x1782190
     void RemoveAllInputEntries();
     // public System.Int32 NumInputEntries()
-    // Offset: 0x159360C
+    // Offset: 0x1782ABC
     int NumInputEntries();
     // public System.Void ChangeInputType(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_InputNode/HoudiniEngineUnity.InputObjectType newType)
-    // Offset: 0x1592EC8
+    // Offset: 0x1782378
     void ChangeInputType(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_InputNode::InputObjectType newType);
     // public System.Void ResetConnectionForForceUpdate(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1592E74
+    // Offset: 0x1782324
     void ResetConnectionForForceUpdate(HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void UploadInput(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1593C04
+    // Offset: 0x17830B4
     void UploadInput(HoudiniEngineUnity::HEU_SessionBase* session);
     // private System.Void UploadHDAInput(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1593FC4
+    // Offset: 0x1783474
     void UploadHDAInput(HoudiniEngineUnity::HEU_SessionBase* session);
     // private System.Void UploadUnityInput(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x15941F8
+    // Offset: 0x17836A8
     void UploadUnityInput(HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Boolean AreAnyInputHDAsConnected()
-    // Offset: 0x159368C
+    // Offset: 0x1782B3C
     bool AreAnyInputHDAsConnected();
     // public System.Void ReconnectToUpstreamAsset()
-    // Offset: 0x15956F4
+    // Offset: 0x1784BA4
     void ReconnectToUpstreamAsset();
     // private HoudiniEngineUnity.HEU_InputObjectInfo CreateInputObjectInfo(UnityEngine.GameObject inputGameObject)
-    // Offset: 0x1593148
+    // Offset: 0x17825F8
     HoudiniEngineUnity::HEU_InputObjectInfo* CreateInputObjectInfo(UnityEngine::GameObject* inputGameObject);
     // private HoudiniEngineUnity.HEU_InputHDAInfo CreateInputHDAInfo(UnityEngine.GameObject inputGameObject)
-    // Offset: 0x15931B8
+    // Offset: 0x1782668
     HoudiniEngineUnity::HEU_InputHDAInfo* CreateInputHDAInfo(UnityEngine::GameObject* inputGameObject);
     // private HoudiniEngineUnity.HEU_InputObjectInfo InternalAddInputObjectAtEnd(UnityEngine.GameObject newInputGameObject)
-    // Offset: 0x15934E0
+    // Offset: 0x1782990
     HoudiniEngineUnity::HEU_InputObjectInfo* InternalAddInputObjectAtEnd(UnityEngine::GameObject* newInputGameObject);
     // private HoudiniEngineUnity.HEU_InputHDAInfo InternalAddInputHDAAtEnd(UnityEngine.GameObject newInputHDA)
-    // Offset: 0x1593560
+    // Offset: 0x1782A10
     HoudiniEngineUnity::HEU_InputHDAInfo* InternalAddInputHDAAtEnd(UnityEngine::GameObject* newInputHDA);
     // private System.Void DisconnectConnectedMergeNode(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x15937CC
+    // Offset: 0x1782C7C
     void DisconnectConnectedMergeNode(HoudiniEngineUnity::HEU_SessionBase* session);
     // private System.Void ClearConnectedInputHDAs()
-    // Offset: 0x1593A0C
+    // Offset: 0x1782EBC
     void ClearConnectedInputHDAs();
     // private System.Void ConnectToMergeObject(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1594BD0
+    // Offset: 0x1784080
     void ConnectToMergeObject(HoudiniEngineUnity::HEU_SessionBase* session);
     // private System.Void DisconnectAndDestroyInputs(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1592B0C
+    // Offset: 0x1781FBC
     void DisconnectAndDestroyInputs(HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Int32 GetConnectedInputCount()
-    // Offset: 0x15959FC
+    // Offset: 0x1784EAC
     int GetConnectedInputCount();
     // public System.Int32 GetConnectedNodeID(System.Int32 index)
-    // Offset: 0x1595A7C
+    // Offset: 0x1784F2C
     int GetConnectedNodeID(int index);
     // public System.Boolean UploadObjectMergeTransformType(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1594DC8
+    // Offset: 0x1784278
     bool UploadObjectMergeTransformType(HoudiniEngineUnity::HEU_SessionBase* session);
     // private System.Boolean UploadObjectMergePackGeometry(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1594EE4
+    // Offset: 0x1784394
     bool UploadObjectMergePackGeometry(HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Boolean HasInputNodeTransformChanged()
-    // Offset: 0x1595B54
+    // Offset: 0x1785004
     bool HasInputNodeTransformChanged();
     // public System.Void UploadInputObjectTransforms(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x1595E10
+    // Offset: 0x17852C0
     void UploadInputObjectTransforms(HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void UpdateOnAssetRecreation(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x159630C
+    // Offset: 0x17857BC
     void UpdateOnAssetRecreation(HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void CopyInputValuesTo(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_InputNode destInputNode)
-    // Offset: 0x1596494
+    // Offset: 0x1785944
     void CopyInputValuesTo(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_InputNode* destInputNode);
     // public System.Void PopulateInputPreset(HoudiniEngineUnity.HEU_InputPreset inputPreset)
-    // Offset: 0x159673C
+    // Offset: 0x1785BEC
     void PopulateInputPreset(HoudiniEngineUnity::HEU_InputPreset* inputPreset);
     // public System.Void LoadPreset(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_InputPreset inputPreset)
-    // Offset: 0x1596BE0
+    // Offset: 0x1786090
     void LoadPreset(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_InputPreset* inputPreset);
     // private System.Boolean FindAddToInputHDA(System.String gameObjectName)
-    // Offset: 0x1597168
+    // Offset: 0x1786618
     bool FindAddToInputHDA(::StringW gameObjectName);
     // public System.Void NotifyParentRemovedInput()
-    // Offset: 0x15972C4
+    // Offset: 0x1786774
     void NotifyParentRemovedInput();
     // public System.Void ClearUICache()
-    // Offset: 0x1592B04
+    // Offset: 0x1781FB4
     void ClearUICache();
     // public System.Void HandleSelectedObjectsForInputObjects(UnityEngine.GameObject[] selectedObjects)
-    // Offset: 0x159735C
+    // Offset: 0x178680C
     void HandleSelectedObjectsForInputObjects(::ArrayW<UnityEngine::GameObject*> selectedObjects);
     // public System.Void HandleSelectedObjectsForInputHDAs(UnityEngine.GameObject[] selectedObjects)
-    // Offset: 0x159749C
+    // Offset: 0x178694C
     void HandleSelectedObjectsForInputHDAs(::ArrayW<UnityEngine::GameObject*> selectedObjects);
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_InputNode other)
-    // Offset: 0x15975DC
+    // Offset: 0x1786A8C
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_InputNode* other);
     // static public HoudiniEngineUnity.HEU_InputNode/HoudiniEngineUnity.InternalObjectType GetInternalObjectType(HoudiniEngineUnity.HEU_InputNode/HoudiniEngineUnity.InputObjectType type)
-    // Offset: 0x1593128
+    // Offset: 0x17825D8
     static HoudiniEngineUnity::HEU_InputNode::InternalObjectType GetInternalObjectType(HoudiniEngineUnity::HEU_InputNode::InputObjectType type);
     // public System.Void .ctor()
-    // Offset: 0x15978FC
+    // Offset: 0x1786DAC
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

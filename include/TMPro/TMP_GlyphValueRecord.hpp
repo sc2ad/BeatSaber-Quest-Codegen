@@ -76,44 +76,44 @@ namespace TMPro {
     // Get instance field reference: private System.Single m_YAdvance
     float& dyn_m_YAdvance();
     // public System.Single get_xPlacement()
-    // Offset: 0x124E310
+    // Offset: 0x1413E40
     float get_xPlacement();
     // public System.Void set_xPlacement(System.Single value)
-    // Offset: 0x124E318
+    // Offset: 0x1413E48
     void set_xPlacement(float value);
     // public System.Single get_yPlacement()
-    // Offset: 0x124E320
+    // Offset: 0x1413E50
     float get_yPlacement();
     // public System.Void set_yPlacement(System.Single value)
-    // Offset: 0x124E328
+    // Offset: 0x1413E58
     void set_yPlacement(float value);
     // public System.Single get_xAdvance()
-    // Offset: 0x124E330
+    // Offset: 0x1413E60
     float get_xAdvance();
     // public System.Void set_xAdvance(System.Single value)
-    // Offset: 0x124E338
+    // Offset: 0x1413E68
     void set_xAdvance(float value);
     // public System.Single get_yAdvance()
-    // Offset: 0x124E340
+    // Offset: 0x1413E70
     float get_yAdvance();
     // public System.Void set_yAdvance(System.Single value)
-    // Offset: 0x124E348
+    // Offset: 0x1413E78
     void set_yAdvance(float value);
     // public System.Void .ctor(System.Single xPlacement, System.Single yPlacement, System.Single xAdvance, System.Single yAdvance)
-    // Offset: 0x124C998
+    // Offset: 0x14124C8
     // ABORTED: conflicts with another method.  TMP_GlyphValueRecord(float xPlacement, float yPlacement, float xAdvance, float yAdvance);
     // System.Void .ctor(TMPro.GlyphValueRecord_Legacy valueRecord)
-    // Offset: 0x124E350
+    // Offset: 0x1413E80
     TMP_GlyphValueRecord(TMPro::GlyphValueRecord_Legacy valueRecord);
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphValueRecord valueRecord)
-    // Offset: 0x124E244
+    // Offset: 0x1413D74
     TMP_GlyphValueRecord(UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord);
   }; // TMPro.TMP_GlyphValueRecord
   #pragma pack(pop)
   static check_size<sizeof(TMP_GlyphValueRecord), 12 + sizeof(float)> __TMPro_TMP_GlyphValueRecordSizeCheck;
   static_assert(sizeof(TMP_GlyphValueRecord) == 0x10);
   // static public TMPro.TMP_GlyphValueRecord op_Addition(TMPro.TMP_GlyphValueRecord a, TMPro.TMP_GlyphValueRecord b)
-  // Offset: 0x124E35C
+  // Offset: 0x1413E8C
   TMPro::TMP_GlyphValueRecord operator+(const TMPro::TMP_GlyphValueRecord& a, const TMPro::TMP_GlyphValueRecord& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -20,7 +20,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -50,7 +49,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [ColorUsageAttribute] Offset: 0xF2289C
+    // [ColorUsageAttribute] Offset: 0x12293DC
     // public UnityEngine.Color color
     // Size: 0x10
     // Offset: 0x18
@@ -93,16 +92,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single radius
     float& dyn_radius();
     // static public System.Collections.Generic.List`1<DirectionalLight> get_lights()
-    // Offset: 0x1DB3BA0
+    // Offset: 0x2088444
     static System::Collections::Generic::List_1<GlobalNamespace::DirectionalLight*>* get_lights();
     // protected System.Void OnEnable()
-    // Offset: 0x1DB3C08
+    // Offset: 0x20884AC
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1DB3C8C
+    // Offset: 0x2088530
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x1DB3D10
+    // Offset: 0x20885B4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -115,7 +114,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<DirectionalLight*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1DB3D20
+    // Offset: 0x20885C4
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

@@ -133,66 +133,66 @@ namespace UnityEngine {
     // Get instance field reference: private UnityEngine.GUIStyle m_Style
     UnityEngine::GUIStyle*& dyn_m_Style();
     // public UnityEngine.GUIStyle get_style()
-    // Offset: 0x1CEC804
+    // Offset: 0x1F5F04C
     UnityEngine::GUIStyle* get_style();
     // public System.Void set_style(UnityEngine.GUIStyle value)
-    // Offset: 0x1CEC80C
+    // Offset: 0x1F5F054
     void set_style(UnityEngine::GUIStyle* value);
     // public System.Int32 get_marginLeft()
-    // Offset: 0x1CEC81C
+    // Offset: 0x1F5F064
     int get_marginLeft();
     // public System.Int32 get_marginRight()
-    // Offset: 0x1CEC844
+    // Offset: 0x1F5F08C
     int get_marginRight();
     // public System.Int32 get_marginTop()
-    // Offset: 0x1CEC86C
+    // Offset: 0x1F5F0B4
     int get_marginTop();
     // public System.Int32 get_marginBottom()
-    // Offset: 0x1CEC894
+    // Offset: 0x1F5F0DC
     int get_marginBottom();
     // public System.Int32 get_marginHorizontal()
-    // Offset: 0x1CEC8BC
+    // Offset: 0x1F5F104
     int get_marginHorizontal();
     // public System.Int32 get_marginVertical()
-    // Offset: 0x1CEC8FC
+    // Offset: 0x1F5F144
     int get_marginVertical();
     // public System.Void .ctor(System.Single _minWidth, System.Single _maxWidth, System.Single _minHeight, System.Single _maxHeight, UnityEngine.GUIStyle _style)
-    // Offset: 0x1CEC93C
+    // Offset: 0x1F5F184
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUILayoutEntry* New_ctor(float _minWidth, float _maxWidth, float _minHeight, float _maxHeight, UnityEngine::GUIStyle* _style) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUILayoutEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUILayoutEntry*, creationType>(_minWidth, _maxWidth, _minHeight, _maxHeight, _style)));
     }
     // public System.Void .ctor(System.Single _minWidth, System.Single _maxWidth, System.Single _minHeight, System.Single _maxHeight, UnityEngine.GUIStyle _style, UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1CECA58
+    // Offset: 0x1F5F2A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GUILayoutEntry* New_ctor(float _minWidth, float _maxWidth, float _minHeight, float _maxHeight, UnityEngine::GUIStyle* _style, ::ArrayW<UnityEngine::GUILayoutOption*> options) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUILayoutEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUILayoutEntry*, creationType>(_minWidth, _maxWidth, _minHeight, _maxHeight, _style, options)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1CED600
+    // Offset: 0x1F5FE48
     static void _cctor();
     // public System.Void CalcWidth()
-    // Offset: 0x1CECB6C
+    // Offset: 0x1F5F3B4
     void CalcWidth();
     // public System.Void CalcHeight()
-    // Offset: 0x1CECB70
+    // Offset: 0x1F5F3B8
     void CalcHeight();
     // public System.Void SetHorizontal(System.Single x, System.Single width)
-    // Offset: 0x1CECB74
+    // Offset: 0x1F5F3BC
     void SetHorizontal(float x, float width);
     // public System.Void SetVertical(System.Single y, System.Single height)
-    // Offset: 0x1CECBB4
+    // Offset: 0x1F5F3FC
     void SetVertical(float y, float height);
     // protected System.Void ApplyStyleSettings(UnityEngine.GUIStyle style)
-    // Offset: 0x1CECBF4
+    // Offset: 0x1F5F43C
     void ApplyStyleSettings(UnityEngine::GUIStyle* style);
     // public System.Void ApplyOptions(UnityEngine.GUILayoutOption[] options)
-    // Offset: 0x1CECD7C
+    // Offset: 0x1F5F5C4
     void ApplyOptions(::ArrayW<UnityEngine::GUILayoutOption*> options);
     // public override System.String ToString()
-    // Offset: 0x1CED058
+    // Offset: 0x1F5F8A0
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

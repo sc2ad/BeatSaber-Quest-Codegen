@@ -16,7 +16,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IList`1<T>
-  template<typename T>
   class IList_1;
 }
 // Forward declaring namespace: UnityEngine::ResourceManagement::ResourceLocations
@@ -34,7 +33,6 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Forward declaring namespace: UnityEngine::ResourceManagement::AsyncOperations
 namespace UnityEngine::ResourceManagement::AsyncOperations {
   // Forward declaring type: AsyncOperationHandle`1<TObject>
-  template<typename TObject>
   struct AsyncOperationHandle_1;
 }
 // Completed forward declares
@@ -93,10 +91,10 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Get instance field reference: public System.Int32 index
     int& dyn_index();
     // System.Void <LoadContentCatalogInternal>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> op)
-    // Offset: 0x1612488
+    // Offset: 0x17E79D8
     void $LoadContentCatalogInternal$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> op);
     // public System.Void .ctor()
-    // Offset: 0x161205C
+    // Offset: 0x17E75AC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

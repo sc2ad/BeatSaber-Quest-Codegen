@@ -19,25 +19,19 @@ namespace UnityEngine::ProBuilder {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
   // Forward declaring type: IList`1<T>
-  template<typename T>
   class IList_1;
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: IComparable`1<T>
-  template<typename T>
   class IComparable_1;
 }
 // Completed forward declares
@@ -61,10 +55,8 @@ namespace UnityEngine::ProBuilder {
     // Nested type: UnityEngine::ProBuilder::ArrayUtility::SearchRange
     struct SearchRange;
     // Nested type: UnityEngine::ProBuilder::ArrayUtility::$$c__DisplayClass21_0_2<TSource, TKey>
-    template<typename TSource, typename TKey>
     class $$c__DisplayClass21_0_2;
     // Nested type: UnityEngine::ProBuilder::ArrayUtility::$$c__23_1<T>
-    template<typename T>
     class $$c__23_1;
     // static public T[] ValuesWithIndexes(T[] arr, System.Int32[] indexes)
     // Offset: 0xFFFFFFFF

@@ -49,22 +49,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _startAudioListenerPauseState
     bool& dyn__startAudioListenerPauseState();
     // public System.Boolean get_isPaused()
-    // Offset: 0x1315020
+    // Offset: 0x149026C
     bool get_isPaused();
     // protected System.Void Awake()
-    // Offset: 0x1315028
+    // Offset: 0x1490274
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1315054
+    // Offset: 0x14902A0
     void OnDestroy();
     // public System.Void Pause()
-    // Offset: 0x1315060
+    // Offset: 0x14902AC
     void Pause();
     // public System.Void Resume()
-    // Offset: 0x131506C
+    // Offset: 0x14902B8
     void Resume();
     // public System.Void .ctor()
-    // Offset: 0x1315078
+    // Offset: 0x14902C4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

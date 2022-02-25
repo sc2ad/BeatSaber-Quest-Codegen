@@ -16,7 +16,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -28,7 +27,6 @@ namespace UnityEngine {
 // Type namespace: Tweening
 namespace Tweening {
   // Forward declaring type: Tween`1<T>
-  template<typename T>
   class Tween_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

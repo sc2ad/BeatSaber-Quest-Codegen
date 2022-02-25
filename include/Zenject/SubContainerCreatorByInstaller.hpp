@@ -30,10 +30,8 @@ namespace Zenject {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
 }
 // Completed forward declares
@@ -101,21 +99,21 @@ namespace Zenject {
     // Get instance field reference: private readonly Zenject.SubContainerCreatorBindInfo _containerBindInfo
     Zenject::SubContainerCreatorBindInfo*& dyn__containerBindInfo();
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.SubContainerCreatorBindInfo containerBindInfo, System.Type installerType, System.Collections.Generic.IEnumerable`1<Zenject.TypeValuePair> extraArgs)
-    // Offset: 0x2194334
+    // Offset: 0x2469B6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorByInstaller* New_ctor(Zenject::DiContainer* container, Zenject::SubContainerCreatorBindInfo* containerBindInfo, System::Type* installerType, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>* extraArgs) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerCreatorByInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorByInstaller*, creationType>(container, containerBindInfo, installerType, extraArgs)));
     }
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.SubContainerCreatorBindInfo containerBindInfo, System.Type installerType)
-    // Offset: 0x2191604
+    // Offset: 0x2466E3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorByInstaller* New_ctor(Zenject::DiContainer* container, Zenject::SubContainerCreatorBindInfo* containerBindInfo, System::Type* installerType) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerCreatorByInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerCreatorByInstaller*, creationType>(container, containerBindInfo, installerType)));
     }
     // public Zenject.DiContainer CreateSubContainer(System.Collections.Generic.List`1<Zenject.TypeValuePair> args, Zenject.InjectContext context)
-    // Offset: 0x2194408
+    // Offset: 0x2469C40
     Zenject::DiContainer* CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* context);
   }; // Zenject.SubContainerCreatorByInstaller
   #pragma pack(pop)

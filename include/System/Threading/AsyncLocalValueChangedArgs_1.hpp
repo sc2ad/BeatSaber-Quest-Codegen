@@ -14,7 +14,6 @@
 // Type namespace: System.Threading
 namespace System::Threading {
   // Forward declaring type: AsyncLocalValueChangedArgs`1<T>
-  template<typename T>
   struct AsyncLocalValueChangedArgs_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -29,17 +28,17 @@ namespace System::Threading {
   struct AsyncLocalValueChangedArgs_1/*, public System::ValueType*/ {
     public:
     public:
-    // [CompilerGeneratedAttribute] Offset: 0xEA4EC0
+    // [CompilerGeneratedAttribute] Offset: 0x118E970
     // private T <PreviousValue>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T PreviousValue;
-    // [CompilerGeneratedAttribute] Offset: 0xEA4ED0
+    // [CompilerGeneratedAttribute] Offset: 0x118E980
     // private T <CurrentValue>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T CurrentValue;
-    // [CompilerGeneratedAttribute] Offset: 0xEA4EE0
+    // [CompilerGeneratedAttribute] Offset: 0x118E990
     // private System.Boolean <ThreadContextChanged>k__BackingField
     // Size: 0x1
     // Offset: 0x0

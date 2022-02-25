@@ -17,7 +17,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -70,22 +69,22 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Behaviour[] _components
     ::ArrayW<UnityEngine::Behaviour*>& dyn__components();
     // public System.Void add_VisibilityChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1393FD0
+    // Offset: 0x2C1B96C
     void add_VisibilityChangedEvent(System::Action_1<bool>* value);
     // public System.Void remove_VisibilityChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x1394074
+    // Offset: 0x2C1BA10
     void remove_VisibilityChangedEvent(System::Action_1<bool>* value);
     // protected System.Void Awake()
-    // Offset: 0x1394118
+    // Offset: 0x2C1BAB4
     void Awake();
     // protected System.Void OnBecameVisible()
-    // Offset: 0x1394188
+    // Offset: 0x2C1BB24
     void OnBecameVisible();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0x1394240
+    // Offset: 0x2C1BBDC
     void OnBecameInvisible();
     // public System.Void .ctor()
-    // Offset: 0x13942F8
+    // Offset: 0x2C1BC94
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

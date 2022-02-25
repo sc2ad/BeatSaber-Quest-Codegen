@@ -50,21 +50,21 @@ namespace Zenject {
     protected:
     #endif
     #endif
-    // [InjectLocalAttribute] Offset: 0xF03A88
+    // [InjectLocalAttribute] Offset: 0x11F8F00
     // private Zenject.TickableManager _tickableManager
     // Size: 0x8
     // Offset: 0x18
     Zenject::TickableManager* tickableManager;
     // Field size check
     static_assert(sizeof(Zenject::TickableManager*) == 0x8);
-    // [InjectLocalAttribute] Offset: 0xF03A98
+    // [InjectLocalAttribute] Offset: 0x11F8F10
     // private Zenject.InitializableManager _initializableManager
     // Size: 0x8
     // Offset: 0x20
     Zenject::InitializableManager* initializableManager;
     // Field size check
     static_assert(sizeof(Zenject::InitializableManager*) == 0x8);
-    // [InjectLocalAttribute] Offset: 0xF03AA8
+    // [InjectLocalAttribute] Offset: 0x11F8F20
     // private Zenject.DisposableManager _disposablesManager
     // Size: 0x8
     // Offset: 0x28
@@ -97,40 +97,40 @@ namespace Zenject {
     // Get instance field reference: private System.Boolean _isDestroyed
     bool& dyn__isDestroyed();
     // protected System.Boolean get_IsDestroyed()
-    // Offset: 0x18DB54C
+    // Offset: 0x1B0BBDC
     bool get_IsDestroyed();
     // public System.Void Start()
-    // Offset: 0x18DB554
+    // Offset: 0x1B0BBE4
     void Start();
     // public System.Void Initialize()
-    // Offset: 0x18DB558
+    // Offset: 0x1B0BBE8
     void Initialize();
     // public System.Void Update()
-    // Offset: 0x18DB58C
+    // Offset: 0x1B0BC1C
     void Update();
     // public System.Void FixedUpdate()
-    // Offset: 0x18DB5A0
+    // Offset: 0x1B0BC30
     void FixedUpdate();
     // public System.Void LateUpdate()
-    // Offset: 0x18DB5B4
+    // Offset: 0x1B0BC44
     void LateUpdate();
     // public System.Void OnDestroy()
-    // Offset: 0x18DB5C8
+    // Offset: 0x1B0BC58
     void OnDestroy();
     // static private System.Void __zenFieldSetter0(System.Object P_0, System.Object P_1)
-    // Offset: 0x18DB63C
+    // Offset: 0x1B0BCCC
     static void __zenFieldSetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1);
     // static private System.Void __zenFieldSetter1(System.Object P_0, System.Object P_1)
-    // Offset: 0x18DB710
+    // Offset: 0x1B0BDA0
     static void __zenFieldSetter1(::Il2CppObject* P_0, ::Il2CppObject* P_1);
     // static private System.Void __zenFieldSetter2(System.Object P_0, System.Object P_1)
-    // Offset: 0x18DB7E4
+    // Offset: 0x1B0BE74
     static void __zenFieldSetter2(::Il2CppObject* P_0, ::Il2CppObject* P_1);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x18DB8B8
+    // Offset: 0x1B0BF48
     static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // protected System.Void .ctor()
-    // Offset: 0x18DB634
+    // Offset: 0x1B0BCC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

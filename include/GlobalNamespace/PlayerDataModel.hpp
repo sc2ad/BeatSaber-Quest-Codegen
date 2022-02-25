@@ -65,29 +65,32 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerDataFileManagerSO*& dyn__playerDataFileManager();
     // Get instance field reference: private PlayerData _playerData
     GlobalNamespace::PlayerData*& dyn__playerData();
+    // public PlayerDataFileManagerSO get_playerDataFileManager()
+    // Offset: 0x13E1BA4
+    GlobalNamespace::PlayerDataFileManagerSO* get_playerDataFileManager();
     // public PlayerData get_playerData()
-    // Offset: 0x11A8704
+    // Offset: 0x13E1BAC
     GlobalNamespace::PlayerData* get_playerData();
     // protected System.Void OnEnable()
-    // Offset: 0x11A870C
+    // Offset: 0x13E1BB4
     void OnEnable();
     // protected System.Void OnApplicationPause(System.Boolean pauseStatus)
-    // Offset: 0x11A8744
+    // Offset: 0x13E1BE8
     void OnApplicationPause(bool pauseStatus);
     // protected System.Void OnDisable()
-    // Offset: 0x11A8774
+    // Offset: 0x13E1C14
     void OnDisable();
     // public System.Void ResetData()
-    // Offset: 0x11A8778
+    // Offset: 0x13E1C18
     void ResetData();
     // public System.Void Save()
-    // Offset: 0x11A8750
+    // Offset: 0x13E1BF4
     void Save();
     // public System.Void Load()
-    // Offset: 0x11A8710
+    // Offset: 0x13E1BB8
     void Load();
     // public System.Void .ctor()
-    // Offset: 0x11A87AC
+    // Offset: 0x13E1C48
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -105,6 +108,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerDataModel) == 0x28);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::PlayerDataModel::get_playerDataFileManager
+// Il2CppName: get_playerDataFileManager
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerDataFileManagerSO* (GlobalNamespace::PlayerDataModel::*)()>(&GlobalNamespace::PlayerDataModel::get_playerDataFileManager)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataModel*), "get_playerDataFileManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::PlayerDataModel::get_playerData
 // Il2CppName: get_playerData
 template<>

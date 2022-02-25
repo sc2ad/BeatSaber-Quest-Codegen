@@ -16,23 +16,19 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Queue`1<T>
-  template<typename T>
   class Queue_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`1<TResult>
-  template<typename TResult>
   class Func_1;
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Forward declaring type: ObjectPool`1<T>
-  template<typename T>
   class ObjectPool_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

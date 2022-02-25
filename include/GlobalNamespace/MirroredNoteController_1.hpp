@@ -22,12 +22,10 @@ namespace GlobalNamespace {
   // Forward declaring type: INoteMirrorable
   class INoteMirrorable;
   // Forward declaring type: LazyCopyHashSet`1<T>
-  template<typename T>
   class LazyCopyHashSet_1;
   // Forward declaring type: INoteControllerDidInitEvent
   class INoteControllerDidInitEvent;
   // Forward declaring type: ILazyCopyHashSet`1<T>
-  template<typename T>
   class ILazyCopyHashSet_1;
   // Forward declaring type: NoteData
   class NoteData;
@@ -41,7 +39,6 @@ namespace UnityEngine {
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: MirroredNoteController`1<T>
-  template<typename T>
   class MirroredNoteController_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

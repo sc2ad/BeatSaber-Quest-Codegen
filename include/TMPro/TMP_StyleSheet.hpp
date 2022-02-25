@@ -16,10 +16,8 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: TMPro
@@ -77,31 +75,31 @@ namespace TMPro {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_Style> m_StyleDictionary
     System::Collections::Generic::Dictionary_2<int, TMPro::TMP_Style*>*& dyn_m_StyleDictionary();
     // static public TMPro.TMP_StyleSheet get_instance()
-    // Offset: 0x1263104
+    // Offset: 0x1457A40
     static TMPro::TMP_StyleSheet* get_instance();
     // static public TMPro.TMP_StyleSheet LoadDefaultStyleSheet()
-    // Offset: 0x12633E4
+    // Offset: 0x1457D20
     static TMPro::TMP_StyleSheet* LoadDefaultStyleSheet();
     // static public TMPro.TMP_Style GetStyle(System.Int32 hashCode)
-    // Offset: 0x12633E8
+    // Offset: 0x1457D24
     static TMPro::TMP_Style* GetStyle(int hashCode);
     // private TMPro.TMP_Style GetStyleInternal(System.Int32 hashCode)
-    // Offset: 0x1263414
+    // Offset: 0x1457D50
     TMPro::TMP_Style* GetStyleInternal(int hashCode);
     // public System.Void UpdateStyleDictionaryKey(System.Int32 old_key, System.Int32 new_key)
-    // Offset: 0x1263494
+    // Offset: 0x1457DD0
     void UpdateStyleDictionaryKey(int old_key, int new_key);
     // static public System.Void UpdateStyleSheet()
-    // Offset: 0x1263570
+    // Offset: 0x1457EAC
     static void UpdateStyleSheet();
     // static public System.Void RefreshStyles()
-    // Offset: 0x12635C0
+    // Offset: 0x1457EFC
     static void RefreshStyles();
     // private System.Void LoadStyleDictionaryInternal()
-    // Offset: 0x126326C
+    // Offset: 0x1457BA8
     void LoadStyleDictionaryInternal();
     // public System.Void .ctor()
-    // Offset: 0x12635DC
+    // Offset: 0x1457F18
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -21,7 +21,6 @@ namespace GlobalNamespace {
   // Forward declaring type: TubeBloomPrePassLight
   class TubeBloomPrePassLight;
   // Forward declaring type: RandomObjectPicker`1<T>
-  template<typename T>
   class RandomObjectPicker_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -176,22 +175,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private RandomObjectPicker`1<UnityEngine.AudioClip> _sparksAudioClipPicker
     GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*& dyn__sparksAudioClipPicker();
     // protected System.Void Awake()
-    // Offset: 0x11E62BC
+    // Offset: 0x2AC4C5C
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x11E633C
+    // Offset: 0x2AC4CDC
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x11E6384
+    // Offset: 0x2AC4D24
     void OnEnable();
     // private System.Collections.IEnumerator FlickeringCoroutine()
-    // Offset: 0x11E63B0
+    // Offset: 0x2AC4D50
     System::Collections::IEnumerator* FlickeringCoroutine();
     // private System.Void SetOn(System.Boolean on)
-    // Offset: 0x11E644C
+    // Offset: 0x2AC4DEC
     void SetOn(bool on);
     // public System.Void .ctor()
-    // Offset: 0x11E6568
+    // Offset: 0x2AC4F08
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

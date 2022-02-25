@@ -52,20 +52,20 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Get instance field reference: private readonly System.Collections.IEnumerator e
     System::Collections::IEnumerator*& dyn_e();
     // public System.Object get_Current()
-    // Offset: 0x1C20598
+    // Offset: 0x1E3681C
     ::Il2CppObject* get_Current();
     // System.Void .ctor(System.Collections.IEnumerator e)
-    // Offset: 0x1C20408
+    // Offset: 0x1E3668C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator* New_ctor(System::Collections::IEnumerator* e) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator*, creationType>(e)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1C20434
+    // Offset: 0x1E366B8
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1C204E4
+    // Offset: 0x1E36768
     void Reset();
   }; // Org.BouncyCastle.Asn1.X509.TbsCertificateList/Org.BouncyCastle.Asn1.X509.RevokedCertificatesEnumeration/Org.BouncyCastle.Asn1.X509.RevokedCertificatesEnumerator
   #pragma pack(pop)

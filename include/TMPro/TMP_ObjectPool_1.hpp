@@ -14,20 +14,17 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Stack`1<T>
-  template<typename T>
   class Stack_1;
 }
 // Forward declaring namespace: UnityEngine::Events
 namespace UnityEngine::Events {
   // Forward declaring type: UnityAction`1<T0>
-  template<typename T0>
   class UnityAction_1;
 }
 // Completed forward declares
 // Type namespace: TMPro
 namespace TMPro {
   // Forward declaring type: TMP_ObjectPool`1<T>
-  template<typename T>
   class TMP_ObjectPool_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

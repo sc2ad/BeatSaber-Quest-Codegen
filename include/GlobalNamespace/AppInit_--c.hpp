@@ -16,7 +16,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`1<TResult>
-  template<typename TResult>
   class Func_1;
 }
 // Completed forward declares
@@ -41,13 +40,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`1<System.Boolean> <>9__8_0
     static void _set_$$9__8_0(System::Func_1<bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1311468
+    // Offset: 0x148C6B4
     static void _cctor();
     // System.Boolean <StartCoroutine>b__8_0()
-    // Offset: 0x13114D4
+    // Offset: 0x148C720
     bool $StartCoroutine$b__8_0();
     // public System.Void .ctor()
-    // Offset: 0x13114CC
+    // Offset: 0x148C718
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

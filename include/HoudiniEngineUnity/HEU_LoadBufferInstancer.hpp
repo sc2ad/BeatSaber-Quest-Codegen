@@ -83,7 +83,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.String[] _collisionAssetPaths
     ::ArrayW<::StringW>& dyn__collisionAssetPaths();
     // public System.Void .ctor()
-    // Offset: 0x159869C
+    // Offset: 0x1787B4C
     // Implemented from: HoudiniEngineUnity.HEU_LoadBufferBase
     // Base method: System.Void HEU_LoadBufferBase::.ctor()
     // Base method: System.Void Object::.ctor()

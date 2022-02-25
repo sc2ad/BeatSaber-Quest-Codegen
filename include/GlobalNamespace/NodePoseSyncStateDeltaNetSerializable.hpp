@@ -21,9 +21,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: PacketPool`1<T>
-  template<typename T>
-  class PacketPool_1;
+  // Forward declaring type: IPacketPool`1<T>
+  class IPacketPool_1;
 }
 // Forward declaring namespace: LiteNetLib::Utils
 namespace LiteNetLib::Utils {
@@ -91,48 +90,44 @@ namespace GlobalNamespace {
     operator GlobalNamespace::ISyncStateDeltaSerializable_1<GlobalNamespace::NodePoseSyncState>() noexcept {
       return *reinterpret_cast<GlobalNamespace::ISyncStateDeltaSerializable_1<GlobalNamespace::NodePoseSyncState>*>(this);
     }
-    // Get static field: static public readonly PacketPool`1<NodePoseSyncStateDeltaNetSerializable> pool
-    static GlobalNamespace::PacketPool_1<GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>* _get_pool();
-    // Set static field: static public readonly PacketPool`1<NodePoseSyncStateDeltaNetSerializable> pool
-    static void _set_pool(GlobalNamespace::PacketPool_1<GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>* value);
     // Get instance field reference: private NodePoseSyncState _delta
     GlobalNamespace::NodePoseSyncState& dyn__delta();
     // Get instance field reference: private SyncStateId <baseId>k__BackingField
     GlobalNamespace::SyncStateId& dyn_$baseId$k__BackingField();
     // Get instance field reference: private System.Int32 <timeOffsetMs>k__BackingField
     int& dyn_$timeOffsetMs$k__BackingField();
+    // static public IPacketPool`1<NodePoseSyncStateDeltaNetSerializable> get_pool()
+    // Offset: 0x2CAB0A4
+    static GlobalNamespace::IPacketPool_1<GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>* get_pool();
     // public SyncStateId get_baseId()
-    // Offset: 0x1809F58
+    // Offset: 0x2CAB0EC
     GlobalNamespace::SyncStateId get_baseId();
     // public System.Void set_baseId(SyncStateId value)
-    // Offset: 0x1809F60
+    // Offset: 0x2CAB0F4
     void set_baseId(GlobalNamespace::SyncStateId value);
     // public System.Int32 get_timeOffsetMs()
-    // Offset: 0x1809F68
+    // Offset: 0x2CAB0FC
     int get_timeOffsetMs();
     // public System.Void set_timeOffsetMs(System.Int32 value)
-    // Offset: 0x1809F70
+    // Offset: 0x2CAB104
     void set_timeOffsetMs(int value);
     // public NodePoseSyncState get_delta()
-    // Offset: 0x1809F78
+    // Offset: 0x2CAB10C
     GlobalNamespace::NodePoseSyncState get_delta();
     // public System.Void set_delta(NodePoseSyncState value)
-    // Offset: 0x1809F88
+    // Offset: 0x2CAB11C
     void set_delta(GlobalNamespace::NodePoseSyncState value);
-    // static private System.Void .cctor()
-    // Offset: 0x180A134
-    static void _cctor();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1809FA4
+    // Offset: 0x2CAB138
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x180A034
+    // Offset: 0x2CAB1C8
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x180A0A8
+    // Offset: 0x2CAB23C
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x180A12C
+    // Offset: 0x2CAB2F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -146,6 +141,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(NodePoseSyncStateDeltaNetSerializable) == 0x60);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::get_pool
+// Il2CppName: get_pool
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPacketPool_1<GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>* (*)()>(&GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::get_pool)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::get_baseId
 // Il2CppName: get_baseId
 template<>
@@ -195,14 +198,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "NodePoseSyncState")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*), "set_delta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::_cctor
-// Il2CppName: .cctor
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::_cctor)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::Serialize

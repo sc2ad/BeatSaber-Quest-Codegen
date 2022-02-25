@@ -16,7 +16,6 @@ namespace System {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IList`1<T>
-  template<typename T>
   class IList_1;
 }
 // Completed forward declares
@@ -37,10 +36,10 @@ namespace System::Net {
   class AutoWebProxyScriptEngine : public ::Il2CppObject {
     public:
     // public System.Boolean GetProxies(System.Uri destination, out System.Collections.Generic.IList`1<System.String> proxyList)
-    // Offset: 0x15E1D7C
+    // Offset: 0x1AA679C
     bool GetProxies(System::Uri* destination, ByRef<System::Collections::Generic::IList_1<::StringW>*> proxyList);
     // public System.Boolean GetProxies(System.Uri destination, out System.Collections.Generic.IList`1<System.String> proxyList, ref System.Int32 syncStatus)
-    // Offset: 0x15E1D88
+    // Offset: 0x1AA67A8
     bool GetProxies(System::Uri* destination, ByRef<System::Collections::Generic::IList_1<::StringW>*> proxyList, ByRef<int> syncStatus);
   }; // System.Net.AutoWebProxyScriptEngine
   #pragma pack(pop)

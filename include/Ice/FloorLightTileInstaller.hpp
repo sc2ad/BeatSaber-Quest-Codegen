@@ -54,7 +54,7 @@ namespace Ice {
     // Get instance field reference: private Ice.FloorLightTile _floorLightTilePrefab
     Ice::FloorLightTile*& dyn__floorLightTilePrefab();
     // public System.Void .ctor()
-    // Offset: 0x26A8A4C
+    // Offset: 0x2A34AFC
     // Implemented from: Zenject.ScriptableObjectInstaller
     // Base method: System.Void ScriptableObjectInstaller::.ctor()
     // Base method: System.Void ScriptableObjectInstallerBase::.ctor()
@@ -67,7 +67,7 @@ namespace Ice {
       return THROW_UNLESS((::il2cpp_utils::New<FloorLightTileInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x26A89CC
+    // Offset: 0x2A34A7C
     // Implemented from: Zenject.ScriptableObjectInstallerBase
     // Base method: System.Void ScriptableObjectInstallerBase::InstallBindings()
     void InstallBindings();

@@ -33,7 +33,6 @@ namespace Tweening {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -81,7 +80,7 @@ namespace Ice {
     GlobalNamespace::TubeBloomPrePassLight* tubeBloomPrePassLight;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TubeBloomPrePassLight*) == 0x8);
-    // [InjectAttribute] Offset: 0xF65B74
+    // [InjectAttribute] Offset: 0x126C6A4
     // private readonly Tweening.SongTimeTweeningManager _songTimeTweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -122,25 +121,25 @@ namespace Ice {
     // Get instance field reference: private Tweening.ColorTween _fadeOutTween
     Tweening::ColorTween*& dyn__fadeOutTween();
     // protected System.Void Awake()
-    // Offset: 0x26A848C
+    // Offset: 0x2A3453C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x26A86C0
+    // Offset: 0x2A34770
     void OnDestroy();
     // public System.Void HighlightWithColor(UnityEngine.Color color, System.Single fadeInDuration, System.Single fadeOutDuration)
-    // Offset: 0x26A8770
+    // Offset: 0x2A34820
     void HighlightWithColor(UnityEngine::Color color, float fadeInDuration, float fadeOutDuration);
     // private System.Void HandleFadeInTweenOnCompleted()
-    // Offset: 0x26A887C
+    // Offset: 0x2A3492C
     void HandleFadeInTweenOnCompleted();
     // private System.Void HandleFadeOutTweenOnCompleted()
-    // Offset: 0x26A88A0
+    // Offset: 0x2A34950
     void HandleFadeOutTweenOnCompleted();
     // private System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x26A8904
+    // Offset: 0x2A349B4
     void SetColor(UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x26A8974
+    // Offset: 0x2A34A24
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

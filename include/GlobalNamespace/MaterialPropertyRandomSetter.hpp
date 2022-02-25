@@ -89,19 +89,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _propertyId
     int& dyn__propertyId();
     // protected System.Void Start()
-    // Offset: 0x1DB9E20
+    // Offset: 0x208E6C4
     void Start();
     // protected System.Void OnValidate()
-    // Offset: 0x1DB9E88
+    // Offset: 0x208E72C
     void OnValidate();
     // private System.Void RefreshPropertyId()
-    // Offset: 0x1DB9F30
+    // Offset: 0x208E7D4
     void RefreshPropertyId();
     // private System.Void ApplyParams()
-    // Offset: 0x1DB9E24
+    // Offset: 0x208E6C8
     void ApplyParams();
     // public System.Void .ctor()
-    // Offset: 0x1DB9F5C
+    // Offset: 0x208E800
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -18,13 +18,11 @@ namespace Mono::Security::Interface {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Tuple`2<T1, T2>
-  template<typename T1, typename T2>
   class Tuple_2;
 }
 // Completed forward declares
@@ -81,25 +79,25 @@ namespace Mono::Net::Security {
     // Set static field: static readonly System.Guid LegacyId
     static void _set_LegacyId(System::Guid value);
     // static private System.Void .cctor()
-    // Offset: 0x1834814
+    // Offset: 0x1A35DEC
     static void _cctor();
     // static Mono.Security.Interface.MonoTlsProvider GetProviderInternal()
-    // Offset: 0x1833A4C
+    // Offset: 0x1A35024
     static Mono::Security::Interface::MonoTlsProvider* GetProviderInternal();
     // static System.Void InitializeInternal()
-    // Offset: 0x1833B48
+    // Offset: 0x1A35120
     static void InitializeInternal();
     // static private Mono.Security.Interface.MonoTlsProvider LookupProvider(System.String name, System.Boolean throwOnError)
-    // Offset: 0x1834308
+    // Offset: 0x1A358E0
     static Mono::Security::Interface::MonoTlsProvider* LookupProvider(::StringW name, bool throwOnError);
     // static private System.Void InitializeProviderRegistration()
-    // Offset: 0x1833EA8
+    // Offset: 0x1A35480
     static void InitializeProviderRegistration();
     // static private Mono.Security.Interface.MonoTlsProvider CreateDefaultProviderImpl()
-    // Offset: 0x183426C
+    // Offset: 0x1A35844
     static Mono::Security::Interface::MonoTlsProvider* CreateDefaultProviderImpl();
     // static Mono.Security.Interface.MonoTlsProvider GetProvider()
-    // Offset: 0x182F88C
+    // Offset: 0x1A30E64
     static Mono::Security::Interface::MonoTlsProvider* GetProvider();
   }; // Mono.Net.Security.MonoTlsProviderFactory
   #pragma pack(pop)

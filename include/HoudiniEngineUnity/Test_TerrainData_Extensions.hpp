@@ -21,7 +21,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -45,13 +44,13 @@ namespace HoudiniEngineUnity {
     // Nested type: HoudiniEngineUnity::Test_TerrainData_Extensions::$$c
     class $$c;
     // static public HoudiniEngineUnity.Test_TerrainData ToTestObject(UnityEngine.TerrainData self)
-    // Offset: 0x267B3C0
+    // Offset: 0x2A0F060
     static HoudiniEngineUnity::Test_TerrainData* ToTestObject(UnityEngine::TerrainData* self);
     // static public HoudiniEngineUnity.Test_TerrainData[] ToTestObject(UnityEngine.TerrainData[] self)
-    // Offset: 0x267BB88
+    // Offset: 0x2A0F828
     static ::ArrayW<HoudiniEngineUnity::Test_TerrainData*> ToTestObject(::ArrayW<UnityEngine::TerrainData*> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_TerrainData> ToTestObject(System.Collections.Generic.List`1<UnityEngine.TerrainData> self)
-    // Offset: 0x267BC74
+    // Offset: 0x2A0F914
     static System::Collections::Generic::List_1<HoudiniEngineUnity::Test_TerrainData*>* ToTestObject(System::Collections::Generic::List_1<UnityEngine::TerrainData*>* self);
   }; // HoudiniEngineUnity.Test_TerrainData_Extensions
   #pragma pack(pop)

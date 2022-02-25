@@ -63,21 +63,24 @@ namespace System::Collections {
     }
     // Get instance field reference: private System.Collections.Hashtable _hashtable
     System::Collections::Hashtable*& dyn__hashtable();
+    // public System.Object get_SyncRoot()
+    // Offset: 0x1AD1F10
+    ::Il2CppObject* get_SyncRoot();
     // public System.Int32 get_Count()
-    // Offset: 0x1B8A058
+    // Offset: 0x1AD1F34
     int get_Count();
     // System.Void .ctor(System.Collections.Hashtable hashtable)
-    // Offset: 0x1B89E3C
+    // Offset: 0x1AD07BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hashtable::KeyCollection* New_ctor(System::Collections::Hashtable* hashtable) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Hashtable::KeyCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hashtable::KeyCollection*, creationType>(hashtable)));
     }
     // public System.Void CopyTo(System.Array array, System.Int32 arrayIndex)
-    // Offset: 0x1B89E68
+    // Offset: 0x1AD1D24
     void CopyTo(System::Array* array, int arrayIndex);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1B89FF0
+    // Offset: 0x1AD1EA8
     System::Collections::IEnumerator* GetEnumerator();
   }; // System.Collections.Hashtable/System.Collections.KeyCollection
   #pragma pack(pop)
@@ -85,6 +88,14 @@ namespace System::Collections {
   static_assert(sizeof(Hashtable::KeyCollection) == 0x18);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Collections::Hashtable::KeyCollection::get_SyncRoot
+// Il2CppName: get_SyncRoot
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::Hashtable::KeyCollection::*)()>(&System::Collections::Hashtable::KeyCollection::get_SyncRoot)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Hashtable::KeyCollection*), "get_SyncRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Collections::Hashtable::KeyCollection::get_Count
 // Il2CppName: get_Count
 template<>

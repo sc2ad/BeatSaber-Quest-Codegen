@@ -19,7 +19,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: Zenject
@@ -108,16 +107,16 @@ namespace Zenject {
     // Get instance field reference: public UnityEngine.GameObject gameObj
     UnityEngine::GameObject*& dyn_gameObj();
     // System.Void <GetAllInstancesWithInjectSplit>b__0()
-    // Offset: 0x14F4A7C
+    // Offset: 0x16D6B38
     void $GetAllInstancesWithInjectSplit$b__0();
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x14F4C3C
+    // Offset: 0x16D6CF8
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x14F4C98
+    // Offset: 0x16D6D54
     static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x14F4A74
+    // Offset: 0x16D6B30
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

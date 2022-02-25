@@ -76,49 +76,49 @@ namespace Mono::Security::X509 {
     // Get instance field reference: protected Mono.Security.ASN1 extnValue
     Mono::Security::ASN1*& dyn_extnValue();
     // public System.String get_Oid()
-    // Offset: 0x2689910
+    // Offset: 0x2A20048
     ::StringW get_Oid();
     // public System.Boolean get_Critical()
-    // Offset: 0x2689918
+    // Offset: 0x2A20050
     bool get_Critical();
     // public Mono.Security.ASN1 get_Value()
-    // Offset: 0x26898D0
+    // Offset: 0x2A20008
     Mono::Security::ASN1* get_Value();
     // public System.Void .ctor(Mono.Security.ASN1 asn1)
-    // Offset: 0x26894B0
+    // Offset: 0x2A1FBE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extension* New_ctor(Mono::Security::ASN1* asn1) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(asn1)));
     }
     // public System.Void .ctor(Mono.Security.X509.X509Extension extension)
-    // Offset: 0x2689770
+    // Offset: 0x2A1FEA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extension* New_ctor(Mono::Security::X509::X509Extension* extension) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(extension)));
     }
     // protected System.Void Decode()
-    // Offset: 0x2689908
+    // Offset: 0x2A20040
     void Decode();
     // protected System.Void Encode()
-    // Offset: 0x268990C
+    // Offset: 0x2A20044
     void Encode();
     // private System.Void WriteLine(System.Text.StringBuilder sb, System.Int32 n, System.Int32 pos)
-    // Offset: 0x2689AA0
+    // Offset: 0x2A201D8
     void WriteLine(System::Text::StringBuilder* sb, int n, int pos);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2689920
+    // Offset: 0x2A20058
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2689A80
+    // Offset: 0x2A201B8
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x2689CAC
+    // Offset: 0x2A203E4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

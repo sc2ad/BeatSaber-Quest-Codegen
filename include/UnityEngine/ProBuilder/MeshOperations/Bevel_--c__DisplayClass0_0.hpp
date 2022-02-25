@@ -17,10 +17,8 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -33,7 +31,6 @@ namespace UnityEngine::ProBuilder {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -92,13 +89,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public System.Func`2<System.Int32,System.Int32> <>9__8
     System::Func_2<int, int>*& dyn_$$9__8();
     // System.Int32 <BevelEdges>b__7(System.Int32 x)
-    // Offset: 0x1794F3C
+    // Offset: 0x19BA6D8
     int $BevelEdges$b__7(int x);
     // System.Int32 <BevelEdges>b__8(System.Int32 x)
-    // Offset: 0x1794F84
+    // Offset: 0x19BA720
     int $BevelEdges$b__8(int x);
     // public System.Void .ctor()
-    // Offset: 0x17941FC
+    // Offset: 0x19B9998
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -60,16 +60,16 @@ namespace Zenject::Internal {
     // Get instance field reference: public System.Reflection.MethodInfo methodInfo
     System::Reflection::MethodInfo*& dyn_methodInfo();
     // System.Void <ConvertMethod>b__0(System.Object obj, System.Object[] args)
-    // Offset: 0x18D3DB4
+    // Offset: 0x1B04440
     void $ConvertMethod$b__0(::Il2CppObject* obj, ::ArrayW<::Il2CppObject*> args);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x18D3DD0
+    // Offset: 0x1B0445C
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x18D3E2C
+    // Offset: 0x1B044B8
     static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x18D30CC
+    // Offset: 0x1B03758
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

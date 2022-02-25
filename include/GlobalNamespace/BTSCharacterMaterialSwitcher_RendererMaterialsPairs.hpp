@@ -21,7 +21,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -63,13 +62,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<BTSCharacterMaterialSwitcher/MaterialPairs> _materialPairs
     System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>*& dyn__materialPairs();
     // public UnityEngine.Renderer get_renderer()
-    // Offset: 0x12BE498
+    // Offset: 0x2B37090
     UnityEngine::Renderer* get_renderer();
     // public System.Collections.Generic.List`1<BTSCharacterMaterialSwitcher/MaterialPairs> get_materialPairs()
-    // Offset: 0x12BE4A0
+    // Offset: 0x2B37098
     System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>* get_materialPairs();
     // public System.Void .ctor(UnityEngine.Renderer renderer)
-    // Offset: 0x12BE4A8
+    // Offset: 0x2B370A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterMaterialSwitcher::RendererMaterialsPairs* New_ctor(UnityEngine::Renderer* renderer) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::.ctor");

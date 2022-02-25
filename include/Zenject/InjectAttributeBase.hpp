@@ -67,25 +67,25 @@ namespace Zenject {
     // Get instance field reference: private Zenject.InjectSources <Source>k__BackingField
     Zenject::InjectSources& dyn_$Source$k__BackingField();
     // public System.Boolean get_Optional()
-    // Offset: 0x26BA624
+    // Offset: 0x2A476D4
     bool get_Optional();
     // public System.Void set_Optional(System.Boolean value)
-    // Offset: 0x26BA62C
+    // Offset: 0x2A476DC
     void set_Optional(bool value);
     // public System.Object get_Id()
-    // Offset: 0x26BA638
+    // Offset: 0x2A476E8
     ::Il2CppObject* get_Id();
     // public System.Void set_Id(System.Object value)
-    // Offset: 0x26BA640
+    // Offset: 0x2A476F0
     void set_Id(::Il2CppObject* value);
     // public Zenject.InjectSources get_Source()
-    // Offset: 0x26BA648
+    // Offset: 0x2A476F8
     Zenject::InjectSources get_Source();
     // public System.Void set_Source(Zenject.InjectSources value)
-    // Offset: 0x26BA650
+    // Offset: 0x2A47700
     void set_Source(Zenject::InjectSources value);
     // protected System.Void .ctor()
-    // Offset: 0x26BA61C
+    // Offset: 0x2A476CC
     // Implemented from: Zenject.Internal.PreserveAttribute
     // Base method: System.Void PreserveAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

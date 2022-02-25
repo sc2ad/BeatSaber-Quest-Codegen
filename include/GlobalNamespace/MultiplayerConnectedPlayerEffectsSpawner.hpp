@@ -19,8 +19,8 @@ namespace GlobalNamespace {
   class NoteDebrisSpawner;
   // Forward declaring type: BombExplosionEffect
   class BombExplosionEffect;
-  // Forward declaring type: IConnectedPlayerNoteEventManager
-  class IConnectedPlayerNoteEventManager;
+  // Forward declaring type: IConnectedPlayerBeatmapObjectEventManager
+  class IConnectedPlayerBeatmapObjectEventManager;
   // Forward declaring type: NoteCutInfoNetSerializable
   class NoteCutInfoNetSerializable;
 }
@@ -62,13 +62,13 @@ namespace GlobalNamespace {
     GlobalNamespace::BombExplosionEffect* bombExplosionEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BombExplosionEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0xF3D58C
-    // private readonly IConnectedPlayerNoteEventManager _noteEventManager
+    // [InjectAttribute] Offset: 0x1243F70
+    // private readonly IConnectedPlayerBeatmapObjectEventManager _beatmapObjectEventManager
     // Size: 0x8
     // Offset: 0x28
-    GlobalNamespace::IConnectedPlayerNoteEventManager* noteEventManager;
+    GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* beatmapObjectEventManager;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::IConnectedPlayerNoteEventManager*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*) == 0x8);
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
@@ -76,19 +76,19 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteDebrisSpawner*& dyn__noteDebrisSpawner();
     // Get instance field reference: private BombExplosionEffect _bombExplosionEffect
     GlobalNamespace::BombExplosionEffect*& dyn__bombExplosionEffect();
-    // Get instance field reference: private readonly IConnectedPlayerNoteEventManager _noteEventManager
-    GlobalNamespace::IConnectedPlayerNoteEventManager*& dyn__noteEventManager();
+    // Get instance field reference: private readonly IConnectedPlayerBeatmapObjectEventManager _beatmapObjectEventManager
+    GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*& dyn__beatmapObjectEventManager();
     // protected System.Void Start()
-    // Offset: 0x11CB09C
+    // Offset: 0x142FDC0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11CB18C
+    // Offset: 0x142FEB4
     void OnDestroy();
-    // private System.Void HandleNoteEventManagerConnectedPlayerNoteWasCut(NoteCutInfoNetSerializable noteCutInfo)
-    // Offset: 0x11CB28C
-    void HandleNoteEventManagerConnectedPlayerNoteWasCut(GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
+    // private System.Void HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut(NoteCutInfoNetSerializable noteCutInfo)
+    // Offset: 0x142FFB4
+    void HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut(GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
     // public System.Void .ctor()
-    // Offset: 0x11CB488
+    // Offset: 0x14301B0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -102,7 +102,7 @@ namespace GlobalNamespace {
     }
   }; // MultiplayerConnectedPlayerEffectsSpawner
   #pragma pack(pop)
-  static check_size<sizeof(MultiplayerConnectedPlayerEffectsSpawner), 40 + sizeof(GlobalNamespace::IConnectedPlayerNoteEventManager*)> __GlobalNamespace_MultiplayerConnectedPlayerEffectsSpawnerSizeCheck;
+  static check_size<sizeof(MultiplayerConnectedPlayerEffectsSpawner), 40 + sizeof(GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*)> __GlobalNamespace_MultiplayerConnectedPlayerEffectsSpawnerSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerEffectsSpawner) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -122,13 +122,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::HandleNoteEventManagerConnectedPlayerNoteWasCut
-// Il2CppName: HandleNoteEventManagerConnectedPlayerNoteWasCut
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut
+// Il2CppName: HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::*)(GlobalNamespace::NoteCutInfoNetSerializable*)>(&GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::HandleNoteEventManagerConnectedPlayerNoteWasCut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::*)(GlobalNamespace::NoteCutInfoNetSerializable*)>(&GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut)> {
   static const MethodInfo* get() {
     static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfoNetSerializable")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner*), "HandleNoteEventManagerConnectedPlayerNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteCutInfo});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner*), "HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteCutInfo});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::New_ctor

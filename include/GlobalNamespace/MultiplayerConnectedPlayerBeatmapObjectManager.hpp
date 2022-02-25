@@ -26,17 +26,19 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: MemoryPoolContainer`1<T>
-  template<typename T>
   class MemoryPoolContainer_1;
-  // Skipping declaration: NoteController because it is already included!
-  // Forward declaring type: MemoryPoolContainer`2<T0, T1>
-  template<typename T0, typename T1>
-  class MemoryPoolContainer_2;
   // Forward declaring type: NoteCutInfoNetSerializable
   class NoteCutInfoNetSerializable;
+  // Forward declaring type: ObstacleSpawnInfoNetSerializable
+  class ObstacleSpawnInfoNetSerializable;
+  // Forward declaring type: MemoryPoolContainer`2<T0, T1>
+  class MemoryPoolContainer_2;
+  // Forward declaring type: NoteSpawnInfoNetSerializable
+  class NoteSpawnInfoNetSerializable;
   // Skipping declaration: ObstacleController because it is already included!
-  // Forward declaring type: IConnectedPlayerNoteEventManager
-  class IConnectedPlayerNoteEventManager;
+  // Forward declaring type: IConnectedPlayerBeatmapObjectEventManager
+  class IConnectedPlayerBeatmapObjectEventManager;
+  // Skipping declaration: NoteController because it is already included!
   // Forward declaring type: ObstacleData
   class ObstacleData;
   // Forward declaring type: NoteData
@@ -45,7 +47,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -64,7 +65,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerConnectedPlayerBeatmapObjectManager : public GlobalNamespace::BeatmapObjectManager/*, public System::IDisposable*/ {
     public:
-    // Writing base type padding for base size: 0x61 to desired offset: 0x64
+    // Writing base type padding for base size: 0x71 to desired offset: 0x74
     char ___base_padding[0x3] = {};
     // Nested type: GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData
     class InitData;
@@ -79,35 +80,35 @@ namespace GlobalNamespace {
     #endif
     // private System.Nullable`1<System.Single> _firstBasicNoteTime
     // Size: 0xFFFFFFFF
-    // Offset: 0x64
+    // Offset: 0x74
     System::Nullable_1<float> firstBasicNoteTime;
     // private readonly MemoryPoolContainer`1<MultiplayerConnectedPlayerGameNoteController> _gameNotePoolContainer
     // Size: 0x8
-    // Offset: 0x70
+    // Offset: 0x80
     GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* gameNotePoolContainer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*) == 0x8);
     // private readonly MemoryPoolContainer`1<MultiplayerConnectedPlayerBombNoteController> _bombNotePoolContainer
     // Size: 0x8
-    // Offset: 0x78
+    // Offset: 0x88
     GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MultiplayerConnectedPlayerBombNoteController*>* bombNotePoolContainer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MultiplayerConnectedPlayerBombNoteController*>*) == 0x8);
     // private readonly MemoryPoolContainer`2<MultiplayerConnectedPlayerObstacleController,ObstacleController> _obstaclePoolContainer
     // Size: 0x8
-    // Offset: 0x80
+    // Offset: 0x90
     GlobalNamespace::MemoryPoolContainer_2<GlobalNamespace::MultiplayerConnectedPlayerObstacleController*, GlobalNamespace::ObstacleController*>* obstaclePoolContainer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MemoryPoolContainer_2<GlobalNamespace::MultiplayerConnectedPlayerObstacleController*, GlobalNamespace::ObstacleController*>*) == 0x8);
-    // private readonly IConnectedPlayerNoteEventManager _noteEventManager
+    // private readonly IConnectedPlayerBeatmapObjectEventManager _beatmapObjectEventManager
     // Size: 0x8
-    // Offset: 0x88
-    GlobalNamespace::IConnectedPlayerNoteEventManager* noteEventManager;
+    // Offset: 0x98
+    GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* beatmapObjectEventManager;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::IConnectedPlayerNoteEventManager*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*) == 0x8);
     // private readonly MultiplayerConnectedPlayerBeatmapObjectManager/InitData _initData
     // Size: 0x8
-    // Offset: 0x90
+    // Offset: 0xA0
     GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData*) == 0x8);
@@ -124,68 +125,74 @@ namespace GlobalNamespace {
     GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::MultiplayerConnectedPlayerBombNoteController*>*& dyn__bombNotePoolContainer();
     // Get instance field reference: private readonly MemoryPoolContainer`2<MultiplayerConnectedPlayerObstacleController,ObstacleController> _obstaclePoolContainer
     GlobalNamespace::MemoryPoolContainer_2<GlobalNamespace::MultiplayerConnectedPlayerObstacleController*, GlobalNamespace::ObstacleController*>*& dyn__obstaclePoolContainer();
-    // Get instance field reference: private readonly IConnectedPlayerNoteEventManager _noteEventManager
-    GlobalNamespace::IConnectedPlayerNoteEventManager*& dyn__noteEventManager();
+    // Get instance field reference: private readonly IConnectedPlayerBeatmapObjectEventManager _beatmapObjectEventManager
+    GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*& dyn__beatmapObjectEventManager();
     // Get instance field reference: private readonly MultiplayerConnectedPlayerBeatmapObjectManager/InitData _initData
     GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData*& dyn__initData();
-    // private System.Void .ctor(MultiplayerConnectedPlayerBeatmapObjectManager/InitData initData, IConnectedPlayerNoteEventManager noteEventManager, MultiplayerConnectedPlayerGameNoteController/Pool gameNotePool, MultiplayerConnectedPlayerBombNoteController/Pool bombNotePool, MultiplayerConnectedPlayerObstacleController/Pool obstaclePool)
-    // Offset: 0x11C9B64
+    // private System.Void .ctor(MultiplayerConnectedPlayerBeatmapObjectManager/InitData initData, IConnectedPlayerBeatmapObjectEventManager beatmapObjectEventManager, MultiplayerConnectedPlayerGameNoteController/Pool gameNotePool, MultiplayerConnectedPlayerBombNoteController/Pool bombNotePool, MultiplayerConnectedPlayerObstacleController/Pool obstaclePool)
+    // Offset: 0x142E260
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MultiplayerConnectedPlayerBeatmapObjectManager* New_ctor(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData* initData, GlobalNamespace::IConnectedPlayerNoteEventManager* noteEventManager, GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::Pool* gameNotePool, GlobalNamespace::MultiplayerConnectedPlayerBombNoteController::Pool* bombNotePool, GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Pool* obstaclePool) {
+    static MultiplayerConnectedPlayerBeatmapObjectManager* New_ctor(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData* initData, GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* beatmapObjectEventManager, GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::Pool* gameNotePool, GlobalNamespace::MultiplayerConnectedPlayerBombNoteController::Pool* bombNotePool, GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Pool* obstaclePool) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerBeatmapObjectManager*, creationType>(initData, noteEventManager, gameNotePool, bombNotePool, obstaclePool)));
+      return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerBeatmapObjectManager*, creationType>(initData, beatmapObjectEventManager, gameNotePool, bombNotePool, obstaclePool)));
     }
     // public System.Void Dispose()
-    // Offset: 0x11C9D0C
+    // Offset: 0x142E550
     void Dispose();
-    // private System.Void HandleMultiplayerNoteEventManagerNoteWasCut(NoteCutInfoNetSerializable noteCutInfo)
-    // Offset: 0x11CAC88
-    void HandleMultiplayerNoteEventManagerNoteWasCut(GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
+    // private System.Void HandleMultiplayerBeatmapObjectEventManagerBeatmapObjectWasSpawned(NoteSpawnInfoNetSerializable noteSpawnInfo)
+    // Offset: 0x142F618
+    void HandleMultiplayerBeatmapObjectEventManagerBeatmapObjectWasSpawned(GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfo);
+    // private System.Void HandleMultiplayerBeatmapObjectEventManagerObstacleWasSpawned(ObstacleSpawnInfoNetSerializable obstacleSpawnInfo)
+    // Offset: 0x142F814
+    void HandleMultiplayerBeatmapObjectEventManagerObstacleWasSpawned(GlobalNamespace::ObstacleSpawnInfoNetSerializable* obstacleSpawnInfo);
+    // private System.Void HandleMultiplayerBeatmapObjectEventManagerBeatmapObjectWasCut(NoteCutInfoNetSerializable noteCutInfo)
+    // Offset: 0x142F9AC
+    void HandleMultiplayerBeatmapObjectEventManagerBeatmapObjectWasCut(GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
     // static private System.Boolean AreNotesSame(NoteController noteController, NoteCutInfoNetSerializable noteCutInfo)
-    // Offset: 0x11CAE94
+    // Offset: 0x142FBB8
     static bool AreNotesSame(GlobalNamespace::NoteController* noteController, GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
     // public override System.Collections.Generic.List`1<ObstacleController> get_activeObstacleControllers()
-    // Offset: 0x11C9B0C
+    // Offset: 0x142E208
     // Implemented from: BeatmapObjectManager
     // Base method: System.Collections.Generic.List`1<ObstacleController> BeatmapObjectManager::get_activeObstacleControllers()
     System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* get_activeObstacleControllers();
     // protected override ObstacleController SpawnObstacleInternal(ObstacleData obstacleData, BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
-    // Offset: 0x11C9E0C
+    // Offset: 0x142E79C
     // Implemented from: BeatmapObjectManager
     // Base method: ObstacleController BeatmapObjectManager::SpawnObstacleInternal(ObstacleData obstacleData, BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
     GlobalNamespace::ObstacleController* SpawnObstacleInternal(GlobalNamespace::ObstacleData* obstacleData, GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData obstacleSpawnData, float rotation);
     // protected override NoteController SpawnBombNoteInternal(NoteData bombNoteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation)
-    // Offset: 0x11C9EE4
+    // Offset: 0x142E874
     // Implemented from: BeatmapObjectManager
     // Base method: NoteController BeatmapObjectManager::SpawnBombNoteInternal(NoteData bombNoteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation)
     GlobalNamespace::NoteController* SpawnBombNoteInternal(GlobalNamespace::NoteData* bombNoteData, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation);
     // protected override NoteController SpawnBasicNoteInternal(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Single cutDirectionAngleOffset)
-    // Offset: 0x11CA00C
+    // Offset: 0x142E99C
     // Implemented from: BeatmapObjectManager
     // Base method: NoteController BeatmapObjectManager::SpawnBasicNoteInternal(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Single cutDirectionAngleOffset)
     GlobalNamespace::NoteController* SpawnBasicNoteInternal(GlobalNamespace::NoteData* noteData, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation, float cutDirectionAngleOffset);
     // protected override System.Void DespawnInternal(NoteController noteController)
-    // Offset: 0x11CA2A4
+    // Offset: 0x142EC34
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DespawnInternal(NoteController noteController)
     void DespawnInternal(GlobalNamespace::NoteController* noteController);
     // protected override System.Void DespawnInternal(ObstacleController obstacleController)
-    // Offset: 0x11CA398
+    // Offset: 0x142ED28
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DespawnInternal(ObstacleController obstacleController)
     void DespawnInternal(GlobalNamespace::ObstacleController* obstacleController);
     // public override System.Void DissolveAllObjects()
-    // Offset: 0x11CA448
+    // Offset: 0x142EDD8
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DissolveAllObjects()
     void DissolveAllObjects();
     // public override System.Void HideAllBeatmapObjects(System.Boolean hide)
-    // Offset: 0x11CA700
+    // Offset: 0x142F090
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::HideAllBeatmapObjects(System.Boolean hide)
     void HideAllBeatmapObjects(bool hide);
     // public override System.Void PauseAllBeatmapObjects(System.Boolean pause)
-    // Offset: 0x11CA9C4
+    // Offset: 0x142F354
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::PauseAllBeatmapObjects(System.Boolean pause)
     void PauseAllBeatmapObjects(bool pause);
@@ -205,13 +212,31 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::HandleMultiplayerNoteEventManagerNoteWasCut
-// Il2CppName: HandleMultiplayerNoteEventManagerNoteWasCut
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::HandleMultiplayerBeatmapObjectEventManagerBeatmapObjectWasSpawned
+// Il2CppName: HandleMultiplayerBeatmapObjectEventManagerBeatmapObjectWasSpawned
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)(GlobalNamespace::NoteCutInfoNetSerializable*)>(&GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::HandleMultiplayerNoteEventManagerNoteWasCut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)(GlobalNamespace::NoteSpawnInfoNetSerializable*)>(&GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::HandleMultiplayerBeatmapObjectEventManagerBeatmapObjectWasSpawned)> {
+  static const MethodInfo* get() {
+    static auto* noteSpawnInfo = &::il2cpp_utils::GetClassFromName("", "NoteSpawnInfoNetSerializable")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*), "HandleMultiplayerBeatmapObjectEventManagerBeatmapObjectWasSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteSpawnInfo});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::HandleMultiplayerBeatmapObjectEventManagerObstacleWasSpawned
+// Il2CppName: HandleMultiplayerBeatmapObjectEventManagerObstacleWasSpawned
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)(GlobalNamespace::ObstacleSpawnInfoNetSerializable*)>(&GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::HandleMultiplayerBeatmapObjectEventManagerObstacleWasSpawned)> {
+  static const MethodInfo* get() {
+    static auto* obstacleSpawnInfo = &::il2cpp_utils::GetClassFromName("", "ObstacleSpawnInfoNetSerializable")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*), "HandleMultiplayerBeatmapObjectEventManagerObstacleWasSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obstacleSpawnInfo});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::HandleMultiplayerBeatmapObjectEventManagerBeatmapObjectWasCut
+// Il2CppName: HandleMultiplayerBeatmapObjectEventManagerBeatmapObjectWasCut
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)(GlobalNamespace::NoteCutInfoNetSerializable*)>(&GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::HandleMultiplayerBeatmapObjectEventManagerBeatmapObjectWasCut)> {
   static const MethodInfo* get() {
     static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfoNetSerializable")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*), "HandleMultiplayerNoteEventManagerNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteCutInfo});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*), "HandleMultiplayerBeatmapObjectEventManagerBeatmapObjectWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteCutInfo});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::AreNotesSame

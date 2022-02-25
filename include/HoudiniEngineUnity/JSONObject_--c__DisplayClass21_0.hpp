@@ -22,7 +22,6 @@ namespace HoudiniEngineUnity {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: KeyValuePair`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   struct KeyValuePair_2;
 }
 // Completed forward declares
@@ -61,10 +60,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.JSONNode aNode
     HoudiniEngineUnity::JSONNode*& dyn_aNode();
     // System.Boolean <Remove>b__0(System.Collections.Generic.KeyValuePair`2<System.String,HoudiniEngineUnity.JSONNode> k)
-    // Offset: 0x178E790
+    // Offset: 0x19B4F2C
     bool $Remove$b__0(System::Collections::Generic::KeyValuePair_2<::StringW, HoudiniEngineUnity::JSONNode*> k);
     // public System.Void .ctor()
-    // Offset: 0x178E404
+    // Offset: 0x19B4BA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

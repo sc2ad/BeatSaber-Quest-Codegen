@@ -23,7 +23,6 @@ namespace Oculus::Platform {
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
   // Forward declaring type: Request`1<T>
-  template<typename T>
   class Request_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -18,10 +18,8 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Completed forward declares
@@ -50,16 +48,16 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     // Set static field: static public System.Action`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> <>9__11_0
     static void _set_$$9__11_0(System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1BE5C10
+    // Offset: 0x1E20EA0
     static void _cctor();
     // System.Int32 <RegisterEventHandler>b__8_0(UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent evt)
-    // Offset: 0x1BE5C7C
+    // Offset: 0x1E20F0C
     int $RegisterEventHandler$b__8_0(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent evt);
     // System.Void <Awake>b__11_0(UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent diagnosticEvent)
-    // Offset: 0x1BE5C84
+    // Offset: 0x1E20F14
     void $Awake$b__11_0(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent diagnosticEvent);
     // public System.Void .ctor()
-    // Offset: 0x1BE5C74
+    // Offset: 0x1E20F04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

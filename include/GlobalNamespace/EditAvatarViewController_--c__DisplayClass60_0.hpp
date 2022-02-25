@@ -18,10 +18,8 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
   // Forward declaring type: Func`1<TResult>
-  template<typename TResult>
   class Func_1;
 }
 // Completed forward declares
@@ -100,13 +98,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action`1<UnityEngine.Color> <>9__1
     System::Action_1<UnityEngine::Color>*& dyn_$$9__1();
     // System.Void <SetupColorButton>b__0()
-    // Offset: 0x11DADF4
+    // Offset: 0x13F74C8
     void $SetupColorButton$b__0();
     // System.Void <SetupColorButton>b__1(UnityEngine.Color c)
-    // Offset: 0x11DAED4
+    // Offset: 0x13F75A8
     void $SetupColorButton$b__1(UnityEngine::Color c);
     // public System.Void .ctor()
-    // Offset: 0x11DAAFC
+    // Offset: 0x13F71D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

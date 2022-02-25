@@ -39,20 +39,20 @@ namespace Zenject {
   class ZenFactoryMethod : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x26BA9E4
+    // Offset: 0x2A47A94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenFactoryMethod* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ZenFactoryMethod::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenFactoryMethod*, creationType>(object, method)));
     }
     // public System.Object Invoke(System.Object[] args)
-    // Offset: 0x26BA9F4
+    // Offset: 0x2A47AA4
     ::Il2CppObject* Invoke(::ArrayW<::Il2CppObject*> args);
     // public System.IAsyncResult BeginInvoke(System.Object[] args, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x26BAD90
+    // Offset: 0x2A47E40
     System::IAsyncResult* BeginInvoke(::ArrayW<::Il2CppObject*> args, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Object EndInvoke(System.IAsyncResult result)
-    // Offset: 0x26BADB4
+    // Offset: 0x2A47E64
     ::Il2CppObject* EndInvoke(System::IAsyncResult* result);
   }; // Zenject.ZenFactoryMethod
   #pragma pack(pop)

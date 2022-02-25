@@ -55,10 +55,10 @@ namespace HMUI {
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
     TMPro::TextMeshProUGUI*& dyn__text();
     // public System.Void SetText(System.String text)
-    // Offset: 0x14D3C08
+    // Offset: 0x16B5CC4
     void SetText(::StringW text);
     // public System.Void .ctor()
-    // Offset: 0x14D3C24
+    // Offset: 0x16B5CE0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

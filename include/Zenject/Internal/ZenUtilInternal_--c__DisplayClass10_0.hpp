@@ -56,10 +56,10 @@ namespace Zenject::Internal {
     // Get instance field reference: public UnityEngine.SceneManagement.Scene scene
     UnityEngine::SceneManagement::Scene& dyn_scene();
     // System.Boolean <GetRootGameObjects>b__1(UnityEngine.GameObject x)
-    // Offset: 0x18D91A8
+    // Offset: 0x1B09838
     bool $GetRootGameObjects$b__1(UnityEngine::GameObject* x);
     // public System.Void .ctor()
-    // Offset: 0x18D8E90
+    // Offset: 0x1B09520
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

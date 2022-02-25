@@ -29,7 +29,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Queue`1<T>
-  template<typename T>
   class Queue_1;
 }
 // Completed forward declares
@@ -70,7 +69,7 @@ namespace GlobalNamespace {
     ::ArrayW<GlobalNamespace::CountdownElementController*> countdownElementControllers;
     // Field size check
     static_assert(sizeof(::ArrayW<GlobalNamespace::CountdownElementController*>) == 0x8);
-    // [InjectAttribute] Offset: 0xF44208
+    // [InjectAttribute] Offset: 0x124AB0C
     // private readonly ITimeProvider _timeProvider
     // Size: 0x8
     // Offset: 0x28
@@ -135,22 +134,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Queue`1<CountdownElementController> _countdownElementControllerQueue
     System::Collections::Generic::Queue_1<GlobalNamespace::CountdownElementController*>*& dyn__countdownElementControllerQueue();
     // protected System.Void Awake()
-    // Offset: 0x118E7DC
+    // Offset: 0x13C4234
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x118E7F4
+    // Offset: 0x13C424C
     void Update();
     // public System.Void StartCountdown(System.Single countdownEndTime)
-    // Offset: 0x1185F08
+    // Offset: 0x13BB960
     void StartCountdown(float countdownEndTime);
     // public System.Void UpdateCountdown(System.Single countdownEndTime)
-    // Offset: 0x11860F8
+    // Offset: 0x13BBB50
     void UpdateCountdown(float countdownEndTime);
     // public System.Void StopCountdown()
-    // Offset: 0x1186008
+    // Offset: 0x13BBA60
     void StopCountdown();
     // public System.Void .ctor()
-    // Offset: 0x118EA14
+    // Offset: 0x13C446C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

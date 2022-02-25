@@ -52,7 +52,7 @@ namespace System::Net {
     // Get instance field reference: private System.String password
     ::StringW& dyn_password();
     // public System.Void .ctor(System.String username, System.String password)
-    // Offset: 0x18AB81C
+    // Offset: 0x175AD40
     // Implemented from: System.Security.Principal.GenericIdentity
     // Base method: System.Void GenericIdentity::.ctor(System.String username, System.String password)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

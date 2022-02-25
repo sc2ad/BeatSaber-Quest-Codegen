@@ -16,8 +16,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: BeatmapLevelSO
-  class BeatmapLevelSO;
+  // Forward declaring type: PreviewBeatmapLevelSO
+  class PreviewBeatmapLevelSO;
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -40,12 +40,12 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // private BeatmapLevelSO _level
+    // private PreviewBeatmapLevelSO _previewLevel
     // Size: 0x8
     // Offset: 0x10
-    GlobalNamespace::BeatmapLevelSO* level;
+    GlobalNamespace::PreviewBeatmapLevelSO* previewLevel;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::BeatmapLevelSO*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::PreviewBeatmapLevelSO*) == 0x8);
     // private System.Single _relativeSfxVolume
     // Size: 0x4
     // Offset: 0x18
@@ -53,18 +53,18 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     public:
-    // Get instance field reference: private BeatmapLevelSO _level
-    GlobalNamespace::BeatmapLevelSO*& dyn__level();
+    // Get instance field reference: private PreviewBeatmapLevelSO _previewLevel
+    GlobalNamespace::PreviewBeatmapLevelSO*& dyn__previewLevel();
     // Get instance field reference: private System.Single _relativeSfxVolume
     float& dyn__relativeSfxVolume();
     // public System.String get_levelId()
-    // Offset: 0x11B4898
+    // Offset: 0x13EE40C
     ::StringW get_levelId();
     // public System.Single get_relativeSfxVolume()
-    // Offset: 0x11B4948
+    // Offset: 0x13EE4BC
     float get_relativeSfxVolume();
     // public System.Void .ctor()
-    // Offset: 0x11B4950
+    // Offset: 0x13EE4C4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

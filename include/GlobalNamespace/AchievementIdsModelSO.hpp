@@ -16,7 +16,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: GlobalNamespace
@@ -62,10 +61,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<AchievementSO> _achievementsIds
     System::Collections::Generic::List_1<GlobalNamespace::AchievementSO*>*& dyn__achievementsIds();
     // public System.Collections.Generic.List`1<AchievementSO> get_achievementsIds()
-    // Offset: 0x130A67C
+    // Offset: 0x14858C8
     System::Collections::Generic::List_1<GlobalNamespace::AchievementSO*>* get_achievementsIds();
     // public System.Void .ctor()
-    // Offset: 0x130A684
+    // Offset: 0x14858D0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

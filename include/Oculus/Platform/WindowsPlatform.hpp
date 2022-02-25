@@ -15,7 +15,6 @@
 // Forward declaring namespace: Oculus::Platform
 namespace Oculus::Platform {
   // Forward declaring type: Request`1<T>
-  template<typename T>
   class Request_1;
 }
 // Forward declaring namespace: System
@@ -48,19 +47,19 @@ namespace Oculus::Platform {
     // Nested type: Oculus::Platform::WindowsPlatform::UnityLogDelegate
     class UnityLogDelegate;
     // private System.Void CPPLogCallback(System.IntPtr tag, System.IntPtr message)
-    // Offset: 0x26688FC
+    // Offset: 0x2A04A9C
     void CPPLogCallback(System::IntPtr tag, System::IntPtr message);
     // private System.IntPtr getCallbackPointer()
-    // Offset: 0x26689D4
+    // Offset: 0x2A04B74
     System::IntPtr getCallbackPointer();
     // public System.Boolean Initialize(System.String appId)
-    // Offset: 0x2668A14
+    // Offset: 0x2A04BB4
     bool Initialize(::StringW appId);
     // public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> AsyncInitialize(System.String appId)
-    // Offset: 0x2668AF8
+    // Offset: 0x2A04C98
     Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
     // public System.Void .ctor()
-    // Offset: 0x2668C0C
+    // Offset: 0x2A04DAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

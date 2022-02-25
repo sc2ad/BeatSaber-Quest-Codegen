@@ -17,7 +17,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: NUnit::Framework::Interfaces
@@ -47,13 +46,13 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Set static field: static public System.Func`2<NUnit.Framework.Interfaces.ITest,System.String> <>9__18_0
     static void _set_$$9__18_0(System::Func_2<NUnit::Framework::Interfaces::ITest*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x16CAB14
+    // Offset: 0x18D38C0
     static void _cctor();
     // System.String <.ctor>b__18_0(NUnit.Framework.Interfaces.ITest t)
-    // Offset: 0x16CAB80
+    // Offset: 0x18D392C
     ::StringW $_ctor$b__18_0(NUnit::Framework::Interfaces::ITest* t);
     // public System.Void .ctor()
-    // Offset: 0x16CAB78
+    // Offset: 0x18D3924
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

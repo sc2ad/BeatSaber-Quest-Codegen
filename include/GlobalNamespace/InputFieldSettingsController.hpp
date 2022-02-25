@@ -69,19 +69,19 @@ namespace GlobalNamespace {
     // Get instance field reference: protected StringSO _settingsValue
     GlobalNamespace::StringSO*& dyn__settingsValue();
     // protected System.Void Awake()
-    // Offset: 0x11A0090
+    // Offset: 0x13ADB38
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x11A0130
+    // Offset: 0x13ADBD8
     void OnDestroy();
     // protected System.Void OnEnable()
-    // Offset: 0x11A01D0
+    // Offset: 0x13ADC78
     void OnEnable();
     // protected System.Void HandleInputFieldDidChange(HMUI.InputFieldView inputFieldView)
-    // Offset: 0x11A022C
+    // Offset: 0x13ADCD4
     void HandleInputFieldDidChange(HMUI::InputFieldView* inputFieldView);
     // public System.Void .ctor()
-    // Offset: 0x11A0298
+    // Offset: 0x13ADD40
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

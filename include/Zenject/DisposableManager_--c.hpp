@@ -19,7 +19,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Type
   class Type;
@@ -27,7 +26,6 @@ namespace System {
 // Forward declaring namespace: ModestTree::Util
 namespace ModestTree::Util {
   // Forward declaring type: ValuePair`2<T1, T2>
-  template<typename T1, typename T2>
   class ValuePair_2;
 }
 // Forward declaring namespace: Zenject
@@ -69,28 +67,28 @@ namespace Zenject {
     // Set static field: static public System.Func`2<Zenject.DisposableManager/Zenject.DisposableInfo,System.Int32> <>9__11_0
     static void _set_$$9__11_0(System::Func_2<Zenject::DisposableManager::DisposableInfo, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1AA0C90
+    // Offset: 0x1D28D48
     static void _cctor();
     // System.Nullable`1<System.Int32> <.ctor>b__4_1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1AA0CFC
+    // Offset: 0x1D28DB4
     System::Nullable_1<int> $_ctor$b__4_1(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // System.Nullable`1<System.Int32> <.ctor>b__4_3(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x1AA0D6C
+    // Offset: 0x1D28E24
     System::Nullable_1<int> $_ctor$b__4_3(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // System.Int32 <LateDispose>b__10_0(Zenject.DisposableManager/Zenject.LateDisposableInfo x)
-    // Offset: 0x1AA0DDC
+    // Offset: 0x1D28E94
     int $LateDispose$b__10_0(Zenject::DisposableManager::LateDisposableInfo* x);
     // System.Int32 <Dispose>b__11_0(Zenject.DisposableManager/Zenject.DisposableInfo x)
-    // Offset: 0x1AA0DF4
+    // Offset: 0x1D28EAC
     int $Dispose$b__11_0(Zenject::DisposableManager::DisposableInfo x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1AA0DFC
+    // Offset: 0x1D28EB4
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1AA0E58
+    // Offset: 0x1D28F10
     static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x1AA0CF4
+    // Offset: 0x1D28DAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

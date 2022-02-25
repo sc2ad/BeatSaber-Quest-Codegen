@@ -40,10 +40,10 @@ namespace UnityEngine::TestTools::Utils {
     // Set static field: static private readonly System.String[] s_LastMessages
     static void _set_s_LastMessages(::ArrayW<::StringW> value);
     // static private System.Void .cctor()
-    // Offset: 0x26B4E30
+    // Offset: 0x2A41EE0
     static void _cctor();
     // static public System.String Filter(System.String inputStackTrace)
-    // Offset: 0x26B3DB0
+    // Offset: 0x2A40E60
     static ::StringW Filter(::StringW inputStackTrace);
   }; // UnityEngine.TestTools.Utils.StackTraceFilter
   #pragma pack(pop)

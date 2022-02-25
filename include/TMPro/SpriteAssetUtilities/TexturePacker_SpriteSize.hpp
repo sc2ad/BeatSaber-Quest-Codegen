@@ -47,7 +47,7 @@ namespace TMPro::SpriteAssetUtilities {
     // Get instance field reference: public System.Single h
     float& dyn_h();
     // public override System.String ToString()
-    // Offset: 0x12426BC
+    // Offset: 0x14081EC
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

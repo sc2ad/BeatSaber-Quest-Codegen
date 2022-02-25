@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean autoRestart
     bool& dyn_autoRestart();
     // public System.Void .ctor(System.Boolean autoRestart)
-    // Offset: 0x121C024
+    // Offset: 0x13D6E94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelFailedController::InitData* New_ctor(bool autoRestart) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StandardLevelFailedController::InitData::.ctor");

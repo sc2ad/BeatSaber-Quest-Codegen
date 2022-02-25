@@ -68,20 +68,20 @@ namespace System {
     // Get instance field reference: private System.Int32 pointer_level
     int& dyn_pointer_level();
     // System.Void .ctor(System.Int32 pointer_level)
-    // Offset: 0x1E8CEC4
+    // Offset: 0x215F240
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PointerSpec* New_ctor(int pointer_level) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::PointerSpec::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PointerSpec*, creationType>(pointer_level)));
     }
     // public System.Type Resolve(System.Type type)
-    // Offset: 0x1E8CECC
+    // Offset: 0x215F248
     System::Type* Resolve(System::Type* type);
     // public System.Text.StringBuilder Append(System.Text.StringBuilder sb)
-    // Offset: 0x1E8CF24
+    // Offset: 0x215F2A0
     System::Text::StringBuilder* Append(System::Text::StringBuilder* sb);
     // public override System.String ToString()
-    // Offset: 0x1E8CF4C
+    // Offset: 0x215F2C8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

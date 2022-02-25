@@ -20,7 +20,6 @@ namespace HMUI {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Completed forward declares
@@ -123,16 +122,16 @@ namespace HMUI {
     // Get instance field reference: private HMUI.NoTransitionsButton/HMUI.SelectionState _selectionState
     HMUI::NoTransitionsButton::SelectionState& dyn__selectionState();
     // public HMUI.NoTransitionsButton/HMUI.SelectionState get_selectionState()
-    // Offset: 0x14C5AEC
+    // Offset: 0x16A7BA8
     HMUI::NoTransitionsButton::SelectionState get_selectionState();
     // public System.Void add_selectionStateDidChangeEvent(System.Action`1<HMUI.NoTransitionsButton/HMUI.SelectionState> value)
-    // Offset: 0x14C5AF4
+    // Offset: 0x16A7BB0
     void add_selectionStateDidChangeEvent(System::Action_1<HMUI::NoTransitionsButton::SelectionState>* value);
     // public System.Void remove_selectionStateDidChangeEvent(System.Action`1<HMUI.NoTransitionsButton/HMUI.SelectionState> value)
-    // Offset: 0x14C5B9C
+    // Offset: 0x16A7C58
     void remove_selectionStateDidChangeEvent(System::Action_1<HMUI::NoTransitionsButton::SelectionState>* value);
     // public System.Void .ctor()
-    // Offset: 0x14C5CD8
+    // Offset: 0x16A7D94
     // Implemented from: UnityEngine.UI.Button
     // Base method: System.Void Button::.ctor()
     // Base method: System.Void Selectable::.ctor()
@@ -148,7 +147,7 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<NoTransitionsButton*, creationType>()));
     }
     // protected override System.Void DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
-    // Offset: 0x14C5C44
+    // Offset: 0x16A7D00
     // Implemented from: UnityEngine.UI.Selectable
     // Base method: System.Void Selectable::DoStateTransition(UnityEngine.UI.Selectable/UnityEngine.UI.SelectionState state, System.Boolean instant)
     void DoStateTransition(UnityEngine::UI::Selectable::SelectionState state, bool instant);

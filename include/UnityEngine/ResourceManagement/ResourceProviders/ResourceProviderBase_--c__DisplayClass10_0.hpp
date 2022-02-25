@@ -60,10 +60,10 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Get instance field reference: public System.String data
     ::StringW& dyn_data();
     // System.Boolean <InitializeAsync>b__0()
-    // Offset: 0x1BEEDEC
+    // Offset: 0x1E2A07C
     bool $InitializeAsync$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1BEED8C
+    // Offset: 0x1E2A01C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

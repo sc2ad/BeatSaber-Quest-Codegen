@@ -22,13 +22,11 @@ namespace Zenject {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: ModestTree::Util
 namespace ModestTree::Util {
   // Forward declaring type: ValuePair`2<T1, T2>
-  template<typename T1, typename T2>
   class ValuePair_2;
 }
 // Forward declaring namespace: System
@@ -86,26 +84,26 @@ namespace Zenject {
     // Get instance field reference: private System.Boolean _hasInitialized
     bool& dyn__hasInitialized();
     // public System.Void .ctor(System.Collections.Generic.List`1<Zenject.IInitializable> initializables, System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities)
-    // Offset: 0x1AB2FA0
+    // Offset: 0x1D3B058
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InitializableManager* New_ctor(System::Collections::Generic::List_1<Zenject::IInitializable*>* initializables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InitializableManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InitializableManager*, creationType>(initializables, priorities)));
     }
     // public System.Void Add(Zenject.IInitializable initializable)
-    // Offset: 0x1AB328C
+    // Offset: 0x1D3B344
     void Add(Zenject::IInitializable* initializable);
     // public System.Void Add(Zenject.IInitializable initializable, System.Int32 priority)
-    // Offset: 0x1AB3294
+    // Offset: 0x1D3B34C
     void Add(Zenject::IInitializable* initializable, int priority);
     // public System.Void Initialize()
-    // Offset: 0x1AB333C
+    // Offset: 0x1D3B3F4
     void Initialize();
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1AB36F8
+    // Offset: 0x1D3B7B0
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1AB3810
+    // Offset: 0x1D3B8C8
     static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.InitializableManager
   #pragma pack(pop)

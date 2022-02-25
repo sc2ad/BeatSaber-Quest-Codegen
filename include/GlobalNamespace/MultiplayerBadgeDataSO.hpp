@@ -33,7 +33,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IReadOnlyList`1<T>
-  template<typename T>
   class IReadOnlyList_1;
 }
 // Completed forward declares
@@ -62,14 +61,14 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [LocalizationKeyAttribute] Offset: 0xF3D390
+    // [LocalizationKeyAttribute] Offset: 0x1243D04
     // private System.String _titleLocalizationKey
     // Size: 0x8
     // Offset: 0x18
     ::StringW titleLocalizationKey;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0xF3D3C8
+    // [LocalizationKeyAttribute] Offset: 0x1243D3C
     // private System.String _subtitleLocalizationKey
     // Size: 0x8
     // Offset: 0x20
@@ -92,19 +91,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Sprite _icon
     UnityEngine::Sprite*& dyn__icon();
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x11C719C
+    // Offset: 0x142AAEC
     UnityEngine::Sprite* get_icon();
     // public System.String get_titleLocalizationKey()
-    // Offset: 0x11C71A4
+    // Offset: 0x142AAF4
     ::StringW get_titleLocalizationKey();
     // public System.String get_subtitleLocalizationKey()
-    // Offset: 0x11C71AC
+    // Offset: 0x142AAFC
     ::StringW get_subtitleLocalizationKey();
     // public MultiplayerBadgeAwardData CalculateBadgeData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> resultsData, PlayerDataModel playerDataModel, IDifficultyBeatmap difficultyBeatmap, System.Single randomMultiplier)
     // Offset: 0xFFFFFFFF
     GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, GlobalNamespace::PlayerDataModel* playerDataModel, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, float randomMultiplier);
     // protected System.Void .ctor()
-    // Offset: 0x11C597C
+    // Offset: 0x14292CC
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

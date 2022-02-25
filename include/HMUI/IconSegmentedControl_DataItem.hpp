@@ -58,19 +58,19 @@ namespace HMUI {
     // Get instance field reference: private System.String <hintText>k__BackingField
     ::StringW& dyn_$hintText$k__BackingField();
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x14A6218
+    // Offset: 0x16769A0
     UnityEngine::Sprite* get_icon();
     // private System.Void set_icon(UnityEngine.Sprite value)
-    // Offset: 0x14A6220
+    // Offset: 0x16769A8
     void set_icon(UnityEngine::Sprite* value);
     // public System.String get_hintText()
-    // Offset: 0x14A6228
+    // Offset: 0x16769B0
     ::StringW get_hintText();
     // private System.Void set_hintText(System.String value)
-    // Offset: 0x14A6230
+    // Offset: 0x16769B8
     void set_hintText(::StringW value);
     // public System.Void .ctor(UnityEngine.Sprite icon, System.String hintText)
-    // Offset: 0x14A6238
+    // Offset: 0x16769C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IconSegmentedControl::DataItem* New_ctor(UnityEngine::Sprite* icon, ::StringW hintText) {
       static auto ___internal__logger = ::Logger::get().WithContext("HMUI::IconSegmentedControl::DataItem::.ctor");

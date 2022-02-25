@@ -22,7 +22,6 @@ namespace System::Reflection {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: Zenject
@@ -66,16 +65,16 @@ namespace Zenject {
     // Get instance field reference: public System.Reflection.Assembly assembly
     System::Reflection::Assembly*& dyn_assembly();
     // System.Boolean <ShouldIncludeAssembly>b__0(System.Func`2<System.Reflection.Assembly,System.Boolean> predicate)
-    // Offset: 0x14FD760
+    // Offset: 0x16DF81C
     bool $ShouldIncludeAssembly$b__0(System::Func_2<System::Reflection::Assembly*, bool>* predicate);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x14FD7C8
+    // Offset: 0x16DF884
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x14FD824
+    // Offset: 0x16DF8E0
     static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x14FD518
+    // Offset: 0x16DF5D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

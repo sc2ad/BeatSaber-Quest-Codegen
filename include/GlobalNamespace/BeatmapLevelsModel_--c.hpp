@@ -16,7 +16,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: GlobalNamespace
@@ -29,7 +28,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
 }
 // Completed forward declares
@@ -54,13 +52,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IBeatmapLevelPack,System.Collections.Generic.IEnumerable`1<IPreviewBeatmapLevel>> <>9__35_0
     static void _set_$$9__35_0(System::Func_2<GlobalNamespace::IBeatmapLevelPack*, System::Collections::Generic::IEnumerable_1<GlobalNamespace::IPreviewBeatmapLevel*>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13273EC
+    // Offset: 0x14C61B8
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<IPreviewBeatmapLevel> <GetLevelPreviewForLevelId>b__35_0(IBeatmapLevelPack beatmapLevelPack)
-    // Offset: 0x1327458
+    // Offset: 0x14C6224
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::IPreviewBeatmapLevel*>* $GetLevelPreviewForLevelId$b__35_0(GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack);
     // public System.Void .ctor()
-    // Offset: 0x1327450
+    // Offset: 0x14C621C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

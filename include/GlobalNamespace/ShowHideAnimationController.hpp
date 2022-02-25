@@ -102,19 +102,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _showAnimatorParam
     int& dyn__showAnimatorParam();
     // public System.Boolean get_Show()
-    // Offset: 0x263FA40
+    // Offset: 0x299C970
     bool get_Show();
     // public System.Void set_Show(System.Boolean value)
-    // Offset: 0x263F8E0
+    // Offset: 0x299C810
     void set_Show(bool value);
     // protected System.Void Awake()
-    // Offset: 0x263FA48
+    // Offset: 0x299C978
     void Awake();
     // private System.Collections.IEnumerator DeactivateSelfAfterDelayCoroutine(System.Single delay)
-    // Offset: 0x263FAC4
+    // Offset: 0x299C9F4
     System::Collections::IEnumerator* DeactivateSelfAfterDelayCoroutine(float delay);
     // public System.Void .ctor()
-    // Offset: 0x263FB70
+    // Offset: 0x299CAA0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

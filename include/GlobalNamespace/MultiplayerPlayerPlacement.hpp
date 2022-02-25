@@ -22,10 +22,8 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
   // Forward declaring type: IList`1<T>
-  template<typename T>
   class IList_1;
 }
 // Completed forward declares
@@ -48,22 +46,22 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::MultiplayerPlayerPlacement::$$c
     class $$c;
     // static public UnityEngine.Vector3 GetPlayerWorldPosition(System.Single outerCircleRadius, System.Single outerCirclePositionAngle, MultiplayerPlayerLayout layout)
-    // Offset: 0x1172094
+    // Offset: 0x2AA3EA8
     static UnityEngine::Vector3 GetPlayerWorldPosition(float outerCircleRadius, float outerCirclePositionAngle, GlobalNamespace::MultiplayerPlayerLayout layout);
     // static public System.Single GetOuterCirclePositionAngleForPlayer(System.Int32 playerIndex, System.Int32 localPlayerIndex, System.Single angleBetweenPlayers)
-    // Offset: 0x1172250
+    // Offset: 0x2AA4064
     static float GetOuterCirclePositionAngleForPlayer(int playerIndex, int localPlayerIndex, float angleBetweenPlayers);
     // static public System.Single GetOuterCircleRadius(System.Single angleBetweenPlayers, System.Single innerCircleRadius)
-    // Offset: 0x1172260
+    // Offset: 0x2AA4074
     static float GetOuterCircleRadius(float angleBetweenPlayers, float innerCircleRadius);
     // static public System.Single GetAngleBetweenPlayersWithEvenAdjustment(System.Int32 numberOfPlayers, MultiplayerPlayerLayout layout)
-    // Offset: 0x11722F8
+    // Offset: 0x2AA410C
     static float GetAngleBetweenPlayersWithEvenAdjustment(int numberOfPlayers, GlobalNamespace::MultiplayerPlayerLayout layout);
     // static public System.Void SortPlayers(System.Collections.Generic.List`1<IConnectedPlayer> players)
-    // Offset: 0x1172324
+    // Offset: 0x2AA4138
     static void SortPlayers(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* players);
     // static public System.Int32 GetLocalPlayerIndex(System.Collections.Generic.IList`1<IConnectedPlayer> otherPlayers, IConnectedPlayer localPlayer)
-    // Offset: 0x1172418
+    // Offset: 0x2AA422C
     static int GetLocalPlayerIndex(System::Collections::Generic::IList_1<GlobalNamespace::IConnectedPlayer*>* otherPlayers, GlobalNamespace::IConnectedPlayer* localPlayer);
   }; // MultiplayerPlayerPlacement
   #pragma pack(pop)

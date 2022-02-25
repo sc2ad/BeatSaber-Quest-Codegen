@@ -103,22 +103,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _targetVolume
     float& dyn__targetVolume();
     // protected System.Void Awake()
-    // Offset: 0x13467F0
+    // Offset: 0x2B33DFC
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1346A2C
+    // Offset: 0x2B34038
     void OnDestroy();
     // protected System.Void LateUpdate()
-    // Offset: 0x1346C90
+    // Offset: 0x2B3429C
     void LateUpdate();
     // private System.Void HandleSparkleEffectDidStart(SaberType saberType)
-    // Offset: 0x1346E6C
+    // Offset: 0x2B34478
     void HandleSparkleEffectDidStart(GlobalNamespace::SaberType saberType);
     // private System.Void HandleSparkleEffecDidEnd(SaberType saberType)
-    // Offset: 0x1346FA4
+    // Offset: 0x2B345B0
     void HandleSparkleEffecDidEnd(GlobalNamespace::SaberType saberType);
     // public System.Void .ctor()
-    // Offset: 0x1346FB8
+    // Offset: 0x2B345C4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

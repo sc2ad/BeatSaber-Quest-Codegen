@@ -22,7 +22,6 @@ namespace System {
   // Forward declaring type: Action
   class Action;
   // Forward declaring type: Action`4<T1, T2, T3, T4>
-  template<typename T1, typename T2, typename T3, typename T4>
   class Action_4;
   // Forward declaring type: IAsyncResult
   class IAsyncResult;
@@ -118,28 +117,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Threading.ManualResetEvent readyReceiveDataEvent
     System::Threading::ManualResetEvent*& dyn_readyReceiveDataEvent();
     // public OVRNetwork/OVRNetworkTcpClient/ConnectionState get_connectionState()
-    // Offset: 0x147B4EC
+    // Offset: 0x164BC74
     GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState get_connectionState();
     // public System.Boolean get_Connected()
-    // Offset: 0x147B518
+    // Offset: 0x164BCA0
     bool get_Connected();
     // public System.Void Connect(System.Int32 listeningPort)
-    // Offset: 0x147B52C
+    // Offset: 0x164BCB4
     void Connect(int listeningPort);
     // private System.Void ConnectCallback(System.IAsyncResult ar)
-    // Offset: 0x147B680
+    // Offset: 0x164BE08
     void ConnectCallback(System::IAsyncResult* ar);
     // public System.Void Disconnect()
-    // Offset: 0x147B980
+    // Offset: 0x164C108
     void Disconnect();
     // public System.Void Tick()
-    // Offset: 0x147BBD4
+    // Offset: 0x164C35C
     void Tick();
     // private System.Void OnReadDataCallback(System.IAsyncResult ar)
-    // Offset: 0x147BDD8
+    // Offset: 0x164C560
     void OnReadDataCallback(System::IAsyncResult* ar);
     // public System.Void .ctor()
-    // Offset: 0x147C2BC
+    // Offset: 0x164CA44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

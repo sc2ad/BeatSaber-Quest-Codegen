@@ -16,10 +16,8 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: GlobalNamespace
@@ -67,13 +65,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<BeatmapEventType,BeatmapEventData> _lastBeatmapEventDataDictionary
     System::Collections::Generic::Dictionary_2<GlobalNamespace::BeatmapEventType, GlobalNamespace::BeatmapEventData*>*& dyn__lastBeatmapEventDataDictionary();
     // public System.Void ProcessAddedEventData(BeatmapEventData eventData)
-    // Offset: 0x26BD144
+    // Offset: 0x2A4A1F4
     void ProcessAddedEventData(GlobalNamespace::BeatmapEventData* eventData);
     // public System.Void ProcessEventDataPreInsert(System.Int32 index, BeatmapEventData eventData, System.Collections.Generic.List`1<BeatmapEventData> existingBeatmapEventData)
-    // Offset: 0x26BD1EC
+    // Offset: 0x2A4A29C
     void ProcessEventDataPreInsert(int index, GlobalNamespace::BeatmapEventData* eventData, System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>* existingBeatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x26BD398
+    // Offset: 0x2A4A448
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

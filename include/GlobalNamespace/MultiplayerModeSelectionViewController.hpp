@@ -17,8 +17,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: MasterServerAvailabilityData
-  class MasterServerAvailabilityData;
+  // Forward declaring type: MultiplayerStatusData
+  class MultiplayerStatusData;
   // Forward declaring type: INetworkConfig
   class INetworkConfig;
   // Skipping declaration: MenuButton because it is already included!
@@ -36,7 +36,6 @@ namespace TMPro {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`2<T1, T2>
-  template<typename T1, typename T2>
   class Action_2;
 }
 // Completed forward declares
@@ -145,7 +144,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* createServerButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF46BB4
+    // [SpaceAttribute] Offset: 0x124D4B8
     // private TMPro.TextMeshProUGUI _maintenanceMessageText
     // Size: 0x8
     // Offset: 0x90
@@ -158,7 +157,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* customServerEndPointText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0xF46BFC
+    // [InjectAttribute] Offset: 0x124D500
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
     // Offset: 0xA0
@@ -189,31 +188,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> didFinishEvent
     System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> value)
-    // Offset: 0x1169C70
+    // Offset: 0x2A9B9F0
     void add_didFinishEvent(System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>* value);
     // public System.Void remove_didFinishEvent(System.Action`2<MultiplayerModeSelectionViewController,MultiplayerModeSelectionViewController/MenuButton> value)
-    // Offset: 0x116A128
+    // Offset: 0x2A9BEA8
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>* value);
-    // public System.Void SetData(MasterServerAvailabilityData masterServerAvailabilityData)
-    // Offset: 0x116D660
-    void SetData(GlobalNamespace::MasterServerAvailabilityData* masterServerAvailabilityData);
+    // public System.Void SetData(MultiplayerStatusData multiplayerStatusData)
+    // Offset: 0x2A9F474
+    void SetData(GlobalNamespace::MultiplayerStatusData* multiplayerStatusData);
     // private System.Void HandleMenuButton(MultiplayerModeSelectionViewController/MenuButton menuButton)
-    // Offset: 0x116DB48
+    // Offset: 0x2A9F95C
     void HandleMenuButton(GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton menuButton);
     // private System.Void <DidActivate>b__11_0()
-    // Offset: 0x116DBC8
+    // Offset: 0x2A9F9DC
     void $DidActivate$b__11_0();
     // private System.Void <DidActivate>b__11_1()
-    // Offset: 0x116DBD0
+    // Offset: 0x2A9F9E4
     void $DidActivate$b__11_1();
     // private System.Void <DidActivate>b__11_2()
-    // Offset: 0x116DBD8
+    // Offset: 0x2A9F9EC
     void $DidActivate$b__11_2();
     // private System.Void <DidActivate>b__11_3()
-    // Offset: 0x116DBE0
+    // Offset: 0x2A9F9F4
     void $DidActivate$b__11_3();
     // public System.Void .ctor()
-    // Offset: 0x116DBC0
+    // Offset: 0x2A9F9D4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -227,7 +226,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerModeSelectionViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x116D8B0
+    // Offset: 0x2A9F6C4
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -260,10 +259,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionViewController::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerModeSelectionViewController::*)(GlobalNamespace::MasterServerAvailabilityData*)>(&GlobalNamespace::MultiplayerModeSelectionViewController::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerModeSelectionViewController::*)(GlobalNamespace::MultiplayerStatusData*)>(&GlobalNamespace::MultiplayerModeSelectionViewController::SetData)> {
   static const MethodInfo* get() {
-    static auto* masterServerAvailabilityData = &::il2cpp_utils::GetClassFromName("", "MasterServerAvailabilityData")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerModeSelectionViewController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{masterServerAvailabilityData});
+    static auto* multiplayerStatusData = &::il2cpp_utils::GetClassFromName("", "MultiplayerStatusData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerModeSelectionViewController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiplayerStatusData});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionViewController::HandleMenuButton

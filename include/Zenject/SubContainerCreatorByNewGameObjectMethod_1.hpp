@@ -28,20 +28,17 @@ namespace Zenject {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`2<T1, T2>
-  template<typename T1, typename T2>
   class Action_2;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: SubContainerCreatorByNewGameObjectMethod`1<TParam1>
-  template<typename TParam1>
   class SubContainerCreatorByNewGameObjectMethod_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -49,55 +49,55 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::SteamVR_Utils::SystemFn
     class SystemFn;
     // static public UnityEngine.Quaternion Slerp(UnityEngine.Quaternion A, UnityEngine.Quaternion B, System.Single t)
-    // Offset: 0x18BDCFC
+    // Offset: 0x1AED388
     static UnityEngine::Quaternion Slerp(UnityEngine::Quaternion A, UnityEngine::Quaternion B, float t);
     // static public UnityEngine.Vector3 Lerp(UnityEngine.Vector3 A, UnityEngine.Vector3 B, System.Single t)
-    // Offset: 0x18BDEC4
+    // Offset: 0x1AED550
     static UnityEngine::Vector3 Lerp(UnityEngine::Vector3 A, UnityEngine::Vector3 B, float t);
     // static public System.Single Lerp(System.Single A, System.Single B, System.Single t)
-    // Offset: 0x18BDF1C
+    // Offset: 0x1AED5A8
     static float Lerp(float A, float B, float t);
     // static public System.Double Lerp(System.Double A, System.Double B, System.Double t)
-    // Offset: 0x18BDF2C
+    // Offset: 0x1AED5B8
     static double Lerp(double A, double B, double t);
     // static public System.Single InverseLerp(UnityEngine.Vector3 A, UnityEngine.Vector3 B, UnityEngine.Vector3 result)
-    // Offset: 0x18BDF3C
+    // Offset: 0x1AED5C8
     static float InverseLerp(UnityEngine::Vector3 A, UnityEngine::Vector3 B, UnityEngine::Vector3 result);
     // static public System.Single InverseLerp(System.Single A, System.Single B, System.Single result)
-    // Offset: 0x18BE040
+    // Offset: 0x1AED6CC
     static float InverseLerp(float A, float B, float result);
     // static public System.Double InverseLerp(System.Double A, System.Double B, System.Double result)
-    // Offset: 0x18BE050
+    // Offset: 0x1AED6DC
     static double InverseLerp(double A, double B, double result);
     // static public System.Single Saturate(System.Single A)
-    // Offset: 0x18BE060
+    // Offset: 0x1AED6EC
     static float Saturate(float A);
     // static public UnityEngine.Vector2 Saturate(UnityEngine.Vector2 A)
-    // Offset: 0x18BE07C
+    // Offset: 0x1AED708
     static UnityEngine::Vector2 Saturate(UnityEngine::Vector2 A);
     // static public System.Single Abs(System.Single A)
-    // Offset: 0x18BE0C8
+    // Offset: 0x1AED754
     static float Abs(float A);
     // static public UnityEngine.Vector2 Abs(UnityEngine.Vector2 A)
-    // Offset: 0x18BE0D8
+    // Offset: 0x1AED764
     static UnityEngine::Vector2 Abs(UnityEngine::Vector2 A);
     // static private System.Single _copysign(System.Single sizeval, System.Single signval)
-    // Offset: 0x18BE11C
+    // Offset: 0x1AED7A8
     static float _copysign(float sizeval, float signval);
     // static public UnityEngine.Quaternion GetRotation(UnityEngine.Matrix4x4 matrix)
-    // Offset: 0x18BE1D8
+    // Offset: 0x1AED864
     static UnityEngine::Quaternion GetRotation(UnityEngine::Matrix4x4 matrix);
     // static public UnityEngine.Vector3 GetPosition(UnityEngine.Matrix4x4 matrix)
-    // Offset: 0x18BE3A4
+    // Offset: 0x1AEDA30
     static UnityEngine::Vector3 GetPosition(UnityEngine::Matrix4x4 matrix);
     // static public UnityEngine.Vector3 GetScale(UnityEngine.Matrix4x4 m)
-    // Offset: 0x18BE3E0
+    // Offset: 0x1AEDA6C
     static UnityEngine::Vector3 GetScale(UnityEngine::Matrix4x4 m);
     // static public System.Object CallSystemFn(SteamVR_Utils/SystemFn fn, params System.Object[] args)
-    // Offset: 0x18BE518
+    // Offset: 0x1AEDBA4
     static ::Il2CppObject* CallSystemFn(GlobalNamespace::SteamVR_Utils::SystemFn* fn, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void TakeStereoScreenshot(System.UInt32 screenshotHandle, UnityEngine.GameObject target, System.Int32 cellSize, System.Single ipd, ref System.String previewFilename, ref System.String VRFilename)
-    // Offset: 0x18BEA6C
+    // Offset: 0x1AEE0F8
     static void TakeStereoScreenshot(uint screenshotHandle, UnityEngine::GameObject* target, int cellSize, float ipd, ByRef<::StringW> previewFilename, ByRef<::StringW> VRFilename);
   }; // SteamVR_Utils
   #pragma pack(pop)

@@ -117,28 +117,28 @@ namespace System::Globalization {
       // Get instance field reference: private System.String[] literals
       ::ArrayW<::StringW>& dyn_literals();
       // System.String get_Start()
-      // Offset: 0x1C42C10
+      // Offset: 0x20BDB08
       ::StringW get_Start();
       // System.String get_DayHourSep()
-      // Offset: 0x1C42C44
+      // Offset: 0x20BDB3C
       ::StringW get_DayHourSep();
       // System.String get_HourMinuteSep()
-      // Offset: 0x1C42C7C
+      // Offset: 0x20BDB74
       ::StringW get_HourMinuteSep();
       // System.String get_MinuteSecondSep()
-      // Offset: 0x1C42CB4
+      // Offset: 0x20BDBAC
       ::StringW get_MinuteSecondSep();
       // System.String get_SecondFractionSep()
-      // Offset: 0x1C42CEC
+      // Offset: 0x20BDBE4
       ::StringW get_SecondFractionSep();
       // System.String get_End()
-      // Offset: 0x1C42D24
+      // Offset: 0x20BDC1C
       ::StringW get_End();
       // static System.Globalization.TimeSpanFormat/System.Globalization.FormatLiterals InitInvariant(System.Boolean isNegative)
-      // Offset: 0x1C42DF8
+      // Offset: 0x20BDCF0
       static System::Globalization::TimeSpanFormat::FormatLiterals InitInvariant(bool isNegative);
       // System.Void Init(System.String format, System.Boolean useInvariantFieldLengths)
-      // Offset: 0x1C427E0
+      // Offset: 0x20BD6D8
       void Init(::StringW format, bool useInvariantFieldLengths);
     }; // System.Globalization.TimeSpanFormat/System.Globalization.FormatLiterals
     #pragma pack(pop)
@@ -153,19 +153,19 @@ namespace System::Globalization {
     // Set static field: static readonly System.Globalization.TimeSpanFormat/System.Globalization.FormatLiterals NegativeInvariantFormatLiterals
     static void _set_NegativeInvariantFormatLiterals(System::Globalization::TimeSpanFormat::FormatLiterals value);
     // static private System.Void .cctor()
-    // Offset: 0x1C42D5C
+    // Offset: 0x20BDC54
     static void _cctor();
     // static private System.String IntToString(System.Int32 n, System.Int32 digits)
-    // Offset: 0x1C418CC
+    // Offset: 0x20BC7C4
     static ::StringW IntToString(int n, int digits);
     // static System.String Format(System.TimeSpan value, System.String format, System.IFormatProvider formatProvider)
-    // Offset: 0x1C418E4
+    // Offset: 0x20BC7DC
     static ::StringW Format(System::TimeSpan value, ::StringW format, System::IFormatProvider* formatProvider);
     // static private System.String FormatStandard(System.TimeSpan value, System.Boolean isInvariant, System.String format, System.Globalization.TimeSpanFormat/System.Globalization.Pattern pattern)
-    // Offset: 0x1C41B28
+    // Offset: 0x20BCA20
     static ::StringW FormatStandard(System::TimeSpan value, bool isInvariant, ::StringW format, System::Globalization::TimeSpanFormat::Pattern pattern);
     // static System.String FormatCustomized(System.TimeSpan value, System.String format, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x1C42040
+    // Offset: 0x20BCF38
     static ::StringW FormatCustomized(System::TimeSpan value, ::StringW format, System::Globalization::DateTimeFormatInfo* dtfi);
   }; // System.Globalization.TimeSpanFormat
   #pragma pack(pop)

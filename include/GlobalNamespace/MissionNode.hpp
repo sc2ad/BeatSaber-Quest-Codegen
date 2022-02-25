@@ -88,7 +88,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionNodeVisualController* missionNodeVisualController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionNodeVisualController*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF43DAC
+    // [SpaceAttribute] Offset: 0x124A6B0
     // private MissionNode[] _childNodes
     // Size: 0x8
     // Offset: 0x40
@@ -111,34 +111,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionNode[] _childNodes
     ::ArrayW<GlobalNamespace::MissionNode*>& dyn__childNodes();
     // public MissionDataSO get_missionData()
-    // Offset: 0x1163EDC
+    // Offset: 0x2A70968
     GlobalNamespace::MissionDataSO* get_missionData();
     // public MissionNode[] get_childNodes()
-    // Offset: 0x1163EE4
+    // Offset: 0x2A70970
     ::ArrayW<GlobalNamespace::MissionNode*> get_childNodes();
     // public MissionNodeVisualController get_missionNodeVisualController()
-    // Offset: 0x1163EEC
+    // Offset: 0x2A70978
     GlobalNamespace::MissionNodeVisualController* get_missionNodeVisualController();
     // public System.String get_letterPartName()
-    // Offset: 0x1163EF4
+    // Offset: 0x2A70980
     ::StringW get_letterPartName();
     // public System.Int32 get_numberPartName()
-    // Offset: 0x1163EFC
+    // Offset: 0x2A70988
     int get_numberPartName();
     // public System.String get_missionId()
-    // Offset: 0x115FE30
+    // Offset: 0x2A6C8BC
     ::StringW get_missionId();
     // public System.String get_formattedMissionNodeName()
-    // Offset: 0x1163F04
+    // Offset: 0x2A70990
     ::StringW get_formattedMissionNodeName();
     // public UnityEngine.Vector2 get_position()
-    // Offset: 0x1163284
+    // Offset: 0x2A6FD10
     UnityEngine::Vector2 get_position();
     // public System.Single get_radius()
-    // Offset: 0x1163F88
+    // Offset: 0x2A70A14
     float get_radius();
     // public System.Void .ctor()
-    // Offset: 0x1163FCC
+    // Offset: 0x2A70A58
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

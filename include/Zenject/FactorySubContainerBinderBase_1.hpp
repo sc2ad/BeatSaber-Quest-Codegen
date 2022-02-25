@@ -42,7 +42,6 @@ namespace Zenject {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Type
   class Type;
@@ -56,7 +55,6 @@ namespace UnityEngine {
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: FactorySubContainerBinderBase`1<TContract>
-  template<typename TContract>
   class FactorySubContainerBinderBase_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

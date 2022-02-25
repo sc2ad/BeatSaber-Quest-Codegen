@@ -17,7 +17,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Completed forward declares
@@ -40,13 +39,13 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0
     class $$c__DisplayClass0_0;
     // static public System.Void GetContentOfDirectory(System.String direcotryPath, System.String[] extensions, System.Action`1<FileBrowserItem[]> callback)
-    // Offset: 0x11E25C0
+    // Offset: 0x13FED58
     static void GetContentOfDirectory(::StringW direcotryPath, ::ArrayW<::StringW> extensions, System::Action_1<::ArrayW<GlobalNamespace::FileBrowserItem*>>* callback);
     // static private FileBrowserItem[] GetContentOfDirectory(System.String directoryPath, System.String[] extensions)
-    // Offset: 0x11E26C4
+    // Offset: 0x13FEE5C
     static ::ArrayW<GlobalNamespace::FileBrowserItem*> GetContentOfDirectory(::StringW directoryPath, ::ArrayW<::StringW> extensions);
     // static private System.Boolean CanOpenDirectory(System.String path)
-    // Offset: 0x11E2A90
+    // Offset: 0x13FF228
     static bool CanOpenDirectory(::StringW path);
   }; // FileBrowserModel
   #pragma pack(pop)

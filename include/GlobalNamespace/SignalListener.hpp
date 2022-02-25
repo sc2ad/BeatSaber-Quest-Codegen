@@ -69,16 +69,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Events.UnityEvent _unityEvent
     UnityEngine::Events::UnityEvent*& dyn__unityEvent();
     // protected System.Void OnEnable()
-    // Offset: 0x263FE4C
+    // Offset: 0x299CD7C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x263FEE0
+    // Offset: 0x299CE10
     void OnDisable();
     // private System.Void HandleEvent()
-    // Offset: 0x263FF68
+    // Offset: 0x299CE98
     void HandleEvent();
     // public System.Void .ctor()
-    // Offset: 0x263FF84
+    // Offset: 0x299CEB4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

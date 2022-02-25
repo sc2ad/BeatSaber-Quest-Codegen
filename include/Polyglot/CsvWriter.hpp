@@ -15,7 +15,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System::Text
@@ -41,16 +40,16 @@ namespace Polyglot {
   class CsvWriter : public ::Il2CppObject {
     public:
     // static public System.Void AppendRow(System.String filePath, System.Collections.Generic.List`1<System.String> row)
-    // Offset: 0x26270F8
+    // Offset: 0x29959D4
     static void AppendRow(::StringW filePath, System::Collections::Generic::List_1<::StringW>* row);
     // static private System.Void AppendElement(System.Text.StringBuilder buffer, System.String element)
-    // Offset: 0x26274A8
+    // Offset: 0x2995D84
     static void AppendElement(System::Text::StringBuilder* buffer, ::StringW element);
     // static private System.Boolean HasEscapeChars(System.String element)
-    // Offset: 0x2627404
+    // Offset: 0x2995CE0
     static bool HasEscapeChars(::StringW element);
     // public System.Void .ctor()
-    // Offset: 0x2627530
+    // Offset: 0x2995E0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -41,6 +41,12 @@ namespace GlobalNamespace {
     constexpr operator int() const noexcept {
       return value;
     }
+    // static field const value: static public ConnectionFailedReason None
+    static constexpr const int None = 0;
+    // Get static field: static public ConnectionFailedReason None
+    static GlobalNamespace::ConnectionFailedReason _get_None();
+    // Set static field: static public ConnectionFailedReason None
+    static void _set_None(GlobalNamespace::ConnectionFailedReason value);
     // static field const value: static public ConnectionFailedReason Unknown
     static constexpr const int Unknown = 1;
     // Get static field: static public ConnectionFailedReason Unknown
@@ -89,36 +95,48 @@ namespace GlobalNamespace {
     static GlobalNamespace::ConnectionFailedReason _get_InvalidPassword();
     // Set static field: static public ConnectionFailedReason InvalidPassword
     static void _set_InvalidPassword(GlobalNamespace::ConnectionFailedReason value);
-    // static field const value: static public ConnectionFailedReason MasterServerUnreachable
-    static constexpr const int MasterServerUnreachable = 9;
-    // Get static field: static public ConnectionFailedReason MasterServerUnreachable
-    static GlobalNamespace::ConnectionFailedReason _get_MasterServerUnreachable();
-    // Set static field: static public ConnectionFailedReason MasterServerUnreachable
-    static void _set_MasterServerUnreachable(GlobalNamespace::ConnectionFailedReason value);
-    // static field const value: static public ConnectionFailedReason MasterServerNotAuthenticated
-    static constexpr const int MasterServerNotAuthenticated = 10;
-    // Get static field: static public ConnectionFailedReason MasterServerNotAuthenticated
-    static GlobalNamespace::ConnectionFailedReason _get_MasterServerNotAuthenticated();
-    // Set static field: static public ConnectionFailedReason MasterServerNotAuthenticated
-    static void _set_MasterServerNotAuthenticated(GlobalNamespace::ConnectionFailedReason value);
+    // static field const value: static public ConnectionFailedReason MultiplayerApiUnreachable
+    static constexpr const int MultiplayerApiUnreachable = 9;
+    // Get static field: static public ConnectionFailedReason MultiplayerApiUnreachable
+    static GlobalNamespace::ConnectionFailedReason _get_MultiplayerApiUnreachable();
+    // Set static field: static public ConnectionFailedReason MultiplayerApiUnreachable
+    static void _set_MultiplayerApiUnreachable(GlobalNamespace::ConnectionFailedReason value);
+    // static field const value: static public ConnectionFailedReason AuthenticationFailed
+    static constexpr const int AuthenticationFailed = 10;
+    // Get static field: static public ConnectionFailedReason AuthenticationFailed
+    static GlobalNamespace::ConnectionFailedReason _get_AuthenticationFailed();
+    // Set static field: static public ConnectionFailedReason AuthenticationFailed
+    static void _set_AuthenticationFailed(GlobalNamespace::ConnectionFailedReason value);
     // static field const value: static public ConnectionFailedReason NetworkNotConnected
     static constexpr const int NetworkNotConnected = 11;
     // Get static field: static public ConnectionFailedReason NetworkNotConnected
     static GlobalNamespace::ConnectionFailedReason _get_NetworkNotConnected();
     // Set static field: static public ConnectionFailedReason NetworkNotConnected
     static void _set_NetworkNotConnected(GlobalNamespace::ConnectionFailedReason value);
-    // static field const value: static public ConnectionFailedReason MasterServerCertificateValidationFailed
-    static constexpr const int MasterServerCertificateValidationFailed = 12;
-    // Get static field: static public ConnectionFailedReason MasterServerCertificateValidationFailed
-    static GlobalNamespace::ConnectionFailedReason _get_MasterServerCertificateValidationFailed();
-    // Set static field: static public ConnectionFailedReason MasterServerCertificateValidationFailed
-    static void _set_MasterServerCertificateValidationFailed(GlobalNamespace::ConnectionFailedReason value);
+    // static field const value: static public ConnectionFailedReason CertificateValidationFailed
+    static constexpr const int CertificateValidationFailed = 12;
+    // Get static field: static public ConnectionFailedReason CertificateValidationFailed
+    static GlobalNamespace::ConnectionFailedReason _get_CertificateValidationFailed();
+    // Set static field: static public ConnectionFailedReason CertificateValidationFailed
+    static void _set_CertificateValidationFailed(GlobalNamespace::ConnectionFailedReason value);
     // static field const value: static public ConnectionFailedReason ServerIsTerminating
     static constexpr const int ServerIsTerminating = 13;
     // Get static field: static public ConnectionFailedReason ServerIsTerminating
     static GlobalNamespace::ConnectionFailedReason _get_ServerIsTerminating();
     // Set static field: static public ConnectionFailedReason ServerIsTerminating
     static void _set_ServerIsTerminating(GlobalNamespace::ConnectionFailedReason value);
+    // static field const value: static public ConnectionFailedReason Timeout
+    static constexpr const int Timeout = 14;
+    // Get static field: static public ConnectionFailedReason Timeout
+    static GlobalNamespace::ConnectionFailedReason _get_Timeout();
+    // Set static field: static public ConnectionFailedReason Timeout
+    static void _set_Timeout(GlobalNamespace::ConnectionFailedReason value);
+    // static field const value: static public ConnectionFailedReason FailedToFindMatch
+    static constexpr const int FailedToFindMatch = 15;
+    // Get static field: static public ConnectionFailedReason FailedToFindMatch
+    static GlobalNamespace::ConnectionFailedReason _get_FailedToFindMatch();
+    // Set static field: static public ConnectionFailedReason FailedToFindMatch
+    static void _set_FailedToFindMatch(GlobalNamespace::ConnectionFailedReason value);
     // Get instance field reference: public System.Int32 value__
     int& dyn_value__();
   }; // ConnectionFailedReason

@@ -17,7 +17,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: GlobalNamespace
@@ -47,13 +46,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<EnvironmentInfoSO,System.String> <>9__12_0
     static void _set_$$9__12_0(System::Func_2<GlobalNamespace::EnvironmentInfoSO*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x11DE8D0
+    // Offset: 0x13FAFA4
     static void _cctor();
     // System.String <SetData>b__12_0(EnvironmentInfoSO x)
-    // Offset: 0x11DE93C
+    // Offset: 0x13FB010
     ::StringW $SetData$b__12_0(GlobalNamespace::EnvironmentInfoSO* x);
     // public System.Void .ctor()
-    // Offset: 0x11DE934
+    // Offset: 0x13FB008
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

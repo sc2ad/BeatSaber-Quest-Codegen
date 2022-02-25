@@ -75,16 +75,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _transform
     UnityEngine::Transform*& dyn__transform();
     // protected System.Void Awake()
-    // Offset: 0x11B3A54
+    // Offset: 0x13ED5C8
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x11B3B1C
+    // Offset: 0x13ED690
     void OnDestroy();
     // public System.Void HandleNoteControllerDidInit(NoteControllerBase noteController)
-    // Offset: 0x11B3C28
+    // Offset: 0x13ED79C
     void HandleNoteControllerDidInit(GlobalNamespace::NoteControllerBase* noteController);
     // public System.Void .ctor()
-    // Offset: 0x11B3C5C
+    // Offset: 0x13ED7D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

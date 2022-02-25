@@ -35,20 +35,20 @@ namespace UnityEngine {
   class Application::LowMemoryCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1CFECD4
+    // Offset: 0x1EAC004
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Application::LowMemoryCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Application::LowMemoryCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Application::LowMemoryCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x1CFD588
+    // Offset: 0x1EAA8B8
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1CFECE4
+    // Offset: 0x1EAC014
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1CFED10
+    // Offset: 0x1EAC040
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Application/UnityEngine.LowMemoryCallback
   #pragma pack(pop)

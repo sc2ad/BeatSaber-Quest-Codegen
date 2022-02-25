@@ -20,7 +20,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System
@@ -118,7 +117,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public BeatmapDifficulty lastSelectedBeatmapDifficulty
     GlobalNamespace::BeatmapDifficulty& dyn_lastSelectedBeatmapDifficulty();
     // public System.Void .ctor()
-    // Offset: 0x11AAAAC
+    // Offset: 0x13E3928
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -22,10 +22,10 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalAppContextSwitches : public ::Il2CppObject {
     public:
-    // Get static field: static public readonly System.Boolean DontThrowOnInvalidSurrogatePairs
-    static bool _get_DontThrowOnInvalidSurrogatePairs();
-    // Set static field: static public readonly System.Boolean DontThrowOnInvalidSurrogatePairs
-    static void _set_DontThrowOnInvalidSurrogatePairs(bool value);
+    // Get static field: static public readonly System.Boolean MemberDescriptorEqualsReturnsFalseIfEquivalent
+    static bool _get_MemberDescriptorEqualsReturnsFalseIfEquivalent();
+    // Set static field: static public readonly System.Boolean MemberDescriptorEqualsReturnsFalseIfEquivalent
+    static void _set_MemberDescriptorEqualsReturnsFalseIfEquivalent(bool value);
   }; // System.LocalAppContextSwitches
   #pragma pack(pop)
 }

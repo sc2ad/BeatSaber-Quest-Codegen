@@ -26,7 +26,6 @@ namespace System::Runtime::Serialization {
 // Type namespace: System
 namespace System {
   // Forward declaring type: WeakReference`1<T>
-  template<typename T>
   class WeakReference_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

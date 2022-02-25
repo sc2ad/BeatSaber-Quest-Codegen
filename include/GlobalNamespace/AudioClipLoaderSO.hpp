@@ -20,7 +20,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -73,13 +72,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isLoading
     bool& dyn__isLoading();
     // public System.Void LoadAudioFile(System.String filePath, System.Action`1<UnityEngine.AudioClip> finishCallback)
-    // Offset: 0x131419C
+    // Offset: 0x148F3E8
     void LoadAudioFile(::StringW filePath, System::Action_1<UnityEngine::AudioClip*>* finishCallback);
     // public System.Collections.IEnumerator LoadAudioFileCoroutine(System.String filePath, System.Action`1<UnityEngine.AudioClip> finishCallback)
-    // Offset: 0x131425C
+    // Offset: 0x148F4A8
     System::Collections::IEnumerator* LoadAudioFileCoroutine(::StringW filePath, System::Action_1<UnityEngine::AudioClip*>* finishCallback);
     // public System.Void .ctor()
-    // Offset: 0x131430C
+    // Offset: 0x148F558
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -91,7 +90,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<AudioClipLoaderSO*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x1314174
+    // Offset: 0x148F3C0
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

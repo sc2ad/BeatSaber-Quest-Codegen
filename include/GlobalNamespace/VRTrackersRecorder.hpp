@@ -30,7 +30,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -201,31 +200,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Quaternion _loadedOriginRot
     UnityEngine::Quaternion& dyn__loadedOriginRot();
     // protected System.Void Awake()
-    // Offset: 0x1BDC9CC
+    // Offset: 0x2CBA704
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1BDD048
+    // Offset: 0x2CBAD80
     void OnDestroy();
     // protected System.Void OnEnable()
-    // Offset: 0x1BDD37C
+    // Offset: 0x2CBB0B4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1BDD3A0
+    // Offset: 0x2CBB0D8
     void OnDisable();
     // private System.Void OnNewPoses(Valve.VR.TrackedDevicePose_t[] poses)
-    // Offset: 0x1BDD3C4
+    // Offset: 0x2CBB0FC
     void OnNewPoses(::ArrayW<Valve::VR::TrackedDevicePose_t> poses);
     // protected System.Void Update()
-    // Offset: 0x1BDD638
+    // Offset: 0x2CBB370
     void Update();
     // private System.Void Save()
-    // Offset: 0x1BDD058
+    // Offset: 0x2CBAD90
     void Save();
     // private System.Void Load()
-    // Offset: 0x1BDCB64
+    // Offset: 0x2CBA89C
     void Load();
     // public System.Void .ctor()
-    // Offset: 0x1BDDA9C
+    // Offset: 0x2CBB7D4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

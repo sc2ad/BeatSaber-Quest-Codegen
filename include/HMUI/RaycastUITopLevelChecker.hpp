@@ -18,7 +18,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -72,13 +71,13 @@ namespace HMUI {
     // Get instance field reference: private UnityEngine.Canvas _canvas
     UnityEngine::Canvas*& dyn__canvas();
     // public System.Boolean get_isOnTop()
-    // Offset: 0x14C6EB4
+    // Offset: 0x16A8F70
     bool get_isOnTop();
     // protected System.Void Awake()
-    // Offset: 0x14C6E30
+    // Offset: 0x16A8EEC
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x14C70D4
+    // Offset: 0x16A9190
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

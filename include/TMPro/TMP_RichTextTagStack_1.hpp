@@ -18,7 +18,6 @@
 // Type namespace: TMPro
 namespace TMPro {
   // Forward declaring type: TMP_RichTextTagStack`1<T>
-  template<typename T>
   struct TMP_RichTextTagStack_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

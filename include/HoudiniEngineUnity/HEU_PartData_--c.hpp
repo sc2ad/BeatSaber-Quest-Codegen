@@ -18,7 +18,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Comparison`1<T>
-  template<typename T>
   class Comparison_1;
 }
 // Completed forward declares
@@ -43,13 +42,13 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Comparison`1<UnityEngine.LOD> <>9__85_0
     static void _set_$$9__85_0(System::Comparison_1<UnityEngine::LOD>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1826258
+    // Offset: 0x1A53EB8
     static void _cctor();
     // System.Int32 <CopyGameObjectComponents>b__85_0(UnityEngine.LOD a, UnityEngine.LOD b)
-    // Offset: 0x18262C4
+    // Offset: 0x1A53F24
     int $CopyGameObjectComponents$b__85_0(UnityEngine::LOD a, UnityEngine::LOD b);
     // public System.Void .ctor()
-    // Offset: 0x18262BC
+    // Offset: 0x1A53F1C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

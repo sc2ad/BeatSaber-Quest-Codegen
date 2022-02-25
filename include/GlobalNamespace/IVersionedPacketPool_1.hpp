@@ -14,7 +14,6 @@
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: IVersionedPacketPool`1<T>
-  template<typename T>
   class IVersionedPacketPool_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

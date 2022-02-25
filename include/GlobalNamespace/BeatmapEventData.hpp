@@ -79,13 +79,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single floatValue
     float& dyn_floatValue();
     // public BeatmapEventData get_nextSameTypeEvent()
-    // Offset: 0x26BD090
+    // Offset: 0x2A4A140
     GlobalNamespace::BeatmapEventData* get_nextSameTypeEvent();
     // public System.Void set_nextSameTypeEvent(BeatmapEventData value)
-    // Offset: 0x26BD098
+    // Offset: 0x2A4A148
     void set_nextSameTypeEvent(GlobalNamespace::BeatmapEventData* value);
     // public System.Void .ctor(System.Single time, BeatmapEventType type, System.Int32 value, System.Single floatValue)
-    // Offset: 0x26BD0A0
+    // Offset: 0x2A4A150
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEventData* New_ctor(float time, GlobalNamespace::BeatmapEventType type, int value, float floatValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapEventData::.ctor");

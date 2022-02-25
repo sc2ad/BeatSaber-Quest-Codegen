@@ -16,7 +16,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: System::Reflection
@@ -46,13 +45,13 @@ namespace UnityEngine::TestTools {
     // Set static field: static public System.Func`2<System.Reflection.MethodInfo,System.Boolean> <>9__1_0
     static void _set_$$9__1_0(System::Func_2<System::Reflection::MethodInfo*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x16CE6EC
+    // Offset: 0x18D749C
     static void _cctor();
     // System.Boolean <GetMethodsWithAttributeFromFixture>b__1_0(System.Reflection.MethodInfo x)
-    // Offset: 0x16CE758
+    // Offset: 0x18D7508
     bool $GetMethodsWithAttributeFromFixture$b__1_0(System::Reflection::MethodInfo* x);
     // public System.Void .ctor()
-    // Offset: 0x16CE750
+    // Offset: 0x18D7500
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

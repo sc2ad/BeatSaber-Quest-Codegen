@@ -40,6 +40,9 @@ namespace GlobalNamespace {
     // public System.String get_userName()
     // Offset: 0xFFFFFFFF
     ::StringW get_userName();
+    // public System.Boolean get_hasValidLatency()
+    // Offset: 0xFFFFFFFF
+    bool get_hasValidLatency();
     // public System.Single get_currentLatency()
     // Offset: 0xFFFFFFFF
     float get_currentLatency();
@@ -93,6 +96,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::IConnectedPlayer::*)()>(&GlobalNamespace::IConnectedPlayer::get_userName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IConnectedPlayer*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::IConnectedPlayer::get_hasValidLatency
+// Il2CppName: get_hasValidLatency
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IConnectedPlayer::*)()>(&GlobalNamespace::IConnectedPlayer::get_hasValidLatency)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IConnectedPlayer*), "get_hasValidLatency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::IConnectedPlayer::get_currentLatency

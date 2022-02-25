@@ -35,10 +35,10 @@ namespace Mono::Math::Prime {
   class PrimalityTests : public ::Il2CppObject {
     public:
     // static private System.Int32 GetSPPRounds(Mono.Math.BigInteger bi, Mono.Math.Prime.ConfidenceFactor confidence)
-    // Offset: 0x1F8BCA4
+    // Offset: 0x22C48A8
     static int GetSPPRounds(Mono::Math::BigInteger* bi, Mono::Math::Prime::ConfidenceFactor confidence);
     // static public System.Boolean RabinMillerTest(Mono.Math.BigInteger n, Mono.Math.Prime.ConfidenceFactor confidence)
-    // Offset: 0x1F8BE58
+    // Offset: 0x22C4A5C
     static bool RabinMillerTest(Mono::Math::BigInteger* n, Mono::Math::Prime::ConfidenceFactor confidence);
   }; // Mono.Math.Prime.PrimalityTests
   #pragma pack(pop)

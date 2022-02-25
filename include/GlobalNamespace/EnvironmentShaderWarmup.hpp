@@ -69,14 +69,14 @@ namespace GlobalNamespace {
     ::ArrayW<UnityEngine::Material*> materials;
     // Field size check
     static_assert(sizeof(::ArrayW<UnityEngine::Material*>) == 0x8);
-    // [InjectAttribute] Offset: 0xF33480
+    // [InjectAttribute] Offset: 0x1239CF4
     // private readonly MainCamera _mainCamera
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::MainCamera* mainCamera;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainCamera*) == 0x8);
-    // [InjectAttribute] Offset: 0xF33490
+    // [InjectAttribute] Offset: 0x1239D04
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x28
@@ -113,10 +113,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _parentingTransform
     UnityEngine::Transform*& dyn__parentingTransform();
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x11DEA50
+    // Offset: 0x13FB124
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0x11DEAEC
+    // Offset: 0x13FB1C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

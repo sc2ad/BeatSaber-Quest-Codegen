@@ -31,13 +31,13 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x1872C80
+    // Offset: 0x1A6F4A4
     static void _cctor();
     // static public OVRPlugin/Posef ovrp_GetNodePose(OVRPlugin/Node nodeId)
-    // Offset: 0x1872B58
+    // Offset: 0x1A6F37C
     static GlobalNamespace::OVRPlugin::Posef ovrp_GetNodePose(GlobalNamespace::OVRPlugin::Node nodeId);
     // static public OVRPlugin/Bool ovrp_SetControllerVibration(System.UInt32 controllerMask, System.Single frequency, System.Single amplitude)
-    // Offset: 0x1872BE8
+    // Offset: 0x1A6F40C
     static GlobalNamespace::OVRPlugin::Bool ovrp_SetControllerVibration(uint controllerMask, float frequency, float amplitude);
   }; // OVRPlugin/OVRP_0_1_2
   #pragma pack(pop)

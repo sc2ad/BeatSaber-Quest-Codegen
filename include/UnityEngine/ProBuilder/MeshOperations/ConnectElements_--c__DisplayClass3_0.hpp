@@ -16,7 +16,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: HashSet`1<T>
-  template<typename T>
   class HashSet_1;
 }
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -60,10 +59,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public System.Collections.Generic.HashSet`1<System.Int32> appended
     System::Collections::Generic::HashSet_1<int>*& dyn_appended();
     // System.Boolean <Connect>b__3(UnityEngine.ProBuilder.Edge x)
-    // Offset: 0x179C35C
+    // Offset: 0x19C1AF8
     bool $Connect$b__3(UnityEngine::ProBuilder::Edge x);
     // public System.Void .ctor()
-    // Offset: 0x179BF24
+    // Offset: 0x19C16C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

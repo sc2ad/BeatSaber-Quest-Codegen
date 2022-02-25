@@ -103,14 +103,14 @@ namespace GlobalNamespace {
     float maxAcceleration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xF3B848
+    // [InjectAttribute] Offset: 0x12421BC
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
-    // [InjectAttribute] Offset: 0xF3B858
+    // [InjectAttribute] Offset: 0x12421CC
     // private readonly SongTimeFixedUpdateController _songTimeFixedUpdateController
     // Size: 0x8
     // Offset: 0x48
@@ -205,22 +205,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _sqrMaxSpeed
     float& dyn__sqrMaxSpeed();
     // protected System.Void Start()
-    // Offset: 0x114DAA8
+    // Offset: 0x2ABD918
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x114DC84
+    // Offset: 0x2ABDAF4
     void OnDestroy();
     // private System.Void HandleSongTimeFixedUpdate(System.Single fixedDeltaTime)
-    // Offset: 0x114DDA4
+    // Offset: 0x2ABDC14
     void HandleSongTimeFixedUpdate(float fixedDeltaTime);
     // private System.Void HandleSongTimeUpdate()
-    // Offset: 0x114E064
+    // Offset: 0x2ABDED4
     void HandleSongTimeUpdate();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x114E140
+    // Offset: 0x2ABDFB0
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x114E284
+    // Offset: 0x2ABE0F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

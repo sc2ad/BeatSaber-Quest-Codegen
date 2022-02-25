@@ -37,7 +37,6 @@ struct Il2CppObject;
 // Type namespace: System
 namespace System {
   // Forward declaring type: ValueTuple`2<T1, T2>
-  template<typename T1, typename T2>
   struct ValueTuple_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

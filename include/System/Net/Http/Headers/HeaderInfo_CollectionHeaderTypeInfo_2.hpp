@@ -19,7 +19,6 @@
 // Forward declaring namespace: System::Net::Http::Headers
 namespace System::Net::Http::Headers {
   // Forward declaring type: TryParseListDelegate`1<T>
-  template<typename T>
   class TryParseListDelegate_1;
 }
 // Completed forward declares

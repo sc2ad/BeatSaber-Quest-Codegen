@@ -16,7 +16,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Converter`2<TInput, TOutput>
-  template<typename TInput, typename TOutput>
   class Converter_2;
 }
 // Forward declaring namespace: UnityEngine
@@ -55,16 +54,16 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Converter`2<UnityEngine.Material,HoudiniEngineUnity.Test_Material> <>9__2_0
     static void _set_$$9__2_0(System::Converter_2<UnityEngine::Material*, HoudiniEngineUnity::Test_Material*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2679E3C
+    // Offset: 0x2A0DADC
     static void _cctor();
     // HoudiniEngineUnity.Test_Material <ToTestObject>b__1_0(UnityEngine.Material lod)
-    // Offset: 0x2679EA8
+    // Offset: 0x2A0DB48
     HoudiniEngineUnity::Test_Material* $ToTestObject$b__1_0(UnityEngine::Material* lod);
     // HoudiniEngineUnity.Test_Material <ToTestObject>b__2_0(UnityEngine.Material lod)
-    // Offset: 0x2679F0C
+    // Offset: 0x2A0DBAC
     HoudiniEngineUnity::Test_Material* $ToTestObject$b__2_0(UnityEngine::Material* lod);
     // public System.Void .ctor()
-    // Offset: 0x2679EA0
+    // Offset: 0x2A0DB40
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

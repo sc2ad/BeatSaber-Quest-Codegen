@@ -31,7 +31,6 @@ namespace System {
 // Type namespace: System.Net.Http.Headers
 namespace System::Net::Http::Headers {
   // Forward declaring type: ElementTryParser`1<T>
-  template<typename T>
   class ElementTryParser_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

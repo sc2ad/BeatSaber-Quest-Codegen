@@ -69,25 +69,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _canBeCut
     bool& dyn__canBeCut();
     // protected System.Void Awake()
-    // Offset: 0x121BA80
+    // Offset: 0x13D68F0
     void Awake();
     // public override System.Single get_radius()
-    // Offset: 0x121BA20
+    // Offset: 0x13D6890
     // Implemented from: CuttableBySaber
     // Base method: System.Single CuttableBySaber::get_radius()
     float get_radius();
     // public override System.Boolean get_canBeCut()
-    // Offset: 0x121BA78
+    // Offset: 0x13D68E8
     // Implemented from: CuttableBySaber
     // Base method: System.Boolean CuttableBySaber::get_canBeCut()
     bool get_canBeCut();
     // public override System.Void set_canBeCut(System.Boolean value)
-    // Offset: 0x121BA3C
+    // Offset: 0x13D68AC
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::set_canBeCut(System.Boolean value)
     void set_canBeCut(bool value);
     // public System.Void .ctor()
-    // Offset: 0x121BADC
+    // Offset: 0x13D694C
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -101,7 +101,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SphereCuttableBySaber*, creationType>()));
     }
     // public override System.Void Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x121BAB8
+    // Offset: 0x13D6928
     // Implemented from: CuttableBySaber
     // Base method: System.Void CuttableBySaber::Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
     void Cut(GlobalNamespace::Saber* saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec);

@@ -16,7 +16,6 @@ namespace TMPro {
 // Forward declaring namespace: UnityEngine::Events
 namespace UnityEngine::Events {
   // Forward declaring type: UnityAction`1<T0>
-  template<typename T0>
   class UnityAction_1;
 }
 // Completed forward declares
@@ -91,43 +90,43 @@ namespace TMPro {
     // Get instance field reference: private System.Boolean m_IgnoreTimeScale
     bool& dyn_m_IgnoreTimeScale();
     // public System.Single get_startValue()
-    // Offset: 0x123DF4C
+    // Offset: 0x1403A7C
     float get_startValue();
     // public System.Void set_startValue(System.Single value)
-    // Offset: 0x123DF54
+    // Offset: 0x1403A84
     void set_startValue(float value);
     // public System.Single get_targetValue()
-    // Offset: 0x123DF5C
+    // Offset: 0x1403A8C
     float get_targetValue();
     // public System.Void set_targetValue(System.Single value)
-    // Offset: 0x123DF64
+    // Offset: 0x1403A94
     void set_targetValue(float value);
     // public System.Single get_duration()
-    // Offset: 0x123DF6C
+    // Offset: 0x1403A9C
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x123DF74
+    // Offset: 0x1403AA4
     void set_duration(float value);
     // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0x123DF7C
+    // Offset: 0x1403AAC
     bool get_ignoreTimeScale();
     // public System.Void set_ignoreTimeScale(System.Boolean value)
-    // Offset: 0x123DF84
+    // Offset: 0x1403AB4
     void set_ignoreTimeScale(bool value);
     // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0x123DF90
+    // Offset: 0x1403AC0
     void TweenValue(float floatPercentage);
     // public System.Void AddOnChangedCallback(UnityEngine.Events.UnityAction`1<System.Single> callback)
-    // Offset: 0x123E060
+    // Offset: 0x1403B90
     void AddOnChangedCallback(UnityEngine::Events::UnityAction_1<float>* callback);
     // public System.Boolean GetIgnoreTimescale()
-    // Offset: 0x123E13C
+    // Offset: 0x1403C6C
     bool GetIgnoreTimescale();
     // public System.Single GetDuration()
-    // Offset: 0x123E144
+    // Offset: 0x1403C74
     float GetDuration();
     // public System.Boolean ValidTarget()
-    // Offset: 0x123E050
+    // Offset: 0x1403B80
     bool ValidTarget();
   }; // TMPro.FloatTween
   #pragma pack(pop)

@@ -18,7 +18,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: KeyValuePair`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   struct KeyValuePair_2;
 }
 // Completed forward declares
@@ -57,10 +56,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 port
     int& dyn_port();
     // System.Int32 <GetSortedEncryptionStates>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,EncryptionUtility/IEncryptionState> kvp)
-    // Offset: 0x180CE14
+    // Offset: 0x2DFDC38
     int $GetSortedEncryptionStates$b__0(System::Collections::Generic::KeyValuePair_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*> kvp);
     // public System.Void .ctor()
-    // Offset: 0x180CD54
+    // Offset: 0x2DFD854
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

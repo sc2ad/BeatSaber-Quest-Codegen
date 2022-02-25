@@ -17,7 +17,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: GlobalNamespace
@@ -47,13 +46,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IPreviewBeatmapLevel,System.String> <>9__3_0
     static void _set_$$9__3_0(System::Func_2<GlobalNamespace::IPreviewBeatmapLevel*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x130C7E8
+    // Offset: 0x1487A34
     static void _cctor();
     // System.String <CreateData>b__3_0(IPreviewBeatmapLevel x)
-    // Offset: 0x130C854
+    // Offset: 0x1487AA0
     ::StringW $CreateData$b__3_0(GlobalNamespace::IPreviewBeatmapLevel* x);
     // public System.Void .ctor()
-    // Offset: 0x130C84C
+    // Offset: 0x1487A98
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

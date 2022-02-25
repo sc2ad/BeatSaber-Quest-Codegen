@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   class LanguageSO : public GlobalNamespace::ObservableVariableSO_1<Polyglot::Language> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x11A2088
+    // Offset: 0x13AFB30
     // Implemented from: ObservableVariableSO`1
     // Base method: System.Void ObservableVariableSO_1::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

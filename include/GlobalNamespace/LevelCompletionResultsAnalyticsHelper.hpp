@@ -16,7 +16,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Completed forward declares
@@ -37,7 +36,7 @@ namespace GlobalNamespace {
   class LevelCompletionResultsAnalyticsHelper : public ::Il2CppObject {
     public:
     // static public System.Void FillEventData(LevelCompletionResults levelCompletionResults, System.Collections.Generic.Dictionary`2<System.String,System.String> eventData)
-    // Offset: 0x12F5F08
+    // Offset: 0x1471460
     static void FillEventData(GlobalNamespace::LevelCompletionResults* levelCompletionResults, System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
   }; // LevelCompletionResultsAnalyticsHelper
   #pragma pack(pop)

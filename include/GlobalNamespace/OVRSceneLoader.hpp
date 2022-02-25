@@ -40,7 +40,6 @@ namespace UnityEngine::UI {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System::Collections
@@ -103,7 +102,7 @@ namespace GlobalNamespace {
       // Get instance field reference: public System.Int64 version
       int64_t& dyn_version();
       // public System.Void .ctor(System.Collections.Generic.List`1<System.String> sceneList, System.Int64 currentSceneEpochVersion)
-      // Offset: 0x187FA8C
+      // Offset: 0x1A7C2B0
       // ABORTED: conflicts with another method.  SceneInfo(System::Collections::Generic::List_1<::StringW>* sceneList, int64_t currentSceneEpochVersion);
     }; // OVRSceneLoader/SceneInfo
     #pragma pack(pop)
@@ -246,37 +245,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private OVRSceneLoader/SceneInfo currentSceneInfo
     GlobalNamespace::OVRSceneLoader::SceneInfo& dyn_currentSceneInfo();
     // private System.Void Awake()
-    // Offset: 0x187E1AC
+    // Offset: 0x1A7A9D0
     void Awake();
     // private System.Void Start()
-    // Offset: 0x187E228
+    // Offset: 0x1A7AA4C
     void Start();
     // private System.Void LoadScene(OVRSceneLoader/SceneInfo sceneInfo)
-    // Offset: 0x187E5D8
+    // Offset: 0x1A7ADFC
     void LoadScene(GlobalNamespace::OVRSceneLoader::SceneInfo sceneInfo);
     // private System.Void LoadSceneOperation_completed(UnityEngine.AsyncOperation obj)
-    // Offset: 0x187EE40
+    // Offset: 0x1A7B664
     void LoadSceneOperation_completed(UnityEngine::AsyncOperation* obj);
     // public System.Void Update()
-    // Offset: 0x187EF94
+    // Offset: 0x1A7B7B8
     void Update();
     // private System.Void UpdateCanvasPosition()
-    // Offset: 0x187F1E4
+    // Offset: 0x1A7BA08
     void UpdateCanvasPosition();
     // private OVRSceneLoader/SceneInfo GetSceneInfo()
-    // Offset: 0x187E3C0
+    // Offset: 0x1A7ABE4
     GlobalNamespace::OVRSceneLoader::SceneInfo GetSceneInfo();
     // private System.Collections.IEnumerator DelayCanvasPosUpdate()
-    // Offset: 0x187E350
+    // Offset: 0x1A7AB74
     System::Collections::IEnumerator* DelayCanvasPosUpdate();
     // private System.Collections.IEnumerator onCheckSceneCoroutine()
-    // Offset: 0x187EF24
+    // Offset: 0x1A7B748
     System::Collections::IEnumerator* onCheckSceneCoroutine();
     // private System.Void DestroyAllGameObjects()
-    // Offset: 0x187F4A8
+    // Offset: 0x1A7BCCC
     void DestroyAllGameObjects();
     // public System.Void .ctor()
-    // Offset: 0x187F5BC
+    // Offset: 0x1A7BDE0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

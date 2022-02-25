@@ -23,7 +23,6 @@ namespace System::Collections {
 // Type namespace: System.IO
 namespace System::IO {
   // Forward declaring type: Iterator`1<TSource>
-  template<typename TSource>
   class Iterator_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

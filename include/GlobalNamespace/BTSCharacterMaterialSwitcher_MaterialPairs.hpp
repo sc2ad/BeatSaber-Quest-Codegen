@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Material alternativeMaterial
     UnityEngine::Material*& dyn_alternativeMaterial();
     // public System.Void .ctor()
-    // Offset: 0x12BE490
+    // Offset: 0x2B37088
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

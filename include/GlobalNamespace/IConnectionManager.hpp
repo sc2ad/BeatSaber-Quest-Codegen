@@ -25,13 +25,10 @@ namespace System {
   // Forward declaring type: Action
   class Action;
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
   // Forward declaring type: Action`2<T1, T2>
-  template<typename T1, typename T2>
   class Action_2;
   // Forward declaring type: Action`3<T1, T2, T3>
-  template<typename T1, typename T2, typename T3>
   class Action_3;
 }
 // Forward declaring namespace: GlobalNamespace
@@ -39,7 +36,6 @@ namespace GlobalNamespace {
   // Forward declaring type: IConnection
   class IConnection;
   // Forward declaring type: IConnectionInitParams`1<T>
-  template<typename T>
   class IConnectionInitParams_1;
 }
 // Forward declaring namespace: LiteNetLib::Utils
@@ -94,6 +90,12 @@ namespace GlobalNamespace {
     // public System.Boolean get_isDisposed()
     // Offset: 0xFFFFFFFF
     bool get_isDisposed();
+    // public System.Void add_onInitializedEvent(System.Action value)
+    // Offset: 0xFFFFFFFF
+    void add_onInitializedEvent(System::Action* value);
+    // public System.Void remove_onInitializedEvent(System.Action value)
+    // Offset: 0xFFFFFFFF
+    void remove_onInitializedEvent(System::Action* value);
     // public System.Void add_onConnectedEvent(System.Action value)
     // Offset: 0xFFFFFFFF
     void add_onConnectedEvent(System::Action* value);
@@ -124,12 +126,6 @@ namespace GlobalNamespace {
     // public System.Void remove_onConnectionDisconnectedEvent(System.Action`2<IConnection,DisconnectedReason> value)
     // Offset: 0xFFFFFFFF
     void remove_onConnectionDisconnectedEvent(System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>* value);
-    // public System.Void add_onLatencyUpdatedEvent(System.Action`2<IConnection,System.Single> value)
-    // Offset: 0xFFFFFFFF
-    void add_onLatencyUpdatedEvent(System::Action_2<GlobalNamespace::IConnection*, float>* value);
-    // public System.Void remove_onLatencyUpdatedEvent(System.Action`2<IConnection,System.Single> value)
-    // Offset: 0xFFFFFFFF
-    void remove_onLatencyUpdatedEvent(System::Action_2<GlobalNamespace::IConnection*, float>* value);
     // public System.Void add_onReceivedDataEvent(System.Action`3<IConnection,LiteNetLib.Utils.NetDataReader,LiteNetLib.DeliveryMethod> value)
     // Offset: 0xFFFFFFFF
     void add_onReceivedDataEvent(System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>* value);
@@ -229,6 +225,24 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IConnectionManager*), "get_isDisposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::IConnectionManager::add_onInitializedEvent
+// Il2CppName: add_onInitializedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IConnectionManager::*)(System::Action*)>(&GlobalNamespace::IConnectionManager::add_onInitializedEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IConnectionManager*), "add_onInitializedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::IConnectionManager::remove_onInitializedEvent
+// Il2CppName: remove_onInitializedEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IConnectionManager::*)(System::Action*)>(&GlobalNamespace::IConnectionManager::remove_onInitializedEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IConnectionManager*), "remove_onInitializedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IConnectionManager::add_onConnectedEvent
 // Il2CppName: add_onConnectedEvent
 template<>
@@ -317,24 +331,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IConnection"), ::il2cpp_utils::GetClassFromName("", "DisconnectedReason")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IConnectionManager*), "remove_onConnectionDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::IConnectionManager::add_onLatencyUpdatedEvent
-// Il2CppName: add_onLatencyUpdatedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IConnectionManager::*)(System::Action_2<GlobalNamespace::IConnection*, float>*)>(&GlobalNamespace::IConnectionManager::add_onLatencyUpdatedEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IConnection"), ::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IConnectionManager*), "add_onLatencyUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::IConnectionManager::remove_onLatencyUpdatedEvent
-// Il2CppName: remove_onLatencyUpdatedEvent
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IConnectionManager::*)(System::Action_2<GlobalNamespace::IConnection*, float>*)>(&GlobalNamespace::IConnectionManager::remove_onLatencyUpdatedEvent)> {
-  static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IConnection"), ::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IConnectionManager*), "remove_onLatencyUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::IConnectionManager::add_onReceivedDataEvent

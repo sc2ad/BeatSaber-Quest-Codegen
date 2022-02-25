@@ -97,14 +97,14 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapEventType colorEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapEventType) == 0x4);
-    // [SpaceAttribute] Offset: 0xF3B780
+    // [SpaceAttribute] Offset: 0x12420F4
     // private UnityEngine.ParticleSystem _particleSystem
     // Size: 0x8
     // Offset: 0x40
     UnityEngine::ParticleSystem* particleSystem;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem*) == 0x8);
-    // [InjectAttribute] Offset: 0xF3B7B8
+    // [InjectAttribute] Offset: 0x124212C
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x48
@@ -221,22 +221,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _particleSpeed
     float& dyn__particleSpeed();
     // protected System.Void Start()
-    // Offset: 0x1148C8C
+    // Offset: 0x2AB8AFC
     void Start();
     // private System.Void OnDestroy()
-    // Offset: 0x1148F84
+    // Offset: 0x2AB8DF4
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x1149084
+    // Offset: 0x2AB8EF4
     void Update();
     // private System.Void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(BeatmapEventData beatmapEventData)
-    // Offset: 0x11491A8
+    // Offset: 0x2AB9018
     void HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // private System.Void RefreshParticles()
-    // Offset: 0x1148E48
+    // Offset: 0x2AB8CB8
     void RefreshParticles();
     // public System.Void .ctor()
-    // Offset: 0x1149390
+    // Offset: 0x2AB9200
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

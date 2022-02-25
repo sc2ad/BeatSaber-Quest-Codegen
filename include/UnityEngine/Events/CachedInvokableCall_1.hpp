@@ -28,7 +28,6 @@ namespace System::Reflection {
 // Type namespace: UnityEngine.Events
 namespace UnityEngine::Events {
   // Forward declaring type: CachedInvokableCall`1<T>
-  template<typename T>
   class CachedInvokableCall_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,7 +16,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: HashSet`1<T>
-  template<typename T>
   class HashSet_1;
 }
 // Completed forward declares
@@ -37,19 +36,19 @@ namespace GlobalNamespace {
   class FileHelpers : public ::Il2CppObject {
     public:
     // static public System.String GetEscapedURLForFilePath(System.String filePath)
-    // Offset: 0x13958C0
+    // Offset: 0x2C1D25C
     static ::StringW GetEscapedURLForFilePath(::StringW filePath);
     // static public System.String GetUniqueDirectoryNameByAppendingNumber(System.String dirName)
-    // Offset: 0x1395924
+    // Offset: 0x2C1D2C0
     static ::StringW GetUniqueDirectoryNameByAppendingNumber(::StringW dirName);
     // static public System.String[] GetFilePaths(System.String directoryPath, System.Collections.Generic.HashSet`1<System.String> extensions)
-    // Offset: 0x13959D8
+    // Offset: 0x2C1D374
     static ::ArrayW<::StringW> GetFilePaths(::StringW directoryPath, System::Collections::Generic::HashSet_1<::StringW>* extensions);
     // static public System.String[] GetFileNamesFromFilePaths(System.String[] filePaths)
-    // Offset: 0x1395B78
+    // Offset: 0x2C1D514
     static ::ArrayW<::StringW> GetFileNamesFromFilePaths(::ArrayW<::StringW> filePaths);
     // static public System.Void SaveToJSONFile(System.Object obj, System.String filePath, System.String tempFilePath, System.String backupFilePath)
-    // Offset: 0x1395C98
+    // Offset: 0x2C1D634
     static void SaveToJSONFile(::Il2CppObject* obj, ::StringW filePath, ::StringW tempFilePath, ::StringW backupFilePath);
     // static public T LoadFromJSONFile(System.String filePath, System.String backupFilePath)
     // Offset: 0xFFFFFFFF
@@ -61,10 +60,10 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, filePath, backupFilePath);
     }
     // static public System.String LoadJSONFile(System.String filePath, System.String backupFilePath)
-    // Offset: 0x1395E04
+    // Offset: 0x2C1D7A0
     static ::StringW LoadJSONFile(::StringW filePath, ::StringW backupFilePath);
     // public System.Void .ctor()
-    // Offset: 0x1395F7C
+    // Offset: 0x2C1D918
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

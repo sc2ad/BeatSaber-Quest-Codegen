@@ -32,10 +32,8 @@ namespace Zenject {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: System
@@ -49,7 +47,6 @@ namespace System {
 // Type namespace: HMUI
 namespace HMUI {
   // Forward declaring type: UIItemsList`1<T>
-  template<typename T>
   class UIItemsList_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -127,7 +124,7 @@ namespace HMUI {
     bool insertInTheBeginning;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [InjectAttribute] Offset: 0xF26938
+    // [InjectAttribute] Offset: 0x122D478
     // private Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x0

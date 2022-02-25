@@ -23,7 +23,6 @@ namespace TMPro {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: System::Collections
@@ -80,25 +79,25 @@ namespace TMPro {
     // Get instance field reference: private TMPro.TMP_Text m_TextComponent
     TMPro::TMP_Text*& dyn_m_TextComponent();
     // private System.Void Awake()
-    // Offset: 0x1260808
+    // Offset: 0x1455144
     void Awake();
     // private System.Void OnEnable()
-    // Offset: 0x1260860
+    // Offset: 0x145519C
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x1260864
+    // Offset: 0x14551A0
     void OnDisable();
     // public System.Void StopAllAnimations()
-    // Offset: 0x1260868
+    // Offset: 0x14551A4
     void StopAllAnimations();
     // public System.Void DoSpriteAnimation(System.Int32 currentCharacter, TMPro.TMP_SpriteAsset spriteAsset, System.Int32 start, System.Int32 end, System.Int32 framerate)
-    // Offset: 0x12608CC
+    // Offset: 0x1455208
     void DoSpriteAnimation(int currentCharacter, TMPro::TMP_SpriteAsset* spriteAsset, int start, int end, int framerate);
     // private System.Collections.IEnumerator DoSpriteAnimationInternal(System.Int32 currentCharacter, TMPro.TMP_SpriteAsset spriteAsset, System.Int32 start, System.Int32 end, System.Int32 framerate)
-    // Offset: 0x12609B0
+    // Offset: 0x14552EC
     System::Collections::IEnumerator* DoSpriteAnimationInternal(int currentCharacter, TMPro::TMP_SpriteAsset* spriteAsset, int start, int end, int framerate);
     // public System.Void .ctor()
-    // Offset: 0x1260A84
+    // Offset: 0x14553C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

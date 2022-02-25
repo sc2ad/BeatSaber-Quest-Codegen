@@ -36,7 +36,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     protected:
     #endif
     #endif
-    // [FormerlySerializedAsAttribute] Offset: 0xF2DA40
+    // [FormerlySerializedAsAttribute] Offset: 0x12342BC
     // private System.Boolean m_CompressionEnabled
     // Size: 0x1
     // Offset: 0x10
@@ -45,21 +45,21 @@ namespace UnityEngine::AddressableAssets::Initialization {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_CompressionEnabled and: m_CacheDirectoryOverride
     char __padding0[0x7] = {};
-    // [FormerlySerializedAsAttribute] Offset: 0xF2DA8C
+    // [FormerlySerializedAsAttribute] Offset: 0x1234308
     // private System.String m_CacheDirectoryOverride
     // Size: 0x8
     // Offset: 0x18
     ::StringW m_CacheDirectoryOverride;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [FormerlySerializedAsAttribute] Offset: 0xF2DAD8
+    // [FormerlySerializedAsAttribute] Offset: 0x1234354
     // private System.Int32 m_ExpirationDelay
     // Size: 0x4
     // Offset: 0x20
     int m_ExpirationDelay;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [FormerlySerializedAsAttribute] Offset: 0xF2DB24
+    // [FormerlySerializedAsAttribute] Offset: 0x12343A0
     // private System.Boolean m_LimitCacheSize
     // Size: 0x1
     // Offset: 0x24
@@ -68,7 +68,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: m_LimitCacheSize and: m_MaximumCacheSize
     char __padding3[0x3] = {};
-    // [FormerlySerializedAsAttribute] Offset: 0xF2DB70
+    // [FormerlySerializedAsAttribute] Offset: 0x12343EC
     // private System.Int64 m_MaximumCacheSize
     // Size: 0x8
     // Offset: 0x28
@@ -87,37 +87,37 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Get instance field reference: private System.Int64 m_MaximumCacheSize
     int64_t& dyn_m_MaximumCacheSize();
     // public System.Boolean get_CompressionEnabled()
-    // Offset: 0x160FB8C
+    // Offset: 0x17E50DC
     bool get_CompressionEnabled();
     // public System.Void set_CompressionEnabled(System.Boolean value)
-    // Offset: 0x160FB94
+    // Offset: 0x17E50E4
     void set_CompressionEnabled(bool value);
     // public System.String get_CacheDirectoryOverride()
-    // Offset: 0x160FBA0
+    // Offset: 0x17E50F0
     ::StringW get_CacheDirectoryOverride();
     // public System.Void set_CacheDirectoryOverride(System.String value)
-    // Offset: 0x160FBA8
+    // Offset: 0x17E50F8
     void set_CacheDirectoryOverride(::StringW value);
     // public System.Int32 get_ExpirationDelay()
-    // Offset: 0x160FBB0
+    // Offset: 0x17E5100
     int get_ExpirationDelay();
     // public System.Void set_ExpirationDelay(System.Int32 value)
-    // Offset: 0x160FBB8
+    // Offset: 0x17E5108
     void set_ExpirationDelay(int value);
     // public System.Boolean get_LimitCacheSize()
-    // Offset: 0x160FBC0
+    // Offset: 0x17E5110
     bool get_LimitCacheSize();
     // public System.Void set_LimitCacheSize(System.Boolean value)
-    // Offset: 0x160FBC8
+    // Offset: 0x17E5118
     void set_LimitCacheSize(bool value);
     // public System.Int64 get_MaximumCacheSize()
-    // Offset: 0x160FBD4
+    // Offset: 0x17E5124
     int64_t get_MaximumCacheSize();
     // public System.Void set_MaximumCacheSize(System.Int64 value)
-    // Offset: 0x160FBDC
+    // Offset: 0x17E512C
     void set_MaximumCacheSize(int64_t value);
     // public System.Void .ctor()
-    // Offset: 0x160FBE4
+    // Offset: 0x17E5134
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

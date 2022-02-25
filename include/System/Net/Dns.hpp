@@ -11,10 +11,22 @@
 // Begin forward declares
 // Forward declaring namespace: System::Net
 namespace System::Net {
-  // Forward declaring type: IPHostEntry
-  class IPHostEntry;
   // Forward declaring type: IPAddress
   class IPAddress;
+  // Forward declaring type: IPHostEntry
+  class IPHostEntry;
+}
+// Forward declaring namespace: System
+namespace System {
+  // Forward declaring type: IAsyncResult
+  class IAsyncResult;
+  // Forward declaring type: AsyncCallback
+  class AsyncCallback;
+}
+// Forward declaring namespace: System::Threading::Tasks
+namespace System::Threading::Tasks {
+  // Forward declaring type: Task`1<TResult>
+  class Task_1;
 }
 // Completed forward declares
 // Type namespace: System.Net
@@ -33,43 +45,74 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class Dns : public ::Il2CppObject {
     public:
+    // Nested type: System::Net::Dns::GetHostAddressesCallback
+    class GetHostAddressesCallback;
+    // static public System.IAsyncResult BeginGetHostAddresses(System.String hostNameOrAddress, System.AsyncCallback requestCallback, System.Object state)
+    // Offset: 0x1AB299C
+    static System::IAsyncResult* BeginGetHostAddresses(::StringW hostNameOrAddress, System::AsyncCallback* requestCallback, ::Il2CppObject* state);
+    // static public System.Net.IPAddress[] EndGetHostAddresses(System.IAsyncResult asyncResult)
+    // Offset: 0x1AB2B1C
+    static ::ArrayW<System::Net::IPAddress*> EndGetHostAddresses(System::IAsyncResult* asyncResult);
     // static private System.Boolean GetHostByName_internal(System.String host, out System.String h_name, out System.String[] h_aliases, out System.String[] h_addr_list, System.Int32 hint)
-    // Offset: 0x15EDDF8
+    // Offset: 0x1AB2C20
     static bool GetHostByName_internal(::StringW host, ByRef<::StringW> h_name, ByRef<::ArrayW<::StringW>> h_aliases, ByRef<::ArrayW<::StringW>> h_addr_list, int hint);
     // static private System.Boolean GetHostByAddr_internal(System.String addr, out System.String h_name, out System.String[] h_aliases, out System.String[] h_addr_list, System.Int32 hint)
-    // Offset: 0x15EDDFC
+    // Offset: 0x1AB2C24
     static bool GetHostByAddr_internal(::StringW addr, ByRef<::StringW> h_name, ByRef<::ArrayW<::StringW>> h_aliases, ByRef<::ArrayW<::StringW>> h_addr_list, int hint);
     // static private System.Boolean GetHostName_internal(out System.String h_name)
-    // Offset: 0x15EDE00
+    // Offset: 0x1AB2C28
     static bool GetHostName_internal(ByRef<::StringW> h_name);
     // static private System.Void Error_11001(System.String hostName)
-    // Offset: 0x15EDE04
+    // Offset: 0x1AB2C2C
     static void Error_11001(::StringW hostName);
     // static private System.Net.IPHostEntry hostent_to_IPHostEntry(System.String originalHostName, System.String h_name, System.String[] h_aliases, System.String[] h_addrlist)
-    // Offset: 0x15EDE90
+    // Offset: 0x1AB2CB8
     static System::Net::IPHostEntry* hostent_to_IPHostEntry(::StringW originalHostName, ::StringW h_name, ::ArrayW<::StringW> h_aliases, ::ArrayW<::StringW> h_addrlist);
     // static private System.Net.IPHostEntry GetHostByAddressFromString(System.String address, System.Boolean parse)
-    // Offset: 0x15EE17C
+    // Offset: 0x1AB2FA4
     static System::Net::IPHostEntry* GetHostByAddressFromString(::StringW address, bool parse);
     // static public System.Net.IPHostEntry GetHostEntry(System.String hostNameOrAddress)
-    // Offset: 0x15EE29C
+    // Offset: 0x1AB30C4
     static System::Net::IPHostEntry* GetHostEntry(::StringW hostNameOrAddress);
     // static public System.Net.IPHostEntry GetHostEntry(System.Net.IPAddress address)
-    // Offset: 0x15EE3EC
+    // Offset: 0x1AB3214
     static System::Net::IPHostEntry* GetHostEntry(System::Net::IPAddress* address);
     // static public System.Net.IPAddress[] GetHostAddresses(System.String hostNameOrAddress)
-    // Offset: 0x15EE56C
+    // Offset: 0x1AB3394
     static ::ArrayW<System::Net::IPAddress*> GetHostAddresses(::StringW hostNameOrAddress);
     // static public System.Net.IPHostEntry GetHostByName(System.String hostName)
-    // Offset: 0x15EE480
+    // Offset: 0x1AB32A8
     static System::Net::IPHostEntry* GetHostByName(::StringW hostName);
     // static public System.String GetHostName()
-    // Offset: 0x15EE720
+    // Offset: 0x1AB3548
     static ::StringW GetHostName();
+    // static public System.Threading.Tasks.Task`1<System.Net.IPAddress[]> GetHostAddressesAsync(System.String hostNameOrAddress)
+    // Offset: 0x1AB3580
+    static System::Threading::Tasks::Task_1<::ArrayW<System::Net::IPAddress*>>* GetHostAddressesAsync(::StringW hostNameOrAddress);
   }; // System.Net.Dns
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Net::Dns::BeginGetHostAddresses
+// Il2CppName: BeginGetHostAddresses
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (*)(::StringW, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Dns::BeginGetHostAddresses)> {
+  static const MethodInfo* get() {
+    static auto* hostNameOrAddress = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* requestCallback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
+    static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Dns*), "BeginGetHostAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hostNameOrAddress, requestCallback, state});
+  }
+};
+// Writing MetadataGetter for method: System::Net::Dns::EndGetHostAddresses
+// Il2CppName: EndGetHostAddresses
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Net::IPAddress*> (*)(System::IAsyncResult*)>(&System::Net::Dns::EndGetHostAddresses)> {
+  static const MethodInfo* get() {
+    static auto* asyncResult = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Dns*), "EndGetHostAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncResult});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Dns::GetHostByName_internal
 // Il2CppName: GetHostByName_internal
 template<>
@@ -178,5 +221,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&System::Net::Dns::GetHostName)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Dns*), "GetHostName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: System::Net::Dns::GetHostAddressesAsync
+// Il2CppName: GetHostAddressesAsync
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::ArrayW<System::Net::IPAddress*>>* (*)(::StringW)>(&System::Net::Dns::GetHostAddressesAsync)> {
+  static const MethodInfo* get() {
+    static auto* hostNameOrAddress = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Dns*), "GetHostAddressesAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hostNameOrAddress});
   }
 };

@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0xF493EC
+    // [InjectAttribute] Offset: 0x124FCF0
     // private readonly MainCamera _mainCamera
     // Size: 0x8
     // Offset: 0x18
@@ -88,13 +88,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _transform
     UnityEngine::Transform*& dyn__transform();
     // protected System.Void Awake()
-    // Offset: 0x11C36EC
+    // Offset: 0x142703C
     void Awake();
     // protected System.Void LateUpdate()
-    // Offset: 0x11C3744
+    // Offset: 0x1427094
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x11C38C0
+    // Offset: 0x1427210
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -11,7 +11,6 @@
 // Forward declaring namespace: System::Runtime::CompilerServices
 namespace System::Runtime::CompilerServices {
   // Forward declaring type: ConditionalWeakTable`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class ConditionalWeakTable_2;
 }
 // Forward declaring namespace: System::Runtime::Serialization
@@ -46,19 +45,19 @@ namespace System::Collections {
     // Set static field: static private System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Runtime.Serialization.SerializationInfo> s_SerializationInfoTable
     static void _set_s_SerializationInfoTable(System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*>* value);
     // static System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Runtime.Serialization.SerializationInfo> get_SerializationInfoTable()
-    // Offset: 0x199F258
+    // Offset: 0x1ACE838
     static System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*>* get_SerializationInfoTable();
     // static private System.Void .cctor()
-    // Offset: 0x199F65C
+    // Offset: 0x1ACEC40
     static void _cctor();
     // static public System.Boolean IsPrime(System.Int32 candidate)
-    // Offset: 0x199F33C
+    // Offset: 0x1ACE91C
     static bool IsPrime(int candidate);
     // static public System.Int32 GetPrime(System.Int32 min)
-    // Offset: 0x199F40C
+    // Offset: 0x1ACE9EC
     static int GetPrime(int min);
     // static public System.Int32 ExpandPrime(System.Int32 oldSize)
-    // Offset: 0x199F5C8
+    // Offset: 0x1ACEBAC
     static int ExpandPrime(int oldSize);
   }; // System.Collections.HashHelpers
   #pragma pack(pop)

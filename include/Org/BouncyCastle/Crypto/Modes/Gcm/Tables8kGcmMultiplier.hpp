@@ -60,13 +60,13 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     // Get instance field reference: private System.UInt32[][][] M
     ::ArrayW<::ArrayW<::ArrayW<uint>>>& dyn_M();
     // public System.Void Init(System.Byte[] H)
-    // Offset: 0x1ACBAB0
+    // Offset: 0x1D53C54
     void Init(::ArrayW<uint8_t> H);
     // public System.Void MultiplyH(System.Byte[] x)
-    // Offset: 0x1ACC33C
+    // Offset: 0x1D544E0
     void MultiplyH(::ArrayW<uint8_t> x);
     // public System.Void .ctor()
-    // Offset: 0x1ACC560
+    // Offset: 0x1D54704
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

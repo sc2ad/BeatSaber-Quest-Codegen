@@ -22,7 +22,6 @@
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: TaskCompletionSource`1<TResult>
-  template<typename TResult>
   class TaskCompletionSource_1;
 }
 // Forward declaring namespace: Oculus::Platform::Models
@@ -88,13 +87,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.PurchaseList> <>9__1
     typename Oculus::Platform::Message_1<Oculus::Platform::Models::PurchaseList*>::Callback*& dyn_$$9__1();
     // System.Void <CheckForNewEntitlementsAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetDetailsList> getListMsg)
-    // Offset: 0x136D0FC
+    // Offset: 0x2BB64E8
     void $CheckForNewEntitlementsAsync$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetDetailsList*>* getListMsg);
     // System.Void <CheckForNewEntitlementsAsync>b__1(Oculus.Platform.Message`1<Oculus.Platform.Models.PurchaseList> getPurchasesMsg)
-    // Offset: 0x136D534
+    // Offset: 0x2BB6920
     void $CheckForNewEntitlementsAsync$b__1(Oculus::Platform::Message_1<Oculus::Platform::Models::PurchaseList*>* getPurchasesMsg);
     // public System.Void .ctor()
-    // Offset: 0x136D0F4
+    // Offset: 0x2BB64E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

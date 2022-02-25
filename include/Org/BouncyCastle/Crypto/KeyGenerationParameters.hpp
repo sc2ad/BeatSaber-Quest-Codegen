@@ -60,13 +60,13 @@ namespace Org::BouncyCastle::Crypto {
     // Get instance field reference: private System.Int32 strength
     int& dyn_strength();
     // public Org.BouncyCastle.Security.SecureRandom get_Random()
-    // Offset: 0x1ABC388
+    // Offset: 0x1D4452C
     Org::BouncyCastle::Security::SecureRandom* get_Random();
     // public System.Int32 get_Strength()
-    // Offset: 0x1ABC390
+    // Offset: 0x1D44534
     int get_Strength();
     // public System.Void .ctor(Org.BouncyCastle.Security.SecureRandom random, System.Int32 strength)
-    // Offset: 0x1ABC2A4
+    // Offset: 0x1D44448
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyGenerationParameters* New_ctor(Org::BouncyCastle::Security::SecureRandom* random, int strength) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::KeyGenerationParameters::.ctor");

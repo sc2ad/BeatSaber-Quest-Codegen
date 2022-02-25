@@ -16,7 +16,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: GlobalNamespace
@@ -94,43 +93,43 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<ObstacleData,MockObstacleData> <>9__0_10
     static void _set_$$9__0_10(System::Func_2<GlobalNamespace::ObstacleData*, GlobalNamespace::MockObstacleData*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x11BEA78
+    // Offset: 0x1421D90
     static void _cctor();
     // System.Boolean <ToMockBeatmapData>b__0_0(BeatmapObjectData bod)
-    // Offset: 0x11BEAE4
+    // Offset: 0x1421DFC
     bool $ToMockBeatmapData$b__0_0(GlobalNamespace::BeatmapObjectData* bod);
     // System.Boolean <ToMockBeatmapData>b__0_1(NoteData nd)
-    // Offset: 0x11BEB14
+    // Offset: 0x1421E2C
     bool $ToMockBeatmapData$b__0_1(GlobalNamespace::NoteData* nd);
     // MockNoteData <ToMockBeatmapData>b__0_2(NoteData nd)
-    // Offset: 0x11BEB34
+    // Offset: 0x1421E4C
     GlobalNamespace::MockNoteData* $ToMockBeatmapData$b__0_2(GlobalNamespace::NoteData* nd);
     // System.Boolean <ToMockBeatmapData>b__0_3(BeatmapObjectData bod)
-    // Offset: 0x11BEB3C
+    // Offset: 0x1421E54
     bool $ToMockBeatmapData$b__0_3(GlobalNamespace::BeatmapObjectData* bod);
     // System.Boolean <ToMockBeatmapData>b__0_4(NoteData nd)
-    // Offset: 0x11BEB6C
+    // Offset: 0x1421E84
     bool $ToMockBeatmapData$b__0_4(GlobalNamespace::NoteData* nd);
     // MockNoteData <ToMockBeatmapData>b__0_5(NoteData nd)
-    // Offset: 0x11BEB8C
+    // Offset: 0x1421EA4
     GlobalNamespace::MockNoteData* $ToMockBeatmapData$b__0_5(GlobalNamespace::NoteData* nd);
     // System.Boolean <ToMockBeatmapData>b__0_6(BeatmapObjectData bod)
-    // Offset: 0x11BEB94
+    // Offset: 0x1421EAC
     bool $ToMockBeatmapData$b__0_6(GlobalNamespace::BeatmapObjectData* bod);
     // System.Boolean <ToMockBeatmapData>b__0_7(NoteData nd)
-    // Offset: 0x11BEBC4
+    // Offset: 0x1421EDC
     bool $ToMockBeatmapData$b__0_7(GlobalNamespace::NoteData* nd);
     // MockNoteData <ToMockBeatmapData>b__0_8(NoteData nd)
-    // Offset: 0x11BEBE4
+    // Offset: 0x1421EFC
     GlobalNamespace::MockNoteData* $ToMockBeatmapData$b__0_8(GlobalNamespace::NoteData* nd);
     // System.Boolean <ToMockBeatmapData>b__0_9(BeatmapObjectData bod)
-    // Offset: 0x11BEBEC
+    // Offset: 0x1421F04
     bool $ToMockBeatmapData$b__0_9(GlobalNamespace::BeatmapObjectData* bod);
     // MockObstacleData <ToMockBeatmapData>b__0_10(ObstacleData od)
-    // Offset: 0x11BEC1C
+    // Offset: 0x1421F34
     GlobalNamespace::MockObstacleData* $ToMockBeatmapData$b__0_10(GlobalNamespace::ObstacleData* od);
     // public System.Void .ctor()
-    // Offset: 0x11BEADC
+    // Offset: 0x1421DF4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

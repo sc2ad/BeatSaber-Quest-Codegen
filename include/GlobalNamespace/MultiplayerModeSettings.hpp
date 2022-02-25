@@ -74,7 +74,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean quickPlayEnableLevelSelection
     bool& dyn_quickPlayEnableLevelSelection();
     // public System.Void .ctor()
-    // Offset: 0x116DBE8
+    // Offset: 0x2A9F9FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

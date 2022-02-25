@@ -16,16 +16,13 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -55,13 +52,13 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Vertex,System.Int32>,System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Vertex>> <>9__10_0
     static void _set_$$9__10_0(System::Func_2<System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Vertex*, int>*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Vertex*>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1914E40
+    // Offset: 0x1B454D0
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Vertex> <CollapseSharedVertices>b__10_0(System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Vertex,System.Int32> x)
-    // Offset: 0x1914EAC
+    // Offset: 0x1B4553C
     System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Vertex*>* $CollapseSharedVertices$b__10_0(System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Vertex*, int>* x);
     // public System.Void .ctor()
-    // Offset: 0x1914EA4
+    // Offset: 0x1B45534
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

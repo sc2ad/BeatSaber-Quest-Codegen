@@ -30,12 +30,12 @@ namespace System::Net::NetworkInformation {
   class Win32IPGlobalProperties : public System::Net::NetworkInformation::IPGlobalProperties {
     public:
     // public override System.String get_DomainName()
-    // Offset: 0x16A9A04
+    // Offset: 0x17ADA50
     // Implemented from: System.Net.NetworkInformation.IPGlobalProperties
     // Base method: System.String IPGlobalProperties::get_DomainName()
     ::StringW get_DomainName();
     // public System.Void .ctor()
-    // Offset: 0x16A5F28
+    // Offset: 0x17AA038
     // Implemented from: System.Net.NetworkInformation.IPGlobalProperties
     // Base method: System.Void IPGlobalProperties::.ctor()
     // Base method: System.Void Object::.ctor()

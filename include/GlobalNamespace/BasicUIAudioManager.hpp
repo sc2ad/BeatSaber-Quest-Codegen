@@ -19,7 +19,6 @@ namespace GlobalNamespace {
   // Forward declaring type: Signal
   class Signal;
   // Forward declaring type: RandomObjectPicker`1<T>
-  template<typename T>
   class RandomObjectPicker_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -107,19 +106,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomSoundPicker
     GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*& dyn__randomSoundPicker();
     // protected System.Void Start()
-    // Offset: 0x12C5E34
+    // Offset: 0x2B3EAA4
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x12C5ECC
+    // Offset: 0x2B3EB3C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x12C5FA0
+    // Offset: 0x2B3EC10
     void OnDisable();
     // private System.Void HandleButtonClickEvent()
-    // Offset: 0x12C6074
+    // Offset: 0x2B3ECE4
     void HandleButtonClickEvent();
     // public System.Void .ctor()
-    // Offset: 0x12C6154
+    // Offset: 0x2B3EDC4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

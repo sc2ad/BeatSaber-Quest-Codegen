@@ -19,7 +19,6 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: IStateTable`3<TStateTable, TType, TState>
-  template<typename TStateTable, typename TType, typename TState>
   class IStateTable_3;
   // Skipping declaration: IEquatableByReference`1 because it is already included!
 }
@@ -37,7 +36,6 @@ namespace System {
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: LocalStateBuffer`3<TStateTable, TType, TState>
-  template<typename TStateTable, typename TType, typename TState>
   class LocalStateBuffer_3;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -242,6 +240,15 @@ namespace GlobalNamespace {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalStateBuffer_3::GetState");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetState", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(type)})));
       return ::il2cpp_utils::RunMethodRethrow<TState, false>(this, ___internal__method, type);
+    }
+    // public override System.Void Clear()
+    // Offset: 0xFFFFFFFF
+    // Implemented from: StateBuffer`3
+    // Base method: System.Void StateBuffer_3::Clear()
+    void Clear() {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LocalStateBuffer_3::Clear");
+      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
   }; // LocalStateBuffer`3
   // Could not write size check! Type: LocalStateBuffer`3 is generic, or has no fields that are valid for size checks!

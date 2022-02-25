@@ -51,20 +51,20 @@ namespace Mono::Security::Interface {
   class MonoRemoteCertificateValidationCallback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1F94A28
+    // Offset: 0x22CD62C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MonoRemoteCertificateValidationCallback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Interface::MonoRemoteCertificateValidationCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MonoRemoteCertificateValidationCallback*, creationType>(object, method)));
     }
     // public System.Boolean Invoke(System.String targetHost, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, Mono.Security.Interface.MonoSslPolicyErrors sslPolicyErrors)
-    // Offset: 0x1F94A38
+    // Offset: 0x22CD63C
     bool Invoke(::StringW targetHost, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Security::Cryptography::X509Certificates::X509Chain* chain, Mono::Security::Interface::MonoSslPolicyErrors sslPolicyErrors);
     // public System.IAsyncResult BeginInvoke(System.String targetHost, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, Mono.Security.Interface.MonoSslPolicyErrors sslPolicyErrors, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1F94E7C
+    // Offset: 0x22CDA80
     System::IAsyncResult* BeginInvoke(::StringW targetHost, System::Security::Cryptography::X509Certificates::X509Certificate* certificate, System::Security::Cryptography::X509Certificates::X509Chain* chain, Mono::Security::Interface::MonoSslPolicyErrors sslPolicyErrors, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1F94F2C
+    // Offset: 0x22CDB30
     bool EndInvoke(System::IAsyncResult* result);
   }; // Mono.Security.Interface.MonoRemoteCertificateValidationCallback
   #pragma pack(pop)

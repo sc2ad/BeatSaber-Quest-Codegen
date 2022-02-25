@@ -52,7 +52,7 @@ namespace System::Security::Cryptography {
     // Get instance field reference: private System.String _hashAlgorithm
     ::StringW& dyn__hashAlgorithm();
     // protected System.Void .ctor(System.String hashAlgorithm, System.String digestAlgorithm)
-    // Offset: 0x1D160A4
+    // Offset: 0x205A084
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RSAPKCS1SignatureDescription* New_ctor(::StringW hashAlgorithm, ::StringW digestAlgorithm) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::RSAPKCS1SignatureDescription::.ctor");

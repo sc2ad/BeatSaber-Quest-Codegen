@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [NullAllowed] Offset: 0xF38688
+    // [NullAllowed] Offset: 0x123F02C
     // public PS4PublisherSKUSettingsSO activePublisherSKUSettings
     // Size: 0x8
     // Offset: 0x18
@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public PS4PublisherSKUSettingsSO activePublisherSKUSettings
     GlobalNamespace::PS4PublisherSKUSettingsSO*& dyn_activePublisherSKUSettings();
     // public System.Void .ctor()
-    // Offset: 0x1146AB0
+    // Offset: 0x2AB6920
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

@@ -65,14 +65,14 @@ namespace RootMotion::FinalIK {
     ::ArrayW<UnityEngine::AnimationCurve*> offsetCurves;
     // Field size check
     static_assert(sizeof(::ArrayW<UnityEngine::AnimationCurve*>) == 0x8);
-    // [TooltipAttribute] Offset: 0xF5F994
+    // [TooltipAttribute] Offset: 0x12664C4
     // public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.PositionOffset[] positionOffsets
     // Size: 0x8
     // Offset: 0x38
     ::ArrayW<RootMotion::FinalIK::HitReactionVRIK::PositionOffset*> positionOffsets;
     // Field size check
     static_assert(sizeof(::ArrayW<RootMotion::FinalIK::HitReactionVRIK::PositionOffset*>) == 0x8);
-    // [TooltipAttribute] Offset: 0xF5F9CC
+    // [TooltipAttribute] Offset: 0x12664FC
     // public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.RotationOffset[] rotationOffsets
     // Size: 0x8
     // Offset: 0x40
@@ -87,10 +87,10 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.RotationOffset[] rotationOffsets
     ::ArrayW<RootMotion::FinalIK::HitReactionVRIK::RotationOffset*>& dyn_rotationOffsets();
     // public System.Void Hit(UnityEngine.Collider collider, UnityEngine.Vector3 force, UnityEngine.Vector3 point)
-    // Offset: 0x1E7E4F8
+    // Offset: 0x21CA8F8
     void Hit(UnityEngine::Collider* collider, UnityEngine::Vector3 force, UnityEngine::Vector3 point);
     // public System.Void .ctor()
-    // Offset: 0x1E7E880
+    // Offset: 0x21CAC80
     // Implemented from: RootMotion.FinalIK.OffsetModifierVRIK
     // Base method: System.Void OffsetModifierVRIK::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -104,7 +104,7 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<HitReactionVRIK*, creationType>()));
     }
     // protected override System.Void OnModifyOffset()
-    // Offset: 0x1E7E2D8
+    // Offset: 0x21CA6D8
     // Implemented from: RootMotion.FinalIK.OffsetModifierVRIK
     // Base method: System.Void OffsetModifierVRIK::OnModifyOffset()
     void OnModifyOffset();

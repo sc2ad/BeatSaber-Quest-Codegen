@@ -29,13 +29,11 @@ namespace System::Threading::Tasks {
   // Forward declaring type: TaskExceptionHolder
   class TaskExceptionHolder;
   // Forward declaring type: Shared`1<T>
-  template<typename T>
   class Shared_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -125,13 +123,13 @@ namespace System::Threading::Tasks {
     // Get instance field reference: System.Collections.Generic.List`1<System.Threading.Tasks.Task> m_exceptionalChildren
     System::Collections::Generic::List_1<System::Threading::Tasks::Task*>*& dyn_m_exceptionalChildren();
     // System.Void SetCompleted()
-    // Offset: 0x19BC00C
+    // Offset: 0x1CD939C
     void SetCompleted();
     // System.Void DeregisterCancellationCallback()
-    // Offset: 0x19BC044
+    // Offset: 0x1CD93D4
     void DeregisterCancellationCallback();
     // public System.Void .ctor()
-    // Offset: 0x19BBBB4
+    // Offset: 0x1CD8F44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

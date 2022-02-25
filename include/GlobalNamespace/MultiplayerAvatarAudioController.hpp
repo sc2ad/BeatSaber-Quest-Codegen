@@ -62,7 +62,7 @@ namespace GlobalNamespace {
     UnityEngine::AudioSource* audioSource;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioSource*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xF35DA0
+    // [InjectOptionalAttribute] Offset: 0x123C634
     // private IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x20
@@ -77,13 +77,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private IConnectedPlayer _connectedPlayer
     GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // public System.Void set_connectedPlayer(IConnectedPlayer value)
-    // Offset: 0x11C4CB8
+    // Offset: 0x1428608
     void set_connectedPlayer(GlobalNamespace::IConnectedPlayer* value);
     // protected System.Collections.IEnumerator Start()
-    // Offset: 0x11C4CC0
+    // Offset: 0x1428610
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0x11C4D5C
+    // Offset: 0x14286AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

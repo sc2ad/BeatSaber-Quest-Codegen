@@ -52,14 +52,14 @@ namespace Zenject {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0xF03AB8
+    // [InjectAttribute] Offset: 0x11F8F30
     // private Zenject.ZenjectSettings _settings
     // Size: 0x8
     // Offset: 0x38
     Zenject::ZenjectSettings* settings;
     // Field size check
     static_assert(sizeof(Zenject::ZenjectSettings*) == 0x8);
-    // [InjectAttribute] Offset: 0xF03AC8
+    // [InjectAttribute] Offset: 0x11F8F40
     // private Zenject.SceneContextRegistry _contextRegistry
     // Size: 0x8
     // Offset: 0x40
@@ -72,16 +72,16 @@ namespace Zenject {
     // Get instance field reference: private Zenject.SceneContextRegistry _contextRegistry
     Zenject::SceneContextRegistry*& dyn__contextRegistry();
     // public System.Void OnApplicationQuit()
-    // Offset: 0x18E2C20
+    // Offset: 0x1B132B0
     void OnApplicationQuit();
     // public System.Void DestroyEverythingInOrder()
-    // Offset: 0x18E2C44
+    // Offset: 0x1B132D4
     void DestroyEverythingInOrder();
     // public System.Void ForceUnloadAllScenes(System.Boolean immediate)
-    // Offset: 0x18E2CEC
+    // Offset: 0x1B1337C
     void ForceUnloadAllScenes(bool immediate);
     // public System.Void .ctor()
-    // Offset: 0x18E3028
+    // Offset: 0x1B136B8
     // Implemented from: Zenject.MonoKernel
     // Base method: System.Void MonoKernel::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -95,17 +95,17 @@ namespace Zenject {
       return THROW_UNLESS((::il2cpp_utils::New<ProjectKernel*, creationType>()));
     }
     // static private System.Void __zenFieldSetter0(System.Object P_0, System.Object P_1)
-    // Offset: 0x18E3030
+    // Offset: 0x1B136C0
     // Implemented from: Zenject.MonoKernel
     // Base method: System.Void MonoKernel::__zenFieldSetter0(System.Object P_0, System.Object P_1)
     static void __zenFieldSetter0(::Il2CppObject* P_0, ::Il2CppObject* P_1);
     // static private System.Void __zenFieldSetter1(System.Object P_0, System.Object P_1)
-    // Offset: 0x18E3104
+    // Offset: 0x1B13794
     // Implemented from: Zenject.MonoKernel
     // Base method: System.Void MonoKernel::__zenFieldSetter1(System.Object P_0, System.Object P_1)
     static void __zenFieldSetter1(::Il2CppObject* P_0, ::Il2CppObject* P_1);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x18E31D8
+    // Offset: 0x1B13868
     // Implemented from: Zenject.MonoKernel
     // Base method: Zenject.InjectTypeInfo MonoKernel::__zenCreateInjectTypeInfo()
     static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();

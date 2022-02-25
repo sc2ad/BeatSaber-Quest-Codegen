@@ -87,56 +87,59 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MultiplayerAvatarData <multiplayerAvatarData>k__BackingField
     GlobalNamespace::MultiplayerAvatarData& dyn_$multiplayerAvatarData$k__BackingField();
     // public System.Single get_offsetSyncTime()
-    // Offset: 0x15659F4
+    // Offset: 0x2C3FA8C
     float get_offsetSyncTime();
     // public System.Boolean get_isFailed()
-    // Offset: 0x15659FC
+    // Offset: 0x2C3FA94
     bool get_isFailed();
     // public System.Boolean get_isMe()
-    // Offset: 0x1565A04
+    // Offset: 0x2C3FA9C
     bool get_isMe();
     // public System.String get_userId()
-    // Offset: 0x1565A0C
+    // Offset: 0x2C3FAA4
     ::StringW get_userId();
     // private System.Void set_userId(System.String value)
-    // Offset: 0x1565A14
+    // Offset: 0x2C3FAAC
     void set_userId(::StringW value);
     // public System.String get_userName()
-    // Offset: 0x1565A1C
+    // Offset: 0x2C3FAB4
     ::StringW get_userName();
     // private System.Void set_userName(System.String value)
-    // Offset: 0x1565A24
+    // Offset: 0x2C3FABC
     void set_userName(::StringW value);
+    // public System.Boolean get_hasValidLatency()
+    // Offset: 0x2C3FAC4
+    bool get_hasValidLatency();
     // public System.Single get_currentLatency()
-    // Offset: 0x1565A2C
+    // Offset: 0x2C3FACC
     float get_currentLatency();
     // public System.Boolean get_isConnected()
-    // Offset: 0x1565A34
+    // Offset: 0x2C3FAD4
     bool get_isConnected();
     // public DisconnectedReason get_disconnectedReason()
-    // Offset: 0x1565A3C
+    // Offset: 0x2C3FADC
     GlobalNamespace::DisconnectedReason get_disconnectedReason();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x1565A44
+    // Offset: 0x2C3FAE4
     bool get_isConnectionOwner();
     // public System.Int32 get_sortIndex()
-    // Offset: 0x1565A4C
+    // Offset: 0x2C3FAEC
     int get_sortIndex();
     // public MultiplayerAvatarData get_multiplayerAvatarData()
-    // Offset: 0x1565A54
+    // Offset: 0x2C3FAF4
     GlobalNamespace::MultiplayerAvatarData get_multiplayerAvatarData();
     // public System.Boolean get_isKicked()
-    // Offset: 0x1565A64
+    // Offset: 0x2C3FB04
     bool get_isKicked();
     // public System.Void .ctor(System.String userId, System.String userName, System.Int32 sortIndex)
-    // Offset: 0x1565A74
+    // Offset: 0x2C3FB14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisconnectedPlayer* New_ctor(::StringW userId, ::StringW userName, int sortIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DisconnectedPlayer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisconnectedPlayer*, creationType>(userId, userName, sortIndex)));
     }
     // public System.Boolean HasState(System.String state)
-    // Offset: 0x1565A6C
+    // Offset: 0x2C3FB0C
     bool HasState(::StringW state);
   }; // DisconnectedPlayer
   #pragma pack(pop)
@@ -200,6 +203,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectedPlayer*), "set_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::DisconnectedPlayer::get_hasValidLatency
+// Il2CppName: get_hasValidLatency
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::DisconnectedPlayer::*)()>(&GlobalNamespace::DisconnectedPlayer::get_hasValidLatency)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectedPlayer*), "get_hasValidLatency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::DisconnectedPlayer::get_currentLatency

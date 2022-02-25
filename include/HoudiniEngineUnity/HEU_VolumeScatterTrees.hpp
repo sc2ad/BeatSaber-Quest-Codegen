@@ -21,7 +21,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: HoudiniEngineUnity
@@ -133,10 +132,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32[] _terrainTiles
     ::ArrayW<int>& dyn__terrainTiles();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_VolumeScatterTrees other)
-    // Offset: 0x1786224
+    // Offset: 0x19AC9C0
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_VolumeScatterTrees* other);
     // public System.Void .ctor()
-    // Offset: 0x1780FFC
+    // Offset: 0x19A7798
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -7,8 +7,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: PosesRecordingData
 #include "GlobalNamespace/PosesRecordingData.hpp"
-// Including type: PosesRecordingData/Pose
-#include "GlobalNamespace/PosesRecordingData_Pose.hpp"
+// Including type: UnityEngine.Pose
+#include "UnityEngine/Pose.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -35,12 +35,12 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // public readonly PosesRecordingData/Pose[] poses
+    // public readonly UnityEngine.Pose[] poses
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayW<GlobalNamespace::PosesRecordingData::Pose> poses;
+    ::ArrayW<UnityEngine::Pose> poses;
     // Field size check
-    static_assert(sizeof(::ArrayW<GlobalNamespace::PosesRecordingData::Pose>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Pose>) == 0x8);
     // public readonly System.Single time
     // Size: 0x4
     // Offset: 0x18
@@ -48,14 +48,14 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(float) == 0x4);
     public:
-    // Get instance field reference: public readonly PosesRecordingData/Pose[] poses
-    ::ArrayW<GlobalNamespace::PosesRecordingData::Pose>& dyn_poses();
+    // Get instance field reference: public readonly UnityEngine.Pose[] poses
+    ::ArrayW<UnityEngine::Pose>& dyn_poses();
     // Get instance field reference: public readonly System.Single time
     float& dyn_time();
-    // public System.Void .ctor(PosesRecordingData/Pose[] poses, System.Single time)
-    // Offset: 0x11AE314
+    // public System.Void .ctor(UnityEngine.Pose[] poses, System.Single time)
+    // Offset: 0x13E6FD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PosesRecordingData::TransformsKeyframe* New_ctor(::ArrayW<GlobalNamespace::PosesRecordingData::Pose> poses, float time) {
+    static PosesRecordingData::TransformsKeyframe* New_ctor(::ArrayW<UnityEngine::Pose> poses, float time) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PosesRecordingData::TransformsKeyframe::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PosesRecordingData::TransformsKeyframe*, creationType>(poses, time)));
     }

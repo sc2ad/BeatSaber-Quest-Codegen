@@ -30,7 +30,6 @@ namespace System::Collections {
 // Type namespace: Priority_Queue
 namespace Priority_Queue {
   // Forward declaring type: StablePriorityQueue`1<T>
-  template<typename T>
   class StablePriorityQueue_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

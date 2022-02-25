@@ -20,7 +20,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: HoudiniEngineUnity
@@ -200,7 +199,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.String _specifiedTerrainMaterialName
     ::StringW& dyn__specifiedTerrainMaterialName();
     // public System.Void .ctor()
-    // Offset: 0x15986AC
+    // Offset: 0x1787B5C
     // Implemented from: HoudiniEngineUnity.HEU_LoadBufferBase
     // Base method: System.Void HEU_LoadBufferBase::.ctor()
     // Base method: System.Void Object::.ctor()

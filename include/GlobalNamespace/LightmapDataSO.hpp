@@ -64,19 +64,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Texture2D _lightmap2
     UnityEngine::Texture2D*& dyn__lightmap2();
     // public UnityEngine.Texture2D get_lightmap1()
-    // Offset: 0x13033EC
+    // Offset: 0x147E738
     UnityEngine::Texture2D* get_lightmap1();
     // public System.Void set_lightmap1(UnityEngine.Texture2D value)
-    // Offset: 0x13033F4
+    // Offset: 0x147E740
     void set_lightmap1(UnityEngine::Texture2D* value);
     // public UnityEngine.Texture2D get_lightmap2()
-    // Offset: 0x13033FC
+    // Offset: 0x147E748
     UnityEngine::Texture2D* get_lightmap2();
     // public System.Void set_lightmap2(UnityEngine.Texture2D value)
-    // Offset: 0x1303404
+    // Offset: 0x147E750
     void set_lightmap2(UnityEngine::Texture2D* value);
     // public System.Void .ctor()
-    // Offset: 0x130340C
+    // Offset: 0x147E758
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

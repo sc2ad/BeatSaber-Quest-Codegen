@@ -74,10 +74,10 @@ namespace HMUI {
     // Get instance field reference: public HMUI.FlowCoordinator flowCoordinatorToReplace
     HMUI::FlowCoordinator*& dyn_flowCoordinatorToReplace();
     // System.Void <ReplaceChildFlowCoordinator>b__0()
-    // Offset: 0x149F81C
+    // Offset: 0x166FFA4
     void $ReplaceChildFlowCoordinator$b__0();
     // public System.Void .ctor()
-    // Offset: 0x149E9D8
+    // Offset: 0x166F160
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

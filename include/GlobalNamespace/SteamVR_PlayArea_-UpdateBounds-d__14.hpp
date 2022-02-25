@@ -82,26 +82,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private Valve.VR.CVRChaperone <chaperone>5__2
     Valve::VR::CVRChaperone*& dyn_$chaperone$5__2();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x15C4B30
+    // Offset: 0x17CA950
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x15C4B98
+    // Offset: 0x17CA9B8
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x15C49BC
+    // Offset: 0x17CA7DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_PlayArea::$UpdateBounds$d__14* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SteamVR_PlayArea::$UpdateBounds$d__14::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_PlayArea::$UpdateBounds$d__14*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x15C4A30
+    // Offset: 0x17CA850
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x15C4A34
+    // Offset: 0x17CA854
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x15C4B38
+    // Offset: 0x17CA958
     void System_Collections_IEnumerator_Reset();
   }; // SteamVR_PlayArea/<UpdateBounds>d__14
   #pragma pack(pop)

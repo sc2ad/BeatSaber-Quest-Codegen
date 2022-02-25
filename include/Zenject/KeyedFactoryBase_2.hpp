@@ -27,22 +27,17 @@ namespace Zenject {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
   // Forward declaring type: ICollection`1<T>
-  template<typename T>
   class ICollection_1;
 }
 // Forward declaring namespace: ModestTree::Util
 namespace ModestTree::Util {
   // Forward declaring type: ValuePair`2<T1, T2>
-  template<typename T1, typename T2>
   class ValuePair_2;
 }
 // Forward declaring namespace: System
@@ -50,14 +45,12 @@ namespace System {
   // Forward declaring type: Type
   class Type;
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: KeyedFactoryBase`2<TBase, TKey>
-  template<typename TBase, typename TKey>
   class KeyedFactoryBase_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -172,14 +165,14 @@ namespace Zenject {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0xF03218
+    // [InjectAttribute] Offset: 0x11F8690
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x0
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xF03228
+    // [InjectOptionalAttribute] Offset: 0x11F86A0
     // private readonly System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<TKey,System.Type>> _typePairs
     // Size: 0x8
     // Offset: 0x0
@@ -192,7 +185,7 @@ namespace Zenject {
     System::Collections::Generic::Dictionary_2<TKey, System::Type*>* typeMap;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<TKey, System::Type*>*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xF03238
+    // [InjectOptionalAttribute] Offset: 0x11F86B0
     // private readonly System.Type _fallbackType
     // Size: 0x8
     // Offset: 0x0

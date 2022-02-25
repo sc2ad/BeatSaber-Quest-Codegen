@@ -44,13 +44,13 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Set static field: static public readonly System.Collections.IEnumerable Instance
     static void _set_Instance(System::Collections::IEnumerable* value);
     // static private System.Void .cctor()
-    // Offset: 0x154787C
+    // Offset: 0x17464FC
     static void _cctor();
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x1547814
+    // Offset: 0x1746494
     System::Collections::IEnumerator* GetEnumerator();
     // private System.Void .ctor()
-    // Offset: 0x154780C
+    // Offset: 0x174648C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

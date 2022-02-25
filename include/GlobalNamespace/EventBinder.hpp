@@ -14,7 +14,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System
@@ -62,13 +61,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<System.Action> _unsubscribes
     System::Collections::Generic::List_1<System::Action*>*& dyn__unsubscribes();
     // public System.Void Bind(System.Action subscribe, System.Action unsubscribe)
-    // Offset: 0x13944D0
+    // Offset: 0x2C1BE6C
     void Bind(System::Action* subscribe, System::Action* unsubscribe);
     // public System.Void ClearAllBindings()
-    // Offset: 0x139454C
+    // Offset: 0x2C1BEE8
     void ClearAllBindings();
     // public System.Void .ctor()
-    // Offset: 0x139465C
+    // Offset: 0x2C1BFF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

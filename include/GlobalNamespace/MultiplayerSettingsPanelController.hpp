@@ -41,7 +41,6 @@ namespace HMUI {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Completed forward declares
@@ -144,40 +143,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<System.Boolean> playerActiveStateChangedEvent
     System::Action_1<bool>*& dyn_playerActiveStateChangedEvent();
     // public System.Void add_playerActiveStateChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x117A2D4
+    // Offset: 0x2AAC0A8
     void add_playerActiveStateChangedEvent(System::Action_1<bool>* value);
     // public System.Void remove_playerActiveStateChangedEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x117A378
+    // Offset: 0x2AAC14C
     void remove_playerActiveStateChangedEvent(System::Action_1<bool>* value);
     // public System.Void SetLobbyPlayerDataModel(ILobbyPlayerData lobbyPlayerData)
-    // Offset: 0x117A41C
+    // Offset: 0x2AAC1F0
     void SetLobbyPlayerDataModel(GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
     // public System.Void HideConnectionSettings(System.Boolean hide)
-    // Offset: 0x117A554
+    // Offset: 0x2AAC328
     void HideConnectionSettings(bool hide);
     // public System.Void HideSpectateSettings(System.Boolean hide)
-    // Offset: 0x117A578
+    // Offset: 0x2AAC34C
     void HideSpectateSettings(bool hide);
     // public System.Void SetLobbyCode(System.String code)
-    // Offset: 0x117A59C
+    // Offset: 0x2AAC370
     void SetLobbyCode(::StringW code);
     // protected System.Void Awake()
-    // Offset: 0x117A5B8
+    // Offset: 0x2AAC38C
     void Awake();
     // private System.Void OnDestroy()
-    // Offset: 0x117A670
+    // Offset: 0x2AAC444
     void OnDestroy();
     // private System.Void UpdateLocalPlayerIsActiveState(System.Boolean isActive)
-    // Offset: 0x117A684
+    // Offset: 0x2AAC458
     void UpdateLocalPlayerIsActiveState(bool isActive);
     // public System.Void Refresh()
-    // Offset: 0x117A428
+    // Offset: 0x2AAC1FC
     void Refresh();
     // private System.Void <Awake>b__14_0(System.Boolean on)
-    // Offset: 0x117A704
+    // Offset: 0x2AAC4D8
     void $Awake$b__14_0(bool on);
     // public System.Void .ctor()
-    // Offset: 0x117A6FC
+    // Offset: 0x2AAC4D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

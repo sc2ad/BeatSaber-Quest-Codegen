@@ -21,7 +21,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -45,13 +44,13 @@ namespace HoudiniEngineUnity {
     // Nested type: HoudiniEngineUnity::Test_Gradient_Extensions::$$c
     class $$c;
     // static public HoudiniEngineUnity.Test_Gradient ToTestObject(UnityEngine.Gradient self)
-    // Offset: 0x178F7D0
+    // Offset: 0x19B5F6C
     static HoudiniEngineUnity::Test_Gradient* ToTestObject(UnityEngine::Gradient* self);
     // static public HoudiniEngineUnity.Test_Gradient[] ToTestObject(UnityEngine.Gradient[] self)
-    // Offset: 0x178F834
+    // Offset: 0x19B5FD0
     static ::ArrayW<HoudiniEngineUnity::Test_Gradient*> ToTestObject(::ArrayW<UnityEngine::Gradient*> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_Gradient> ToTestObject(System.Collections.Generic.List`1<UnityEngine.Gradient> self)
-    // Offset: 0x178F920
+    // Offset: 0x19B60BC
     static System::Collections::Generic::List_1<HoudiniEngineUnity::Test_Gradient*>* ToTestObject(System::Collections::Generic::List_1<UnityEngine::Gradient*>* self);
   }; // HoudiniEngineUnity.Test_Gradient_Extensions
   #pragma pack(pop)

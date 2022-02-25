@@ -18,7 +18,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Comparison`1<T>
-  template<typename T>
   class Comparison_1;
 }
 // Completed forward declares
@@ -47,16 +46,16 @@ namespace UnityEngine::EventSystems {
     // Set static field: static public System.Comparison`1<UnityEngine.RaycastHit> <>9__16_0
     static void _set_$$9__16_0(System::Comparison_1<UnityEngine::RaycastHit>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2171168
+    // Offset: 0x24469A0
     static void _cctor();
     // System.Int32 <Raycast>b__15_0(UnityEngine.RaycastHit r1, UnityEngine.RaycastHit r2)
-    // Offset: 0x21711D4
+    // Offset: 0x2446A0C
     int $Raycast$b__15_0(UnityEngine::RaycastHit r1, UnityEngine::RaycastHit r2);
     // System.Int32 <Spherecast>b__16_0(UnityEngine.RaycastHit r1, UnityEngine.RaycastHit r2)
-    // Offset: 0x2171218
+    // Offset: 0x2446A50
     int $Spherecast$b__16_0(UnityEngine::RaycastHit r1, UnityEngine::RaycastHit r2);
     // public System.Void .ctor()
-    // Offset: 0x21711CC
+    // Offset: 0x2446A04
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

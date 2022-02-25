@@ -9,8 +9,10 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: MasterServerEndPoint
-  class MasterServerEndPoint;
+  // Forward declaring type: DnsEndPoint
+  class DnsEndPoint;
+  // Forward declaring type: ServiceEnvironment
+  struct ServiceEnvironment;
 }
 // Completed forward declares
 // Type namespace: 
@@ -41,12 +43,27 @@ namespace GlobalNamespace {
     // public System.Int32 get_multiplayerPort()
     // Offset: 0xFFFFFFFF
     int get_multiplayerPort();
-    // public MasterServerEndPoint get_masterServerEndPoint()
+    // public DnsEndPoint get_masterServerEndPoint()
     // Offset: 0xFFFFFFFF
-    GlobalNamespace::MasterServerEndPoint* get_masterServerEndPoint();
-    // public System.String get_masterServerStatusUrl()
+    GlobalNamespace::DnsEndPoint* get_masterServerEndPoint();
+    // public System.String get_multiplayerStatusUrl()
     // Offset: 0xFFFFFFFF
-    ::StringW get_masterServerStatusUrl();
+    ::StringW get_multiplayerStatusUrl();
+    // public System.String get_quickPlaySetupUrl()
+    // Offset: 0xFFFFFFFF
+    ::StringW get_quickPlaySetupUrl();
+    // public System.String get_graphUrl()
+    // Offset: 0xFFFFFFFF
+    ::StringW get_graphUrl();
+    // public System.String get_graphAccessToken()
+    // Offset: 0xFFFFFFFF
+    ::StringW get_graphAccessToken();
+    // public System.Boolean get_forceGameLift()
+    // Offset: 0xFFFFFFFF
+    bool get_forceGameLift();
+    // public ServiceEnvironment get_serviceEnvironment()
+    // Offset: 0xFFFFFFFF
+    GlobalNamespace::ServiceEnvironment get_serviceEnvironment();
   }; // INetworkConfig
   #pragma pack(pop)
 }
@@ -86,16 +103,56 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::INetworkConfig::get_masterServerEndPoint
 // Il2CppName: get_masterServerEndPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MasterServerEndPoint* (GlobalNamespace::INetworkConfig::*)()>(&GlobalNamespace::INetworkConfig::get_masterServerEndPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DnsEndPoint* (GlobalNamespace::INetworkConfig::*)()>(&GlobalNamespace::INetworkConfig::get_masterServerEndPoint)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkConfig*), "get_masterServerEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::INetworkConfig::get_masterServerStatusUrl
-// Il2CppName: get_masterServerStatusUrl
+// Writing MetadataGetter for method: GlobalNamespace::INetworkConfig::get_multiplayerStatusUrl
+// Il2CppName: get_multiplayerStatusUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::INetworkConfig::*)()>(&GlobalNamespace::INetworkConfig::get_masterServerStatusUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::INetworkConfig::*)()>(&GlobalNamespace::INetworkConfig::get_multiplayerStatusUrl)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkConfig*), "get_masterServerStatusUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkConfig*), "get_multiplayerStatusUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::INetworkConfig::get_quickPlaySetupUrl
+// Il2CppName: get_quickPlaySetupUrl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::INetworkConfig::*)()>(&GlobalNamespace::INetworkConfig::get_quickPlaySetupUrl)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkConfig*), "get_quickPlaySetupUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::INetworkConfig::get_graphUrl
+// Il2CppName: get_graphUrl
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::INetworkConfig::*)()>(&GlobalNamespace::INetworkConfig::get_graphUrl)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkConfig*), "get_graphUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::INetworkConfig::get_graphAccessToken
+// Il2CppName: get_graphAccessToken
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::INetworkConfig::*)()>(&GlobalNamespace::INetworkConfig::get_graphAccessToken)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkConfig*), "get_graphAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::INetworkConfig::get_forceGameLift
+// Il2CppName: get_forceGameLift
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::INetworkConfig::*)()>(&GlobalNamespace::INetworkConfig::get_forceGameLift)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkConfig*), "get_forceGameLift", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::INetworkConfig::get_serviceEnvironment
+// Il2CppName: get_serviceEnvironment
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ServiceEnvironment (GlobalNamespace::INetworkConfig::*)()>(&GlobalNamespace::INetworkConfig::get_serviceEnvironment)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkConfig*), "get_serviceEnvironment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

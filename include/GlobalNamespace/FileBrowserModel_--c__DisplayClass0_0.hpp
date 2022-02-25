@@ -23,7 +23,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Completed forward declares
@@ -82,13 +81,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action`1<FileBrowserItem[]> callback
     System::Action_1<::ArrayW<GlobalNamespace::FileBrowserItem*>>*& dyn_callback();
     // System.Void <GetContentOfDirectory>b__0()
-    // Offset: 0x11E2B54
+    // Offset: 0x13FF2EC
     void $GetContentOfDirectory$b__0();
     // System.Void <GetContentOfDirectory>b__1()
-    // Offset: 0x11E2B80
+    // Offset: 0x13FF318
     void $GetContentOfDirectory$b__1();
     // public System.Void .ctor()
-    // Offset: 0x11E26BC
+    // Offset: 0x13FEE54
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

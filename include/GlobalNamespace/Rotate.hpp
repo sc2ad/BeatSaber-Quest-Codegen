@@ -64,14 +64,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: randomize and: randomMinMultiplier
     char __padding2[0x3] = {};
-    // [DrawIfAttribute] Offset: 0xF08F90
+    // [DrawIfAttribute] Offset: 0x11FE598
     // public UnityEngine.Vector3 _randomMinMultiplier
     // Size: 0xC
     // Offset: 0x2C
     UnityEngine::Vector3 randomMinMultiplier;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [DrawIfAttribute] Offset: 0xF09028
+    // [DrawIfAttribute] Offset: 0x11FE630
     // public UnityEngine.Vector3 _randomMaxMultiplier
     // Size: 0xC
     // Offset: 0x38
@@ -118,22 +118,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _randomizedMultiplier
     UnityEngine::Vector3& dyn__randomizedMultiplier();
     // protected System.Void Awake()
-    // Offset: 0x263E898
+    // Offset: 0x299B7B8
     void Awake();
     // protected System.Void OnBecameVisible()
-    // Offset: 0x263E964
+    // Offset: 0x299B884
     void OnBecameVisible();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0x263EA34
+    // Offset: 0x299B954
     void OnBecameInvisible();
     // protected System.Void Update()
-    // Offset: 0x263EA40
+    // Offset: 0x299B960
     void Update();
     // protected System.Void Randomize()
-    // Offset: 0x263E990
+    // Offset: 0x299B8B0
     void Randomize();
     // public System.Void .ctor()
-    // Offset: 0x263EBD8
+    // Offset: 0x299BAF8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

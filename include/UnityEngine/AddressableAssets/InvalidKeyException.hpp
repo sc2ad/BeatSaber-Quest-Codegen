@@ -68,38 +68,38 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: private System.Type <Type>k__BackingField
     System::Type*& dyn_$Type$k__BackingField();
     // public System.Object get_Key()
-    // Offset: 0x16126B0
+    // Offset: 0x17E7C00
     ::Il2CppObject* get_Key();
     // private System.Void set_Key(System.Object value)
-    // Offset: 0x16126B8
+    // Offset: 0x17E7C08
     void set_Key(::Il2CppObject* value);
     // public System.Type get_Type()
-    // Offset: 0x16126C0
+    // Offset: 0x17E7C10
     System::Type* get_Type();
     // private System.Void set_Type(System.Type value)
-    // Offset: 0x16126C8
+    // Offset: 0x17E7C18
     void set_Type(System::Type* value);
     // public System.Void .ctor(System.Object key)
-    // Offset: 0x16126D0
+    // Offset: 0x17E7C20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidKeyException* New_ctor(::Il2CppObject* key) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::InvalidKeyException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidKeyException*, creationType>(key)));
     }
     // public System.Void .ctor(System.Object key, System.Type type)
-    // Offset: 0x1608370
+    // Offset: 0x17DD8C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidKeyException* New_ctor(::Il2CppObject* key, System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::InvalidKeyException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidKeyException*, creationType>(key, type)));
     }
     // public override System.String get_Message()
-    // Offset: 0x1612950
+    // Offset: 0x17E7EA0
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
     ::StringW get_Message();
     // public System.Void .ctor()
-    // Offset: 0x1612760
+    // Offset: 0x17E7CB0
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -109,7 +109,7 @@ namespace UnityEngine::AddressableAssets {
       return THROW_UNLESS((::il2cpp_utils::New<InvalidKeyException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x16127C8
+    // Offset: 0x17E7D18
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -118,7 +118,7 @@ namespace UnityEngine::AddressableAssets {
       return THROW_UNLESS((::il2cpp_utils::New<InvalidKeyException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x1612840
+    // Offset: 0x17E7D90
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.String message, System.Exception innerException)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -127,7 +127,7 @@ namespace UnityEngine::AddressableAssets {
       return THROW_UNLESS((::il2cpp_utils::New<InvalidKeyException*, creationType>(message, innerException)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo message, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x16128C0
+    // Offset: 0x17E7E10
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo message, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

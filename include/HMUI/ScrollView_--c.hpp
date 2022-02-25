@@ -16,7 +16,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -45,16 +44,16 @@ namespace HMUI {
     // Set static field: static public System.Func`2<System.Single,System.Single> <>9__38_3
     static void _set_$$9__38_3(System::Func_2<float, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x14CA1F8
+    // Offset: 0x16AC2B4
     static void _cctor();
     // System.Single <Awake>b__38_1(System.Single i)
-    // Offset: 0x14CA264
+    // Offset: 0x16AC320
     float $Awake$b__38_1(float i);
     // System.Single <Awake>b__38_3(System.Single i)
-    // Offset: 0x14CA268
+    // Offset: 0x16AC324
     float $Awake$b__38_3(float i);
     // public System.Void .ctor()
-    // Offset: 0x14CA25C
+    // Offset: 0x16AC318
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

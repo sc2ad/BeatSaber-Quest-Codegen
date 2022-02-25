@@ -76,44 +76,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Byte _id
     uint8_t& dyn__id();
     // private System.Void .ctor(System.Byte id)
-    // Offset: 0x268D990
+    // Offset: 0x2E07318
     // ABORTED: conflicts with another method.  SyncStateId(uint8_t id);
     // public System.Boolean Equals(SyncStateId other)
-    // Offset: 0x268D998
+    // Offset: 0x2E07320
     bool Equals(GlobalNamespace::SyncStateId other);
     // public SyncStateId Increment()
-    // Offset: 0x268DAA8
+    // Offset: 0x2E07430
     GlobalNamespace::SyncStateId Increment();
+    // public System.Boolean Before(SyncStateId other)
+    // Offset: 0x2E07440
+    bool Before(GlobalNamespace::SyncStateId other);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x268D894
+    // Offset: 0x2E0721C
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void SerializeWithFlag(LiteNetLib.Utils.NetDataWriter writer, System.Boolean flag)
-    // Offset: 0x268D5DC
+    // Offset: 0x2E06FA0
     void SerializeWithFlag(LiteNetLib::Utils::NetDataWriter* writer, bool flag);
     // static public SyncStateId Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x268D908
+    // Offset: 0x2E07290
     static GlobalNamespace::SyncStateId Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // static public SyncStateId DeserializeWithFlag(LiteNetLib.Utils.NetDataReader reader, out System.Boolean flag)
-    // Offset: 0x268D67C
+    // Offset: 0x2E07040
     static GlobalNamespace::SyncStateId DeserializeWithFlag(LiteNetLib::Utils::NetDataReader* reader, ByRef<bool> flag);
     // public SyncStateId CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x268DAB8
+    // Offset: 0x2E07470
     GlobalNamespace::SyncStateId CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
-    // static public System.Boolean WithinRange(SyncStateId a, SyncStateId b, System.Int32 range)
-    // Offset: 0x268DAE0
-    static bool WithinRange(GlobalNamespace::SyncStateId a, GlobalNamespace::SyncStateId b, int range);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x268D9A8
+    // Offset: 0x2E07330
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x268DA30
+    // Offset: 0x2E073B8
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x268DA5C
+    // Offset: 0x2E073E4
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();
@@ -122,10 +122,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(SyncStateId), 0 + sizeof(uint8_t)> __GlobalNamespace_SyncStateIdSizeCheck;
   static_assert(sizeof(SyncStateId) == 0x1);
   // static public System.Boolean op_Equality(SyncStateId a, SyncStateId b)
-  // Offset: 0x268DA88
+  // Offset: 0x2E07410
   bool operator ==(const GlobalNamespace::SyncStateId& a, const GlobalNamespace::SyncStateId& b);
   // static public System.Boolean op_Inequality(SyncStateId a, SyncStateId b)
-  // Offset: 0x268DA98
+  // Offset: 0x2E07420
   bool operator !=(const GlobalNamespace::SyncStateId& a, const GlobalNamespace::SyncStateId& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -148,6 +148,15 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SyncStateId (GlobalNamespace::SyncStateId::*)()>(&GlobalNamespace::SyncStateId::Increment)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SyncStateId), "Increment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::SyncStateId::Before
+// Il2CppName: Before
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SyncStateId::*)(GlobalNamespace::SyncStateId)>(&GlobalNamespace::SyncStateId::Before)> {
+  static const MethodInfo* get() {
+    static auto* other = &::il2cpp_utils::GetClassFromName("", "SyncStateId")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SyncStateId), "Before", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SyncStateId::Serialize
@@ -195,17 +204,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SyncStateId), "CreateFromSerializedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::SyncStateId::WithinRange
-// Il2CppName: WithinRange
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::SyncStateId, GlobalNamespace::SyncStateId, int)>(&GlobalNamespace::SyncStateId::WithinRange)> {
-  static const MethodInfo* get() {
-    static auto* a = &::il2cpp_utils::GetClassFromName("", "SyncStateId")->byval_arg;
-    static auto* b = &::il2cpp_utils::GetClassFromName("", "SyncStateId")->byval_arg;
-    static auto* range = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SyncStateId), "WithinRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b, range});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SyncStateId::Equals

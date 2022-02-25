@@ -21,7 +21,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IList`1<T>
-  template<typename T>
   class IList_1;
 }
 // Forward declaring namespace: UnityEngine::ResourceManagement::ResourceLocations
@@ -101,15 +100,15 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: private System.Type m_ResourceType
     System::Type*& dyn_m_ResourceType();
     // public System.Void Init(UnityEngine.AddressableAssets.AddressablesImpl aa, System.Type t, System.Collections.IEnumerable key, UnityEngine.AddressableAssets.Addressables/UnityEngine.AddressableAssets.MergeMode mergeMode)
-    // Offset: 0x1607CE4
+    // Offset: 0x17DD234
     void Init(UnityEngine::AddressableAssets::AddressablesImpl* aa, System::Type* t, System::Collections::IEnumerable* key, UnityEngine::AddressableAssets::Addressables::MergeMode mergeMode);
     // protected override System.String get_DebugName()
-    // Offset: 0x160C1B0
+    // Offset: 0x17E1700
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.String AsyncOperationBase_1::get_DebugName()
     ::StringW get_DebugName();
     // public System.Void .ctor()
-    // Offset: 0x1607C94
+    // Offset: 0x17DD1E4
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -119,12 +118,12 @@ namespace UnityEngine::AddressableAssets {
       return THROW_UNLESS((::il2cpp_utils::New<AddressablesImpl::LoadResourceLocationKeysOp*, creationType>()));
     }
     // protected override System.Void Execute()
-    // Offset: 0x160C1F8
+    // Offset: 0x17E1748
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x160C2C0
+    // Offset: 0x17E1810
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();

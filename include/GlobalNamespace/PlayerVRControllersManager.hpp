@@ -64,10 +64,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private VRController _rightHandVRController
     GlobalNamespace::VRController*& dyn__rightHandVRController();
     // public System.Void DisableAllVRControllers()
-    // Offset: 0x11AD0FC
+    // Offset: 0x13E5B6C
     void DisableAllVRControllers();
     // public System.Void .ctor()
-    // Offset: 0x11AD140
+    // Offset: 0x13E5BB0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

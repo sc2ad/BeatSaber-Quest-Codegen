@@ -62,17 +62,17 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Collider self
     UnityEngine::Collider*& dyn_self();
     // public System.Void .ctor(UnityEngine.Collider self)
-    // Offset: 0x178F294
+    // Offset: 0x19B5A30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_Collider* New_ctor(UnityEngine::Collider* self) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::Test_Collider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_Collider*, creationType>(self)));
     }
     // public System.Boolean IsNull()
-    // Offset: 0x178F2C0
+    // Offset: 0x19B5A5C
     bool IsNull();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.Test_Collider other)
-    // Offset: 0x178F330
+    // Offset: 0x19B5ACC
     bool IsEquivalentTo(HoudiniEngineUnity::Test_Collider* other);
   }; // HoudiniEngineUnity.Test_Collider
   #pragma pack(pop)

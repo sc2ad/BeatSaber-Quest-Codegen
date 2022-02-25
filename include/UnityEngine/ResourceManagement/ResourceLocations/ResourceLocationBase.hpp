@@ -24,10 +24,8 @@ namespace System {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
   // Forward declaring type: IList`1<T>
-  template<typename T>
   class IList_1;
 }
 // Completed forward declares
@@ -134,50 +132,50 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
     // Get instance field reference: private System.String m_PrimaryKey
     ::StringW& dyn_m_PrimaryKey();
     // public System.String get_InternalId()
-    // Offset: 0x1BE6118
+    // Offset: 0x1E213A8
     ::StringW get_InternalId();
     // public System.String get_ProviderId()
-    // Offset: 0x1BE6120
+    // Offset: 0x1E213B0
     ::StringW get_ProviderId();
     // public System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> get_Dependencies()
-    // Offset: 0x1BE6128
+    // Offset: 0x1E213B8
     System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* get_Dependencies();
     // public System.Boolean get_HasDependencies()
-    // Offset: 0x1BE6130
+    // Offset: 0x1E213C0
     bool get_HasDependencies();
     // public System.Object get_Data()
-    // Offset: 0x1BE618C
+    // Offset: 0x1E2141C
     ::Il2CppObject* get_Data();
     // public System.Void set_Data(System.Object value)
-    // Offset: 0x1BE6194
+    // Offset: 0x1E21424
     void set_Data(::Il2CppObject* value);
     // public System.String get_PrimaryKey()
-    // Offset: 0x1BE619C
+    // Offset: 0x1E2142C
     ::StringW get_PrimaryKey();
     // public System.Void set_PrimaryKey(System.String value)
-    // Offset: 0x1BE61A4
+    // Offset: 0x1E21434
     void set_PrimaryKey(::StringW value);
     // public System.Int32 get_DependencyHashCode()
-    // Offset: 0x1BE61AC
+    // Offset: 0x1E2143C
     int get_DependencyHashCode();
     // public System.Type get_ResourceType()
-    // Offset: 0x1BE61B4
+    // Offset: 0x1E21444
     System::Type* get_ResourceType();
     // public System.Void .ctor(System.String name, System.String id, System.String providerId, System.Type t, params UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation[] dependencies)
-    // Offset: 0x1BE621C
+    // Offset: 0x1E214AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceLocationBase* New_ctor(::StringW name, ::StringW id, ::StringW providerId, System::Type* t, ::ArrayW<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> dependencies) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceLocationBase*, creationType>(name, id, providerId, t, dependencies)));
     }
     // public System.Int32 Hash(System.Type t)
-    // Offset: 0x1BE61BC
+    // Offset: 0x1E2144C
     int Hash(System::Type* t);
     // public System.Void ComputeDependencyHash()
-    // Offset: 0x1BE6418
+    // Offset: 0x1E216A8
     void ComputeDependencyHash();
     // public override System.String ToString()
-    // Offset: 0x1BE6214
+    // Offset: 0x1E214A4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

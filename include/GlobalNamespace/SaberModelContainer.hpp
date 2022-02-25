@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SaberModelController* saberModelControllerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberModelController*) == 0x8);
-    // [InjectAttribute] Offset: 0xF3FC34
+    // [InjectAttribute] Offset: 0x1246548
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x28
@@ -80,10 +80,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly Zenject.DiContainer _container
     Zenject::DiContainer*& dyn__container();
     // protected System.Void Start()
-    // Offset: 0x1229F88
+    // Offset: 0x2B55D64
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x122A2E4
+    // Offset: 0x2B560A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

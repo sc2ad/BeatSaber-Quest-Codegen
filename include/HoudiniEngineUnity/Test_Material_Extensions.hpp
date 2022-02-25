@@ -21,7 +21,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -45,13 +44,13 @@ namespace HoudiniEngineUnity {
     // Nested type: HoudiniEngineUnity::Test_Material_Extensions::$$c
     class $$c;
     // static public HoudiniEngineUnity.Test_Material ToTestObject(UnityEngine.Material self)
-    // Offset: 0x2679BD8
+    // Offset: 0x2A0D878
     static HoudiniEngineUnity::Test_Material* ToTestObject(UnityEngine::Material* self);
     // static public HoudiniEngineUnity.Test_Material[] ToTestObject(UnityEngine.Material[] self)
-    // Offset: 0x2679C3C
+    // Offset: 0x2A0D8DC
     static ::ArrayW<HoudiniEngineUnity::Test_Material*> ToTestObject(::ArrayW<UnityEngine::Material*> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_Material> ToTestObject(System.Collections.Generic.List`1<UnityEngine.Material> self)
-    // Offset: 0x2679D48
+    // Offset: 0x2A0D9E8
     static System::Collections::Generic::List_1<HoudiniEngineUnity::Test_Material*>* ToTestObject(System::Collections::Generic::List_1<UnityEngine::Material*>* self);
   }; // HoudiniEngineUnity.Test_Material_Extensions
   #pragma pack(pop)

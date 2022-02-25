@@ -37,7 +37,6 @@ namespace System::Collections {
 // Type namespace: TMPro
 namespace TMPro {
   // Forward declaring type: TweenRunner`1<T>
-  template<typename T>
   class TweenRunner_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

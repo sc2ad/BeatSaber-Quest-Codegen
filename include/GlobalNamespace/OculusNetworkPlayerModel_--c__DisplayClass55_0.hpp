@@ -70,13 +70,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.UserList> onGetInvitable
     typename Oculus::Platform::Message_1<Oculus::Platform::Models::UserList*>::Callback*& dyn_onGetInvitable();
     // System.Void <Refresh>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.UserAndRoomList> result)
-    // Offset: 0x136A2BC
+    // Offset: 0x2BB36A8
     void $Refresh$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::UserAndRoomList*>* result);
     // System.Void <Refresh>b__1(Oculus.Platform.Message`1<Oculus.Platform.Models.UserList> result)
-    // Offset: 0x136A784
+    // Offset: 0x2BB3B70
     void $Refresh$b__1(Oculus::Platform::Message_1<Oculus::Platform::Models::UserList*>* result);
     // public System.Void .ctor()
-    // Offset: 0x1369B0C
+    // Offset: 0x2BB2EF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

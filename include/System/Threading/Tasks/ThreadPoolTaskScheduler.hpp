@@ -45,15 +45,15 @@ namespace System::Threading::Tasks {
     // Set static field: static private readonly System.Threading.ParameterizedThreadStart s_longRunningThreadWork
     static void _set_s_longRunningThreadWork(System::Threading::ParameterizedThreadStart* value);
     // static private System.Void LongRunningThreadWork(System.Object obj)
-    // Offset: 0x19BFA0C
+    // Offset: 0x1CDCD9C
     static void LongRunningThreadWork(::Il2CppObject* obj);
     // override System.Boolean get_RequiresAtomicStartTransition()
-    // Offset: 0x19BFFE0
+    // Offset: 0x1CDD370
     // Implemented from: System.Threading.Tasks.TaskScheduler
     // Base method: System.Boolean TaskScheduler::get_RequiresAtomicStartTransition()
     bool get_RequiresAtomicStartTransition();
     // System.Void .ctor()
-    // Offset: 0x19BF010
+    // Offset: 0x1CDC3A0
     // Implemented from: System.Threading.Tasks.TaskScheduler
     // Base method: System.Void TaskScheduler::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -63,27 +63,27 @@ namespace System::Threading::Tasks {
       return THROW_UNLESS((::il2cpp_utils::New<ThreadPoolTaskScheduler*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x19BFFE8
+    // Offset: 0x1CDD378
     // Implemented from: System.Threading.Tasks.TaskScheduler
     // Base method: System.Void TaskScheduler::.cctor()
     static void _cctor();
     // protected internal override System.Void QueueTask(System.Threading.Tasks.Task task)
-    // Offset: 0x19BFA94
+    // Offset: 0x1CDCE24
     // Implemented from: System.Threading.Tasks.TaskScheduler
     // Base method: System.Void TaskScheduler::QueueTask(System.Threading.Tasks.Task task)
     void QueueTask(System::Threading::Tasks::Task* task);
     // protected override System.Boolean TryExecuteTaskInline(System.Threading.Tasks.Task task, System.Boolean taskWasPreviouslyQueued)
-    // Offset: 0x19BFDCC
+    // Offset: 0x1CDD15C
     // Implemented from: System.Threading.Tasks.TaskScheduler
     // Base method: System.Boolean TaskScheduler::TryExecuteTaskInline(System.Threading.Tasks.Task task, System.Boolean taskWasPreviouslyQueued)
     bool TryExecuteTaskInline(System::Threading::Tasks::Task* task, bool taskWasPreviouslyQueued);
     // protected internal override System.Boolean TryDequeue(System.Threading.Tasks.Task task)
-    // Offset: 0x19BFF3C
+    // Offset: 0x1CDD2CC
     // Implemented from: System.Threading.Tasks.TaskScheduler
     // Base method: System.Boolean TaskScheduler::TryDequeue(System.Threading.Tasks.Task task)
     bool TryDequeue(System::Threading::Tasks::Task* task);
     // override System.Void NotifyWorkItemProgress()
-    // Offset: 0x19BFF44
+    // Offset: 0x1CDD2D4
     // Implemented from: System.Threading.Tasks.TaskScheduler
     // Base method: System.Void TaskScheduler::NotifyWorkItemProgress()
     void NotifyWorkItemProgress();

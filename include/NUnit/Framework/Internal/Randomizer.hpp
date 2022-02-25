@@ -17,7 +17,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: System::Reflection
@@ -72,16 +71,16 @@ namespace NUnit::Framework::Internal {
     // Set static field: static private System.Int32 DefaultStringLength
     static void _set_DefaultStringLength(int value);
     // static public System.Void set_InitialSeed(System.Int32 value)
-    // Offset: 0x2552C08
+    // Offset: 0x28B59B8
     static void set_InitialSeed(int value);
     // static private System.Void .cctor()
-    // Offset: 0x2552B5C
+    // Offset: 0x28B590C
     static void _cctor();
     // static public NUnit.Framework.Internal.Randomizer CreateRandomizer()
-    // Offset: 0x2552CB0
+    // Offset: 0x28B5A60
     static NUnit::Framework::Internal::Randomizer* CreateRandomizer();
     // public System.Void .ctor(System.Int32 seed)
-    // Offset: 0x2552D50
+    // Offset: 0x28B5B00
     // Implemented from: System.Random
     // Base method: System.Void Random::.ctor(System.Int32 seed)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

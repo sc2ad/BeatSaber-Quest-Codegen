@@ -58,10 +58,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public AvatarColorBehaviour _template
     GlobalNamespace::AvatarColorBehaviour*& dyn__template();
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()
-    // Offset: 0x1191638
+    // Offset: 0x13C70E0
     UnityEngine::Timeline::ClipCaps get_clipCaps();
     // public System.Void .ctor()
-    // Offset: 0x1191640
+    // Offset: 0x13C70E8
     // Implemented from: UnityEngine.Timeline.ControlPlayableAsset
     // Base method: System.Void ControlPlayableAsset::.ctor()
     // Base method: System.Void PlayableAsset::.ctor()

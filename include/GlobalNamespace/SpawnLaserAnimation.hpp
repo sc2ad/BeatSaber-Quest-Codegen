@@ -126,13 +126,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initialized
     bool& dyn__initialized();
     // private System.Void InitIfNeeded()
-    // Offset: 0x121A06C
+    // Offset: 0x13D4EDC
     void InitIfNeeded();
     // protected System.Void LateUpdate()
-    // Offset: 0x121A13C
+    // Offset: 0x13D4FAC
     void LateUpdate();
     // public System.Void .ctor()
-    // Offset: 0x121A2AC
+    // Offset: 0x13D511C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

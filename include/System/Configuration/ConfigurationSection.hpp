@@ -38,18 +38,18 @@ namespace System::Configuration {
   class ConfigurationSection : public System::Configuration::ConfigurationElement {
     public:
     // protected internal System.Void DeserializeSection(System.Xml.XmlReader reader)
-    // Offset: 0x26D3634
+    // Offset: 0x2A61D70
     void DeserializeSection(System::Xml::XmlReader* reader);
     // protected internal System.String SerializeSection(System.Configuration.ConfigurationElement parentElement, System.String name, System.Configuration.ConfigurationSaveMode saveMode)
-    // Offset: 0x26D36F4
+    // Offset: 0x2A61E30
     ::StringW SerializeSection(System::Configuration::ConfigurationElement* parentElement, ::StringW name, System::Configuration::ConfigurationSaveMode saveMode);
     // protected internal override System.Boolean IsModified()
-    // Offset: 0x26D3674
+    // Offset: 0x2A61DB0
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Boolean ConfigurationElement::IsModified()
     bool IsModified();
     // protected internal override System.Void ResetModified()
-    // Offset: 0x26D36B4
+    // Offset: 0x2A61DF0
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Void ConfigurationElement::ResetModified()
     void ResetModified();

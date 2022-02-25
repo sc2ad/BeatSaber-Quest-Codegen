@@ -255,8 +255,14 @@ namespace GlobalNamespace {
     bool useCustomServerEnvironment;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Padding between fields: useCustomServerEnvironment and: customServerHostName
-    char __padding35[0x3] = {};
+    // public System.Boolean forceGameLiftServerEnvironment
+    // Size: 0x1
+    // Offset: 0x9D
+    bool forceGameLiftServerEnvironment;
+    // Field size check
+    static_assert(sizeof(bool) == 0x1);
+    // Padding between fields: forceGameLiftServerEnvironment and: customServerHostName
+    char __padding36[0x2] = {};
     // public System.String customServerHostName
     // Size: 0x8
     // Offset: 0xA0
@@ -282,7 +288,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: controllersRumbleEnabled and: enableAlphaFeatures
-    char __padding39[0x3] = {};
+    char __padding40[0x3] = {};
     // public System.Int32 enableAlphaFeatures
     // Size: 0x4
     // Offset: 0xB4
@@ -308,7 +314,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: overrideAudioLatency and: audioLatency
-    char __padding43[0x3] = {};
+    char __padding44[0x3] = {};
     // public System.Single audioLatency
     // Size: 0x4
     // Offset: 0xC4
@@ -327,20 +333,14 @@ namespace GlobalNamespace {
     bool onlineServicesEnabled;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // public System.Boolean oculusMRCEnabled
-    // Size: 0x1
-    // Offset: 0xCD
-    bool oculusMRCEnabled;
-    // Field size check
-    static_assert(sizeof(bool) == 0x1);
     // public System.Boolean openVrThreadedHaptics
     // Size: 0x1
-    // Offset: 0xCE
+    // Offset: 0xCD
     bool openVrThreadedHaptics;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: openVrThreadedHaptics and: language
-    char __padding48[0x1] = {};
+    char __padding48[0x2] = {};
     // public System.String language
     // Size: 0x8
     // Offset: 0xD0
@@ -420,6 +420,8 @@ namespace GlobalNamespace {
     float& dyn_smoothCameraPositionSmooth();
     // Get instance field reference: public System.Boolean useCustomServerEnvironment
     bool& dyn_useCustomServerEnvironment();
+    // Get instance field reference: public System.Boolean forceGameLiftServerEnvironment
+    bool& dyn_forceGameLiftServerEnvironment();
     // Get instance field reference: public System.String customServerHostName
     ::StringW& dyn_customServerHostName();
     // Get instance field reference: public System.Single volume
@@ -442,14 +444,12 @@ namespace GlobalNamespace {
     int& dyn_maxNumberOfCutSoundEffects();
     // Get instance field reference: public System.Boolean onlineServicesEnabled
     bool& dyn_onlineServicesEnabled();
-    // Get instance field reference: public System.Boolean oculusMRCEnabled
-    bool& dyn_oculusMRCEnabled();
     // Get instance field reference: public System.Boolean openVrThreadedHaptics
     bool& dyn_openVrThreadedHaptics();
     // Get instance field reference: public System.String language
     ::StringW& dyn_language();
     // public System.Void .ctor()
-    // Offset: 0x1156D34
+    // Offset: 0x2A64040
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

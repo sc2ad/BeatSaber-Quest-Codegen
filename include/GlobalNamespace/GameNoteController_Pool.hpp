@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class GameNoteController::Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::GameNoteController*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x11ED220
+    // Offset: 0x2ACC0CC
     // Implemented from: Zenject.MonoMemoryPool`1
     // Base method: System.Void MonoMemoryPool_1::.ctor()
     // Base method: System.Void MemoryPool_1::.ctor()

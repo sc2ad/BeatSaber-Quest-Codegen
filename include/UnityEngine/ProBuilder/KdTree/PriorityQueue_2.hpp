@@ -17,14 +17,12 @@
 // Forward declaring namespace: UnityEngine::ProBuilder::KdTree
 namespace UnityEngine::ProBuilder::KdTree {
   // Forward declaring type: ITypeMath`1<T>
-  template<typename T>
   class ITypeMath_1;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder.KdTree
 namespace UnityEngine::ProBuilder::KdTree {
   // Forward declaring type: PriorityQueue`2<TItem, TPriority>
-  template<typename TItem, typename TPriority>
   class PriorityQueue_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

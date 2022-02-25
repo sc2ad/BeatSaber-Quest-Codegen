@@ -36,7 +36,6 @@ namespace System::Threading {
   class ThreadPoolWorkQueue : public ::Il2CppObject {
     public:
     // Nested type: System::Threading::ThreadPoolWorkQueue::SparseArray_1<T>
-    template<typename T>
     class SparseArray_1;
     // Nested type: System::Threading::ThreadPoolWorkQueue::WorkStealingQueue
     class WorkStealingQueue;
@@ -81,31 +80,31 @@ namespace System::Threading {
     // Get instance field reference: private System.Int32 numOutstandingThreadRequests
     int& dyn_numOutstandingThreadRequests();
     // static private System.Void .cctor()
-    // Offset: 0x19C39DC
+    // Offset: 0x1CE0D94
     static void _cctor();
     // public System.Threading.ThreadPoolWorkQueueThreadLocals EnsureCurrentThreadHasQueue()
-    // Offset: 0x19C2430
+    // Offset: 0x1CDF7E8
     System::Threading::ThreadPoolWorkQueueThreadLocals* EnsureCurrentThreadHasQueue();
     // System.Void EnsureThreadRequested()
-    // Offset: 0x19C25B0
+    // Offset: 0x1CDF968
     void EnsureThreadRequested();
     // System.Void MarkThreadRequestSatisfied()
-    // Offset: 0x19C2668
+    // Offset: 0x1CDFA20
     void MarkThreadRequestSatisfied();
     // public System.Void Enqueue(System.Threading.IThreadPoolWorkItem callback, System.Boolean forceGlobal)
-    // Offset: 0x19C20F8
+    // Offset: 0x1CDF4B0
     void Enqueue(System::Threading::IThreadPoolWorkItem* callback, bool forceGlobal);
     // System.Boolean LocalFindAndPop(System.Threading.IThreadPoolWorkItem callback)
-    // Offset: 0x19C2224
+    // Offset: 0x1CDF5DC
     bool LocalFindAndPop(System::Threading::IThreadPoolWorkItem* callback);
     // public System.Void Dequeue(System.Threading.ThreadPoolWorkQueueThreadLocals tl, out System.Threading.IThreadPoolWorkItem callback, out System.Boolean missedSteal)
-    // Offset: 0x19C2E8C
+    // Offset: 0x1CE0244
     void Dequeue(System::Threading::ThreadPoolWorkQueueThreadLocals* tl, ByRef<System::Threading::IThreadPoolWorkItem*> callback, ByRef<bool> missedSteal);
     // static System.Boolean Dispatch()
-    // Offset: 0x19C3450
+    // Offset: 0x1CE0808
     static bool Dispatch();
     // public System.Void .ctor()
-    // Offset: 0x19C2358
+    // Offset: 0x1CDF710
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

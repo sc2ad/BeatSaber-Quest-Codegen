@@ -39,10 +39,8 @@ namespace UnityEngine {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
   // Forward declaring type: Action`2<T1, T2>
-  template<typename T1, typename T2>
   class Action_2;
 }
 // Forward declaring namespace: System::Collections
@@ -86,7 +84,7 @@ namespace GlobalNamespace {
     GlobalNamespace::StretchableObstacle* stretchableObstacle;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StretchableObstacle*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF39D7C
+    // [SpaceAttribute] Offset: 0x1240740
     // private System.Single _endDistanceOffset
     // Size: 0x4
     // Offset: 0x30
@@ -101,21 +99,21 @@ namespace GlobalNamespace {
     ::ArrayW<UnityEngine::GameObject*> visualWrappers;
     // Field size check
     static_assert(sizeof(::ArrayW<UnityEngine::GameObject*>) == 0x8);
-    // [InjectAttribute] Offset: 0xF39DC4
+    // [InjectAttribute] Offset: 0x1240788
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0xF39DD4
+    // [InjectAttribute] Offset: 0x1240798
     // private readonly IAudioTimeSource _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x48
     GlobalNamespace::IAudioTimeSource* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAudioTimeSource*) == 0x8);
-    // [InjectAttribute] Offset: 0xF39DE4
+    // [InjectAttribute] Offset: 0x12407A8
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x50
@@ -346,88 +344,88 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Quaternion _inverseWorldRotation
     UnityEngine::Quaternion& dyn__inverseWorldRotation();
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x1345748
+    // Offset: 0x2B32D14
     void set_hide(bool value);
     // public System.Void set_pause(System.Boolean value)
-    // Offset: 0x13457C8
+    // Offset: 0x2B32D94
     void set_pause(bool value);
     // public UnityEngine.Bounds get_bounds()
-    // Offset: 0x13457D8
+    // Offset: 0x2B32DA4
     UnityEngine::Bounds get_bounds();
     // public ObstacleData get_obstacleData()
-    // Offset: 0x13457EC
+    // Offset: 0x2B32DB8
     GlobalNamespace::ObstacleData* get_obstacleData();
     // public System.Boolean get_hasPassedAvoidedMark()
-    // Offset: 0x13457F4
+    // Offset: 0x2B32DC0
     bool get_hasPassedAvoidedMark();
     // public System.Single get_move1Duration()
-    // Offset: 0x13457FC
+    // Offset: 0x2B32DC8
     float get_move1Duration();
     // public System.Single get_move2Duration()
-    // Offset: 0x1345804
+    // Offset: 0x2B32DD0
     float get_move2Duration();
     // public System.Single get_width()
-    // Offset: 0x134580C
+    // Offset: 0x2B32DD8
     float get_width();
     // public System.Single get_height()
-    // Offset: 0x1345814
+    // Offset: 0x2B32DE0
     float get_height();
     // public System.Single get_length()
-    // Offset: 0x134581C
+    // Offset: 0x2B32DE8
     float get_length();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1345824
+    // Offset: 0x2B32DF0
     UnityEngine::Color get_color();
     // public System.Void add_finishedMovementEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x13450E0
+    // Offset: 0x2B326AC
     void add_finishedMovementEvent(System::Action_1<GlobalNamespace::ObstacleController*>* value);
     // public System.Void remove_finishedMovementEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x1345184
+    // Offset: 0x2B32750
     void remove_finishedMovementEvent(System::Action_1<GlobalNamespace::ObstacleController*>* value);
     // public System.Void add_passedThreeQuartersOfMove2Event(System.Action`1<ObstacleController> value)
-    // Offset: 0x1345228
+    // Offset: 0x2B327F4
     void add_passedThreeQuartersOfMove2Event(System::Action_1<GlobalNamespace::ObstacleController*>* value);
     // public System.Void remove_passedThreeQuartersOfMove2Event(System.Action`1<ObstacleController> value)
-    // Offset: 0x13452CC
+    // Offset: 0x2B32898
     void remove_passedThreeQuartersOfMove2Event(System::Action_1<GlobalNamespace::ObstacleController*>* value);
     // public System.Void add_passedAvoidedMarkEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x1345370
+    // Offset: 0x2B3293C
     void add_passedAvoidedMarkEvent(System::Action_1<GlobalNamespace::ObstacleController*>* value);
     // public System.Void remove_passedAvoidedMarkEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x1345414
+    // Offset: 0x2B329E0
     void remove_passedAvoidedMarkEvent(System::Action_1<GlobalNamespace::ObstacleController*>* value);
     // public System.Void add_didDissolveEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x13454B8
+    // Offset: 0x2B32A84
     void add_didDissolveEvent(System::Action_1<GlobalNamespace::ObstacleController*>* value);
     // public System.Void remove_didDissolveEvent(System.Action`1<ObstacleController> value)
-    // Offset: 0x134555C
+    // Offset: 0x2B32B28
     void remove_didDissolveEvent(System::Action_1<GlobalNamespace::ObstacleController*>* value);
     // public System.Void add_didUpdateProgress(System.Action`2<ObstacleController,System.Single> value)
-    // Offset: 0x1345600
+    // Offset: 0x2B32BCC
     void add_didUpdateProgress(System::Action_2<GlobalNamespace::ObstacleController*, float>* value);
     // public System.Void remove_didUpdateProgress(System.Action`2<ObstacleController,System.Single> value)
-    // Offset: 0x13456A4
+    // Offset: 0x2B32C70
     void remove_didUpdateProgress(System::Action_2<GlobalNamespace::ObstacleController*, float>* value);
     // public System.Void Init(ObstacleData obstacleData, System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 midPos, UnityEngine.Vector3 endPos, System.Single move1Duration, System.Single move2Duration, System.Single singleLineWidth, System.Single height)
-    // Offset: 0x1345830
+    // Offset: 0x2B32DFC
     void Init(GlobalNamespace::ObstacleData* obstacleData, float worldRotation, UnityEngine::Vector3 startPos, UnityEngine::Vector3 midPos, UnityEngine::Vector3 endPos, float move1Duration, float move2Duration, float singleLineWidth, float height);
     // protected System.Void Update()
-    // Offset: 0x1345BDC
+    // Offset: 0x2B331A8
     void Update();
     // public System.Void ManualUpdate()
-    // Offset: 0x1345BE8
+    // Offset: 0x2B331B4
     void ManualUpdate();
     // private UnityEngine.Vector3 GetPosForTime(System.Single time)
-    // Offset: 0x1345E30
+    // Offset: 0x2B333FC
     UnityEngine::Vector3 GetPosForTime(float time);
     // private System.Collections.IEnumerator DissolveCoroutine(System.Single duration)
-    // Offset: 0x1345FA4
+    // Offset: 0x2B335B0
     System::Collections::IEnumerator* DissolveCoroutine(float duration);
     // public System.Void Dissolve(System.Single duration)
-    // Offset: 0x1346050
+    // Offset: 0x2B3365C
     void Dissolve(float duration);
     // public System.Void .ctor()
-    // Offset: 0x1346090
+    // Offset: 0x2B3369C
     // Implemented from: ObstacleControllerBase
     // Base method: System.Void ObstacleControllerBase::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

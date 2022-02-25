@@ -18,13 +18,11 @@
 // Forward declaring namespace: Zenject
 namespace Zenject {
   // Forward declaring type: StaticMemoryPool`7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>
-  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
   class StaticMemoryPool_7;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -48,33 +46,33 @@ namespace Tweening {
   // [TokenAttribute] Offset: FFFFFFFF
   class Vector3Tween : public Tweening::Tween_1<UnityEngine::Vector3> {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF4AB2C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1251540
     // Get static field: static public readonly Zenject.StaticMemoryPool`7<UnityEngine.Vector3,UnityEngine.Vector3,System.Action`1<UnityEngine.Vector3>,System.Single,Tweening.EaseType,System.Single,Tweening.Vector3Tween> Pool
     static Zenject::StaticMemoryPool_7<UnityEngine::Vector3, UnityEngine::Vector3, System::Action_1<UnityEngine::Vector3>*, float, Tweening::EaseType, float, Tweening::Vector3Tween*>* _get_Pool();
     // Set static field: static public readonly Zenject.StaticMemoryPool`7<UnityEngine.Vector3,UnityEngine.Vector3,System.Action`1<UnityEngine.Vector3>,System.Single,Tweening.EaseType,System.Single,Tweening.Vector3Tween> Pool
     static void _set_Pool(Zenject::StaticMemoryPool_7<UnityEngine::Vector3, UnityEngine::Vector3, System::Action_1<UnityEngine::Vector3>*, float, Tweening::EaseType, float, Tweening::Vector3Tween*>* value);
     // public System.Void .ctor(UnityEngine.Vector3 fromValue, UnityEngine.Vector3 toValue, System.Action`1<UnityEngine.Vector3> onUpdate, System.Single duration, Tweening.EaseType easeType, System.Single delay)
-    // Offset: 0x120CB34
+    // Offset: 0x2CAE154
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Vector3Tween* New_ctor(UnityEngine::Vector3 fromValue, UnityEngine::Vector3 toValue, System::Action_1<UnityEngine::Vector3>* onUpdate, float duration, Tweening::EaseType easeType, float delay) {
       static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Vector3Tween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Vector3Tween*, creationType>(fromValue, toValue, onUpdate, duration, easeType, delay)));
     }
     // public System.Void .ctor(UnityEngine.Vector3 fromValue, UnityEngine.Vector3 toValue, System.Action`1<UnityEngine.Vector3> onUpdate, System.Single duration, UnityEngine.AnimationCurve animationCurve, System.Single delay)
-    // Offset: 0x120CBFC
+    // Offset: 0x2CAE21C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Vector3Tween* New_ctor(UnityEngine::Vector3 fromValue, UnityEngine::Vector3 toValue, System::Action_1<UnityEngine::Vector3>* onUpdate, float duration, UnityEngine::AnimationCurve* animationCurve, float delay) {
       static auto ___internal__logger = ::Logger::get().WithContext("Tweening::Vector3Tween::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Vector3Tween*, creationType>(fromValue, toValue, onUpdate, duration, animationCurve, delay)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x120CDC0
+    // Offset: 0x2CAE3E4
     static void _cctor();
     // public UnityEngine.Vector3 GetValue(System.Single t)
-    // Offset: 0x120CCC4
+    // Offset: 0x2CAE2E4
     UnityEngine::Vector3 GetValue(float t);
     // public System.Void .ctor()
-    // Offset: 0x120CAE4
+    // Offset: 0x2CAE104
     // Implemented from: Tweening.Tween`1
     // Base method: System.Void Tween_1::.ctor()
     // Base method: System.Void Tween::.ctor()

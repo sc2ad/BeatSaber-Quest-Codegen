@@ -50,28 +50,28 @@ namespace GlobalNamespace {
   class OVRCompositionUtil : public ::Il2CppObject {
     public:
     // static public System.Void SafeDestroy(UnityEngine.GameObject obj)
-    // Offset: 0x13DCFFC
+    // Offset: 0x15A4E94
     static void SafeDestroy(UnityEngine::GameObject* obj);
     // static public System.Void SafeDestroy(ref UnityEngine.GameObject obj)
-    // Offset: 0x13DD09C
+    // Offset: 0x15A4F34
     static void SafeDestroy_(ByRef<UnityEngine::GameObject*> obj);
     // static public OVRPlugin/CameraDevice ConvertCameraDevice(OVRManager/CameraDevice cameraDevice)
-    // Offset: 0x13DD120
+    // Offset: 0x15A4FB8
     static GlobalNamespace::OVRPlugin::CameraDevice ConvertCameraDevice(GlobalNamespace::OVRManager_CameraDevice cameraDevice);
     // static public OVRBoundary/BoundaryType ToBoundaryType(OVRManager/VirtualGreenScreenType type)
-    // Offset: 0x13DD14C
+    // Offset: 0x15A4FE4
     static GlobalNamespace::OVRBoundary::BoundaryType ToBoundaryType(GlobalNamespace::OVRManager_VirtualGreenScreenType type);
-    // static public UnityEngine.Vector3 GetWorldPosition(UnityEngine.Vector3 trackingSpacePosition)
-    // Offset: 0x13DD1E0
-    static UnityEngine::Vector3 GetWorldPosition(UnityEngine::Vector3 trackingSpacePosition);
+    // static public UnityEngine.Vector3 GetWorldPosition(UnityEngine.Camera camera, UnityEngine.Vector3 trackingSpacePosition)
+    // Offset: 0x15A5078
+    static UnityEngine::Vector3 GetWorldPosition(UnityEngine::Camera* camera, UnityEngine::Vector3 trackingSpacePosition);
     // static public System.Single GetMaximumBoundaryDistance(UnityEngine.Camera camera, OVRBoundary/BoundaryType boundaryType)
-    // Offset: 0x13DD28C
+    // Offset: 0x15A512C
     static float GetMaximumBoundaryDistance(UnityEngine::Camera* camera, GlobalNamespace::OVRBoundary::BoundaryType boundaryType);
     // static public UnityEngine.Mesh BuildBoundaryMesh(OVRBoundary/BoundaryType boundaryType, System.Single topY, System.Single bottomY)
-    // Offset: 0x13DD4CC
+    // Offset: 0x15A5370
     static UnityEngine::Mesh* BuildBoundaryMesh(GlobalNamespace::OVRBoundary::BoundaryType boundaryType, float topY, float bottomY);
     // public System.Void .ctor()
-    // Offset: 0x13DD974
+    // Offset: 0x15A5818
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -122,10 +122,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRCompositionUtil::GetWorldPosition
 // Il2CppName: GetWorldPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3)>(&GlobalNamespace::OVRCompositionUtil::GetWorldPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Camera*, UnityEngine::Vector3)>(&GlobalNamespace::OVRCompositionUtil::GetWorldPosition)> {
   static const MethodInfo* get() {
+    static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* trackingSpacePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCompositionUtil*), "GetWorldPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{trackingSpacePosition});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCompositionUtil*), "GetWorldPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{camera, trackingSpacePosition});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRCompositionUtil::GetMaximumBoundaryDistance

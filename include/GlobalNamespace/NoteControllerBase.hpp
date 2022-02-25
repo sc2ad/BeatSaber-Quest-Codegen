@@ -16,7 +16,6 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: ILazyCopyHashSet`1<T>
-  template<typename T>
   class ILazyCopyHashSet_1;
   // Forward declaring type: INoteControllerDidInitEvent
   class INoteControllerDidInitEvent;
@@ -57,7 +56,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     GlobalNamespace::NoteData* get_noteData();
     // protected System.Void .ctor()
-    // Offset: 0x133C6D0
+    // Offset: 0x2B29500
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

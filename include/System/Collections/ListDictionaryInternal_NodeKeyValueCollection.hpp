@@ -70,20 +70,23 @@ namespace System::Collections {
     // Get instance field reference: private System.Boolean isKeys
     bool& dyn_isKeys();
     // private System.Int32 System.Collections.ICollection.get_Count()
-    // Offset: 0x1B8BE90
+    // Offset: 0x1AD3F2C
     int System_Collections_ICollection_get_Count();
+    // private System.Object System.Collections.ICollection.get_SyncRoot()
+    // Offset: 0x1AD3F64
+    ::Il2CppObject* System_Collections_ICollection_get_SyncRoot();
     // public System.Void .ctor(System.Collections.ListDictionaryInternal list, System.Boolean isKeys)
-    // Offset: 0x1B8B1A8
+    // Offset: 0x1AD304C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListDictionaryInternal::NodeKeyValueCollection* New_ctor(System::Collections::ListDictionaryInternal* list, bool isKeys) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::ListDictionaryInternal::NodeKeyValueCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListDictionaryInternal::NodeKeyValueCollection*, creationType>(list, isKeys)));
     }
     // private System.Void System.Collections.ICollection.CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x1B8BC94
+    // Offset: 0x1AD3D30
     void System_Collections_ICollection_CopyTo(System::Array* array, int index);
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x1B8BEC8
+    // Offset: 0x1AD3F7C
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // System.Collections.ListDictionaryInternal/System.Collections.NodeKeyValueCollection
   #pragma pack(pop)
@@ -97,6 +100,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::ListDictionaryInternal::NodeKeyValueCollection::*)()>(&System::Collections::ListDictionaryInternal::NodeKeyValueCollection::System_Collections_ICollection_get_Count)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::ListDictionaryInternal::NodeKeyValueCollection*), "System.Collections.ICollection.get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: System::Collections::ListDictionaryInternal::NodeKeyValueCollection::System_Collections_ICollection_get_SyncRoot
+// Il2CppName: System.Collections.ICollection.get_SyncRoot
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::ListDictionaryInternal::NodeKeyValueCollection::*)()>(&System::Collections::ListDictionaryInternal::NodeKeyValueCollection::System_Collections_ICollection_get_SyncRoot)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::ListDictionaryInternal::NodeKeyValueCollection*), "System.Collections.ICollection.get_SyncRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: System::Collections::ListDictionaryInternal::NodeKeyValueCollection::New_ctor

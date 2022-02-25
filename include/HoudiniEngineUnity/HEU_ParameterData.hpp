@@ -22,7 +22,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -267,91 +266,91 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _hasAssetPathTag
     bool& dyn__hasAssetPathTag();
     // public System.Int32 get_ParmID()
-    // Offset: 0x1817700
+    // Offset: 0x1A45360
     int get_ParmID();
     // public System.Int32 get_ParentID()
-    // Offset: 0x1817708
+    // Offset: 0x1A45368
     int get_ParentID();
     // public System.Int32 get_ChildIndex()
-    // Offset: 0x1817710
+    // Offset: 0x1A45370
     int get_ChildIndex();
     // public System.Int32 get_ParmSize()
-    // Offset: 0x1817718
+    // Offset: 0x1A45378
     int get_ParmSize();
     // public System.Int32 get_IntMin()
-    // Offset: 0x1817784
+    // Offset: 0x1A453E4
     int get_IntMin();
     // public System.Int32 get_IntMax()
-    // Offset: 0x18177F8
+    // Offset: 0x1A45458
     int get_IntMax();
     // public System.Int32 get_IntUIMin()
-    // Offset: 0x181786C
+    // Offset: 0x1A454CC
     int get_IntUIMin();
     // public System.Int32 get_IntUIMax()
-    // Offset: 0x18178E0
+    // Offset: 0x1A45540
     int get_IntUIMax();
     // public System.Single get_FloatMin()
-    // Offset: 0x1817954
+    // Offset: 0x1A455B4
     float get_FloatMin();
     // public System.Single get_FloatMax()
-    // Offset: 0x181795C
+    // Offset: 0x1A455BC
     float get_FloatMax();
     // public System.Single get_FloatUIMin()
-    // Offset: 0x1817964
+    // Offset: 0x1A455C4
     float get_FloatUIMin();
     // public System.Single get_FloatUIMax()
-    // Offset: 0x181796C
+    // Offset: 0x1A455CC
     float get_FloatUIMax();
     // public System.Boolean IsInt()
-    // Offset: 0x1817720
+    // Offset: 0x1A45380
     bool IsInt();
     // public System.Boolean IsFloat()
-    // Offset: 0x1817730
+    // Offset: 0x1A45390
     bool IsFloat();
     // public System.Boolean IsString()
-    // Offset: 0x1817740
+    // Offset: 0x1A453A0
     bool IsString();
     // public System.Boolean IsPathFile()
-    // Offset: 0x1817750
+    // Offset: 0x1A453B0
     bool IsPathFile();
     // public System.Boolean HasMin()
-    // Offset: 0x1817764
+    // Offset: 0x1A453C4
     bool HasMin();
     // public System.Boolean HasMax()
-    // Offset: 0x181776C
+    // Offset: 0x1A453CC
     bool HasMax();
     // public System.Boolean HasUIMin()
-    // Offset: 0x1817774
+    // Offset: 0x1A453D4
     bool HasUIMin();
     // public System.Boolean HasUIMax()
-    // Offset: 0x181777C
+    // Offset: 0x1A453DC
     bool HasUIMax();
     // public System.Boolean IsContainer()
-    // Offset: 0x1817974
+    // Offset: 0x1A455D4
     bool IsContainer();
     // public System.Boolean IsMultiParam()
-    // Offset: 0x18179D0
+    // Offset: 0x1A45630
     bool IsMultiParam();
     // public System.Boolean IsRamp()
-    // Offset: 0x18179E0
+    // Offset: 0x1A45640
     bool IsRamp();
     // public System.Boolean IsToggle()
-    // Offset: 0x18179F0
+    // Offset: 0x1A45650
     bool IsToggle();
     // public System.Boolean IsColor()
-    // Offset: 0x1817A00
+    // Offset: 0x1A45660
     bool IsColor();
     // public UnityEngine.Vector3 ToVector3()
-    // Offset: 0x1817A10
+    // Offset: 0x1A45670
     UnityEngine::Vector3 ToVector3();
     // public System.Boolean IsAssetPath()
-    // Offset: 0x1817AD4
+    // Offset: 0x1A45734
     bool IsAssetPath();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_ParameterData other)
-    // Offset: 0x1817ADC
+    // Offset: 0x1A4573C
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_ParameterData* other);
     // public System.Void .ctor()
-    // Offset: 0x1818074
+    // Offset: 0x1A45CD4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

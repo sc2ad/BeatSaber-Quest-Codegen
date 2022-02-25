@@ -19,7 +19,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: HoudiniEngineUnity
@@ -110,10 +109,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.GameObject> _instances
     System::Collections::Generic::List_1<UnityEngine::GameObject*>*& dyn__instances();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_ObjectInstanceInfo other)
-    // Offset: 0x159CF90
+    // Offset: 0x178C440
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_ObjectInstanceInfo* other);
     // public System.Void .ctor()
-    // Offset: 0x159D0A8
+    // Offset: 0x178C558
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

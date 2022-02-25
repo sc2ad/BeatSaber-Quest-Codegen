@@ -74,37 +74,37 @@ namespace System::IO {
     // Set static field: static private System.String[] NoStringsArray
     static void _set_NoStringsArray(::ArrayW<::StringW> value);
     // static private System.Void .cctor()
-    // Offset: 0x1A362C0
+    // Offset: 0x1AA08A8
     static void _cctor();
     // static public System.Boolean GetInstance(out System.IO.IFileWatcher watcher)
-    // Offset: 0x1A339F0
+    // Offset: 0x1A9DFD8
     static bool GetInstance(ByRef<System::IO::IFileWatcher*> watcher);
     // public System.Void StartDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x1A33AC8
+    // Offset: 0x1A9E0B0
     void StartDispatching(System::IO::FileSystemWatcher* fsw);
     // public System.Void StopDispatching(System.IO.FileSystemWatcher fsw)
-    // Offset: 0x1A342D0
+    // Offset: 0x1A9E8B8
     void StopDispatching(System::IO::FileSystemWatcher* fsw);
     // private System.Void Monitor()
-    // Offset: 0x1A34548
+    // Offset: 0x1A9EB30
     void Monitor();
     // private System.Boolean UpdateDataAndDispatch(System.IO.DefaultWatcherData data, System.Boolean dispatch)
-    // Offset: 0x1A341BC
+    // Offset: 0x1A9E7A4
     bool UpdateDataAndDispatch(System::IO::DefaultWatcherData* data, bool dispatch);
     // static private System.Void DispatchEvents(System.IO.FileSystemWatcher fsw, System.IO.FileAction action, System.String filename)
-    // Offset: 0x1A34ED0
+    // Offset: 0x1A9F4B8
     static void DispatchEvents(System::IO::FileSystemWatcher* fsw, System::IO::FileAction action, ::StringW filename);
     // private System.Void DoFiles(System.IO.DefaultWatcherData data, System.String directory, System.Boolean dispatch)
-    // Offset: 0x1A34C84
+    // Offset: 0x1A9F26C
     void DoFiles(System::IO::DefaultWatcherData* data, ::StringW directory, bool dispatch);
     // private System.Void IterateAndModifyFilesData(System.IO.DefaultWatcherData data, System.String directory, System.Boolean dispatch, System.String[] files)
-    // Offset: 0x1A351BC
+    // Offset: 0x1A9F7A4
     void IterateAndModifyFilesData(System::IO::DefaultWatcherData* data, ::StringW directory, bool dispatch, ::ArrayW<::StringW> files);
     // static private System.IO.FileData CreateFileData(System.String directory, System.String filename)
-    // Offset: 0x1A361E0
+    // Offset: 0x1AA07C8
     static System::IO::FileData* CreateFileData(::StringW directory, ::StringW filename);
     // private System.Void .ctor()
-    // Offset: 0x1A339E8
+    // Offset: 0x1A9DFD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

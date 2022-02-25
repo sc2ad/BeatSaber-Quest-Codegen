@@ -39,16 +39,16 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::PosesSerializer::TypeSerializationBinder
     class TypeSerializationBinder;
     // static public System.Void SaveToFile(System.String filePath, PosesRecordingData data)
-    // Offset: 0x11AE518
+    // Offset: 0x13E7314
     static void SaveToFile(::StringW filePath, GlobalNamespace::PosesRecordingData* data);
     // static private PosesRecordingSaveData LoadSaveDataFromFile(System.String filePath)
-    // Offset: 0x11AE86C
+    // Offset: 0x13E7774
     static GlobalNamespace::PosesRecordingSaveData* LoadSaveDataFromFile(::StringW filePath);
     // static public PosesRecordingData LoadFromFile(System.String filePath)
-    // Offset: 0x11AEA54
+    // Offset: 0x13E795C
     static GlobalNamespace::PosesRecordingData* LoadFromFile(::StringW filePath);
     // public System.Void .ctor()
-    // Offset: 0x11AED00
+    // Offset: 0x13E7CDC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

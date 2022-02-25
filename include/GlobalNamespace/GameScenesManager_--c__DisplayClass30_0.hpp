@@ -21,7 +21,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: Zenject
@@ -85,13 +84,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action`1<Zenject.DiContainer> finishCallback
     System::Action_1<Zenject::DiContainer*>*& dyn_finishCallback();
     // System.Void <PushScenes>b__0(Zenject.DiContainer container)
-    // Offset: 0x1398BA0
+    // Offset: 0x2C2053C
     void $PushScenes$b__0(Zenject::DiContainer* container);
     // System.Void <PushScenes>b__1(Zenject.DiContainer container)
-    // Offset: 0x1398C4C
+    // Offset: 0x2C205E8
     void $PushScenes$b__1(Zenject::DiContainer* container);
     // public System.Void .ctor()
-    // Offset: 0x13976F8
+    // Offset: 0x2C1F094
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

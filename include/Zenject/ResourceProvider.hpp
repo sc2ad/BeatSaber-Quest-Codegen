@@ -29,7 +29,6 @@ namespace Zenject {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -89,23 +88,23 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Boolean _matchSingle
     bool& dyn__matchSingle();
     // public System.Boolean get_IsCached()
-    // Offset: 0x18E4960
+    // Offset: 0x1B14FF0
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x18E4968
+    // Offset: 0x1B14FF8
     bool get_TypeVariesBasedOnMemberType();
     // public System.Void .ctor(System.String resourcePath, System.Type resourceType, System.Boolean matchSingle)
-    // Offset: 0x18E491C
+    // Offset: 0x1B14FAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResourceProvider* New_ctor(::StringW resourcePath, System::Type* resourceType, bool matchSingle) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ResourceProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceProvider*, creationType>(resourcePath, resourceType, matchSingle)));
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x18E4970
+    // Offset: 0x1B15000
     System::Type* GetInstanceType(Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x18E4978
+    // Offset: 0x1B15008
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, ByRef<System::Action*> injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.ResourceProvider
   #pragma pack(pop)

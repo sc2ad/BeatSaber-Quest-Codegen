@@ -12,7 +12,6 @@
 // Forward declaring namespace: Oculus::Platform
 namespace Oculus::Platform {
   // Forward declaring type: Request`1<T>
-  template<typename T>
   class Request_1;
 }
 // Forward declaring namespace: Oculus::Platform::Models
@@ -40,10 +39,10 @@ namespace Oculus::Platform {
   class Parties : public ::Il2CppObject {
     public:
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.Party> GetCurrent()
-    // Offset: 0x26605E4
+    // Offset: 0x29FC784
     static Oculus::Platform::Request_1<Oculus::Platform::Models::Party*>* GetCurrent();
     // static public System.Void SetPartyUpdateNotificationCallback(Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.PartyUpdateNotification> callback)
-    // Offset: 0x26606F0
+    // Offset: 0x29FC890
     static void SetPartyUpdateNotificationCallback(typename Oculus::Platform::Message_1<Oculus::Platform::Models::PartyUpdateNotification*>::Callback* callback);
   }; // Oculus.Platform.Parties
   #pragma pack(pop)

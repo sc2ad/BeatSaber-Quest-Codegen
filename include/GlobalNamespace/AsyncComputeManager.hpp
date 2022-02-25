@@ -16,7 +16,6 @@
 // Forward declaring namespace: System::Collections::Concurrent
 namespace System::Collections::Concurrent {
   // Forward declaring type: BlockingCollection`1<T>
-  template<typename T>
   class BlockingCollection_1;
 }
 // Forward declaring namespace: GlobalNamespace
@@ -24,7 +23,6 @@ namespace GlobalNamespace {
   // Forward declaring type: AsyncComputeOperation
   class AsyncComputeOperation;
   // Forward declaring type: AsyncComputeOperation`1<T>
-  template<typename T>
   class AsyncComputeOperation_1;
 }
 // Forward declaring namespace: System::Threading
@@ -35,7 +33,6 @@ namespace System::Threading {
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
-  template<typename TResult>
   class Task_1;
 }
 // Completed forward declares
@@ -94,10 +91,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _disposed
     bool& dyn__disposed();
     // public System.Void Dispose()
-    // Offset: 0x155B594
+    // Offset: 0x2B7BE10
     void Dispose();
     // public System.Void BeginOperation(AsyncComputeOperation operation)
-    // Offset: 0x155B604
+    // Offset: 0x2B7BE80
     void BeginOperation(GlobalNamespace::AsyncComputeOperation* operation);
     // public System.Threading.Tasks.Task`1<T> BeginOperation(AsyncComputeOperation`1<T> operation)
     // Offset: 0xFFFFFFFF
@@ -109,10 +106,10 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<System::Threading::Tasks::Task_1<T>*, false>(this, ___generic__method, operation);
     }
     // private System.Void ComputeThreadRun()
-    // Offset: 0x155B66C
+    // Offset: 0x2B7BEE8
     void ComputeThreadRun();
     // public System.Void .ctor()
-    // Offset: 0x155B490
+    // Offset: 0x2B7BD0C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

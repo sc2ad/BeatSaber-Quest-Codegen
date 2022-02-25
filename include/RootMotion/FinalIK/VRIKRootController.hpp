@@ -96,28 +96,28 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private RootMotion.FinalIK.VRIK ik
     RootMotion::FinalIK::VRIK*& dyn_ik();
     // public UnityEngine.Vector3 get_pelvisTargetRight()
-    // Offset: 0x1CA6554
+    // Offset: 0x1F191E8
     UnityEngine::Vector3 get_pelvisTargetRight();
     // private System.Void set_pelvisTargetRight(UnityEngine.Vector3 value)
-    // Offset: 0x1CA6560
+    // Offset: 0x1F191F4
     void set_pelvisTargetRight(UnityEngine::Vector3 value);
     // private System.Void Awake()
-    // Offset: 0x1CA656C
+    // Offset: 0x1F19200
     void Awake();
     // public System.Void Calibrate()
-    // Offset: 0x1CA50B8
+    // Offset: 0x1F17D4C
     void Calibrate();
     // public System.Void Calibrate(RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData data)
-    // Offset: 0x1CA60C0
+    // Offset: 0x1F18D54
     void Calibrate(RootMotion::FinalIK::VRIKCalibrator::CalibrationData* data);
     // private System.Void OnPreUpdate()
-    // Offset: 0x1CA6644
+    // Offset: 0x1F192D8
     void OnPreUpdate();
     // private System.Void OnDestroy()
-    // Offset: 0x1CA6AE8
+    // Offset: 0x1F1977C
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x1CA6BE0
+    // Offset: 0x1F19874
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

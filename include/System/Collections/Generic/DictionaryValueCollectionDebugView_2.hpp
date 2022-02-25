@@ -9,7 +9,6 @@
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // Forward declaring type: DictionaryValueCollectionDebugView`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class DictionaryValueCollectionDebugView_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

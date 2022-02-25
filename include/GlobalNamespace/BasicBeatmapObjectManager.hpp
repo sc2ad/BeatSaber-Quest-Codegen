@@ -24,7 +24,6 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: MemoryPoolContainer`1<T>
-  template<typename T>
   class MemoryPoolContainer_1;
   // Skipping declaration: NoteController because it is already included!
   // Forward declaring type: ObstacleData
@@ -35,7 +34,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -54,7 +52,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BasicBeatmapObjectManager : public GlobalNamespace::BeatmapObjectManager {
     public:
-    // Writing base type padding for base size: 0x61 to desired offset: 0x64
+    // Writing base type padding for base size: 0x71 to desired offset: 0x74
     char ___base_padding[0x3] = {};
     // Nested type: GlobalNamespace::BasicBeatmapObjectManager::InitData
     class InitData;
@@ -69,29 +67,29 @@ namespace GlobalNamespace {
     #endif
     // private System.Nullable`1<System.Single> _firstBasicNoteTime
     // Size: 0xFFFFFFFF
-    // Offset: 0x64
+    // Offset: 0x74
     System::Nullable_1<float> firstBasicNoteTime;
     // private BasicBeatmapObjectManager/InitData _initData
     // Size: 0x8
-    // Offset: 0x70
+    // Offset: 0x80
     GlobalNamespace::BasicBeatmapObjectManager::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BasicBeatmapObjectManager::InitData*) == 0x8);
     // private MemoryPoolContainer`1<GameNoteController> _gameNotePoolContainer
     // Size: 0x8
-    // Offset: 0x78
+    // Offset: 0x88
     GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::GameNoteController*>* gameNotePoolContainer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::GameNoteController*>*) == 0x8);
     // private MemoryPoolContainer`1<BombNoteController> _bombNotePoolContainer
     // Size: 0x8
-    // Offset: 0x80
+    // Offset: 0x90
     GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BombNoteController*>* bombNotePoolContainer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BombNoteController*>*) == 0x8);
     // private MemoryPoolContainer`1<ObstacleController> _obstaclePoolContainer
     // Size: 0x8
-    // Offset: 0x88
+    // Offset: 0x98
     GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::ObstacleController*>* obstaclePoolContainer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::ObstacleController*>*) == 0x8);
@@ -107,18 +105,18 @@ namespace GlobalNamespace {
     // Get instance field reference: private MemoryPoolContainer`1<ObstacleController> _obstaclePoolContainer
     GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::ObstacleController*>*& dyn__obstaclePoolContainer();
     // private System.Void Init(BasicBeatmapObjectManager/InitData initData, GameNoteController/Pool gameNotePool, BombNoteController/Pool bombNotePool, ObstacleController/Pool obstaclePool)
-    // Offset: 0x12C4A28
+    // Offset: 0x2B3D698
     void Init(GlobalNamespace::BasicBeatmapObjectManager::InitData* initData, GlobalNamespace::GameNoteController::Pool* gameNotePool, GlobalNamespace::BombNoteController::Pool* bombNotePool, GlobalNamespace::ObstacleController::Pool* obstaclePool);
     // public System.Single GetMaxYForRangeInMiddleTwoLanes(System.Single zStart, System.Single zEnd)
-    // Offset: 0x12C57B0
+    // Offset: 0x2B3E420
     float GetMaxYForRangeInMiddleTwoLanes(float zStart, float zEnd);
     // public override System.Collections.Generic.List`1<ObstacleController> get_activeObstacleControllers()
-    // Offset: 0x12C49D0
+    // Offset: 0x2B3D640
     // Implemented from: BeatmapObjectManager
     // Base method: System.Collections.Generic.List`1<ObstacleController> BeatmapObjectManager::get_activeObstacleControllers()
     System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* get_activeObstacleControllers();
     // public System.Void .ctor()
-    // Offset: 0x12C592C
+    // Offset: 0x2B3E59C
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -128,42 +126,42 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BasicBeatmapObjectManager*, creationType>()));
     }
     // protected override ObstacleController SpawnObstacleInternal(ObstacleData obstacleData, BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
-    // Offset: 0x12C4B10
+    // Offset: 0x2B3D780
     // Implemented from: BeatmapObjectManager
     // Base method: ObstacleController BeatmapObjectManager::SpawnObstacleInternal(ObstacleData obstacleData, BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
     GlobalNamespace::ObstacleController* SpawnObstacleInternal(GlobalNamespace::ObstacleData* obstacleData, GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData obstacleSpawnData, float rotation);
     // protected override NoteController SpawnBombNoteInternal(NoteData bombNoteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation)
-    // Offset: 0x12C4BE4
+    // Offset: 0x2B3D854
     // Implemented from: BeatmapObjectManager
     // Base method: NoteController BeatmapObjectManager::SpawnBombNoteInternal(NoteData bombNoteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation)
     GlobalNamespace::NoteController* SpawnBombNoteInternal(GlobalNamespace::NoteData* bombNoteData, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation);
     // protected override NoteController SpawnBasicNoteInternal(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Single cutDirectionAngleOffset)
-    // Offset: 0x12C4CAC
+    // Offset: 0x2B3D91C
     // Implemented from: BeatmapObjectManager
     // Base method: NoteController BeatmapObjectManager::SpawnBasicNoteInternal(NoteData noteData, BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Single cutDirectionAngleOffset)
     GlobalNamespace::NoteController* SpawnBasicNoteInternal(GlobalNamespace::NoteData* noteData, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData noteSpawnData, float rotation, float cutDirectionAngleOffset);
     // protected override System.Void DespawnInternal(NoteController noteController)
-    // Offset: 0x12C4E14
+    // Offset: 0x2B3DA84
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DespawnInternal(NoteController noteController)
     void DespawnInternal(GlobalNamespace::NoteController* noteController);
     // protected override System.Void DespawnInternal(ObstacleController obstacleController)
-    // Offset: 0x12C4F08
+    // Offset: 0x2B3DB78
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DespawnInternal(ObstacleController obstacleController)
     void DespawnInternal(GlobalNamespace::ObstacleController* obstacleController);
     // public override System.Void DissolveAllObjects()
-    // Offset: 0x12C4F70
+    // Offset: 0x2B3DBE0
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DissolveAllObjects()
     void DissolveAllObjects();
     // public override System.Void HideAllBeatmapObjects(System.Boolean hide)
-    // Offset: 0x12C5228
+    // Offset: 0x2B3DE98
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::HideAllBeatmapObjects(System.Boolean hide)
     void HideAllBeatmapObjects(bool hide);
     // public override System.Void PauseAllBeatmapObjects(System.Boolean pause)
-    // Offset: 0x12C54EC
+    // Offset: 0x2B3E15C
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::PauseAllBeatmapObjects(System.Boolean pause)
     void PauseAllBeatmapObjects(bool pause);

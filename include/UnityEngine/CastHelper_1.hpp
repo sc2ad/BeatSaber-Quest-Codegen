@@ -12,7 +12,6 @@
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Forward declaring type: CastHelper`1<T>
-  template<typename T>
   struct CastHelper_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

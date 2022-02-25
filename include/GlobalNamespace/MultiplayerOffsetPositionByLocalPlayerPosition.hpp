@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0xF3EA74
+    // [InjectAttribute] Offset: 0x1245388
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x18
@@ -89,19 +89,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Quaternion _lastParentRotation
     UnityEngine::Quaternion& dyn__lastParentRotation();
     // protected System.Void Awake()
-    // Offset: 0x116DD64
+    // Offset: 0x2A9FB78
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x116DDB8
+    // Offset: 0x2A9FBCC
     void Update();
     // public System.Void SetEnabled(System.Boolean isEnabled)
-    // Offset: 0x116E044
+    // Offset: 0x2A9FE58
     void SetEnabled(bool isEnabled);
     // private System.Void UpdatePositionAndRotationIfNeeded()
-    // Offset: 0x116DDBC
+    // Offset: 0x2A9FBD0
     void UpdatePositionAndRotationIfNeeded();
     // public System.Void .ctor()
-    // Offset: 0x116E0E0
+    // Offset: 0x2A9FEF4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

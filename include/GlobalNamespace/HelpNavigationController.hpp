@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class HelpNavigationController : public HMUI::NavigationController {
     public:
     // public System.Void .ctor()
-    // Offset: 0x119E3D4
+    // Offset: 0x13ABE7C
     // Implemented from: HMUI.NavigationController
     // Base method: System.Void NavigationController::.ctor()
     // Base method: System.Void ContainerViewController::.ctor()

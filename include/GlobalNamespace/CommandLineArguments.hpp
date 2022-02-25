@@ -24,7 +24,7 @@ namespace GlobalNamespace {
   class CommandLineArguments : public ::Il2CppObject {
     public:
     // static public System.Boolean Contains(System.String argument)
-    // Offset: 0x138F0F8
+    // Offset: 0x2C16A94
     static bool Contains(::StringW argument);
   }; // CommandLineArguments
   #pragma pack(pop)

@@ -14,16 +14,13 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Tuple`2<T1, T2>
-  template<typename T1, typename T2>
   class Tuple_2;
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: HMUI
@@ -34,7 +31,6 @@ namespace HMUI {
 // Forward declaring namespace: UnityEngine::Events
 namespace UnityEngine::Events {
   // Forward declaring type: UnityAction`1<T0>
-  template<typename T0>
   class UnityAction_1;
 }
 // Completed forward declares
@@ -81,25 +77,25 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean _enabled
     bool& dyn__enabled();
     // private System.Void Init()
-    // Offset: 0x14C2EB8
+    // Offset: 0x16A4F74
     void Init();
     // public System.Void AddBindings(System.Collections.Generic.List`1<System.Tuple`2<HMUI.InputFieldView,System.Action`1<HMUI.InputFieldView>>> bindings)
-    // Offset: 0x14C2F20
+    // Offset: 0x16A4FDC
     void AddBindings(System::Collections::Generic::List_1<System::Tuple_2<HMUI::InputFieldView*, System::Action_1<HMUI::InputFieldView*>*>*>* bindings);
     // public System.Void AddBinding(HMUI.InputFieldView inputField, System.Action`1<HMUI.InputFieldView> action)
-    // Offset: 0x14C3028
+    // Offset: 0x16A50E4
     void AddBinding(HMUI::InputFieldView* inputField, System::Action_1<HMUI::InputFieldView*>* action);
     // public System.Void ClearBindings()
-    // Offset: 0x14C30E8
+    // Offset: 0x16A51A4
     void ClearBindings();
     // public System.Void Disable()
-    // Offset: 0x14C3280
+    // Offset: 0x16A533C
     void Disable();
     // public System.Void Enable()
-    // Offset: 0x14C3408
+    // Offset: 0x16A54C4
     void Enable();
     // public System.Void .ctor()
-    // Offset: 0x14C2E88
+    // Offset: 0x16A4F44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

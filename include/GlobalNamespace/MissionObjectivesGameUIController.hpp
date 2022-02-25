@@ -23,7 +23,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -70,7 +69,7 @@ namespace GlobalNamespace {
     float elementWidth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0xF3C3F0
+    // [InjectAttribute] Offset: 0x1242D64
     // private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
     // Size: 0x8
     // Offset: 0x28
@@ -97,19 +96,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<MissionObjectiveGameUIView> _missionObjectiveGameUIViews
     System::Collections::Generic::List_1<GlobalNamespace::MissionObjectiveGameUIView*>*& dyn__missionObjectiveGameUIViews();
     // protected System.Void Start()
-    // Offset: 0x1166E50
+    // Offset: 0x2A738DC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x116721C
+    // Offset: 0x2A73CA8
     void OnDestroy();
     // private System.Void HandleMissionObjectiveCheckersManagerObjectivesListDidChange()
-    // Offset: 0x11672EC
+    // Offset: 0x2A73D78
     void HandleMissionObjectiveCheckersManagerObjectivesListDidChange();
     // private System.Void CreateUIElements()
-    // Offset: 0x1166EE0
+    // Offset: 0x2A7396C
     void CreateUIElements();
     // public System.Void .ctor()
-    // Offset: 0x11672F0
+    // Offset: 0x2A73D7C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

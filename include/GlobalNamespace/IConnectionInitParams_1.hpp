@@ -15,7 +15,6 @@ namespace GlobalNamespace {
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: IConnectionInitParams`1<T>
-  template<typename T>
   class IConnectionInitParams_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

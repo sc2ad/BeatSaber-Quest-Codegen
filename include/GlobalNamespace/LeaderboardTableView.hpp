@@ -30,7 +30,6 @@ namespace HMUI {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System
@@ -122,19 +121,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _specialScorePos
     int& dyn__specialScorePos();
     // public System.Single CellSize()
-    // Offset: 0x11A36F8
+    // Offset: 0x13B1258
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x11A3700
+    // Offset: 0x13B1260
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x11A3754
+    // Offset: 0x13B12B4
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int row);
     // public System.Void SetScores(System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> scores, System.Int32 specialScorePos)
-    // Offset: 0x11A3930
+    // Offset: 0x13B1490
     void SetScores(System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>* scores, int specialScorePos);
     // public System.Void .ctor()
-    // Offset: 0x11A3960
+    // Offset: 0x13B14C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

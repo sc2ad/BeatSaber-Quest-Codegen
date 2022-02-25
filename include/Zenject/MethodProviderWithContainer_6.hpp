@@ -16,7 +16,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`7<T1, T2, T3, T4, T5, T6, TResult>
-  template<typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename TResult>
   class Func_7;
   // Forward declaring type: Type
   class Type;
@@ -33,14 +32,12 @@ namespace Zenject {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: MethodProviderWithContainer`6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>
-  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue>
   class MethodProviderWithContainer_6;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

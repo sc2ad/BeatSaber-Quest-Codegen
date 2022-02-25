@@ -9,7 +9,6 @@
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: SystemThreadingTasks_FutureDebugView`1<TResult>
-  template<typename TResult>
   class SystemThreadingTasks_FutureDebugView_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

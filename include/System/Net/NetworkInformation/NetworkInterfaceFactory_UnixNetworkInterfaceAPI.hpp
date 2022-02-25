@@ -31,13 +31,13 @@ namespace System::Net::NetworkInformation {
   class NetworkInterfaceFactory::UnixNetworkInterfaceAPI : public System::Net::NetworkInformation::NetworkInterfaceFactory {
     public:
     // static protected System.Int32 getifaddrs(out System.IntPtr ifap)
-    // Offset: 0x16A7970
+    // Offset: 0x17AB9D4
     static int getifaddrs(ByRef<System::IntPtr> ifap);
     // static protected System.Void freeifaddrs(System.IntPtr ifap)
-    // Offset: 0x16A78EC
+    // Offset: 0x17AB950
     static void freeifaddrs(System::IntPtr ifap);
     // protected System.Void .ctor()
-    // Offset: 0x16A839C
+    // Offset: 0x17AC3F8
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Void NetworkInterfaceFactory::.ctor()
     // Base method: System.Void Object::.ctor()

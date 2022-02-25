@@ -18,7 +18,6 @@
 // Forward declaring namespace: UnityEngine::ResourceManagement::AsyncOperations
 namespace UnityEngine::ResourceManagement::AsyncOperations {
   // Forward declaring type: AsyncOperationHandle`1<TObject>
-  template<typename TObject>
   struct AsyncOperationHandle_1;
   // Forward declaring type: AsyncOperationHandle
   struct AsyncOperationHandle;
@@ -76,10 +75,10 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: public UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters instantiateParameters
     UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters& dyn_instantiateParameters();
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> <InstantiateWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op)
-    // Offset: 0x160B804
+    // Offset: 0x17E0D54
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> $InstantiateWithChain$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
     // public System.Void .ctor()
-    // Offset: 0x16099E4
+    // Offset: 0x17DEF34
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

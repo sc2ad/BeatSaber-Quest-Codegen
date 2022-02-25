@@ -19,13 +19,11 @@
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: TaskCompletionSource`1<TResult>
-  template<typename TResult>
   class TaskCompletionSource_1;
 }
 // Forward declaring namespace: Oculus::Platform
 namespace Oculus::Platform {
   // Forward declaring type: Message`1<T>
-  template<typename T>
   class Message_1;
 }
 // Forward declaring namespace: Oculus::Platform::Models
@@ -89,10 +87,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> taskSource
     System::Threading::Tasks::TaskCompletionSource_1<bool>*& dyn_taskSource();
     // System.Void <TryDeleteAssetBundleFileForPreviewLevelAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetFileDeleteResult> msg)
-    // Offset: 0x13493C8
+    // Offset: 0x2B369D4
     void $TryDeleteAssetBundleFileForPreviewLevelAsync$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDeleteResult*>* msg);
     // public System.Void .ctor()
-    // Offset: 0x13493C0
+    // Offset: 0x2B369CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

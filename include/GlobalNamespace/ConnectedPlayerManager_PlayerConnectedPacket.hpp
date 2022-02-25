@@ -21,7 +21,6 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: PacketPool`1<T>
-  template<typename T>
   class PacketPool_1;
 }
 // Forward declaring namespace: LiteNetLib::Utils
@@ -96,22 +95,22 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean isConnectionOwner
     bool& dyn_isConnectionOwner();
     // static public PacketPool`1<ConnectedPlayerManager/PlayerConnectedPacket> get_pool()
-    // Offset: 0x156062C
+    // Offset: 0x2C3D17C
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket*>* get_pool();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x156431C
+    // Offset: 0x2C3DC7C
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1564380
+    // Offset: 0x2C3DCE0
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x1562BAC
+    // Offset: 0x2C3DD4C
     void Release();
     // public ConnectedPlayerManager/PlayerConnectedPacket Init(System.Byte connectionId, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x1563FB0
+    // Offset: 0x2C3D1C4
     GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket* Init(uint8_t connectionId, ::StringW userId, ::StringW userName, bool isConnectionOwner);
     // public System.Void .ctor()
-    // Offset: 0x15643EC
+    // Offset: 0x2C3DDA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

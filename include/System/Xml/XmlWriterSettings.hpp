@@ -32,7 +32,6 @@ namespace System::Text {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System::Xml
@@ -275,106 +274,112 @@ namespace System::Xml {
     // Get instance field reference: private System.Boolean isReadOnly
     bool& dyn_isReadOnly();
     // public System.Boolean get_Async()
-    // Offset: 0x26A3A40
+    // Offset: 0x1BC2DF8
     bool get_Async();
     // public System.Text.Encoding get_Encoding()
-    // Offset: 0x26A3A48
+    // Offset: 0x1BC2E00
     System::Text::Encoding* get_Encoding();
     // public System.Boolean get_OmitXmlDeclaration()
-    // Offset: 0x26A3A50
+    // Offset: 0x1BC2E08
     bool get_OmitXmlDeclaration();
+    // public System.Void set_OmitXmlDeclaration(System.Boolean value)
+    // Offset: 0x1BC2E10
+    void set_OmitXmlDeclaration(bool value);
     // public System.Xml.NewLineHandling get_NewLineHandling()
-    // Offset: 0x26A3A58
+    // Offset: 0x1BC2F50
     System::Xml::NewLineHandling get_NewLineHandling();
     // public System.String get_NewLineChars()
-    // Offset: 0x26A3A60
+    // Offset: 0x1BC2F58
     ::StringW get_NewLineChars();
     // public System.Boolean get_Indent()
-    // Offset: 0x26A3A68
+    // Offset: 0x1BC2F60
     bool get_Indent();
     // public System.Void set_Indent(System.Boolean value)
-    // Offset: 0x26A3A78
+    // Offset: 0x1BC2F70
     void set_Indent(bool value);
     // public System.String get_IndentChars()
-    // Offset: 0x26A3BC0
+    // Offset: 0x1BC2FE0
     ::StringW get_IndentChars();
     // public System.Boolean get_NewLineOnAttributes()
-    // Offset: 0x26A3BC8
+    // Offset: 0x1BC2FE8
     bool get_NewLineOnAttributes();
     // public System.Boolean get_CloseOutput()
-    // Offset: 0x26A3BD0
+    // Offset: 0x1BC2FF0
     bool get_CloseOutput();
     // public System.Xml.ConformanceLevel get_ConformanceLevel()
-    // Offset: 0x26A3BD8
+    // Offset: 0x1BC2FF8
     System::Xml::ConformanceLevel get_ConformanceLevel();
     // public System.Void set_ConformanceLevel(System.Xml.ConformanceLevel value)
-    // Offset: 0x26A3BE0
+    // Offset: 0x1BC3000
     void set_ConformanceLevel(System::Xml::ConformanceLevel value);
     // public System.Boolean get_CheckCharacters()
-    // Offset: 0x26A3C88
+    // Offset: 0x1BC30A8
     bool get_CheckCharacters();
     // public System.Xml.NamespaceHandling get_NamespaceHandling()
-    // Offset: 0x26A3C90
+    // Offset: 0x1BC30B0
     System::Xml::NamespaceHandling get_NamespaceHandling();
+    // public System.Void set_NamespaceHandling(System.Xml.NamespaceHandling value)
+    // Offset: 0x1BC30B8
+    void set_NamespaceHandling(System::Xml::NamespaceHandling value);
     // public System.Boolean get_WriteEndDocumentOnClose()
-    // Offset: 0x26A3C98
+    // Offset: 0x1BC3160
     bool get_WriteEndDocumentOnClose();
     // public System.Xml.XmlOutputMethod get_OutputMethod()
-    // Offset: 0x26A3CA0
+    // Offset: 0x1BC3168
     System::Xml::XmlOutputMethod get_OutputMethod();
     // System.Void set_OutputMethod(System.Xml.XmlOutputMethod value)
-    // Offset: 0x26A3CA8
+    // Offset: 0x1BC3170
     void set_OutputMethod(System::Xml::XmlOutputMethod value);
     // System.Collections.Generic.List`1<System.Xml.XmlQualifiedName> get_CDataSectionElements()
-    // Offset: 0x26A3D68
+    // Offset: 0x1BC3230
     System::Collections::Generic::List_1<System::Xml::XmlQualifiedName*>* get_CDataSectionElements();
     // public System.Boolean get_DoNotEscapeUriAttributes()
-    // Offset: 0x26A3D70
+    // Offset: 0x1BC3238
     bool get_DoNotEscapeUriAttributes();
     // System.Boolean get_MergeCDataSections()
-    // Offset: 0x26A3D78
+    // Offset: 0x1BC3240
     bool get_MergeCDataSections();
     // System.String get_MediaType()
-    // Offset: 0x26A3D80
+    // Offset: 0x1BC3248
     ::StringW get_MediaType();
     // System.String get_DocTypeSystem()
-    // Offset: 0x26A3D88
+    // Offset: 0x1BC3250
     ::StringW get_DocTypeSystem();
     // System.String get_DocTypePublic()
-    // Offset: 0x26A3D90
+    // Offset: 0x1BC3258
     ::StringW get_DocTypePublic();
     // System.Xml.XmlStandalone get_Standalone()
-    // Offset: 0x26A3D98
+    // Offset: 0x1BC3260
     System::Xml::XmlStandalone get_Standalone();
     // System.Boolean get_AutoXmlDeclaration()
-    // Offset: 0x26A3DA0
+    // Offset: 0x1BC3268
     bool get_AutoXmlDeclaration();
     // System.Xml.TriState get_IndentInternal()
-    // Offset: 0x26A3DA8
+    // Offset: 0x1BC3270
     System::Xml::TriState get_IndentInternal();
     // System.Boolean get_IsQuerySpecific()
-    // Offset: 0x26A3DB0
+    // Offset: 0x1BC3278
     bool get_IsQuerySpecific();
     // System.Void set_ReadOnly(System.Boolean value)
-    // Offset: 0x26A3E28
+    // Offset: 0x1BC32F0
     void set_ReadOnly(bool value);
     // public System.Xml.XmlWriterSettings Clone()
-    // Offset: 0x26A3CB0
+    // Offset: 0x1BC3178
     System::Xml::XmlWriterSettings* Clone();
     // System.Xml.XmlWriter CreateWriter(System.IO.Stream output)
-    // Offset: 0x26A32A8
+    // Offset: 0x1BC266C
     System::Xml::XmlWriter* CreateWriter(System::IO::Stream* output);
     // System.Xml.XmlWriter CreateWriter(System.IO.TextWriter output)
-    // Offset: 0x26A36E0
+    // Offset: 0x1BC2AA4
     System::Xml::XmlWriter* CreateWriter(System::IO::TextWriter* output);
     // private System.Void CheckReadOnly(System.String propertyName)
-    // Offset: 0x26A3AE8
+    // Offset: 0x1BC2E78
     void CheckReadOnly(::StringW propertyName);
     // private System.Void Initialize()
-    // Offset: 0x26A3978
+    // Offset: 0x1BC2D30
     void Initialize();
     // public System.Void .ctor()
-    // Offset: 0x26A3230
+    // Offset: 0x1BC25F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -410,6 +415,15 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_OmitXmlDeclaration)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_OmitXmlDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlWriterSettings::set_OmitXmlDeclaration
+// Il2CppName: set_OmitXmlDeclaration
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWriterSettings::*)(bool)>(&System::Xml::XmlWriterSettings::set_OmitXmlDeclaration)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "set_OmitXmlDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_NewLineHandling
@@ -500,6 +514,15 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::NamespaceHandling (System::Xml::XmlWriterSettings::*)()>(&System::Xml::XmlWriterSettings::get_NamespaceHandling)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "get_NamespaceHandling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlWriterSettings::set_NamespaceHandling
+// Il2CppName: set_NamespaceHandling
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWriterSettings::*)(System::Xml::NamespaceHandling)>(&System::Xml::XmlWriterSettings::set_NamespaceHandling)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System.Xml", "NamespaceHandling")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWriterSettings*), "set_NamespaceHandling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Xml::XmlWriterSettings::get_WriteEndDocumentOnClose

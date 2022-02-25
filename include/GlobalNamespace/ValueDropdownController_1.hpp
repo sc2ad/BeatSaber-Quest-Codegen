@@ -22,13 +22,10 @@ namespace GlobalNamespace {
 namespace System {
   // Skipping declaration: IComparable because it is already included!
   // Forward declaring type: Action`2<T1, T2>
-  template<typename T1, typename T2>
   class Action_2;
   // Forward declaring type: Tuple`2<T1, T2>
-  template<typename T1, typename T2>
   class Tuple_2;
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: HMUI
@@ -41,14 +38,12 @@ namespace HMUI {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IReadOnlyList`1<T>
-  template<typename T>
   class IReadOnlyList_1;
 }
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: ValueDropdownController`1<T>
-  template<typename T>
   class ValueDropdownController_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

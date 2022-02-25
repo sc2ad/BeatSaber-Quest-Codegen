@@ -17,7 +17,6 @@ namespace Zenject {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System
@@ -45,7 +44,7 @@ namespace Zenject {
     // Nested type: Zenject::ValidationUtil::$$c
     class $$c;
     // static public System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateDefaultArgs(params System.Type[] argTypes)
-    // Offset: 0x219BCC8
+    // Offset: 0x2471500
     static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateDefaultArgs(::ArrayW<System::Type*> argTypes);
   }; // Zenject.ValidationUtil
   #pragma pack(pop)

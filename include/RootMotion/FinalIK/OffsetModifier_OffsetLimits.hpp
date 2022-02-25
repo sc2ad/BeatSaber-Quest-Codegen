@@ -46,35 +46,35 @@ namespace RootMotion::FinalIK {
     protected:
     #endif
     #endif
-    // [TooltipAttribute] Offset: 0xF628D4
+    // [TooltipAttribute] Offset: 0x1269404
     // public RootMotion.FinalIK.FullBodyBipedEffector effector
     // Size: 0x4
     // Offset: 0x10
     RootMotion::FinalIK::FullBodyBipedEffector effector;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
-    // [TooltipAttribute] Offset: 0xF6290C
+    // [TooltipAttribute] Offset: 0x126943C
     // public System.Single spring
     // Size: 0x4
     // Offset: 0x14
     float spring;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xF62944
+    // [TooltipAttribute] Offset: 0x1269474
     // public System.Boolean x
     // Size: 0x1
     // Offset: 0x18
     bool x;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xF6297C
+    // [TooltipAttribute] Offset: 0x12694AC
     // public System.Boolean y
     // Size: 0x1
     // Offset: 0x19
     bool y;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xF629B4
+    // [TooltipAttribute] Offset: 0x12694E4
     // public System.Boolean z
     // Size: 0x1
     // Offset: 0x1A
@@ -83,42 +83,42 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: z and: minX
     char __padding4[0x1] = {};
-    // [TooltipAttribute] Offset: 0xF629EC
+    // [TooltipAttribute] Offset: 0x126951C
     // public System.Single minX
     // Size: 0x4
     // Offset: 0x1C
     float minX;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xF62A24
+    // [TooltipAttribute] Offset: 0x1269554
     // public System.Single maxX
     // Size: 0x4
     // Offset: 0x20
     float maxX;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xF62A5C
+    // [TooltipAttribute] Offset: 0x126958C
     // public System.Single minY
     // Size: 0x4
     // Offset: 0x24
     float minY;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xF62A94
+    // [TooltipAttribute] Offset: 0x12695C4
     // public System.Single maxY
     // Size: 0x4
     // Offset: 0x28
     float maxY;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xF62ACC
+    // [TooltipAttribute] Offset: 0x12695FC
     // public System.Single minZ
     // Size: 0x4
     // Offset: 0x2C
     float minZ;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xF62B04
+    // [TooltipAttribute] Offset: 0x1269634
     // public System.Single maxZ
     // Size: 0x4
     // Offset: 0x30
@@ -149,16 +149,16 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single maxZ
     float& dyn_maxZ();
     // public System.Void Apply(RootMotion.FinalIK.IKEffector e, UnityEngine.Quaternion rootRotation)
-    // Offset: 0x1C98BDC
+    // Offset: 0x1F0B870
     void Apply(RootMotion::FinalIK::IKEffector* e, UnityEngine::Quaternion rootRotation);
     // private System.Single SpringAxis(System.Single value, System.Single min, System.Single max)
-    // Offset: 0x1C990F4
+    // Offset: 0x1F0BD88
     float SpringAxis(float value, float min, float max);
     // private System.Single Spring(System.Single value, System.Single limit, System.Boolean negative)
-    // Offset: 0x1C99124
+    // Offset: 0x1F0BDB8
     float Spring(float value, float limit, bool negative);
     // public System.Void .ctor()
-    // Offset: 0x1C991FC
+    // Offset: 0x1F0BE90
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

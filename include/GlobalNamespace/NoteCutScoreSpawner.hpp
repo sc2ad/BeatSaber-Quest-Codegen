@@ -58,14 +58,14 @@ namespace GlobalNamespace {
     GlobalNamespace::FlyingScoreSpawner* flyingScoreSpawner;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FlyingScoreSpawner*) == 0x8);
-    // [InjectAttribute] Offset: 0xF3A3E4
+    // [InjectAttribute] Offset: 0x1240DA8
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF3A3F4
+    // [InjectAttribute] Offset: 0x1240DB8
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x28
@@ -82,16 +82,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IScoreController _scoreController
     GlobalNamespace::IScoreController*& dyn__scoreController();
     // protected System.Void Start()
-    // Offset: 0x133DFA8
+    // Offset: 0x2B2ADD8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x133E034
+    // Offset: 0x2B2AE64
     void OnDestroy();
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x133E0CC
+    // Offset: 0x2B2AEFC
     void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo);
     // public System.Void .ctor()
-    // Offset: 0x133E2D8
+    // Offset: 0x2B2B108
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

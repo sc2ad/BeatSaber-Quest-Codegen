@@ -13,7 +13,6 @@
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Shared`1<T>
-  template<typename T>
   class Shared_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

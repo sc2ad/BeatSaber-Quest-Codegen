@@ -72,31 +72,31 @@ namespace UnityEngine::TestTools::Logging {
     // Get instance field reference: private System.Boolean <IsHandled>k__BackingField
     bool& dyn_$IsHandled$k__BackingField();
     // public System.String get_Message()
-    // Offset: 0x16CFE44
+    // Offset: 0x18D8BF4
     ::StringW get_Message();
     // public System.Void set_Message(System.String value)
-    // Offset: 0x16CFE4C
+    // Offset: 0x18D8BFC
     void set_Message(::StringW value);
     // public System.String get_StackTrace()
-    // Offset: 0x16CFE54
+    // Offset: 0x18D8C04
     ::StringW get_StackTrace();
     // public System.Void set_StackTrace(System.String value)
-    // Offset: 0x16CFE5C
+    // Offset: 0x18D8C0C
     void set_StackTrace(::StringW value);
     // public UnityEngine.LogType get_LogType()
-    // Offset: 0x16CFE64
+    // Offset: 0x18D8C14
     UnityEngine::LogType get_LogType();
     // public System.Void set_LogType(UnityEngine.LogType value)
-    // Offset: 0x16CFE6C
+    // Offset: 0x18D8C1C
     void set_LogType(UnityEngine::LogType value);
     // public System.Boolean get_IsHandled()
-    // Offset: 0x16CFE74
+    // Offset: 0x18D8C24
     bool get_IsHandled();
     // public System.Void set_IsHandled(System.Boolean value)
-    // Offset: 0x16CFE7C
+    // Offset: 0x18D8C2C
     void set_IsHandled(bool value);
     // public System.Void .ctor()
-    // Offset: 0x16CFF0C
+    // Offset: 0x18D8CBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -105,7 +105,7 @@ namespace UnityEngine::TestTools::Logging {
       return THROW_UNLESS((::il2cpp_utils::New<LogEvent*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x16CFE88
+    // Offset: 0x18D8C38
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

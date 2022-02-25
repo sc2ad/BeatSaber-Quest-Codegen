@@ -43,20 +43,20 @@ namespace Zenject {
   class ZenTypeInfoGetter : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x219C604
+    // Offset: 0x2471E3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ZenTypeInfoGetter* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ZenTypeInfoGetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ZenTypeInfoGetter*, creationType>(object, method)));
     }
     // public Zenject.InjectTypeInfo Invoke()
-    // Offset: 0x219B4C0
+    // Offset: 0x2470CF8
     Zenject::InjectTypeInfo* Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x219C614
+    // Offset: 0x2471E4C
     System::IAsyncResult* BeginInvoke(System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Zenject.InjectTypeInfo EndInvoke(System.IAsyncResult result)
-    // Offset: 0x219C640
+    // Offset: 0x2471E78
     Zenject::InjectTypeInfo* EndInvoke(System::IAsyncResult* result);
   }; // Zenject.ZenTypeInfoGetter
   #pragma pack(pop)

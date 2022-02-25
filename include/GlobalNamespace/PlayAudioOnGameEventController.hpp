@@ -67,13 +67,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private PlayAudioOnGameEventController/EventAudioBinding[] _eventAudioBindings
     ::ArrayW<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>& dyn__eventAudioBindings();
     // protected System.Void Awake()
-    // Offset: 0x1151544
+    // Offset: 0x2AC11B4
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1151688
+    // Offset: 0x2AC12F8
     void OnDestroy();
     // public System.Void .ctor()
-    // Offset: 0x115177C
+    // Offset: 0x2AC13EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

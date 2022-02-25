@@ -60,19 +60,19 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 listeningPort
     int& dyn_listeningPort();
     // private System.Void OnEnable()
-    // Offset: 0x2169FFC
+    // Offset: 0x243F834
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x216A138
+    // Offset: 0x243F970
     void OnDisable();
     // private System.Void Update()
-    // Offset: 0x216A1E8
+    // Offset: 0x243FA20
     void Update();
     // private OVRSystemPerfMetrics/PerfMetrics GatherPerfMetrics()
-    // Offset: 0x216A270
+    // Offset: 0x243FAA8
     GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics* GatherPerfMetrics();
     // public System.Void .ctor()
-    // Offset: 0x216A8E0
+    // Offset: 0x2440118
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -85,7 +85,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x216A950
+    // Offset: 0x2440188
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

@@ -68,10 +68,10 @@ namespace UnityEngine::Timeline {
     // Offset: 0xFFFFFFFF
     int64_t get_intervalEnd();
     // public System.Int32 get_intervalBit()
-    // Offset: 0x1A01728
+    // Offset: 0x1C9FA04
     int get_intervalBit();
     // public System.Void set_intervalBit(System.Int32 value)
-    // Offset: 0x1A01730
+    // Offset: 0x1C9FA0C
     void set_intervalBit(int value);
     // public System.Void set_enable(System.Boolean value)
     // Offset: 0xFFFFFFFF
@@ -83,7 +83,7 @@ namespace UnityEngine::Timeline {
     // Offset: 0xFFFFFFFF
     void DisableAt(double localTime, double rootDuration, UnityEngine::Playables::FrameData frameData);
     // protected System.Void .ctor()
-    // Offset: 0x19FE684
+    // Offset: 0x1C9C960
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

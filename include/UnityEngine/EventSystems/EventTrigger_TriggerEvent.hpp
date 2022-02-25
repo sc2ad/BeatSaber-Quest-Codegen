@@ -32,7 +32,7 @@ namespace UnityEngine::EventSystems {
   class EventTrigger::TriggerEvent : public UnityEngine::Events::UnityEvent_1<UnityEngine::EventSystems::BaseEventData*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1663C58
+    // Offset: 0x1868FAC
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

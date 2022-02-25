@@ -110,35 +110,35 @@ namespace ModestTree::Util {
     // Get instance field reference: private System.Collections.IEnumerator <>7__wrap1
     System::Collections::IEnumerator*& dyn_$$7__wrap1();
     // private UnityEngine.GameObject System.Collections.Generic.IEnumerator<UnityEngine.GameObject>.get_Current()
-    // Offset: 0x14F2DA0
+    // Offset: 0x16D4E5C
     UnityEngine::GameObject* System_Collections_Generic_IEnumerator$UnityEngine_GameObject$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x14F2E08
+    // Offset: 0x16D4EC4
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x14F201C
+    // Offset: 0x16D40D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityUtil::$GetDirectChildrenAndSelf$d__20* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("ModestTree::Util::UnityUtil::$GetDirectChildrenAndSelf$d__20::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityUtil::$GetDirectChildrenAndSelf$d__20*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x14F2A34
+    // Offset: 0x16D4AF0
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x14F2B1C
+    // Offset: 0x16D4BD8
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x14F2A50
+    // Offset: 0x16D4B0C
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x14F2DA8
+    // Offset: 0x16D4E64
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<UnityEngine.GameObject> System.Collections.Generic.IEnumerable<UnityEngine.GameObject>.GetEnumerator()
-    // Offset: 0x14F2E10
+    // Offset: 0x16D4ECC
     System::Collections::Generic::IEnumerator_1<UnityEngine::GameObject*>* System_Collections_Generic_IEnumerable$UnityEngine_GameObject$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x14F2EBC
+    // Offset: 0x16D4F78
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // ModestTree.Util.UnityUtil/ModestTree.Util.<GetDirectChildrenAndSelf>d__20
   #pragma pack(pop)

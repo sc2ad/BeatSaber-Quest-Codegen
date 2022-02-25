@@ -53,23 +53,23 @@ namespace System::Security::Cryptography::X509Certificates {
     // Get instance field reference: private System.Boolean _critical
     bool& dyn__critical();
     // public System.Boolean get_Critical()
-    // Offset: 0x19E20A0
+    // Offset: 0x1BF6340
     bool get_Critical();
     // public System.Void set_Critical(System.Boolean value)
-    // Offset: 0x19E20A8
+    // Offset: 0x1BF6348
     void set_Critical(bool value);
     // public System.Void .ctor(System.String oid, System.Byte[] rawData, System.Boolean critical)
-    // Offset: 0x19E2070
+    // Offset: 0x1BF6314
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extension* New_ctor(::StringW oid, ::ArrayW<uint8_t> rawData, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(oid, rawData, critical)));
     }
     // System.String FormatUnkownData(System.Byte[] data)
-    // Offset: 0x19D637C
+    // Offset: 0x1BEAE7C
     ::StringW FormatUnkownData(::ArrayW<uint8_t> data);
     // protected System.Void .ctor()
-    // Offset: 0x19D58E4
+    // Offset: 0x1BEA4B0
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.Void AsnEncodedData::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -79,7 +79,7 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>()));
     }
     // public override System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
-    // Offset: 0x19E20B4
+    // Offset: 0x1BF6354
     // Implemented from: System.Security.Cryptography.AsnEncodedData
     // Base method: System.Void AsnEncodedData::CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     void CopyFrom(System::Security::Cryptography::AsnEncodedData* asnEncodedData);

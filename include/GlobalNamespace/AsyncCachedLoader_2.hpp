@@ -27,35 +27,29 @@ namespace GlobalNamespace {
   // Skipping declaration: <LoadAsync>d__7 because it is already included!
   // Skipping declaration: <LoadAllAsync>d__8 because it is already included!
   // Forward declaring type: HMCache`2<K, V>
-  template<typename K, typename V>
   class HMCache_2;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`3<T1, T2, TResult>
-  template<typename T1, typename T2, typename TResult>
   class Func_3;
 }
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
-  template<typename TResult>
   class Task_1;
   // Forward declaring type: TaskCompletionSource`1<TResult>
-  template<typename TResult>
   class TaskCompletionSource_1;
 }
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: AsyncCachedLoader`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class AsyncCachedLoader_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

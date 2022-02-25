@@ -120,38 +120,38 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private System.String <notification>k__BackingField
     ::StringW& dyn_$notification$k__BackingField();
     // public UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status get_status()
-    // Offset: 0x21DD2EC
+    // Offset: 0x24FE664
     UnityEngine::ProBuilder::ActionResult::Status get_status();
     // private System.Void set_status(UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status value)
-    // Offset: 0x21DD2F4
+    // Offset: 0x24FE66C
     void set_status(UnityEngine::ProBuilder::ActionResult::Status value);
     // public System.String get_notification()
-    // Offset: 0x21DD2FC
+    // Offset: 0x24FE674
     ::StringW get_notification();
     // private System.Void set_notification(System.String value)
-    // Offset: 0x21DD304
+    // Offset: 0x24FE67C
     void set_notification(::StringW value);
     // static public UnityEngine.ProBuilder.ActionResult get_Success()
-    // Offset: 0x21DD408
+    // Offset: 0x24FE780
     static UnityEngine::ProBuilder::ActionResult* get_Success();
     // static public UnityEngine.ProBuilder.ActionResult get_NoSelection()
-    // Offset: 0x21DD478
+    // Offset: 0x24FE7F0
     static UnityEngine::ProBuilder::ActionResult* get_NoSelection();
     // static public UnityEngine.ProBuilder.ActionResult get_UserCanceled()
-    // Offset: 0x21DD4EC
+    // Offset: 0x24FE864
     static UnityEngine::ProBuilder::ActionResult* get_UserCanceled();
     // public System.Void .ctor(UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status status, System.String notification)
-    // Offset: 0x21DD30C
+    // Offset: 0x24FE684
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ActionResult* New_ctor(UnityEngine::ProBuilder::ActionResult::Status status, ::StringW notification) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::ActionResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ActionResult*, creationType>(status, notification)));
     }
     // public System.Boolean ToBool()
-    // Offset: 0x21DD35C
+    // Offset: 0x24FE6D4
     bool ToBool();
     // static public System.Boolean FromBool(System.Boolean success)
-    // Offset: 0x21DD36C
+    // Offset: 0x24FE6E4
     static bool FromBool(bool success);
   }; // UnityEngine.ProBuilder.ActionResult
   #pragma pack(pop)

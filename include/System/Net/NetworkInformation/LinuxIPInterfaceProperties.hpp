@@ -26,7 +26,6 @@ namespace System::Net::NetworkInformation {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System::Net
@@ -52,17 +51,17 @@ namespace System::Net::NetworkInformation {
   class LinuxIPInterfaceProperties : public System::Net::NetworkInformation::UnixIPInterfaceProperties {
     public:
     // public System.Void .ctor(System.Net.NetworkInformation.LinuxNetworkInterface iface, System.Collections.Generic.List`1<System.Net.IPAddress> addresses)
-    // Offset: 0x16A5F4C
+    // Offset: 0x17AA054
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LinuxIPInterfaceProperties* New_ctor(System::Net::NetworkInformation::LinuxNetworkInterface* iface, System::Collections::Generic::List_1<System::Net::IPAddress*>* addresses) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::LinuxIPInterfaceProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LinuxIPInterfaceProperties*, creationType>(iface, addresses)));
     }
     // private System.Net.NetworkInformation.IPAddressCollection ParseRouteInfo(System.String iface)
-    // Offset: 0x16A6004
+    // Offset: 0x17AA10C
     System::Net::NetworkInformation::IPAddressCollection* ParseRouteInfo(::StringW iface);
     // public override System.Net.NetworkInformation.GatewayIPAddressInformationCollection get_GatewayAddresses()
-    // Offset: 0x16A648C
+    // Offset: 0x17AA590
     // Implemented from: System.Net.NetworkInformation.IPInterfaceProperties
     // Base method: System.Net.NetworkInformation.GatewayIPAddressInformationCollection IPInterfaceProperties::get_GatewayAddresses()
     System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();

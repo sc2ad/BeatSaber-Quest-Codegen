@@ -16,7 +16,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
 }
 // Completed forward declares
@@ -37,7 +36,7 @@ namespace GlobalNamespace {
   class UnityScenesHelper : public ::Il2CppObject {
     public:
     // static public System.Void SetActiveRootObjectsInScene(UnityEngine.SceneManagement.Scene scene, System.Boolean active)
-    // Offset: 0x2642C04
+    // Offset: 0x299FB34
     static void SetActiveRootObjectsInScene(UnityEngine::SceneManagement::Scene scene, bool active);
     // static public System.Collections.Generic.IEnumerable`1<T> FindComponentsOfTypeInScene(UnityEngine.SceneManagement.Scene activeScene, System.Boolean includeInactive)
     // Offset: 0xFFFFFFFF

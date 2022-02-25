@@ -18,13 +18,11 @@
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: TaskCompletionSource`1<TResult>
-  template<typename TResult>
   class TaskCompletionSource_1;
 }
 // Forward declaring namespace: Oculus::Platform
 namespace Oculus::Platform {
   // Forward declaring type: Message`1<T>
-  template<typename T>
   class Message_1;
 }
 // Forward declaring namespace: Oculus::Platform::Models
@@ -80,10 +78,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public OculusBeatmapDataAssetFileModel <>4__this
     GlobalNamespace::OculusBeatmapDataAssetFileModel*& dyn_$$4__this();
     // System.Void <ReloadAssetDetailsForAllLevelsAsync>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AssetDetailsList> getListMsg)
-    // Offset: 0x1349504
+    // Offset: 0x2B36B10
     void $ReloadAssetDetailsForAllLevelsAsync$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetDetailsList*>* getListMsg);
     // public System.Void .ctor()
-    // Offset: 0x13494FC
+    // Offset: 0x2B36B08
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

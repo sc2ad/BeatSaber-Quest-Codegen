@@ -19,7 +19,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`1<TResult>
-  template<typename TResult>
   class Func_1;
 }
 // Forward declaring namespace: GlobalNamespace
@@ -28,7 +27,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Stack`1<T>
-  template<typename T>
   class Stack_1;
 }
 // Completed forward declares
@@ -135,22 +133,22 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Func`1<System.Boolean> OnShortPress
     System::Func_1<bool>*& dyn_OnShortPress();
     // private OVRPlatformMenu/eBackButtonAction HandleBackButtonState()
-    // Offset: 0x1486F6C
+    // Offset: 0x16576F4
     GlobalNamespace::OVRPlatformMenu::eBackButtonAction HandleBackButtonState();
     // private System.Void Awake()
-    // Offset: 0x1486FE4
+    // Offset: 0x165776C
     void Awake();
     // private System.Void ShowConfirmQuitMenu()
-    // Offset: 0x1487144
+    // Offset: 0x16578CC
     void ShowConfirmQuitMenu();
     // static private System.Boolean RetreatOneLevel()
-    // Offset: 0x1487218
+    // Offset: 0x16579A0
     static bool RetreatOneLevel();
     // private System.Void Update()
-    // Offset: 0x148730C
+    // Offset: 0x1657A94
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1487384
+    // Offset: 0x1657B0C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -163,7 +161,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRPlatformMenu*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1487394
+    // Offset: 0x1657B1C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

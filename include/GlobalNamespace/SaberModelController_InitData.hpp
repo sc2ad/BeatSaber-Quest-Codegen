@@ -48,14 +48,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly UnityEngine.Color trailTintColor
     UnityEngine::Color& dyn_trailTintColor();
     // public System.Void .ctor(UnityEngine.Color trailTintColor)
-    // Offset: 0x122A3BC
+    // Offset: 0x2B56180
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SaberModelController::InitData* New_ctor(UnityEngine::Color trailTintColor) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SaberModelController::InitData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SaberModelController::InitData*, creationType>(trailTintColor)));
     }
     // public System.Void .ctor()
-    // Offset: 0x122A388
+    // Offset: 0x2B5614C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [ReorderableAttribute] Offset: 0xF48D04
+    // [ReorderableAttribute] Offset: 0x124F608
     // private UnityEngine.Object[] _objects
     // Size: 0x8
     // Offset: 0x18
@@ -57,10 +57,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Object[] _objects
     ::ArrayW<UnityEngine::Object*>& dyn__objects();
     // public UnityEngine.Object[] get_objects()
-    // Offset: 0x1312560
+    // Offset: 0x148D7AC
     ::ArrayW<UnityEngine::Object*> get_objects();
     // public System.Void .ctor()
-    // Offset: 0x1312568
+    // Offset: 0x148D7B4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

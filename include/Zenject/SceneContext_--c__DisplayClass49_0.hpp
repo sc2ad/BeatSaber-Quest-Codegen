@@ -18,13 +18,11 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: Zenject
@@ -72,19 +70,19 @@ namespace Zenject {
     // Get instance field reference: public System.Func`2<System.String,System.Boolean> <>9__4
     System::Func_2<::StringW, bool>*& dyn_$$9__4();
     // System.Boolean <GetParentContainers>b__2(Zenject.SceneContext sceneContext)
-    // Offset: 0x18E6E78
+    // Offset: 0x1B17508
     bool $GetParentContainers$b__2(Zenject::SceneContext* sceneContext);
     // System.Boolean <GetParentContainers>b__4(System.String x)
-    // Offset: 0x18E6F34
+    // Offset: 0x1B175C4
     bool $GetParentContainers$b__4(::StringW x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x18E6F94
+    // Offset: 0x1B17624
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x18E6FF0
+    // Offset: 0x1B17680
     static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x18E5F78
+    // Offset: 0x1B16608
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

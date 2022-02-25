@@ -20,7 +20,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: Zenject
@@ -65,25 +64,25 @@ namespace Zenject::Internal {
     // Set static field: static public System.Func`2<System.Reflection.FieldInfo,System.String> <>9__8_1
     static void _set_$$9__8_1(System::Func_2<System::Reflection::FieldInfo*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18D3B3C
+    // Offset: 0x1B041C8
     static void _cctor();
     // Zenject.InjectableInfo <ConvertMethod>b__0_1(Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo x)
-    // Offset: 0x18D3BA8
+    // Offset: 0x1B04234
     Zenject::InjectableInfo* $ConvertMethod$b__0_1(Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo* x);
     // Zenject.InjectableInfo <ConvertConstructor>b__1_0(Zenject.Internal.ReflectionTypeInfo/Zenject.Internal.InjectParameterInfo x)
-    // Offset: 0x18D3BC0
+    // Offset: 0x1B0424C
     Zenject::InjectableInfo* $ConvertConstructor$b__1_0(Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo* x);
     // System.String <GetOnlyPropertySetter>b__8_1(System.Reflection.FieldInfo f)
-    // Offset: 0x18D3BD8
+    // Offset: 0x1B04264
     ::StringW $GetOnlyPropertySetter$b__8_1(System::Reflection::FieldInfo* f);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x18D3BF8
+    // Offset: 0x1B04284
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x18D3C54
+    // Offset: 0x1B042E0
     static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x18D3BA0
+    // Offset: 0x1B0422C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

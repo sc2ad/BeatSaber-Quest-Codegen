@@ -27,6 +27,12 @@ namespace GlobalNamespace {
     // public System.Void Release(System.Object t)
     // Offset: 0xFFFFFFFF
     void Release(::Il2CppObject* t);
+    // public System.Void Fill()
+    // Offset: 0xFFFFFFFF
+    void Fill();
+    // public System.Void Clear()
+    // Offset: 0xFFFFFFFF
+    void Clear();
   }; // IPacketPool
   #pragma pack(pop)
 }
@@ -38,5 +44,21 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPacketPool*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::IPacketPool::Fill
+// Il2CppName: Fill
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IPacketPool::*)()>(&GlobalNamespace::IPacketPool::Fill)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPacketPool*), "Fill", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::IPacketPool::Clear
+// Il2CppName: Clear
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IPacketPool::*)()>(&GlobalNamespace::IPacketPool::Clear)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPacketPool*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

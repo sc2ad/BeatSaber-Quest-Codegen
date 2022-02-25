@@ -22,7 +22,6 @@ namespace Mono::Http {
 // Forward declaring namespace: System::Runtime::CompilerServices
 namespace System::Runtime::CompilerServices {
   // Forward declaring type: ConditionalWeakTable`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class ConditionalWeakTable_2;
 }
 // Forward declaring namespace: System::Net
@@ -64,19 +63,19 @@ namespace Mono::Http {
     // Set static field: static private readonly System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Net.HttpWebRequest,Mono.Http.NtlmSession> cache
     static void _set_cache(System::Runtime::CompilerServices::ConditionalWeakTable_2<System::Net::HttpWebRequest*, Mono::Http::NtlmSession*>* value);
     // public System.String get_AuthenticationType()
-    // Offset: 0x1829388
+    // Offset: 0x1A2A960
     ::StringW get_AuthenticationType();
     // static private System.Void .cctor()
-    // Offset: 0x18293D8
+    // Offset: 0x1A2A9B0
     static void _cctor();
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1828C28
+    // Offset: 0x1A2A200
     System::Net::Authorization* Authenticate(::StringW challenge, System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.Net.Authorization PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1829380
+    // Offset: 0x1A2A958
     System::Net::Authorization* PreAuthenticate(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // public System.Void .ctor()
-    // Offset: 0x18293D0
+    // Offset: 0x1A2A9A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

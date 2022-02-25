@@ -32,7 +32,6 @@ namespace BeatSaberAPI::DataTransferObjects {
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
-  template<typename TResult>
   class Task_1;
   // Forward declaring type: Task
   class Task;
@@ -89,7 +88,7 @@ namespace OnlineServices::API {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0xF4AC9C
+    // [InjectAttribute] Offset: 0x12516B0
     // private readonly OnlineServices.API.IUserLoginDtoDataSource _userLoginDataSource
     // Size: 0x8
     // Offset: 0x10
@@ -128,31 +127,31 @@ namespace OnlineServices::API {
     // Get instance field reference: private BeatSaberAPI.DataTransferObjects.AccessToken _accessToken
     BeatSaberAPI::DataTransferObjects::AccessToken*& dyn__accessToken();
     // public System.Threading.Tasks.Task`1<System.String> SendWebRequestWithOathAsync(System.String path, System.String method, System.Object objectToSendAsJson, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1373B90
+    // Offset: 0x2BBCF7C
     System::Threading::Tasks::Task_1<::StringW>* SendWebRequestWithOathAsync(::StringW path, ::StringW method, ::Il2CppObject* objectToSendAsJson, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task LogOut()
-    // Offset: 0x1373EBC
+    // Offset: 0x2BBD2A8
     System::Threading::Tasks::Task* LogOut();
     // private System.Threading.Tasks.Task LoginIfNeededAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x137428C
+    // Offset: 0x2BBD678
     System::Threading::Tasks::Task* LoginIfNeededAsync(System::Threading::CancellationToken cancellationToken);
     // private System.Boolean IsUserLoggedIn()
-    // Offset: 0x13743A0
+    // Offset: 0x2BBD78C
     bool IsUserLoggedIn();
     // private System.Threading.Tasks.Task`1<BeatSaberAPI.DataTransferObjects.AccessToken> GetAccessTokenAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13743B0
+    // Offset: 0x2BBD79C
     System::Threading::Tasks::Task_1<BeatSaberAPI::DataTransferObjects::AccessToken*>* GetAccessTokenAsync(System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<System.String> SendWebRequestAsync(System.String uri, System.String method, System.String bodyData, System.String bearerToken)
-    // Offset: 0x13744C0
+    // Offset: 0x2BBD8AC
     System::Threading::Tasks::Task_1<::StringW>* SendWebRequestAsync(::StringW uri, ::StringW method, ::StringW bodyData, ::StringW bearerToken);
     // private System.Threading.Tasks.Task SendAndWaitAsync(UnityEngine.Networking.UnityWebRequest webRequest, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13745F4
+    // Offset: 0x2BBD9E0
     System::Threading::Tasks::Task* SendAndWaitAsync(UnityEngine::Networking::UnityWebRequest* webRequest, System::Threading::CancellationToken cancellationToken);
     // static public System.Void Log(System.String message)
-    // Offset: 0x13746F0
+    // Offset: 0x2BBDADC
     static void Log(::StringW message);
     // public System.Void .ctor()
-    // Offset: 0x1374758
+    // Offset: 0x2BBDB44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

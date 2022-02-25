@@ -12,7 +12,6 @@ namespace System::Threading::Tasks {
   // Forward declaring type: Task
   class Task;
   // Forward declaring type: Task`1<TResult>
-  template<typename TResult>
   class Task_1;
 }
 // Completed forward declares
@@ -50,7 +49,7 @@ namespace System::Xml {
     // Set static field: static public readonly System.Threading.Tasks.Task`1<System.Int32> DoneTaskZero
     static void _set_DoneTaskZero(System::Threading::Tasks::Task_1<int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1B59444
+    // Offset: 0x1B997A4
     static void _cctor();
   }; // System.Xml.AsyncHelper
   #pragma pack(pop)

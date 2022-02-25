@@ -35,19 +35,19 @@ namespace GlobalNamespace {
     // Set static field: static private SecureRandomProvider/SecureRandomState _secureRandomState
     static void _set__secureRandomState(GlobalNamespace::SecureRandomProvider::SecureRandomState* value);
     // static private System.Void .cctor()
-    // Offset: 0x268AFFC
+    // Offset: 0x2E0437C
     static void _cctor();
     // static public System.Byte[] GetBytes(System.Int32 length)
-    // Offset: 0x268AC54
+    // Offset: 0x2E03FD4
     static ::ArrayW<uint8_t> GetBytes(int length);
     // static public System.Byte GetByte()
-    // Offset: 0x268ADC4
+    // Offset: 0x2E04144
     static uint8_t GetByte();
     // static public System.Void GetBytes(System.Byte[] buffer, System.Int32 offset, System.Int32 length)
-    // Offset: 0x268AEE8
+    // Offset: 0x2E04268
     static void GetBytes(::ArrayW<uint8_t> buffer, int offset, int length);
     // static public System.Void GetBytes(System.Byte[] buffer)
-    // Offset: 0x268AF78
+    // Offset: 0x2E042F8
     static void GetBytes(::ArrayW<uint8_t> buffer);
   }; // SecureRandomProvider
   #pragma pack(pop)

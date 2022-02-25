@@ -18,7 +18,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -62,10 +61,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.TransformData> previousTransformValues
     System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData>*& dyn_previousTransformValues();
     // System.Void <CopyChildGameObjects>b__0(UnityEngine.Transform trans)
-    // Offset: 0x18262DC
+    // Offset: 0x1A53F3C
     void $CopyChildGameObjects$b__0(UnityEngine::Transform* trans);
     // public System.Void .ctor()
-    // Offset: 0x18246A0
+    // Offset: 0x1A52300
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

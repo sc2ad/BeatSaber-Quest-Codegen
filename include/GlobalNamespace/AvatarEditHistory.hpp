@@ -16,7 +16,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: Menu::ViewControllers
@@ -83,31 +82,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _currentDataId
     int& dyn__currentDataId();
     // public System.Boolean get_undoAvailable()
-    // Offset: 0x1318064
+    // Offset: 0x1493488
     bool get_undoAvailable();
     // public System.Boolean get_redoAvailable()
-    // Offset: 0x1318074
+    // Offset: 0x1493498
     bool get_redoAvailable();
     // public Menu.ViewControllers.EditAvatarHistorySnapshot get_currentSnapShot()
-    // Offset: 0x13180D4
+    // Offset: 0x14934F8
     Menu::ViewControllers::EditAvatarHistorySnapshot* get_currentSnapShot();
     // public EditAvatarViewController/AvatarEditPart get_lastEditedPart()
-    // Offset: 0x1318144
+    // Offset: 0x1493568
     GlobalNamespace::EditAvatarViewController::AvatarEditPart get_lastEditedPart();
     // public System.Void Clear()
-    // Offset: 0x1318164
+    // Offset: 0x1493588
     void Clear();
     // public System.Void Undo()
-    // Offset: 0x13181C4
+    // Offset: 0x14935E8
     void Undo();
     // public System.Void Redo()
-    // Offset: 0x13181E0
+    // Offset: 0x1493604
     void Redo();
     // public System.Void UpdateEditHistory(AvatarData avatarData, EditAvatarViewController/AvatarEditPart avatarEditPart)
-    // Offset: 0x1318250
+    // Offset: 0x1493674
     void UpdateEditHistory(GlobalNamespace::AvatarData* avatarData, GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarEditPart);
     // public System.Void .ctor()
-    // Offset: 0x13183B8
+    // Offset: 0x14937DC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

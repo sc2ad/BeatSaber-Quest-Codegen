@@ -66,10 +66,10 @@ namespace OVR::OpenVR {
     // Get instance field reference: public System.IntPtr rubTextureMapData
     System::IntPtr& dyn_rubTextureMapData();
     // public System.Void .ctor(OVR.OpenVR.RenderModel_TextureMap_t unpacked)
-    // Offset: 0x13D92C8
+    // Offset: 0x15A1158
     RenderModel_TextureMap_t_Packed(OVR::OpenVR::RenderModel_TextureMap_t unpacked);
     // public System.Void Unpack(ref OVR.OpenVR.RenderModel_TextureMap_t unpacked)
-    // Offset: 0x13D92DC
+    // Offset: 0x15A116C
     void Unpack(ByRef<OVR::OpenVR::RenderModel_TextureMap_t> unpacked);
   }; // OVR.OpenVR.RenderModel_TextureMap_t_Packed
   #pragma pack(pop)

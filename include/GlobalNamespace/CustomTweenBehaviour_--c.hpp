@@ -16,7 +16,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -41,13 +40,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Int32,System.Single> <>9__21_0
     static void _set_$$9__21_0(System::Func_2<int, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1192784
+    // Offset: 0x13C822C
     static void _cctor();
     // System.Single <OnBehaviourPlay>b__21_0(System.Int32 i)
-    // Offset: 0x11927F0
+    // Offset: 0x13C8298
     float $OnBehaviourPlay$b__21_0(int i);
     // public System.Void .ctor()
-    // Offset: 0x11927E8
+    // Offset: 0x13C8290
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

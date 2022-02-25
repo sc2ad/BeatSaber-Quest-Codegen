@@ -123,54 +123,50 @@ namespace System::Net::Http {
     // Get instance field reference: private System.Net.Http.HttpContent <Content>k__BackingField
     System::Net::Http::HttpContent*& dyn_$Content$k__BackingField();
     // public System.Net.Http.HttpContent get_Content()
-    // Offset: 0x17CDCD4
+    // Offset: 0x19069A0
     System::Net::Http::HttpContent* get_Content();
+    // public System.Void set_Content(System.Net.Http.HttpContent value)
+    // Offset: 0x19069A8
+    void set_Content(System::Net::Http::HttpContent* value);
     // public System.Net.Http.Headers.HttpRequestHeaders get_Headers()
-    // Offset: 0x17C9B00
+    // Offset: 0x1902810
     System::Net::Http::Headers::HttpRequestHeaders* get_Headers();
     // public System.Net.Http.HttpMethod get_Method()
-    // Offset: 0x17CDCDC
+    // Offset: 0x19069B0
     System::Net::Http::HttpMethod* get_Method();
     // public System.Void set_Method(System.Net.Http.HttpMethod value)
-    // Offset: 0x17CDC24
+    // Offset: 0x19068F0
     void set_Method(System::Net::Http::HttpMethod* value);
     // public System.Uri get_RequestUri()
-    // Offset: 0x17CDCE4
+    // Offset: 0x19069B8
     System::Uri* get_RequestUri();
     // public System.Void set_RequestUri(System.Uri value)
-    // Offset: 0x17C9A1C
+    // Offset: 0x190272C
     void set_RequestUri(System::Uri* value);
     // public System.Version get_Version()
-    // Offset: 0x17CB24C
+    // Offset: 0x1903F60
     System::Version* get_Version();
-    // public System.Void .ctor(System.Net.Http.HttpMethod method, System.String requestUri)
-    // Offset: 0x17C9648
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HttpRequestMessage* New_ctor(System::Net::Http::HttpMethod* method, ::StringW requestUri) {
-      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::HttpRequestMessage::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<HttpRequestMessage*, creationType>(method, requestUri)));
-    }
     // public System.Void .ctor(System.Net.Http.HttpMethod method, System.Uri requestUri)
-    // Offset: 0x17CDBDC
+    // Offset: 0x1902234
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpRequestMessage* New_ctor(System::Net::Http::HttpMethod* method, System::Uri* requestUri) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::HttpRequestMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpRequestMessage*, creationType>(method, requestUri)));
     }
     // static private System.Boolean IsAllowedAbsoluteUri(System.Uri uri)
-    // Offset: 0x17CDCEC
+    // Offset: 0x19069C0
     static bool IsAllowedAbsoluteUri(System::Uri* uri);
     // public System.Void Dispose()
-    // Offset: 0x17CDE54
+    // Offset: 0x1906B28
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x17CDE64
+    // Offset: 0x1906B38
     void Dispose(bool disposing);
     // System.Boolean SetIsUsed()
-    // Offset: 0x17C99FC
+    // Offset: 0x190270C
     bool SetIsUsed();
     // public override System.String ToString()
-    // Offset: 0x17CDE98
+    // Offset: 0x1906B6C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -186,6 +182,15 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::HttpContent* (System::Net::Http::HttpRequestMessage::*)()>(&System::Net::Http::HttpRequestMessage::get_Content)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpRequestMessage*), "get_Content", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: System::Net::Http::HttpRequestMessage::set_Content
+// Il2CppName: set_Content
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpRequestMessage::*)(System::Net::Http::HttpContent*)>(&System::Net::Http::HttpRequestMessage::set_Content)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System.Net.Http", "HttpContent")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpRequestMessage*), "set_Content", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Net::Http::HttpRequestMessage::get_Headers
@@ -238,10 +243,6 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ver
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpRequestMessage*), "get_Version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: System::Net::Http::HttpRequestMessage::New_ctor
-// Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::HttpRequestMessage::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

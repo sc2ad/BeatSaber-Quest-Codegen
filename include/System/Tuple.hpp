@@ -14,13 +14,10 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Tuple`2<T1, T2>
-  template<typename T1, typename T2>
   class Tuple_2;
   // Forward declaring type: Tuple`3<T1, T2, T3>
-  template<typename T1, typename T2, typename T3>
   class Tuple_3;
   // Forward declaring type: Tuple`4<T1, T2, T3, T4>
-  template<typename T1, typename T2, typename T3, typename T4>
   class Tuple_4;
 }
 // Completed forward declares
@@ -68,13 +65,13 @@ namespace System {
       return ::il2cpp_utils::RunMethodRethrow<System::Tuple_4<T1, T2, T3, T4>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, item1, item2, item3, item4);
     }
     // static System.Int32 CombineHashCodes(System.Int32 h1, System.Int32 h2)
-    // Offset: 0x25CA664
+    // Offset: 0x27C974C
     static int CombineHashCodes(int h1, int h2);
     // static System.Int32 CombineHashCodes(System.Int32 h1, System.Int32 h2, System.Int32 h3)
-    // Offset: 0x25CA670
+    // Offset: 0x27C9758
     static int CombineHashCodes(int h1, int h2, int h3);
     // static System.Int32 CombineHashCodes(System.Int32 h1, System.Int32 h2, System.Int32 h3, System.Int32 h4)
-    // Offset: 0x25CA684
+    // Offset: 0x27C976C
     static int CombineHashCodes(int h1, int h2, int h3, int h4);
   }; // System.Tuple
   #pragma pack(pop)

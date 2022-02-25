@@ -29,7 +29,7 @@ namespace System::Net {
   class WebRequest::WebProxyWrapper : public System::Net::WebRequest::WebProxyWrapperOpaque {
     public:
     // System.Net.WebProxy get_WebProxy()
-    // Offset: 0x17F8F80
+    // Offset: 0x1BE4D54
     System::Net::WebProxy* get_WebProxy();
   }; // System.Net.WebRequest/System.Net.WebProxyWrapper
   #pragma pack(pop)

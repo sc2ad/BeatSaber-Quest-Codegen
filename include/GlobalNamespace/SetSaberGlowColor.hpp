@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [NullAllowed] Offset: 0xF3FED8
+    // [NullAllowed] Offset: 0x12467EC
     // private SaberTypeObject _saberTypeObject
     // Size: 0x8
     // Offset: 0x18
@@ -71,14 +71,14 @@ namespace GlobalNamespace {
     UnityEngine::MeshRenderer* meshRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshRenderer*) == 0x8);
-    // [NullAllowed] Offset: 0xF3FF20
+    // [NullAllowed] Offset: 0x1246834
     // private SetSaberGlowColor/PropertyTintColorPair[] _propertyTintColorPairs
     // Size: 0x8
     // Offset: 0x28
     ::ArrayW<GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*> propertyTintColorPairs;
     // Field size check
     static_assert(sizeof(::ArrayW<GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*>) == 0x8);
-    // [InjectAttribute] Offset: 0xF3FF58
+    // [InjectAttribute] Offset: 0x124686C
     // private ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x30
@@ -113,16 +113,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private SaberType _saberType
     GlobalNamespace::SaberType& dyn__saberType();
     // public System.Void set_saberType(SaberType value)
-    // Offset: 0x122A30C
+    // Offset: 0x2B560D0
     void set_saberType(GlobalNamespace::SaberType value);
     // protected System.Void Start()
-    // Offset: 0x1236B3C
+    // Offset: 0x2B6225C
     void Start();
     // private System.Void SetColors()
-    // Offset: 0x12369F8
+    // Offset: 0x2B62118
     void SetColors();
     // public System.Void .ctor()
-    // Offset: 0x1236BCC
+    // Offset: 0x2B622EC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

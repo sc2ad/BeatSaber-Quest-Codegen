@@ -23,7 +23,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Completed forward declares
@@ -120,73 +119,73 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _interactable
     bool& dyn__interactable();
     // public MissionNode get_missionNode()
-    // Offset: 0x1164BB0
+    // Offset: 0x2A7163C
     GlobalNamespace::MissionNode* get_missionNode();
     // public System.Boolean get_selected()
-    // Offset: 0x1164BB8
+    // Offset: 0x2A71644
     bool get_selected();
     // public System.Boolean get_isInitialized()
-    // Offset: 0x1164BC0
+    // Offset: 0x2A7164C
     bool get_isInitialized();
     // public System.Boolean get_cleared()
-    // Offset: 0x1164BC8
+    // Offset: 0x2A71654
     bool get_cleared();
     // public System.Boolean get_interactable()
-    // Offset: 0x1164BD0
+    // Offset: 0x2A7165C
     bool get_interactable();
     // public System.Void add_nodeWasSelectEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x1164658
+    // Offset: 0x2A710E4
     void add_nodeWasSelectEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void remove_nodeWasSelectEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x1164904
+    // Offset: 0x2A71390
     void remove_nodeWasSelectEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void add_nodeWasDisplayedEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x11646FC
+    // Offset: 0x2A71188
     void add_nodeWasDisplayedEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void remove_nodeWasDisplayedEvent(System.Action`1<MissionNodeVisualController> value)
-    // Offset: 0x11649A8
+    // Offset: 0x2A71434
     void remove_nodeWasDisplayedEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController*>* value);
     // public System.Void SetSelected(System.Boolean value)
-    // Offset: 0x11644F8
+    // Offset: 0x2A70F84
     void SetSelected(bool value);
     // protected System.Void OnEnable()
-    // Offset: 0x1164BD8
+    // Offset: 0x2A71664
     void OnEnable();
     // protected System.Void Awake()
-    // Offset: 0x1164C3C
+    // Offset: 0x2A716C8
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1164CE4
+    // Offset: 0x2A71770
     void Start();
     // public System.Void Reset()
-    // Offset: 0x1164D3C
+    // Offset: 0x2A717C8
     void Reset();
     // protected System.Void OnDestroy()
-    // Offset: 0x1164D44
+    // Offset: 0x2A717D0
     void OnDestroy();
     // public System.Void Init()
-    // Offset: 0x1164CE8
+    // Offset: 0x2A71774
     void Init();
     // public System.Void Setup(System.Boolean cleared, System.Boolean interactable)
-    // Offset: 0x1164E7C
+    // Offset: 0x2A71908
     void Setup(bool cleared, bool interactable);
     // private System.Void SetupToggle()
-    // Offset: 0x1164E1C
+    // Offset: 0x2A718A8
     void SetupToggle();
     // public System.Void SetMissionCleared()
-    // Offset: 0x1163454
+    // Offset: 0x2A6FEE0
     void SetMissionCleared();
     // public System.Void SetInteractable()
-    // Offset: 0x1163C54
+    // Offset: 0x2A706E0
     void SetInteractable();
     // public System.Void ChangeNodeSelection(System.Boolean selected)
-    // Offset: 0x1164E54
+    // Offset: 0x2A718E0
     void ChangeNodeSelection(bool selected);
     // private System.Void HandleMissionToggleSelectionDidChange(MissionToggle toggle)
-    // Offset: 0x1164E98
+    // Offset: 0x2A71924
     void HandleMissionToggleSelectionDidChange(GlobalNamespace::MissionToggle* toggle);
     // public System.Void .ctor()
-    // Offset: 0x1164F1C
+    // Offset: 0x2A719A8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -21,7 +21,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -45,13 +44,13 @@ namespace HoudiniEngineUnity {
     // Nested type: HoudiniEngineUnity::Test_MeshRenderer_Extensions::$$c
     class $$c;
     // static public HoudiniEngineUnity.Test_MeshRenderer ToTestObject(UnityEngine.MeshRenderer self)
-    // Offset: 0x267AB5C
+    // Offset: 0x2A0E7FC
     static HoudiniEngineUnity::Test_MeshRenderer* ToTestObject(UnityEngine::MeshRenderer* self);
     // static public HoudiniEngineUnity.Test_MeshRenderer[] ToTestObject(UnityEngine.MeshRenderer[] self)
-    // Offset: 0x267ABC0
+    // Offset: 0x2A0E860
     static ::ArrayW<HoudiniEngineUnity::Test_MeshRenderer*> ToTestObject(::ArrayW<UnityEngine::MeshRenderer*> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_MeshRenderer> ToTestObject(System.Collections.Generic.List`1<UnityEngine.MeshRenderer> self)
-    // Offset: 0x267ACAC
+    // Offset: 0x2A0E94C
     static System::Collections::Generic::List_1<HoudiniEngineUnity::Test_MeshRenderer*>* ToTestObject(System::Collections::Generic::List_1<UnityEngine::MeshRenderer*>* self);
   }; // HoudiniEngineUnity.Test_MeshRenderer_Extensions
   #pragma pack(pop)

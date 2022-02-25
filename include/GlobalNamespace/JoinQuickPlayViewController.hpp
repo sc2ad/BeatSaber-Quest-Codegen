@@ -21,8 +21,8 @@ namespace GlobalNamespace {
   class QuickPlaySongPacksDropdown;
   // Forward declaring type: MultiplayerModeSettings
   class MultiplayerModeSettings;
-  // Forward declaring type: MasterServerQuickPlaySetupData
-  class MasterServerQuickPlaySetupData;
+  // Forward declaring type: QuickPlaySetupData
+  class QuickPlaySetupData;
 }
 // Forward declaring namespace: UnityEngine::UI
 namespace UnityEngine::UI {
@@ -34,7 +34,6 @@ namespace UnityEngine::UI {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Completed forward declares
@@ -121,28 +120,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private MultiplayerModeSettings _multiplayerModeSettings
     GlobalNamespace::MultiplayerModeSettings*& dyn__multiplayerModeSettings();
     // public MultiplayerModeSettings get_multiplayerModeSettings()
-    // Offset: 0x11A1B48
+    // Offset: 0x13AF5F0
     GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
     // public System.Void add_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x11A1A00
+    // Offset: 0x13AF4A8
     void add_didFinishEvent(System::Action_1<bool>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x11A1AA4
+    // Offset: 0x13AF54C
     void remove_didFinishEvent(System::Action_1<bool>* value);
-    // public System.Void Setup(MasterServerQuickPlaySetupData masterServerQuickPlaySetupData, MultiplayerModeSettings multiplayerModeSettings)
-    // Offset: 0x11A1B50
-    void Setup(GlobalNamespace::MasterServerQuickPlaySetupData* masterServerQuickPlaySetupData, GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
+    // public System.Void Setup(QuickPlaySetupData quickPlaySetupData, MultiplayerModeSettings multiplayerModeSettings)
+    // Offset: 0x13AF5F8
+    void Setup(GlobalNamespace::QuickPlaySetupData* quickPlaySetupData, GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
     // private System.Void ButtonPressed(System.Boolean success)
-    // Offset: 0x11A1D08
+    // Offset: 0x13AF7B0
     void ButtonPressed(bool success);
     // private System.Void <DidActivate>b__12_0()
-    // Offset: 0x11A1DD0
+    // Offset: 0x13AF878
     void $DidActivate$b__12_0();
     // private System.Void <DidActivate>b__12_1()
-    // Offset: 0x11A1DD8
+    // Offset: 0x13AF880
     void $DidActivate$b__12_1();
     // public System.Void .ctor()
-    // Offset: 0x11A1DC8
+    // Offset: 0x13AF870
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -156,7 +155,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<JoinQuickPlayViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x11A1BEC
+    // Offset: 0x13AF694
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -195,11 +194,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::JoinQuickPlayViewController::Setup
 // Il2CppName: Setup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::JoinQuickPlayViewController::*)(GlobalNamespace::MasterServerQuickPlaySetupData*, GlobalNamespace::MultiplayerModeSettings*)>(&GlobalNamespace::JoinQuickPlayViewController::Setup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::JoinQuickPlayViewController::*)(GlobalNamespace::QuickPlaySetupData*, GlobalNamespace::MultiplayerModeSettings*)>(&GlobalNamespace::JoinQuickPlayViewController::Setup)> {
   static const MethodInfo* get() {
-    static auto* masterServerQuickPlaySetupData = &::il2cpp_utils::GetClassFromName("", "MasterServerQuickPlaySetupData")->byval_arg;
+    static auto* quickPlaySetupData = &::il2cpp_utils::GetClassFromName("", "QuickPlaySetupData")->byval_arg;
     static auto* multiplayerModeSettings = &::il2cpp_utils::GetClassFromName("", "MultiplayerModeSettings")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JoinQuickPlayViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{masterServerQuickPlaySetupData, multiplayerModeSettings});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JoinQuickPlayViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{quickPlaySetupData, multiplayerModeSettings});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::JoinQuickPlayViewController::ButtonPressed

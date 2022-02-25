@@ -35,13 +35,13 @@ namespace GlobalNamespace {
     // Set static field: static public Oculus.Platform.Message/Oculus.Platform.Callback <>9__3_0
     static void _set_$$9__3_0(Oculus::Platform::Message::Callback* value);
     // static private System.Void .cctor()
-    // Offset: 0x136806C
+    // Offset: 0x2BB1458
     static void _cctor();
     // System.Void <InitCallback>b__3_0(Oculus.Platform.Message message)
-    // Offset: 0x13680D8
+    // Offset: 0x2BB14C4
     void $InitCallback$b__3_0(Oculus::Platform::Message* message);
     // public System.Void .ctor()
-    // Offset: 0x13680D0
+    // Offset: 0x2BB14BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -51,10 +51,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single introAnimationStartSyncTime
     float& dyn_introAnimationStartSyncTime();
     // System.Void <HandleSongStartSyncControllerSyncStartSuccess>b__0()
-    // Offset: 0x1290498
+    // Offset: 0x1437248
     void $HandleSongStartSyncControllerSyncStartSuccess$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1290490
+    // Offset: 0x1437240
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

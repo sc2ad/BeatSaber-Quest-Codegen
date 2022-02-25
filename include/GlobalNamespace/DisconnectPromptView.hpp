@@ -36,7 +36,6 @@ namespace UnityEngine::UI {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
   // Forward declaring type: Action
   class Action;
@@ -81,7 +80,7 @@ namespace GlobalNamespace {
     HMUI::PanelAnimationSO* dismissPanelAnimation;
     // Field size check
     static_assert(sizeof(HMUI::PanelAnimationSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF47B38
+    // [SpaceAttribute] Offset: 0x124E43C
     // private UnityEngine.GameObject _promptGameObject
     // Size: 0x8
     // Offset: 0x28
@@ -130,31 +129,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly HMUI.ButtonBinder _buttonBinder
     HMUI::ButtonBinder*& dyn__buttonBinder();
     // public System.Void add_didViewFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x11D5944
+    // Offset: 0x13F2024
     void add_didViewFinishEvent(System::Action_1<bool>* value);
     // public System.Void remove_didViewFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x11D59E8
+    // Offset: 0x13F20C8
     void remove_didViewFinishEvent(System::Action_1<bool>* value);
     // private System.Void OnEnable()
-    // Offset: 0x11D5A8C
+    // Offset: 0x13F216C
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x11D5B6C
+    // Offset: 0x13F224C
     void OnDisable();
     // public System.Void Show()
-    // Offset: 0x11D5B88
+    // Offset: 0x13F2268
     void Show();
     // public System.Void Hide(System.Action finishedCallback)
-    // Offset: 0x11D5BCC
+    // Offset: 0x13F22AC
     void Hide(System::Action* finishedCallback);
     // private System.Void <OnEnable>b__9_0()
-    // Offset: 0x11D5CF4
+    // Offset: 0x13F23D4
     void $OnEnable$b__9_0();
     // private System.Void <OnEnable>b__9_1()
-    // Offset: 0x11D5D58
+    // Offset: 0x13F2438
     void $OnEnable$b__9_1();
     // public System.Void .ctor()
-    // Offset: 0x11D5C8C
+    // Offset: 0x13F236C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

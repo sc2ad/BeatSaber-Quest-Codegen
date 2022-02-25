@@ -70,16 +70,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _currentShownKeyword
     ::StringW& dyn__currentShownKeyword();
     // public BaseResultsEnvironmentController GetResultEnvironmentControllerForKeyword(System.String keyword)
-    // Offset: 0x11B5010
+    // Offset: 0x2B4D498
     GlobalNamespace::BaseResultsEnvironmentController* GetResultEnvironmentControllerForKeyword(::StringW keyword);
     // public System.Void ShowResultForKeyword(System.String keyword, System.Boolean immediately)
-    // Offset: 0x11B50E4
+    // Offset: 0x2B4D56C
     void ShowResultForKeyword(::StringW keyword, bool immediately);
     // public System.Void HideResultForKeyword(System.String keyword, System.Boolean immediately)
-    // Offset: 0x11B5194
+    // Offset: 0x2B4D61C
     void HideResultForKeyword(::StringW keyword, bool immediately);
     // public System.Void .ctor()
-    // Offset: 0x11B523C
+    // Offset: 0x2B4D6C4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

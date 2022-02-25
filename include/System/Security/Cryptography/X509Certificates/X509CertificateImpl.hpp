@@ -20,6 +20,11 @@ namespace System {
   // Forward declaring type: DateTime
   struct DateTime;
 }
+// Forward declaring namespace: System::Security::Cryptography::X509Certificates
+namespace System::Security::Cryptography::X509Certificates {
+  // Forward declaring type: X509ContentType
+  struct X509ContentType;
+}
 // Completed forward declares
 // Type namespace: System.Security.Cryptography.X509Certificates
 namespace System::Security::Cryptography::X509Certificates {
@@ -67,7 +72,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFF
     bool get_IsValid();
     // protected System.Void ThrowIfContextInvalid()
-    // Offset: 0x1D224E0
+    // Offset: 0x2066580
     void ThrowIfContextInvalid();
     // public System.Security.Cryptography.X509Certificates.X509CertificateImpl Clone()
     // Offset: 0xFFFFFFFF
@@ -88,7 +93,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFF
     System::DateTime GetValidUntil();
     // public System.Byte[] GetCertHash()
-    // Offset: 0x1D21C14
+    // Offset: 0x2065BF4
     ::ArrayW<uint8_t> GetCertHash();
     // protected System.Byte[] GetCertHash(System.Boolean lazy)
     // Offset: 0xFFFFFFFF
@@ -99,17 +104,20 @@ namespace System::Security::Cryptography::X509Certificates {
     // public System.Byte[] GetSerialNumber()
     // Offset: 0xFFFFFFFF
     ::ArrayW<uint8_t> GetSerialNumber();
+    // public System.Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType contentType, System.Byte[] password)
+    // Offset: 0xFFFFFFFF
+    ::ArrayW<uint8_t> Export(System::Security::Cryptography::X509Certificates::X509ContentType contentType, ::ArrayW<uint8_t> password);
     // public System.String ToString(System.Boolean full)
     // Offset: 0xFFFFFFFF
     ::StringW ToString(bool full);
     // public System.Void Dispose()
-    // Offset: 0x1D22460
+    // Offset: 0x2066500
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1D227C0
+    // Offset: 0x2066860
     void Dispose(bool disposing);
     // protected System.Void .ctor()
-    // Offset: 0x1D22840
+    // Offset: 0x20668E0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -118,17 +126,17 @@ namespace System::Security::Cryptography::X509Certificates {
       return THROW_UNLESS((::il2cpp_utils::New<X509CertificateImpl*, creationType>()));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1D225C4
+    // Offset: 0x2066664
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1D22630
+    // Offset: 0x20666D0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // protected override System.Void Finalize()
-    // Offset: 0x1D227C8
+    // Offset: 0x2066868
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();
@@ -237,6 +245,16 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::X509Certificates::X509CertificateImpl::*)()>(&System::Security::Cryptography::X509Certificates::X509CertificateImpl::GetSerialNumber)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509CertificateImpl*), "GetSerialNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509CertificateImpl::Export
+// Il2CppName: Export
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::X509Certificates::X509CertificateImpl::*)(System::Security::Cryptography::X509Certificates::X509ContentType, ::ArrayW<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509CertificateImpl::Export)> {
+  static const MethodInfo* get() {
+    static auto* contentType = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509ContentType")->byval_arg;
+    static auto* password = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509CertificateImpl*), "Export", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{contentType, password});
   }
 };
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509CertificateImpl::ToString

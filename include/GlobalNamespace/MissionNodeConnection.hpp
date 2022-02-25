@@ -82,14 +82,14 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* image;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
-    // [NullAllowed] Offset: 0xF43E24
+    // [NullAllowed] Offset: 0x124A728
     // private MissionNodeVisualController _parentMissionNode
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::MissionNodeVisualController* parentMissionNode;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionNodeVisualController*) == 0x8);
-    // [NullAllowed] Offset: 0xF43E60
+    // [NullAllowed] Offset: 0x124A764
     // private MissionNodeVisualController _childMissionNode
     // Size: 0x8
     // Offset: 0x38
@@ -144,28 +144,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isActive
     bool& dyn__isActive();
     // public MissionNodeVisualController get_parentMissionNode()
-    // Offset: 0x1163FD4
+    // Offset: 0x2A70A60
     GlobalNamespace::MissionNodeVisualController* get_parentMissionNode();
     // public MissionNodeVisualController get_childMissionNode()
-    // Offset: 0x1163FDC
+    // Offset: 0x2A70A68
     GlobalNamespace::MissionNodeVisualController* get_childMissionNode();
     // public System.Boolean get_isActive()
-    // Offset: 0x1163FE4
+    // Offset: 0x2A70A70
     bool get_isActive();
     // public System.Void Setup(MissionNodeVisualController parentMissionNode, MissionNodeVisualController childMissionNode)
-    // Offset: 0x115FE60
+    // Offset: 0x2A6C8EC
     void Setup(GlobalNamespace::MissionNodeVisualController* parentMissionNode, GlobalNamespace::MissionNodeVisualController* childMissionNode);
     // public System.Void UpdateConnectionRectTransform()
-    // Offset: 0x1163FEC
+    // Offset: 0x2A70A78
     void UpdateConnectionRectTransform();
     // public System.Void SetActive(System.Boolean animated)
-    // Offset: 0x1163B6C
+    // Offset: 0x2A705F8
     void SetActive(bool animated);
     // public System.Void MissionConnectionEnabledDidFinish()
-    // Offset: 0x11642DC
+    // Offset: 0x2A70D68
     void MissionConnectionEnabledDidFinish();
     // public System.Void .ctor()
-    // Offset: 0x11642FC
+    // Offset: 0x2A70D88
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

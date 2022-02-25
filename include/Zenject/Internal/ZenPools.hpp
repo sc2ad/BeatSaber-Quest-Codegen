@@ -15,7 +15,6 @@
 // Forward declaring namespace: Zenject
 namespace Zenject {
   // Forward declaring type: StaticMemoryPool`1<TValue>
-  template<typename TValue>
   class StaticMemoryPool_1;
   // Forward declaring type: InjectContext
   class InjectContext;
@@ -40,13 +39,10 @@ namespace Zenject::Internal {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: HashSet`1<T>
-  template<typename T>
   class HashSet_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System
@@ -88,7 +84,7 @@ namespace Zenject::Internal {
     // Set static field: static private readonly Zenject.StaticMemoryPool`1<Zenject.BindStatement> _bindStatementPool
     static void _set__bindStatementPool(Zenject::StaticMemoryPool_1<Zenject::BindStatement*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18D7E9C
+    // Offset: 0x1B0852C
     static void _cctor();
     // static public System.Collections.Generic.HashSet`1<T> SpawnHashSet()
     // Offset: 0xFFFFFFFF
@@ -109,16 +105,16 @@ namespace Zenject::Internal {
       return ::il2cpp_utils::RunMethodRethrow<System::Collections::Generic::Dictionary_2<TKey, TValue>*, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
     // static public Zenject.BindStatement SpawnStatement()
-    // Offset: 0x18D7934
+    // Offset: 0x1B07FC4
     static Zenject::BindStatement* SpawnStatement();
     // static public System.Void DespawnStatement(Zenject.BindStatement statement)
-    // Offset: 0x18D79B0
+    // Offset: 0x1B08040
     static void DespawnStatement(Zenject::BindStatement* statement);
     // static public Zenject.BindInfo SpawnBindInfo()
-    // Offset: 0x18D7A44
+    // Offset: 0x1B080D4
     static Zenject::BindInfo* SpawnBindInfo();
     // static public System.Void DespawnBindInfo(Zenject.BindInfo bindInfo)
-    // Offset: 0x18D7AC0
+    // Offset: 0x1B08150
     static void DespawnBindInfo(Zenject::BindInfo* bindInfo);
     // static public System.Void DespawnDictionary(System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary)
     // Offset: 0xFFFFFFFF
@@ -139,10 +135,10 @@ namespace Zenject::Internal {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, set);
     }
     // static public Zenject.Internal.LookupId SpawnLookupId(Zenject.IProvider provider, Zenject.BindingId bindingId)
-    // Offset: 0x18D7B54
+    // Offset: 0x1B081E4
     static Zenject::Internal::LookupId* SpawnLookupId(Zenject::IProvider* provider, Zenject::BindingId bindingId);
     // static public System.Void DespawnLookupId(Zenject.Internal.LookupId lookupId)
-    // Offset: 0x18D7BF4
+    // Offset: 0x1B08284
     static void DespawnLookupId(Zenject::Internal::LookupId* lookupId);
     // static public System.Collections.Generic.List`1<T> SpawnList()
     // Offset: 0xFFFFFFFF
@@ -181,13 +177,13 @@ namespace Zenject::Internal {
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<T>, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, length);
     }
     // static public Zenject.InjectContext SpawnInjectContext(Zenject.DiContainer container, System.Type memberType)
-    // Offset: 0x18D7C78
+    // Offset: 0x1B08308
     static Zenject::InjectContext* SpawnInjectContext(Zenject::DiContainer* container, System::Type* memberType);
     // static public System.Void DespawnInjectContext(Zenject.InjectContext context)
-    // Offset: 0x18D7D24
+    // Offset: 0x1B083B4
     static void DespawnInjectContext(Zenject::InjectContext* context);
     // static public Zenject.InjectContext SpawnInjectContext(Zenject.DiContainer container, Zenject.InjectableInfo injectableInfo, Zenject.InjectContext currentContext, System.Object targetInstance, System.Type targetType, System.Object concreteIdentifier)
-    // Offset: 0x18D7DB8
+    // Offset: 0x1B08448
     static Zenject::InjectContext* SpawnInjectContext(Zenject::DiContainer* container, Zenject::InjectableInfo* injectableInfo, Zenject::InjectContext* currentContext, ::Il2CppObject* targetInstance, System::Type* targetType, ::Il2CppObject* concreteIdentifier);
   }; // Zenject.Internal.ZenPools
   #pragma pack(pop)

@@ -51,37 +51,37 @@ namespace TMPro {
     // Set static field: static private System.String k_LookupStringU
     static void _set_k_LookupStringU(::StringW value);
     // static public TMPro.TMP_TextParsingUtilities get_instance()
-    // Offset: 0x1632978
+    // Offset: 0x1837CCC
     static TMPro::TMP_TextParsingUtilities* get_instance();
     // static private System.Void .cctor()
-    // Offset: 0x163290C
+    // Offset: 0x1837C60
     static void _cctor();
     // static public System.UInt32 GetHashCode(System.String s)
-    // Offset: 0x16329E0
+    // Offset: 0x1837D34
     static uint GetHashCode(::StringW s);
     // static public System.Int32 GetHashCodeCaseSensitive(System.String s)
-    // Offset: 0x1632B30
+    // Offset: 0x1837E84
     static int GetHashCodeCaseSensitive(::StringW s);
     // static public System.Char ToLowerASCIIFast(System.Char c)
-    // Offset: 0x1632BA8
+    // Offset: 0x1837EFC
     static ::Il2CppChar ToLowerASCIIFast(::Il2CppChar c);
     // static public System.Char ToUpperASCIIFast(System.Char c)
-    // Offset: 0x1632AB4
+    // Offset: 0x1837E08
     static ::Il2CppChar ToUpperASCIIFast(::Il2CppChar c);
     // static public System.UInt32 ToUpperASCIIFast(System.UInt32 c)
-    // Offset: 0x1632C24
+    // Offset: 0x1837F78
     static uint ToUpperASCIIFast(uint c);
     // static public System.UInt32 ToLowerASCIIFast(System.UInt32 c)
-    // Offset: 0x1632CA0
+    // Offset: 0x1837FF4
     static uint ToLowerASCIIFast(uint c);
     // static public System.Boolean IsHighSurrogate(System.UInt32 c)
-    // Offset: 0x1632D1C
+    // Offset: 0x1838070
     static bool IsHighSurrogate(uint c);
     // static public System.Boolean IsLowSurrogate(System.UInt32 c)
-    // Offset: 0x1632D30
+    // Offset: 0x1838084
     static bool IsLowSurrogate(uint c);
     // public System.Void .ctor()
-    // Offset: 0x1632970
+    // Offset: 0x1837CC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

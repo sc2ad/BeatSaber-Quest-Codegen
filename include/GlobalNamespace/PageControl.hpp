@@ -26,10 +26,8 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
   // Forward declaring type: Queue`1<T>
-  template<typename T>
   class Queue_1;
 }
 // Completed forward declares
@@ -64,7 +62,7 @@ namespace GlobalNamespace {
     UnityEngine::RectTransform* content;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF489EC
+    // [SpaceAttribute] Offset: 0x124F2F0
     // private System.Single _spacing
     // Size: 0x4
     // Offset: 0x20
@@ -73,7 +71,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: spacing and: elementPrefab
     char __padding1[0x4] = {};
-    // [SpaceAttribute] Offset: 0xF48A24
+    // [SpaceAttribute] Offset: 0x124F328
     // private PageControlElement _elementPrefab
     // Size: 0x8
     // Offset: 0x28
@@ -122,16 +120,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _pagesCount
     int& dyn__pagesCount();
     // public System.Void SetPagesCount(System.Int32 pagesCount)
-    // Offset: 0x1148408
+    // Offset: 0x2AB8278
     void SetPagesCount(int pagesCount);
     // public System.Void SetSelectedPageIndex(System.Int32 page)
-    // Offset: 0x1148780
+    // Offset: 0x2AB85F0
     void SetSelectedPageIndex(int page);
     // public System.Void SetVisible(System.Boolean isVisible)
-    // Offset: 0x1148870
+    // Offset: 0x2AB86E0
     void SetVisible(bool isVisible);
     // public System.Void .ctor()
-    // Offset: 0x11488AC
+    // Offset: 0x2AB871C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

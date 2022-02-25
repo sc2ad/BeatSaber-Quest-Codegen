@@ -34,7 +34,6 @@ struct Il2CppObject;
 // Type namespace: System
 namespace System {
   // Forward declaring type: ArraySegment`1<T>
-  template<typename T>
   struct ArraySegment_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

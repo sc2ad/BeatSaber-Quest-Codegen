@@ -159,16 +159,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly ISaberSwingRatingCounter swingRatingCounter
     GlobalNamespace::ISaberSwingRatingCounter*& dyn_swingRatingCounter();
     // public System.Boolean get_allIsOK()
-    // Offset: 0x2622F3C
+    // Offset: 0x2974AE8
     bool get_allIsOK();
     // public System.Boolean get_allExceptSaberTypeIsOK()
-    // Offset: 0x2622F6C
+    // Offset: 0x2974B18
     bool get_allExceptSaberTypeIsOK();
     // public NoteCutInfo/FailReason get_failReason()
-    // Offset: 0x2622F94
+    // Offset: 0x2974B40
     GlobalNamespace::NoteCutInfo::FailReason get_failReason();
     // public System.Void .ctor(System.Boolean speedOK, System.Boolean directionOK, System.Boolean saberTypeOK, System.Boolean wasCutTooSoon, System.Single saberSpeed, UnityEngine.Vector3 saberDir, SaberType saberType, System.Single timeDeviation, System.Single cutDirDeviation, UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, System.Single cutDistanceToCenter, System.Single cutAngle, ISaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0x2622FD8
+    // Offset: 0x2974B84
     // ABORTED: conflicts with another method.  NoteCutInfo(bool speedOK, bool directionOK, bool saberTypeOK, bool wasCutTooSoon, float saberSpeed, UnityEngine::Vector3 saberDir, GlobalNamespace::SaberType saberType, float timeDeviation, float cutDirDeviation, UnityEngine::Vector3 cutPoint, UnityEngine::Vector3 cutNormal, float cutDistanceToCenter, float cutAngle, GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
   }; // NoteCutInfo
   #pragma pack(pop)

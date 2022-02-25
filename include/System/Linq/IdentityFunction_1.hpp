@@ -18,14 +18,12 @@ namespace System::Linq {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
 // Type namespace: System.Linq
 namespace System::Linq {
   // Forward declaring type: IdentityFunction`1<TElement>
-  template<typename TElement>
   class IdentityFunction_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

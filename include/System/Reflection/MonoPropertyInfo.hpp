@@ -101,13 +101,13 @@ namespace System::Reflection {
     // Get instance field reference: public System.Reflection.PropertyAttributes attrs
     System::Reflection::PropertyAttributes& dyn_attrs();
     // static System.Void get_property_info(System.Reflection.MonoProperty prop, ref System.Reflection.MonoPropertyInfo info, System.Reflection.PInfo req_info)
-    // Offset: 0x1E9B100
+    // Offset: 0x1C5D97C
     static void get_property_info(System::Reflection::MonoProperty* prop, ByRef<System::Reflection::MonoPropertyInfo> info, System::Reflection::PInfo req_info);
     // static System.Type[] GetTypeModifiers(System.Reflection.MonoProperty prop, System.Boolean optional)
-    // Offset: 0x1E9C2A4
+    // Offset: 0x1C5E9E8
     static ::ArrayW<System::Type*> GetTypeModifiers(System::Reflection::MonoProperty* prop, bool optional);
     // static System.Object get_default_value(System.Reflection.MonoProperty prop)
-    // Offset: 0x1E9B960
+    // Offset: 0x1C5E0CC
     static ::Il2CppObject* get_default_value(System::Reflection::MonoProperty* prop);
   }; // System.Reflection.MonoPropertyInfo
   #pragma pack(pop)

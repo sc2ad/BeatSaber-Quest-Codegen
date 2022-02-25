@@ -16,7 +16,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: HoudiniEngineUnity
@@ -114,7 +113,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.TOPNodeTags _tags
     HoudiniEngineUnity::TOPNodeTags*& dyn__tags();
     // public System.Void .ctor()
-    // Offset: 0x184CD9C
+    // Offset: 0x1A63E9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

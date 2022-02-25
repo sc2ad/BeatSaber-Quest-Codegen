@@ -15,7 +15,6 @@
 // Forward declaring namespace: System::Collections::Concurrent
 namespace System::Collections::Concurrent {
   // Forward declaring type: ConcurrentDictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class ConcurrentDictionary_2;
 }
 // Completed forward declares
@@ -62,16 +61,16 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: private System.String name
     ::StringW& dyn_name();
     // static private System.Void .cctor()
-    // Offset: 0x1860DE4
+    // Offset: 0x1814D44
     static void _cctor();
     // System.Object GetCachedValue(System.String name)
-    // Offset: 0x1860C9C
+    // Offset: 0x1814BFC
     ::Il2CppObject* GetCachedValue(::StringW name);
     // System.Void SetCachedValue(System.Object value)
-    // Offset: 0x1860D48
+    // Offset: 0x1814CA8
     void SetCachedValue(::Il2CppObject* value);
     // public System.Void .ctor()
-    // Offset: 0x1860DDC
+    // Offset: 0x1814D3C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -64,17 +64,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.String _operationName
     ::StringW& dyn__operationName();
     // private System.Void .ctor(System.String operationName)
-    // Offset: 0x156588C
+    // Offset: 0x2C3F920
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiffieHellmanUtility::OperationTimer* New_ctor(::StringW operationName) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DiffieHellmanUtility::OperationTimer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiffieHellmanUtility::OperationTimer*, creationType>(operationName)));
     }
     // public System.Void Dispose()
-    // Offset: 0x1565918
+    // Offset: 0x2C3F9AC
     void Dispose();
     // static public DiffieHellmanUtility/OperationTimer Time(System.String operation)
-    // Offset: 0x1564F84
+    // Offset: 0x2C3F018
     static GlobalNamespace::DiffieHellmanUtility::OperationTimer* Time(::StringW operation);
   }; // DiffieHellmanUtility/OperationTimer
   #pragma pack(pop)

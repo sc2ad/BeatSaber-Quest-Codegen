@@ -54,19 +54,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _probeHighlightsIntensityMultiplier
     float& dyn__probeHighlightsIntensityMultiplier();
     // public System.Single get_intensity()
-    // Offset: 0x1DB834C
+    // Offset: 0x208CBF0
     float get_intensity();
     // public System.Void set_intensity(System.Single value)
-    // Offset: 0x1DB8354
+    // Offset: 0x208CBF8
     void set_intensity(float value);
     // public System.Single get_probeHighlightsIntensityMultiplier()
-    // Offset: 0x1DB835C
+    // Offset: 0x208CC00
     float get_probeHighlightsIntensityMultiplier();
     // public System.Void set_probeHighlightsIntensityMultiplier(System.Single value)
-    // Offset: 0x1DB8364
+    // Offset: 0x208CC08
     void set_probeHighlightsIntensityMultiplier(float value);
     // public System.Void .ctor()
-    // Offset: 0x1DB836C
+    // Offset: 0x208CC10
     // Implemented from: LightWithIds/LightData
     // Base method: System.Void LightData::.ctor()
     // Base method: System.Void Object::.ctor()

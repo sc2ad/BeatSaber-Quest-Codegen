@@ -24,7 +24,6 @@ namespace UnityEngine {
 // Forward declaring namespace: Unity::Collections
 namespace Unity::Collections {
   // Forward declaring type: NativeArray`1<T>
-  template<typename T>
   struct NativeArray_1;
 }
 // Completed forward declares
@@ -65,13 +64,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private BloomPrePassBackgroundColorsGradient/Element[] _elements
     ::ArrayW<GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*>& dyn__elements();
     // public BloomPrePassBackgroundColorsGradient/Element[] get_elements()
-    // Offset: 0x1DAFFA8
+    // Offset: 0x208484C
     ::ArrayW<GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*> get_elements();
     // private UnityEngine.Color EvaluateColor(System.Single t)
-    // Offset: 0x1DB001C
+    // Offset: 0x20848C0
     UnityEngine::Color EvaluateColor(float t);
     // public System.Void .ctor()
-    // Offset: 0x1DB01A4
+    // Offset: 0x2084A48
     // Implemented from: BloomPrePassBackgroundTextureGradient
     // Base method: System.Void BloomPrePassBackgroundTextureGradient::.ctor()
     // Base method: System.Void BloomPrePassNonLightPass::.ctor()
@@ -86,7 +85,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundColorsGradient*, creationType>()));
     }
     // protected override System.Void UpdatePixels(Unity.Collections.NativeArray`1<UnityEngine.Color32> pixels, System.Int32 numberOfPixels)
-    // Offset: 0x1DAFFB0
+    // Offset: 0x2084854
     // Implemented from: BloomPrePassBackgroundTextureGradient
     // Base method: System.Void BloomPrePassBackgroundTextureGradient::UpdatePixels(Unity.Collections.NativeArray`1<UnityEngine.Color32> pixels, System.Int32 numberOfPixels)
     void UpdatePixels(Unity::Collections::NativeArray_1<UnityEngine::Color32> pixels, int numberOfPixels);

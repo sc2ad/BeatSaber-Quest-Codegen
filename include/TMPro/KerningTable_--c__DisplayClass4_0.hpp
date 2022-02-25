@@ -58,10 +58,10 @@ namespace TMPro {
     // Get instance field reference: public System.UInt32 second
     uint& dyn_second();
     // System.Boolean <AddGlyphPairAdjustmentRecord>b__0(TMPro.KerningPair item)
-    // Offset: 0x123ED40
+    // Offset: 0x1404870
     bool $AddGlyphPairAdjustmentRecord$b__0(TMPro::KerningPair* item);
     // public System.Void .ctor()
-    // Offset: 0x123E924
+    // Offset: 0x1404454
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -26,13 +26,10 @@ namespace UnityEngine::ProBuilder::KdTree {
   // Skipping declaration: <>c__DisplayClass33_0 because it is already included!
   // Skipping declaration: <GetEnumerator>d__33 because it is already included!
   // Forward declaring type: KdTreeNode`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class KdTreeNode_2;
   // Forward declaring type: ITypeMath`1<T>
-  template<typename T>
   class ITypeMath_1;
   // Forward declaring type: NearestNeighbourList`2<TItem, TDistance>
-  template<typename TItem, typename TDistance>
   class NearestNeighbourList_2;
 }
 // Forward declaring namespace: System::Text
@@ -47,20 +44,17 @@ namespace System::Collections {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Stack`1<T>
-  template<typename T>
   class Stack_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder.KdTree
 namespace UnityEngine::ProBuilder::KdTree {
   // Forward declaring type: KdTree`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class KdTree_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

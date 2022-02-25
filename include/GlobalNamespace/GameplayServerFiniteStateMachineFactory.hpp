@@ -21,8 +21,8 @@ namespace GlobalNamespace {
   // Forward declaring type: IServerBeatmapProvider
   class IServerBeatmapProvider;
 }
-// Forward declaring namespace: MasterServer
-namespace MasterServer {
+// Forward declaring namespace: BGNet::Core
+namespace BGNet::Core {
   // Forward declaring type: ITimeProvider
   class ITimeProvider;
 }
@@ -43,9 +43,9 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameplayServerFiniteStateMachineFactory : public ::Il2CppObject {
     public:
-    // static public GameplayServerFiniteStateMachine Create(MasterServer.ITimeProvider timeProvider, IMultiplayerSessionManager multiplayerSessionManager, System.String creatorId, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
-    // Offset: 0x156A568
-    static GlobalNamespace::GameplayServerFiniteStateMachine* Create(MasterServer::ITimeProvider* timeProvider, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::StringW creatorId, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, GlobalNamespace::IServerBeatmapProvider* beatmapProvider);
+    // static public GameplayServerFiniteStateMachine Create(BGNet.Core.ITimeProvider timeProvider, IMultiplayerSessionManager multiplayerSessionManager, System.String creatorId, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
+    // Offset: 0x2C48704
+    static GlobalNamespace::GameplayServerFiniteStateMachine* Create(BGNet::Core::ITimeProvider* timeProvider, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::StringW creatorId, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, GlobalNamespace::IServerBeatmapProvider* beatmapProvider);
   }; // GameplayServerFiniteStateMachineFactory
   #pragma pack(pop)
 }
@@ -53,9 +53,9 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::GameplayServerFiniteStateMachineFactory::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerFiniteStateMachine* (*)(MasterServer::ITimeProvider*, GlobalNamespace::IMultiplayerSessionManager*, ::StringW, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, GlobalNamespace::IServerBeatmapProvider*)>(&GlobalNamespace::GameplayServerFiniteStateMachineFactory::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerFiniteStateMachine* (*)(BGNet::Core::ITimeProvider*, GlobalNamespace::IMultiplayerSessionManager*, ::StringW, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, GlobalNamespace::IServerBeatmapProvider*)>(&GlobalNamespace::GameplayServerFiniteStateMachineFactory::Create)> {
   static const MethodInfo* get() {
-    static auto* timeProvider = &::il2cpp_utils::GetClassFromName("MasterServer", "ITimeProvider")->byval_arg;
+    static auto* timeProvider = &::il2cpp_utils::GetClassFromName("BGNet.Core", "ITimeProvider")->byval_arg;
     static auto* multiplayerSessionManager = &::il2cpp_utils::GetClassFromName("", "IMultiplayerSessionManager")->byval_arg;
     static auto* creatorId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* selectionMask = &::il2cpp_utils::GetClassFromName("", "BeatmapLevelSelectionMask")->byval_arg;

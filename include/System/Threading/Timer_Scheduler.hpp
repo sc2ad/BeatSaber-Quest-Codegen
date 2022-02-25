@@ -26,7 +26,6 @@ namespace System::Threading {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -72,37 +71,37 @@ namespace System::Threading {
     // Get instance field reference: private System.Threading.ManualResetEvent changed
     System::Threading::ManualResetEvent*& dyn_changed();
     // static public System.Threading.Timer/System.Threading.Scheduler get_Instance()
-    // Offset: 0x19C4A14
+    // Offset: 0x1CE1DCC
     static System::Threading::Timer::Scheduler* get_Instance();
     // static private System.Void .cctor()
-    // Offset: 0x19C4898
+    // Offset: 0x1CE1C50
     static void _cctor();
     // public System.Void Remove(System.Threading.Timer timer)
-    // Offset: 0x19C45A4
+    // Offset: 0x1CE195C
     void Remove(System::Threading::Timer* timer);
     // public System.Void Change(System.Threading.Timer timer, System.Int64 new_next_run)
-    // Offset: 0x19C4654
+    // Offset: 0x1CE1A0C
     void Change(System::Threading::Timer* timer, int64_t new_next_run);
     // private System.Int32 FindByDueTime(System.Int64 nr)
-    // Offset: 0x19C4C14
+    // Offset: 0x1CE1FCC
     int FindByDueTime(int64_t nr);
     // private System.Void Add(System.Threading.Timer timer)
-    // Offset: 0x19C4AE4
+    // Offset: 0x1CE1E9C
     void Add(System::Threading::Timer* timer);
     // private System.Int32 InternalRemove(System.Threading.Timer timer)
-    // Offset: 0x19C4A84
+    // Offset: 0x1CE1E3C
     int InternalRemove(System::Threading::Timer* timer);
     // static private System.Void TimerCB(System.Object o)
-    // Offset: 0x19C4D70
+    // Offset: 0x1CE2128
     static void TimerCB(::Il2CppObject* o);
     // private System.Void SchedulerThread()
-    // Offset: 0x19C5178
+    // Offset: 0x1CE2530
     void SchedulerThread();
     // private System.Void ShrinkIfNeeded(System.Collections.Generic.List`1<System.Threading.Timer> list, System.Int32 initial)
-    // Offset: 0x19C56D8
+    // Offset: 0x1CE2A90
     void ShrinkIfNeeded(System::Collections::Generic::List_1<System::Threading::Timer*>* list, int initial);
     // private System.Void .ctor()
-    // Offset: 0x19C48F8
+    // Offset: 0x1CE1CB0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

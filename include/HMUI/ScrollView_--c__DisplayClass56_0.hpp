@@ -47,10 +47,10 @@ namespace HMUI {
     // Get instance field reference: public System.Single threshold
     float& dyn_threshold();
     // System.Boolean <HandleJoystickWasCenteredThisFrame>b__0(System.Single pos)
-    // Offset: 0x14CA28C
+    // Offset: 0x16AC348
     bool $HandleJoystickWasCenteredThisFrame$b__0(float pos);
     // public System.Void .ctor()
-    // Offset: 0x14CA130
+    // Offset: 0x16AC1EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

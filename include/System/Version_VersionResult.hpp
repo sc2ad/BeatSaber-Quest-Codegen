@@ -82,16 +82,16 @@ namespace System {
     // Get instance field reference: System.Boolean m_canThrow
     bool& dyn_m_canThrow();
     // System.Void Init(System.String argumentName, System.Boolean canThrow)
-    // Offset: 0x25D60BC
+    // Offset: 0x27D5598
     void Init(::StringW argumentName, bool canThrow);
     // System.Void SetFailure(System.Version/System.ParseFailureKind failure)
-    // Offset: 0x25D6580
+    // Offset: 0x27D5B08
     void SetFailure(System::Version::ParseFailureKind failure);
     // System.Void SetFailure(System.Version/System.ParseFailureKind failure, System.String argument)
-    // Offset: 0x25D66BC
+    // Offset: 0x27D5C44
     void SetFailure(System::Version::ParseFailureKind failure, ::StringW argument);
     // System.Exception GetVersionParseException()
-    // Offset: 0x25D635C
+    // Offset: 0x27D5838
     System::Exception* GetVersionParseException();
   }; // System.Version/System.VersionResult
   #pragma pack(pop)

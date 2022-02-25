@@ -17,7 +17,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: GlobalNamespace
@@ -71,14 +70,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single> _relativeSfxVolumePerLevelId
     System::Collections::Generic::Dictionary_2<::StringW, float>*& dyn__relativeSfxVolumePerLevelId();
     // public System.Void .ctor(RelativeSfxVolumePerLevelSO relativeSfxVolumePerLevelData)
-    // Offset: 0x11B47A0
+    // Offset: 0x13EE314
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RelativeSfxVolumePerLevelModel* New_ctor(GlobalNamespace::RelativeSfxVolumePerLevelSO* relativeSfxVolumePerLevelData) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RelativeSfxVolumePerLevelModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RelativeSfxVolumePerLevelModel*, creationType>(relativeSfxVolumePerLevelData)));
     }
     // public System.Single GetRelativeSfxVolume(System.String levelId)
-    // Offset: 0x11B48B4
+    // Offset: 0x13EE428
     float GetRelativeSfxVolume(::StringW levelId);
   }; // RelativeSfxVolumePerLevelModel
   #pragma pack(pop)

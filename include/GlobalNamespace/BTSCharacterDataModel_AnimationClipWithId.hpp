@@ -59,13 +59,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.AddressableAssets.AssetReference _animationClipAssetReference
     UnityEngine::AddressableAssets::AssetReference*& dyn__animationClipAssetReference();
     // public System.Int32 get_id()
-    // Offset: 0x131DBCC
+    // Offset: 0x2B36E18
     int get_id();
     // public UnityEngine.AddressableAssets.AssetReference get_animationClipAssetReference()
-    // Offset: 0x131DBD4
+    // Offset: 0x2B36E20
     UnityEngine::AddressableAssets::AssetReference* get_animationClipAssetReference();
     // public System.Void .ctor()
-    // Offset: 0x131DBDC
+    // Offset: 0x2B36E28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

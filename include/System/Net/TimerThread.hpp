@@ -14,7 +14,6 @@ namespace System::Net {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: LinkedList`1<T>
-  template<typename T>
   class LinkedList_1;
 }
 // Forward declaring namespace: System
@@ -96,16 +95,16 @@ namespace System::Net {
     // Set static field: static private System.Collections.Hashtable s_QueuesCache
     static void _set_s_QueuesCache(System::Collections::Hashtable* value);
     // static private System.Void .cctor()
-    // Offset: 0x17E6904
+    // Offset: 0x1CB2A8C
     static void _cctor();
     // static System.Net.TimerThread/System.Net.Queue CreateQueue(System.Int32 durationMilliseconds)
-    // Offset: 0x17E6B1C
+    // Offset: 0x1CB2CA4
     static System::Net::TimerThread::Queue* CreateQueue(int durationMilliseconds);
     // static private System.Void StopTimerThread()
-    // Offset: 0x17E6DC8
+    // Offset: 0x1CB2F50
     static void StopTimerThread();
     // static private System.Void OnDomainUnload(System.Object sender, System.EventArgs e)
-    // Offset: 0x17E6E54
+    // Offset: 0x1CB2FDC
     static void OnDomainUnload(::Il2CppObject* sender, System::EventArgs* e);
   }; // System.Net.TimerThread
   #pragma pack(pop)

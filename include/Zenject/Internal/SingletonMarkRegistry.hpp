@@ -14,7 +14,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: HashSet`1<T>
-  template<typename T>
   class HashSet_1;
 }
 // Forward declaring namespace: System
@@ -67,13 +66,13 @@ namespace Zenject::Internal {
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.Type> _boundNonSingletons
     System::Collections::Generic::HashSet_1<System::Type*>*& dyn__boundNonSingletons();
     // public System.Void MarkNonSingleton(System.Type type)
-    // Offset: 0x18D7740
+    // Offset: 0x1B07DD0
     void MarkNonSingleton(System::Type* type);
     // public System.Void MarkSingleton(System.Type type)
-    // Offset: 0x18D77E4
+    // Offset: 0x1B07E74
     void MarkSingleton(System::Type* type);
     // public System.Void .ctor()
-    // Offset: 0x18D78A4
+    // Offset: 0x1B07F34
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -15,10 +15,8 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IReadOnlyList`1<T>
-  template<typename T>
   class IReadOnlyList_1;
   // Forward declaring type: HashSet`1<T>
-  template<typename T>
   class HashSet_1;
 }
 // Completed forward declares
@@ -65,17 +63,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.String> _environmentKeywordsSet
     System::Collections::Generic::HashSet_1<::StringW>*& dyn__environmentKeywordsSet();
     // public System.Collections.Generic.IReadOnlyList`1<System.String> get_environmentKeywords()
-    // Offset: 0x11DDC58
+    // Offset: 0x13FA32C
     System::Collections::Generic::IReadOnlyList_1<::StringW>* get_environmentKeywords();
     // public System.Void .ctor(System.Collections.Generic.IReadOnlyList`1<System.String> environmentKeywords)
-    // Offset: 0x11DDC60
+    // Offset: 0x13FA334
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentKeywords* New_ctor(System::Collections::Generic::IReadOnlyList_1<::StringW>* environmentKeywords) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EnvironmentKeywords::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentKeywords*, creationType>(environmentKeywords)));
     }
     // public System.Boolean HasKeyword(System.String keyword)
-    // Offset: 0x11DDD3C
+    // Offset: 0x13FA410
     bool HasKeyword(::StringW keyword);
   }; // EnvironmentKeywords
   #pragma pack(pop)

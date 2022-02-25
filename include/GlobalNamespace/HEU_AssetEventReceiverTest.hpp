@@ -21,7 +21,6 @@ namespace HoudiniEngineUnity {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -47,16 +46,16 @@ namespace GlobalNamespace {
   class HEU_AssetEventReceiverTest : public UnityEngine::MonoBehaviour {
     public:
     // public System.Void ReloadCallback(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.Boolean success, System.Collections.Generic.List`1<UnityEngine.GameObject> outputList)
-    // Offset: 0x145F508
+    // Offset: 0x162FC90
     void ReloadCallback(HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, System::Collections::Generic::List_1<UnityEngine::GameObject*>* outputList);
     // public System.Void CookedCallback(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.Boolean success, System.Collections.Generic.List`1<UnityEngine.GameObject> outputList)
-    // Offset: 0x145F690
+    // Offset: 0x162FE18
     void CookedCallback(HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, System::Collections::Generic::List_1<UnityEngine::GameObject*>* outputList);
     // public System.Void BakedCallback(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.Boolean success, System.Collections.Generic.List`1<UnityEngine.GameObject> outputList)
-    // Offset: 0x145F818
+    // Offset: 0x162FFA0
     void BakedCallback(HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, System::Collections::Generic::List_1<UnityEngine::GameObject*>* outputList);
     // public System.Void .ctor()
-    // Offset: 0x145F9A0
+    // Offset: 0x1630128
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

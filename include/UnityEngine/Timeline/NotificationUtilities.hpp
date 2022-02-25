@@ -10,7 +10,6 @@
 // Forward declaring namespace: UnityEngine::Playables
 namespace UnityEngine::Playables {
   // Forward declaring type: ScriptPlayable`1<T>
-  template<typename T>
   struct ScriptPlayable_1;
   // Forward declaring type: PlayableGraph
   struct PlayableGraph;
@@ -25,7 +24,6 @@ namespace UnityEngine::Timeline {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -56,10 +54,10 @@ namespace UnityEngine::Timeline {
   class NotificationUtilities : public ::Il2CppObject {
     public:
     // static public UnityEngine.Playables.ScriptPlayable`1<UnityEngine.Timeline.TimeNotificationBehaviour> CreateNotificationsPlayable(UnityEngine.Playables.PlayableGraph graph, System.Collections.Generic.IEnumerable`1<UnityEngine.Timeline.IMarker> markers, UnityEngine.GameObject go)
-    // Offset: 0x19FF95C
+    // Offset: 0x1C9DC38
     static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::TimeNotificationBehaviour*> CreateNotificationsPlayable(UnityEngine::Playables::PlayableGraph graph, System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::IMarker*>* markers, UnityEngine::GameObject* go);
     // static public System.Boolean TrackTypeSupportsNotifications(System.Type type)
-    // Offset: 0x1A00170
+    // Offset: 0x1C9E44C
     static bool TrackTypeSupportsNotifications(System::Type* type);
   }; // UnityEngine.Timeline.NotificationUtilities
   #pragma pack(pop)

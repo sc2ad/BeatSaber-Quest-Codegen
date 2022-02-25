@@ -18,9 +18,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: GlobalNamespace
-namespace GlobalNamespace {
-}
 // Forward declaring namespace: LiteNetLib::Utils
 namespace LiteNetLib::Utils {
   // Forward declaring type: NetDataWriter
@@ -30,12 +27,6 @@ namespace LiteNetLib::Utils {
 namespace LiteNetLib {
   // Forward declaring type: DeliveryMethod
   struct DeliveryMethod;
-}
-// Forward declaring namespace: System
-namespace System {
-  // Forward declaring type: Action`2<T1, T2>
-  template<typename T1, typename T2>
-  class Action_2;
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -49,8 +40,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OculusConnectionManager::OculusConnection : public ::Il2CppObject/*, public System::IEquatable_1<GlobalNamespace::OculusConnectionManager::OculusConnection*>, public GlobalNamespace::IConnection*/ {
     public:
-    // Nested type: GlobalNamespace::OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0
-    class $$c__DisplayClass15_0;
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
@@ -102,48 +91,45 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Boolean _isConnectionOwner
     bool& dyn__isConnectionOwner();
     // public System.UInt64 get_id()
-    // Offset: 0x13661EC
+    // Offset: 0x2BAF618
     uint64_t get_id();
     // public System.String get_userId()
-    // Offset: 0x13661F4
+    // Offset: 0x2BAF620
     ::StringW get_userId();
     // public System.String get_userName()
-    // Offset: 0x13661FC
+    // Offset: 0x2BAF628
     ::StringW get_userName();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x1366204
+    // Offset: 0x2BAF630
     bool get_isConnectionOwner();
     // public System.Void .ctor(System.UInt64 id, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x1365B90
+    // Offset: 0x2BAF04C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusConnectionManager::OculusConnection* New_ctor(uint64_t id, ::StringW userName, bool isConnectionOwner) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusConnectionManager::OculusConnection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusConnectionManager::OculusConnection*, creationType>(id, userName, isConnectionOwner)));
     }
     // public System.Void Send(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x1364F8C
+    // Offset: 0x2BAE5D0
     void Send(LiteNetLib::Utils::NetDataWriter* writer, LiteNetLib::DeliveryMethod deliveryMethod);
     // public System.Void Disconnect()
-    // Offset: 0x13657E8
+    // Offset: 0x2BAECA4
     void Disconnect();
-    // public System.Void Ping(System.Action`2<OculusConnectionManager/OculusConnection,System.Single> onPingResult)
-    // Offset: 0x13654C8
-    void Ping(System::Action_2<GlobalNamespace::OculusConnectionManager::OculusConnection*, float>* onPingResult);
     // public System.Boolean Equals(OculusConnectionManager/OculusConnection other)
-    // Offset: 0x1366214
+    // Offset: 0x2BAF638
     bool Equals(GlobalNamespace::OculusConnectionManager::OculusConnection* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1366244
+    // Offset: 0x2BAF668
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1366358
+    // Offset: 0x2BAF77C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1366384
+    // Offset: 0x2BAF7A8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -205,15 +191,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusConnectionManager::OculusConnection::*)()>(&GlobalNamespace::OculusConnectionManager::OculusConnection::Disconnect)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::Ping
-// Il2CppName: Ping
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusConnectionManager::OculusConnection::*)(System::Action_2<GlobalNamespace::OculusConnectionManager::OculusConnection*, float>*)>(&GlobalNamespace::OculusConnectionManager::OculusConnection::Ping)> {
-  static const MethodInfo* get() {
-    static auto* onPingResult = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "OculusConnectionManager/OculusConnection"), ::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "Ping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{onPingResult});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::Equals

@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     UnityEngine::RectTransform* contentTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF47900
+    // [SpaceAttribute] Offset: 0x124E204
     // private System.Single _transitionDuration
     // Size: 0x4
     // Offset: 0x28
@@ -80,7 +80,7 @@ namespace GlobalNamespace {
     Tweening::EaseType easeType;
     // Field size check
     static_assert(sizeof(Tweening::EaseType) == 0x4);
-    // [InjectAttribute] Offset: 0xF47948
+    // [InjectAttribute] Offset: 0x124E24C
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x30
@@ -143,52 +143,52 @@ namespace GlobalNamespace {
     // Get instance field reference: private Tweening.Vector2Tween _contentPositionTween
     Tweening::Vector2Tween*& dyn__contentPositionTween();
     // public System.Void Init(System.Single rowHeight, System.Int32 rowCount)
-    // Offset: 0x130E694
+    // Offset: 0x14898E0
     void Init(float rowHeight, int rowCount);
     // protected System.Void OnDestroy()
-    // Offset: 0x13100E8
+    // Offset: 0x148B334
     void OnDestroy();
     // public System.Void ScrollToRowIdxInstant(System.Int32 selectedRow)
-    // Offset: 0x130F008
+    // Offset: 0x148A254
     void ScrollToRowIdxInstant(int selectedRow);
     // public System.Void AnimateOpen(System.Boolean animated)
-    // Offset: 0x130F0CC
+    // Offset: 0x148A318
     void AnimateOpen(bool animated);
     // public System.Void AnimateClose(System.Int32 selectedRow, System.Boolean animated)
-    // Offset: 0x130F488
+    // Offset: 0x148A6D4
     void AnimateClose(int selectedRow, bool animated);
     // private System.Void DespawnAllActiveTweens()
-    // Offset: 0x13100EC
+    // Offset: 0x148B338
     void DespawnAllActiveTweens();
     // private System.Single GetContentYOffset()
-    // Offset: 0x13100BC
+    // Offset: 0x148B308
     float GetContentYOffset();
     // private System.Void <AnimateOpen>b__13_0(UnityEngine.Vector2 size)
-    // Offset: 0x13101E8
+    // Offset: 0x148B434
     void $AnimateOpen$b__13_0(UnityEngine::Vector2 size);
     // private System.Void <AnimateOpen>b__13_1()
-    // Offset: 0x1310204
+    // Offset: 0x148B450
     void $AnimateOpen$b__13_1();
     // private System.Void <AnimateOpen>b__13_2(UnityEngine.Vector2 pos)
-    // Offset: 0x1310290
+    // Offset: 0x148B4DC
     void $AnimateOpen$b__13_2(UnityEngine::Vector2 pos);
     // private System.Void <AnimateOpen>b__13_3()
-    // Offset: 0x13102AC
+    // Offset: 0x148B4F8
     void $AnimateOpen$b__13_3();
     // private System.Void <AnimateClose>b__14_0(UnityEngine.Vector2 size)
-    // Offset: 0x1310338
+    // Offset: 0x148B584
     void $AnimateClose$b__14_0(UnityEngine::Vector2 size);
     // private System.Void <AnimateClose>b__14_1()
-    // Offset: 0x1310354
+    // Offset: 0x148B5A0
     void $AnimateClose$b__14_1();
     // private System.Void <AnimateClose>b__14_2(UnityEngine.Vector2 pos)
-    // Offset: 0x13103E0
+    // Offset: 0x148B62C
     void $AnimateClose$b__14_2(UnityEngine::Vector2 pos);
     // private System.Void <AnimateClose>b__14_3()
-    // Offset: 0x13103FC
+    // Offset: 0x148B648
     void $AnimateClose$b__14_3();
     // public System.Void .ctor()
-    // Offset: 0x13101D0
+    // Offset: 0x148B41C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

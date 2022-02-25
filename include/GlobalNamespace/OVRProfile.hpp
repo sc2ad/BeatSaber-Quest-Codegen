@@ -37,31 +37,31 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::OVRProfile::State
     struct State;
     // public System.String get_id()
-    // Offset: 0x187C11C
+    // Offset: 0x1A78940
     ::StringW get_id();
     // public System.String get_userName()
-    // Offset: 0x187C164
+    // Offset: 0x1A78988
     ::StringW get_userName();
     // public System.String get_locale()
-    // Offset: 0x187C1AC
+    // Offset: 0x1A789D0
     ::StringW get_locale();
     // public System.Single get_ipd()
-    // Offset: 0x187C1F4
+    // Offset: 0x1A78A18
     float get_ipd();
     // public System.Single get_eyeHeight()
-    // Offset: 0x187C328
+    // Offset: 0x1A78B4C
     float get_eyeHeight();
     // public System.Single get_eyeDepth()
-    // Offset: 0x187C388
+    // Offset: 0x1A78BAC
     float get_eyeDepth();
     // public System.Single get_neckHeight()
-    // Offset: 0x187C3E8
+    // Offset: 0x1A78C0C
     float get_neckHeight();
     // public OVRProfile/State get_state()
-    // Offset: 0x187C408
+    // Offset: 0x1A78C2C
     GlobalNamespace::OVRProfile::State get_state();
     // public System.Void .ctor()
-    // Offset: 0x187C410
+    // Offset: 0x1A78C34
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.ctor()
     // Base method: System.Void Object::.ctor()

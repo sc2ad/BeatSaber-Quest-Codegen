@@ -14,7 +14,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: HoudiniEngineUnity
@@ -78,28 +77,28 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ThreadedTask> _pendingRemove
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ThreadedTask*>*& dyn__pendingRemove();
     // static public HoudiniEngineUnity.HEU_ThreadManager get_Instance()
-    // Offset: 0x1852D54
+    // Offset: 0x1A69E54
     static HoudiniEngineUnity::HEU_ThreadManager* get_Instance();
     // static private System.Void CreateInstance()
-    // Offset: 0x1852DA4
+    // Offset: 0x1A69EA4
     static void CreateInstance();
     // public System.Void Register()
-    // Offset: 0x1852DB4
+    // Offset: 0x1A69EB4
     void Register();
     // public System.Void Unregister()
-    // Offset: 0x1852DB0
+    // Offset: 0x1A69EB0
     void Unregister();
     // public System.Void Update()
-    // Offset: 0x1852DB8
+    // Offset: 0x1A69EB8
     void Update();
     // public System.Void AddTask(HoudiniEngineUnity.HEU_ThreadedTask task)
-    // Offset: 0x1853100
+    // Offset: 0x1A6A200
     void AddTask(HoudiniEngineUnity::HEU_ThreadedTask* task);
     // public System.Void RemoveTask(HoudiniEngineUnity.HEU_ThreadedTask task)
-    // Offset: 0x18531B0
+    // Offset: 0x1A6A2B0
     void RemoveTask(HoudiniEngineUnity::HEU_ThreadedTask* task);
     // public System.Void .ctor()
-    // Offset: 0x1853260
+    // Offset: 0x1A6A360
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -108,7 +107,7 @@ namespace HoudiniEngineUnity {
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ThreadManager*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1852DA8
+    // Offset: 0x1A69EA8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

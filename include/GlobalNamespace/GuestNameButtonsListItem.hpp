@@ -83,19 +83,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action _buttonPressed
     System::Action*& dyn__buttonPressed();
     // public System.Void set_nameText(System.String value)
-    // Offset: 0x119A534
+    // Offset: 0x13A7FDC
     void set_nameText(::StringW value);
     // public System.Void set_buttonPressed(System.Action value)
-    // Offset: 0x119A550
+    // Offset: 0x13A7FF8
     void set_buttonPressed(System::Action* value);
     // private System.Void Awake()
-    // Offset: 0x119A558
+    // Offset: 0x13A8000
     void Awake();
     // private System.Void <Awake>b__7_0()
-    // Offset: 0x119A5F4
+    // Offset: 0x13A809C
     void $Awake$b__7_0();
     // public System.Void .ctor()
-    // Offset: 0x119A5EC
+    // Offset: 0x13A8094
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

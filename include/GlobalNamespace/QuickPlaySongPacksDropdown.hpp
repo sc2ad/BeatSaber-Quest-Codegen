@@ -7,10 +7,10 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.MonoBehaviour
 #include "UnityEngine/MonoBehaviour.hpp"
-// Including type: MasterServerQuickPlaySetupData
-#include "GlobalNamespace/MasterServerQuickPlaySetupData.hpp"
-// Including type: MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride
-#include "GlobalNamespace/MasterServerQuickPlaySetupData_QuickPlaySongPacksOverride.hpp"
+// Including type: QuickPlaySetupData
+#include "GlobalNamespace/QuickPlaySetupData.hpp"
+// Including type: QuickPlaySetupData/QuickPlaySongPacksOverride
+#include "GlobalNamespace/QuickPlaySetupData_QuickPlaySongPacksOverride.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -33,13 +33,11 @@ namespace HMUI {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -80,7 +78,7 @@ namespace GlobalNamespace {
     HMUI::SimpleTextDropdown* simpleTextDropdown;
     // Field size check
     static_assert(sizeof(HMUI::SimpleTextDropdown*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF44480
+    // [SpaceAttribute] Offset: 0x124AD84
     // private SongPackMaskModelSO _songPackMaskModel
     // Size: 0x8
     // Offset: 0x20
@@ -101,12 +99,12 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: initialized and: quickPlaySongPacksOverride
     char __padding3[0x7] = {};
-    // private MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride _quickPlaySongPacksOverride
+    // private QuickPlaySetupData/QuickPlaySongPacksOverride _quickPlaySongPacksOverride
     // Size: 0x8
     // Offset: 0x38
-    GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride* quickPlaySongPacksOverride;
+    GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride* quickPlaySongPacksOverride;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride*) == 0x8);
     // private System.Collections.Generic.List`1<QuickPlaySongPacksDropdown/SongPackMaskItem> _data
     // Size: 0x8
     // Offset: 0x40
@@ -124,45 +122,45 @@ namespace GlobalNamespace {
     System::Action_1<int>*& dyn_didSelectCellWithIdxEvent();
     // Get instance field reference: private System.Boolean _initialized
     bool& dyn__initialized();
-    // Get instance field reference: private MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride _quickPlaySongPacksOverride
-    GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride*& dyn__quickPlaySongPacksOverride();
+    // Get instance field reference: private QuickPlaySetupData/QuickPlaySongPacksOverride _quickPlaySongPacksOverride
+    GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride*& dyn__quickPlaySongPacksOverride();
     // Get instance field reference: private System.Collections.Generic.List`1<QuickPlaySongPacksDropdown/SongPackMaskItem> _data
     System::Collections::Generic::List_1<GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*>*& dyn__data();
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x11B2754
+    // Offset: 0x13EC2C8
     void add_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x11B27F8
+    // Offset: 0x13EC36C
     void remove_didSelectCellWithIdxEvent(System::Action_1<int>* value);
     // protected System.Void Start()
-    // Offset: 0x11B289C
+    // Offset: 0x13EC410
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x11B2930
+    // Offset: 0x13EC4A4
     void OnDestroy();
-    // public System.Void SetOverrideSongPacks(MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride quickPlaySongPacksOverride)
-    // Offset: 0x11B2A0C
-    void SetOverrideSongPacks(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride* quickPlaySongPacksOverride);
+    // public System.Void SetOverrideSongPacks(QuickPlaySetupData/QuickPlaySongPacksOverride quickPlaySongPacksOverride)
+    // Offset: 0x13EC580
+    void SetOverrideSongPacks(GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride* quickPlaySongPacksOverride);
     // public System.String GetSelectedSerializedName()
-    // Offset: 0x11B2A14
+    // Offset: 0x13EC588
     ::StringW GetSelectedSerializedName();
     // public System.Void SelectCellWithSerializedName(System.String serializedName)
-    // Offset: 0x11B2DE4
+    // Offset: 0x13EC958
     void SelectCellWithSerializedName(::StringW serializedName);
     // private System.Void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x11B2F34
+    // Offset: 0x13ECAA8
     void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
     // private System.Void LazyInit()
-    // Offset: 0x11B2A9C
+    // Offset: 0x13EC610
     void LazyInit();
     // private QuickPlaySongPacksDropdown/SongPackMaskItem <LazyInit>b__15_0(System.String serializedName)
-    // Offset: 0x11B2FB0
+    // Offset: 0x13ECB24
     GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem* $LazyInit$b__15_0(::StringW serializedName);
-    // private QuickPlaySongPacksDropdown/SongPackMaskItem <LazyInit>b__15_1(MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride/PredefinedPack pack)
-    // Offset: 0x11B3058
-    GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem* $LazyInit$b__15_1(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack* pack);
+    // private QuickPlaySongPacksDropdown/SongPackMaskItem <LazyInit>b__15_1(QuickPlaySetupData/QuickPlaySongPacksOverride/PredefinedPack pack)
+    // Offset: 0x13ECBCC
+    GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem* $LazyInit$b__15_1(GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack* pack);
     // public System.Void .ctor()
-    // Offset: 0x11B2FA8
+    // Offset: 0x13ECB1C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -217,9 +215,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlaySongPacksDropdown::SetOverrideSongPacks
 // Il2CppName: SetOverrideSongPacks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlaySongPacksDropdown::*)(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride*)>(&GlobalNamespace::QuickPlaySongPacksDropdown::SetOverrideSongPacks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlaySongPacksDropdown::*)(GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride*)>(&GlobalNamespace::QuickPlaySongPacksDropdown::SetOverrideSongPacks)> {
   static const MethodInfo* get() {
-    static auto* quickPlaySongPacksOverride = &::il2cpp_utils::GetClassFromName("", "MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride")->byval_arg;
+    static auto* quickPlaySongPacksOverride = &::il2cpp_utils::GetClassFromName("", "QuickPlaySetupData/QuickPlaySongPacksOverride")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlaySongPacksDropdown*), "SetOverrideSongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{quickPlaySongPacksOverride});
   }
 };
@@ -270,9 +268,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlaySongPacksDropdown::$LazyInit$b__15_1
 // Il2CppName: <LazyInit>b__15_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem* (GlobalNamespace::QuickPlaySongPacksDropdown::*)(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack*)>(&GlobalNamespace::QuickPlaySongPacksDropdown::$LazyInit$b__15_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem* (GlobalNamespace::QuickPlaySongPacksDropdown::*)(GlobalNamespace::QuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack*)>(&GlobalNamespace::QuickPlaySongPacksDropdown::$LazyInit$b__15_1)> {
   static const MethodInfo* get() {
-    static auto* pack = &::il2cpp_utils::GetClassFromName("", "MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride/PredefinedPack")->byval_arg;
+    static auto* pack = &::il2cpp_utils::GetClassFromName("", "QuickPlaySetupData/QuickPlaySongPacksOverride/PredefinedPack")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlaySongPacksDropdown*), "<LazyInit>b__15_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pack});
   }
 };

@@ -18,7 +18,6 @@ namespace System {
   // Forward declaring type: Type
   class Type;
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: Zenject
@@ -31,7 +30,6 @@ namespace Zenject {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -87,25 +85,25 @@ namespace Zenject {
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.TypeValuePair> <Arguments>k__BackingField
     System::Collections::Generic::List_1<Zenject::TypeValuePair>*& dyn_$Arguments$k__BackingField();
     // public System.Type get_FactoryType()
-    // Offset: 0x1AA25EC
+    // Offset: 0x1D2A6A4
     System::Type* get_FactoryType();
     // private System.Void set_FactoryType(System.Type value)
-    // Offset: 0x1AA25F4
+    // Offset: 0x1D2A6AC
     void set_FactoryType(System::Type* value);
     // public System.Func`2<Zenject.DiContainer,Zenject.IProvider> get_ProviderFunc()
-    // Offset: 0x1AA25FC
+    // Offset: 0x1D2A6B4
     System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>* get_ProviderFunc();
     // public System.Void set_ProviderFunc(System.Func`2<Zenject.DiContainer,Zenject.IProvider> value)
-    // Offset: 0x1AA2604
+    // Offset: 0x1D2A6BC
     void set_ProviderFunc(System::Func_2<Zenject::DiContainer*, Zenject::IProvider*>* value);
     // public System.Collections.Generic.List`1<Zenject.TypeValuePair> get_Arguments()
-    // Offset: 0x1AA260C
+    // Offset: 0x1D2A6C4
     System::Collections::Generic::List_1<Zenject::TypeValuePair>* get_Arguments();
     // public System.Void set_Arguments(System.Collections.Generic.List`1<Zenject.TypeValuePair> value)
-    // Offset: 0x1AA2614
+    // Offset: 0x1D2A6CC
     void set_Arguments(System::Collections::Generic::List_1<Zenject::TypeValuePair>* value);
     // public System.Void .ctor(System.Type factoryType)
-    // Offset: 0x1AA2568
+    // Offset: 0x1D2A620
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FactoryBindInfo* New_ctor(System::Type* factoryType) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::FactoryBindInfo::.ctor");

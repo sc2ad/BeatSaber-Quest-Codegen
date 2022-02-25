@@ -18,19 +18,15 @@ namespace Zenject {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Type
   class Type;
@@ -93,34 +89,34 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Func`2<System.Reflection.Assembly,System.Boolean>> _assemblyFilters
     System::Collections::Generic::List_1<System::Func_2<System::Reflection::Assembly*, bool>*>*& dyn__assemblyFilters();
     // static private System.Void .cctor()
-    // Offset: 0x14FD6E8
+    // Offset: 0x16DF7A4
     static void _cctor();
     // public System.Void AddAssemblyFilter(System.Func`2<System.Reflection.Assembly,System.Boolean> predicate)
-    // Offset: 0x14FCEE4
+    // Offset: 0x16DEFA0
     void AddAssemblyFilter(System::Func_2<System::Reflection::Assembly*, bool>* predicate);
     // public System.Void AddTypeFilter(System.Func`2<System.Type,System.Boolean> predicate)
-    // Offset: 0x14FD3CC
+    // Offset: 0x16DF488
     void AddTypeFilter(System::Func_2<System::Type*, bool>* predicate);
     // private System.Collections.Generic.IEnumerable`1<System.Reflection.Assembly> GetAllAssemblies()
-    // Offset: 0x14FD434
+    // Offset: 0x16DF4F0
     System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>* GetAllAssemblies();
     // private System.Boolean ShouldIncludeAssembly(System.Reflection.Assembly assembly)
-    // Offset: 0x14FD458
+    // Offset: 0x16DF514
     bool ShouldIncludeAssembly(System::Reflection::Assembly* assembly);
     // private System.Boolean ShouldIncludeType(System.Type type)
-    // Offset: 0x14FD520
+    // Offset: 0x16DF5DC
     bool ShouldIncludeType(System::Type* type);
     // private System.Type[] GetTypes(System.Reflection.Assembly assembly)
-    // Offset: 0x14FD5E8
+    // Offset: 0x16DF6A4
     ::ArrayW<System::Type*> GetTypes(System::Reflection::Assembly* assembly);
     // public System.Collections.Generic.List`1<System.Type> ResolveTypes()
-    // Offset: 0x14FA1B8
+    // Offset: 0x16DC274
     System::Collections::Generic::List_1<System::Type*>* ResolveTypes();
     // private System.Collections.Generic.IEnumerable`1<System.Type> <ResolveTypes>b__9_0(System.Reflection.Assembly assembly)
-    // Offset: 0x14FD75C
+    // Offset: 0x16DF818
     System::Collections::Generic::IEnumerable_1<System::Type*>* $ResolveTypes$b__9_0(System::Reflection::Assembly* assembly);
     // public System.Void .ctor()
-    // Offset: 0x14FA0F4
+    // Offset: 0x16DC1B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -53,7 +53,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [NullAllowed] Offset: 0xF23AE0
+    // [NullAllowed] Offset: 0x122A620
     // private UnityEngine.Shader _overrideShader
     // Size: 0x8
     // Offset: 0x18
@@ -108,13 +108,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.MeshRenderer _meshRenderer
     UnityEngine::MeshRenderer*& dyn__meshRenderer();
     // protected System.Void OnEnable()
-    // Offset: 0x1DBA494
+    // Offset: 0x208ED38
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1DBA890
+    // Offset: 0x208F134
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x1DBA8CC
+    // Offset: 0x208F170
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

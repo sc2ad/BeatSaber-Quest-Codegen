@@ -24,7 +24,6 @@ namespace UnityEngine {
 // Forward declaring namespace: Zenject
 namespace Zenject {
   // Forward declaring type: IPoolable`5<TParam1, TParam2, TParam3, TParam4, TParam5>
-  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5>
   class IPoolable_5;
   // Forward declaring type: InjectTypeInfo
   class InjectTypeInfo;
@@ -33,7 +32,6 @@ namespace Zenject {
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: MonoPoolableMemoryPool`6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>
-  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue>
   class MonoPoolableMemoryPool_6;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -19,13 +19,11 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -80,31 +78,31 @@ namespace Zenject {
     // Set static field: static public System.Func`2<UnityEngine.GameObject,System.Collections.Generic.IEnumerable`1<Zenject.SceneDecoratorContext>> <>9__50_1
     static void _set_$$9__50_1(System::Func_2<UnityEngine::GameObject*, System::Collections::Generic::IEnumerable_1<Zenject::SceneDecoratorContext*>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18E6B30
+    // Offset: 0x1B171C0
     static void _cctor();
     // System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> <GetParentContainers>b__49_0(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x18E6B9C
+    // Offset: 0x1B1722C
     System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* $GetParentContainers$b__49_0(UnityEngine::SceneManagement::Scene scene);
     // System.Collections.Generic.IEnumerable`1<Zenject.SceneContext> <GetParentContainers>b__49_1(UnityEngine.GameObject root)
-    // Offset: 0x18E6BC4
+    // Offset: 0x1B17254
     System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>* $GetParentContainers$b__49_1(UnityEngine::GameObject* root);
     // Zenject.DiContainer <GetParentContainers>b__49_3(Zenject.SceneContext x)
-    // Offset: 0x18E6C1C
+    // Offset: 0x1B172AC
     Zenject::DiContainer* $GetParentContainers$b__49_3(Zenject::SceneContext* x);
     // System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> <LookupDecoratorContexts>b__50_0(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x18E6C3C
+    // Offset: 0x1B172CC
     System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* $LookupDecoratorContexts$b__50_0(UnityEngine::SceneManagement::Scene scene);
     // System.Collections.Generic.IEnumerable`1<Zenject.SceneDecoratorContext> <LookupDecoratorContexts>b__50_1(UnityEngine.GameObject root)
-    // Offset: 0x18E6C64
+    // Offset: 0x1B172F4
     System::Collections::Generic::IEnumerable_1<Zenject::SceneDecoratorContext*>* $LookupDecoratorContexts$b__50_1(UnityEngine::GameObject* root);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x18E6CBC
+    // Offset: 0x1B1734C
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x18E6D18
+    // Offset: 0x1B173A8
     static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x18E6B94
+    // Offset: 0x1B17224
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

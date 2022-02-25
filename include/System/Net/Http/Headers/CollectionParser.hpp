@@ -15,7 +15,6 @@
 // Forward declaring namespace: System::Net::Http::Headers
 namespace System::Net::Http::Headers {
   // Forward declaring type: ElementTryParser`1<T>
-  template<typename T>
   class ElementTryParser_1;
   // Forward declaring type: Lexer
   class Lexer;
@@ -25,7 +24,6 @@ namespace System::Net::Http::Headers {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -55,10 +53,10 @@ namespace System::Net::Http::Headers {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, input, minimalCount, parser, byref(result));
     }
     // static public System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.String> result)
-    // Offset: 0x17BCAAC
+    // Offset: 0x18F532C
     static bool TryParse(::StringW input, int minimalCount, ByRef<System::Collections::Generic::List_1<::StringW>*> result);
     // static private System.Boolean TryParseStringElement(System.Net.Http.Headers.Lexer lexer, out System.String parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x17BCB4C
+    // Offset: 0x18F53CC
     static bool TryParseStringElement(System::Net::Http::Headers::Lexer* lexer, ByRef<::StringW> parsedValue, ByRef<System::Net::Http::Headers::Token> t);
   }; // System.Net.Http.Headers.CollectionParser
   #pragma pack(pop)

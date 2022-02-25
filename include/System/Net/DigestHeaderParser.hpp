@@ -75,41 +75,41 @@ namespace System::Net {
     // Get instance field reference: private System.String[] values
     ::ArrayW<::StringW>& dyn_values();
     // public System.String get_Realm()
-    // Offset: 0x15ED060
+    // Offset: 0x1AB1C04
     ::StringW get_Realm();
     // public System.String get_Opaque()
-    // Offset: 0x15ED094
+    // Offset: 0x1AB1C38
     ::StringW get_Opaque();
     // public System.String get_Nonce()
-    // Offset: 0x15ED0CC
+    // Offset: 0x1AB1C70
     ::StringW get_Nonce();
     // public System.String get_Algorithm()
-    // Offset: 0x15ED104
+    // Offset: 0x1AB1CA8
     ::StringW get_Algorithm();
     // public System.String get_QOP()
-    // Offset: 0x15ED13C
+    // Offset: 0x1AB1CE0
     ::StringW get_QOP();
     // public System.Void .ctor(System.String header)
-    // Offset: 0x15ECFA8
+    // Offset: 0x1AB1B4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DigestHeaderParser* New_ctor(::StringW header) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::DigestHeaderParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DigestHeaderParser*, creationType>(header)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x15ED618
+    // Offset: 0x1AB21BC
     static void _cctor();
     // public System.Boolean Parse()
-    // Offset: 0x15ED174
+    // Offset: 0x1AB1D18
     bool Parse();
     // private System.Void SkipWhitespace()
-    // Offset: 0x15ED4F8
+    // Offset: 0x1AB209C
     void SkipWhitespace();
     // private System.String GetKey()
-    // Offset: 0x15ED584
+    // Offset: 0x1AB2128
     ::StringW GetKey();
     // private System.Boolean GetKeywordAndValue(out System.String key, out System.String value)
-    // Offset: 0x15ED35C
+    // Offset: 0x1AB1F00
     bool GetKeywordAndValue(ByRef<::StringW> key, ByRef<::StringW> value);
   }; // System.Net.DigestHeaderParser
   #pragma pack(pop)

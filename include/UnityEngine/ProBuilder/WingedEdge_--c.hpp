@@ -18,7 +18,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -47,16 +46,16 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Edge,System.Int32> <>9__32_2
     static void _set_$$9__32_2(System::Func_2<UnityEngine::ProBuilder::Edge, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x258C940
+    // Offset: 0x28D0E80
     static void _cctor();
     // UnityEngine.ProBuilder.Edge <SortCommonIndexesByAdjacency>b__32_1(UnityEngine.ProBuilder.WingedEdge y)
-    // Offset: 0x258C9AC
+    // Offset: 0x28D0EEC
     UnityEngine::ProBuilder::Edge $SortCommonIndexesByAdjacency$b__32_1(UnityEngine::ProBuilder::WingedEdge* y);
     // System.Int32 <SortCommonIndexesByAdjacency>b__32_2(UnityEngine.ProBuilder.Edge x)
-    // Offset: 0x258C9C4
+    // Offset: 0x28D0F04
     int $SortCommonIndexesByAdjacency$b__32_2(UnityEngine::ProBuilder::Edge x);
     // public System.Void .ctor()
-    // Offset: 0x258C9A4
+    // Offset: 0x28D0EE4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

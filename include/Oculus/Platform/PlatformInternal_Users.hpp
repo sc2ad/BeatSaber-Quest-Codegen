@@ -15,7 +15,6 @@
 // Forward declaring namespace: Oculus::Platform
 namespace Oculus::Platform {
   // Forward declaring type: Request`1<T>
-  template<typename T>
   class Request_1;
 }
 // Forward declaring namespace: Oculus::Platform::Models
@@ -36,7 +35,7 @@ namespace Oculus::Platform {
   class PlatformInternal::Users : public ::Il2CppObject {
     public:
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.LinkedAccountList> GetLinkedAccounts(Oculus.Platform.ServiceProvider[] providers)
-    // Offset: 0x26613F0
+    // Offset: 0x29FD590
     static Oculus::Platform::Request_1<Oculus::Platform::Models::LinkedAccountList*>* GetLinkedAccounts(::ArrayW<Oculus::Platform::ServiceProvider> providers);
   }; // Oculus.Platform.PlatformInternal/Oculus.Platform.Users
   #pragma pack(pop)

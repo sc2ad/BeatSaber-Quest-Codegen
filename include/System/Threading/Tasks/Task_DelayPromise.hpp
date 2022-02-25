@@ -70,14 +70,14 @@ namespace System::Threading::Tasks {
     // Get instance field reference: System.Threading.Timer Timer
     System::Threading::Timer*& dyn_Timer();
     // System.Void .ctor(System.Threading.CancellationToken token)
-    // Offset: 0x19BC10C
+    // Offset: 0x1CD949C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Task::DelayPromise* New_ctor(System::Threading::CancellationToken token) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task::DelayPromise::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Task::DelayPromise*, creationType>(token)));
     }
     // System.Void Complete()
-    // Offset: 0x19BB998
+    // Offset: 0x1CD8D28
     void Complete();
   }; // System.Threading.Tasks.Task/System.Threading.Tasks.DelayPromise
   // WARNING Not writing size check since size may be invalid!

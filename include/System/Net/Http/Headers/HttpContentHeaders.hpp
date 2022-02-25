@@ -66,13 +66,16 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private readonly System.Net.Http.HttpContent content
     System::Net::Http::HttpContent*& dyn_content();
     // public System.Nullable`1<System.Int64> get_ContentLength()
-    // Offset: 0x17BE670
+    // Offset: 0x18F6EF0
     System::Nullable_1<int64_t> get_ContentLength();
     // public System.Net.Http.Headers.MediaTypeHeaderValue get_ContentType()
-    // Offset: 0x17BE7EC
+    // Offset: 0x18F706C
     System::Net::Http::Headers::MediaTypeHeaderValue* get_ContentType();
+    // public System.Void set_ContentType(System.Net.Http.Headers.MediaTypeHeaderValue value)
+    // Offset: 0x18F2A2C
+    void set_ContentType(System::Net::Http::Headers::MediaTypeHeaderValue* value);
     // System.Void .ctor(System.Net.Http.HttpContent content)
-    // Offset: 0x17BE5C8
+    // Offset: 0x18F6E48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpContentHeaders* New_ctor(System::Net::Http::HttpContent* content) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::HttpContentHeaders::.ctor");
@@ -96,6 +99,15 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::Headers::MediaTypeHeaderValue* (System::Net::Http::Headers::HttpContentHeaders::*)()>(&System::Net::Http::Headers::HttpContentHeaders::get_ContentType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpContentHeaders*), "get_ContentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: System::Net::Http::Headers::HttpContentHeaders::set_ContentType
+// Il2CppName: set_ContentType
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::HttpContentHeaders::*)(System::Net::Http::Headers::MediaTypeHeaderValue*)>(&System::Net::Http::Headers::HttpContentHeaders::set_ContentType)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "MediaTypeHeaderValue")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpContentHeaders*), "set_ContentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpContentHeaders::New_ctor

@@ -63,21 +63,21 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: disableMainCamera and: gameScenesManager
     char __padding0[0x7] = {};
-    // [InjectAttribute] Offset: 0xF3C7A0
+    // [InjectAttribute] Offset: 0x1243114
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF3C7B0
+    // [InjectAttribute] Offset: 0x1243124
     // private GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0xF3C7C0
+    // [InjectAttribute] Offset: 0x1243134
     // private MainCamera _mainCamera
     // Size: 0x8
     // Offset: 0x30
@@ -96,10 +96,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private MainCamera _mainCamera
     GlobalNamespace::MainCamera*& dyn__mainCamera();
     // private System.Collections.IEnumerator Start()
-    // Offset: 0x1205C74
+    // Offset: 0x2AE931C
     System::Collections::IEnumerator* Start();
     // public System.Void .ctor()
-    // Offset: 0x1205D10
+    // Offset: 0x2AE93B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

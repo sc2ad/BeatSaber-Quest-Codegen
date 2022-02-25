@@ -79,29 +79,29 @@ namespace System::Collections::Specialized {
     // Get instance field reference: private System.Boolean start
     bool& dyn_start();
     // public System.Object get_Current()
-    // Offset: 0x1A22200
+    // Offset: 0x1DEA0B0
     ::Il2CppObject* get_Current();
     // public System.Collections.DictionaryEntry get_Entry()
-    // Offset: 0x1A2226C
+    // Offset: 0x1DEA11C
     System::Collections::DictionaryEntry get_Entry();
     // public System.Object get_Key()
-    // Offset: 0x1A22314
+    // Offset: 0x1DEA1C4
     ::Il2CppObject* get_Key();
     // public System.Object get_Value()
-    // Offset: 0x1A223A0
+    // Offset: 0x1DEA250
     ::Il2CppObject* get_Value();
     // public System.Void .ctor(System.Collections.Specialized.ListDictionary list)
-    // Offset: 0x1A22158
+    // Offset: 0x1DEA008
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ListDictionary::NodeEnumerator* New_ctor(System::Collections::Specialized::ListDictionary* list) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Specialized::ListDictionary::NodeEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ListDictionary::NodeEnumerator*, creationType>(list)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1A2242C
+    // Offset: 0x1DEA2DC
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1A224F4
+    // Offset: 0x1DEA3A4
     void Reset();
   }; // System.Collections.Specialized.ListDictionary/System.Collections.Specialized.NodeEnumerator
   #pragma pack(pop)

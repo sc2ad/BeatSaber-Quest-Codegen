@@ -16,7 +16,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: TMPro
@@ -50,16 +49,16 @@ namespace TMPro {
     // Set static field: static public System.Func`2<TMPro.TMP_GlyphPairAdjustmentRecord,System.UInt32> <>9__6_1
     static void _set_$$9__6_1(System::Func_2<TMPro::TMP_GlyphPairAdjustmentRecord*, uint>* value);
     // static private System.Void .cctor()
-    // Offset: 0x124DAD4
+    // Offset: 0x1413604
     static void _cctor();
     // System.UInt32 <SortGlyphPairAdjustmentRecords>b__6_0(TMPro.TMP_GlyphPairAdjustmentRecord s)
-    // Offset: 0x124DB40
+    // Offset: 0x1413670
     uint $SortGlyphPairAdjustmentRecords$b__6_0(TMPro::TMP_GlyphPairAdjustmentRecord* s);
     // System.UInt32 <SortGlyphPairAdjustmentRecords>b__6_1(TMPro.TMP_GlyphPairAdjustmentRecord s)
-    // Offset: 0x124DB58
+    // Offset: 0x1413688
     uint $SortGlyphPairAdjustmentRecords$b__6_1(TMPro::TMP_GlyphPairAdjustmentRecord* s);
     // public System.Void .ctor()
-    // Offset: 0x124DB38
+    // Offset: 0x1413668
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

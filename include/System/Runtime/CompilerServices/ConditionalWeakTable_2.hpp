@@ -35,7 +35,6 @@ namespace System {
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Forward declaring type: ConditionalWeakTable`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class ConditionalWeakTable_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

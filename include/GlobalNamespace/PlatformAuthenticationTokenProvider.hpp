@@ -24,7 +24,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
-  template<typename TResult>
   class Task_1;
 }
 // Completed forward declares
@@ -44,8 +43,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlatformAuthenticationTokenProvider : public ::Il2CppObject/*, public GlobalNamespace::IAuthenticationTokenProvider*/ {
     public:
-    // Nested type: GlobalNamespace::PlatformAuthenticationTokenProvider::$$c
-    class $$c;
     // Nested type: GlobalNamespace::PlatformAuthenticationTokenProvider::$GetAuthenticationToken$d__10
     struct $GetAuthenticationToken$d__10;
     #ifdef USE_CODEGEN_FIELDS
@@ -103,20 +100,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly AuthenticationToken/Platform _platform
     GlobalNamespace::AuthenticationToken::Platform& dyn__platform();
     // public System.String get_hashedUserId()
-    // Offset: 0x114EB10
+    // Offset: 0x2ABE980
     ::StringW get_hashedUserId();
     // public System.String get_userName()
-    // Offset: 0x114EB18
+    // Offset: 0x2ABE988
     ::StringW get_userName();
     // public System.Void .ctor(IPlatformUserModel platformUserModel, UserInfo userInfo)
-    // Offset: 0x114EB20
+    // Offset: 0x2ABE990
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformAuthenticationTokenProvider* New_ctor(GlobalNamespace::IPlatformUserModel* platformUserModel, GlobalNamespace::UserInfo* userInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PlatformAuthenticationTokenProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformAuthenticationTokenProvider*, creationType>(platformUserModel, userInfo)));
     }
     // public System.Threading.Tasks.Task`1<AuthenticationToken> GetAuthenticationToken()
-    // Offset: 0x114EBE4
+    // Offset: 0x2ABEA54
     System::Threading::Tasks::Task_1<GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
   }; // PlatformAuthenticationTokenProvider
   #pragma pack(pop)

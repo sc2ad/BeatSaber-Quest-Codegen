@@ -21,14 +21,12 @@
 namespace System::Linq {
   // Skipping declaration: <GetEnumerator>d__1 because it is already included!
   // Forward declaring type: EnumerableSorter`1<TElement>
-  template<typename TElement>
   class EnumerableSorter_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Skipping declaration: IEnumerable`1 because it is already included!
   // Forward declaring type: IComparer`1<T>
-  template<typename T>
   class IComparer_1;
 }
 // Forward declaring namespace: System::Collections
@@ -38,14 +36,12 @@ namespace System::Collections {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
 // Type namespace: System.Linq
 namespace System::Linq {
   // Forward declaring type: OrderedEnumerable`1<TElement>
-  template<typename TElement>
   class OrderedEnumerable_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

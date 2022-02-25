@@ -82,10 +82,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
     GlobalNamespace::MissionObjectiveCheckersManager*& dyn__missionObjectiveCheckersManager();
     // public System.Void RestartLevel()
-    // Offset: 0x11628F8
+    // Offset: 0x2A6F384
     void RestartLevel();
     // public System.Void .ctor()
-    // Offset: 0x11629A4
+    // Offset: 0x2A6F430
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

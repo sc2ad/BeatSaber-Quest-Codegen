@@ -62,14 +62,14 @@ namespace GlobalNamespace {
     UnityEngine::Transform* rotatedObject;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0xF399FC
+    // [InjectAttribute] Offset: 0x12403C0
     // private PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0xF39A0C
+    // [InjectAttribute] Offset: 0x12403D0
     // private IAudioTimeSource _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x28
@@ -150,46 +150,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _localPosition
     UnityEngine::Vector3& dyn__localPosition();
     // public System.Single get_distanceToPlayer()
-    // Offset: 0x13416F8
+    // Offset: 0x2B2E528
     float get_distanceToPlayer();
     // public UnityEngine.Vector3 get_startPos()
-    // Offset: 0x13417E4
+    // Offset: 0x2B2E614
     UnityEngine::Vector3 get_startPos();
     // public UnityEngine.Vector3 get_endPos()
-    // Offset: 0x13417F0
+    // Offset: 0x2B2E620
     UnityEngine::Vector3 get_endPos();
     // public System.Single get_startTime()
-    // Offset: 0x13417FC
+    // Offset: 0x2B2E62C
     float get_startTime();
     // public System.Single get_moveDuration()
-    // Offset: 0x1341804
+    // Offset: 0x2B2E634
     float get_moveDuration();
     // public UnityEngine.Quaternion get_worldRotation()
-    // Offset: 0x134180C
+    // Offset: 0x2B2E63C
     UnityEngine::Quaternion get_worldRotation();
     // public UnityEngine.Quaternion get_inverseWorldRotation()
-    // Offset: 0x1341818
+    // Offset: 0x2B2E648
     UnityEngine::Quaternion get_inverseWorldRotation();
     // public UnityEngine.Vector3 get_localPosition()
-    // Offset: 0x1341824
+    // Offset: 0x2B2E654
     UnityEngine::Vector3 get_localPosition();
     // public System.Void add_floorMovementDidFinishEvent(System.Action value)
-    // Offset: 0x13415B0
+    // Offset: 0x2B2E3E0
     void add_floorMovementDidFinishEvent(System::Action* value);
     // public System.Void remove_floorMovementDidFinishEvent(System.Action value)
-    // Offset: 0x1341654
+    // Offset: 0x2B2E484
     void remove_floorMovementDidFinishEvent(System::Action* value);
     // public System.Void Init(System.Single worldRotation, UnityEngine.Vector3 startPos, UnityEngine.Vector3 endPos, System.Single moveDuration, System.Single startTime)
-    // Offset: 0x1341830
+    // Offset: 0x2B2E660
     void Init(float worldRotation, UnityEngine::Vector3 startPos, UnityEngine::Vector3 endPos, float moveDuration, float startTime);
     // public UnityEngine.Vector3 SetToStart()
-    // Offset: 0x1341928
+    // Offset: 0x2B2E758
     UnityEngine::Vector3 SetToStart();
     // public UnityEngine.Vector3 ManualUpdate()
-    // Offset: 0x1341A58
+    // Offset: 0x2B2E888
     UnityEngine::Vector3 ManualUpdate();
     // public System.Void .ctor()
-    // Offset: 0x1341C3C
+    // Offset: 0x2B2EA6C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

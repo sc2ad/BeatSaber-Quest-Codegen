@@ -17,7 +17,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: GlobalNamespace
@@ -65,10 +64,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public EnterPlayerGuestNameViewController <>4__this
     GlobalNamespace::EnterPlayerGuestNameViewController*& dyn_$$4__this();
     // System.Void <DidActivate>b__0(System.Int32 idx, GuestNameButtonsListItem item)
-    // Offset: 0x11DD36C
+    // Offset: 0x13F9A40
     void $DidActivate$b__0(int idx, GlobalNamespace::GuestNameButtonsListItem* item);
     // public System.Void .ctor()
-    // Offset: 0x11DCDF4
+    // Offset: 0x13F94C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

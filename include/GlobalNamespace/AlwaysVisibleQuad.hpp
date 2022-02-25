@@ -57,13 +57,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Mesh _mesh
     UnityEngine::Mesh*& dyn__mesh();
     // protected System.Void OnEnable()
-    // Offset: 0x262C6D0
+    // Offset: 0x2E0A6E8
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x262C99C
+    // Offset: 0x2E0A9B4
     void OnDisable();
     // public System.Void .ctor()
-    // Offset: 0x262C9A8
+    // Offset: 0x2E0A9C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

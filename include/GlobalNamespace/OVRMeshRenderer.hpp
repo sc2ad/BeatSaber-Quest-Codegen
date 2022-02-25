@@ -247,46 +247,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <ShouldUseSystemGestureMaterial>k__BackingField
     bool& dyn_$ShouldUseSystemGestureMaterial$k__BackingField();
     // public System.Boolean get_IsInitialized()
-    // Offset: 0x14760BC
+    // Offset: 0x1646844
     bool get_IsInitialized();
     // private System.Void set_IsInitialized(System.Boolean value)
-    // Offset: 0x14760C4
+    // Offset: 0x164684C
     void set_IsInitialized(bool value);
     // public System.Boolean get_IsDataValid()
-    // Offset: 0x14760D0
+    // Offset: 0x1646858
     bool get_IsDataValid();
     // private System.Void set_IsDataValid(System.Boolean value)
-    // Offset: 0x14760D8
+    // Offset: 0x1646860
     void set_IsDataValid(bool value);
     // public System.Boolean get_IsDataHighConfidence()
-    // Offset: 0x14760E4
+    // Offset: 0x164686C
     bool get_IsDataHighConfidence();
     // private System.Void set_IsDataHighConfidence(System.Boolean value)
-    // Offset: 0x14760EC
+    // Offset: 0x1646874
     void set_IsDataHighConfidence(bool value);
     // public System.Boolean get_ShouldUseSystemGestureMaterial()
-    // Offset: 0x14760F8
+    // Offset: 0x1646880
     bool get_ShouldUseSystemGestureMaterial();
     // private System.Void set_ShouldUseSystemGestureMaterial(System.Boolean value)
-    // Offset: 0x1476100
+    // Offset: 0x1646888
     void set_ShouldUseSystemGestureMaterial(bool value);
     // private System.Void Awake()
-    // Offset: 0x147610C
+    // Offset: 0x1646894
     void Awake();
     // private System.Void Start()
-    // Offset: 0x147620C
+    // Offset: 0x1646994
     void Start();
     // private System.Boolean ShouldInitialize()
-    // Offset: 0x14762B8
+    // Offset: 0x1646A40
     bool ShouldInitialize();
     // private System.Void Initialize()
-    // Offset: 0x14763D0
+    // Offset: 0x1646B58
     void Initialize();
     // private System.Void Update()
-    // Offset: 0x147686C
+    // Offset: 0x1646FF4
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1476B48
+    // Offset: 0x16472D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

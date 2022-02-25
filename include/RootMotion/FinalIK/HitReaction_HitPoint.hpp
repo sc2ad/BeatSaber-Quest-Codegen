@@ -47,21 +47,21 @@ namespace RootMotion::FinalIK {
     protected:
     #endif
     #endif
-    // [TooltipAttribute] Offset: 0xF62340
+    // [TooltipAttribute] Offset: 0x1268E70
     // public System.String name
     // Size: 0x8
     // Offset: 0x10
     ::StringW name;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [TooltipAttribute] Offset: 0xF62378
+    // [TooltipAttribute] Offset: 0x1268EA8
     // public UnityEngine.Collider collider
     // Size: 0x8
     // Offset: 0x18
     UnityEngine::Collider* collider;
     // Field size check
     static_assert(sizeof(UnityEngine::Collider*) == 0x8);
-    // [TooltipAttribute] Offset: 0xF623B0
+    // [TooltipAttribute] Offset: 0x1268EE0
     // private System.Single crossFadeTime
     // Size: 0x4
     // Offset: 0x20
@@ -132,37 +132,37 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Single lastTime
     float& dyn_lastTime();
     // public System.Boolean get_inProgress()
-    // Offset: 0x1E7D230
+    // Offset: 0x21C9630
     bool get_inProgress();
     // protected System.Single get_crossFader()
-    // Offset: 0x1E7D7D8
+    // Offset: 0x21C9BD8
     float get_crossFader();
     // private System.Void set_crossFader(System.Single value)
-    // Offset: 0x1E7D7E0
+    // Offset: 0x21C9BE0
     void set_crossFader(float value);
     // protected System.Single get_timer()
-    // Offset: 0x1E7D7E8
+    // Offset: 0x21C9BE8
     float get_timer();
     // private System.Void set_timer(System.Single value)
-    // Offset: 0x1E7D7F0
+    // Offset: 0x21C9BF0
     void set_timer(float value);
     // protected UnityEngine.Vector3 get_force()
-    // Offset: 0x1E7D7F8
+    // Offset: 0x21C9BF8
     UnityEngine::Vector3 get_force();
     // private System.Void set_force(UnityEngine.Vector3 value)
-    // Offset: 0x1E7D804
+    // Offset: 0x21C9C04
     void set_force(UnityEngine::Vector3 value);
     // protected UnityEngine.Vector3 get_point()
-    // Offset: 0x1E7D810
+    // Offset: 0x21C9C10
     UnityEngine::Vector3 get_point();
     // private System.Void set_point(UnityEngine.Vector3 value)
-    // Offset: 0x1E7D81C
+    // Offset: 0x21C9C1C
     void set_point(UnityEngine::Vector3 value);
     // public System.Void Hit(UnityEngine.Vector3 force, UnityEngine.Vector3 point)
-    // Offset: 0x1E7D6A4
+    // Offset: 0x21C9AA4
     void Hit(UnityEngine::Vector3 force, UnityEngine::Vector3 point);
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
-    // Offset: 0x1E7D318
+    // Offset: 0x21C9718
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);
     // protected System.Single GetLength()
     // Offset: 0xFFFFFFFF
@@ -174,7 +174,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFF
     void OnApply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);
     // protected System.Void .ctor()
-    // Offset: 0x1E7D828
+    // Offset: 0x21C9C28
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

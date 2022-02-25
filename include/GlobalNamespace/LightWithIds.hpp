@@ -21,7 +21,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
 }
 // Completed forward declares
@@ -52,7 +51,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0xF22C48
+    // [InjectAttribute] Offset: 0x1229788
     // private readonly LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x18
@@ -76,22 +75,22 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::LightWithIds::LightData*>* get_lightIntensityData();
     // protected System.Void Start()
-    // Offset: 0x1DB79B0
+    // Offset: 0x208C254
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1DB7CAC
+    // Offset: 0x208C550
     void OnEnable();
     // private System.Void RegisterForColorChanges()
-    // Offset: 0x1DB79B4
+    // Offset: 0x208C258
     void RegisterForColorChanges();
     // protected System.Void OnDisable()
-    // Offset: 0x1DB7CB0
+    // Offset: 0x208C554
     void OnDisable();
     // protected System.Void HandleLightManagerDidChangeSomeColorsThisFrame()
     // Offset: 0xFFFFFFFF
     void HandleLightManagerDidChangeSomeColorsThisFrame();
     // protected System.Void .ctor()
-    // Offset: 0x1DB7F9C
+    // Offset: 0x208C840
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -18,7 +18,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Completed forward declares
@@ -92,22 +91,22 @@ namespace Ice {
     // Get instance field reference: private UnityEngine.Color _color
     UnityEngine::Color& dyn__color();
     // public System.Int32 get_lineIndex()
-    // Offset: 0x26A8470
+    // Offset: 0x2A34520
     int get_lineIndex();
     // public System.Int32 get_currentTileY()
-    // Offset: 0x26A8478
+    // Offset: 0x2A34528
     int get_currentTileY();
     // public UnityEngine.Color get_color()
-    // Offset: 0x26A8480
+    // Offset: 0x2A34530
     UnityEngine::Color get_color();
     // public System.Void Setup(UnityEngine.Color color, System.Int32 lineIndex, System.Single stayOnTileDuration)
-    // Offset: 0x26A7FBC
+    // Offset: 0x2A3406C
     void Setup(UnityEngine::Color color, int lineIndex, float stayOnTileDuration);
     // public System.Void ManualUpdate(System.Single deltaTime)
-    // Offset: 0x26A7E48
+    // Offset: 0x2A33EF8
     void ManualUpdate(float deltaTime);
     // public System.Void .ctor()
-    // Offset: 0x26A83A4
+    // Offset: 0x2A34454
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

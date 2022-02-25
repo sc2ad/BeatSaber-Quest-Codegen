@@ -64,10 +64,10 @@ namespace System {
     // Get instance field reference: private readonly System.TimeZoneInfo LocalTimeZone
     System::TimeZoneInfo*& dyn_LocalTimeZone();
     // static public System.Boolean GetTimeZoneData(System.Int32 year, out System.Int64[] data, out System.String[] names, out System.Boolean daylight_inverted)
-    // Offset: 0x1B9D818
+    // Offset: 0x1AE66BC
     static bool GetTimeZoneData(int year, ByRef<::ArrayW<int64_t>> data, ByRef<::ArrayW<::StringW>> names, ByRef<bool> daylight_inverted);
     // System.Void .ctor()
-    // Offset: 0x1B9D6D0
+    // Offset: 0x1AE6574
     // Implemented from: System.TimeZone
     // Base method: System.Void TimeZone::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -77,7 +77,7 @@ namespace System {
       return THROW_UNLESS((::il2cpp_utils::New<CurrentSystemTimeZone*, creationType>()));
     }
     // public override System.TimeSpan GetUtcOffset(System.DateTime dateTime)
-    // Offset: 0x1B9D748
+    // Offset: 0x1AE65EC
     // Implemented from: System.TimeZone
     // Base method: System.TimeSpan TimeZone::GetUtcOffset(System.DateTime dateTime)
     System::TimeSpan GetUtcOffset(System::DateTime dateTime);

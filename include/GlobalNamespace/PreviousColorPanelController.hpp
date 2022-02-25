@@ -28,7 +28,6 @@ namespace UnityEngine::UI {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: HMUI
@@ -120,28 +119,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _graphicsColor
     UnityEngine::Color& dyn__graphicsColor();
     // public System.Void add_colorWasSelectedEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x11B12D4
+    // Offset: 0x13EA1F8
     void add_colorWasSelectedEvent(System::Action_1<UnityEngine::Color>* value);
     // public System.Void remove_colorWasSelectedEvent(System.Action`1<UnityEngine.Color> value)
-    // Offset: 0x11B1378
+    // Offset: 0x13EA29C
     void remove_colorWasSelectedEvent(System::Action_1<UnityEngine::Color>* value);
     // protected System.Void Awake()
-    // Offset: 0x11B141C
+    // Offset: 0x13EA340
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x11B14CC
+    // Offset: 0x13EA3F0
     void OnDestroy();
     // public System.Void AddColor(UnityEngine.Color color)
-    // Offset: 0x11B14E8
+    // Offset: 0x13EA40C
     void AddColor(UnityEngine::Color color);
     // public System.Void DiscardUpcomingColor()
-    // Offset: 0x11B15A0
+    // Offset: 0x13EA4C4
     void DiscardUpcomingColor();
     // private System.Void <Awake>b__9_0()
-    // Offset: 0x11B15F0
+    // Offset: 0x13EA514
     void $Awake$b__9_0();
     // public System.Void .ctor()
-    // Offset: 0x11B15AC
+    // Offset: 0x13EA4D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -119,7 +119,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean showInternetGames
     bool& dyn_showInternetGames();
     // public System.Void .ctor()
-    // Offset: 0x11F8088
+    // Offset: 0x2AD6DD0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

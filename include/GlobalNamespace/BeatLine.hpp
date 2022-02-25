@@ -29,7 +29,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -173,22 +172,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _rotation
     float& dyn__rotation();
     // public System.Boolean get_isFinished()
-    // Offset: 0x12C6D78
+    // Offset: 0x2B3F9E8
     bool get_isFinished();
     // public System.Single get_rotation()
-    // Offset: 0x12C6DD0
+    // Offset: 0x2B3FA40
     float get_rotation();
     // public System.Void Init(UnityEngine.Vector3 position, System.Single rotation)
-    // Offset: 0x12C6DD8
+    // Offset: 0x2B3FA48
     void Init(UnityEngine::Vector3 position, float rotation);
     // public System.Void AddHighlight(System.Single startTime, System.Single arriveDuration, System.Single jumpDuration)
-    // Offset: 0x12C6EF0
+    // Offset: 0x2B3FB60
     void AddHighlight(float startTime, float arriveDuration, float jumpDuration);
     // public System.Void ManualUpdate(System.Single songTime)
-    // Offset: 0x12C6F74
+    // Offset: 0x2B3FBE4
     void ManualUpdate(float songTime);
     // public System.Void .ctor()
-    // Offset: 0x12C70E8
+    // Offset: 0x2B3FD58
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -202,7 +201,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatLine*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x12C6EE4
+    // Offset: 0x2B3FB54
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);

@@ -17,10 +17,8 @@
 // Forward declaring namespace: Zenject
 namespace Zenject {
   // Forward declaring type: IFactory`1<TValue>
-  template<typename TValue>
   class IFactory_1;
   // Forward declaring type: ConcreteBinderGeneric`1<TContract>
-  template<typename TContract>
   class ConcreteBinderGeneric_1;
   // Forward declaring type: InjectTypeInfo
   class InjectTypeInfo;
@@ -28,7 +26,6 @@ namespace Zenject {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Completed forward declares

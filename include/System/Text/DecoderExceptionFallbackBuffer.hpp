@@ -30,10 +30,15 @@ namespace System::Text {
   class DecoderExceptionFallbackBuffer : public System::Text::DecoderFallbackBuffer {
     public:
     // private System.Void Throw(System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x1DE93A0
+    // Offset: 0x200C428
     void Throw(::ArrayW<uint8_t> bytesUnknown, int index);
+    // public override System.Int32 get_Remaining()
+    // Offset: 0x200C664
+    // Implemented from: System.Text.DecoderFallbackBuffer
+    // Base method: System.Int32 DecoderFallbackBuffer::get_Remaining()
+    int get_Remaining();
     // public System.Void .ctor()
-    // Offset: 0x1DE9318
+    // Offset: 0x200C3A0
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Void DecoderFallbackBuffer::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -43,12 +48,12 @@ namespace System::Text {
       return THROW_UNLESS((::il2cpp_utils::New<DecoderExceptionFallbackBuffer*, creationType>()));
     }
     // public override System.Boolean Fallback(System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x1DE9394
+    // Offset: 0x200C41C
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Boolean DecoderFallbackBuffer::Fallback(System.Byte[] bytesUnknown, System.Int32 index)
     bool Fallback(::ArrayW<uint8_t> bytesUnknown, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x1DE95D4
+    // Offset: 0x200C65C
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Char DecoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();
@@ -64,6 +69,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     static auto* bytesUnknown = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderExceptionFallbackBuffer*), "Throw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytesUnknown, index});
+  }
+};
+// Writing MetadataGetter for method: System::Text::DecoderExceptionFallbackBuffer::get_Remaining
+// Il2CppName: get_Remaining
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::DecoderExceptionFallbackBuffer::*)()>(&System::Text::DecoderExceptionFallbackBuffer::get_Remaining)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderExceptionFallbackBuffer*), "get_Remaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: System::Text::DecoderExceptionFallbackBuffer::New_ctor

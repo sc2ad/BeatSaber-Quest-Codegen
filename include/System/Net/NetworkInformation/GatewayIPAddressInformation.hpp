@@ -27,7 +27,7 @@ namespace System::Net::NetworkInformation {
   class GatewayIPAddressInformation : public ::Il2CppObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x16A5510
+    // Offset: 0x17A9634
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

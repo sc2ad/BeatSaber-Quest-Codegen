@@ -26,7 +26,6 @@ namespace UnityEngine {
 // Forward declaring namespace: Unity::Collections
 namespace Unity::Collections {
   // Forward declaring type: NativeArray`1<T>
-  template<typename T>
   struct NativeArray_1;
 }
 // Forward declaring namespace: System
@@ -49,20 +48,20 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   class Lightmapping::RequestLightsDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1D0E5C0
+    // Offset: 0x1EBB980
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Lightmapping::RequestLightsDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Lightmapping::RequestLightsDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngine.Light[] requests, Unity.Collections.NativeArray`1<UnityEngine.Experimental.GlobalIllumination.LightDataGI> lightsOutput)
-    // Offset: 0x1D0E0EC
+    // Offset: 0x1EBB4AC
     void Invoke(::ArrayW<UnityEngine::Light*> requests, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Light[] requests, Unity.Collections.NativeArray`1<UnityEngine.Experimental.GlobalIllumination.LightDataGI> lightsOutput, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1D0E910
+    // Offset: 0x1EBBCD0
     System::IAsyncResult* BeginInvoke(::ArrayW<UnityEngine::Light*> requests, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1D0E9AC
+    // Offset: 0x1EBBD6C
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.Experimental.GlobalIllumination.Lightmapping/UnityEngine.Experimental.GlobalIllumination.RequestLightsDelegate
   #pragma pack(pop)

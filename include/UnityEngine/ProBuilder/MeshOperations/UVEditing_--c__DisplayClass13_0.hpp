@@ -16,7 +16,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: KeyValuePair`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   struct KeyValuePair_2;
 }
 // Completed forward declares
@@ -55,10 +54,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public System.Int32 b
     int& dyn_b();
     // System.Boolean <SewUVs>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> x)
-    // Offset: 0x190FC54
+    // Offset: 0x1B402E4
     bool $SewUVs$b__0(System::Collections::Generic::KeyValuePair_2<int, int> x);
     // public System.Void .ctor()
-    // Offset: 0x190E244
+    // Offset: 0x1B3E8D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

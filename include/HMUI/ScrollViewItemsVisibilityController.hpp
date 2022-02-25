@@ -27,7 +27,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Tuple`2<T1, T2>
-  template<typename T1, typename T2>
   class Tuple_2;
 }
 // Completed forward declares
@@ -152,19 +151,19 @@ namespace HMUI {
     // Get instance field reference: private System.Single _contentMinY
     float& dyn__contentMinY();
     // protected System.Void Start()
-    // Offset: 0x14CA324
+    // Offset: 0x16AC3E0
     void Start();
     // protected System.Void Update()
-    // Offset: 0x14CA9B4
+    // Offset: 0x16ACA70
     void Update();
     // private System.Void UpdateVisibilityUpDirection(System.Single newContentAnchoredPositionY)
-    // Offset: 0x14CA7FC
+    // Offset: 0x16AC8B8
     void UpdateVisibilityUpDirection(float newContentAnchoredPositionY);
     // private System.Void UpdateVisibilityDownDirection(System.Single newContentAnchoredPositionY)
-    // Offset: 0x14CAAA4
+    // Offset: 0x16ACB60
     void UpdateVisibilityDownDirection(float newContentAnchoredPositionY);
     // public System.Void .ctor()
-    // Offset: 0x14CAC48
+    // Offset: 0x16ACD04
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -38,20 +38,17 @@ namespace System {
   // Forward declaring type: Type
   class Type;
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
 }
 // Completed forward declares
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: ConcreteBinderGeneric`1<TContract>
-  template<typename TContract>
   class ConcreteBinderGeneric_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

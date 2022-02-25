@@ -21,7 +21,6 @@ namespace System::Collections {
 // Forward declaring namespace: UnityEngine::ResourceManagement::AsyncOperations
 namespace UnityEngine::ResourceManagement::AsyncOperations {
   // Forward declaring type: AsyncOperationHandle`1<TObject>
-  template<typename TObject>
   struct AsyncOperationHandle_1;
   // Forward declaring type: AsyncOperationHandle
   struct AsyncOperationHandle;
@@ -66,10 +65,10 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: public System.Collections.IEnumerable keys
     System::Collections::IEnumerable*& dyn_keys();
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Int64> <GetDownloadSizeWithChain>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op)
-    // Offset: 0x160BC48
+    // Offset: 0x17E1198
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<int64_t> $GetDownloadSizeWithChain$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
     // public System.Void .ctor()
-    // Offset: 0x1608368
+    // Offset: 0x17DD8B8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -21,7 +21,6 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: IPacketPool`1<T>
-  template<typename T>
   class IPacketPool_1;
 }
 // Forward declaring namespace: LiteNetLib::Utils
@@ -91,19 +90,19 @@ namespace MasterServer {
     // Get instance field reference: public GameplayServerConfiguration configuration
     GlobalNamespace::GameplayServerConfiguration& dyn_configuration();
     // static public IPacketPool`1<MasterServer.ConnectToServerRequest> get_pool()
-    // Offset: 0x14B1E9C
+    // Offset: 0x2C4CC88
     static GlobalNamespace::IPacketPool_1<MasterServer::ConnectToServerRequest*>* get_pool();
     // protected System.UInt32 get_version()
-    // Offset: 0x14B1EE4
+    // Offset: 0x2C4CCD0
     uint get_version();
-    // public MasterServer.ConnectToServerRequest Init(System.String userId, System.String userName, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.String secret, System.String code)
-    // Offset: 0x14B1EEC
-    MasterServer::ConnectToServerRequest* Init(::StringW userId, ::StringW userName, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::StringW secret, ::StringW code);
+    // public MasterServer.ConnectToServerRequest Init(BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.String secret, System.String code)
+    // Offset: 0x2C4CCD8
+    MasterServer::ConnectToServerRequest* Init(GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::StringW secret, ::StringW code);
     // public System.Void .ctor()
-    // Offset: 0x14B2114
+    // Offset: 0x2C4CEF4
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::.ctor()
-    // Base method: System.Void BaseMasterServerReliableRequest::.ctor()
+    // Base method: System.Void BaseReliableRequest::.ctor()
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectToServerRequest* New_ctor() {
@@ -111,17 +110,17 @@ namespace MasterServer {
       return THROW_UNLESS((::il2cpp_utils::New<ConnectToServerRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x14B1F18
+    // Offset: 0x2C4CD00
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x14B1FA4
+    // Offset: 0x2C4CD88
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x14B2050
+    // Offset: 0x2C4CE30
     // Implemented from: MasterServer.BaseConnectToServerRequest
     // Base method: System.Void BaseConnectToServerRequest::Release()
     void Release();
@@ -150,15 +149,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Maste
 // Writing MetadataGetter for method: MasterServer::ConnectToServerRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ConnectToServerRequest* (MasterServer::ConnectToServerRequest::*)(::StringW, ::StringW, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::StringW, ::StringW)>(&MasterServer::ConnectToServerRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ConnectToServerRequest* (MasterServer::ConnectToServerRequest::*)(GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::StringW, ::StringW)>(&MasterServer::ConnectToServerRequest::Init)> {
   static const MethodInfo* get() {
-    static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* userName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* selectionMask = &::il2cpp_utils::GetClassFromName("", "BeatmapLevelSelectionMask")->byval_arg;
     static auto* configuration = &::il2cpp_utils::GetClassFromName("", "GameplayServerConfiguration")->byval_arg;
     static auto* secret = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* code = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::ConnectToServerRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId, userName, selectionMask, configuration, secret, code});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::ConnectToServerRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{selectionMask, configuration, secret, code});
   }
 };
 // Writing MetadataGetter for method: MasterServer::ConnectToServerRequest::New_ctor

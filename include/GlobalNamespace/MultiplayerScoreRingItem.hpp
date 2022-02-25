@@ -29,7 +29,6 @@ namespace Tweening {
   // Forward declaring type: TimeTweeningManager
   class TimeTweeningManager;
   // Forward declaring type: Tween`1<T>
-  template<typename T>
   class Tween_1;
   // Forward declaring type: EaseType
   struct EaseType;
@@ -79,7 +78,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* nameText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectAttribute] Offset: 0xF3F370
+    // [InjectAttribute] Offset: 0x1245C84
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -112,31 +111,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private Tweening.Tween`1<UnityEngine.Color> _scoreColorTween
     Tweening::Tween_1<UnityEngine::Color>*& dyn__scoreColorTween();
     // protected System.Void Awake()
-    // Offset: 0x1178540
+    // Offset: 0x2AAA314
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1178708
+    // Offset: 0x2AAA4DC
     void OnDestroy();
     // public System.Void SetPositionAndRotation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x11787A0
+    // Offset: 0x2AAA574
     void SetPositionAndRotation(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
     // public System.Void AnimateColors(UnityEngine.Color nameColor, UnityEngine.Color scoreColor, System.Single duration, Tweening.EaseType easeType)
-    // Offset: 0x117881C
+    // Offset: 0x2AAA5F0
     void AnimateColors(UnityEngine::Color nameColor, UnityEngine::Color scoreColor, float duration, Tweening::EaseType easeType);
     // public System.Void SetName(System.String text)
-    // Offset: 0x117894C
+    // Offset: 0x2AAA720
     void SetName(::StringW text);
     // public System.Void SetScore(System.String text)
-    // Offset: 0x1178968
+    // Offset: 0x2AAA73C
     void SetScore(::StringW text);
     // private System.Void <Awake>b__6_0(UnityEngine.Color val)
-    // Offset: 0x117898C
+    // Offset: 0x2AAA760
     void $Awake$b__6_0(UnityEngine::Color val);
     // private System.Void <Awake>b__6_1(UnityEngine.Color val)
-    // Offset: 0x11789B0
+    // Offset: 0x2AAA784
     void $Awake$b__6_1(UnityEngine::Color val);
     // public System.Void .ctor()
-    // Offset: 0x1178984
+    // Offset: 0x2AAA758
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

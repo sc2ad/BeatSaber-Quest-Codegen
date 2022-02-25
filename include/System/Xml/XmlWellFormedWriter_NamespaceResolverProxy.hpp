@@ -15,6 +15,18 @@
 #include "beatsaber-hook/shared/utils/utils.h"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
+// Begin forward declares
+// Forward declaring namespace: System::Collections::Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: IDictionary`2<TKey, TValue>
+  class IDictionary_2;
+}
+// Forward declaring namespace: System::Xml
+namespace System::Xml {
+  // Forward declaring type: XmlNamespaceScope
+  struct XmlNamespaceScope;
+}
+// Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(System::Xml::XmlWellFormedWriter::NamespaceResolverProxy);
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::NamespaceResolverProxy*, "System.Xml", "XmlWellFormedWriter/NamespaceResolverProxy");
@@ -53,17 +65,20 @@ namespace System::Xml {
     // Get instance field reference: private System.Xml.XmlWellFormedWriter wfWriter
     System::Xml::XmlWellFormedWriter*& dyn_wfWriter();
     // System.Void .ctor(System.Xml.XmlWellFormedWriter wfWriter)
-    // Offset: 0x26A2FE8
+    // Offset: 0x1BBA1C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlWellFormedWriter::NamespaceResolverProxy* New_ctor(System::Xml::XmlWellFormedWriter* wfWriter) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlWellFormedWriter::NamespaceResolverProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlWellFormedWriter::NamespaceResolverProxy*, creationType>(wfWriter)));
     }
+    // private System.Collections.Generic.IDictionary`2<System.String,System.String> System.Xml.IXmlNamespaceResolver.GetNamespacesInScope(System.Xml.XmlNamespaceScope scope)
+    // Offset: 0x1BC1874
+    System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* System_Xml_IXmlNamespaceResolver_GetNamespacesInScope(System::Xml::XmlNamespaceScope scope);
     // private System.String System.Xml.IXmlNamespaceResolver.LookupNamespace(System.String prefix)
-    // Offset: 0x26A3014
+    // Offset: 0x1BC18D4
     ::StringW System_Xml_IXmlNamespaceResolver_LookupNamespace(::StringW prefix);
     // private System.String System.Xml.IXmlNamespaceResolver.LookupPrefix(System.String namespaceName)
-    // Offset: 0x26A3030
+    // Offset: 0x1BC18EC
     ::StringW System_Xml_IXmlNamespaceResolver_LookupPrefix(::StringW namespaceName);
   }; // System.Xml.XmlWellFormedWriter/System.Xml.NamespaceResolverProxy
   #pragma pack(pop)
@@ -75,6 +90,15 @@ namespace System::Xml {
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::NamespaceResolverProxy::System_Xml_IXmlNamespaceResolver_GetNamespacesInScope
+// Il2CppName: System.Xml.IXmlNamespaceResolver.GetNamespacesInScope
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* (System::Xml::XmlWellFormedWriter::NamespaceResolverProxy::*)(System::Xml::XmlNamespaceScope)>(&System::Xml::XmlWellFormedWriter::NamespaceResolverProxy::System_Xml_IXmlNamespaceResolver_GetNamespacesInScope)> {
+  static const MethodInfo* get() {
+    static auto* scope = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNamespaceScope")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter::NamespaceResolverProxy*), "System.Xml.IXmlNamespaceResolver.GetNamespacesInScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scope});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::NamespaceResolverProxy::System_Xml_IXmlNamespaceResolver_LookupNamespace
 // Il2CppName: System.Xml.IXmlNamespaceResolver.LookupNamespace
 template<>

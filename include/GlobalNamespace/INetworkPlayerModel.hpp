@@ -21,19 +21,16 @@ namespace GlobalNamespace {
   // Forward declaring type: ConnectedPlayerManager
   class ConnectedPlayerManager;
   // Forward declaring type: INetworkPlayerModelPartyConfig`1<T>
-  template<typename T>
   class INetworkPlayerModelPartyConfig_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Completed forward declares
@@ -62,6 +59,9 @@ namespace GlobalNamespace {
     // public System.Boolean get_localPlayerIsPartyOwner()
     // Offset: 0xFFFFFFFF
     bool get_localPlayerIsPartyOwner();
+    // public System.Boolean get_hasNetworkingFailed()
+    // Offset: 0xFFFFFFFF
+    bool get_hasNetworkingFailed();
     // public GameplayServerConfiguration get_configuration()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::GameplayServerConfiguration get_configuration();
@@ -156,6 +156,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::INetworkPlayerModel::*)()>(&GlobalNamespace::INetworkPlayerModel::get_localPlayerIsPartyOwner)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayerModel*), "get_localPlayerIsPartyOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayerModel::get_hasNetworkingFailed
+// Il2CppName: get_hasNetworkingFailed
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::INetworkPlayerModel::*)()>(&GlobalNamespace::INetworkPlayerModel::get_hasNetworkingFailed)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayerModel*), "get_hasNetworkingFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::INetworkPlayerModel::get_configuration

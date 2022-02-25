@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   class MenuRpcManager::GetStartedLevelRpc : public GlobalNamespace::RemoteProcedureCall {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1803C08
+    // Offset: 0x2CA4D18
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     // Base method: System.Void Object::.ctor()

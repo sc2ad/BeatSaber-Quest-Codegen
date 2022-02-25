@@ -17,13 +17,11 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IReadOnlyList`1<T>
-  template<typename T>
   class IReadOnlyList_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Tuple`2<T1, T2>
-  template<typename T1, typename T2>
   class Tuple_2;
 }
 // Completed forward declares
@@ -43,10 +41,10 @@ namespace GlobalNamespace {
   class NoteJumpStartBeatOffsetDropdown : public GlobalNamespace::ValueDropdownController_1<float> {
     public:
     // protected System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<System.Single,System.String>> GetNamedValues()
-    // Offset: 0x13432DC
+    // Offset: 0x2B3010C
     System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<float, ::StringW>*>* GetNamedValues();
     // public System.Void .ctor()
-    // Offset: 0x1343410
+    // Offset: 0x2B30240
     // Implemented from: ValueDropdownController`1
     // Base method: System.Void ValueDropdownController_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

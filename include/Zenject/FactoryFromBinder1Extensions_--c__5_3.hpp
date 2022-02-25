@@ -17,15 +17,12 @@
 // Forward declaring namespace: Zenject
 namespace Zenject {
   // Forward declaring type: IPoolable`2<TParam1, TParam2>
-  template<typename TParam1, typename TParam2>
   class IPoolable_2;
   // Forward declaring type: IMemoryPool
   class IMemoryPool;
   // Forward declaring type: MemoryPool`3<TParam1, TParam2, TValue>
-  template<typename TParam1, typename TParam2, typename TValue>
   class MemoryPool_3;
   // Forward declaring type: MemoryPoolInitialSizeMaxSizeBinder`1<TContract>
-  template<typename TContract>
   class MemoryPoolInitialSizeMaxSizeBinder_1;
   // Forward declaring type: InjectTypeInfo
   class InjectTypeInfo;
@@ -33,7 +30,6 @@ namespace Zenject {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Completed forward declares

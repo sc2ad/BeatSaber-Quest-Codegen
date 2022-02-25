@@ -20,13 +20,11 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEqualityComparer`1<T>
-  template<typename T>
   class IEqualityComparer_1;
 }
 // Forward declaring namespace: System::Linq
 namespace System::Linq {
   // Forward declaring type: Set`1<TElement>
-  template<typename TElement>
   class Set_1;
 }
 // Forward declaring namespace: System::Collections

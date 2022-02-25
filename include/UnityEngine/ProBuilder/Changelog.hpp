@@ -15,7 +15,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -31,7 +30,6 @@ namespace System {
 // Forward declaring namespace: System::Collections::ObjectModel
 namespace System::Collections::ObjectModel {
   // Forward declaring type: ReadOnlyCollection`1<T>
-  template<typename T>
   class ReadOnlyCollection_1;
 }
 // Completed forward declares
@@ -92,17 +90,17 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ProBuilder.ChangelogEntry> m_Entries
     System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>*& dyn_m_Entries();
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.ProBuilder.ChangelogEntry> get_entries()
-    // Offset: 0x21E32A0
+    // Offset: 0x2504618
     System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::ProBuilder::ChangelogEntry*>* get_entries();
     // public System.Void .ctor(System.String log)
-    // Offset: 0x21E3310
+    // Offset: 0x2504688
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Changelog* New_ctor(::StringW log) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Changelog::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Changelog*, creationType>(log)));
     }
     // private UnityEngine.ProBuilder.ChangelogEntry CreateEntry(System.String version, System.String contents)
-    // Offset: 0x21E3584
+    // Offset: 0x25048FC
     UnityEngine::ProBuilder::ChangelogEntry* CreateEntry(::StringW version, ::StringW contents);
   }; // UnityEngine.ProBuilder.Changelog
   #pragma pack(pop)

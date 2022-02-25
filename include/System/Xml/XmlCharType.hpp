@@ -55,58 +55,88 @@ namespace System::Xml {
     // Get instance field reference: System.Byte[] charProperties
     ::ArrayW<uint8_t>& dyn_charProperties();
     // static private System.Object get_StaticLock()
-    // Offset: 0x1B64048
+    // Offset: 0x1622E3C
     static ::Il2CppObject* get_StaticLock();
     // static public System.Xml.XmlCharType get_Instance()
-    // Offset: 0x1B6247C
+    // Offset: 0x1619A50
     static System::Xml::XmlCharType get_Instance();
     // private System.Void .ctor(System.Byte[] charProperties)
-    // Offset: 0x1B64368
+    // Offset: 0x162315C
     // ABORTED: conflicts with another method.  XmlCharType(::ArrayW<uint8_t> charProperties);
     // static private System.Void InitInstance()
-    // Offset: 0x1B640D8
+    // Offset: 0x1622ECC
     static void InitInstance();
     // static private System.Void SetProperties(System.String ranges, System.Byte value)
-    // Offset: 0x1B6425C
+    // Offset: 0x1623050
     static void SetProperties(::StringW ranges, uint8_t value);
     // public System.Boolean IsWhiteSpace(System.Char ch)
-    // Offset: 0x1B64370
+    // Offset: 0x1623164
     bool IsWhiteSpace(::Il2CppChar ch);
+    // public System.Boolean IsNCNameSingleChar(System.Char ch)
+    // Offset: 0x1619A0C
+    bool IsNCNameSingleChar(::Il2CppChar ch);
+    // public System.Boolean IsStartNCNameSingleChar(System.Char ch)
+    // Offset: 0x1619AC0
+    bool IsStartNCNameSingleChar(::Il2CppChar ch);
+    // public System.Boolean IsNameSingleChar(System.Char ch)
+    // Offset: 0x16231A8
+    bool IsNameSingleChar(::Il2CppChar ch);
     // public System.Boolean IsCharData(System.Char ch)
-    // Offset: 0x1B643B4
+    // Offset: 0x16231D8
     bool IsCharData(::Il2CppChar ch);
     // public System.Boolean IsPubidChar(System.Char ch)
-    // Offset: 0x1B643F8
+    // Offset: 0x162321C
     bool IsPubidChar(::Il2CppChar ch);
     // System.Boolean IsTextChar(System.Char ch)
-    // Offset: 0x1B64484
+    // Offset: 0x16232A8
     bool IsTextChar(::Il2CppChar ch);
+    // public System.Boolean IsLetter(System.Char ch)
+    // Offset: 0x16232EC
+    bool IsLetter(::Il2CppChar ch);
+    // public System.Boolean IsNCNameCharXml4e(System.Char ch)
+    // Offset: 0x1623330
+    bool IsNCNameCharXml4e(::Il2CppChar ch);
+    // public System.Boolean IsStartNCNameCharXml4e(System.Char ch)
+    // Offset: 0x1623374
+    bool IsStartNCNameCharXml4e(::Il2CppChar ch);
+    // public System.Boolean IsNameCharXml4e(System.Char ch)
+    // Offset: 0x16233A4
+    bool IsNameCharXml4e(::Il2CppChar ch);
+    // static public System.Boolean IsDigit(System.Char ch)
+    // Offset: 0x16233D4
+    static bool IsDigit(::Il2CppChar ch);
     // static System.Boolean IsHighSurrogate(System.Int32 ch)
-    // Offset: 0x1B644C8
+    // Offset: 0x16233FC
     static bool IsHighSurrogate(int ch);
     // static System.Boolean IsLowSurrogate(System.Int32 ch)
-    // Offset: 0x1B644EC
+    // Offset: 0x162340C
     static bool IsLowSurrogate(int ch);
     // static System.Boolean IsSurrogate(System.Int32 ch)
-    // Offset: 0x1B644FC
+    // Offset: 0x1618270
     static bool IsSurrogate(int ch);
     // static System.Int32 CombineSurrogateChar(System.Int32 lowChar, System.Int32 highChar)
-    // Offset: 0x1B5A6E8
+    // Offset: 0x162341C
     static int CombineSurrogateChar(int lowChar, int highChar);
+    // static System.Void SplitSurrogateChar(System.Int32 combinedChar, out System.Char lowChar, out System.Char highChar)
+    // Offset: 0x1623434
+    static void SplitSurrogateChar(int combinedChar, ByRef<::Il2CppChar> lowChar, ByRef<::Il2CppChar> highChar);
     // System.Boolean IsOnlyWhitespace(System.String str)
-    // Offset: 0x1B6398C
+    // Offset: 0x1622AE4
     bool IsOnlyWhitespace(::StringW str);
     // System.Int32 IsOnlyWhitespaceWithPos(System.String str)
-    // Offset: 0x1B6450C
+    // Offset: 0x162346C
     int IsOnlyWhitespaceWithPos(::StringW str);
     // System.Int32 IsOnlyCharData(System.String str)
-    // Offset: 0x1B645A4
+    // Offset: 0x1623504
     int IsOnlyCharData(::StringW str);
+    // static System.Boolean IsOnlyDigits(System.String str, System.Int32 startPos, System.Int32 len)
+    // Offset: 0x16235EC
+    static bool IsOnlyDigits(::StringW str, int startPos, int len);
     // System.Int32 IsPublicId(System.String str)
-    // Offset: 0x1B6468C
+    // Offset: 0x1623660
     int IsPublicId(::StringW str);
     // static private System.Boolean InRange(System.Int32 value, System.Int32 start, System.Int32 end)
-    // Offset: 0x1B644D8
+    // Offset: 0x16233E8
     static bool InRange(int value, int start, int end);
   }; // System.Xml.XmlCharType
   #pragma pack(pop)
@@ -161,6 +191,33 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "IsWhiteSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
   }
 };
+// Writing MetadataGetter for method: System::Xml::XmlCharType::IsNCNameSingleChar
+// Il2CppName: IsNCNameSingleChar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlCharType::*)(::Il2CppChar)>(&System::Xml::XmlCharType::IsNCNameSingleChar)> {
+  static const MethodInfo* get() {
+    static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "IsNCNameSingleChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlCharType::IsStartNCNameSingleChar
+// Il2CppName: IsStartNCNameSingleChar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlCharType::*)(::Il2CppChar)>(&System::Xml::XmlCharType::IsStartNCNameSingleChar)> {
+  static const MethodInfo* get() {
+    static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "IsStartNCNameSingleChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlCharType::IsNameSingleChar
+// Il2CppName: IsNameSingleChar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlCharType::*)(::Il2CppChar)>(&System::Xml::XmlCharType::IsNameSingleChar)> {
+  static const MethodInfo* get() {
+    static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "IsNameSingleChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlCharType::IsCharData
 // Il2CppName: IsCharData
 template<>
@@ -186,6 +243,51 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
   static const MethodInfo* get() {
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "IsTextChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlCharType::IsLetter
+// Il2CppName: IsLetter
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlCharType::*)(::Il2CppChar)>(&System::Xml::XmlCharType::IsLetter)> {
+  static const MethodInfo* get() {
+    static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "IsLetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlCharType::IsNCNameCharXml4e
+// Il2CppName: IsNCNameCharXml4e
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlCharType::*)(::Il2CppChar)>(&System::Xml::XmlCharType::IsNCNameCharXml4e)> {
+  static const MethodInfo* get() {
+    static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "IsNCNameCharXml4e", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlCharType::IsStartNCNameCharXml4e
+// Il2CppName: IsStartNCNameCharXml4e
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlCharType::*)(::Il2CppChar)>(&System::Xml::XmlCharType::IsStartNCNameCharXml4e)> {
+  static const MethodInfo* get() {
+    static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "IsStartNCNameCharXml4e", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlCharType::IsNameCharXml4e
+// Il2CppName: IsNameCharXml4e
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlCharType::*)(::Il2CppChar)>(&System::Xml::XmlCharType::IsNameCharXml4e)> {
+  static const MethodInfo* get() {
+    static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "IsNameCharXml4e", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlCharType::IsDigit
+// Il2CppName: IsDigit
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&System::Xml::XmlCharType::IsDigit)> {
+  static const MethodInfo* get() {
+    static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "IsDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
   }
 };
 // Writing MetadataGetter for method: System::Xml::XmlCharType::IsHighSurrogate
@@ -225,6 +327,17 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "CombineSurrogateChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lowChar, highChar});
   }
 };
+// Writing MetadataGetter for method: System::Xml::XmlCharType::SplitSurrogateChar
+// Il2CppName: SplitSurrogateChar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ByRef<::Il2CppChar>, ByRef<::Il2CppChar>)>(&System::Xml::XmlCharType::SplitSurrogateChar)> {
+  static const MethodInfo* get() {
+    static auto* combinedChar = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* lowChar = &::il2cpp_utils::GetClassFromName("System", "Char")->this_arg;
+    static auto* highChar = &::il2cpp_utils::GetClassFromName("System", "Char")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "SplitSurrogateChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{combinedChar, lowChar, highChar});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlCharType::IsOnlyWhitespace
 // Il2CppName: IsOnlyWhitespace
 template<>
@@ -250,6 +363,17 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "IsOnlyCharData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlCharType::IsOnlyDigits
+// Il2CppName: IsOnlyDigits
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, int, int)>(&System::Xml::XmlCharType::IsOnlyDigits)> {
+  static const MethodInfo* get() {
+    static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* startPos = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "IsOnlyDigits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, startPos, len});
   }
 };
 // Writing MetadataGetter for method: System::Xml::XmlCharType::IsPublicId

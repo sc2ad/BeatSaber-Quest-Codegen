@@ -38,19 +38,28 @@ namespace System::Runtime::CompilerServices {
   class RuntimeHelpers : public ::Il2CppObject {
     public:
     // static public System.Int32 get_OffsetToStringData()
-    // Offset: 0x16216FC
+    // Offset: 0x1C6AABC
     static int get_OffsetToStringData();
     // static private System.Void InitializeArray(System.Array array, System.IntPtr fldHandle)
-    // Offset: 0x162165C
+    // Offset: 0x1C6AA1C
     static void InitializeArray(System::Array* array, System::IntPtr fldHandle);
     // static public System.Void InitializeArray(System.Array array, System.RuntimeFieldHandle fldHandle)
-    // Offset: 0x1621660
+    // Offset: 0x1C6AA20
     static void InitializeArray(System::Array* array, System::RuntimeFieldHandle fldHandle);
     // static public System.Int32 GetHashCode(System.Object o)
-    // Offset: 0x1621700
+    // Offset: 0x1C6AAC0
     static int GetHashCode(::Il2CppObject* o);
+    // static public System.Object GetObjectValue(System.Object obj)
+    // Offset: 0x1C6AAC8
+    static ::Il2CppObject* GetObjectValue(::Il2CppObject* obj);
+    // static private System.Boolean SufficientExecutionStack()
+    // Offset: 0x1C6AACC
+    static bool SufficientExecutionStack();
+    // static public System.Boolean TryEnsureSufficientExecutionStack()
+    // Offset: 0x1C6AAD0
+    static bool TryEnsureSufficientExecutionStack();
     // static public System.Void PrepareConstrainedRegions()
-    // Offset: 0x1621708
+    // Offset: 0x1C6AAD4
     static void PrepareConstrainedRegions();
     // static public System.Boolean IsReferenceOrContainsReferences()
     // Offset: 0xFFFFFFFF
@@ -100,6 +109,31 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
   static const MethodInfo* get() {
     static auto* o = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::RuntimeHelpers*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o});
+  }
+};
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::RuntimeHelpers::GetObjectValue
+// Il2CppName: GetObjectValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*)>(&System::Runtime::CompilerServices::RuntimeHelpers::GetObjectValue)> {
+  static const MethodInfo* get() {
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::RuntimeHelpers*), "GetObjectValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
+  }
+};
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::RuntimeHelpers::SufficientExecutionStack
+// Il2CppName: SufficientExecutionStack
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Runtime::CompilerServices::RuntimeHelpers::SufficientExecutionStack)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::RuntimeHelpers*), "SufficientExecutionStack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::RuntimeHelpers::TryEnsureSufficientExecutionStack
+// Il2CppName: TryEnsureSufficientExecutionStack
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Runtime::CompilerServices::RuntimeHelpers::TryEnsureSufficientExecutionStack)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::RuntimeHelpers*), "TryEnsureSufficientExecutionStack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::RuntimeHelpers::PrepareConstrainedRegions

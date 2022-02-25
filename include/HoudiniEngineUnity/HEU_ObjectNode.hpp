@@ -44,7 +44,6 @@ namespace HoudiniEngineUnity {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System::Text
@@ -133,112 +132,112 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HAPI_Transform _objectTransform
     HoudiniEngineUnity::HAPI_Transform& dyn__objectTransform();
     // public System.Int32 get_ObjectID()
-    // Offset: 0x159D148
+    // Offset: 0x178C5F8
     int get_ObjectID();
     // public System.String get_ObjectName()
-    // Offset: 0x159D150
+    // Offset: 0x178C600
     ::StringW get_ObjectName();
     // public HoudiniEngineUnity.HEU_HoudiniAsset get_ParentAsset()
-    // Offset: 0x159D158
+    // Offset: 0x178C608
     HoudiniEngineUnity::HEU_HoudiniAsset* get_ParentAsset();
     // public System.Boolean IsInstanced()
-    // Offset: 0x159D160
+    // Offset: 0x178C610
     bool IsInstanced();
     // public System.Boolean IsVisible()
-    // Offset: 0x159D168
+    // Offset: 0x178C618
     bool IsVisible();
     // public System.Void Reset()
-    // Offset: 0x159D198
+    // Offset: 0x178C648
     void Reset();
     // private System.Void SyncWithObjectInfo(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x159D258
+    // Offset: 0x178C708
     void SyncWithObjectInfo(HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void Initialize(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HAPI_ObjectInfo objectInfo, HoudiniEngineUnity.HAPI_Transform objectTranform, HoudiniEngineUnity.HEU_HoudiniAsset parentAsset)
-    // Offset: 0x159D35C
+    // Offset: 0x178C80C
     void Initialize(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HAPI_ObjectInfo objectInfo, HoudiniEngineUnity::HAPI_Transform objectTranform, HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
     // public System.Void DestroyAllData(System.Boolean bIsRebuild)
-    // Offset: 0x159D718
+    // Offset: 0x178CBC8
     void DestroyAllData(bool bIsRebuild);
     // private HoudiniEngineUnity.HEU_GeoNode CreateGeoNode(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HAPI_GeoInfo geoInfo)
-    // Offset: 0x159D65C
+    // Offset: 0x178CB0C
     HoudiniEngineUnity::HEU_GeoNode* CreateGeoNode(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HAPI_GeoInfo geoInfo);
     // public System.Void GetDebugInfo(System.Text.StringBuilder sb)
-    // Offset: 0x159D81C
+    // Offset: 0x178CCCC
     void GetDebugInfo(System::Text::StringBuilder* sb);
     // public System.Void SetObjectInfo(HoudiniEngineUnity.HAPI_ObjectInfo newObjectInfo)
-    // Offset: 0x159DA6C
+    // Offset: 0x178CF1C
     void SetObjectInfo(HoudiniEngineUnity::HAPI_ObjectInfo newObjectInfo);
     // public System.Void UpdateObject(HoudiniEngineUnity.HEU_SessionBase session, System.Boolean bForceUpdate)
-    // Offset: 0x159DA88
+    // Offset: 0x178CF38
     void UpdateObject(HoudiniEngineUnity::HEU_SessionBase* session, bool bForceUpdate);
     // public System.Void GenerateGeometry(HoudiniEngineUnity.HEU_SessionBase session, System.Boolean bRebuild)
-    // Offset: 0x159E228
+    // Offset: 0x178D6D8
     void GenerateGeometry(HoudiniEngineUnity::HEU_SessionBase* session, bool bRebuild);
     // public System.Void GeneratePartInstances(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x159E90C
+    // Offset: 0x178DDBC
     void GeneratePartInstances(HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void GenerateAttributesStore(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x159EA14
+    // Offset: 0x178DEC4
     void GenerateAttributesStore(HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void ApplyObjectTransformToGeoNodes()
-    // Offset: 0x159E80C
+    // Offset: 0x178DCBC
     void ApplyObjectTransformToGeoNodes();
     // public System.Boolean IsUsingMaterial(HoudiniEngineUnity.HEU_MaterialData materialData)
-    // Offset: 0x159EB1C
+    // Offset: 0x178DFCC
     bool IsUsingMaterial(HoudiniEngineUnity::HEU_MaterialData* materialData);
     // public System.Void GetClonableParts(System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_PartData> clonableParts)
-    // Offset: 0x159EC34
+    // Offset: 0x178E0E4
     void GetClonableParts(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_PartData*>* clonableParts);
     // public System.Void GetOutputGameObjects(System.Collections.Generic.List`1<UnityEngine.GameObject> outputObjects)
-    // Offset: 0x159ED54
+    // Offset: 0x178E204
     void GetOutputGameObjects(System::Collections::Generic::List_1<UnityEngine::GameObject*>* outputObjects);
     // public System.Void GetOutput(System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_GeneratedOutput> outputs)
-    // Offset: 0x159EE5C
+    // Offset: 0x178E30C
     void GetOutput(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_GeneratedOutput*>* outputs);
     // public HoudiniEngineUnity.HEU_PartData GetHDAPartWithGameObject(UnityEngine.GameObject outputGameObject)
-    // Offset: 0x159EF64
+    // Offset: 0x178E414
     HoudiniEngineUnity::HEU_PartData* GetHDAPartWithGameObject(UnityEngine::GameObject* outputGameObject);
     // public HoudiniEngineUnity.HEU_GeoNode GetGeoNode(System.String geoName)
-    // Offset: 0x159F0BC
+    // Offset: 0x178E56C
     HoudiniEngineUnity::HEU_GeoNode* GetGeoNode(::StringW geoName);
     // public System.Void GetCurves(System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_Curve> curves, System.Boolean bEditableOnly)
-    // Offset: 0x159F1E8
+    // Offset: 0x178E698
     void GetCurves(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_Curve*>* curves, bool bEditableOnly);
     // public System.Void GetOutputGeoNodes(System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_GeoNode> outGeoNodes)
-    // Offset: 0x159F2FC
+    // Offset: 0x178E7AC
     void GetOutputGeoNodes(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_GeoNode*>* outGeoNodes);
     // public System.Void GenerateObjectInstances(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x159F430
+    // Offset: 0x178E8E0
     void GenerateObjectInstances(HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void ClearObjectInstances(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x159FA9C
+    // Offset: 0x178EF4C
     void ClearObjectInstances(HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void PopulateObjectInstanceInfos(System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ObjectInstanceInfo> objInstanceInfos)
-    // Offset: 0x159FC68
+    // Offset: 0x178F118
     void PopulateObjectInstanceInfos(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ObjectInstanceInfo*>* objInstanceInfos);
     // public System.Void ProcessUnityScriptAttributes(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x159FDC0
+    // Offset: 0x178F270
     void ProcessUnityScriptAttributes(HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void HideAllGeometry()
-    // Offset: 0x159FEC8
+    // Offset: 0x178F378
     void HideAllGeometry();
     // public System.Void CalculateVisibility()
-    // Offset: 0x159FFC0
+    // Offset: 0x178F470
     void CalculateVisibility();
     // public System.Void CalculateColliderState()
-    // Offset: 0x15A00BC
+    // Offset: 0x178F56C
     void CalculateColliderState();
     // public System.Void DisableAllColliders()
-    // Offset: 0x15A01B4
+    // Offset: 0x178F664
     void DisableAllColliders();
     // public System.Boolean IsInstancer()
-    // Offset: 0x159F984
+    // Offset: 0x178EE34
     bool IsInstancer();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_ObjectNode other)
-    // Offset: 0x15A0324
+    // Offset: 0x178F7D4
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_ObjectNode* other);
     // public System.Void .ctor()
-    // Offset: 0x159D170
+    // Offset: 0x178C620
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -249,7 +248,7 @@ namespace HoudiniEngineUnity {
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ObjectNode*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x15A02AC
+    // Offset: 0x178F75C
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

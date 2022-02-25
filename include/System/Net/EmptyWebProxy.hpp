@@ -67,16 +67,16 @@ namespace System::Net {
     // Get instance field reference: private System.Net.ICredentials m_credentials
     System::Net::ICredentials*& dyn_m_credentials();
     // public System.Net.ICredentials get_Credentials()
-    // Offset: 0x15EE770
+    // Offset: 0x1AB3A44
     System::Net::ICredentials* get_Credentials();
     // public System.Uri GetProxy(System.Uri uri)
-    // Offset: 0x15EE760
+    // Offset: 0x1AB3A34
     System::Uri* GetProxy(System::Uri* uri);
     // public System.Boolean IsBypassed(System.Uri uri)
-    // Offset: 0x15EE768
+    // Offset: 0x1AB3A3C
     bool IsBypassed(System::Uri* uri);
     // public System.Void .ctor()
-    // Offset: 0x15EE758
+    // Offset: 0x1AB3A2C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

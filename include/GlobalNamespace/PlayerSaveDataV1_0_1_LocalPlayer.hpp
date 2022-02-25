@@ -17,7 +17,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -125,7 +124,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public PlayerSaveDataV1_0_1/AchievementsData achievementsData
     GlobalNamespace::PlayerSaveDataV1_0_1::AchievementsData*& dyn_achievementsData();
     // public System.Void .ctor()
-    // Offset: 0x11AAAD4
+    // Offset: 0x13E3950
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

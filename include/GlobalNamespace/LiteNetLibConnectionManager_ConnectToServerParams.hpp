@@ -33,7 +33,7 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LiteNetLibConnectionManager::ConnectToServerParams : public GlobalNamespace::LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase {
     public:
-    // Writing base type padding for base size: 0x34 to desired offset: 0x38
+    // Writing base type padding for base size: 0x24 to desired offset: 0x28
     char ___base_padding[0x4] = {};
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -44,6 +44,18 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
+    // public System.String userId
+    // Size: 0x8
+    // Offset: 0x28
+    ::StringW userId;
+    // Field size check
+    static_assert(sizeof(::StringW) == 0x8);
+    // public System.String userName
+    // Size: 0x8
+    // Offset: 0x30
+    ::StringW userName;
+    // Field size check
+    static_assert(sizeof(::StringW) == 0x8);
     // public System.Net.IPEndPoint endPoint
     // Size: 0x8
     // Offset: 0x38
@@ -69,6 +81,10 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     public:
+    // Get instance field reference: public System.String userId
+    ::StringW& dyn_userId();
+    // Get instance field reference: public System.String userName
+    ::StringW& dyn_userName();
     // Get instance field reference: public System.Net.IPEndPoint endPoint
     System::Net::IPEndPoint*& dyn_endPoint();
     // Get instance field reference: public System.String serverUserId
@@ -78,7 +94,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean serverIsConnectionOwner
     bool& dyn_serverIsConnectionOwner();
     // public System.Void .ctor()
-    // Offset: 0x156E58C
+    // Offset: 0x2C4BE60
     // Implemented from: LiteNetLibConnectionManager/LiteNetLibConnectionParamsBase
     // Base method: System.Void LiteNetLibConnectionParamsBase::.ctor()
     // Base method: System.Void Object::.ctor()

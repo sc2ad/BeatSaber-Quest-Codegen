@@ -10,10 +10,8 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: HashSet`1<T>
-  template<typename T>
   class HashSet_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -48,16 +46,16 @@ namespace UnityEngine::UI {
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.HashSet`1<UnityEngine.UI.Text>> m_Tracked
     static void _set_m_Tracked(System::Collections::Generic::Dictionary_2<UnityEngine::Font*, System::Collections::Generic::HashSet_1<UnityEngine::UI::Text*>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1B0E514
+    // Offset: 0x1D87A0C
     static void _cctor();
     // static public System.Void TrackText(UnityEngine.UI.Text t)
-    // Offset: 0x1B0DFF4
+    // Offset: 0x1D874EC
     static void TrackText(UnityEngine::UI::Text* t);
     // static private System.Void RebuildForFont(UnityEngine.Font f)
-    // Offset: 0x1B0E200
+    // Offset: 0x1D876F8
     static void RebuildForFont(UnityEngine::Font* f);
     // static public System.Void UntrackText(UnityEngine.UI.Text t)
-    // Offset: 0x1B0E344
+    // Offset: 0x1D8783C
     static void UntrackText(UnityEngine::UI::Text* t);
   }; // UnityEngine.UI.FontUpdateTracker
   #pragma pack(pop)

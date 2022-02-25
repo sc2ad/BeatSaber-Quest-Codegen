@@ -16,10 +16,8 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
   // Forward declaring type: Action`2<T1, T2>
-  template<typename T1, typename T2>
   class Action_2;
 }
 // Completed forward declares
@@ -68,25 +66,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<ObstacleControllerBase,System.Single> didStartDissolvingEvent
     System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>*& dyn_didStartDissolvingEvent();
     // public System.Void add_didInitEvent(System.Action`1<ObstacleControllerBase> value)
-    // Offset: 0x13462CC
+    // Offset: 0x2B338D8
     void add_didInitEvent(System::Action_1<GlobalNamespace::ObstacleControllerBase*>* value);
     // public System.Void remove_didInitEvent(System.Action`1<ObstacleControllerBase> value)
-    // Offset: 0x1346370
+    // Offset: 0x2B3397C
     void remove_didInitEvent(System::Action_1<GlobalNamespace::ObstacleControllerBase*>* value);
     // public System.Void add_didStartDissolvingEvent(System.Action`2<ObstacleControllerBase,System.Single> value)
-    // Offset: 0x1346414
+    // Offset: 0x2B33A20
     void add_didStartDissolvingEvent(System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>* value);
     // public System.Void remove_didStartDissolvingEvent(System.Action`2<ObstacleControllerBase,System.Single> value)
-    // Offset: 0x13464B8
+    // Offset: 0x2B33AC4
     void remove_didStartDissolvingEvent(System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>* value);
     // protected System.Void InvokeDidInitEvent(ObstacleControllerBase obstacleController)
-    // Offset: 0x1345B68
+    // Offset: 0x2B33134
     void InvokeDidInitEvent(GlobalNamespace::ObstacleControllerBase* obstacleController);
     // protected System.Void InvokeDidStartDissolvingEvent(ObstacleControllerBase obstacleController, System.Single duration)
-    // Offset: 0x1346184
+    // Offset: 0x2B33790
     void InvokeDidStartDissolvingEvent(GlobalNamespace::ObstacleControllerBase* obstacleController, float duration);
     // public System.Void .ctor()
-    // Offset: 0x13460A0
+    // Offset: 0x2B336AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

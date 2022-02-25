@@ -24,22 +24,18 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: DelegateList`1<T>
-  template<typename T>
   class DelegateList_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Completed forward declares
@@ -125,25 +121,25 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     // Get instance field reference: private System.Single fpsAvg
     float& dyn_fpsAvg();
     // static public System.Guid get_PlayerConnectionGuid()
-    // Offset: 0x1BE4E00
+    // Offset: 0x1E20090
     static System::Guid get_PlayerConnectionGuid();
     // static public System.Boolean RegisterEventHandler(System.Action`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> handler, System.Boolean register, System.Boolean create)
-    // Offset: 0x1BE50A8
+    // Offset: 0x1E20338
     static bool RegisterEventHandler(System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler, bool _register, bool create);
     // System.Void RegisterEventHandler(System.Action`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> handler)
-    // Offset: 0x1BE54D8
+    // Offset: 0x1E20768
     void RegisterEventHandler(System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler);
     // public System.Void UnregisterEventHandler(System.Action`1<UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> handler)
-    // Offset: 0x1BE51CC
+    // Offset: 0x1E2045C
     void UnregisterEventHandler(System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler);
     // public System.Void PostEvent(UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent diagnosticEvent)
-    // Offset: 0x1BE52FC
+    // Offset: 0x1E2058C
     void PostEvent(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent diagnosticEvent);
     // private System.Void Update()
-    // Offset: 0x1BE59B0
+    // Offset: 0x1E20C40
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1BE5B54
+    // Offset: 0x1E20DE4
     // Implemented from: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
     // Base method: System.Void ComponentSingleton_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -157,12 +153,12 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
       return THROW_UNLESS((::il2cpp_utils::New<DiagnosticEventCollectorSingleton*, creationType>()));
     }
     // protected override System.String GetGameObjectName()
-    // Offset: 0x1BE5490
+    // Offset: 0x1E20720
     // Implemented from: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
     // Base method: System.String ComponentSingleton_1::GetGameObjectName()
     ::StringW GetGameObjectName();
     // private System.Void Awake()
-    // Offset: 0x1BE58C8
+    // Offset: 0x1E20B58
     // Implemented from: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
     // Base method: System.Void ComponentSingleton_1::Awake()
     void Awake();

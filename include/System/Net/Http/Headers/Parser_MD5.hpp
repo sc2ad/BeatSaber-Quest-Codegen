@@ -17,7 +17,6 @@ namespace System::Net::Http::Headers {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -39,10 +38,10 @@ namespace System::Net::Http::Headers {
     // Set static field: static public readonly System.Func`2<System.Object,System.String> ToString
     static void _set_ToString(System::Func_2<::Il2CppObject*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x17C49AC
+    // Offset: 0x18FD694
     static void _cctor();
     // static public System.Boolean TryParse(System.String input, out System.Byte[] result)
-    // Offset: 0x17C48AC
+    // Offset: 0x18FD594
     static bool TryParse(::StringW input, ByRef<::ArrayW<uint8_t>> result);
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.MD5
   #pragma pack(pop)

@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class SpawnRotationChevron::Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::SpawnRotationChevron*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x121A36C
+    // Offset: 0x13D51DC
     // Implemented from: Zenject.MonoMemoryPool`1
     // Base method: System.Void MonoMemoryPool_1::.ctor()
     // Base method: System.Void MemoryPool_1::.ctor()

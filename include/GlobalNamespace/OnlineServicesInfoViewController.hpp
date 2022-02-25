@@ -95,14 +95,14 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* refreshButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
-    // [InjectAttribute] Offset: 0xF46F0C
+    // [InjectAttribute] Offset: 0x124D810
     // private readonly OnlineServices.ServerManager _serverManager
     // Size: 0x8
     // Offset: 0x90
     OnlineServices::ServerManager* serverManager;
     // Field size check
     static_assert(sizeof(OnlineServices::ServerManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF46F1C
+    // [InjectAttribute] Offset: 0x124D820
     // private readonly IPlatformUserModel _platformUserModel
     // Size: 0x8
     // Offset: 0x98
@@ -131,13 +131,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Text.StringBuilder _sb
     System::Text::StringBuilder*& dyn__sb();
     // private System.Void GetServerStatus()
-    // Offset: 0x1144F88
+    // Offset: 0x2AB4DF4
     void GetServerStatus();
     // private System.Void AppendLine(System.String line)
-    // Offset: 0x1145040
+    // Offset: 0x2AB4EAC
     void AppendLine(::StringW line);
     // public System.Void .ctor()
-    // Offset: 0x1145098
+    // Offset: 0x2AB4F04
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -151,7 +151,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OnlineServicesInfoViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1144ED4
+    // Offset: 0x2AB4D40
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

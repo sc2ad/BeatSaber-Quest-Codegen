@@ -24,7 +24,6 @@ namespace System {
   // Forward declaring type: Type
   class Type;
   // Forward declaring type: Func`1<TResult>
-  template<typename TResult>
   class Func_1;
   // Forward declaring type: Exception
   class Exception;
@@ -42,13 +41,11 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Forward declaring namespace: UnityEngine::ResourceManagement::AsyncOperations
 namespace UnityEngine::ResourceManagement::AsyncOperations {
   // Forward declaring type: AsyncOperationHandle`1<TObject>
-  template<typename TObject>
   struct AsyncOperationHandle_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IList`1<T>
-  template<typename T>
   class IList_1;
 }
 // Completed forward declares

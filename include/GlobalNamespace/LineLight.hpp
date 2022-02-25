@@ -18,7 +18,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -80,28 +79,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _color
     UnityEngine::Color& dyn__color();
     // public UnityEngine.Vector3 get_p0()
-    // Offset: 0x1DB88C8
+    // Offset: 0x208D16C
     UnityEngine::Vector3 get_p0();
     // public UnityEngine.Vector3 get_p1()
-    // Offset: 0x1DB88D4
+    // Offset: 0x208D178
     UnityEngine::Vector3 get_p1();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1DB88E0
+    // Offset: 0x208D184
     UnityEngine::Color get_color();
     // static public System.Collections.Generic.List`1<LineLight> get_lineLights()
-    // Offset: 0x1DB88EC
+    // Offset: 0x208D190
     static System::Collections::Generic::List_1<GlobalNamespace::LineLight*>* get_lineLights();
     // protected System.Void OnEnable()
-    // Offset: 0x1DB8954
+    // Offset: 0x208D1F8
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1DB89D8
+    // Offset: 0x208D27C
     void OnDisable();
     // protected System.Void OnDrawGizmos()
-    // Offset: 0x1DB8A5C
+    // Offset: 0x208D300
     void OnDrawGizmos();
     // public System.Void .ctor()
-    // Offset: 0x1DB8AF0
+    // Offset: 0x208D394
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -114,7 +113,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LineLight*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1DB8AF8
+    // Offset: 0x208D39C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

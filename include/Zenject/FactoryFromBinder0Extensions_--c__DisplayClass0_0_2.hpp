@@ -19,12 +19,10 @@
 // Forward declaring namespace: Zenject
 namespace Zenject {
   // Forward declaring type: IPoolable`1<TParam1>
-  template<typename TParam1>
   class IPoolable_1;
   // Forward declaring type: IMemoryPool
   class IMemoryPool;
   // Forward declaring type: MemoryPool`2<TParam1, TValue>
-  template<typename TParam1, typename TValue>
   class MemoryPool_2;
   // Forward declaring type: IProvider
   class IProvider;

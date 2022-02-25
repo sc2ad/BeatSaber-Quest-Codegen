@@ -49,7 +49,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [HeaderAttribute] Offset: 0xF45000
+    // [HeaderAttribute] Offset: 0x124B904
     // private HMUI.TextPageScrollView _textPageScrollView
     // Size: 0x8
     // Offset: 0x70
@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private LocalizedTextAsset _localizedTextAsset
     GlobalNamespace::LocalizedTextAsset*& dyn__localizedTextAsset();
     // public System.Void .ctor()
-    // Offset: 0x11DF950
+    // Offset: 0x13FC024
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -82,7 +82,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EulaDisplayViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x11DF8FC
+    // Offset: 0x13FBFD0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

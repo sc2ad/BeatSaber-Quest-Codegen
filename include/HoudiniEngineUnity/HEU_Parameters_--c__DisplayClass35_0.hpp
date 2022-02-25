@@ -18,7 +18,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Predicate`1<T>
-  template<typename T>
   class Predicate_1;
 }
 // Completed forward declares
@@ -63,10 +62,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Predicate`1<HoudiniEngineUnity.HAPI_ParmInfo> <>9__0
     System::Predicate_1<HoudiniEngineUnity::HAPI_ParmInfo>*& dyn_$$9__0();
     // System.Boolean <Initialize>b__0(HoudiniEngineUnity.HAPI_ParmInfo p)
-    // Offset: 0x181E490
+    // Offset: 0x1A4C0F0
     bool $Initialize$b__0(HoudiniEngineUnity::HAPI_ParmInfo p);
     // public System.Void .ctor()
-    // Offset: 0x181BB54
+    // Offset: 0x1A497B4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

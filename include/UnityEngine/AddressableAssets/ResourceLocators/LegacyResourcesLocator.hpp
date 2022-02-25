@@ -17,10 +17,8 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
   // Forward declaring type: IList`1<T>
-  template<typename T>
   class IList_1;
 }
 // Forward declaring namespace: System
@@ -55,16 +53,16 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
       return *reinterpret_cast<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(this);
     }
     // public System.Collections.Generic.IEnumerable`1<System.Object> get_Keys()
-    // Offset: 0x1613F38
+    // Offset: 0x17E9488
     System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* get_Keys();
     // public System.String get_LocatorId()
-    // Offset: 0x1613F40
+    // Offset: 0x17E9490
     ::StringW get_LocatorId();
     // public System.Boolean Locate(System.Object key, System.Type type, out System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations)
-    // Offset: 0x1613CE4
+    // Offset: 0x17E9234
     bool Locate(::Il2CppObject* key, System::Type* type, ByRef<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
     // public System.Void .ctor()
-    // Offset: 0x1613F88
+    // Offset: 0x17E94D8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

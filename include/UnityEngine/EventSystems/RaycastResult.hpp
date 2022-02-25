@@ -138,19 +138,19 @@ namespace UnityEngine::EventSystems {
     // Get instance field reference: public System.Int32 displayIndex
     int& dyn_displayIndex();
     // public UnityEngine.GameObject get_gameObject()
-    // Offset: 0x1668D58
+    // Offset: 0x186E0AC
     UnityEngine::GameObject* get_gameObject();
     // public System.Void set_gameObject(UnityEngine.GameObject value)
-    // Offset: 0x1668D60
+    // Offset: 0x186E0B4
     void set_gameObject(UnityEngine::GameObject* value);
     // public System.Boolean get_isValid()
-    // Offset: 0x1668D68
+    // Offset: 0x186E0BC
     bool get_isValid();
     // public System.Void Clear()
-    // Offset: 0x1668E24
+    // Offset: 0x186E178
     void Clear();
     // public override System.String ToString()
-    // Offset: 0x16671DC
+    // Offset: 0x186C530
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

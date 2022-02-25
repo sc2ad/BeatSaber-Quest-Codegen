@@ -74,12 +74,12 @@ namespace GlobalNamespace {
       constexpr operator int() const noexcept {
         return value;
       }
-      // static field const value: static public LevelCompletionResults/LevelEndStateType None
-      static constexpr const int None = 0;
-      // Get static field: static public LevelCompletionResults/LevelEndStateType None
-      static GlobalNamespace::LevelCompletionResults::LevelEndStateType _get_None();
-      // Set static field: static public LevelCompletionResults/LevelEndStateType None
-      static void _set_None(GlobalNamespace::LevelCompletionResults::LevelEndStateType value);
+      // static field const value: static public LevelCompletionResults/LevelEndStateType Incomplete
+      static constexpr const int Incomplete = 0;
+      // Get static field: static public LevelCompletionResults/LevelEndStateType Incomplete
+      static GlobalNamespace::LevelCompletionResults::LevelEndStateType _get_Incomplete();
+      // Set static field: static public LevelCompletionResults/LevelEndStateType Incomplete
+      static void _set_Incomplete(GlobalNamespace::LevelCompletionResults::LevelEndStateType value);
       // static field const value: static public LevelCompletionResults/LevelEndStateType Cleared
       static constexpr const int Cleared = 1;
       // Get static field: static public LevelCompletionResults/LevelEndStateType Cleared
@@ -399,26 +399,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single endSongTime
     float& dyn_endSongTime();
     // public System.Void .ctor(GameplayModifiers gameplayModifiers, System.Int32 modifiedScore, System.Int32 rawScore, RankModel/Rank rank, System.Boolean fullCombo, System.Single leftSaberMovementDistance, System.Single rightSaberMovementDistance, System.Single leftHandMovementDistance, System.Single rightHandMovementDistance, System.Single songDuration, LevelCompletionResults/LevelEndStateType levelEndStateType, LevelCompletionResults/LevelEndAction levelEndAction, System.Single energy, System.Int32 goodCutsCount, System.Int32 badCutsCount, System.Int32 missedCount, System.Int32 notGoodCount, System.Int32 okCount, System.Int32 averageCutScore, System.Int32 maxCutScore, System.Single averageCutDistanceRawScore, System.Int32 maxCombo, System.Single minDirDeviation, System.Single maxDirDeviation, System.Single averageDirDeviation, System.Single minTimeDeviation, System.Single maxTimeDeviation, System.Single averageTimeDeviation, System.Single endSongTime)
-    // Offset: 0x2621818
+    // Offset: 0x29733C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelCompletionResults* New_ctor(GlobalNamespace::GameplayModifiers* gameplayModifiers, int modifiedScore, int rawScore, GlobalNamespace::RankModel::Rank rank, bool fullCombo, float leftSaberMovementDistance, float rightSaberMovementDistance, float leftHandMovementDistance, float rightHandMovementDistance, float songDuration, GlobalNamespace::LevelCompletionResults::LevelEndStateType levelEndStateType, GlobalNamespace::LevelCompletionResults::LevelEndAction levelEndAction, float energy, int goodCutsCount, int badCutsCount, int missedCount, int notGoodCount, int okCount, int averageCutScore, int maxCutScore, float averageCutDistanceRawScore, int maxCombo, float minDirDeviation, float maxDirDeviation, float averageDirDeviation, float minTimeDeviation, float maxTimeDeviation, float averageTimeDeviation, float endSongTime) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::LevelCompletionResults::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelCompletionResults*, creationType>(gameplayModifiers, modifiedScore, rawScore, rank, fullCombo, leftSaberMovementDistance, rightSaberMovementDistance, leftHandMovementDistance, rightHandMovementDistance, songDuration, levelEndStateType, levelEndAction, energy, goodCutsCount, badCutsCount, missedCount, notGoodCount, okCount, averageCutScore, maxCutScore, averageCutDistanceRawScore, maxCombo, minDirDeviation, maxDirDeviation, averageDirDeviation, minTimeDeviation, maxTimeDeviation, averageTimeDeviation, endSongTime)));
     }
     // public System.Int32 CompareTo(System.Object obj)
-    // Offset: 0x2621994
+    // Offset: 0x2973540
     int CompareTo(::Il2CppObject* obj);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2621AB0
+    // Offset: 0x297365C
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // private LevelCompletionResults LiteNetLib.Utils.INetImmutableSerializable<LevelCompletionResults>.CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2621D98
+    // Offset: 0x2973944
     GlobalNamespace::LevelCompletionResults* LiteNetLib_Utils_INetImmutableSerializable$LevelCompletionResults$_CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // static public LevelCompletionResults CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2621DA0
+    // Offset: 0x297394C
     static GlobalNamespace::LevelCompletionResults* CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x2621810
+    // Offset: 0x29733BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

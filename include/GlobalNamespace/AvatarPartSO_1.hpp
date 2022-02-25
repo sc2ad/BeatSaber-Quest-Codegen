@@ -18,7 +18,6 @@
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: AvatarPartSO`1<T>
-  template<typename T>
   class AvatarPartSO_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -46,14 +45,14 @@ namespace GlobalNamespace {
     ::StringW id;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0xF38CF8
+    // [LocalizationKeyAttribute] Offset: 0x123F69C
     // private System.String _localizationKey
     // Size: 0x8
     // Offset: 0x0
     ::StringW localizationKey;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [NullAllowed] Offset: 0xF38D30
+    // [NullAllowed] Offset: 0x123F6D4
     // private T _partAsset
     // Size: 0xFFFFFFFF
     // Offset: 0x0

@@ -56,7 +56,6 @@ namespace Zenject {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IReadOnlyList`1<T>
-  template<typename T>
   class IReadOnlyList_1;
 }
 // Forward declaring namespace: System
@@ -127,7 +126,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerResultsTableCell* cellPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerResultsTableCell*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF48818
+    // [SpaceAttribute] Offset: 0x124F11C
     // private System.Single _startRowXPosition
     // Size: 0x4
     // Offset: 0x38
@@ -178,7 +177,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* multiplayerOffsetByLocalPlayerPosition;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*) == 0x8);
-    // [HeaderAttribute] Offset: 0xF488C0
+    // [HeaderAttribute] Offset: 0x124F1C4
     // private UnityEngine.AudioSource _outroSfxAudioSource
     // Size: 0x8
     // Offset: 0x60
@@ -197,21 +196,21 @@ namespace GlobalNamespace {
     UnityEngine::AudioClip* avatarSlideAudioClip;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioClip*) == 0x8);
-    // [InjectAttribute] Offset: 0xF4892C
+    // [InjectAttribute] Offset: 0x124F230
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x78
     Tweening::TimeTweeningManager* tweeningManager;
     // Field size check
     static_assert(sizeof(Tweening::TimeTweeningManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF4893C
+    // [InjectAttribute] Offset: 0x124F240
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x80
     GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0xF4894C
+    // [InjectAttribute] Offset: 0x124F250
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x88
@@ -308,43 +307,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Quaternion _lastParentRotation
     UnityEngine::Quaternion& dyn__lastParentRotation();
     // public System.Single CellSize()
-    // Offset: 0x1175D70
+    // Offset: 0x2AA7B44
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x1175D78
+    // Offset: 0x2AA7B4C
     int NumberOfCells();
     // protected System.Void Awake()
-    // Offset: 0x1175DE8
+    // Offset: 0x2AA7BBC
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1175E48
+    // Offset: 0x2AA7C1C
     void OnDestroy();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 idx)
-    // Offset: 0x1175EE0
+    // Offset: 0x2AA7CB4
     HMUI::TableCell* CellForIdx(HMUI::TableView* tableView, int idx);
     // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<MultiplayerPlayerResultsData> dataList)
-    // Offset: 0x1176340
+    // Offset: 0x2AA8114
     void SetData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* dataList);
     // public System.Single StartAnimation()
-    // Offset: 0x11765F0
+    // Offset: 0x2AA83C4
     float StartAnimation();
     // private System.Collections.IEnumerator PlayRandomRowSlideInSound(System.Single delay)
-    // Offset: 0x1176E74
+    // Offset: 0x2AA8C48
     System::Collections::IEnumerator* PlayRandomRowSlideInSound(float delay);
     // private System.Collections.IEnumerator PlayAvatarSlideInSound(System.Single delay)
-    // Offset: 0x1176F20
+    // Offset: 0x2AA8CF4
     System::Collections::IEnumerator* PlayAvatarSlideInSound(float delay);
     // private System.Void <StartAnimation>b__30_1()
-    // Offset: 0x1176FE8
+    // Offset: 0x2AA8DBC
     void $StartAnimation$b__30_1();
     // private System.Void <StartAnimation>b__30_4()
-    // Offset: 0x117701C
+    // Offset: 0x2AA8DF0
     void $StartAnimation$b__30_4();
     // private System.Void <StartAnimation>b__30_5(System.Single val)
-    // Offset: 0x1177050
+    // Offset: 0x2AA8E24
     void $StartAnimation$b__30_5(float val);
     // public System.Void .ctor()
-    // Offset: 0x1176FCC
+    // Offset: 0x2AA8DA0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

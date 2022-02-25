@@ -19,10 +19,8 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: HoudiniEngineUnity
@@ -82,19 +80,19 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<HoudiniEngineUnity.CurveNodeData>> _savedCurveNodeData
     System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>*>*& dyn__savedCurveNodeData();
     // public System.Boolean get_SoftDeleted()
-    // Offset: 0x1465C30
+    // Offset: 0x16363B8
     bool get_SoftDeleted();
     // public System.Void set_SoftDeleted(System.Boolean value)
-    // Offset: 0x1465C38
+    // Offset: 0x16363C0
     void set_SoftDeleted(bool value);
     // public System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<HoudiniEngineUnity.CurveNodeData>> get_SavedCurveNodeData()
-    // Offset: 0x1465C44
+    // Offset: 0x16363CC
     System::Collections::Generic::Dictionary_2<::StringW, System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>*>* get_SavedCurveNodeData();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_AssetSerializedMetaData other)
-    // Offset: 0x1465C4C
+    // Offset: 0x16363D4
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_AssetSerializedMetaData* other);
     // public System.Void .ctor()
-    // Offset: 0x1465CF8
+    // Offset: 0x1636480
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

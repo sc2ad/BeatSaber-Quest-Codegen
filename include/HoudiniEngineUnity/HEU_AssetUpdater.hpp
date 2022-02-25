@@ -41,31 +41,31 @@ namespace HoudiniEngineUnity {
   class HEU_AssetUpdater : public ::Il2CppObject {
     public:
     // static private System.Void .cctor()
-    // Offset: 0x146713C
+    // Offset: 0x16378C4
     static void _cctor();
     // static private System.Void OnBeforeAssemblyReload()
-    // Offset: 0x1467140
+    // Offset: 0x16378C8
     static void OnBeforeAssemblyReload();
     // static private System.Void Update()
-    // Offset: 0x14671A0
+    // Offset: 0x1637928
     static void Update();
     // static public System.Void AddAssetForUpdate(HoudiniEngineUnity.HEU_HoudiniAsset asset)
-    // Offset: 0x14671A4
+    // Offset: 0x163792C
     static void AddAssetForUpdate(HoudiniEngineUnity::HEU_HoudiniAsset* asset);
     // static public System.Void RemoveAsset(HoudiniEngineUnity.HEU_HoudiniAsset asset)
-    // Offset: 0x14671A8
+    // Offset: 0x1637930
     static void RemoveAsset(HoudiniEngineUnity::HEU_HoudiniAsset* asset);
     // static public System.Void AddNodeSyncForUpdate(HoudiniEngineUnity.HEU_BaseSync nodeSync)
-    // Offset: 0x14671AC
+    // Offset: 0x1637934
     static void AddNodeSyncForUpdate(HoudiniEngineUnity::HEU_BaseSync* nodeSync);
     // static public System.Void RemoveNodeSync(HoudiniEngineUnity.HEU_BaseSync nodeSync)
-    // Offset: 0x14671B0
+    // Offset: 0x1637938
     static void RemoveNodeSync(HoudiniEngineUnity::HEU_BaseSync* nodeSync);
     // static private System.Void OnPrefabInstanceUpdate(UnityEngine.GameObject instance)
-    // Offset: 0x14671B4
+    // Offset: 0x163793C
     static void OnPrefabInstanceUpdate(UnityEngine::GameObject* instance);
     // public System.Void .ctor()
-    // Offset: 0x14671B8
+    // Offset: 0x1637940
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

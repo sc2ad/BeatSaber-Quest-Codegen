@@ -15,8 +15,12 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
+}
+// Forward declaring namespace: System::Net::Http::Headers
+namespace System::Net::Http::Headers {
+  // Forward declaring type: NameValueHeaderValue
+  class NameValueHeaderValue;
 }
 // Forward declaring namespace: System::Text
 namespace System::Text {
@@ -50,6 +54,9 @@ namespace System::Net::Http::Headers {
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, first, second);
     }
+    // static public System.Void SetValue(System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> parameters, System.String key, System.String value)
+    // Offset: 0x18F5018
+    static void SetValue(System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>* parameters, ::StringW key, ::StringW value);
     // static public System.String ToString(System.Collections.Generic.List`1<T> list)
     // Offset: 0xFFFFFFFF
     template<class T>
@@ -75,6 +82,17 @@ namespace System::Net::Http::Headers {
 // Writing MetadataGetter for method: System::Net::Http::Headers::CollectionExtensions::SequenceEqual
 // Il2CppName: SequenceEqual
 // Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: System::Net::Http::Headers::CollectionExtensions::SetValue
+// Il2CppName: SetValue
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*, ::StringW, ::StringW)>(&System::Net::Http::Headers::CollectionExtensions::SetValue)> {
+  static const MethodInfo* get() {
+    static auto* parameters = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "NameValueHeaderValue")})->byval_arg;
+    static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::CollectionExtensions*), "SetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parameters, key, value});
+  }
+};
 // Writing MetadataGetter for method: System::Net::Http::Headers::CollectionExtensions::ToString
 // Il2CppName: ToString
 // Cannot write MetadataGetter for generic methods!

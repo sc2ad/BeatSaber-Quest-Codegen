@@ -21,7 +21,7 @@ namespace System::Net::Http::Headers {
   class Parser::Int : public ::Il2CppObject {
     public:
     // static public System.Boolean TryParse(System.String input, out System.Int32 result)
-    // Offset: 0x17C479C
+    // Offset: 0x18FD484
     static bool TryParse(::StringW input, ByRef<int> result);
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.Int
   #pragma pack(pop)

@@ -24,7 +24,6 @@ namespace GlobalNamespace {
   // Forward declaring type: SaberMovementData
   class SaberMovementData;
   // Forward declaring type: LazyCopyHashSet`1<T>
-  template<typename T>
   class LazyCopyHashSet_1;
   // Forward declaring type: ISaberSwingRatingCounterDidChangeReceiver
   class ISaberSwingRatingCounterDidChangeReceiver;
@@ -248,37 +247,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _finished
     bool& dyn__finished();
     // public System.Single get_beforeCutRating()
-    // Offset: 0x122B550
+    // Offset: 0x2B56D8C
     float get_beforeCutRating();
     // public System.Single get_afterCutRating()
-    // Offset: 0x122B558
+    // Offset: 0x2B56D94
     float get_afterCutRating();
     // public System.Void RegisterDidChangeReceiver(ISaberSwingRatingCounterDidChangeReceiver receiver)
-    // Offset: 0x122B560
+    // Offset: 0x2B56D9C
     void RegisterDidChangeReceiver(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
     // public System.Void RegisterDidFinishReceiver(ISaberSwingRatingCounterDidFinishReceiver receiver)
-    // Offset: 0x122B5C8
+    // Offset: 0x2B56E04
     void RegisterDidFinishReceiver(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
     // public System.Void UnregisterDidChangeReceiver(ISaberSwingRatingCounterDidChangeReceiver receiver)
-    // Offset: 0x122B630
+    // Offset: 0x2B56E6C
     void UnregisterDidChangeReceiver(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
     // public System.Void UnregisterDidFinishReceiver(ISaberSwingRatingCounterDidFinishReceiver receiver)
-    // Offset: 0x122B698
+    // Offset: 0x2B56ED4
     void UnregisterDidFinishReceiver(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
     // public System.Void Init(SaberMovementData saberMovementData, UnityEngine.Transform noteTransform, System.Boolean rateBeforeCut, System.Boolean rateAfterCut)
-    // Offset: 0x122B700
+    // Offset: 0x2B56F3C
     void Init(GlobalNamespace::SaberMovementData* saberMovementData, UnityEngine::Transform* noteTransform, bool rateBeforeCut, bool rateAfterCut);
     // public System.Void ProcessNewData(BladeMovementDataElement newData, BladeMovementDataElement prevData, System.Boolean prevDataAreValid)
-    // Offset: 0x122B864
+    // Offset: 0x2B570A0
     void ProcessNewData(GlobalNamespace::BladeMovementDataElement newData, GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
     // private System.Void Finish()
-    // Offset: 0x122BD94
+    // Offset: 0x2B575D0
     void Finish();
     // public System.Void DrawGizmos()
-    // Offset: 0x122BEDC
+    // Offset: 0x2B57718
     void DrawGizmos();
     // public System.Void .ctor()
-    // Offset: 0x122C1C0
+    // Offset: 0x2B579FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

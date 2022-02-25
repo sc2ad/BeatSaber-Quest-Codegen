@@ -60,10 +60,10 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
     // Set static field: static private readonly Org.BouncyCastle.Asn1.CryptoPro.Gost3410ParamSetParameters cryptoProXchA
     static void _set_cryptoProXchA(Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* value);
     // static private System.Void .cctor()
-    // Offset: 0x18F7610
+    // Offset: 0x1B27CA0
     static void _cctor();
     // static public Org.BouncyCastle.Asn1.CryptoPro.Gost3410ParamSetParameters GetByOid(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x18F7CB4
+    // Offset: 0x1B28344
     static Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* GetByOid(Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
   }; // Org.BouncyCastle.Asn1.CryptoPro.Gost3410NamedParameters
   #pragma pack(pop)

@@ -61,7 +61,7 @@ namespace Ice {
     // Get instance field reference: private Ice.NoteCutFloorLightStreakTileEffectSpawner _noteCutFloorLightStreakTileEffectSpawner
     Ice::NoteCutFloorLightStreakTileEffectSpawner*& dyn__noteCutFloorLightStreakTileEffectSpawner();
     // public System.Void .ctor()
-    // Offset: 0x26A8D8C
+    // Offset: 0x2A34E3C
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -75,7 +75,7 @@ namespace Ice {
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutFloorLightStreakTileEffectSpawnerLightWithId*, creationType>()));
     }
     // public override System.Void ColorWasSet(UnityEngine.Color color)
-    // Offset: 0x26A8D6C
+    // Offset: 0x2A34E1C
     // Implemented from: LightWithIdMonoBehaviour
     // Base method: System.Void LightWithIdMonoBehaviour::ColorWasSet(UnityEngine.Color color)
     void ColorWasSet(UnityEngine::Color color);

@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     UnityEngine::Animator* animator;
     // Field size check
     static_assert(sizeof(UnityEngine::Animator*) == 0x8);
-    // [InjectAttribute] Offset: 0xF3C158
+    // [InjectAttribute] Offset: 0x1242ACC
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x28
@@ -99,28 +99,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _comboLost
     bool& dyn__comboLost();
     // protected System.Void Start()
-    // Offset: 0x118D11C
+    // Offset: 0x13C2B74
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x118D468
+    // Offset: 0x13C2EC0
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x118D46C
+    // Offset: 0x13C2EC4
     void OnDisable();
     // private System.Void RegisterForEvents()
-    // Offset: 0x118D198
+    // Offset: 0x13C2BF0
     void RegisterForEvents();
     // private System.Void UnregisterFromEvents()
-    // Offset: 0x118D470
+    // Offset: 0x13C2EC8
     void UnregisterFromEvents();
     // private System.Void HandleComboDidChange(System.Int32 combo)
-    // Offset: 0x118D610
+    // Offset: 0x13C3068
     void HandleComboDidChange(int combo);
     // private System.Void HandleComboBreakingEventHappened()
-    // Offset: 0x118D654
+    // Offset: 0x13C30AC
     void HandleComboBreakingEventHappened();
     // public System.Void .ctor()
-    // Offset: 0x118D68C
+    // Offset: 0x13C30E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

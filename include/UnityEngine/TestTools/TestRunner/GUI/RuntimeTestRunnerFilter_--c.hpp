@@ -17,7 +17,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: NUnit::Framework::Internal
@@ -63,25 +62,25 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // Set static field: static public System.Func`2<System.String,System.Boolean> <>9__7_2
     static void _set_$$9__7_2(System::Func_2<::StringW, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x16D52B4
+    // Offset: 0x18DE064
     static void _cctor();
     // NUnit.Framework.Internal.TestFilter <BuildNUnitFilter>b__5_0(System.String s)
-    // Offset: 0x16D5320
+    // Offset: 0x18DE0D0
     NUnit::Framework::Internal::TestFilter* $BuildNUnitFilter$b__5_0(::StringW s);
     // NUnit.Framework.Internal.TestFilter <BuildNUnitFilter>b__5_1(System.String s)
-    // Offset: 0x16D5384
+    // Offset: 0x18DE134
     NUnit::Framework::Internal::TestFilter* $BuildNUnitFilter$b__5_1(::StringW s);
     // NUnit.Framework.Internal.TestFilter <BuildNUnitFilter>b__5_2(System.String s)
-    // Offset: 0x16D53E8
+    // Offset: 0x18DE198
     NUnit::Framework::Internal::TestFilter* $BuildNUnitFilter$b__5_2(::StringW s);
     // System.Boolean <AddFilters>b__7_0(System.String v)
-    // Offset: 0x16D545C
+    // Offset: 0x18DE20C
     bool $AddFilters$b__7_0(::StringW v);
     // System.Boolean <AddFilters>b__7_2(System.String v)
-    // Offset: 0x16D54C4
+    // Offset: 0x18DE274
     bool $AddFilters$b__7_2(::StringW v);
     // public System.Void .ctor()
-    // Offset: 0x16D5318
+    // Offset: 0x18DE0C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

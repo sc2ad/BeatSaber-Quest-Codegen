@@ -21,7 +21,6 @@ namespace UnityEngine::Networking {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Completed forward declares
@@ -76,17 +75,17 @@ namespace UnityEngine::ResourceManagement {
     // Get instance field reference: UnityEngine.Networking.UnityWebRequest m_WebRequest
     UnityEngine::Networking::UnityWebRequest*& dyn_m_WebRequest();
     // public System.Boolean get_IsDone()
-    // Offset: 0x1BEC6C8
+    // Offset: 0x1E27958
     bool get_IsDone();
     // public System.Void .ctor(UnityEngine.Networking.UnityWebRequest request)
-    // Offset: 0x1BF2B74
+    // Offset: 0x1E2DE04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebRequestQueueOperation* New_ctor(UnityEngine::Networking::UnityWebRequest* request) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::WebRequestQueueOperation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebRequestQueueOperation*, creationType>(request)));
     }
     // System.Void Complete(UnityEngine.Networking.UnityWebRequestAsyncOperation asyncOp)
-    // Offset: 0x1BF2D64
+    // Offset: 0x1E2DFF4
     void Complete(UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
   }; // UnityEngine.ResourceManagement.WebRequestQueueOperation
   #pragma pack(pop)

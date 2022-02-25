@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     GlobalNamespace::StepValuePicker* stepValuePicker;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StepValuePicker*) == 0x8);
-    // [InjectAttribute] Offset: 0xF3CD58
+    // [InjectAttribute] Offset: 0x12436CC
     // private readonly MultiplayerSpectatorController _spectatorController
     // Size: 0x8
     // Offset: 0x20
@@ -69,25 +69,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MultiplayerSpectatorController _spectatorController
     GlobalNamespace::MultiplayerSpectatorController*& dyn__spectatorController();
     // protected System.Void Start()
-    // Offset: 0x117AED4
+    // Offset: 0x2AACCA8
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x117B190
+    // Offset: 0x2AACF64
     void OnDestroy();
     // private System.Void HandleSpectatingSpotDidChangeEvent(IMultiplayerSpectatingSpot spectatingSpot)
-    // Offset: 0x117B3BC
+    // Offset: 0x2AAD190
     void HandleSpectatingSpotDidChangeEvent(GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
     // private System.Void RefreshSpectatingSpotName()
-    // Offset: 0x117AFEC
+    // Offset: 0x2AACDC0
     void RefreshSpectatingSpotName();
     // private System.Void HandleIncButtonWasPressed()
-    // Offset: 0x117B3C0
+    // Offset: 0x2AAD194
     void HandleIncButtonWasPressed();
     // private System.Void HandleDecButtonWasPressed()
-    // Offset: 0x117B424
+    // Offset: 0x2AAD1F8
     void HandleDecButtonWasPressed();
     // public System.Void .ctor()
-    // Offset: 0x117B488
+    // Offset: 0x2AAD25C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

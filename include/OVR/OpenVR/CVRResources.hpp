@@ -61,17 +61,17 @@ namespace OVR::OpenVR {
     // Get instance field reference: private OVR.OpenVR.IVRResources FnTable
     OVR::OpenVR::IVRResources& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x17DE398
+    // Offset: 0x1A0E534
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRResources* New_ctor(System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVR::OpenVR::CVRResources::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRResources*, creationType>(pInterface)));
     }
     // public System.UInt32 LoadSharedResource(System.String pchResourceName, System.String pchBuffer, System.UInt32 unBufferLen)
-    // Offset: 0x17DE498
+    // Offset: 0x1A0E634
     uint LoadSharedResource(::StringW pchResourceName, ::StringW pchBuffer, uint unBufferLen);
     // public System.UInt32 GetResourceFullPath(System.String pchResourceName, System.String pchResourceTypeDirectory, System.Text.StringBuilder pchPathBuffer, System.UInt32 unBufferLen)
-    // Offset: 0x17DE4B4
+    // Offset: 0x1A0E650
     uint GetResourceFullPath(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, System::Text::StringBuilder* pchPathBuffer, uint unBufferLen);
   }; // OVR.OpenVR.CVRResources
   #pragma pack(pop)

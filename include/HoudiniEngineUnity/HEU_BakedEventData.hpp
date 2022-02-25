@@ -21,7 +21,6 @@ namespace HoudiniEngineUnity {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -69,7 +68,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean IsNewBake
     bool& dyn_IsNewBake();
     // public System.Void .ctor(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.Boolean successful, System.Collections.Generic.List`1<UnityEngine.GameObject> outputObjects, System.Boolean isNewBake)
-    // Offset: 0x146BCD4
+    // Offset: 0x163C45C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_BakedEventData* New_ctor(HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, System::Collections::Generic::List_1<UnityEngine::GameObject*>* outputObjects, bool isNewBake) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_BakedEventData::.ctor");

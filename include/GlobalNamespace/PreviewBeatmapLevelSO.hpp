@@ -36,7 +36,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
-  template<typename TResult>
   class Task_1;
 }
 // Forward declaring namespace: System::Threading
@@ -242,64 +241,64 @@ namespace GlobalNamespace {
     // Get instance field reference: private PreviewDifficultyBeatmapSet[] _no360MovementPreviewDifficultyBeatmapSets
     ::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*>& dyn__no360MovementPreviewDifficultyBeatmapSets();
     // public System.String get_levelID()
-    // Offset: 0x11B0890
+    // Offset: 0x13E97B4
     ::StringW get_levelID();
     // public System.String get_songName()
-    // Offset: 0x11B0898
+    // Offset: 0x13E97BC
     ::StringW get_songName();
     // public System.String get_songSubName()
-    // Offset: 0x11B08A0
+    // Offset: 0x13E97C4
     ::StringW get_songSubName();
     // public System.String get_songAuthorName()
-    // Offset: 0x11B08A8
+    // Offset: 0x13E97CC
     ::StringW get_songAuthorName();
     // public System.String get_levelAuthorName()
-    // Offset: 0x11B08B0
+    // Offset: 0x13E97D4
     ::StringW get_levelAuthorName();
     // public System.Single get_beatsPerMinute()
-    // Offset: 0x11B08B8
+    // Offset: 0x13E97DC
     float get_beatsPerMinute();
     // public System.Single get_songTimeOffset()
-    // Offset: 0x11B08C0
+    // Offset: 0x13E97E4
     float get_songTimeOffset();
     // public System.Single get_songDuration()
-    // Offset: 0x11B08C8
+    // Offset: 0x13E97EC
     float get_songDuration();
     // public System.Single get_shuffle()
-    // Offset: 0x11B08D0
+    // Offset: 0x13E97F4
     float get_shuffle();
     // public System.Single get_shufflePeriod()
-    // Offset: 0x11B08D8
+    // Offset: 0x13E97FC
     float get_shufflePeriod();
     // public System.Single get_previewStartTime()
-    // Offset: 0x11B08E0
+    // Offset: 0x13E9804
     float get_previewStartTime();
     // public System.Single get_previewDuration()
-    // Offset: 0x11B08E8
+    // Offset: 0x13E980C
     float get_previewDuration();
     // public EnvironmentInfoSO get_environmentInfo()
-    // Offset: 0x11B08F0
+    // Offset: 0x13E9814
     GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
     // public EnvironmentInfoSO get_allDirectionsEnvironmentInfo()
-    // Offset: 0x11B08F8
+    // Offset: 0x13E981C
     GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
     // public UnityEngine.AudioClip get_songPreviewAudioClip()
-    // Offset: 0x11B0900
+    // Offset: 0x13E9824
     UnityEngine::AudioClip* get_songPreviewAudioClip();
     // public PreviewDifficultyBeatmapSet[] get_previewDifficultyBeatmapSets()
-    // Offset: 0x11B0908
+    // Offset: 0x13E982C
     ::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*> get_previewDifficultyBeatmapSets();
     // private System.Void InitData()
-    // Offset: 0x11B0954
+    // Offset: 0x13E9878
     void InitData();
     // public System.Threading.Tasks.Task`1<UnityEngine.AudioClip> GetPreviewAudioClipAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x11B0A90
+    // Offset: 0x13E99B4
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* GetPreviewAudioClipAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> GetCoverImageAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x11B0BB4
+    // Offset: 0x13E9AD8
     System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* GetCoverImageAsync(System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x11B0CD8
+    // Offset: 0x13E9BFC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -311,7 +310,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PreviewBeatmapLevelSO*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x11B0924
+    // Offset: 0x13E9848
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

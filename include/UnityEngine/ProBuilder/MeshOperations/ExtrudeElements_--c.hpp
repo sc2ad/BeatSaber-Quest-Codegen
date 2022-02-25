@@ -16,7 +16,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -52,16 +51,16 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Int32> <>9__4_0
     static void _set_$$9__4_0(System::Func_2<UnityEngine::ProBuilder::Face*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x17A5EEC
+    // Offset: 0x19CB688
     static void _cctor();
     // UnityEngine.ProBuilder.Face <DetachFaces>b__3_0(UnityEngine.ProBuilder.FaceRebuildData x)
-    // Offset: 0x17A5F58
+    // Offset: 0x19CB6F4
     UnityEngine::ProBuilder::Face* $DetachFaces$b__3_0(UnityEngine::ProBuilder::FaceRebuildData* x);
     // System.Int32 <ExtrudePerFace>b__4_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x17A5F70
+    // Offset: 0x19CB70C
     int $ExtrudePerFace$b__4_0(UnityEngine::ProBuilder::Face* x);
     // public System.Void .ctor()
-    // Offset: 0x17A5F50
+    // Offset: 0x19CB6EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

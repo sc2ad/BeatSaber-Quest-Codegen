@@ -17,7 +17,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: NUnit::Framework::Interfaces
@@ -30,7 +29,6 @@ namespace NUnit::Framework::Interfaces {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
 }
 // Completed forward declares
@@ -63,19 +61,19 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Set static field: static public System.Func`2<System.Collections.Generic.IEnumerable`1<System.String>,System.Collections.Generic.IEnumerable`1<System.String>> <>9__1_2
     static void _set_$$9__1_2(System::Func_2<System::Collections::Generic::IEnumerable_1<::StringW>*, System::Collections::Generic::IEnumerable_1<::StringW>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x16C55A0
+    // Offset: 0x18CE34C
     static void _cctor();
     // System.String <GetTestBuilderName>b__1_0(NUnit.Framework.Interfaces.ITestBuilder attribute)
-    // Offset: 0x16C560C
+    // Offset: 0x18CE3B8
     ::StringW $GetTestBuilderName$b__1_0(NUnit::Framework::Interfaces::ITestBuilder* attribute);
     // System.String <GetTestBuilderName>b__1_1(NUnit.Framework.Interfaces.ISimpleTestBuilder attribute)
-    // Offset: 0x16C563C
+    // Offset: 0x18CE3E8
     ::StringW $GetTestBuilderName$b__1_1(NUnit::Framework::Interfaces::ISimpleTestBuilder* attribute);
     // System.Collections.Generic.IEnumerable`1<System.String> <GetTestBuilderName>b__1_2(System.Collections.Generic.IEnumerable`1<System.String> v)
-    // Offset: 0x16C566C
+    // Offset: 0x18CE418
     System::Collections::Generic::IEnumerable_1<::StringW>* $GetTestBuilderName$b__1_2(System::Collections::Generic::IEnumerable_1<::StringW>* v);
     // public System.Void .ctor()
-    // Offset: 0x16C5604
+    // Offset: 0x18CE3B0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

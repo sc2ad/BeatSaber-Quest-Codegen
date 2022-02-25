@@ -17,7 +17,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Completed forward declares
@@ -78,13 +77,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Action`1<System.Boolean> finishCallback
     System::Action_1<bool>*& dyn_finishCallback();
     // System.Void <ExtractZipToDirectoryAsync>b__0()
-    // Offset: 0x1395850
+    // Offset: 0x2C1D1EC
     void $ExtractZipToDirectoryAsync$b__0();
     // System.Void <ExtractZipToDirectoryAsync>b__1()
-    // Offset: 0x139585C
+    // Offset: 0x2C1D1F8
     void $ExtractZipToDirectoryAsync$b__1();
     // public System.Void .ctor()
-    // Offset: 0x1395690
+    // Offset: 0x2C1D02C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

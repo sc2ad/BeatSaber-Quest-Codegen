@@ -55,19 +55,19 @@ namespace GlobalNamespace {
     // Set static field: static private SimpleFileLogger/MonoLogger _monoLogger
     static void _set__monoLogger(GlobalNamespace::SimpleFileLogger::MonoLogger* value);
     // static private SimpleFileLogger/MonoLogger get_monoLogger()
-    // Offset: 0x2640190
+    // Offset: 0x299D0C0
     static GlobalNamespace::SimpleFileLogger::MonoLogger* get_monoLogger();
     // static public System.Void Log(System.String text)
-    // Offset: 0x2640270
+    // Offset: 0x299D1A0
     static void Log(::StringW text);
     // static public System.Void LogVector(System.String description, UnityEngine.Vector3 vec)
-    // Offset: 0x2640304
+    // Offset: 0x299D234
     static void LogVector(::StringW description, UnityEngine::Vector3 vec);
     // static public System.Void Clear()
-    // Offset: 0x2640574
+    // Offset: 0x299D4A4
     static void Clear();
     // public System.Void .ctor()
-    // Offset: 0x26405FC
+    // Offset: 0x299D52C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

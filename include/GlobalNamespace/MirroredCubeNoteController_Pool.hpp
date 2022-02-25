@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class MirroredCubeNoteController::Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::MirroredCubeNoteController*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x115E9B8
+    // Offset: 0x2A6B444
     // Implemented from: Zenject.MonoMemoryPool`1
     // Base method: System.Void MonoMemoryPool_1::.ctor()
     // Base method: System.Void MemoryPool_1::.ctor()

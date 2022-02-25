@@ -24,7 +24,6 @@ namespace System {
 // Type namespace: System
 namespace System {
   // Forward declaring type: Predicate`1<T>
-  template<typename T>
   class Predicate_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -17,7 +17,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Type
   class Type;
@@ -49,19 +48,19 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.Boolean> <>9__16_0
     static void _set_$$9__16_0(System::Func_2<System::Type*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x14FC87C
+    // Offset: 0x16DE938
     static void _cctor();
     // System.Boolean <set_NormalInstallerTypes>b__16_0(System.Type x)
-    // Offset: 0x14FC8E8
+    // Offset: 0x16DE9A4
     bool $set_NormalInstallerTypes$b__16_0(System::Type* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x14FC99C
+    // Offset: 0x16DEA58
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x14FC9F8
+    // Offset: 0x16DEAB4
     static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x14FC8E0
+    // Offset: 0x16DE99C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -19,7 +19,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System
@@ -131,44 +130,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapSaveData/SpecialEventKeywordFiltersData _specialEventsKeywordFilters
     GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData*& dyn__specialEventsKeywordFilters();
     // public System.String get_version()
-    // Offset: 0x1331704
+    // Offset: 0x14D0848
     ::StringW get_version();
     // public System.Collections.Generic.List`1<BeatmapSaveData/EventData> get_events()
-    // Offset: 0x133170C
+    // Offset: 0x14D0850
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::EventData*>* get_events();
     // public System.Collections.Generic.List`1<BeatmapSaveData/NoteData> get_notes()
-    // Offset: 0x1331714
+    // Offset: 0x14D0858
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::NoteData*>* get_notes();
     // public System.Collections.Generic.List`1<BeatmapSaveData/WaypointData> get_waypoints()
-    // Offset: 0x133171C
+    // Offset: 0x14D0860
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::WaypointData*>* get_waypoints();
     // public System.Collections.Generic.List`1<BeatmapSaveData/ObstacleData> get_obstacles()
-    // Offset: 0x1331724
+    // Offset: 0x14D0868
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::ObstacleData*>* get_obstacles();
     // public BeatmapSaveData/SpecialEventKeywordFiltersData get_specialEventsKeywordFilters()
-    // Offset: 0x133172C
+    // Offset: 0x14D0870
     GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData* get_specialEventsKeywordFilters();
     // public System.Void .ctor(System.Collections.Generic.List`1<BeatmapSaveData/EventData> events, System.Collections.Generic.List`1<BeatmapSaveData/NoteData> notes, System.Collections.Generic.List`1<BeatmapSaveData/WaypointData> waypoints, System.Collections.Generic.List`1<BeatmapSaveData/ObstacleData> obstacles, BeatmapSaveData/SpecialEventKeywordFiltersData specialEventsKeywordFilters)
-    // Offset: 0x1331734
+    // Offset: 0x14D0878
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData* New_ctor(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::EventData*>* events, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::NoteData*>* notes, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::WaypointData*>* waypoints, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::ObstacleData*>* obstacles, GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData* specialEventsKeywordFilters) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapSaveData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveData*, creationType>(events, notes, waypoints, obstacles, specialEventsKeywordFilters)));
     }
     // public System.Byte[] SerializeToBinary()
-    // Offset: 0x13317C4
+    // Offset: 0x14D0908
     ::ArrayW<uint8_t> SerializeToBinary();
     // static public BeatmapSaveData DeserializeFromFromBinary(System.Byte[] data)
-    // Offset: 0x1331944
+    // Offset: 0x14D0A88
     static GlobalNamespace::BeatmapSaveData* DeserializeFromFromBinary(::ArrayW<uint8_t> data);
     // public System.String SerializeToJSONString()
-    // Offset: 0x1331AD4
+    // Offset: 0x14D0C18
     ::StringW SerializeToJSONString();
     // static public BeatmapSaveData DeserializeFromJSONString(System.String stringData)
-    // Offset: 0x1331ADC
+    // Offset: 0x14D0C20
     static GlobalNamespace::BeatmapSaveData* DeserializeFromJSONString(::StringW stringData);
     // static private System.Void ConvertBeatmapSaveDataPreV2_5_0(BeatmapSaveData beatmapSaveData)
-    // Offset: 0x1331BD4
+    // Offset: 0x14D0DE0
     static void ConvertBeatmapSaveDataPreV2_5_0(GlobalNamespace::BeatmapSaveData* beatmapSaveData);
   }; // BeatmapSaveData
   #pragma pack(pop)

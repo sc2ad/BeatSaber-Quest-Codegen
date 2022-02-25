@@ -117,7 +117,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerResultsAvatarController* multiplayerResultsAvatarController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerResultsAvatarController*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF48750
+    // [SpaceAttribute] Offset: 0x124F054
     // private System.Single _avatarScale
     // Size: 0x4
     // Offset: 0x90
@@ -184,13 +184,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _lightColor
     UnityEngine::Color& dyn__lightColor();
     // public System.Void set_alpha(System.Single value)
-    // Offset: 0x117590C
+    // Offset: 0x2AA76E0
     void set_alpha(float value);
     // public System.Void SetData(IConnectedPlayer connectedPlayer, System.Int32 position, System.String playerName, LevelCompletionResults levelCompletionResults, System.Boolean isLocalPlayer, System.Int32 numberOfPlayers)
-    // Offset: 0x11759C8
+    // Offset: 0x2AA779C
     void SetData(GlobalNamespace::IConnectedPlayer* connectedPlayer, int position, ::StringW playerName, GlobalNamespace::LevelCompletionResults* levelCompletionResults, bool isLocalPlayer, int numberOfPlayers);
     // public System.Void .ctor()
-    // Offset: 0x1175D60
+    // Offset: 0x2AA7B34
     // Implemented from: HMUI.TableCell
     // Base method: System.Void TableCell::.ctor()
     // Base method: System.Void SelectableCell::.ctor()

@@ -82,28 +82,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isInitialized
     bool& dyn__isInitialized();
     // public MaterialPropertyBlockController get_materialPropertyBlockController()
-    // Offset: 0x1DB9664
+    // Offset: 0x208DF08
     GlobalNamespace::MaterialPropertyBlockController* get_materialPropertyBlockController();
     // public System.Void set_materialPropertyBlockController(MaterialPropertyBlockController value)
-    // Offset: 0x1DB966C
+    // Offset: 0x208DF10
     void set_materialPropertyBlockController(GlobalNamespace::MaterialPropertyBlockController* value);
     // protected System.Void SetProperty()
-    // Offset: 0x1DB96F8
+    // Offset: 0x208DF9C
     void SetProperty();
     // protected System.Void Awake()
-    // Offset: 0x1DB96FC
+    // Offset: 0x208DFA0
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x1DB97DC
+    // Offset: 0x208E080
     void Update();
     // private System.Void LazyInit()
-    // Offset: 0x1DB979C
+    // Offset: 0x208E040
     void LazyInit();
     // private System.Void RefreshProperty()
-    // Offset: 0x1DB98E8
+    // Offset: 0x208E18C
     void RefreshProperty();
     // public System.Void .ctor()
-    // Offset: 0x1DB9914
+    // Offset: 0x208E1B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

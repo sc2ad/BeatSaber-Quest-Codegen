@@ -19,7 +19,6 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: AsyncCachedLoader`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class AsyncCachedLoader_2;
 }
 // Forward declaring namespace: UnityEngine
@@ -30,7 +29,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
-  template<typename TResult>
   class Task_1;
 }
 // Forward declaring namespace: System::Threading
@@ -92,13 +90,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private AsyncCachedLoader`2<System.String,UnityEngine.Sprite> _spriteAsyncCachedLoader
     GlobalNamespace::AsyncCachedLoader_2<::StringW, UnityEngine::Sprite*>*& dyn__spriteAsyncCachedLoader();
     // public System.Void ClearCache()
-    // Offset: 0x1183E0C
+    // Offset: 0x13B990C
     void ClearCache();
     // public System.Threading.Tasks.Task`1<UnityEngine.Sprite> LoadSpriteAsync(System.String path, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1183E6C
+    // Offset: 0x13B996C
     System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* LoadSpriteAsync(::StringW path, System::Threading::CancellationToken cancellationToken);
     // public System.Void .ctor()
-    // Offset: 0x1183F80
+    // Offset: 0x13B9A80
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -20,7 +20,6 @@ namespace HoudiniEngineUnity {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -41,28 +40,28 @@ namespace HoudiniEngineUnity {
   class HEU_RenderingPipelineDefines : public ::Il2CppObject {
     public:
     // static private System.Void .cctor()
-    // Offset: 0x1845364
+    // Offset: 0x1A5C464
     static void _cctor();
     // static private System.Void UpdateDefines()
-    // Offset: 0x1845368
+    // Offset: 0x1A5C468
     static void UpdateDefines();
     // static public HoudiniEngineUnity.HEU_PipelineType GetPipeline()
-    // Offset: 0x1841FC0
+    // Offset: 0x1A590C0
     static HoudiniEngineUnity::HEU_PipelineType GetPipeline();
     // static private System.Void AddDefine(System.String define)
-    // Offset: 0x1845488
+    // Offset: 0x1A5C588
     static void AddDefine(::StringW define);
     // static public System.Void RemoveDefine(System.String define)
-    // Offset: 0x1845554
+    // Offset: 0x1A5C654
     static void RemoveDefine(::StringW define);
     // static public System.Collections.Generic.List`1<System.String> GetDefines()
-    // Offset: 0x1845620
+    // Offset: 0x1A5C720
     static System::Collections::Generic::List_1<::StringW>* GetDefines();
     // static public System.Void SetDefines(System.Collections.Generic.List`1<System.String> definesList)
-    // Offset: 0x1845684
+    // Offset: 0x1A5C784
     static void SetDefines(System::Collections::Generic::List_1<::StringW>* definesList);
     // public System.Void .ctor()
-    // Offset: 0x1845688
+    // Offset: 0x1A5C788
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

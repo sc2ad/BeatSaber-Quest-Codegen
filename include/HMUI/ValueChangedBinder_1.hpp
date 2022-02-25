@@ -14,29 +14,24 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Tuple`2<T1, T2>
-  template<typename T1, typename T2>
   class Tuple_2;
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: HMUI
 namespace HMUI {
   // Forward declaring type: IValueChanger`1<T>
-  template<typename T>
   class IValueChanger_1;
 }
 // Completed forward declares
 // Type namespace: HMUI
 namespace HMUI {
   // Forward declaring type: ValueChangedBinder`1<T>
-  template<typename T>
   class ValueChangedBinder_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -40,10 +40,10 @@ namespace GlobalNamespace {
   class BeatmapDataTransformHelper : public ::Il2CppObject {
     public:
     // static public IReadonlyBeatmapData CreateTransformedBeatmapData(IReadonlyBeatmapData beatmapData, IPreviewBeatmapLevel beatmapLevel, GameplayModifiers gameplayModifiers, PracticeSettings practiceSettings, System.Boolean leftHanded, EnvironmentEffectsFilterPreset environmentEffectsFilterPreset, EnvironmentIntensityReductionOptions environmentIntensityReductionOptions, System.Boolean screenDisplacementEffectsEnabled)
-    // Offset: 0x12D2B14
+    // Offset: 0x2B4B784
     static GlobalNamespace::IReadonlyBeatmapData* CreateTransformedBeatmapData(GlobalNamespace::IReadonlyBeatmapData* beatmapData, GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PracticeSettings* practiceSettings, bool leftHanded, GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterPreset, GlobalNamespace::EnvironmentIntensityReductionOptions* environmentIntensityReductionOptions, bool screenDisplacementEffectsEnabled);
     // static public System.Boolean IsObstaclesMergingNeeded(IPreviewBeatmapLevel beatmapLevel, System.Boolean screenDisplacementEffectsEnabled)
-    // Offset: 0x12D2D4C
+    // Offset: 0x2B4B9BC
     static bool IsObstaclesMergingNeeded(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel, bool screenDisplacementEffectsEnabled);
   }; // BeatmapDataTransformHelper
   #pragma pack(pop)

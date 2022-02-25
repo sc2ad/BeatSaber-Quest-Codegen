@@ -7,6 +7,8 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
+// Including type: LevelCompletionResults
+#include "GlobalNamespace/LevelCompletionResults.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -112,24 +114,27 @@ namespace GlobalNamespace {
     // Get instance field reference: protected readonly MockScoreSyncStateSender mockScoreSyncStateSender
     GlobalNamespace::MockScoreSyncStateSender*& dyn_mockScoreSyncStateSender();
     // protected System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, System.Boolean leftHanded)
-    // Offset: 0x26900E4
+    // Offset: 0x2A21B20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPlayerGamePoseGenerator* New_ctor(GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MockPlayerGamePoseGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockPlayerGamePoseGenerator*, creationType>(multiplayerSessionManager, gameplayRpcManager, leftHanded)));
     }
     // public System.Void Dispose()
-    // Offset: 0x26902FC
+    // Offset: 0x2A21D38
     void Dispose();
     // public System.Void SendPoses(System.Single introStartTime, MockBeatmapData beatmapData, GameplayModifiers gameplayModifiers, System.Threading.CancellationToken cancellationToken, System.Action onSongFinished)
     // Offset: 0xFFFFFFFF
     void SendPoses(float introStartTime, GlobalNamespace::MockBeatmapData* beatmapData, GlobalNamespace::GameplayModifiers* gameplayModifiers, System::Threading::CancellationToken cancellationToken, System::Action* onSongFinished);
     // public System.Void SimulateFail()
-    // Offset: 0x2690404
+    // Offset: 0x2A21E40
     void SimulateFail();
     // public System.Void SimulateGiveUp()
-    // Offset: 0x26905A0
+    // Offset: 0x2A22040
     void SimulateGiveUp();
+    // static private LevelCompletionResults CreateEmptyLevelCompletionResults(LevelCompletionResults/LevelEndStateType levelEndStateType)
+    // Offset: 0x2A21F38
+    static GlobalNamespace::LevelCompletionResults* CreateEmptyLevelCompletionResults(GlobalNamespace::LevelCompletionResults::LevelEndStateType levelEndStateType);
   }; // MockPlayerGamePoseGenerator
   #pragma pack(pop)
   static check_size<sizeof(MockPlayerGamePoseGenerator), 48 + sizeof(GlobalNamespace::MockScoreSyncStateSender*)> __GlobalNamespace_MockPlayerGamePoseGeneratorSizeCheck;
@@ -175,5 +180,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerGamePoseGenerator::*)()>(&GlobalNamespace::MockPlayerGamePoseGenerator::SimulateGiveUp)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGenerator*), "SimulateGiveUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayerGamePoseGenerator::CreateEmptyLevelCompletionResults
+// Il2CppName: CreateEmptyLevelCompletionResults
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LevelCompletionResults* (*)(GlobalNamespace::LevelCompletionResults::LevelEndStateType)>(&GlobalNamespace::MockPlayerGamePoseGenerator::CreateEmptyLevelCompletionResults)> {
+  static const MethodInfo* get() {
+    static auto* levelEndStateType = &::il2cpp_utils::GetClassFromName("", "LevelCompletionResults/LevelEndStateType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGenerator*), "CreateEmptyLevelCompletionResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelEndStateType});
   }
 };

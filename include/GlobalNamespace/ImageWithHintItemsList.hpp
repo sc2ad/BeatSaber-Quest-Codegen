@@ -35,7 +35,7 @@ namespace GlobalNamespace {
   class ImageWithHintItemsList : public HMUI::UIItemsList_1<HMUI::ImageWithHint*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x119F85C
+    // Offset: 0x13AD304
     // Implemented from: HMUI.UIItemsList`1
     // Base method: System.Void UIItemsList_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

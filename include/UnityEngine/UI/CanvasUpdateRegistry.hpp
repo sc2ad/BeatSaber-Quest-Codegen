@@ -16,7 +16,6 @@
 // Forward declaring namespace: UnityEngine::UI::Collections
 namespace UnityEngine::UI::Collections {
   // Forward declaring type: IndexedSet`1<T>
-  template<typename T>
   class IndexedSet_1;
 }
 // Forward declaring namespace: UnityEngine::UI
@@ -29,7 +28,6 @@ namespace System {
   // Forward declaring type: String
   class String;
   // Forward declaring type: Comparison`1<T>
-  template<typename T>
   class Comparison_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -121,61 +119,61 @@ namespace UnityEngine::UI {
     // Get instance field reference: private readonly UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement> m_GraphicRebuildQueue
     UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::ICanvasElement*>*& dyn_m_GraphicRebuildQueue();
     // static public UnityEngine.UI.CanvasUpdateRegistry get_instance()
-    // Offset: 0x166D9AC
+    // Offset: 0x1872D00
     static UnityEngine::UI::CanvasUpdateRegistry* get_instance();
     // static private System.Void .cctor()
-    // Offset: 0x166F0B8
+    // Offset: 0x187440C
     static void _cctor();
     // private System.Boolean ObjectValidForUpdate(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x166DA6C
+    // Offset: 0x1872DC0
     bool ObjectValidForUpdate(UnityEngine::UI::ICanvasElement* element);
     // private System.Void CleanInvalidItems()
-    // Offset: 0x166DB4C
+    // Offset: 0x1872EA0
     void CleanInvalidItems();
     // private System.Void PerformUpdate()
-    // Offset: 0x166DE48
+    // Offset: 0x187319C
     void PerformUpdate();
     // static private System.Int32 ParentCount(UnityEngine.Transform child)
-    // Offset: 0x166E728
+    // Offset: 0x1873A7C
     static int ParentCount(UnityEngine::Transform* child);
     // static private System.Int32 SortLayoutList(UnityEngine.UI.ICanvasElement x, UnityEngine.UI.ICanvasElement y)
-    // Offset: 0x166E808
+    // Offset: 0x1873B5C
     static int SortLayoutList(UnityEngine::UI::ICanvasElement* x, UnityEngine::UI::ICanvasElement* y);
     // static public System.Void RegisterCanvasElementForLayoutRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x166E974
+    // Offset: 0x1873CC8
     static void RegisterCanvasElementForLayoutRebuild(UnityEngine::UI::ICanvasElement* element);
     // static public System.Boolean TryRegisterCanvasElementForLayoutRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x166EA80
+    // Offset: 0x1873DD4
     static bool TryRegisterCanvasElementForLayoutRebuild(UnityEngine::UI::ICanvasElement* element);
     // private System.Boolean InternalRegisterCanvasElementForLayoutRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x166E9E4
+    // Offset: 0x1873D38
     bool InternalRegisterCanvasElementForLayoutRebuild(UnityEngine::UI::ICanvasElement* element);
     // static public System.Void RegisterCanvasElementForGraphicRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x166EAF0
+    // Offset: 0x1873E44
     static void RegisterCanvasElementForGraphicRebuild(UnityEngine::UI::ICanvasElement* element);
     // static public System.Boolean TryRegisterCanvasElementForGraphicRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x166EC30
+    // Offset: 0x1873F84
     static bool TryRegisterCanvasElementForGraphicRebuild(UnityEngine::UI::ICanvasElement* element);
     // private System.Boolean InternalRegisterCanvasElementForGraphicRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x166EB60
+    // Offset: 0x1873EB4
     bool InternalRegisterCanvasElementForGraphicRebuild(UnityEngine::UI::ICanvasElement* element);
     // static public System.Void UnRegisterCanvasElementForRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x166ECA0
+    // Offset: 0x1873FF4
     static void UnRegisterCanvasElementForRebuild(UnityEngine::UI::ICanvasElement* element);
     // private System.Void InternalUnRegisterCanvasElementForLayoutRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x166ED20
+    // Offset: 0x1874074
     void InternalUnRegisterCanvasElementForLayoutRebuild(UnityEngine::UI::ICanvasElement* element);
     // private System.Void InternalUnRegisterCanvasElementForGraphicRebuild(UnityEngine.UI.ICanvasElement element)
-    // Offset: 0x166EE80
+    // Offset: 0x18741D4
     void InternalUnRegisterCanvasElementForGraphicRebuild(UnityEngine::UI::ICanvasElement* element);
     // static public System.Boolean IsRebuildingLayout()
-    // Offset: 0x166EFE0
+    // Offset: 0x1874334
     static bool IsRebuildingLayout();
     // static public System.Boolean IsRebuildingGraphics()
-    // Offset: 0x166F04C
+    // Offset: 0x18743A0
     static bool IsRebuildingGraphics();
     // protected System.Void .ctor()
-    // Offset: 0x166D7A8
+    // Offset: 0x1872AFC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

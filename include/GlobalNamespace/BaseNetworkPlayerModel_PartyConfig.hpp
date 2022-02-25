@@ -7,6 +7,10 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Including type: BaseNetworkPlayerModel
 #include "GlobalNamespace/BaseNetworkPlayerModel.hpp"
+// Including type: BeatmapLevelSelectionMask
+#include "GlobalNamespace/BeatmapLevelSelectionMask.hpp"
+// Including type: GameplayServerConfiguration
+#include "GlobalNamespace/GameplayServerConfiguration.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -15,7 +19,8 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Skipping declaration: INetworkPlayerModel because it is already included!
+  // Forward declaring type: INetworkPlayerModel
+  class INetworkPlayerModel;
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -64,7 +69,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public INetworkPlayerModel partyManager
     GlobalNamespace::INetworkPlayerModel*& dyn_partyManager();
     // public System.Void .ctor()
-    // Offset: 0x12C4314
+    // Offset: 0x2B3CF84
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

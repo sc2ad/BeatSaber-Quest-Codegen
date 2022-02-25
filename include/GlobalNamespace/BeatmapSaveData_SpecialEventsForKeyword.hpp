@@ -19,7 +19,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -61,13 +60,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<BeatmapSaveData/BeatmapEventType> _specialEvents
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::BeatmapEventType>*& dyn__specialEvents();
     // public System.String get_keyword()
-    // Offset: 0x1331FE4
+    // Offset: 0x14D11F0
     ::StringW get_keyword();
     // public System.Collections.Generic.List`1<BeatmapSaveData/BeatmapEventType> get_specialEvents()
-    // Offset: 0x1331FEC
+    // Offset: 0x14D11F8
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::BeatmapEventType>* get_specialEvents();
     // public System.Void .ctor(System.String keyword, System.Collections.Generic.List`1<BeatmapSaveData/BeatmapEventType> specialEvents)
-    // Offset: 0x1331FF4
+    // Offset: 0x14D1200
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveData::SpecialEventsForKeyword* New_ctor(::StringW keyword, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::BeatmapEventType>* specialEvents) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword::.ctor");

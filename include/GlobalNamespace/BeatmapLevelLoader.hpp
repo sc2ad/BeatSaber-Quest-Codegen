@@ -27,7 +27,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
-  template<typename TResult>
   class Task_1;
 }
 // Forward declaring namespace: System::Threading
@@ -90,7 +89,7 @@ namespace GlobalNamespace {
       // Get instance field reference: public readonly IBeatmapLevel beatmapLevel
       GlobalNamespace::IBeatmapLevel*& dyn_beatmapLevel();
       // public System.Void .ctor(System.Boolean isError, IBeatmapLevel beatmapLevel)
-      // Offset: 0x1324624
+      // Offset: 0x14C33F0
       // ABORTED: conflicts with another method.  LoadBeatmapLevelResult(bool isError, GlobalNamespace::IBeatmapLevel* beatmapLevel);
     }; // BeatmapLevelLoader/LoadBeatmapLevelResult
     #pragma pack(pop)
@@ -123,14 +122,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private IBeatmapDataAssetFileModel _beatmapDataAssetFileModel
     GlobalNamespace::IBeatmapDataAssetFileModel*& dyn__beatmapDataAssetFileModel();
     // public System.Void .ctor(BeatmapLevelDataLoaderSO beatmapLevelDataLoader, IBeatmapDataAssetFileModel beatmapDataAssetFileModel)
-    // Offset: 0x1323E6C
+    // Offset: 0x14C2C38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelLoader* New_ctor(GlobalNamespace::BeatmapLevelDataLoaderSO* beatmapLevelDataLoader, GlobalNamespace::IBeatmapDataAssetFileModel* beatmapDataAssetFileModel) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelLoader*, creationType>(beatmapLevelDataLoader, beatmapDataAssetFileModel)));
     }
     // public System.Threading.Tasks.Task`1<BeatmapLevelLoader/LoadBeatmapLevelResult> LoadBeatmapLevelAsync(IPreviewBeatmapLevel previewLevel, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1323EA4
+    // Offset: 0x14C2C70
     System::Threading::Tasks::Task_1<GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult>* LoadBeatmapLevelAsync(GlobalNamespace::IPreviewBeatmapLevel* previewLevel, System::Threading::CancellationToken cancellationToken);
   }; // BeatmapLevelLoader
   #pragma pack(pop)

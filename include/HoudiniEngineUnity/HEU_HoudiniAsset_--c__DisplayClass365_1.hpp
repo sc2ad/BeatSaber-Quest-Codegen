@@ -60,10 +60,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_HoudiniAsset/HoudiniEngineUnity.<>c__DisplayClass365_0 CS$<>8__locals1
     HoudiniEngineUnity::HEU_HoudiniAsset::$$c__DisplayClass365_0*& dyn_CS$$$8__locals1();
     // System.Boolean <CopyPropertiesTo>b__0(HoudiniEngineUnity.HEU_Curve curve)
-    // Offset: 0x158A34C
+    // Offset: 0x17797FC
     bool $CopyPropertiesTo$b__0(HoudiniEngineUnity::HEU_Curve* curve);
     // public System.Void .ctor()
-    // Offset: 0x158A344
+    // Offset: 0x17797F4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

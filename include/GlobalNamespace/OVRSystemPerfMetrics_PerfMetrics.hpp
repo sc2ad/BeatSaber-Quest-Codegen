@@ -275,13 +275,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 deviceGpuClockLevel
     int& dyn_deviceGpuClockLevel();
     // public System.String ToJSON()
-    // Offset: 0x216A468
+    // Offset: 0x243FCA0
     ::StringW ToJSON();
     // public System.Boolean LoadFromJSON(System.String json)
-    // Offset: 0x216A954
+    // Offset: 0x244018C
     bool LoadFromJSON(::StringW json);
     // public System.Void .ctor()
-    // Offset: 0x216A8D8
+    // Offset: 0x2440110
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

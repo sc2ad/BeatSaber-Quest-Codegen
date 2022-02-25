@@ -28,7 +28,6 @@ namespace Zenject {
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: MemoryPoolBindingFinalizer`1<TContract>
-  template<typename TContract>
   class MemoryPoolBindingFinalizer_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -44,13 +44,13 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.Material material
     static void _set_material(UnityEngine::Material* value);
     // public System.Void Set(UnityEngine.Vector3 N, System.Single phi0, System.Single phi1, System.Single theta0, System.Single theta1, UnityEngine.Vector3 uAxis, UnityEngine.Vector3 uOrigin, System.Single uScale, UnityEngine.Vector3 vAxis, UnityEngine.Vector3 vOrigin, System.Single vScale)
-    // Offset: 0x15C9CF8
+    // Offset: 0x17CFB18
     void Set(UnityEngine::Vector3 N, float phi0, float phi1, float theta0, float theta1, UnityEngine::Vector3 uAxis, UnityEngine::Vector3 uOrigin, float uScale, UnityEngine::Vector3 vAxis, UnityEngine::Vector3 vOrigin, float vScale);
     // private System.Void OnRenderImage(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x15CA098
+    // Offset: 0x17CFEB8
     void OnRenderImage(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
     // public System.Void .ctor()
-    // Offset: 0x15CA128
+    // Offset: 0x17CFF48
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

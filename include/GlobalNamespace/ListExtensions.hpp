@@ -19,10 +19,8 @@ namespace System {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IReadOnlyList`1<T>
-  template<typename T>
   class IReadOnlyList_1;
   // Forward declaring type: IList`1<T>
-  template<typename T>
   class IList_1;
 }
 // Completed forward declares
@@ -43,13 +41,13 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class ListExtensions : public ::Il2CppObject {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF493AC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x124FCB0
     // Get static field: static private readonly System.Random _random
     static System::Random* _get__random();
     // Set static field: static private readonly System.Random _random
     static void _set__random(System::Random* value);
     // static private System.Void .cctor()
-    // Offset: 0x13048A4
+    // Offset: 0x147FBF0
     static void _cctor();
     // static public System.Int32 IndexOf(System.Collections.Generic.IReadOnlyList`1<T> self, T item)
     // Offset: 0xFFFFFFFF

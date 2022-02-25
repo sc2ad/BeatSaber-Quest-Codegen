@@ -26,7 +26,6 @@ namespace UnityEngine::ProBuilder {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
 }
 // Completed forward declares
@@ -51,22 +50,22 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.Single k_MaxRaySnapDistance
     static void _set_k_MaxRaySnapDistance(float value);
     // static public UnityEngine.Vector3 SnapValue(UnityEngine.Vector3 vertex, System.Single snpVal)
-    // Offset: 0x16F4BD8
+    // Offset: 0x1910930
     static UnityEngine::Vector3 SnapValue(UnityEngine::Vector3 vertex, float snpVal);
     // static public System.Single SnapValue(System.Single val, System.Single snpVal)
-    // Offset: 0x16F4DEC
+    // Offset: 0x1910B44
     static float SnapValue(float val, float snpVal);
     // static public UnityEngine.Vector3 SnapValue(UnityEngine.Vector3 vertex, UnityEngine.Vector3 snap)
-    // Offset: 0x16F4F00
+    // Offset: 0x1910C58
     static UnityEngine::Vector3 SnapValue(UnityEngine::Vector3 vertex, UnityEngine::Vector3 snap);
     // static public System.Void SnapVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<System.Int32> indexes, UnityEngine.Vector3 snap)
-    // Offset: 0x16F51DC
+    // Offset: 0x1910F34
     static void SnapVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<int>* indexes, UnityEngine::Vector3 snap);
     // static UnityEngine.Vector3 GetSnappingMaskBasedOnNormalVector(UnityEngine.Vector3 normal)
-    // Offset: 0x16F5540
+    // Offset: 0x1911298
     static UnityEngine::Vector3 GetSnappingMaskBasedOnNormalVector(UnityEngine::Vector3 normal);
     // static UnityEngine.Vector3 SnapValueOnRay(UnityEngine.Ray ray, System.Single distance, System.Single snap, UnityEngine.ProBuilder.Vector3Mask mask)
-    // Offset: 0x16F5678
+    // Offset: 0x19113D0
     static UnityEngine::Vector3 SnapValueOnRay(UnityEngine::Ray ray, float distance, float snap, UnityEngine::ProBuilder::Vector3Mask mask);
   }; // UnityEngine.ProBuilder.ProBuilderSnapping
   #pragma pack(pop)

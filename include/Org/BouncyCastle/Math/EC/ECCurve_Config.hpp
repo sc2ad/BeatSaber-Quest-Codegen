@@ -80,17 +80,17 @@ namespace Org::BouncyCastle::Math::EC {
     // Get instance field reference: protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier multiplier
     Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*& dyn_multiplier();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve outer, System.Int32 coord, Org.BouncyCastle.Math.EC.Endo.ECEndomorphism endomorphism, Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier multiplier)
-    // Offset: 0x2401F08
+    // Offset: 0x269061C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECCurve::Config* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* outer, int coord, Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism, Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* multiplier) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::ECCurve::Config::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECCurve::Config*, creationType>(outer, coord, endomorphism, multiplier)));
     }
     // public Org.BouncyCastle.Math.EC.ECCurve/Org.BouncyCastle.Math.EC.Config SetEndomorphism(Org.BouncyCastle.Math.EC.Endo.ECEndomorphism endomorphism)
-    // Offset: 0x24035EC
+    // Offset: 0x2691D00
     Org::BouncyCastle::Math::EC::ECCurve::Config* SetEndomorphism(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism);
     // public Org.BouncyCastle.Math.EC.ECCurve Create()
-    // Offset: 0x24035F4
+    // Offset: 0x2691D08
     Org::BouncyCastle::Math::EC::ECCurve* Create();
   }; // Org.BouncyCastle.Math.EC.ECCurve/Org.BouncyCastle.Math.EC.Config
   #pragma pack(pop)

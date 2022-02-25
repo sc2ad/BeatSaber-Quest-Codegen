@@ -97,35 +97,35 @@ namespace OVRSimpleJSON {
     // Get instance field reference: private System.Collections.Generic.List`1/System.Collections.Generic.Enumerator<OVRSimpleJSON.JSONNode> <>7__wrap1
     typename System::Collections::Generic::List_1<OVRSimpleJSON::JSONNode*>::Enumerator& dyn_$$7__wrap1();
     // private OVRSimpleJSON.JSONNode System.Collections.Generic.IEnumerator<OVRSimpleJSON.JSONNode>.get_Current()
-    // Offset: 0x18821BC
+    // Offset: 0x1A7E9E0
     OVRSimpleJSON::JSONNode* System_Collections_Generic_IEnumerator$OVRSimpleJSON_JSONNode$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1882224
+    // Offset: 0x1A7EA48
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1881DAC
+    // Offset: 0x1A7E5D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JSONArray::$get_Children$d__22* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("OVRSimpleJSON::JSONArray::$get_Children$d__22::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JSONArray::$get_Children$d__22*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1881FF4
+    // Offset: 0x1A7E818
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1882068
+    // Offset: 0x1A7E88C
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x1882010
+    // Offset: 0x1A7E834
     void $$m__Finally1();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x18821C4
+    // Offset: 0x1A7E9E8
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<OVRSimpleJSON.JSONNode> System.Collections.Generic.IEnumerable<OVRSimpleJSON.JSONNode>.GetEnumerator()
-    // Offset: 0x188222C
+    // Offset: 0x1A7EA50
     System::Collections::Generic::IEnumerator_1<OVRSimpleJSON::JSONNode*>* System_Collections_Generic_IEnumerable$OVRSimpleJSON_JSONNode$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x18822D8
+    // Offset: 0x1A7EAFC
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // OVRSimpleJSON.JSONArray/OVRSimpleJSON.<get_Children>d__22
   // WARNING Not writing size check since size may be invalid!

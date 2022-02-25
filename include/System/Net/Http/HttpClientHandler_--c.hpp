@@ -17,10 +17,8 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Completed forward declares
@@ -49,16 +47,16 @@ namespace System::Net::Http {
     // Set static field: static public System.Action`1<System.Object> <>9__64_0
     static void _set_$$9__64_0(System::Action_1<::Il2CppObject*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x17CB810
+    // Offset: 0x19044C0
     static void _cctor();
     // System.Boolean <CreateWebRequest>b__61_0(System.String l)
-    // Offset: 0x17CB87C
+    // Offset: 0x190452C
     bool $CreateWebRequest$b__61_0(::StringW l);
     // System.Void <SendAsync>b__64_0(System.Object l)
-    // Offset: 0x17CB8D0
+    // Offset: 0x1904580
     void $SendAsync$b__64_0(::Il2CppObject* l);
     // public System.Void .ctor()
-    // Offset: 0x17CB874
+    // Offset: 0x1904524
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

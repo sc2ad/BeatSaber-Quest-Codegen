@@ -52,7 +52,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single tangentWeight
     float& dyn_tangentWeight();
     // public System.Void .ctor()
-    // Offset: 0x1C9F638
+    // Offset: 0x1F122CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -16,10 +16,8 @@
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: TaskCompletionSource`1<TResult>
-  template<typename TResult>
   class TaskCompletionSource_1;
   // Forward declaring type: Task`1<TResult>
-  template<typename TResult>
   class Task_1;
 }
 // Forward declaring namespace: System
@@ -31,7 +29,6 @@ namespace System {
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: AsyncComputeOperation`1<T>
-  template<typename T>
   class AsyncComputeOperation_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

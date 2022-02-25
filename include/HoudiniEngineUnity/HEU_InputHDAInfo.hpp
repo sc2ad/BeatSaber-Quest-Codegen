@@ -74,13 +74,13 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _connectedInputNodeID
     int& dyn__connectedInputNodeID();
     // public System.Void CopyTo(HoudiniEngineUnity.HEU_InputHDAInfo destInfo)
-    // Offset: 0x158ABF4
+    // Offset: 0x177A0A4
     void CopyTo(HoudiniEngineUnity::HEU_InputHDAInfo* destInfo);
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_InputHDAInfo other)
-    // Offset: 0x158AC20
+    // Offset: 0x177A0D0
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_InputHDAInfo* other);
     // public System.Void .ctor()
-    // Offset: 0x158AD94
+    // Offset: 0x177A244
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

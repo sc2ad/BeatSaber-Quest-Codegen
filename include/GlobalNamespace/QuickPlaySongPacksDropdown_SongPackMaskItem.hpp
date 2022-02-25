@@ -71,7 +71,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public SongPackMask songPackMask
     GlobalNamespace::SongPackMask& dyn_songPackMask();
     // public System.Void .ctor()
-    // Offset: 0x11B3050
+    // Offset: 0x13ECBC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -21,7 +21,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System::Net::Http::Headers
@@ -92,43 +91,43 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private System.String <Text>k__BackingField
     ::StringW& dyn_$Text$k__BackingField();
     // public System.String get_Agent()
-    // Offset: 0x17C8894
+    // Offset: 0x1901480
     ::StringW get_Agent();
     // private System.Void set_Agent(System.String value)
-    // Offset: 0x17C889C
+    // Offset: 0x1901488
     void set_Agent(::StringW value);
     // public System.Int32 get_Code()
-    // Offset: 0x17C88A4
+    // Offset: 0x1901490
     int get_Code();
     // private System.Void set_Code(System.Int32 value)
-    // Offset: 0x17C88AC
+    // Offset: 0x1901498
     void set_Code(int value);
     // public System.Nullable`1<System.DateTimeOffset> get_Date()
-    // Offset: 0x17C88B4
+    // Offset: 0x19014A0
     System::Nullable_1<System::DateTimeOffset> get_Date();
     // private System.Void set_Date(System.Nullable`1<System.DateTimeOffset> value)
-    // Offset: 0x17C88C8
+    // Offset: 0x19014B4
     void set_Date(System::Nullable_1<System::DateTimeOffset> value);
     // public System.String get_Text()
-    // Offset: 0x17C88DC
+    // Offset: 0x19014C8
     ::StringW get_Text();
     // private System.Void set_Text(System.String value)
-    // Offset: 0x17C88E4
+    // Offset: 0x19014D0
     void set_Text(::StringW value);
     // static private System.Boolean IsCodeValid(System.Int32 code)
-    // Offset: 0x17C88EC
+    // Offset: 0x19014D8
     static bool IsCodeValid(int code);
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x17C88F8
+    // Offset: 0x19014E4
     ::Il2CppObject* System_ICloneable_Clone();
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.WarningHeaderValue> result)
-    // Offset: 0x17C8B2C
+    // Offset: 0x1901718
     static bool TryParse(::StringW input, int minimalCount, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::WarningHeaderValue*>*> result);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.WarningHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x17C8BCC
+    // Offset: 0x19017B8
     static bool TryParseElement(System::Net::Http::Headers::Lexer* lexer, ByRef<System::Net::Http::Headers::WarningHeaderValue*> parsedValue, ByRef<System::Net::Http::Headers::Token> t);
     // private System.Void .ctor()
-    // Offset: 0x17C888C
+    // Offset: 0x1901478
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -137,17 +136,17 @@ namespace System::Net::Http::Headers {
       return THROW_UNLESS((::il2cpp_utils::New<WarningHeaderValue*, creationType>()));
     }
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x17C8900
+    // Offset: 0x19014EC
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x17C8A44
+    // Offset: 0x1901630
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x17C8E78
+    // Offset: 0x1901A64
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

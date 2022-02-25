@@ -18,10 +18,8 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Comparison`1<T>
-  template<typename T>
   class Comparison_1;
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -58,22 +56,22 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<UnityEngine.Vector3,System.Single> <>9__8_2
     static void _set_$$9__8_2(System::Func_2<UnityEngine::Vector3, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13328EC
+    // Offset: 0x14D1AF8
     static void _cctor();
     // System.Int32 <SortSourceData>b__6_0(UnityEngine.Vector3 point1, UnityEngine.Vector3 point2)
-    // Offset: 0x1332958
+    // Offset: 0x14D1B64
     int $SortSourceData$b__6_0(UnityEngine::Vector3 point1, UnityEngine::Vector3 point2);
     // System.Single <ComputeControlPoints>b__8_0(UnityEngine.Vector3 p)
-    // Offset: 0x133298C
+    // Offset: 0x14D1B98
     float $ComputeControlPoints$b__8_0(UnityEngine::Vector3 p);
     // System.Single <ComputeControlPoints>b__8_1(UnityEngine.Vector3 p)
-    // Offset: 0x1332990
+    // Offset: 0x14D1B9C
     float $ComputeControlPoints$b__8_1(UnityEngine::Vector3 p);
     // System.Single <ComputeControlPoints>b__8_2(UnityEngine.Vector3 p)
-    // Offset: 0x1332998
+    // Offset: 0x14D1BA4
     float $ComputeControlPoints$b__8_2(UnityEngine::Vector3 p);
     // public System.Void .ctor()
-    // Offset: 0x1332950
+    // Offset: 0x14D1B5C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -34,14 +34,14 @@ namespace RootMotion::FinalIK {
     protected:
     #endif
     #endif
-    // [TooltipAttribute] Offset: 0xF61D64
+    // [TooltipAttribute] Offset: 0x1268894
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type curve
     // Size: 0x4
     // Offset: 0x10
     RootMotion::FinalIK::InteractionObject::WeightCurve::Type curve;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::InteractionObject::WeightCurve::Type) == 0x4);
-    // [TooltipAttribute] Offset: 0xF61D9C
+    // [TooltipAttribute] Offset: 0x12688CC
     // public System.Single multiplier
     // Size: 0x4
     // Offset: 0x14
@@ -54,7 +54,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single multiplier
     float& dyn_multiplier();
     // public System.Void .ctor()
-    // Offset: 0x1C96380
+    // Offset: 0x1F09014
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

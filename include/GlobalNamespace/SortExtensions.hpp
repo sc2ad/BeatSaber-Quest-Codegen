@@ -17,13 +17,11 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -45,7 +43,6 @@ namespace GlobalNamespace {
   class SortExtensions : public ::Il2CppObject {
     public:
     // Nested type: GlobalNamespace::SortExtensions::$$c__DisplayClass1_0_1<T>
-    template<typename T>
     class $$c__DisplayClass1_0_1;
     // static public System.Void InsertSorted(System.Collections.Generic.List`1<T> list, T item, System.Func`2<T,System.Int32> getSortIndex)
     // Offset: 0xFFFFFFFF

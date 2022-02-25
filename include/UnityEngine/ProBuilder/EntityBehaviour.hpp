@@ -51,7 +51,7 @@ namespace UnityEngine::ProBuilder {
     protected:
     #endif
     #endif
-    // [TooltipAttribute] Offset: 0xF688C0
+    // [TooltipAttribute] Offset: 0x126F9A4
     // public System.Boolean manageVisibility
     // Size: 0x1
     // Offset: 0x18
@@ -73,10 +73,10 @@ namespace UnityEngine::ProBuilder {
     // Offset: 0xFFFFFFFF
     void OnSceneLoaded(UnityEngine::SceneManagement::Scene scene, UnityEngine::SceneManagement::LoadSceneMode mode);
     // protected System.Void SetMaterial(UnityEngine.Material material)
-    // Offset: 0x1CC5C30
+    // Offset: 0x1F39478
     void SetMaterial(UnityEngine::Material* material);
     // protected System.Void .ctor()
-    // Offset: 0x1CC5D0C
+    // Offset: 0x1F39554
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

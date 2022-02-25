@@ -71,44 +71,44 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Object parameters
     Org::BouncyCastle::Asn1::Asn1Object*& dyn_parameters();
     // public Org.BouncyCastle.Asn1.DerObjectIdentifier get_Identifier()
-    // Offset: 0x1C2CBC8
+    // Offset: 0x1E42E4C
     Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Identifier();
     // public Org.BouncyCastle.Asn1.Asn1Object get_Parameters()
-    // Offset: 0x1C2CBD0
+    // Offset: 0x1E42E54
     Org::BouncyCastle::Asn1::Asn1Object* get_Parameters();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger primeP)
-    // Offset: 0x1C2C0F4
+    // Offset: 0x1E42378
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9FieldID* New_ctor(Org::BouncyCastle::Math::BigInteger* primeP) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9FieldID::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9FieldID*, creationType>(primeP)));
     }
     // public System.Void .ctor(System.Int32 m, System.Int32 k1)
-    // Offset: 0x1C2C1A0
+    // Offset: 0x1E42424
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9FieldID* New_ctor(int m, int k1) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9FieldID::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9FieldID*, creationType>(m, k1)));
     }
     // public System.Void .ctor(System.Int32 m, System.Int32 k1, System.Int32 k2, System.Int32 k3)
-    // Offset: 0x1C2C1AC
+    // Offset: 0x1E42430
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9FieldID* New_ctor(int m, int k1, int k2, int k3) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9FieldID::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9FieldID*, creationType>(m, k1, k2, k3)));
     }
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1C2CAF4
+    // Offset: 0x1E42D78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X9FieldID* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9FieldID::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9FieldID*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X9.X9FieldID GetInstance(System.Object obj)
-    // Offset: 0x1C2C00C
+    // Offset: 0x1E42290
     static Org::BouncyCastle::Asn1::X9::X9FieldID* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1C2CBD8
+    // Offset: 0x1E42E5C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

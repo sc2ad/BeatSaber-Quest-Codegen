@@ -17,7 +17,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: GlobalNamespace
@@ -83,23 +82,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single> _loudnessLevelPerLevelId
     System::Collections::Generic::Dictionary_2<::StringW, float>*& dyn__loudnessLevelPerLevelId();
     // public System.Void .ctor(PerceivedLoudnessPerLevelSO loudnessPerLeveData)
-    // Offset: 0x114D7C8
+    // Offset: 0x2ABD638
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PerceivedLoudnessPerLevelModel* New_ctor(GlobalNamespace::PerceivedLoudnessPerLevelSO* loudnessPerLeveData) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PerceivedLoudnessPerLevelModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PerceivedLoudnessPerLevelModel*, creationType>(loudnessPerLeveData)));
     }
     // public System.Boolean ContainsLevelId(System.String levelId)
-    // Offset: 0x114D8B8
+    // Offset: 0x2ABD728
     bool ContainsLevelId(::StringW levelId);
     // public System.Single GetLoudnessCorrectionByLevelId(System.String levelId)
-    // Offset: 0x114D920
+    // Offset: 0x2ABD790
     float GetLoudnessCorrectionByLevelId(::StringW levelId);
     // public System.Single GetMaxSfxVolumeByLevelId(System.String levelId)
-    // Offset: 0x114DA38
+    // Offset: 0x2ABD8A8
     float GetMaxSfxVolumeByLevelId(::StringW levelId);
     // private System.Single GetLoudnessByLevelId(System.String levelId)
-    // Offset: 0x114D9B4
+    // Offset: 0x2ABD824
     float GetLoudnessByLevelId(::StringW levelId);
   }; // PerceivedLoudnessPerLevelModel
   #pragma pack(pop)

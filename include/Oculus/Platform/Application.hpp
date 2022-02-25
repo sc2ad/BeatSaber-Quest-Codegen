@@ -11,7 +11,6 @@
 // Forward declaring namespace: Oculus::Platform
 namespace Oculus::Platform {
   // Forward declaring type: Request`1<T>
-  template<typename T>
   class Request_1;
   // Forward declaring type: ApplicationOptions
   class ApplicationOptions;
@@ -39,10 +38,10 @@ namespace Oculus::Platform {
   class Application : public ::Il2CppObject {
     public:
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ApplicationVersion> GetVersion()
-    // Offset: 0x1D6E8EC
+    // Offset: 0x1FD0ED4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::ApplicationVersion*>* GetVersion();
     // static public Oculus.Platform.Request`1<System.String> LaunchOtherApp(System.UInt64 appID, Oculus.Platform.ApplicationOptions deeplink_options)
-    // Offset: 0x1D6EA68
+    // Offset: 0x1FD1050
     static Oculus::Platform::Request_1<::StringW>* LaunchOtherApp(uint64_t appID, Oculus::Platform::ApplicationOptions* deeplink_options);
   }; // Oculus.Platform.Application
   #pragma pack(pop)

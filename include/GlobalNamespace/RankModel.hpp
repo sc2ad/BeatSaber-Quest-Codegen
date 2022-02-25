@@ -31,10 +31,10 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::RankModel::Rank
     struct Rank;
     // static public System.String GetRankName(RankModel/Rank rank)
-    // Offset: 0x2625360
+    // Offset: 0x297778C
     static ::StringW GetRankName(GlobalNamespace::RankModel::Rank rank);
     // static public RankModel/Rank GetRankForScore(System.Int32 rawScore, System.Int32 modifiedScore, System.Int32 maxRawScore, System.Int32 maxModifiedScore)
-    // Offset: 0x26253C4
+    // Offset: 0x29777F0
     static GlobalNamespace::RankModel::Rank GetRankForScore(int rawScore, int modifiedScore, int maxRawScore, int maxModifiedScore);
   }; // RankModel
   #pragma pack(pop)

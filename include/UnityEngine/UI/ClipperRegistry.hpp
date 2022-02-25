@@ -14,7 +14,6 @@
 // Forward declaring namespace: UnityEngine::UI::Collections
 namespace UnityEngine::UI::Collections {
   // Forward declaring type: IndexedSet`1<T>
-  template<typename T>
   class IndexedSet_1;
 }
 // Forward declaring namespace: UnityEngine::UI
@@ -66,19 +65,19 @@ namespace UnityEngine::UI {
     // Get instance field reference: private readonly UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.IClipper> m_Clippers
     UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper*>*& dyn_m_Clippers();
     // static public UnityEngine.UI.ClipperRegistry get_instance()
-    // Offset: 0x166E59C
+    // Offset: 0x18738F0
     static UnityEngine::UI::ClipperRegistry* get_instance();
     // public System.Void Cull()
-    // Offset: 0x166E618
+    // Offset: 0x187396C
     void Cull();
     // static public System.Void Register(UnityEngine.UI.IClipper c)
-    // Offset: 0x166F1AC
+    // Offset: 0x1874500
     static void Register(UnityEngine::UI::IClipper* c);
     // static public System.Void Unregister(UnityEngine.UI.IClipper c)
-    // Offset: 0x166F220
+    // Offset: 0x1874574
     static void Unregister(UnityEngine::UI::IClipper* c);
     // protected System.Void .ctor()
-    // Offset: 0x166F13C
+    // Offset: 0x1874490
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -69,19 +69,22 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Get instance field reference: private readonly System.Collections.IDictionary impl
     System::Collections::IDictionary*& dyn_impl();
     // public System.Int32 get_Count()
-    // Offset: 0x2228DC0
+    // Offset: 0x25A4718
     int get_Count();
+    // public System.Object get_SyncRoot()
+    // Offset: 0x25A48F0
+    ::Il2CppObject* get_SyncRoot();
     // public System.Void Add(System.Object o)
-    // Offset: 0x2228BBC
+    // Offset: 0x25A4514
     void Add(::Il2CppObject* o);
     // public System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x2228C84
+    // Offset: 0x25A45DC
     void CopyTo(System::Array* array, int index);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x2228E74
+    // Offset: 0x25A47CC
     System::Collections::IEnumerator* GetEnumerator();
     // public System.Void .ctor()
-    // Offset: 0x2228AF0
+    // Offset: 0x25A4448
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -101,6 +104,14 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::Collections::HashSet::*)()>(&Org::BouncyCastle::Utilities::Collections::HashSet::get_Count)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::HashSet*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::HashSet::get_SyncRoot
+// Il2CppName: get_SyncRoot
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Org::BouncyCastle::Utilities::Collections::HashSet::*)()>(&Org::BouncyCastle::Utilities::Collections::HashSet::get_SyncRoot)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::HashSet*), "get_SyncRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::HashSet::Add

@@ -23,7 +23,6 @@ namespace UnityEngine {
 // Type namespace: UnityEngine.AddressableAssets
 namespace UnityEngine::AddressableAssets {
   // Forward declaring type: AssetReferenceT`1<TObject>
-  template<typename TObject>
   class AssetReferenceT_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

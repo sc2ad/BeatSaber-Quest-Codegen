@@ -17,7 +17,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Completed forward declares
@@ -59,13 +58,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _shortestWord
     int& dyn__shortestWord();
     // public System.Void AddWord(System.String word, System.Int32 index)
-    // Offset: 0x180FE28
+    // Offset: 0x2E01370
     void AddWord(::StringW word, int index);
     // public System.Boolean IsMatch(System.String word, System.Int32 index)
-    // Offset: 0x1810284
+    // Offset: 0x2E017CC
     bool IsMatch(::StringW word, int index);
     // public System.Void .ctor()
-    // Offset: 0x180FE18
+    // Offset: 0x2E01360
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

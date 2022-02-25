@@ -51,16 +51,16 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.IntPtr Handle
     System::IntPtr& dyn_Handle();
     // public System.Void AddSuggestedUser(System.UInt64 userID)
-    // Offset: 0x174F3C0
+    // Offset: 0x195BAE0
     void AddSuggestedUser(uint64_t userID);
     // public System.Void ClearSuggestedUsers()
-    // Offset: 0x174F43C
+    // Offset: 0x195BB5C
     void ClearSuggestedUsers();
     // static public System.IntPtr op_Explicit(Oculus.Platform.InviteOptions options)
-    // Offset: 0x174DEB0
+    // Offset: 0x195A5D0
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x174F348
+    // Offset: 0x195BA68
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -69,7 +69,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<InviteOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x174F4A8
+    // Offset: 0x195BBC8
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

@@ -29,10 +29,8 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Completed forward declares
@@ -77,7 +75,7 @@ namespace GlobalNamespace {
     ::ArrayW<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*> customSongPackMaskItems;
     // Field size check
     static_assert(sizeof(::ArrayW<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*>) == 0x8);
-    // [SpaceAttribute] Offset: 0xF38118
+    // [SpaceAttribute] Offset: 0x123E9CC
     // private BeatmapLevelPackCollectionSO _ostAndExtrasCollection
     // Size: 0x8
     // Offset: 0x28
@@ -98,7 +96,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(Polyglot::Language) == 0x4);
     // Padding between fields: currentLocalizedLanguage and: songPackSerializedNameToLocalizedNameDict
     char __padding4[0x4] = {};
-    // [TupleElementNamesAttribute] Offset: 0xF38160
+    // [TupleElementNamesAttribute] Offset: 0x123EA14
     // private System.Collections.Generic.Dictionary`2<System.String,System.ValueTuple`2<System.String,System.Boolean>> _songPackSerializedNameToLocalizedNameDict
     // Size: 0x8
     // Offset: 0x40
@@ -137,40 +135,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<SongPackMask,System.String> _songPackMaskToSerializedNameDict
     System::Collections::Generic::Dictionary_2<GlobalNamespace::SongPackMask, ::StringW>*& dyn__songPackMaskToSerializedNameDict();
     // public System.Collections.Generic.List`1<System.String> get_defaultSongPackMaskItems()
-    // Offset: 0x12162B4
+    // Offset: 0x13D1124
     System::Collections::Generic::List_1<::StringW>* get_defaultSongPackMaskItems();
     // public SongPackMaskModelSO/SongPackMaskItem[] get_customSongPackMaskItems()
-    // Offset: 0x12162BC
+    // Offset: 0x13D112C
     ::ArrayW<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*> get_customSongPackMaskItems();
     // public BeatmapLevelPackCollectionSO get_ostAndExtrasCollection()
-    // Offset: 0x12162C4
+    // Offset: 0x13D1134
     GlobalNamespace::BeatmapLevelPackCollectionSO* get_ostAndExtrasCollection();
     // public BeatmapLevelPackCollectionSO get_dlcCollection()
-    // Offset: 0x12162CC
+    // Offset: 0x13D113C
     GlobalNamespace::BeatmapLevelPackCollectionSO* get_dlcCollection();
     // public System.String ToLocalizedName(System.String serializedName)
-    // Offset: 0x12162D4
+    // Offset: 0x13D1144
     ::StringW ToLocalizedName(::StringW serializedName);
     // public System.String ToLocalizedName(System.String serializedName, out System.Boolean plural)
-    // Offset: 0x12162F8
+    // Offset: 0x13D1168
     ::StringW ToLocalizedName(::StringW serializedName, ByRef<bool> plural);
     // public System.Boolean ToSongPackMask(System.String serializedName, out SongPackMask songPackMask)
-    // Offset: 0x1216A98
+    // Offset: 0x13D1908
     bool ToSongPackMask(::StringW serializedName, ByRef<GlobalNamespace::SongPackMask> songPackMask);
     // public SongPackMask ToSongPackMask(System.String serializedName)
-    // Offset: 0x1216B10
+    // Offset: 0x13D1980
     GlobalNamespace::SongPackMask ToSongPackMask(::StringW serializedName);
     // public System.Boolean ToSerializedName(SongPackMask songPackMask, out System.String serializedName)
-    // Offset: 0x1216B48
+    // Offset: 0x13D19B8
     bool ToSerializedName(GlobalNamespace::SongPackMask songPackMask, ByRef<::StringW> serializedName);
     // public System.String ToSerializedName(SongPackMask songPackMask)
-    // Offset: 0x1216BD0
+    // Offset: 0x13D1A40
     ::StringW ToSerializedName(GlobalNamespace::SongPackMask songPackMask);
     // private System.Void LazyInit()
-    // Offset: 0x12163B4
+    // Offset: 0x13D1224
     void LazyInit();
     // public System.Void .ctor()
-    // Offset: 0x1217034
+    // Offset: 0x13D1EA4
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

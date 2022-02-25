@@ -56,7 +56,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly BloomPrePassRenderDataSO/Data data
     GlobalNamespace::BloomPrePassRenderDataSO::Data*& dyn_data();
     // public System.Void .ctor()
-    // Offset: 0x1DB1BE8
+    // Offset: 0x208648C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

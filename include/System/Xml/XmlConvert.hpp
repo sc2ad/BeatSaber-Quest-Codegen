@@ -11,15 +11,36 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: System::Xml
-namespace System::Xml {
-  // Forward declaring type: ExceptionType
-  struct ExceptionType;
+// Forward declaring namespace: System::Text::RegularExpressions
+namespace System::Text::RegularExpressions {
+  // Forward declaring type: Regex
+  class Regex;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Exception
   class Exception;
+  // Forward declaring type: Decimal
+  struct Decimal;
+  // Forward declaring type: TimeSpan
+  struct TimeSpan;
+  // Forward declaring type: DateTime
+  struct DateTime;
+  // Forward declaring type: DateTimeOffset
+  struct DateTimeOffset;
+  // Forward declaring type: Guid
+  struct Guid;
+  // Forward declaring type: Uri
+  class Uri;
+  // Forward declaring type: ArgumentException
+  class ArgumentException;
+}
+// Forward declaring namespace: System::Xml
+namespace System::Xml {
+  // Forward declaring type: ExceptionType
+  struct ExceptionType;
+  // Forward declaring type: XmlDateTimeSerializationMode
+  struct XmlDateTimeSerializationMode;
 }
 // Completed forward declares
 // Type namespace: System.Xml
@@ -50,68 +71,442 @@ namespace System::Xml {
     static int _get_c_EncodedCharLength();
     // Set static field: static private readonly System.Int32 c_EncodedCharLength
     static void _set_c_EncodedCharLength(int value);
+    // Get static field: static private System.Text.RegularExpressions.Regex c_EncodeCharPattern
+    static System::Text::RegularExpressions::Regex* _get_c_EncodeCharPattern();
+    // Set static field: static private System.Text.RegularExpressions.Regex c_EncodeCharPattern
+    static void _set_c_EncodeCharPattern(System::Text::RegularExpressions::Regex* value);
+    // Get static field: static private System.Text.RegularExpressions.Regex c_DecodeCharPattern
+    static System::Text::RegularExpressions::Regex* _get_c_DecodeCharPattern();
+    // Set static field: static private System.Text.RegularExpressions.Regex c_DecodeCharPattern
+    static void _set_c_DecodeCharPattern(System::Text::RegularExpressions::Regex* value);
+    // Get static field: static private System.String[] s_allDateTimeFormats
+    static ::ArrayW<::StringW> _get_s_allDateTimeFormats();
+    // Set static field: static private System.String[] s_allDateTimeFormats
+    static void _set_s_allDateTimeFormats(::ArrayW<::StringW> value);
     // Get static field: static readonly System.Char[] WhitespaceChars
     static ::ArrayW<::Il2CppChar> _get_WhitespaceChars();
     // Set static field: static readonly System.Char[] WhitespaceChars
     static void _set_WhitespaceChars(::ArrayW<::Il2CppChar> value);
+    // static private System.String[] get_AllDateTimeFormats()
+    // Offset: 0x1628E10
+    static ::ArrayW<::StringW> get_AllDateTimeFormats();
     // static private System.Void .cctor()
-    // Offset: 0x1B655B0
+    // Offset: 0x162AA90
     static void _cctor();
+    // static public System.String EncodeName(System.String name)
+    // Offset: 0x1624178
+    static ::StringW EncodeName(::StringW name);
+    // static public System.String EncodeLocalName(System.String name)
+    // Offset: 0x1624BD8
+    static ::StringW EncodeLocalName(::StringW name);
+    // static public System.String DecodeName(System.String name)
+    // Offset: 0x1624C44
+    static ::StringW DecodeName(::StringW name);
+    // static private System.String EncodeName(System.String name, System.Boolean first, System.Boolean local)
+    // Offset: 0x16241E4
+    static ::StringW EncodeName(::StringW name, bool first, bool local);
+    // static private System.Int32 FromHex(System.Char digit)
+    // Offset: 0x16255C4
+    static int FromHex(::Il2CppChar digit);
+    // static System.Byte[] FromBinHexString(System.String s)
+    // Offset: 0x16255F4
+    static ::ArrayW<uint8_t> FromBinHexString(::StringW s);
+    // static System.Byte[] FromBinHexString(System.String s, System.Boolean allowOddCount)
+    // Offset: 0x162565C
+    static ::ArrayW<uint8_t> FromBinHexString(::StringW s, bool allowOddCount);
+    // static System.String ToBinHexString(System.Byte[] inArray)
+    // Offset: 0x16256FC
+    static ::StringW ToBinHexString(::ArrayW<uint8_t> inArray);
+    // static public System.String VerifyName(System.String name)
+    // Offset: 0x162578C
+    static ::StringW VerifyName(::StringW name);
+    // static System.Exception TryVerifyName(System.String name)
+    // Offset: 0x16259B0
+    static System::Exception* TryVerifyName(::StringW name);
     // static System.String VerifyQName(System.String name, System.Xml.ExceptionType exceptionType)
-    // Offset: 0x1B646F0
+    // Offset: 0x1625AE4
     static ::StringW VerifyQName(::StringW name, System::Xml::ExceptionType exceptionType);
+    // static public System.String VerifyNCName(System.String name)
+    // Offset: 0x1613D10
+    static ::StringW VerifyNCName(::StringW name);
+    // static System.String VerifyNCName(System.String name, System.Xml.ExceptionType exceptionType)
+    // Offset: 0x1625D08
+    static ::StringW VerifyNCName(::StringW name, System::Xml::ExceptionType exceptionType);
+    // static System.Exception TryVerifyNCName(System.String name)
+    // Offset: 0x1625E78
+    static System::Exception* TryVerifyNCName(::StringW name);
+    // static public System.String VerifyTOKEN(System.String token)
+    // Offset: 0x1625F3C
+    static ::StringW VerifyTOKEN(::StringW token);
+    // static System.Exception TryVerifyTOKEN(System.String token)
+    // Offset: 0x162606C
+    static System::Exception* TryVerifyTOKEN(::StringW token);
+    // static System.Exception TryVerifyNMTOKEN(System.String name)
+    // Offset: 0x1626190
+    static System::Exception* TryVerifyNMTOKEN(::StringW name);
+    // static System.Exception TryVerifyNormalizedString(System.String str)
+    // Offset: 0x16262A8
+    static System::Exception* TryVerifyNormalizedString(::StringW str);
+    // static public System.String ToString(System.Boolean value)
+    // Offset: 0x1626368
+    static ::StringW ToString(bool value);
+    // static public System.String ToString(System.Char value)
+    // Offset: 0x16263C4
+    static ::StringW ToString(::Il2CppChar value);
+    // static public System.String ToString(System.Decimal value)
+    // Offset: 0x16263F0
+    static ::StringW ToString(System::Decimal value);
+    // static public System.String ToString(System.SByte value)
+    // Offset: 0x1626428
+    static ::StringW ToString(int8_t value);
+    // static public System.String ToString(System.Int16 value)
+    // Offset: 0x1626460
+    static ::StringW ToString(int16_t value);
+    // static public System.String ToString(System.Int32 value)
+    // Offset: 0x1626498
+    static ::StringW ToString(int value);
+    // static public System.String ToString(System.Int64 value)
+    // Offset: 0x16264D0
+    static ::StringW ToString(int64_t value);
+    // static public System.String ToString(System.Byte value)
+    // Offset: 0x1626508
+    static ::StringW ToString(uint8_t value);
+    // static public System.String ToString(System.UInt16 value)
+    // Offset: 0x1626540
+    static ::StringW ToString(uint16_t value);
+    // static public System.String ToString(System.UInt32 value)
+    // Offset: 0x1626578
+    static ::StringW ToString(uint value);
+    // static public System.String ToString(System.UInt64 value)
+    // Offset: 0x16265B0
+    static ::StringW ToString(uint64_t value);
+    // static public System.String ToString(System.Single value)
+    // Offset: 0x16265E8
+    static ::StringW ToString(float value);
+    // static public System.String ToString(System.Double value)
+    // Offset: 0x1626758
+    static ::StringW ToString(double value);
+    // static public System.String ToString(System.TimeSpan value)
+    // Offset: 0x1626878
+    static ::StringW ToString(System::TimeSpan value);
+    // static public System.String ToString(System.DateTime value, System.String format)
+    // Offset: 0x16268D4
+    static ::StringW ToString(System::DateTime value, ::StringW format);
+    // static public System.String ToString(System.DateTime value, System.Xml.XmlDateTimeSerializationMode dateTimeOption)
+    // Offset: 0x162695C
+    static ::StringW ToString(System::DateTime value, System::Xml::XmlDateTimeSerializationMode dateTimeOption);
+    // static public System.String ToString(System.DateTimeOffset value)
+    // Offset: 0x1626C4C
+    static ::StringW ToString(System::DateTimeOffset value);
+    // static public System.String ToString(System.Guid value)
+    // Offset: 0x1626C88
+    static ::StringW ToString(System::Guid value);
+    // static public System.Boolean ToBoolean(System.String s)
+    // Offset: 0x1626CB0
+    static bool ToBoolean(::StringW s);
+    // static System.Exception TryToBoolean(System.String s, out System.Boolean result)
+    // Offset: 0x1626EC8
+    static System::Exception* TryToBoolean(::StringW s, ByRef<bool> result);
+    // static public System.Char ToChar(System.String s)
+    // Offset: 0x16270A0
+    static ::Il2CppChar ToChar(::StringW s);
+    // static System.Exception TryToChar(System.String s, out System.Char result)
+    // Offset: 0x1627188
+    static System::Exception* TryToChar(::StringW s, ByRef<::Il2CppChar> result);
+    // static public System.Decimal ToDecimal(System.String s)
+    // Offset: 0x16272E0
+    static System::Decimal ToDecimal(::StringW s);
+    // static System.Exception TryToDecimal(System.String s, out System.Decimal result)
+    // Offset: 0x1627360
+    static System::Exception* TryToDecimal(::StringW s, ByRef<System::Decimal> result);
+    // static System.Decimal ToInteger(System.String s)
+    // Offset: 0x16274D0
+    static System::Decimal ToInteger(::StringW s);
+    // static System.Exception TryToInteger(System.String s, out System.Decimal result)
+    // Offset: 0x1627550
+    static System::Exception* TryToInteger(::StringW s, ByRef<System::Decimal> result);
+    // static public System.SByte ToSByte(System.String s)
+    // Offset: 0x16276C0
+    static int8_t ToSByte(::StringW s);
+    // static System.Exception TryToSByte(System.String s, out System.SByte result)
+    // Offset: 0x16276F4
+    static System::Exception* TryToSByte(::StringW s, ByRef<int8_t> result);
+    // static public System.Int16 ToInt16(System.String s)
+    // Offset: 0x162783C
+    static int16_t ToInt16(::StringW s);
+    // static System.Exception TryToInt16(System.String s, out System.Int16 result)
+    // Offset: 0x1627870
+    static System::Exception* TryToInt16(::StringW s, ByRef<int16_t> result);
+    // static public System.Int32 ToInt32(System.String s)
+    // Offset: 0x16279B8
+    static int ToInt32(::StringW s);
+    // static System.Exception TryToInt32(System.String s, out System.Int32 result)
+    // Offset: 0x16279EC
+    static System::Exception* TryToInt32(::StringW s, ByRef<int> result);
+    // static public System.Int64 ToInt64(System.String s)
+    // Offset: 0x1627B34
+    static int64_t ToInt64(::StringW s);
+    // static System.Exception TryToInt64(System.String s, out System.Int64 result)
+    // Offset: 0x1627B68
+    static System::Exception* TryToInt64(::StringW s, ByRef<int64_t> result);
+    // static public System.Byte ToByte(System.String s)
+    // Offset: 0x1627CB0
+    static uint8_t ToByte(::StringW s);
+    // static System.Exception TryToByte(System.String s, out System.Byte result)
+    // Offset: 0x1627CE4
+    static System::Exception* TryToByte(::StringW s, ByRef<uint8_t> result);
+    // static public System.UInt16 ToUInt16(System.String s)
+    // Offset: 0x1627E2C
+    static uint16_t ToUInt16(::StringW s);
+    // static System.Exception TryToUInt16(System.String s, out System.UInt16 result)
+    // Offset: 0x1627E60
+    static System::Exception* TryToUInt16(::StringW s, ByRef<uint16_t> result);
+    // static public System.UInt32 ToUInt32(System.String s)
+    // Offset: 0x1627FA8
+    static uint ToUInt32(::StringW s);
+    // static System.Exception TryToUInt32(System.String s, out System.UInt32 result)
+    // Offset: 0x1627FDC
+    static System::Exception* TryToUInt32(::StringW s, ByRef<uint> result);
+    // static public System.UInt64 ToUInt64(System.String s)
+    // Offset: 0x1628124
+    static uint64_t ToUInt64(::StringW s);
+    // static System.Exception TryToUInt64(System.String s, out System.UInt64 result)
+    // Offset: 0x1628158
+    static System::Exception* TryToUInt64(::StringW s, ByRef<uint64_t> result);
+    // static public System.Single ToSingle(System.String s)
+    // Offset: 0x16282A0
+    static float ToSingle(::StringW s);
+    // static System.Exception TryToSingle(System.String s, out System.Single result)
+    // Offset: 0x16283B4
+    static System::Exception* TryToSingle(::StringW s, ByRef<float> result);
+    // static public System.Double ToDouble(System.String s)
+    // Offset: 0x16285B4
+    static double ToDouble(::StringW s);
+    // static System.Exception TryToDouble(System.String s, out System.Double result)
+    // Offset: 0x16286F0
+    static System::Exception* TryToDouble(::StringW s, ByRef<double> result);
+    // static System.Double ToXPathDouble(System.Object o)
+    // Offset: 0x1628918
+    static double ToXPathDouble(::Il2CppObject* o);
+    // static public System.TimeSpan ToTimeSpan(System.String s)
+    // Offset: 0x1628B9C
+    static System::TimeSpan ToTimeSpan(::StringW s);
+    // static System.Exception TryToTimeSpan(System.String s, out System.TimeSpan result)
+    // Offset: 0x1628D4C
+    static System::Exception* TryToTimeSpan(::StringW s, ByRef<System::TimeSpan> result);
+    // static private System.Void CreateAllDateTimeFormats()
+    // Offset: 0x1628EC8
+    static void CreateAllDateTimeFormats();
+    // static public System.DateTime ToDateTime(System.String s)
+    // Offset: 0x1629480
+    static System::DateTime ToDateTime(::StringW s);
+    // static public System.DateTime ToDateTime(System.String s, System.String[] formats)
+    // Offset: 0x16294EC
+    static System::DateTime ToDateTime(::StringW s, ::ArrayW<::StringW> formats);
+    // static public System.DateTime ToDateTime(System.String s, System.Xml.XmlDateTimeSerializationMode dateTimeOption)
+    // Offset: 0x162959C
+    static System::DateTime ToDateTime(::StringW s, System::Xml::XmlDateTimeSerializationMode dateTimeOption);
+    // static public System.DateTimeOffset ToDateTimeOffset(System.String s)
+    // Offset: 0x16297C0
+    static System::DateTimeOffset ToDateTimeOffset(::StringW s);
+    // static public System.Guid ToGuid(System.String s)
+    // Offset: 0x162988C
+    static System::Guid ToGuid(::StringW s);
+    // static System.Exception TryToGuid(System.String s, out System.Guid result)
+    // Offset: 0x16298BC
+    static System::Exception* TryToGuid(::StringW s, ByRef<System::Guid> result);
+    // static private System.DateTime SwitchToLocalTime(System.DateTime value)
+    // Offset: 0x1626B54
+    static System::DateTime SwitchToLocalTime(System::DateTime value);
+    // static private System.DateTime SwitchToUtcTime(System.DateTime value)
+    // Offset: 0x1626BD0
+    static System::DateTime SwitchToUtcTime(System::DateTime value);
+    // static System.Uri ToUri(System.String s)
+    // Offset: 0x1613D78
+    static System::Uri* ToUri(::StringW s);
+    // static System.Exception TryToUri(System.String s, out System.Uri result)
+    // Offset: 0x1629AC0
+    static System::Exception* TryToUri(::StringW s, ByRef<System::Uri*> result);
+    // static System.Boolean StrEqual(System.Char[] chars, System.Int32 strPos1, System.Int32 strLen1, System.String str2)
+    // Offset: 0x1629CAC
+    static bool StrEqual(::ArrayW<::Il2CppChar> chars, int strPos1, int strLen1, ::StringW str2);
     // static System.String TrimString(System.String value)
-    // Offset: 0x1B64968
+    // Offset: 0x1626E4C
     static ::StringW TrimString(::StringW value);
     // static System.String TrimStringStart(System.String value)
-    // Offset: 0x1B649E4
+    // Offset: 0x1629D88
     static ::StringW TrimStringStart(::StringW value);
     // static System.String TrimStringEnd(System.String value)
-    // Offset: 0x1B64A60
+    // Offset: 0x1629E04
     static ::StringW TrimStringEnd(::StringW value);
+    // static System.String[] SplitString(System.String value)
+    // Offset: 0x1629E80
+    static ::ArrayW<::StringW> SplitString(::StringW value);
+    // static System.Boolean IsNegativeZero(System.Double value)
+    // Offset: 0x16266D4
+    static bool IsNegativeZero(double value);
+    // static private System.Int64 DoubleToInt64Bits(System.Double value)
+    // Offset: 0x1629F00
+    static int64_t DoubleToInt64Bits(double value);
+    // static System.Void VerifyCharData(System.String data, System.Xml.ExceptionType invCharExceptionType, System.Xml.ExceptionType invSurrogateExceptionType)
+    // Offset: 0x1629F08
+    static void VerifyCharData(::StringW data, System::Xml::ExceptionType invCharExceptionType, System::Xml::ExceptionType invSurrogateExceptionType);
+    // static System.Exception CreateException(System.String res, System.Xml.ExceptionType exceptionType, System.Int32 lineNo, System.Int32 linePos)
+    // Offset: 0x162A11C
+    static System::Exception* CreateException(::StringW res, System::Xml::ExceptionType exceptionType, int lineNo, int linePos);
     // static System.Exception CreateException(System.String res, System.String arg, System.Xml.ExceptionType exceptionType, System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x1B64ADC
+    // Offset: 0x162A444
     static System::Exception* CreateException(::StringW res, ::StringW arg, System::Xml::ExceptionType exceptionType, int lineNo, int linePos);
     // static System.Exception CreateException(System.String res, System.String[] args, System.Xml.ExceptionType exceptionType)
-    // Offset: 0x1B64CFC
+    // Offset: 0x162A570
     static System::Exception* CreateException(::StringW res, ::ArrayW<::StringW> args, System::Xml::ExceptionType exceptionType);
     // static System.Exception CreateException(System.String res, System.String[] args, System.Xml.ExceptionType exceptionType, System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x1B648A0
+    // Offset: 0x1625C38
     static System::Exception* CreateException(::StringW res, ::ArrayW<::StringW> args, System::Xml::ExceptionType exceptionType, int lineNo, int linePos);
     // static System.Exception CreateInvalidSurrogatePairException(System.Char low, System.Char hi)
-    // Offset: 0x1B5A5A0
+    // Offset: 0x162A5F4
     static System::Exception* CreateInvalidSurrogatePairException(::Il2CppChar low, ::Il2CppChar hi);
     // static System.Exception CreateInvalidSurrogatePairException(System.Char low, System.Char hi, System.Xml.ExceptionType exceptionType)
-    // Offset: 0x1B64DFC
+    // Offset: 0x162A66C
     static System::Exception* CreateInvalidSurrogatePairException(::Il2CppChar low, ::Il2CppChar hi, System::Xml::ExceptionType exceptionType);
     // static System.Exception CreateInvalidSurrogatePairException(System.Char low, System.Char hi, System.Xml.ExceptionType exceptionType, System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x1B64E80
+    // Offset: 0x162A1F8
     static System::Exception* CreateInvalidSurrogatePairException(::Il2CppChar low, ::Il2CppChar hi, System::Xml::ExceptionType exceptionType, int lineNo, int linePos);
     // static System.Exception CreateInvalidHighSurrogateCharException(System.Char hi)
-    // Offset: 0x1B65028
+    // Offset: 0x162A6F0
     static System::Exception* CreateInvalidHighSurrogateCharException(::Il2CppChar hi);
     // static System.Exception CreateInvalidHighSurrogateCharException(System.Char hi, System.Xml.ExceptionType exceptionType)
-    // Offset: 0x1B65090
+    // Offset: 0x162A758
     static System::Exception* CreateInvalidHighSurrogateCharException(::Il2CppChar hi, System::Xml::ExceptionType exceptionType);
     // static System.Exception CreateInvalidHighSurrogateCharException(System.Char hi, System.Xml.ExceptionType exceptionType, System.Int32 lineNo, System.Int32 linePos)
-    // Offset: 0x1B6510C
+    // Offset: 0x162A7D4
     static System::Exception* CreateInvalidHighSurrogateCharException(::Il2CppChar hi, System::Xml::ExceptionType exceptionType, int lineNo, int linePos);
+    // static System.Exception CreateInvalidCharException(System.String data, System.Int32 invCharPos, System.Xml.ExceptionType exceptionType)
+    // Offset: 0x162A3A0
+    static System::Exception* CreateInvalidCharException(::StringW data, int invCharPos, System::Xml::ExceptionType exceptionType);
     // static System.Exception CreateInvalidCharException(System.Char invChar, System.Char nextChar)
-    // Offset: 0x1B651FC
+    // Offset: 0x162A8C4
     static System::Exception* CreateInvalidCharException(::Il2CppChar invChar, ::Il2CppChar nextChar);
     // static System.Exception CreateInvalidCharException(System.Char invChar, System.Char nextChar, System.Xml.ExceptionType exceptionType)
-    // Offset: 0x1B65274
+    // Offset: 0x162A93C
     static System::Exception* CreateInvalidCharException(::Il2CppChar invChar, ::Il2CppChar nextChar, System::Xml::ExceptionType exceptionType);
+    // static System.Exception CreateInvalidNameCharException(System.String name, System.Int32 index, System.Xml.ExceptionType exceptionType)
+    // Offset: 0x16258F8
+    static System::Exception* CreateInvalidNameCharException(::StringW name, int index, System::Xml::ExceptionType exceptionType);
+    // static System.ArgumentException CreateInvalidNameArgumentException(System.String name, System.String argumentName)
+    // Offset: 0x162A9D8
+    static System::ArgumentException* CreateInvalidNameArgumentException(::StringW name, ::StringW argumentName);
   }; // System.Xml.XmlConvert
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Xml::XmlConvert::get_AllDateTimeFormats
+// Il2CppName: get_AllDateTimeFormats
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (*)()>(&System::Xml::XmlConvert::get_AllDateTimeFormats)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "get_AllDateTimeFormats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::XmlConvert::_cctor
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Xml::XmlConvert::_cctor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::EncodeName
+// Il2CppName: EncodeName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::Xml::XmlConvert::EncodeName)> {
+  static const MethodInfo* get() {
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "EncodeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::EncodeLocalName
+// Il2CppName: EncodeLocalName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::Xml::XmlConvert::EncodeLocalName)> {
+  static const MethodInfo* get() {
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "EncodeLocalName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::DecodeName
+// Il2CppName: DecodeName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::Xml::XmlConvert::DecodeName)> {
+  static const MethodInfo* get() {
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "DecodeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::EncodeName
+// Il2CppName: EncodeName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, bool, bool)>(&System::Xml::XmlConvert::EncodeName)> {
+  static const MethodInfo* get() {
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* first = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* local = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "EncodeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, first, local});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::FromHex
+// Il2CppName: FromHex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppChar)>(&System::Xml::XmlConvert::FromHex)> {
+  static const MethodInfo* get() {
+    static auto* digit = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "FromHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{digit});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::FromBinHexString
+// Il2CppName: FromBinHexString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::StringW)>(&System::Xml::XmlConvert::FromBinHexString)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "FromBinHexString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::FromBinHexString
+// Il2CppName: FromBinHexString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::StringW, bool)>(&System::Xml::XmlConvert::FromBinHexString)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* allowOddCount = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "FromBinHexString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, allowOddCount});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToBinHexString
+// Il2CppName: ToBinHexString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<uint8_t>)>(&System::Xml::XmlConvert::ToBinHexString)> {
+  static const MethodInfo* get() {
+    static auto* inArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToBinHexString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inArray});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::VerifyName
+// Il2CppName: VerifyName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::Xml::XmlConvert::VerifyName)> {
+  static const MethodInfo* get() {
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "VerifyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::TryVerifyName
+// Il2CppName: TryVerifyName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Xml::XmlConvert::TryVerifyName)> {
+  static const MethodInfo* get() {
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TryVerifyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }
 };
 // Writing MetadataGetter for method: System::Xml::XmlConvert::VerifyQName
@@ -122,6 +517,642 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* exceptionType = &::il2cpp_utils::GetClassFromName("System.Xml", "ExceptionType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "VerifyQName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, exceptionType});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::VerifyNCName
+// Il2CppName: VerifyNCName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::Xml::XmlConvert::VerifyNCName)> {
+  static const MethodInfo* get() {
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "VerifyNCName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::VerifyNCName
+// Il2CppName: VerifyNCName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, System::Xml::ExceptionType)>(&System::Xml::XmlConvert::VerifyNCName)> {
+  static const MethodInfo* get() {
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* exceptionType = &::il2cpp_utils::GetClassFromName("System.Xml", "ExceptionType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "VerifyNCName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, exceptionType});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::TryVerifyNCName
+// Il2CppName: TryVerifyNCName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Xml::XmlConvert::TryVerifyNCName)> {
+  static const MethodInfo* get() {
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TryVerifyNCName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::VerifyTOKEN
+// Il2CppName: VerifyTOKEN
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&System::Xml::XmlConvert::VerifyTOKEN)> {
+  static const MethodInfo* get() {
+    static auto* token = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "VerifyTOKEN", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{token});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::TryVerifyTOKEN
+// Il2CppName: TryVerifyTOKEN
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Xml::XmlConvert::TryVerifyTOKEN)> {
+  static const MethodInfo* get() {
+    static auto* token = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TryVerifyTOKEN", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{token});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::TryVerifyNMTOKEN
+// Il2CppName: TryVerifyNMTOKEN
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Xml::XmlConvert::TryVerifyNMTOKEN)> {
+  static const MethodInfo* get() {
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TryVerifyNMTOKEN", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::TryVerifyNormalizedString
+// Il2CppName: TryVerifyNormalizedString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW)>(&System::Xml::XmlConvert::TryVerifyNormalizedString)> {
+  static const MethodInfo* get() {
+    static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TryVerifyNormalizedString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(bool)>(&System::Xml::XmlConvert::ToString)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Il2CppChar)>(&System::Xml::XmlConvert::ToString)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Decimal)>(&System::Xml::XmlConvert::ToString)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int8_t)>(&System::Xml::XmlConvert::ToString)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "SByte")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int16_t)>(&System::Xml::XmlConvert::ToString)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int16")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int)>(&System::Xml::XmlConvert::ToString)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int64_t)>(&System::Xml::XmlConvert::ToString)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(uint8_t)>(&System::Xml::XmlConvert::ToString)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(uint16_t)>(&System::Xml::XmlConvert::ToString)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt16")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(uint)>(&System::Xml::XmlConvert::ToString)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(uint64_t)>(&System::Xml::XmlConvert::ToString)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(float)>(&System::Xml::XmlConvert::ToString)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(double)>(&System::Xml::XmlConvert::ToString)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::TimeSpan)>(&System::Xml::XmlConvert::ToString)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::DateTime, ::StringW)>(&System::Xml::XmlConvert::ToString)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
+    static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, format});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::DateTime, System::Xml::XmlDateTimeSerializationMode)>(&System::Xml::XmlConvert::ToString)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
+    static auto* dateTimeOption = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlDateTimeSerializationMode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, dateTimeOption});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::DateTimeOffset)>(&System::Xml::XmlConvert::ToString)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTimeOffset")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToString
+// Il2CppName: ToString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(System::Guid)>(&System::Xml::XmlConvert::ToString)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToBoolean
+// Il2CppName: ToBoolean
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&System::Xml::XmlConvert::ToBoolean)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::TryToBoolean
+// Il2CppName: TryToBoolean
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ByRef<bool>)>(&System::Xml::XmlConvert::TryToBoolean)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TryToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, result});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToChar
+// Il2CppName: ToChar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::StringW)>(&System::Xml::XmlConvert::ToChar)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::TryToChar
+// Il2CppName: TryToChar
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ByRef<::Il2CppChar>)>(&System::Xml::XmlConvert::TryToChar)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Char")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TryToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, result});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToDecimal
+// Il2CppName: ToDecimal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::StringW)>(&System::Xml::XmlConvert::ToDecimal)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::TryToDecimal
+// Il2CppName: TryToDecimal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ByRef<System::Decimal>)>(&System::Xml::XmlConvert::TryToDecimal)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Decimal")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TryToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, result});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToInteger
+// Il2CppName: ToInteger
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::StringW)>(&System::Xml::XmlConvert::ToInteger)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::TryToInteger
+// Il2CppName: TryToInteger
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ByRef<System::Decimal>)>(&System::Xml::XmlConvert::TryToInteger)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Decimal")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TryToInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, result});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToSByte
+// Il2CppName: ToSByte
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::StringW)>(&System::Xml::XmlConvert::ToSByte)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::TryToSByte
+// Il2CppName: TryToSByte
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ByRef<int8_t>)>(&System::Xml::XmlConvert::TryToSByte)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "SByte")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TryToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, result});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToInt16
+// Il2CppName: ToInt16
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::StringW)>(&System::Xml::XmlConvert::ToInt16)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::TryToInt16
+// Il2CppName: TryToInt16
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ByRef<int16_t>)>(&System::Xml::XmlConvert::TryToInt16)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Int16")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TryToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, result});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToInt32
+// Il2CppName: ToInt32
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::StringW)>(&System::Xml::XmlConvert::ToInt32)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::TryToInt32
+// Il2CppName: TryToInt32
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ByRef<int>)>(&System::Xml::XmlConvert::TryToInt32)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TryToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, result});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToInt64
+// Il2CppName: ToInt64
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::StringW)>(&System::Xml::XmlConvert::ToInt64)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::TryToInt64
+// Il2CppName: TryToInt64
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ByRef<int64_t>)>(&System::Xml::XmlConvert::TryToInt64)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TryToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, result});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToByte
+// Il2CppName: ToByte
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::StringW)>(&System::Xml::XmlConvert::ToByte)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::TryToByte
+// Il2CppName: TryToByte
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ByRef<uint8_t>)>(&System::Xml::XmlConvert::TryToByte)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Byte")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TryToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, result});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToUInt16
+// Il2CppName: ToUInt16
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(::StringW)>(&System::Xml::XmlConvert::ToUInt16)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::TryToUInt16
+// Il2CppName: TryToUInt16
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ByRef<uint16_t>)>(&System::Xml::XmlConvert::TryToUInt16)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "UInt16")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TryToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, result});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToUInt32
+// Il2CppName: ToUInt32
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::StringW)>(&System::Xml::XmlConvert::ToUInt32)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::TryToUInt32
+// Il2CppName: TryToUInt32
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ByRef<uint>)>(&System::Xml::XmlConvert::TryToUInt32)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TryToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, result});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToUInt64
+// Il2CppName: ToUInt64
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&System::Xml::XmlConvert::ToUInt64)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::TryToUInt64
+// Il2CppName: TryToUInt64
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ByRef<uint64_t>)>(&System::Xml::XmlConvert::TryToUInt64)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TryToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, result});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToSingle
+// Il2CppName: ToSingle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::StringW)>(&System::Xml::XmlConvert::ToSingle)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::TryToSingle
+// Il2CppName: TryToSingle
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ByRef<float>)>(&System::Xml::XmlConvert::TryToSingle)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TryToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, result});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToDouble
+// Il2CppName: ToDouble
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::StringW)>(&System::Xml::XmlConvert::ToDouble)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::TryToDouble
+// Il2CppName: TryToDouble
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ByRef<double>)>(&System::Xml::XmlConvert::TryToDouble)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Double")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TryToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, result});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToXPathDouble
+// Il2CppName: ToXPathDouble
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::Il2CppObject*)>(&System::Xml::XmlConvert::ToXPathDouble)> {
+  static const MethodInfo* get() {
+    static auto* o = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToXPathDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToTimeSpan
+// Il2CppName: ToTimeSpan
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(::StringW)>(&System::Xml::XmlConvert::ToTimeSpan)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToTimeSpan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::TryToTimeSpan
+// Il2CppName: TryToTimeSpan
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ByRef<System::TimeSpan>)>(&System::Xml::XmlConvert::TryToTimeSpan)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TryToTimeSpan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, result});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::CreateAllDateTimeFormats
+// Il2CppName: CreateAllDateTimeFormats
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Xml::XmlConvert::CreateAllDateTimeFormats)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "CreateAllDateTimeFormats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToDateTime
+// Il2CppName: ToDateTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(::StringW)>(&System::Xml::XmlConvert::ToDateTime)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToDateTime
+// Il2CppName: ToDateTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(::StringW, ::ArrayW<::StringW>)>(&System::Xml::XmlConvert::ToDateTime)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* formats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, formats});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToDateTime
+// Il2CppName: ToDateTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(::StringW, System::Xml::XmlDateTimeSerializationMode)>(&System::Xml::XmlConvert::ToDateTime)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* dateTimeOption = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlDateTimeSerializationMode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, dateTimeOption});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToDateTimeOffset
+// Il2CppName: ToDateTimeOffset
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTimeOffset (*)(::StringW)>(&System::Xml::XmlConvert::ToDateTimeOffset)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToDateTimeOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToGuid
+// Il2CppName: ToGuid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)(::StringW)>(&System::Xml::XmlConvert::ToGuid)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToGuid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::TryToGuid
+// Il2CppName: TryToGuid
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ByRef<System::Guid>)>(&System::Xml::XmlConvert::TryToGuid)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Guid")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TryToGuid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, result});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::SwitchToLocalTime
+// Il2CppName: SwitchToLocalTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::DateTime)>(&System::Xml::XmlConvert::SwitchToLocalTime)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "SwitchToLocalTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::SwitchToUtcTime
+// Il2CppName: SwitchToUtcTime
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::DateTime)>(&System::Xml::XmlConvert::SwitchToUtcTime)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "SwitchToUtcTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::ToUri
+// Il2CppName: ToUri
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (*)(::StringW)>(&System::Xml::XmlConvert::ToUri)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "ToUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::TryToUri
+// Il2CppName: TryToUri
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, ByRef<System::Uri*>)>(&System::Xml::XmlConvert::TryToUri)> {
+  static const MethodInfo* get() {
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Uri")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TryToUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, result});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::StrEqual
+// Il2CppName: StrEqual
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<::Il2CppChar>, int, int, ::StringW)>(&System::Xml::XmlConvert::StrEqual)> {
+  static const MethodInfo* get() {
+    static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
+    static auto* strPos1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* strLen1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* str2 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "StrEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chars, strPos1, strLen1, str2});
   }
 };
 // Writing MetadataGetter for method: System::Xml::XmlConvert::TrimString
@@ -149,6 +1180,56 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TrimStringEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::SplitString
+// Il2CppName: SplitString
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW> (*)(::StringW)>(&System::Xml::XmlConvert::SplitString)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "SplitString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::IsNegativeZero
+// Il2CppName: IsNegativeZero
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(double)>(&System::Xml::XmlConvert::IsNegativeZero)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "IsNegativeZero", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::DoubleToInt64Bits
+// Il2CppName: DoubleToInt64Bits
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(double)>(&System::Xml::XmlConvert::DoubleToInt64Bits)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "DoubleToInt64Bits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::VerifyCharData
+// Il2CppName: VerifyCharData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, System::Xml::ExceptionType, System::Xml::ExceptionType)>(&System::Xml::XmlConvert::VerifyCharData)> {
+  static const MethodInfo* get() {
+    static auto* data = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* invCharExceptionType = &::il2cpp_utils::GetClassFromName("System.Xml", "ExceptionType")->byval_arg;
+    static auto* invSurrogateExceptionType = &::il2cpp_utils::GetClassFromName("System.Xml", "ExceptionType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "VerifyCharData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, invCharExceptionType, invSurrogateExceptionType});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::CreateException
+// Il2CppName: CreateException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, System::Xml::ExceptionType, int, int)>(&System::Xml::XmlConvert::CreateException)> {
+  static const MethodInfo* get() {
+    static auto* res = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* exceptionType = &::il2cpp_utils::GetClassFromName("System.Xml", "ExceptionType")->byval_arg;
+    static auto* lineNo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* linePos = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "CreateException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{res, exceptionType, lineNo, linePos});
   }
 };
 // Writing MetadataGetter for method: System::Xml::XmlConvert::CreateException
@@ -256,6 +1337,17 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Xml::XmlConvert::CreateInvalidCharException
 // Il2CppName: CreateInvalidCharException
 template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, int, System::Xml::ExceptionType)>(&System::Xml::XmlConvert::CreateInvalidCharException)> {
+  static const MethodInfo* get() {
+    static auto* data = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* invCharPos = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* exceptionType = &::il2cpp_utils::GetClassFromName("System.Xml", "ExceptionType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "CreateInvalidCharException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, invCharPos, exceptionType});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::CreateInvalidCharException
+// Il2CppName: CreateInvalidCharException
+template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppChar, ::Il2CppChar)>(&System::Xml::XmlConvert::CreateInvalidCharException)> {
   static const MethodInfo* get() {
     static auto* invChar = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
@@ -272,5 +1364,26 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
     static auto* nextChar = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* exceptionType = &::il2cpp_utils::GetClassFromName("System.Xml", "ExceptionType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "CreateInvalidCharException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{invChar, nextChar, exceptionType});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::CreateInvalidNameCharException
+// Il2CppName: CreateInvalidNameCharException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::StringW, int, System::Xml::ExceptionType)>(&System::Xml::XmlConvert::CreateInvalidNameCharException)> {
+  static const MethodInfo* get() {
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* exceptionType = &::il2cpp_utils::GetClassFromName("System.Xml", "ExceptionType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "CreateInvalidNameCharException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, index, exceptionType});
+  }
+};
+// Writing MetadataGetter for method: System::Xml::XmlConvert::CreateInvalidNameArgumentException
+// Il2CppName: CreateInvalidNameArgumentException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ArgumentException* (*)(::StringW, ::StringW)>(&System::Xml::XmlConvert::CreateInvalidNameArgumentException)> {
+  static const MethodInfo* get() {
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* argumentName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "CreateInvalidNameArgumentException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, argumentName});
   }
 };

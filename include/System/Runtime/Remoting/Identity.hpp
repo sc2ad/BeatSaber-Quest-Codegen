@@ -118,37 +118,37 @@ namespace System::Runtime::Remoting {
     // Get instance field reference: private System.Boolean _disposed
     bool& dyn__disposed();
     // public System.Runtime.Remoting.Messaging.IMessageSink get_ChannelSink()
-    // Offset: 0x1C4ACA4
+    // Offset: 0x1B82724
     System::Runtime::Remoting::Messaging::IMessageSink* get_ChannelSink();
     // public System.Void set_ChannelSink(System.Runtime.Remoting.Messaging.IMessageSink value)
-    // Offset: 0x1C4ACAC
+    // Offset: 0x1B8272C
     void set_ChannelSink(System::Runtime::Remoting::Messaging::IMessageSink* value);
     // public System.Runtime.Remoting.Messaging.IMessageSink get_EnvoySink()
-    // Offset: 0x1C4ACB4
+    // Offset: 0x1B82734
     System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySink();
     // public System.String get_ObjectUri()
-    // Offset: 0x1C4ACBC
+    // Offset: 0x1B8273C
     ::StringW get_ObjectUri();
     // public System.Void set_ObjectUri(System.String value)
-    // Offset: 0x1C4ACC4
+    // Offset: 0x1B82744
     void set_ObjectUri(::StringW value);
     // public System.Boolean get_IsConnected()
-    // Offset: 0x1C4ACCC
+    // Offset: 0x1B8274C
     bool get_IsConnected();
     // public System.Boolean get_Disposed()
-    // Offset: 0x1C4ACDC
+    // Offset: 0x1B8275C
     bool get_Disposed();
     // public System.Void set_Disposed(System.Boolean value)
-    // Offset: 0x1C4ACE4
+    // Offset: 0x1B82764
     void set_Disposed(bool value);
     // public System.Runtime.Remoting.Contexts.DynamicPropertyCollection get_ClientDynamicProperties()
-    // Offset: 0x1C4ACF0
+    // Offset: 0x1B7F830
     System::Runtime::Remoting::Contexts::DynamicPropertyCollection* get_ClientDynamicProperties();
     // public System.Boolean get_HasServerDynamicSinks()
-    // Offset: 0x1C4AD58
+    // Offset: 0x1B82770
     bool get_HasServerDynamicSinks();
     // public System.Void .ctor(System.String objectUri)
-    // Offset: 0x1C4AC78
+    // Offset: 0x1B7B828
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Identity* New_ctor(::StringW objectUri) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Identity::.ctor");
@@ -158,10 +158,10 @@ namespace System::Runtime::Remoting {
     // Offset: 0xFFFFFFFF
     System::Runtime::Remoting::ObjRef* CreateObjRef(System::Type* requestedType);
     // public System.Void NotifyClientDynamicSinks(System.Boolean start, System.Runtime.Remoting.Messaging.IMessage req_msg, System.Boolean client_site, System.Boolean async)
-    // Offset: 0x1C4AD9C
+    // Offset: 0x1B827B4
     void NotifyClientDynamicSinks(bool start, System::Runtime::Remoting::Messaging::IMessage* req_msg, bool client_site, bool async);
     // public System.Void NotifyServerDynamicSinks(System.Boolean start, System.Runtime.Remoting.Messaging.IMessage req_msg, System.Boolean client_site, System.Boolean async)
-    // Offset: 0x1C4AE30
+    // Offset: 0x1B82848
     void NotifyServerDynamicSinks(bool start, System::Runtime::Remoting::Messaging::IMessage* req_msg, bool client_site, bool async);
   }; // System.Runtime.Remoting.Identity
   #pragma pack(pop)

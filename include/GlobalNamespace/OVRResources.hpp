@@ -26,7 +26,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -49,7 +48,6 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::OVRResources::$$c__DisplayClass2_0
     class $$c__DisplayClass2_0;
     // Nested type: GlobalNamespace::OVRResources::$$c__DisplayClass3_0_1<T>
-    template<typename T>
     class $$c__DisplayClass3_0_1;
     // Get static field: static private UnityEngine.AssetBundle resourceBundle
     static UnityEngine::AssetBundle* _get_resourceBundle();
@@ -60,7 +58,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.Collections.Generic.List`1<System.String> assetNames
     static void _set_assetNames(System::Collections::Generic::List_1<::StringW>* value);
     // static public UnityEngine.Object Load(System.String path)
-    // Offset: 0x187DEE8
+    // Offset: 0x1A7A70C
     static UnityEngine::Object* Load(::StringW path);
     // static public T Load(System.String path)
     // Offset: 0xFFFFFFFF
@@ -73,10 +71,10 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, path);
     }
     // static public System.Void SetResourceBundle(UnityEngine.AssetBundle bundle)
-    // Offset: 0x187E0A4
+    // Offset: 0x1A7A8C8
     static void SetResourceBundle(UnityEngine::AssetBundle* bundle);
     // public System.Void .ctor()
-    // Offset: 0x187E15C
+    // Offset: 0x1A7A980
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

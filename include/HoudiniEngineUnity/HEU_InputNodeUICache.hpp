@@ -17,7 +17,6 @@ namespace HoudiniEngineUnity {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -68,7 +67,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputNodeUICache/HoudiniEngineUnity.HEU_InputAssetUICache> _inputAssetCache
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputNodeUICache::HEU_InputAssetUICache*>*& dyn__inputAssetCache();
     // public System.Void .ctor()
-    // Offset: 0x15979FC
+    // Offset: 0x1786EAC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

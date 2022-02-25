@@ -28,7 +28,6 @@ namespace GlobalNamespace {
   // Forward declaring type: SaberManager
   class SaberManager;
   // Forward declaring type: RandomObjectPicker`1<T>
-  template<typename T>
   class RandomObjectPicker_1;
   // Forward declaring type: NoteController
   class NoteController;
@@ -75,21 +74,21 @@ namespace GlobalNamespace {
     ::ArrayW<UnityEngine::AudioClip*> bombExplosionAudioClips;
     // Field size check
     static_assert(sizeof(::ArrayW<UnityEngine::AudioClip*>) == 0x8);
-    // [InjectAttribute] Offset: 0xF35108
+    // [InjectAttribute] Offset: 0x123B99C
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF35118
+    // [InjectAttribute] Offset: 0x123B9AC
     // private readonly SaberManager saberManager
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::SaberManager* saberManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF35128
+    // [InjectAttribute] Offset: 0x123B9BC
     // private readonly BombCutSoundEffect/Pool _bombCutSoundEffectPool
     // Size: 0x8
     // Offset: 0x38
@@ -118,19 +117,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomSoundPicker
     GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*& dyn__randomSoundPicker();
     // protected System.Void Start()
-    // Offset: 0x1181C84
+    // Offset: 0x13B78EC
     void Start();
     // private System.Void HandleNoteWasCut(NoteController noteController, in NoteCutInfo noteCutInfo)
-    // Offset: 0x1181D44
+    // Offset: 0x13B79AC
     void HandleNoteWasCut(GlobalNamespace::NoteController* noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo);
     // protected System.Void OnDestroy()
-    // Offset: 0x1181F30
+    // Offset: 0x13B7B98
     void OnDestroy();
     // private System.Void HandleBombCutSoundEffectDidFinish(BombCutSoundEffect bombCutSoundEffect)
-    // Offset: 0x1181FC8
+    // Offset: 0x13B7C30
     void HandleBombCutSoundEffectDidFinish(GlobalNamespace::BombCutSoundEffect* bombCutSoundEffect);
     // public System.Void .ctor()
-    // Offset: 0x1182074
+    // Offset: 0x13B7CDC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

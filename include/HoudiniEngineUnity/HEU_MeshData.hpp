@@ -23,10 +23,8 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Completed forward declares
@@ -129,7 +127,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.MeshTopology _meshTopology
     UnityEngine::MeshTopology& dyn__meshTopology();
     // public System.Void .ctor()
-    // Offset: 0x159C710
+    // Offset: 0x178BBC0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -27,7 +27,6 @@ namespace GlobalNamespace {
   // Forward declaring type: ByteArrayNetSerializable
   class ByteArrayNetSerializable;
   // Forward declaring type: PacketPool`1<T>
-  template<typename T>
   class PacketPool_1;
 }
 // Forward declaring namespace: LiteNetLib::Utils
@@ -100,22 +99,22 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly ByteArrayNetSerializable publicEncryptionKey
     GlobalNamespace::ByteArrayNetSerializable*& dyn_publicEncryptionKey();
     // static public PacketPool`1<ConnectedPlayerManager/PlayerIdentityPacket> get_pool()
-    // Offset: 0x1560674
+    // Offset: 0x2C3D298
     static GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket*>* get_pool();
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1564444
+    // Offset: 0x2C3DEAC
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x15644A0
+    // Offset: 0x2C3DF10
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x156451C
+    // Offset: 0x2C3DF94
     void Release();
     // public ConnectedPlayerManager/PlayerIdentityPacket Init(PlayerStateHash states, MultiplayerAvatarData avatar, System.Byte[] random, System.Byte[] publicEncryptionKey)
-    // Offset: 0x1563FC4
+    // Offset: 0x2C3D2E0
     GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket* Init(GlobalNamespace::PlayerStateHash states, GlobalNamespace::MultiplayerAvatarData avatar, ::ArrayW<uint8_t> random, ::ArrayW<uint8_t> publicEncryptionKey);
     // public System.Void .ctor()
-    // Offset: 0x1564590
+    // Offset: 0x2C3E010
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

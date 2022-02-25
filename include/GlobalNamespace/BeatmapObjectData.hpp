@@ -63,19 +63,19 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     GlobalNamespace::BeatmapObjectType get_beatmapObjectType();
     // public System.Single get_time()
-    // Offset: 0x26BD7C4
+    // Offset: 0x2A4A874
     float get_time();
     // private System.Void set_time(System.Single value)
-    // Offset: 0x26BD7CC
+    // Offset: 0x2A4A87C
     void set_time(float value);
     // public System.Int32 get_lineIndex()
-    // Offset: 0x26BD7D4
+    // Offset: 0x2A4A884
     int get_lineIndex();
     // protected System.Void set_lineIndex(System.Int32 value)
-    // Offset: 0x26BD7DC
+    // Offset: 0x2A4A88C
     void set_lineIndex(int value);
     // protected System.Void .ctor(System.Single time, System.Int32 lineIndex)
-    // Offset: 0x26BD7E4
+    // Offset: 0x2A4A894
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectData* New_ctor(float time, int lineIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectData::.ctor");
@@ -85,7 +85,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void Mirror(int lineCount);
     // public System.Void MoveTime(System.Single newTime)
-    // Offset: 0x26BD820
+    // Offset: 0x2A4A8D0
     void MoveTime(float newTime);
     // public BeatmapObjectData GetCopy()
     // Offset: 0xFFFFFFFF

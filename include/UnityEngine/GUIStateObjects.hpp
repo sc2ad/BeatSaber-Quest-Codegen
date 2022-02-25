@@ -10,7 +10,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: System
@@ -40,10 +39,10 @@ namespace UnityEngine {
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Int32,System.Object> s_StateCache
     static void _set_s_StateCache(System::Collections::Generic::Dictionary_2<int, ::Il2CppObject*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1CF323C
+    // Offset: 0x1F65A84
     static void _cctor();
     // static System.Object GetStateObject(System.Type t, System.Int32 controlID)
-    // Offset: 0x1CF312C
+    // Offset: 0x1F65974
     static ::Il2CppObject* GetStateObject(System::Type* t, int controlID);
   }; // UnityEngine.GUIStateObjects
   #pragma pack(pop)

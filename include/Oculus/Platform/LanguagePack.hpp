@@ -11,7 +11,6 @@
 // Forward declaring namespace: Oculus::Platform
 namespace Oculus::Platform {
   // Forward declaring type: Request`1<T>
-  template<typename T>
   class Request_1;
 }
 // Forward declaring namespace: Oculus::Platform::Models
@@ -39,10 +38,10 @@ namespace Oculus::Platform {
   class LanguagePack : public ::Il2CppObject {
     public:
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetDetails> GetCurrent()
-    // Offset: 0x174F560
+    // Offset: 0x195BC80
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetDetails*>* GetCurrent();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AssetFileDownloadResult> SetCurrent(System.String tag)
-    // Offset: 0x174F66C
+    // Offset: 0x195BD8C
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadResult*>* SetCurrent(::StringW tag);
   }; // Oculus.Platform.LanguagePack
   #pragma pack(pop)

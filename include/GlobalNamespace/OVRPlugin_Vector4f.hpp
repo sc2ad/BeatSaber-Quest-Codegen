@@ -67,10 +67,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single w
     float& dyn_w();
     // static private System.Void .cctor()
-    // Offset: 0x187B828
+    // Offset: 0x1A7804C
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0x187B648
+    // Offset: 0x1A77E6C
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

@@ -89,10 +89,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_GeneratedOutput _generatedOutput
     HoudiniEngineUnity::HEU_GeneratedOutput*& dyn__generatedOutput();
     // public System.Void InitializeBuffer(System.Int32 id, System.String name, System.Boolean bInstanced, System.Boolean bInstancer)
-    // Offset: 0x1598678
+    // Offset: 0x1787B28
     void InitializeBuffer(int id, ::StringW name, bool bInstanced, bool bInstancer);
     // public System.Void .ctor()
-    // Offset: 0x1598694
+    // Offset: 0x1787B44
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

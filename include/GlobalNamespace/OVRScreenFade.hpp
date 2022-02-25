@@ -60,14 +60,14 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [TooltipAttribute] Offset: 0xEF482C
+    // [TooltipAttribute] Offset: 0x11EAC6C
     // public System.Single fadeTime
     // Size: 0x4
     // Offset: 0x18
     float fadeTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xEF4864
+    // [TooltipAttribute] Offset: 0x11EACA4
     // public UnityEngine.Color fadeColor
     // Size: 0x10
     // Offset: 0x1C
@@ -160,46 +160,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean isFading
     bool& dyn_isFading();
     // static public OVRScreenFade get_instance()
-    // Offset: 0x1880118
+    // Offset: 0x1A7C93C
     static GlobalNamespace::OVRScreenFade* get_instance();
     // static private System.Void set_instance(OVRScreenFade value)
-    // Offset: 0x1880168
+    // Offset: 0x1A7C98C
     static void set_instance(GlobalNamespace::OVRScreenFade* value);
     // public System.Single get_currentAlpha()
-    // Offset: 0x18801BC
+    // Offset: 0x1A7C9E0
     float get_currentAlpha();
     // private System.Void Start()
-    // Offset: 0x1880280
+    // Offset: 0x1A7CAA4
     void Start();
     // public System.Void FadeIn()
-    // Offset: 0x18807BC
+    // Offset: 0x1A7CFE0
     void FadeIn();
     // public System.Void FadeOut()
-    // Offset: 0x1880874
+    // Offset: 0x1A7D098
     void FadeOut();
     // private System.Void OnLevelFinishedLoading(System.Int32 level)
-    // Offset: 0x18808A8
+    // Offset: 0x1A7D0CC
     void OnLevelFinishedLoading(int level);
     // private System.Void OnEnable()
-    // Offset: 0x18808DC
+    // Offset: 0x1A7D100
     void OnEnable();
     // private System.Void OnDestroy()
-    // Offset: 0x18808F4
+    // Offset: 0x1A7D118
     void OnDestroy();
     // public System.Void SetUIFade(System.Single level)
-    // Offset: 0x1880A90
+    // Offset: 0x1A7D2B4
     void SetUIFade(float level);
     // public System.Void SetExplicitFade(System.Single level)
-    // Offset: 0x1880C28
+    // Offset: 0x1A7D44C
     void SetExplicitFade(float level);
     // private System.Collections.IEnumerator Fade(System.Single startAlpha, System.Single endAlpha)
-    // Offset: 0x18807F0
+    // Offset: 0x1A7D014
     System::Collections::IEnumerator* Fade(float startAlpha, float endAlpha);
     // private System.Void SetMaterialAlpha()
-    // Offset: 0x1880B10
+    // Offset: 0x1A7D334
     void SetMaterialAlpha();
     // public System.Void .ctor()
-    // Offset: 0x1880C5C
+    // Offset: 0x1A7D480
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

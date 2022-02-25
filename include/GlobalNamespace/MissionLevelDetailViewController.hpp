@@ -39,7 +39,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Completed forward declares
@@ -76,7 +75,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF461E4
+    // [SpaceAttribute] Offset: 0x124CAE8
     // private UnityEngine.UI.Button _playButton
     // Size: 0x8
     // Offset: 0x78
@@ -137,25 +136,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionNode _missionNode
     GlobalNamespace::MissionNode*& dyn__missionNode();
     // public MissionNode get_missionNode()
-    // Offset: 0x1160BB8
+    // Offset: 0x2A6D644
     GlobalNamespace::MissionNode* get_missionNode();
     // public System.Void add_didPressPlayButtonEvent(System.Action`1<MissionLevelDetailViewController> value)
-    // Offset: 0x1160A70
+    // Offset: 0x2A6D4FC
     void add_didPressPlayButtonEvent(System::Action_1<GlobalNamespace::MissionLevelDetailViewController*>* value);
     // public System.Void remove_didPressPlayButtonEvent(System.Action`1<MissionLevelDetailViewController> value)
-    // Offset: 0x1160B14
+    // Offset: 0x2A6D5A0
     void remove_didPressPlayButtonEvent(System::Action_1<GlobalNamespace::MissionLevelDetailViewController*>* value);
     // public System.Void Setup(MissionNode missionNode)
-    // Offset: 0x1160BC0
+    // Offset: 0x2A6D64C
     void Setup(GlobalNamespace::MissionNode* missionNode);
     // public System.Void RefreshContent()
-    // Offset: 0x1160BFC
+    // Offset: 0x2A6D688
     void RefreshContent();
     // private System.Void PlayButtonPressed()
-    // Offset: 0x1160E4C
+    // Offset: 0x2A6D8D8
     void PlayButtonPressed();
     // public System.Void .ctor()
-    // Offset: 0x1160EB0
+    // Offset: 0x2A6D93C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -169,7 +168,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MissionLevelDetailViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1160DA0
+    // Offset: 0x2A6D82C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

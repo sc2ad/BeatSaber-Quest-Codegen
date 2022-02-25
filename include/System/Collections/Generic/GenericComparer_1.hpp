@@ -16,14 +16,12 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: IComparable`1<T>
-  template<typename T>
   class IComparable_1;
 }
 // Completed forward declares
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // Forward declaring type: GenericComparer`1<T>
-  template<typename T>
   class GenericComparer_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

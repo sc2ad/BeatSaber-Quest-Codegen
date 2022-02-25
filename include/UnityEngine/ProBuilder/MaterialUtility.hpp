@@ -10,7 +10,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -42,13 +41,13 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.Material> s_MaterialArray
     static void _set_s_MaterialArray(System::Collections::Generic::List_1<UnityEngine::Material*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1CCE5AC
+    // Offset: 0x1F41DF4
     static void _cctor();
     // static System.Int32 GetMaterialCount(UnityEngine.Renderer renderer)
-    // Offset: 0x1CCE3A8
+    // Offset: 0x1F41BF0
     static int GetMaterialCount(UnityEngine::Renderer* renderer);
     // static UnityEngine.Material GetSharedMaterial(UnityEngine.Renderer renderer, System.Int32 index)
-    // Offset: 0x1CCE45C
+    // Offset: 0x1F41CA4
     static UnityEngine::Material* GetSharedMaterial(UnityEngine::Renderer* renderer, int index);
   }; // UnityEngine.ProBuilder.MaterialUtility
   #pragma pack(pop)

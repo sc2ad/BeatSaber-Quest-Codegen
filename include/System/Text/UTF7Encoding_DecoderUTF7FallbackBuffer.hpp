@@ -63,29 +63,34 @@ namespace System::Text {
     // Get instance field reference: private System.Int32 iSize
     int& dyn_iSize();
     // public System.Void .ctor(System.Text.UTF7Encoding/System.Text.DecoderUTF7Fallback fallback)
-    // Offset: 0x1F0D840
+    // Offset: 0x1FB42A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UTF7Encoding::DecoderUTF7FallbackBuffer* New_ctor(System::Text::UTF7Encoding::DecoderUTF7Fallback* fallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UTF7Encoding::DecoderUTF7FallbackBuffer*, creationType>(fallback)));
     }
+    // public override System.Int32 get_Remaining()
+    // Offset: 0x1FB4390
+    // Implemented from: System.Text.DecoderFallbackBuffer
+    // Base method: System.Int32 DecoderFallbackBuffer::get_Remaining()
+    int get_Remaining();
     // public override System.Boolean Fallback(System.Byte[] bytesUnknown, System.Int32 index)
-    // Offset: 0x1F0D8C4
+    // Offset: 0x1FB4324
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Boolean DecoderFallbackBuffer::Fallback(System.Byte[] bytesUnknown, System.Int32 index)
     bool Fallback(::ArrayW<uint8_t> bytesUnknown, int index);
     // public override System.Char GetNextChar()
-    // Offset: 0x1F0D910
+    // Offset: 0x1FB4370
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Char DecoderFallbackBuffer::GetNextChar()
     ::Il2CppChar GetNextChar();
     // public override System.Void Reset()
-    // Offset: 0x1F0D930
+    // Offset: 0x1FB439C
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Void DecoderFallbackBuffer::Reset()
     void Reset();
     // override System.Int32 InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
-    // Offset: 0x1F0D940
+    // Offset: 0x1FB43AC
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Int32 DecoderFallbackBuffer::InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
     int InternalFallback(::ArrayW<uint8_t> bytes, uint8_t* pBytes);
@@ -99,6 +104,14 @@ namespace System::Text {
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::get_Remaining
+// Il2CppName: get_Remaining
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::*)()>(&System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::get_Remaining)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer*), "get_Remaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::Fallback
 // Il2CppName: Fallback
 template<>

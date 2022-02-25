@@ -14,7 +14,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -35,7 +34,7 @@ namespace NetEase::Docker {
   struct ReceivedHighscoreData/*, public System::ValueType*/ {
     public:
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xF2E8A0
+    // [DebuggerBrowsableAttribute] Offset: 0x123511C
     // private System.Boolean <FetchingSuccessful>k__BackingField
     // Size: 0x1
     // Offset: 0x0
@@ -44,21 +43,21 @@ namespace NetEase::Docker {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: FetchingSuccessful and: HighscoreCode
     char __padding0[0x3] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0xF2E8DC
+    // [DebuggerBrowsableAttribute] Offset: 0x1235158
     // private System.Int32 <HighscoreCode>k__BackingField
     // Size: 0x4
     // Offset: 0x4
     int HighscoreCode;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xF2E918
+    // [DebuggerBrowsableAttribute] Offset: 0x1235194
     // private System.String <Track>k__BackingField
     // Size: 0x8
     // Offset: 0x8
     ::StringW Track;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xF2E954
+    // [DebuggerBrowsableAttribute] Offset: 0x12351D0
     // private System.Collections.Generic.List`1<NetEase.Docker.ScoreData> <Scores>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -81,25 +80,25 @@ namespace NetEase::Docker {
     // Get instance field reference: private System.Collections.Generic.List`1<NetEase.Docker.ScoreData> <Scores>k__BackingField
     System::Collections::Generic::List_1<NetEase::Docker::ScoreData>*& dyn_$Scores$k__BackingField();
     // public System.Boolean get_FetchingSuccessful()
-    // Offset: 0x26CAAC8
+    // Offset: 0x2A57B78
     bool get_FetchingSuccessful();
     // public System.Void set_FetchingSuccessful(System.Boolean value)
-    // Offset: 0x26CAAD0
+    // Offset: 0x2A57B80
     void set_FetchingSuccessful(bool value);
     // public System.Void set_HighscoreCode(System.Int32 value)
-    // Offset: 0x26CAADC
+    // Offset: 0x2A57B8C
     void set_HighscoreCode(int value);
     // public System.String get_Track()
-    // Offset: 0x26CAAE4
+    // Offset: 0x2A57B94
     ::StringW get_Track();
     // public System.Void set_Track(System.String value)
-    // Offset: 0x26CAAEC
+    // Offset: 0x2A57B9C
     void set_Track(::StringW value);
     // public System.Collections.Generic.List`1<NetEase.Docker.ScoreData> get_Scores()
-    // Offset: 0x26CAAF4
+    // Offset: 0x2A57BA4
     System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* get_Scores();
     // public System.Void set_Scores(System.Collections.Generic.List`1<NetEase.Docker.ScoreData> value)
-    // Offset: 0x26CAAFC
+    // Offset: 0x2A57BAC
     void set_Scores(System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* value);
   }; // NetEase.Docker.ReceivedHighscoreData
   #pragma pack(pop)

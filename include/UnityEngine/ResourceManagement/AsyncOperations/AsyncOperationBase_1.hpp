@@ -30,7 +30,6 @@ namespace System {
   // Forward declaring type: Exception
   class Exception;
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
   // Forward declaring type: Type
   class Type;
@@ -43,7 +42,6 @@ namespace UnityEngine::ResourceManagement {
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: DelegateList`1<T>
-  template<typename T>
   class DelegateList_1;
 }
 // Forward declaring namespace: System::Threading
@@ -56,23 +54,19 @@ namespace System::Threading {
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
-  template<typename TResult>
   class Task_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
   // Forward declaring type: HashSet`1<T>
-  template<typename T>
   class HashSet_1;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ResourceManagement.AsyncOperations
 namespace UnityEngine::ResourceManagement::AsyncOperations {
   // Forward declaring type: AsyncOperationBase`1<TObject>
-  template<typename TObject>
   class AsyncOperationBase_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -55,14 +55,14 @@ namespace NUnit::Framework::Internal {
     protected:
     #endif
     #endif
-    // [DebuggerBrowsableAttribute] Offset: 0xF2F7CC
+    // [DebuggerBrowsableAttribute] Offset: 0x1236048
     // private NUnit.Framework.Interfaces.IMethodInfo <Method>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     NUnit::Framework::Interfaces::IMethodInfo* Method;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::IMethodInfo*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xF2F808
+    // [DebuggerBrowsableAttribute] Offset: 0x1236084
     // private System.Reflection.ParameterInfo <ParameterInfo>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -79,22 +79,22 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.Reflection.ParameterInfo <ParameterInfo>k__BackingField
     System::Reflection::ParameterInfo*& dyn_$ParameterInfo$k__BackingField();
     // public System.Boolean get_IsOptional()
-    // Offset: 0x255189C
+    // Offset: 0x28B464C
     bool get_IsOptional();
     // private System.Void set_Method(NUnit.Framework.Interfaces.IMethodInfo value)
-    // Offset: 0x25518B8
+    // Offset: 0x28B4668
     void set_Method(NUnit::Framework::Interfaces::IMethodInfo* value);
     // public System.Reflection.ParameterInfo get_ParameterInfo()
-    // Offset: 0x25518C0
+    // Offset: 0x28B4670
     System::Reflection::ParameterInfo* get_ParameterInfo();
     // private System.Void set_ParameterInfo(System.Reflection.ParameterInfo value)
-    // Offset: 0x25518C8
+    // Offset: 0x28B4678
     void set_ParameterInfo(System::Reflection::ParameterInfo* value);
     // public System.Type get_ParameterType()
-    // Offset: 0x25518D0
+    // Offset: 0x28B4680
     System::Type* get_ParameterType();
     // public System.Void .ctor(NUnit.Framework.Interfaces.IMethodInfo method, System.Reflection.ParameterInfo parameterInfo)
-    // Offset: 0x2551268
+    // Offset: 0x28B4018
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParameterWrapper* New_ctor(NUnit::Framework::Interfaces::IMethodInfo* method, System::Reflection::ParameterInfo* parameterInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::ParameterWrapper::.ctor");

@@ -37,12 +37,12 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
   class AssemblyNameFilter : public NUnit::Framework::Internal::Filters::ValueMatchFilter {
     public:
     // protected override System.String get_ElementName()
-    // Offset: 0x16BE32C
+    // Offset: 0x18C70D8
     // Implemented from: NUnit.Framework.Internal.Filters.ValueMatchFilter
     // Base method: System.String ValueMatchFilter::get_ElementName()
     ::StringW get_ElementName();
     // public System.Void .ctor(System.String assemblyName)
-    // Offset: 0x16BDE34
+    // Offset: 0x18C6BE0
     // Implemented from: NUnit.Framework.Internal.Filters.ValueMatchFilter
     // Base method: System.Void ValueMatchFilter::.ctor(System.String assemblyName)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -51,7 +51,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
       return THROW_UNLESS((::il2cpp_utils::New<AssemblyNameFilter*, creationType>(assemblyName)));
     }
     // public override System.Boolean Match(NUnit.Framework.Interfaces.ITest test)
-    // Offset: 0x16BDE3C
+    // Offset: 0x18C6BE8
     // Implemented from: NUnit.Framework.Internal.TestFilter
     // Base method: System.Boolean TestFilter::Match(NUnit.Framework.Interfaces.ITest test)
     bool Match(NUnit::Framework::Interfaces::ITest* test);

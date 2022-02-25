@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class SaberSwingRatingCounter::Pool : public Zenject::MemoryPool_1<GlobalNamespace::SaberSwingRatingCounter*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x122C258
+    // Offset: 0x2B57A94
     // Implemented from: Zenject.MemoryPool`1
     // Base method: System.Void MemoryPool_1::.ctor()
     // Base method: System.Void MemoryPoolBase_1::.ctor()

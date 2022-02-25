@@ -59,14 +59,14 @@ namespace NUnit::Framework::Internal {
     protected:
     #endif
     #endif
-    // [DebuggerBrowsableAttribute] Offset: 0xF2F754
+    // [DebuggerBrowsableAttribute] Offset: 0x1235FD0
     // private NUnit.Framework.Interfaces.ITypeInfo <TypeInfo>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     NUnit::Framework::Interfaces::ITypeInfo* TypeInfo;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::ITypeInfo*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xF2F790
+    // [DebuggerBrowsableAttribute] Offset: 0x123600C
     // private System.Reflection.MethodInfo <MethodInfo>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -83,47 +83,47 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.Reflection.MethodInfo <MethodInfo>k__BackingField
     System::Reflection::MethodInfo*& dyn_$MethodInfo$k__BackingField();
     // public NUnit.Framework.Interfaces.ITypeInfo get_TypeInfo()
-    // Offset: 0x2550FE8
+    // Offset: 0x28B3D98
     NUnit::Framework::Interfaces::ITypeInfo* get_TypeInfo();
     // private System.Void set_TypeInfo(NUnit.Framework.Interfaces.ITypeInfo value)
-    // Offset: 0x2550FF0
+    // Offset: 0x28B3DA0
     void set_TypeInfo(NUnit::Framework::Interfaces::ITypeInfo* value);
     // public System.Reflection.MethodInfo get_MethodInfo()
-    // Offset: 0x2550FF8
+    // Offset: 0x28B3DA8
     System::Reflection::MethodInfo* get_MethodInfo();
     // private System.Void set_MethodInfo(System.Reflection.MethodInfo value)
-    // Offset: 0x2551000
+    // Offset: 0x28B3DB0
     void set_MethodInfo(System::Reflection::MethodInfo* value);
     // public System.String get_Name()
-    // Offset: 0x2551008
+    // Offset: 0x28B3DB8
     ::StringW get_Name();
     // public System.Boolean get_IsAbstract()
-    // Offset: 0x2551028
+    // Offset: 0x28B3DD8
     bool get_IsAbstract();
     // public System.Boolean get_IsPublic()
-    // Offset: 0x2551044
+    // Offset: 0x28B3DF4
     bool get_IsPublic();
     // public System.Boolean get_ContainsGenericParameters()
-    // Offset: 0x2551060
+    // Offset: 0x28B3E10
     bool get_ContainsGenericParameters();
     // public System.Boolean get_IsGenericMethodDefinition()
-    // Offset: 0x2551084
+    // Offset: 0x28B3E34
     bool get_IsGenericMethodDefinition();
     // public NUnit.Framework.Interfaces.ITypeInfo get_ReturnType()
-    // Offset: 0x25510A8
+    // Offset: 0x28B3E58
     NUnit::Framework::Interfaces::ITypeInfo* get_ReturnType();
     // public System.Void .ctor(System.Type type, System.Reflection.MethodInfo method)
-    // Offset: 0x2550EF8
+    // Offset: 0x28B3CA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MethodWrapper* New_ctor(System::Type* type, System::Reflection::MethodInfo* method) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::MethodWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MethodWrapper*, creationType>(type, method)));
     }
     // public NUnit.Framework.Interfaces.IParameterInfo[] GetParameters()
-    // Offset: 0x255112C
+    // Offset: 0x28B3EDC
     ::ArrayW<NUnit::Framework::Interfaces::IParameterInfo*> GetParameters();
     // public NUnit.Framework.Interfaces.IMethodInfo MakeGenericMethod(params System.Type[] typeArguments)
-    // Offset: 0x25512A0
+    // Offset: 0x28B4050
     NUnit::Framework::Interfaces::IMethodInfo* MakeGenericMethod(::ArrayW<System::Type*> typeArguments);
     // public T[] GetCustomAttributes(System.Boolean inherit)
     // Offset: 0xFFFFFFFF
@@ -144,10 +144,10 @@ namespace NUnit::Framework::Internal {
       return ::il2cpp_utils::RunMethodRethrow<bool, false>(this, ___generic__method, inherit);
     }
     // public System.Object Invoke(System.Object fixture, params System.Object[] args)
-    // Offset: 0x25513B0
+    // Offset: 0x28B4160
     ::Il2CppObject* Invoke(::Il2CppObject* fixture, ::ArrayW<::Il2CppObject*> args);
     // public override System.String ToString()
-    // Offset: 0x2551704
+    // Offset: 0x28B44B4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

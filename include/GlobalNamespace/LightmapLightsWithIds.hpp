@@ -20,13 +20,11 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
 }
 // Completed forward declares
@@ -85,24 +83,24 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<System.Single> globalIntensityDidChangeEvent
     System::Action_1<float>*& dyn_globalIntensityDidChangeEvent();
     // public System.Single get_maxTotalIntensity()
-    // Offset: 0x1DB837C
+    // Offset: 0x208CC20
     float get_maxTotalIntensity();
     // public System.Void set_maxTotalIntensity(System.Single value)
-    // Offset: 0x1DB8384
+    // Offset: 0x208CC28
     void set_maxTotalIntensity(float value);
     // public System.Void add_globalIntensityDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x1DB838C
+    // Offset: 0x208CC30
     void add_globalIntensityDidChangeEvent(System::Action_1<float>* value);
     // public System.Void remove_globalIntensityDidChangeEvent(System.Action`1<System.Single> value)
-    // Offset: 0x1DB8430
+    // Offset: 0x208CCD4
     void remove_globalIntensityDidChangeEvent(System::Action_1<float>* value);
     // protected override System.Collections.Generic.IEnumerable`1<LightWithIds/LightData> get_lightIntensityData()
-    // Offset: 0x1DB84D4
+    // Offset: 0x208CD78
     // Implemented from: LightWithIds
     // Base method: System.Collections.Generic.IEnumerable`1<LightWithIds/LightData> LightWithIds::get_lightIntensityData()
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::LightWithIds::LightData*>* get_lightIntensityData();
     // public System.Void .ctor()
-    // Offset: 0x1DB8890
+    // Offset: 0x208D134
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -116,7 +114,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LightmapLightsWithIds*, creationType>()));
     }
     // protected override System.Void HandleLightManagerDidChangeSomeColorsThisFrame()
-    // Offset: 0x1DB84DC
+    // Offset: 0x208CD80
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::HandleLightManagerDidChangeSomeColorsThisFrame()
     void HandleLightManagerDidChangeSomeColorsThisFrame();

@@ -18,12 +18,10 @@
 // Forward declaring namespace: Zenject
 namespace Zenject {
   // Forward declaring type: IPoolable`1<TParam1>
-  template<typename TParam1>
   class IPoolable_1;
   // Forward declaring type: IMemoryPool
   class IMemoryPool;
   // Forward declaring type: MemoryPool`2<TParam1, TValue>
-  template<typename TParam1, typename TValue>
   class MemoryPool_2;
   // Forward declaring type: DiContainer
   class DiContainer;
@@ -33,7 +31,6 @@ namespace Zenject {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System
@@ -45,7 +42,6 @@ namespace System {
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: PoolableMemoryPoolProvider`2<TContract, TMemoryPool>
-  template<typename TContract, typename TMemoryPool>
   class PoolableMemoryPoolProvider_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

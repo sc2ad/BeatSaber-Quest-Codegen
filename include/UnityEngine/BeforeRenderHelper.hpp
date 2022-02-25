@@ -17,7 +17,6 @@ namespace UnityEngine::Events {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -81,19 +80,19 @@ namespace UnityEngine {
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.BeforeRenderHelper/UnityEngine.OrderBlock> s_OrderBlocks
     static void _set_s_OrderBlocks(System::Collections::Generic::List_1<UnityEngine::BeforeRenderHelper::OrderBlock>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1D00454
+    // Offset: 0x1EAD784
     static void _cctor();
     // static private System.Int32 GetUpdateOrder(UnityEngine.Events.UnityAction callback)
-    // Offset: 0x1D00134
+    // Offset: 0x1EAD464
     static int GetUpdateOrder(UnityEngine::Events::UnityAction* callback);
     // static public System.Void RegisterCallback(UnityEngine.Events.UnityAction callback)
-    // Offset: 0x1CFDF40
+    // Offset: 0x1EAB270
     static void RegisterCallback(UnityEngine::Events::UnityAction* callback);
     // static public System.Void UnregisterCallback(UnityEngine.Events.UnityAction callback)
-    // Offset: 0x1CFE2E0
+    // Offset: 0x1EAB610
     static void UnregisterCallback(UnityEngine::Events::UnityAction* callback);
     // static public System.Void Invoke()
-    // Offset: 0x1CFE9A0
+    // Offset: 0x1EABCD0
     static void Invoke();
   }; // UnityEngine.BeforeRenderHelper
   #pragma pack(pop)

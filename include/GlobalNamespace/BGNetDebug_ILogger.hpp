@@ -9,6 +9,13 @@
 #include "GlobalNamespace/BGNetDebug.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
+// Begin forward declares
+// Forward declaring namespace: System
+namespace System {
+  // Forward declaring type: Exception
+  class Exception;
+}
+// Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(GlobalNamespace::BGNetDebug::ILogger);
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BGNetDebug::ILogger*, "", "BGNetDebug/ILogger");
@@ -26,6 +33,9 @@ namespace GlobalNamespace {
     // public System.Void LogError(System.String message)
     // Offset: 0xFFFFFFFF
     void LogError(::StringW message);
+    // public System.Void LogException(System.Exception exception, System.String message)
+    // Offset: 0xFFFFFFFF
+    void LogException(System::Exception* exception, ::StringW message);
     // public System.Void LogWarning(System.String message)
     // Offset: 0xFFFFFFFF
     void LogWarning(::StringW message);
@@ -49,6 +59,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BGNetDebug::ILogger*), "LogError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BGNetDebug::ILogger::LogException
+// Il2CppName: LogException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BGNetDebug::ILogger::*)(System::Exception*, ::StringW)>(&GlobalNamespace::BGNetDebug::ILogger::LogException)> {
+  static const MethodInfo* get() {
+    static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
+    static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BGNetDebug::ILogger*), "LogException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exception, message});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BGNetDebug::ILogger::LogWarning

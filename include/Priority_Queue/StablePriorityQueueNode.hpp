@@ -51,13 +51,13 @@ namespace Priority_Queue {
     // Get instance field reference: private System.Int64 <InsertionIndex>k__BackingField
     int64_t& dyn_$InsertionIndex$k__BackingField();
     // public System.Int64 get_InsertionIndex()
-    // Offset: 0x11B1680
+    // Offset: 0x13EA5A4
     int64_t get_InsertionIndex();
     // System.Void set_InsertionIndex(System.Int64 value)
-    // Offset: 0x11B1688
+    // Offset: 0x13EA5AC
     void set_InsertionIndex(int64_t value);
     // public System.Void .ctor()
-    // Offset: 0x11B1690
+    // Offset: 0x13EA5B4
     // Implemented from: Priority_Queue.FastPriorityQueueNode
     // Base method: System.Void FastPriorityQueueNode::.ctor()
     // Base method: System.Void Object::.ctor()

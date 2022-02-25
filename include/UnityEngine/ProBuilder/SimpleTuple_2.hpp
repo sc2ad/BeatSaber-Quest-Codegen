@@ -15,7 +15,6 @@
 // Type namespace: UnityEngine.ProBuilder
 namespace UnityEngine::ProBuilder {
   // Forward declaring type: SimpleTuple`2<T1, T2>
-  template<typename T1, typename T2>
   struct SimpleTuple_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

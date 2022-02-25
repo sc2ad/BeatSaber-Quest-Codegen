@@ -119,13 +119,13 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // private System.String _folder
+    // private System.String _directory
     // Size: 0x8
     // Offset: 0x18
-    ::StringW folder;
+    ::StringW directory;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [NullAllowed] Offset: 0xF090D0
+    // [NullAllowed] Offset: 0x11FE6D8
     // private UnityEngine.Camera _camera
     // Size: 0x8
     // Offset: 0x20
@@ -237,8 +237,8 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // Get instance field reference: private System.String _folder
-    ::StringW& dyn__folder();
+    // Get instance field reference: private System.String _directory
+    ::StringW& dyn__directory();
     // Get instance field reference: private UnityEngine.Camera _camera
     UnityEngine::Camera*& dyn__camera();
     // Get instance field reference: private System.Int32 _frameRate
@@ -273,29 +273,35 @@ namespace GlobalNamespace {
     UnityEngine::RenderTexture*& dyn__equirectTexture();
     // Get instance field reference: private UnityEngine.RenderTexture _cameraRenderTexture
     UnityEngine::RenderTexture*& dyn__cameraRenderTexture();
+    // public System.String get_directory()
+    // Offset: 0x299C0F8
+    ::StringW get_directory();
+    // public System.Void set_directory(System.String value)
+    // Offset: 0x299C100
+    void set_directory(::StringW value);
     // protected System.Void OnEnable()
-    // Offset: 0x263F1D8
+    // Offset: 0x299C108
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x263F35C
+    // Offset: 0x299C28C
     void OnDisable();
     // protected System.Void LateUpdate()
-    // Offset: 0x263F430
+    // Offset: 0x299C360
     void LateUpdate();
     // private System.Void OnApplicationFocus(System.Boolean hasFocus)
-    // Offset: 0x263F594
+    // Offset: 0x299C4C4
     void OnApplicationFocus(bool hasFocus);
     // private System.Void SaveCameraScreenshot()
-    // Offset: 0x263F500
+    // Offset: 0x299C430
     void SaveCameraScreenshot();
     // private System.Void SaveTextureScreenshot(UnityEngine.Texture2D tex)
-    // Offset: 0x263F6D0
+    // Offset: 0x299C600
     void SaveTextureScreenshot(UnityEngine::Texture2D* tex);
     // private UnityEngine.Texture2D ConvertRenderTexture(UnityEngine.RenderTexture renderTexture)
-    // Offset: 0x263F5AC
+    // Offset: 0x299C4DC
     UnityEngine::Texture2D* ConvertRenderTexture(UnityEngine::RenderTexture* renderTexture);
     // public System.Void .ctor()
-    // Offset: 0x263F7E0
+    // Offset: 0x299C710
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -315,6 +321,23 @@ namespace GlobalNamespace {
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenshotRecorder::RecordingType, "", "ScreenshotRecorder/RecordingType");
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: GlobalNamespace::ScreenshotRecorder::get_directory
+// Il2CppName: get_directory
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::ScreenshotRecorder::*)()>(&GlobalNamespace::ScreenshotRecorder::get_directory)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenshotRecorder*), "get_directory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::ScreenshotRecorder::set_directory
+// Il2CppName: set_directory
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScreenshotRecorder::*)(::StringW)>(&GlobalNamespace::ScreenshotRecorder::set_directory)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenshotRecorder*), "set_directory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::ScreenshotRecorder::OnEnable
 // Il2CppName: OnEnable
 template<>

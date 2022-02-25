@@ -15,7 +15,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: HoudiniEngineUnity
@@ -85,7 +84,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ShelfToolData> _tools
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ShelfToolData*>*& dyn__tools();
     // public System.Void .ctor()
-    // Offset: 0x1849724
+    // Offset: 0x1A60824
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

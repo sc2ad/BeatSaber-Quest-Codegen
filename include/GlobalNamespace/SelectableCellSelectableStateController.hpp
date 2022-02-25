@@ -30,22 +30,22 @@ namespace GlobalNamespace {
   class SelectableCellSelectableStateController : public GlobalNamespace::SelectableStateController_1<HMUI::SelectableCell*> {
     public:
     // protected System.Void OnEnable()
-    // Offset: 0x1234600
+    // Offset: 0x2B5FC8C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x12346E0
+    // Offset: 0x2B5FD6C
     void OnDisable();
     // private System.Void HandleSelectableCellHighlightDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x12347C0
+    // Offset: 0x2B5FE4C
     void HandleSelectableCellHighlightDidChange(HMUI::SelectableCell* selectableCell, HMUI::SelectableCell::TransitionType transitionType);
     // private System.Void HandleSelectableCellSelectionStateDidChange(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/HMUI.TransitionType transitionType, System.Object owner)
-    // Offset: 0x1234800
+    // Offset: 0x2B5FE8C
     void HandleSelectableCellSelectionStateDidChange(HMUI::SelectableCell* selectableCell, HMUI::SelectableCell::TransitionType transitionType, ::Il2CppObject* owner);
     // private System.Void ResolveState(HMUI.SelectableCell selectableCell, HMUI.SelectableCell/HMUI.TransitionType transitionType)
-    // Offset: 0x12347C4
+    // Offset: 0x2B5FE50
     void ResolveState(HMUI::SelectableCell* selectableCell, HMUI::SelectableCell::TransitionType transitionType);
     // public System.Void .ctor()
-    // Offset: 0x1234884
+    // Offset: 0x2B5FF10
     // Implemented from: SelectableStateController`1
     // Base method: System.Void SelectableStateController_1::.ctor()
     // Base method: System.Void SelectableStateController::.ctor()

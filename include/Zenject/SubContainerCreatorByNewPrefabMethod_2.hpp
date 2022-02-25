@@ -30,20 +30,17 @@ namespace Zenject {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`3<T1, T2, T3>
-  template<typename T1, typename T2, typename T3>
   class Action_3;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: SubContainerCreatorByNewPrefabMethod`2<TParam1, TParam2>
-  template<typename TParam1, typename TParam2>
   class SubContainerCreatorByNewPrefabMethod_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

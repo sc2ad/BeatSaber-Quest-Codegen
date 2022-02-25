@@ -81,13 +81,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _bufferTexID
     int& dyn__bufferTexID();
     // public UnityEngine.RenderTexture FilterTexture(UnityEngine.RenderTexture src)
-    // Offset: 0x2632924
+    // Offset: 0x2E108E8
     UnityEngine::RenderTexture* FilterTexture(UnityEngine::RenderTexture* src);
     // private System.Void CreateRenderTexturesIfNeeded(System.Int32 width, System.Int32 height)
-    // Offset: 0x2632ACC
+    // Offset: 0x2E10A90
     void CreateRenderTexturesIfNeeded(int width, int height);
     // public System.Void .ctor()
-    // Offset: 0x2632870
+    // Offset: 0x2E10834
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

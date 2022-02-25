@@ -53,7 +53,7 @@ namespace Zenject {
     // Get instance field reference: public System.Int32 Priority
     int& dyn_Priority();
     // public System.Void .ctor(Zenject.IPoolable poolable, System.Int32 priority)
-    // Offset: 0x18DD00C
+    // Offset: 0x1B0D69C
     // ABORTED: conflicts with another method.  PoolableInfo(Zenject::IPoolable* poolable, int priority);
   }; // Zenject.PoolableManager/Zenject.PoolableInfo
   #pragma pack(pop)

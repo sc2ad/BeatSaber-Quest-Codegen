@@ -31,7 +31,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -206,19 +205,19 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_WorkItemTally _workItemTally
     HoudiniEngineUnity::HEU_WorkItemTally*& dyn__workItemTally();
     // public System.Void Reset()
-    // Offset: 0x184CE44
+    // Offset: 0x1A63F44
     void Reset();
     // public System.Boolean AreAllWorkItemsComplete()
-    // Offset: 0x184CE68
+    // Offset: 0x1A63F68
     bool AreAllWorkItemsComplete();
     // public System.Boolean AnyWorkItemsFailed()
-    // Offset: 0x184CE84
+    // Offset: 0x1A63F84
     bool AnyWorkItemsFailed();
     // public System.Boolean AnyWorkItemsPending()
-    // Offset: 0x184CEA0
+    // Offset: 0x1A63FA0
     bool AnyWorkItemsPending();
     // public System.Void .ctor()
-    // Offset: 0x184CEBC
+    // Offset: 0x1A63FBC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

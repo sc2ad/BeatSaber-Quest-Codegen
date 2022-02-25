@@ -54,10 +54,10 @@ namespace UnityEngine::Experimental::TerrainAPI {
     // Get instance field reference: public System.Int32 groupID
     int& dyn_groupID();
     // System.Boolean <CreateFromPlacement>b__0(UnityEngine.Terrain x)
-    // Offset: 0x2697E50
+    // Offset: 0x2A2A0F4
     bool $CreateFromPlacement$b__0(UnityEngine::Terrain* x);
     // public System.Void .ctor()
-    // Offset: 0x2696D30
+    // Offset: 0x2A28FD4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -21,7 +21,6 @@ namespace LiteNetLib::Utils {
 // Type namespace: LiteNetLib.Utils
 namespace LiteNetLib::Utils {
   // Forward declaring type: INetImmutableSerializable`1<T>
-  template<typename T>
   class INetImmutableSerializable_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

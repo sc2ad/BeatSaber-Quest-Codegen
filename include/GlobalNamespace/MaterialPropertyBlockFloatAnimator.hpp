@@ -40,7 +40,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [SpaceAttribute] Offset: 0xF239A8
+    // [SpaceAttribute] Offset: 0x122A4E8
     // private System.Single _value
     // Size: 0x4
     // Offset: 0x30
@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _value
     float& dyn__value();
     // public System.Void .ctor()
-    // Offset: 0x1DB9C40
+    // Offset: 0x208E4E4
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -65,7 +65,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockFloatAnimator*, creationType>()));
     }
     // protected override System.Void SetProperty()
-    // Offset: 0x1DB9C04
+    // Offset: 0x208E4A8
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::SetProperty()
     void SetProperty();

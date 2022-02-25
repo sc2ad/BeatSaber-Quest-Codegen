@@ -65,10 +65,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private CustomPreviewBeatmapLevel[] _customPreviewBeatmapLevels
     ::ArrayW<GlobalNamespace::CustomPreviewBeatmapLevel*>& dyn__customPreviewBeatmapLevels();
     // public IPreviewBeatmapLevel[] get_beatmapLevels()
-    // Offset: 0x1191564
+    // Offset: 0x13C700C
     ::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*> get_beatmapLevels();
     // public System.Void .ctor(CustomPreviewBeatmapLevel[] customPreviewBeatmapLevels)
-    // Offset: 0x119156C
+    // Offset: 0x13C7014
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomBeatmapLevelCollection* New_ctor(::ArrayW<GlobalNamespace::CustomPreviewBeatmapLevel*> customPreviewBeatmapLevels) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomBeatmapLevelCollection::.ctor");

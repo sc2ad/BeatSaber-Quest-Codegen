@@ -44,11 +44,11 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kMaxSecondsToConsiderStrobe
     static void _set_kMaxSecondsToConsiderStrobe(float value);
     // static public IReadonlyBeatmapData CreateTransformedData(IReadonlyBeatmapData beatmapData, EnvironmentIntensityReductionOptions environmentIntensityReductionOptions)
-    // Offset: 0x12D20B4
+    // Offset: 0x2B4AD24
     static GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(GlobalNamespace::IReadonlyBeatmapData* beatmapData, GlobalNamespace::EnvironmentIntensityReductionOptions* environmentIntensityReductionOptions);
-    // static System.Void <CreateTransformedData>g__IncreaseAllLaterStrobeStartEndIndexes|2_0(System.Single insertionTime, ref BeatmapDataStrobeFilterTransform/<>c__DisplayClass2_0 param_0000fc82)
-    // Offset: 0x12D2930
-    static void $CreateTransformedData$g__IncreaseAllLaterStrobeStartEndIndexes_2_0(float insertionTime, ByRef<GlobalNamespace::BeatmapDataStrobeFilterTransform::$$c__DisplayClass2_0> param_0000fc82);
+    // static System.Void <CreateTransformedData>g__IncreaseAllLaterStrobeStartEndIndexes|2_0(System.Single insertionTime, ref BeatmapDataStrobeFilterTransform/<>c__DisplayClass2_0 param_0001421a)
+    // Offset: 0x2B4B5A0
+    static void $CreateTransformedData$g__IncreaseAllLaterStrobeStartEndIndexes_2_0(float insertionTime, ByRef<GlobalNamespace::BeatmapDataStrobeFilterTransform::$$c__DisplayClass2_0> param_0001421a);
   }; // BeatmapDataStrobeFilterTransform
   #pragma pack(pop)
 }
@@ -69,7 +69,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, ByRef<GlobalNamespace::BeatmapDataStrobeFilterTransform::$$c__DisplayClass2_0>)>(&GlobalNamespace::BeatmapDataStrobeFilterTransform::$CreateTransformedData$g__IncreaseAllLaterStrobeStartEndIndexes_2_0)> {
   static const MethodInfo* get() {
     static auto* insertionTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    static auto* param_0000fc82 = &::il2cpp_utils::GetClassFromName("", "BeatmapDataStrobeFilterTransform/<>c__DisplayClass2_0")->this_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataStrobeFilterTransform*), "<CreateTransformedData>g__IncreaseAllLaterStrobeStartEndIndexes|2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{insertionTime, param_0000fc82});
+    static auto* param_0001421a = &::il2cpp_utils::GetClassFromName("", "BeatmapDataStrobeFilterTransform/<>c__DisplayClass2_0")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataStrobeFilterTransform*), "<CreateTransformedData>g__IncreaseAllLaterStrobeStartEndIndexes|2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{insertionTime, param_0001421a});
   }
 };

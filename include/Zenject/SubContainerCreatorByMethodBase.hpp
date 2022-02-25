@@ -25,7 +25,6 @@ namespace Zenject {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -77,7 +76,7 @@ namespace Zenject {
     // Get instance field reference: private readonly Zenject.SubContainerCreatorBindInfo _containerBindInfo
     Zenject::SubContainerCreatorBindInfo*& dyn__containerBindInfo();
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.SubContainerCreatorBindInfo containerBindInfo)
-    // Offset: 0x2194968
+    // Offset: 0x246A1A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerCreatorByMethodBase* New_ctor(Zenject::DiContainer* container, Zenject::SubContainerCreatorBindInfo* containerBindInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SubContainerCreatorByMethodBase::.ctor");
@@ -87,7 +86,7 @@ namespace Zenject {
     // Offset: 0xFFFFFFFF
     Zenject::DiContainer* CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, Zenject::InjectContext* context);
     // protected Zenject.DiContainer CreateEmptySubContainer()
-    // Offset: 0x2194A44
+    // Offset: 0x246A27C
     Zenject::DiContainer* CreateEmptySubContainer();
   }; // Zenject.SubContainerCreatorByMethodBase
   #pragma pack(pop)

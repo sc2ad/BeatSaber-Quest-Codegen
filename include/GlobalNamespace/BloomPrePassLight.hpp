@@ -26,13 +26,10 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: HashSet`1<T>
-  template<typename T>
   class HashSet_1;
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -113,28 +110,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isBeingDestroyed
     bool& dyn__isBeingDestroyed();
     // static public System.Collections.Generic.Dictionary`2<BloomPrePassLightTypeSO,System.Collections.Generic.HashSet`1<BloomPrePassLight>> get_bloomLightsDict()
-    // Offset: 0x1DB10DC
+    // Offset: 0x2085980
     static System::Collections::Generic::Dictionary_2<GlobalNamespace::BloomPrePassLightTypeSO*, System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>*>* get_bloomLightsDict();
     // static public System.Collections.Generic.List`1<BloomPrePassLight/LightsDataItem> get_lightsDataItems()
-    // Offset: 0x1DB1144
+    // Offset: 0x20859E8
     static System::Collections::Generic::List_1<GlobalNamespace::BloomPrePassLight::LightsDataItem*>* get_lightsDataItems();
     // public System.Boolean get_isDirty()
     // Offset: 0xFFFFFFFF
     bool get_isDirty();
     // protected System.Void OnEnable()
-    // Offset: 0x1DB11AC
+    // Offset: 0x2085A50
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1DB142C
+    // Offset: 0x2085CD0
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x1DB14F4
+    // Offset: 0x2085D98
     void OnDestroy();
     // private System.Void RegisterLight()
-    // Offset: 0x1DB11B0
+    // Offset: 0x2085A54
     void RegisterLight();
     // private System.Void UnregisterLight()
-    // Offset: 0x1DB1430
+    // Offset: 0x2085CD4
     void UnregisterLight();
     // protected System.Void DidRegisterLight()
     // Offset: 0xFFFFFFFF
@@ -146,7 +143,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void Refresh();
     // protected System.Void .ctor()
-    // Offset: 0x1DB1538
+    // Offset: 0x2085DDC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -159,7 +156,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassLight*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1DB1540
+    // Offset: 0x2085DE4
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

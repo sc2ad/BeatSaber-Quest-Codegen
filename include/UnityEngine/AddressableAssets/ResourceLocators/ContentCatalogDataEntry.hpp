@@ -15,10 +15,8 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: System
@@ -102,43 +100,43 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     // Get instance field reference: private System.Type <ResourceType>k__BackingField
     System::Type*& dyn_$ResourceType$k__BackingField();
     // public System.String get_InternalId()
-    // Offset: 0x1613B98
+    // Offset: 0x17E90E8
     ::StringW get_InternalId();
     // public System.Void set_InternalId(System.String value)
-    // Offset: 0x1613BA0
+    // Offset: 0x17E90F0
     void set_InternalId(::StringW value);
     // public System.String get_Provider()
-    // Offset: 0x1613BA8
+    // Offset: 0x17E90F8
     ::StringW get_Provider();
     // private System.Void set_Provider(System.String value)
-    // Offset: 0x1613BB0
+    // Offset: 0x17E9100
     void set_Provider(::StringW value);
     // public System.Collections.Generic.List`1<System.Object> get_Keys()
-    // Offset: 0x1613BB8
+    // Offset: 0x17E9108
     System::Collections::Generic::List_1<::Il2CppObject*>* get_Keys();
     // private System.Void set_Keys(System.Collections.Generic.List`1<System.Object> value)
-    // Offset: 0x1613BC0
+    // Offset: 0x17E9110
     void set_Keys(System::Collections::Generic::List_1<::Il2CppObject*>* value);
     // public System.Collections.Generic.List`1<System.Object> get_Dependencies()
-    // Offset: 0x1613BC8
+    // Offset: 0x17E9118
     System::Collections::Generic::List_1<::Il2CppObject*>* get_Dependencies();
     // private System.Void set_Dependencies(System.Collections.Generic.List`1<System.Object> value)
-    // Offset: 0x1613BD0
+    // Offset: 0x17E9120
     void set_Dependencies(System::Collections::Generic::List_1<::Il2CppObject*>* value);
     // public System.Object get_Data()
-    // Offset: 0x1613BD8
+    // Offset: 0x17E9128
     ::Il2CppObject* get_Data();
     // public System.Void set_Data(System.Object value)
-    // Offset: 0x1613BE0
+    // Offset: 0x17E9130
     void set_Data(::Il2CppObject* value);
     // public System.Type get_ResourceType()
-    // Offset: 0x1613BE8
+    // Offset: 0x17E9138
     System::Type* get_ResourceType();
     // private System.Void set_ResourceType(System.Type value)
-    // Offset: 0x1613BF0
+    // Offset: 0x17E9140
     void set_ResourceType(System::Type* value);
     // public System.Void .ctor(System.Type type, System.String internalId, System.String provider, System.Collections.Generic.IEnumerable`1<System.Object> keys, System.Collections.Generic.IEnumerable`1<System.Object> dependencies, System.Object extraData)
-    // Offset: 0x1613BF8
+    // Offset: 0x17E9148
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ContentCatalogDataEntry* New_ctor(System::Type* type, ::StringW internalId, ::StringW provider, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* keys, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* dependencies, ::Il2CppObject* extraData) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::.ctor");

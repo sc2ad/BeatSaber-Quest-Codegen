@@ -66,14 +66,14 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* scoreText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xF3C5C0
+    // [InjectOptionalAttribute] Offset: 0x1242F34
     // private ScoreUIController/InitData _initData
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::ScoreUIController::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ScoreUIController::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0xF3C5D0
+    // [InjectAttribute] Offset: 0x1242F44
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x28
@@ -104,31 +104,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Text.StringBuilder _stringBuilder
     System::Text::StringBuilder*& dyn__stringBuilder();
     // protected System.Void Start()
-    // Offset: 0x1232660
+    // Offset: 0x2B5DCEC
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1232A88
+    // Offset: 0x2B5E114
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1232A8C
+    // Offset: 0x2B5E118
     void OnDisable();
     // private System.Void RegisterForEvents()
-    // Offset: 0x12326D8
+    // Offset: 0x2B5DD64
     void RegisterForEvents();
     // private System.Void UnregisterFromEvents()
-    // Offset: 0x1232A90
+    // Offset: 0x2B5E11C
     void UnregisterFromEvents();
     // private System.Void HandleScoreDidChangeRealtime(System.Int32 rawScore, System.Int32 modifiedScore)
-    // Offset: 0x1232B90
+    // Offset: 0x2B5E21C
     void HandleScoreDidChangeRealtime(int rawScore, int modifiedScore);
     // protected System.Void UpdateScore(System.Int32 rawScore, System.Int32 modifiedScore)
-    // Offset: 0x1232880
+    // Offset: 0x2B5DF0C
     void UpdateScore(int rawScore, int modifiedScore);
     // static private System.Void Append000Number(System.Text.StringBuilder stringBuilder, System.Int32 number)
-    // Offset: 0x1232B94
+    // Offset: 0x2B5E220
     static void Append000Number(System::Text::StringBuilder* stringBuilder, int number);
     // public System.Void .ctor()
-    // Offset: 0x1232C44
+    // Offset: 0x2B5E2D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

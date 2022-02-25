@@ -21,7 +21,6 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: PacketPool`1<T>
-  template<typename T>
   class PacketPool_1;
 }
 // Forward declaring namespace: LiteNetLib::Utils
@@ -74,22 +73,22 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String secret
     ::StringW& dyn_secret();
     // static public PacketPool`1<PartyMessageHandler/ConnectToMasterServerMessage> get_pool()
-    // Offset: 0x180D024
+    // Offset: 0x2DFDE48
     static GlobalNamespace::PacketPool_1<GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage*>* get_pool();
     // public PartyMessageHandler/ConnectToMasterServerMessage Init(System.String secret)
-    // Offset: 0x180D268
+    // Offset: 0x2DFE08C
     GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage* Init(::StringW secret);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x180D6E0
+    // Offset: 0x2DFE504
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x180D704
+    // Offset: 0x2DFE528
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x180D644
+    // Offset: 0x2DFE468
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x180D738
+    // Offset: 0x2DFE55C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

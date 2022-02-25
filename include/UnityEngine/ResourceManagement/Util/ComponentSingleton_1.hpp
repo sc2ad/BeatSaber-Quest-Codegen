@@ -16,7 +16,6 @@
 // Type namespace: UnityEngine.ResourceManagement.Util
 namespace UnityEngine::ResourceManagement::Util {
   // Forward declaring type: ComponentSingleton`1<T>
-  template<typename T>
   class ComponentSingleton_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

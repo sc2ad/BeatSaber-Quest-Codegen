@@ -56,10 +56,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.GameObject _prefab
     UnityEngine::GameObject*& dyn__prefab();
     // protected System.Void Awake()
-    // Offset: 0x139BA1C
+    // Offset: 0x2C23420
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x139BB1C
+    // Offset: 0x2C23520
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

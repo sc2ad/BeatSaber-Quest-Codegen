@@ -16,7 +16,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -46,13 +45,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Action`1<UnityEngine.AudioClip> <>9__19_0
     static void _set_$$9__19_0(System::Action_1<UnityEngine::AudioClip*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1313BEC
+    // Offset: 0x148EE38
     static void _cctor();
     // System.Void <Unload>b__19_0(UnityEngine.AudioClip loadedAudioClip)
-    // Offset: 0x1313C58
+    // Offset: 0x148EEA4
     void $Unload$b__19_0(UnityEngine::AudioClip* loadedAudioClip);
     // public System.Void .ctor()
-    // Offset: 0x1313C50
+    // Offset: 0x148EE9C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

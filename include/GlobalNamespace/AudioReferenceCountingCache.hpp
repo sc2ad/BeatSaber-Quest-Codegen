@@ -16,7 +16,6 @@
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
-  template<typename TResult>
   class Task_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -41,7 +40,7 @@ namespace GlobalNamespace {
   class AudioReferenceCountingCache : public GlobalNamespace::ReferenceCountingCache_2<int, System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13157A0
+    // Offset: 0x14909EC
     // Implemented from: ReferenceCountingCache`2
     // Base method: System.Void ReferenceCountingCache_2::.ctor()
     // Base method: System.Void Object::.ctor()

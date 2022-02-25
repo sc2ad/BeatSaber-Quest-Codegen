@@ -59,13 +59,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _transform
     UnityEngine::Transform*& dyn__transform();
     // public System.Int32 get_id()
-    // Offset: 0x12C1544
+    // Offset: 0x2B3A13C
     int get_id();
     // public UnityEngine.Transform get_transform()
-    // Offset: 0x12C154C
+    // Offset: 0x2B3A144
     UnityEngine::Transform* get_transform();
     // public System.Void .ctor()
-    // Offset: 0x12C1554
+    // Offset: 0x2B3A14C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

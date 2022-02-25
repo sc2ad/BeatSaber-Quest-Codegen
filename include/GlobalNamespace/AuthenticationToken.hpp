@@ -145,15 +145,15 @@ namespace GlobalNamespace {
     ::StringW userName;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // public readonly System.Byte[] sessionToken
+    // public readonly System.String sessionToken
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayW<uint8_t> sessionToken;
+    ::StringW sessionToken;
     // Field size check
-    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Creating value type constructor for type: AuthenticationToken
-    constexpr AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform_ = {}, ::StringW userId_ = {}, ::StringW userName_ = {}, ::ArrayW<uint8_t> sessionToken_ = ::ArrayW<uint8_t>(static_cast<void*>(nullptr))) noexcept : platform{platform_}, userId{userId_}, userName{userName_}, sessionToken{sessionToken_} {}
+    constexpr AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform_ = {}, ::StringW userId_ = {}, ::StringW userName_ = {}, ::StringW sessionToken_ = {}) noexcept : platform{platform_}, userId{userId_}, userName{userName_}, sessionToken{sessionToken_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -168,23 +168,38 @@ namespace GlobalNamespace {
     ::StringW& dyn_userId();
     // Get instance field reference: public readonly System.String userName
     ::StringW& dyn_userName();
-    // Get instance field reference: public readonly System.Byte[] sessionToken
-    ::ArrayW<uint8_t>& dyn_sessionToken();
-    // public System.Void .ctor(AuthenticationToken/Platform platform, System.String userId, System.String userName, System.Byte[] sessionToken)
-    // Offset: 0x155BA80
-    // ABORTED: conflicts with another method.  AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform, ::StringW userId, ::StringW userName, ::ArrayW<uint8_t> sessionToken);
+    // Get instance field reference: public readonly System.String sessionToken
+    ::StringW& dyn_sessionToken();
+    // public System.Void .ctor(AuthenticationToken/Platform platform, System.String userId, System.String userName, System.String sessionToken)
+    // Offset: 0x2B7C32C
+    // ABORTED: conflicts with another method.  AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform, ::StringW userId, ::StringW userName, ::StringW sessionToken);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x155BA90
+    // Offset: 0x2B7C33C
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public AuthenticationToken CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x155BB0C
+    // Offset: 0x2B7C508
     GlobalNamespace::AuthenticationToken CreateFromSerializedData(LiteNetLib::Utils::NetDataReader* reader);
     // static public AuthenticationToken Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x155BB14
+    // Offset: 0x2B7C510
     static GlobalNamespace::AuthenticationToken Deserialize(LiteNetLib::Utils::NetDataReader* reader);
+    // static private System.Byte[] FromHex(System.String str)
+    // Offset: 0x2B7C410
+    static ::ArrayW<uint8_t> FromHex(::StringW str);
+    // static private System.Byte GetHexVal(System.Char c)
+    // Offset: 0x2B7C6D4
+    static uint8_t GetHexVal(::Il2CppChar c);
+    // static private System.Byte[] FromUtf8(System.String str)
+    // Offset: 0x2B7C3D4
+    static ::ArrayW<uint8_t> FromUtf8(::StringW str);
+    // static private System.String ToHex(System.Byte[] bytes)
+    // Offset: 0x2B7C644
+    static ::StringW ToHex(::ArrayW<uint8_t> bytes);
+    // static private System.String ToUtf8(System.Byte[] bytes)
+    // Offset: 0x2B7C608
+    static ::StringW ToUtf8(::ArrayW<uint8_t> bytes);
   }; // AuthenticationToken
   #pragma pack(pop)
-  static check_size<sizeof(AuthenticationToken), 24 + sizeof(::ArrayW<uint8_t>)> __GlobalNamespace_AuthenticationTokenSizeCheck;
+  static check_size<sizeof(AuthenticationToken), 24 + sizeof(::StringW)> __GlobalNamespace_AuthenticationTokenSizeCheck;
   static_assert(sizeof(AuthenticationToken) == 0x20);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -219,5 +234,50 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AuthenticationToken), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::AuthenticationToken::FromHex
+// Il2CppName: FromHex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::StringW)>(&GlobalNamespace::AuthenticationToken::FromHex)> {
+  static const MethodInfo* get() {
+    static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AuthenticationToken), "FromHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::AuthenticationToken::GetHexVal
+// Il2CppName: GetHexVal
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::Il2CppChar)>(&GlobalNamespace::AuthenticationToken::GetHexVal)> {
+  static const MethodInfo* get() {
+    static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AuthenticationToken), "GetHexVal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::AuthenticationToken::FromUtf8
+// Il2CppName: FromUtf8
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::StringW)>(&GlobalNamespace::AuthenticationToken::FromUtf8)> {
+  static const MethodInfo* get() {
+    static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AuthenticationToken), "FromUtf8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::AuthenticationToken::ToHex
+// Il2CppName: ToHex
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<uint8_t>)>(&GlobalNamespace::AuthenticationToken::ToHex)> {
+  static const MethodInfo* get() {
+    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AuthenticationToken), "ToHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytes});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::AuthenticationToken::ToUtf8
+// Il2CppName: ToUtf8
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<uint8_t>)>(&GlobalNamespace::AuthenticationToken::ToUtf8)> {
+  static const MethodInfo* get() {
+    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AuthenticationToken), "ToUtf8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytes});
   }
 };

@@ -56,16 +56,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _currentBpm
     float& dyn__currentBpm();
     // public System.Single get_currentBpm()
-    // Offset: 0x1BDE868
+    // Offset: 0x2CBC5A0
     float get_currentBpm();
     // public System.Void SetBpm(System.Single newBpm)
-    // Offset: 0x1BDE870
+    // Offset: 0x2CBC5A8
     void SetBpm(float newBpm);
     // public System.Boolean ProcessBeatmapEventData(BeatmapEventData beatmapEventData)
-    // Offset: 0x1BDE878
+    // Offset: 0x2CBC5B0
     bool ProcessBeatmapEventData(GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void .ctor()
-    // Offset: 0x1BDE8C4
+    // Offset: 0x2CBC5FC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

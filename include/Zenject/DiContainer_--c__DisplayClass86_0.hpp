@@ -59,10 +59,10 @@ namespace Zenject {
     // Get instance field reference: public Zenject.InjectContext context
     Zenject::InjectContext*& dyn_context();
     // System.Type <ResolveTypeAll>b__0(Zenject.DiContainer/Zenject.ProviderInfo x)
-    // Offset: 0x1A9ECC4
+    // Offset: 0x1D26D7C
     System::Type* $ResolveTypeAll$b__0(Zenject::DiContainer::ProviderInfo* x);
     // public System.Void .ctor()
-    // Offset: 0x1A9ECBC
+    // Offset: 0x1D26D74
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

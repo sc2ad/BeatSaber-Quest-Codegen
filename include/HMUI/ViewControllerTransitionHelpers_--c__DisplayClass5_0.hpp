@@ -76,10 +76,10 @@ namespace HMUI {
     // Get instance field reference: public System.Single baseCanvasGroupAlpha
     float& dyn_baseCanvasGroupAlpha();
     // System.Void <DoHorizontalTransition>b__0(System.Single t)
-    // Offset: 0x264D86C
+    // Offset: 0x29CD438
     void $DoHorizontalTransition$b__0(float t);
     // public System.Void .ctor()
-    // Offset: 0x264D864
+    // Offset: 0x29CD430
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

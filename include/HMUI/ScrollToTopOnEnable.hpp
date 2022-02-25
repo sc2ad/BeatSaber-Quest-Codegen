@@ -56,10 +56,10 @@ namespace HMUI {
     // Get instance field reference: private HMUI.ScrollView _scrollView
     HMUI::ScrollView*& dyn__scrollView();
     // protected System.Void OnEnable()
-    // Offset: 0x14C8024
+    // Offset: 0x16AA0E0
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x14C817C
+    // Offset: 0x16AA238
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

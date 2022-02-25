@@ -46,14 +46,14 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [LocalizationKeyAttribute] Offset: 0xF365E0
+    // [LocalizationKeyAttribute] Offset: 0x123CE74
     // private System.String _modifierNameLocalizationKey
     // Size: 0x8
     // Offset: 0x18
     ::StringW modifierNameLocalizationKey;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0xF36618
+    // [LocalizationKeyAttribute] Offset: 0x123CEAC
     // private System.String _descriptionLocalizationKey
     // Size: 0x8
     // Offset: 0x20
@@ -126,34 +126,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isInBeta
     bool& dyn__isInBeta();
     // public System.String get_modifierNameLocalizationKey()
-    // Offset: 0x11FBA7C
+    // Offset: 0x2ADA7C4
     ::StringW get_modifierNameLocalizationKey();
     // public System.String get_descriptionLocalizationKey()
-    // Offset: 0x11FBA84
+    // Offset: 0x2ADA7CC
     ::StringW get_descriptionLocalizationKey();
     // public System.Single get_multiplier()
-    // Offset: 0x11FBA8C
+    // Offset: 0x2ADA7D4
     float get_multiplier();
     // public System.Boolean get_multiplierConditionallyValid()
-    // Offset: 0x11FBA94
+    // Offset: 0x2ADA7DC
     bool get_multiplierConditionallyValid();
     // public UnityEngine.Sprite get_icon()
-    // Offset: 0x11FBA9C
+    // Offset: 0x2ADA7E4
     UnityEngine::Sprite* get_icon();
     // public GameplayModifierParamsSO[] get_mutuallyExclusives()
-    // Offset: 0x11FBAA4
+    // Offset: 0x2ADA7EC
     ::ArrayW<GlobalNamespace::GameplayModifierParamsSO*> get_mutuallyExclusives();
     // public GameplayModifierParamsSO[] get_requires()
-    // Offset: 0x11FBAAC
+    // Offset: 0x2ADA7F4
     ::ArrayW<GlobalNamespace::GameplayModifierParamsSO*> get_requires();
     // public GameplayModifierParamsSO[] get_requiredBy()
-    // Offset: 0x11FBAB4
+    // Offset: 0x2ADA7FC
     ::ArrayW<GlobalNamespace::GameplayModifierParamsSO*> get_requiredBy();
     // public System.Boolean get_isInBeta()
-    // Offset: 0x11FBABC
+    // Offset: 0x2ADA804
     bool get_isInBeta();
     // public System.Void .ctor()
-    // Offset: 0x11FBAC4
+    // Offset: 0x2ADA80C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

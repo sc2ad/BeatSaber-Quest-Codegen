@@ -14,7 +14,6 @@
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: RandomObjectPicker`1<T>
-  template<typename T>
   class RandomObjectPicker_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -16,16 +16,12 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
   // Forward declaring type: HashSet`1<T>
-  template<typename T>
   class HashSet_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: Queue`1<T>
-  template<typename T>
   class Queue_1;
 }
 // Forward declaring namespace: Tweening
@@ -99,34 +95,34 @@ namespace Tweening {
     // Get instance field reference: private readonly System.Collections.Generic.Queue`1<System.Collections.Generic.HashSet`1<Tweening.Tween>> _reusableTweenHashSets
     System::Collections::Generic::Queue_1<System::Collections::Generic::HashSet_1<Tweening::Tween*>*>*& dyn__reusableTweenHashSets();
     // protected System.Void Start()
-    // Offset: 0x120C0FC
+    // Offset: 0x2AEF7A4
     void Start();
     // protected System.Void LateUpdate()
-    // Offset: 0x120C168
+    // Offset: 0x2AEF810
     void LateUpdate();
     // protected System.Single GetTime()
     // Offset: 0xFFFFFFFF
     float GetTime();
     // public Tweening.Tween AddTween(Tweening.Tween tween, UnityEngine.Object owner)
-    // Offset: 0x120C310
+    // Offset: 0x2AEF9B8
     Tweening::Tween* AddTween(Tweening::Tween* tween, UnityEngine::Object* owner);
     // public Tweening.Tween RestartTween(Tweening.Tween tween, UnityEngine.Object owner)
-    // Offset: 0x120C438
+    // Offset: 0x2AEFAE0
     Tweening::Tween* RestartTween(Tweening::Tween* tween, UnityEngine::Object* owner);
     // public Tweening.Tween ResumeTween(Tweening.Tween tween, UnityEngine.Object owner)
-    // Offset: 0x120C498
+    // Offset: 0x2AEFB40
     Tweening::Tween* ResumeTween(Tweening::Tween* tween, UnityEngine::Object* owner);
     // public System.Void KillAllTweens(UnityEngine.Object owner)
-    // Offset: 0x120C4C8
+    // Offset: 0x2AEFB70
     void KillAllTweens(UnityEngine::Object* owner);
     // private System.Boolean AddTweenToDataStructures(Tweening.Tween tween, UnityEngine.Object owner)
-    // Offset: 0x120C35C
+    // Offset: 0x2AEFA04
     bool AddTweenToDataStructures(Tweening::Tween* tween, UnityEngine::Object* owner);
     // private System.Void AddTweenToOwnerDictionary(Tweening.Tween tween, UnityEngine.Object owner)
-    // Offset: 0x120C63C
+    // Offset: 0x2AEFCE4
     void AddTweenToOwnerDictionary(Tweening::Tween* tween, UnityEngine::Object* owner);
     // protected System.Void .ctor()
-    // Offset: 0x120BEE8
+    // Offset: 0x2AEF590
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

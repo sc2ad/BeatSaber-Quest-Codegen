@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single[] p2
     ::ArrayW<float>& dyn_p2();
     // public System.Void .ctor(System.Single[] p1, System.Single[] p2)
-    // Offset: 0x13328E4
+    // Offset: 0x14D1AF0
     // ABORTED: conflicts with another method.  ComputeControlPointsResults(::ArrayW<float> p1, ::ArrayW<float> p2);
   }; // BezierSpline/ComputeControlPointsResults
   #pragma pack(pop)

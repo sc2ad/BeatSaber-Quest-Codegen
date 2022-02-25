@@ -82,47 +82,47 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.String listenerName
     ::StringW& dyn_listenerName();
     // public System.Boolean get_IsThreadSafe()
-    // Offset: 0x1A2EECC
+    // Offset: 0x1EDB864
     bool get_IsThreadSafe();
     // public System.Void set_IndentLevel(System.Int32 value)
-    // Offset: 0x1A2E310
+    // Offset: 0x1EDAC98
     void set_IndentLevel(int value);
     // public System.Void set_IndentSize(System.Int32 value)
-    // Offset: 0x1A2E32C
+    // Offset: 0x1EDACB4
     void set_IndentSize(int value);
     // protected System.Boolean get_NeedIndent()
-    // Offset: 0x1A2EF58
+    // Offset: 0x1EDB8F0
     bool get_NeedIndent();
     // protected System.Void set_NeedIndent(System.Boolean value)
-    // Offset: 0x1A2EF60
+    // Offset: 0x1EDB8F8
     void set_NeedIndent(bool value);
     // protected System.Void .ctor(System.String name)
-    // Offset: 0x1A29110
+    // Offset: 0x1ED52A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TraceListener* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Diagnostics::TraceListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TraceListener*, creationType>(name)));
     }
     // public System.Void Dispose()
-    // Offset: 0x1A2EED4
+    // Offset: 0x1EDB86C
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1A2EF50
+    // Offset: 0x1EDB8E8
     void Dispose(bool disposing);
     // public System.Void Flush()
-    // Offset: 0x1A2EF54
+    // Offset: 0x1EDB8EC
     void Flush();
     // public System.Void Fail(System.String message)
-    // Offset: 0x1A29164
+    // Offset: 0x1ED52F8
     void Fail(::StringW message);
     // public System.Void Fail(System.String message, System.String detailMessage)
-    // Offset: 0x1A2921C
+    // Offset: 0x1ED53B0
     void Fail(::StringW message, ::StringW detailMessage);
     // public System.Void Write(System.String message)
     // Offset: 0xFFFFFFFF
     void Write(::StringW message);
     // protected System.Void WriteIndent()
-    // Offset: 0x1A2EF6C
+    // Offset: 0x1EDB904
     void WriteIndent();
     // public System.Void WriteLine(System.String message)
     // Offset: 0xFFFFFFFF

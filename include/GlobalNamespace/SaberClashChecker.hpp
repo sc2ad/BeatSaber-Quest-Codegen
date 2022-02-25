@@ -102,16 +102,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _prevGetFrameNum
     int& dyn__prevGetFrameNum();
     // private System.Void Init(SaberManager saberManager)
-    // Offset: 0x1229170
+    // Offset: 0x2B54F98
     void Init(GlobalNamespace::SaberManager* saberManager);
     // public System.Boolean AreSabersClashing(out UnityEngine.Vector3 clashingPoint)
-    // Offset: 0x1229194
+    // Offset: 0x2B54FBC
     bool AreSabersClashing(ByRef<UnityEngine::Vector3> clashingPoint);
     // private System.Single SegmentToSegmentDist(UnityEngine.Vector3 fromA, UnityEngine.Vector3 toA, UnityEngine.Vector3 fromB, UnityEngine.Vector3 toB, out UnityEngine.Vector3 inbetweenPoint)
-    // Offset: 0x122936C
+    // Offset: 0x2B55194
     float SegmentToSegmentDist(UnityEngine::Vector3 fromA, UnityEngine::Vector3 toA, UnityEngine::Vector3 fromB, UnityEngine::Vector3 toB, ByRef<UnityEngine::Vector3> inbetweenPoint);
     // public System.Void .ctor()
-    // Offset: 0x1229818
+    // Offset: 0x2B55640
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

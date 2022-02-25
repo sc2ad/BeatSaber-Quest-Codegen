@@ -64,29 +64,29 @@ namespace UnityEngine {
     // Get instance field reference: public UnityEngine.Quaternion rotation
     UnityEngine::Quaternion& dyn_rotation();
     // public UnityEngine.Vector3 get_forward()
-    // Offset: 0x1DEEE18
+    // Offset: 0x20C5528
     UnityEngine::Vector3 get_forward();
     // public System.Void .ctor(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x1DEEB64
+    // Offset: 0x20C5274
     // ABORTED: conflicts with another method.  Pose(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
     // static private System.Void .cctor()
-    // Offset: 0x1DEF2CC
+    // Offset: 0x20C59DC
     static void _cctor();
     // public System.Boolean Equals(UnityEngine.Pose other)
-    // Offset: 0x1DEF034
+    // Offset: 0x20C5744
     bool Equals(UnityEngine::Pose other);
     // public override System.String ToString()
-    // Offset: 0x1DEEB78
+    // Offset: 0x20C5288
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1DEEF94
+    // Offset: 0x20C56A4
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1DEF230
+    // Offset: 0x20C5940
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

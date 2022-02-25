@@ -37,7 +37,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -179,22 +178,22 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF3FA94
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12463A8
     // Get static field: static private readonly System.Int32 _positionPropertyID
     static int _get__positionPropertyID();
     // Set static field: static private readonly System.Int32 _positionPropertyID
     static void _set__positionPropertyID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF3FAA4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12463B8
     // Get static field: static private readonly System.Int32 _sizePropertyID
     static int _get__sizePropertyID();
     // Set static field: static private readonly System.Int32 _sizePropertyID
     static void _set__sizePropertyID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF3FAB4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12463C8
     // Get static field: static private readonly System.Int32 _colorPropertyID
     static int _get__colorPropertyID();
     // Set static field: static private readonly System.Int32 _colorPropertyID
     static void _set__colorPropertyID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF3FAC4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x12463D8
     // Get static field: static private readonly System.Int32 _zClipPropertyID
     static int _get__zClipPropertyID();
     // Set static field: static private readonly System.Int32 _zClipPropertyID
@@ -236,25 +235,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _layer
     int& dyn__layer();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1333A78
+    // Offset: 0x13B5B68
     UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x1333A84
+    // Offset: 0x13B5B74
     void set_color(UnityEngine::Color value);
     // protected System.Void Start()
-    // Offset: 0x1333A90
+    // Offset: 0x13B5B80
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1333E20
+    // Offset: 0x13B5F18
     void Update();
     // private System.Void SetUpElement(BlocksBlade/Element element, System.Single velocity, UnityEngine.Color color)
-    // Offset: 0x1333C40
+    // Offset: 0x13B5D38
     void SetUpElement(GlobalNamespace::BlocksBlade::Element* element, float velocity, UnityEngine::Color color);
     // private UnityEngine.Vector2 RandomPointOnCircle(System.Single radius)
-    // Offset: 0x133420C
+    // Offset: 0x13B6304
     UnityEngine::Vector2 RandomPointOnCircle(float radius);
     // public System.Void .ctor()
-    // Offset: 0x13342CC
+    // Offset: 0x13B63C4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -267,7 +266,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BlocksBlade*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1334304
+    // Offset: 0x13B63FC
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

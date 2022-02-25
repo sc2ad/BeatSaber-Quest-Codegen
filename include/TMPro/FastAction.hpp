@@ -14,13 +14,10 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: LinkedList`1<T>
-  template<typename T>
   class LinkedList_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: LinkedListNode`1<T>
-  template<typename T>
   class LinkedListNode_1;
 }
 // Forward declaring namespace: System
@@ -72,16 +69,16 @@ namespace TMPro {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Action,System.Collections.Generic.LinkedListNode`1<System.Action>> lookup
     System::Collections::Generic::Dictionary_2<System::Action*, System::Collections::Generic::LinkedListNode_1<System::Action*>*>*& dyn_lookup();
     // public System.Void Add(System.Action rhs)
-    // Offset: 0x123DCC8
+    // Offset: 0x14037F8
     void Add(System::Action* rhs);
     // public System.Void Remove(System.Action rhs)
-    // Offset: 0x123DD84
+    // Offset: 0x14038B4
     void Remove(System::Action* rhs);
     // public System.Void Call()
-    // Offset: 0x123DE34
+    // Offset: 0x1403964
     void Call();
     // public System.Void .ctor()
-    // Offset: 0x123DEB4
+    // Offset: 0x14039E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

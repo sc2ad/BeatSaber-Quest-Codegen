@@ -15,7 +15,6 @@
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: ISyncStateSerializable`1<T>
-  template<typename T>
   class ISyncStateSerializable_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

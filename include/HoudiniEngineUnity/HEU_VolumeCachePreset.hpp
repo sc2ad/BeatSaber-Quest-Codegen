@@ -15,7 +15,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: HoudiniEngineUnity
@@ -75,14 +74,14 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeLayerPreset*>* volumeLayersPresets;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeLayerPreset*>*) == 0x8);
-    // [OptionalFieldAttribute] Offset: 0xF66290
+    // [OptionalFieldAttribute] Offset: 0x126CDC0
     // public System.String _terrainDataPath
     // Size: 0x8
     // Offset: 0x30
     ::StringW terrainDataPath;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [OptionalFieldAttribute] Offset: 0xF662C8
+    // [OptionalFieldAttribute] Offset: 0x126CDF8
     // public System.Int32 _tile
     // Size: 0x4
     // Offset: 0x38
@@ -103,7 +102,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _tile
     int& dyn__tile();
     // public System.Void .ctor()
-    // Offset: 0x1785EEC
+    // Offset: 0x19AC688
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -17,7 +17,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: NUnit::Framework::Internal
@@ -66,13 +65,13 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
     // Get instance field reference: public System.Func`2<System.String,NUnit.Framework.Internal.TestFilter> builder
     System::Func_2<::StringW, NUnit::Framework::Internal::TestFilter*>*& dyn_builder();
     // NUnit.Framework.Interfaces.ITestFilter <AddFilters>b__1(System.String v)
-    // Offset: 0x16D5520
+    // Offset: 0x18DE2D0
     NUnit::Framework::Interfaces::ITestFilter* $AddFilters$b__1(::StringW v);
     // NUnit.Framework.Interfaces.ITestFilter <AddFilters>b__3(System.String v)
-    // Offset: 0x16D5588
+    // Offset: 0x18DE338
     NUnit::Framework::Interfaces::ITestFilter* $AddFilters$b__3(::StringW v);
     // public System.Void .ctor()
-    // Offset: 0x16D52A4
+    // Offset: 0x18DE054
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

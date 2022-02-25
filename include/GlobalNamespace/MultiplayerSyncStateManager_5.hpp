@@ -19,34 +19,26 @@
 namespace GlobalNamespace {
   // Skipping declaration: <>c because it is already included!
   // Forward declaring type: IStateTable`3<TStateTable, TType, TState>
-  template<typename TStateTable, typename TType, typename TState>
   class IStateTable_3;
   // Forward declaring type: IEquatableByReference`1<T>
-  template<typename T>
   class IEquatableByReference_1;
   // Forward declaring type: ISyncStateSerializable`1<T>
-  template<typename T>
   class ISyncStateSerializable_1;
   // Forward declaring type: IPoolablePacket
   class IPoolablePacket;
   // Forward declaring type: ISyncStateDeltaSerializable`1<T>
-  template<typename T>
   class ISyncStateDeltaSerializable_1;
   // Forward declaring type: IMultiplayerSessionManager
   class IMultiplayerSessionManager;
   // Forward declaring type: LocalMultiplayerSyncState`3<TStateTable, TType, TState>
-  template<typename TStateTable, typename TType, typename TState>
   class LocalMultiplayerSyncState_3;
   // Forward declaring type: RemoteMultiplayerSyncState`3<TStateTable, TType, TState>
-  template<typename TStateTable, typename TType, typename TState>
   class RemoteMultiplayerSyncState_3;
   // Forward declaring type: IPacketPool`1<T>
-  template<typename T>
   class IPacketPool_1;
   // Forward declaring type: IConnectedPlayer
   class IConnectedPlayer;
   // Forward declaring type: MultiplayerSyncState`3<TStateTable, TType, TState>
-  template<typename TStateTable, typename TType, typename TState>
   class MultiplayerSyncState_3;
 }
 // Forward declaring namespace: LiteNetLib::Utils
@@ -59,20 +51,17 @@ namespace System {
   // Skipping declaration: ValueType because it is already included!
   // Skipping declaration: IConvertible because it is already included!
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: MultiplayerSyncStateManager`5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>
-  template<typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
   class MultiplayerSyncStateManager_5;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -154,7 +143,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0xF382D8
+    // [InjectAttribute] Offset: 0x123EBAC
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x0

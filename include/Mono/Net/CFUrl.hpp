@@ -30,13 +30,13 @@ namespace Mono::Net {
   class CFUrl : public Mono::Net::CFObject {
     public:
     // static private System.IntPtr CFURLCreateWithString(System.IntPtr allocator, System.IntPtr str, System.IntPtr baseURL)
-    // Offset: 0x182D6BC
+    // Offset: 0x1A2EC94
     static System::IntPtr CFURLCreateWithString(System::IntPtr allocator, System::IntPtr str, System::IntPtr baseURL);
     // static public Mono.Net.CFUrl Create(System.String absolute)
-    // Offset: 0x182A8BC
+    // Offset: 0x1A2BE94
     static Mono::Net::CFUrl* Create(::StringW absolute);
     // public System.Void .ctor(System.IntPtr handle, System.Boolean own)
-    // Offset: 0x182D66C
+    // Offset: 0x1A2EC44
     // Implemented from: Mono.Net.CFObject
     // Base method: System.Void CFObject::.ctor(System.IntPtr handle, System.Boolean own)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

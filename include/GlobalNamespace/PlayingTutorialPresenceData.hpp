@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     constexpr operator ::StringW() const noexcept {
       return localizedDescription;
     }
-    // [LocalizationKeyAttribute] Offset: 0xF38F98
+    // [LocalizationKeyAttribute] Offset: 0x123F93C
     // static field const value: static private System.String kPlayingCampaignRichPresenceLocalizationKey
     static constexpr const char* kPlayingCampaignRichPresenceLocalizationKey = "PLAYING_TUTORIAL_PRESENCE";
     // Get static field: static private System.String kPlayingCampaignRichPresenceLocalizationKey
@@ -70,16 +70,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String <localizedDescription>k__BackingField
     ::StringW& dyn_$localizedDescription$k__BackingField();
     // public System.String get_apiName()
-    // Offset: 0x11AD77C
+    // Offset: 0x13E61EC
     ::StringW get_apiName();
     // public System.String get_localizedDescription()
-    // Offset: 0x11AD7C4
+    // Offset: 0x13E6234
     ::StringW get_localizedDescription();
     // private System.Void set_localizedDescription(System.String value)
-    // Offset: 0x11AD7CC
+    // Offset: 0x13E623C
     void set_localizedDescription(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x11AD7D4
+    // Offset: 0x13E6244
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

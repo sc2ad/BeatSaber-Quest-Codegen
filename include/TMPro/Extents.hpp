@@ -52,10 +52,10 @@ namespace TMPro {
     // Get instance field reference: public UnityEngine.Vector2 max
     UnityEngine::Vector2& dyn_max();
     // public System.Void .ctor(UnityEngine.Vector2 min, UnityEngine.Vector2 max)
-    // Offset: 0x123DA34
+    // Offset: 0x1403564
     // ABORTED: conflicts with another method.  Extents(UnityEngine::Vector2 min, UnityEngine::Vector2 max);
     // public override System.String ToString()
-    // Offset: 0x123DA40
+    // Offset: 0x1403570
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

@@ -52,14 +52,14 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0xF37F08
+    // [InjectAttribute] Offset: 0x123E7BC
     // private readonly IMenuRpcManager _menuRpcManager
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::IMenuRpcManager* menuRpcManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMenuRpcManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF37F18
+    // [InjectAttribute] Offset: 0x123E7CC
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x18
@@ -122,55 +122,55 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action permissionsChangedEvent
     System::Action*& dyn_permissionsChangedEvent();
     // public System.Boolean get_isPartyOwner()
-    // Offset: 0x134C664
+    // Offset: 0x2B947E8
     bool get_isPartyOwner();
     // private System.Void set_isPartyOwner(System.Boolean value)
-    // Offset: 0x134C66C
+    // Offset: 0x2B947F0
     void set_isPartyOwner(bool value);
     // public System.Boolean get_hasRecommendBeatmapPermission()
-    // Offset: 0x134C678
+    // Offset: 0x2B947FC
     bool get_hasRecommendBeatmapPermission();
     // private System.Void set_hasRecommendBeatmapPermission(System.Boolean value)
-    // Offset: 0x134C680
+    // Offset: 0x2B94804
     void set_hasRecommendBeatmapPermission(bool value);
     // public System.Boolean get_hasRecommendModifiersPermission()
-    // Offset: 0x134C68C
+    // Offset: 0x2B94810
     bool get_hasRecommendModifiersPermission();
     // private System.Void set_hasRecommendModifiersPermission(System.Boolean value)
-    // Offset: 0x134C694
+    // Offset: 0x2B94818
     void set_hasRecommendModifiersPermission(bool value);
     // public System.Boolean get_hasKickVotePermission()
-    // Offset: 0x134C6A0
+    // Offset: 0x2B94824
     bool get_hasKickVotePermission();
     // private System.Void set_hasKickVotePermission(System.Boolean value)
-    // Offset: 0x134C6A8
+    // Offset: 0x2B9482C
     void set_hasKickVotePermission(bool value);
     // public System.Boolean get_hasInvitePermission()
-    // Offset: 0x134C6B4
+    // Offset: 0x2B94838
     bool get_hasInvitePermission();
     // private System.Void set_hasInvitePermission(System.Boolean value)
-    // Offset: 0x134C6BC
+    // Offset: 0x2B94840
     void set_hasInvitePermission(bool value);
     // public System.Void add_permissionsChangedEvent(System.Action value)
-    // Offset: 0x134C6C8
+    // Offset: 0x2B9484C
     void add_permissionsChangedEvent(System::Action* value);
     // public System.Void remove_permissionsChangedEvent(System.Action value)
-    // Offset: 0x134C76C
+    // Offset: 0x2B948F0
     void remove_permissionsChangedEvent(System::Action* value);
     // public System.Void Activate()
-    // Offset: 0x134C810
+    // Offset: 0x2B94994
     void Activate();
     // public System.Void Deactivate()
-    // Offset: 0x134C904
+    // Offset: 0x2B94A88
     void Deactivate();
     // public System.Void SetPlayerPermissions(System.Boolean isPartyOwner, System.Boolean hasRecommendBeatmapPermission, System.Boolean hasRecommendModifiersPermission, System.Boolean hasKickVotePermission, System.Boolean hasInvitePermission)
-    // Offset: 0x134C19C
+    // Offset: 0x2B94320
     void SetPlayerPermissions(bool isPartyOwner, bool hasRecommendBeatmapPermission, bool hasRecommendModifiersPermission, bool hasKickVotePermission, bool hasInvitePermission);
     // private System.Void HandleMenuRpcManagerSetPlayersPermissionConfiguration(System.String userId, PlayersLobbyPermissionConfigurationNetSerializable playersLobbyPermissionConfiguration)
-    // Offset: 0x134C9F8
+    // Offset: 0x2B94B7C
     void HandleMenuRpcManagerSetPlayersPermissionConfiguration(::StringW userId, GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersLobbyPermissionConfiguration);
     // public System.Void .ctor()
-    // Offset: 0x134CC50
+    // Offset: 0x2B94DD4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

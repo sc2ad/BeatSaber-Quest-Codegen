@@ -44,13 +44,13 @@ namespace System::Threading {
     // Get instance field reference: private System.Int32 m_count
     int& dyn_m_count();
     // public System.Boolean get_NextSpinWillYield()
-    // Offset: 0x1A61F3C
+    // Offset: 0x1C31F94
     bool get_NextSpinWillYield();
     // public System.Void SpinOnce()
-    // Offset: 0x1A5C258
+    // Offset: 0x1C2BC20
     void SpinOnce();
     // public System.Void Reset()
-    // Offset: 0x1A64110
+    // Offset: 0x1C34168
     void Reset();
   }; // System.Threading.SpinWait
   #pragma pack(pop)

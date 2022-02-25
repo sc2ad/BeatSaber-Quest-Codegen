@@ -42,8 +42,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ExternalCamerasManager : public UnityEngine::MonoBehaviour {
     public:
-    // Nested type: GlobalNamespace::ExternalCamerasManager::InitData
-    class InitData;
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
@@ -80,17 +78,17 @@ namespace GlobalNamespace {
     UnityEngine::Camera*& dyn__mrcBackgroundCameraPrefab();
     // Get instance field reference: private UnityEngine.Camera _mrcForegroundCameraPrefab
     UnityEngine::Camera*& dyn__mrcForegroundCameraPrefab();
-    // private System.Void Init(ExternalCamerasManager/InitData initData)
-    // Offset: 0x262DA2C
-    void Init(GlobalNamespace::ExternalCamerasManager::InitData* initData);
+    // protected System.Void OnEnable()
+    // Offset: 0x2E0BA44
+    void OnEnable();
     // private UnityEngine.GameObject InstantiateMixedRealityBackgroundCameraGameObject(UnityEngine.GameObject mainCameraGameObject)
-    // Offset: 0x262DB14
+    // Offset: 0x2E0BB08
     UnityEngine::GameObject* InstantiateMixedRealityBackgroundCameraGameObject(UnityEngine::GameObject* mainCameraGameObject);
     // private UnityEngine.GameObject InstantiateMixedRealityForegroundCameraGameObject(UnityEngine.GameObject mainCameraGameObject)
-    // Offset: 0x262DB98
+    // Offset: 0x2E0BB8C
     UnityEngine::GameObject* InstantiateMixedRealityForegroundCameraGameObject(UnityEngine::GameObject* mainCameraGameObject);
     // public System.Void .ctor()
-    // Offset: 0x262DC1C
+    // Offset: 0x2E0BC10
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -108,13 +106,12 @@ namespace GlobalNamespace {
   static_assert(sizeof(ExternalCamerasManager) == 0x30);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
-// Writing MetadataGetter for method: GlobalNamespace::ExternalCamerasManager::Init
-// Il2CppName: Init
+// Writing MetadataGetter for method: GlobalNamespace::ExternalCamerasManager::OnEnable
+// Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ExternalCamerasManager::*)(GlobalNamespace::ExternalCamerasManager::InitData*)>(&GlobalNamespace::ExternalCamerasManager::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ExternalCamerasManager::*)()>(&GlobalNamespace::ExternalCamerasManager::OnEnable)> {
   static const MethodInfo* get() {
-    static auto* initData = &::il2cpp_utils::GetClassFromName("", "ExternalCamerasManager/InitData")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExternalCamerasManager*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{initData});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExternalCamerasManager*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ExternalCamerasManager::InstantiateMixedRealityBackgroundCameraGameObject

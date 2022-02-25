@@ -33,7 +33,6 @@ namespace NUnit::Framework::Interfaces {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IList`1<T>
-  template<typename T>
   class IList_1;
 }
 // Completed forward declares
@@ -78,48 +77,48 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: public NUnit.Framework.Internal.TestCaseParameters parms
     NUnit::Framework::Internal::TestCaseParameters*& dyn_parms();
     // System.Boolean get_HasExpectedResult()
-    // Offset: 0x25563C4
+    // Offset: 0x28B917C
     bool get_HasExpectedResult();
     // System.Object get_ExpectedResult()
-    // Offset: 0x25563E4
+    // Offset: 0x28B919C
     ::Il2CppObject* get_ExpectedResult();
     // System.Object[] get_Arguments()
-    // Offset: 0x25563FC
+    // Offset: 0x28B91B4
     ::ArrayW<::Il2CppObject*> get_Arguments();
     // public System.Void .ctor(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite)
-    // Offset: 0x255630C
+    // Offset: 0x28B90C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestMethod* New_ctor(NUnit::Framework::Interfaces::IMethodInfo* method, NUnit::Framework::Internal::Test* parentSuite) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestMethod::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestMethod*, creationType>(method, parentSuite)));
     }
     // public override System.Boolean get_HasChildren()
-    // Offset: 0x2556474
+    // Offset: 0x28B922C
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.Boolean Test::get_HasChildren()
     bool get_HasChildren();
     // public override System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITest> get_Tests()
-    // Offset: 0x2556550
+    // Offset: 0x28B9308
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITest> Test::get_Tests()
     System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITest*>* get_Tests();
     // public override System.String get_XmlElementName()
-    // Offset: 0x255659C
+    // Offset: 0x28B9354
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_XmlElementName()
     ::StringW get_XmlElementName();
     // public override System.String get_MethodName()
-    // Offset: 0x25565E4
+    // Offset: 0x28B939C
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: System.String Test::get_MethodName()
     ::StringW get_MethodName();
     // public override NUnit.Framework.Internal.TestResult MakeTestResult()
-    // Offset: 0x2556414
+    // Offset: 0x28B91CC
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: NUnit.Framework.Internal.TestResult Test::MakeTestResult()
     NUnit::Framework::Internal::TestResult* MakeTestResult();
     // public override NUnit.Framework.Interfaces.TNode AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
-    // Offset: 0x255647C
+    // Offset: 0x28B9234
     // Implemented from: NUnit.Framework.Internal.Test
     // Base method: NUnit.Framework.Interfaces.TNode Test::AddToXml(NUnit.Framework.Interfaces.TNode parentNode, System.Boolean recursive)
     NUnit::Framework::Interfaces::TNode* AddToXml(NUnit::Framework::Interfaces::TNode* parentNode, bool recursive);

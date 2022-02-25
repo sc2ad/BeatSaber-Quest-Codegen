@@ -30,10 +30,8 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
   // Forward declaring type: IReadOnlyList`1<T>
-  template<typename T>
   class IReadOnlyList_1;
 }
 // Completed forward declares
@@ -130,31 +128,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> _environmentKeywords
     System::Collections::Generic::List_1<::StringW>*& dyn__environmentKeywords();
     // public SceneInfo get_sceneInfo()
-    // Offset: 0x11DDBF8
+    // Offset: 0x13FA2CC
     GlobalNamespace::SceneInfo* get_sceneInfo();
     // public System.String get_environmentName()
-    // Offset: 0x11DDC00
+    // Offset: 0x13FA2D4
     ::StringW get_environmentName();
     // public ColorSchemeSO get_colorScheme()
-    // Offset: 0x11DDC08
+    // Offset: 0x13FA2DC
     GlobalNamespace::ColorSchemeSO* get_colorScheme();
     // public System.String get_serializedName()
-    // Offset: 0x11DDC10
+    // Offset: 0x13FA2E4
     ::StringW get_serializedName();
     // public EnvironmentTypeSO get_environmentType()
-    // Offset: 0x11DDC18
+    // Offset: 0x13FA2EC
     GlobalNamespace::EnvironmentTypeSO* get_environmentType();
     // public EnvironmentSizeData get_environmentSizeData()
-    // Offset: 0x11DDC20
+    // Offset: 0x13FA2F4
     GlobalNamespace::EnvironmentSizeData* get_environmentSizeData();
     // public EnvironmentIntensityReductionOptions get_environmentIntensityReductionOptions()
-    // Offset: 0x11DDC28
+    // Offset: 0x13FA2FC
     GlobalNamespace::EnvironmentIntensityReductionOptions* get_environmentIntensityReductionOptions();
     // public System.Collections.Generic.IReadOnlyList`1<System.String> get_environmentKeywords()
-    // Offset: 0x11DDC30
+    // Offset: 0x13FA304
     System::Collections::Generic::IReadOnlyList_1<::StringW>* get_environmentKeywords();
     // public System.Void .ctor()
-    // Offset: 0x11DDC38
+    // Offset: 0x13FA30C
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()

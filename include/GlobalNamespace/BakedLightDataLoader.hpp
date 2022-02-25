@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [NullAllowed] Offset: 0xF48F54
+    // [NullAllowed] Offset: 0x124F858
     // private LightmapDataSO _lightmapData
     // Size: 0x8
     // Offset: 0x18
@@ -66,12 +66,12 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF48F90
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x124F894
     // Get static field: static private readonly System.Int32 _lightMap1PropertyId
     static int _get__lightMap1PropertyId();
     // Set static field: static private readonly System.Int32 _lightMap1PropertyId
     static void _set__lightMap1PropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF48FA0
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x124F8A4
     // Get static field: static private readonly System.Int32 _lightMap2PropertyId
     static int _get__lightMap2PropertyId();
     // Set static field: static private readonly System.Int32 _lightMap2PropertyId
@@ -81,19 +81,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Texture2D _blackTexture
     UnityEngine::Texture2D*& dyn__blackTexture();
     // public LightmapDataSO get_lightmapData()
-    // Offset: 0x12C1CDC
+    // Offset: 0x2B3A8D4
     GlobalNamespace::LightmapDataSO* get_lightmapData();
     // public System.Void set_lightmapData(LightmapDataSO value)
-    // Offset: 0x12C1CE4
+    // Offset: 0x2B3A8DC
     void set_lightmapData(GlobalNamespace::LightmapDataSO* value);
     // protected System.Void Start()
-    // Offset: 0x12C1CEC
+    // Offset: 0x2B3A8E4
     void Start();
     // private System.Void SetTextureDataToShaders()
-    // Offset: 0x12C1DA4
+    // Offset: 0x2B3A99C
     void SetTextureDataToShaders();
     // public System.Void .ctor()
-    // Offset: 0x12C1F04
+    // Offset: 0x2B3AAFC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -106,7 +106,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BakedLightDataLoader*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x12C1F0C
+    // Offset: 0x2B3AB04
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

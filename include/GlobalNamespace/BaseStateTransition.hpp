@@ -63,61 +63,61 @@ namespace GlobalNamespace {
     // Get instance field reference: protected SelectableStateController _selectableStateController
     GlobalNamespace::SelectableStateController*& dyn__selectableStateController();
     // protected Tweening.TimeTweeningManager get_tweeningManager()
-    // Offset: 0x12C46B8
+    // Offset: 0x2B3D328
     Tweening::TimeTweeningManager* get_tweeningManager();
     // protected BaseTransitionSO get_transition()
     // Offset: 0xFFFFFFFF
     GlobalNamespace::BaseTransitionSO* get_transition();
     // public System.Void SetState(SelectableStateController/ViewState viewState)
-    // Offset: 0x12C46D4
+    // Offset: 0x2B3D344
     void SetState(GlobalNamespace::SelectableStateController::ViewState viewState);
     // protected System.Void OnEnable()
-    // Offset: 0x12C474C
+    // Offset: 0x2B3D3BC
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x12C47E0
+    // Offset: 0x2B3D450
     void OnDisable();
     // private System.Void HandleSelectableStateControllerStateDidChange(SelectableStateController/ViewState state, System.Boolean animated)
-    // Offset: 0x12C4874
+    // Offset: 0x2B3D4E4
     void HandleSelectableStateControllerStateDidChange(GlobalNamespace::SelectableStateController::ViewState state, bool animated);
     // protected System.Void TransitionToNormalState()
-    // Offset: 0x12C48DC
+    // Offset: 0x2B3D54C
     void TransitionToNormalState();
     // protected System.Void TransitionToHighlightedState()
-    // Offset: 0x12C48E0
+    // Offset: 0x2B3D550
     void TransitionToHighlightedState();
     // protected System.Void TransitionToPressedState()
-    // Offset: 0x12C48E4
+    // Offset: 0x2B3D554
     void TransitionToPressedState();
     // protected System.Void TransitionToDisabledState()
-    // Offset: 0x12C48E8
+    // Offset: 0x2B3D558
     void TransitionToDisabledState();
     // protected System.Void TransitionToSelectedState()
-    // Offset: 0x12C48EC
+    // Offset: 0x2B3D55C
     void TransitionToSelectedState();
     // protected System.Void TransitionToSelectedAndHighlightedState()
-    // Offset: 0x12C48F0
+    // Offset: 0x2B3D560
     void TransitionToSelectedAndHighlightedState();
     // protected System.Void SetNormalState()
-    // Offset: 0x12C48F4
+    // Offset: 0x2B3D564
     void SetNormalState();
     // protected System.Void SetHighlightedState()
-    // Offset: 0x12C48F8
+    // Offset: 0x2B3D568
     void SetHighlightedState();
     // protected System.Void SetPressedState()
-    // Offset: 0x12C48FC
+    // Offset: 0x2B3D56C
     void SetPressedState();
     // protected System.Void SetDisabledState()
-    // Offset: 0x12C4900
+    // Offset: 0x2B3D570
     void SetDisabledState();
     // protected System.Void SetSelectedState()
-    // Offset: 0x12C4904
+    // Offset: 0x2B3D574
     void SetSelectedState();
     // protected System.Void SetSelectedAndHighlightedState()
-    // Offset: 0x12C4908
+    // Offset: 0x2B3D578
     void SetSelectedAndHighlightedState();
     // protected System.Void .ctor()
-    // Offset: 0x12C490C
+    // Offset: 0x2B3D57C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

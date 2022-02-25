@@ -66,16 +66,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule[] _emmisionModules
     ::ArrayW<UnityEngine::ParticleSystem::EmissionModule>& dyn__emmisionModules();
     // protected System.Void Awake()
-    // Offset: 0x1393DC0
+    // Offset: 0x2C1B75C
     void Awake();
     // protected System.Void OnBecameVisible()
-    // Offset: 0x1393EB8
+    // Offset: 0x2C1B854
     void OnBecameVisible();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0x1393F40
+    // Offset: 0x2C1B8DC
     void OnBecameInvisible();
     // public System.Void .ctor()
-    // Offset: 0x1393FC8
+    // Offset: 0x2C1B964
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

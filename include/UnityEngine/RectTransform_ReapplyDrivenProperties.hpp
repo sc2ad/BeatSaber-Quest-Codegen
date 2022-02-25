@@ -35,20 +35,20 @@ namespace UnityEngine {
   class RectTransform::ReapplyDrivenProperties : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1DF47DC
+    // Offset: 0x20CAEEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RectTransform::ReapplyDrivenProperties* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::RectTransform::ReapplyDrivenProperties::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RectTransform::ReapplyDrivenProperties*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngine.RectTransform driven)
-    // Offset: 0x1DF4448
+    // Offset: 0x20CAB58
     void Invoke(UnityEngine::RectTransform* driven);
     // public System.IAsyncResult BeginInvoke(UnityEngine.RectTransform driven, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1DF47EC
+    // Offset: 0x20CAEFC
     System::IAsyncResult* BeginInvoke(UnityEngine::RectTransform* driven, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1DF4810
+    // Offset: 0x20CAF20
     void EndInvoke(System::IAsyncResult* result);
   }; // UnityEngine.RectTransform/UnityEngine.ReapplyDrivenProperties
   #pragma pack(pop)

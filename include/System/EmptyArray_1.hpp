@@ -14,7 +14,6 @@
 // Type namespace: System
 namespace System {
   // Forward declaring type: EmptyArray`1<T>
-  template<typename T>
   class EmptyArray_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

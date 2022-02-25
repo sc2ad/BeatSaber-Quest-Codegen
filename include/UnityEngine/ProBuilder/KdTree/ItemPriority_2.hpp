@@ -10,7 +10,6 @@
 // Type namespace: UnityEngine.ProBuilder.KdTree
 namespace UnityEngine::ProBuilder::KdTree {
   // Forward declaring type: ItemPriority`2<TItem, TPriority>
-  template<typename TItem, typename TPriority>
   struct ItemPriority_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

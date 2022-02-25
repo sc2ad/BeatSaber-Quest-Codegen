@@ -63,10 +63,10 @@ namespace System::Net {
     // Get instance field reference: public System.Net.SimpleAsyncResult result
     System::Net::SimpleAsyncResult*& dyn_result();
     // System.Void <SetHeadersAsync>b__0(System.IAsyncResult r)
-    // Offset: 0x17F2F8C
+    // Offset: 0x1BDE4D4
     void $SetHeadersAsync$b__0(System::IAsyncResult* r);
     // public System.Void .ctor()
-    // Offset: 0x17F279C
+    // Offset: 0x1BDE4CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -21,7 +21,6 @@ namespace HoudiniEngineUnity {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -46,7 +45,7 @@ namespace HoudiniEngineUnity {
   class BakedEvent : public UnityEngine::Events::UnityEvent_3<HoudiniEngineUnity::HEU_HoudiniAsset*, bool, System::Collections::Generic::List_1<UnityEngine::GameObject*>*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1462608
+    // Offset: 0x1632D90
     // Implemented from: UnityEngine.Events.UnityEvent`3
     // Base method: System.Void UnityEvent_3::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

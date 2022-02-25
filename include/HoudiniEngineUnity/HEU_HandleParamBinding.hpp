@@ -139,10 +139,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean[] _boundChannels
     ::ArrayW<bool>& dyn__boundChannels();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_HandleParamBinding other)
-    // Offset: 0x1650678
+    // Offset: 0x18559CC
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_HandleParamBinding* other);
     // public System.Void .ctor()
-    // Offset: 0x164F590
+    // Offset: 0x18548E4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

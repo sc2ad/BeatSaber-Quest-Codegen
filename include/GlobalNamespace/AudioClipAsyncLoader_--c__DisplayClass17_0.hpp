@@ -17,7 +17,6 @@
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
-  template<typename TResult>
   class Task_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -65,10 +64,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String audioClipFilePath
     ::StringW& dyn_audioClipFilePath();
     // System.Threading.Tasks.Task`1<UnityEngine.AudioClip> <Load>b__0()
-    // Offset: 0x1313CE8
+    // Offset: 0x148EF34
     System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* $Load$b__0();
     // public System.Void .ctor()
-    // Offset: 0x1313878
+    // Offset: 0x148EAC4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

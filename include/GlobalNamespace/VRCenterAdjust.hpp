@@ -76,31 +76,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private MainSettingsModelSO _mainSettingsModel
     GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
     // protected System.Void Awake()
-    // Offset: 0x1BD8354
+    // Offset: 0x2CB60B0
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1BD83B8
+    // Offset: 0x2CB6114
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1BD8588
+    // Offset: 0x2CB62E4
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1BD8660
+    // Offset: 0x2CB63BC
     void OnDisable();
     // private System.Void HandleRoomCenterDidChange()
-    // Offset: 0x1BD8738
+    // Offset: 0x2CB6494
     void HandleRoomCenterDidChange();
     // private System.Void HandleRoomRotationDidChange()
-    // Offset: 0x1BD87B0
+    // Offset: 0x2CB650C
     void HandleRoomRotationDidChange();
     // protected System.Void Update()
-    // Offset: 0x1BD885C
+    // Offset: 0x2CB65B8
     void Update();
     // public System.Void ResetRoom()
-    // Offset: 0x1BD84DC
+    // Offset: 0x2CB6238
     void ResetRoom();
     // public System.Void .ctor()
-    // Offset: 0x1BD8898
+    // Offset: 0x2CB65F4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

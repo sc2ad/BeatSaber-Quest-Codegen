@@ -14,7 +14,6 @@ namespace NUnit::Framework::Internal {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
   // Forward declaring type: Exception
   class Exception;
@@ -22,7 +21,6 @@ namespace System {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -49,19 +47,19 @@ namespace NUnit::Framework::Internal {
     // Set static field: static private readonly System.Action`1<System.Exception> PreserveStackTrace
     static void _set_PreserveStackTrace(System::Action_1<System::Exception*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x194A474
+    // Offset: 0x1B626A8
     static void _cctor();
     // static public System.String BuildMessage(System.Exception exception)
-    // Offset: 0x194A66C
+    // Offset: 0x1B628A0
     static ::StringW BuildMessage(System::Exception* exception);
     // static public System.String BuildStackTrace(System.Exception exception)
-    // Offset: 0x194AB2C
+    // Offset: 0x1B62D60
     static ::StringW BuildStackTrace(System::Exception* exception);
     // static public System.String GetStackTrace(System.Exception exception)
-    // Offset: 0x194AD98
+    // Offset: 0x1B62FCC
     static ::StringW GetStackTrace(System::Exception* exception);
     // static private System.Collections.Generic.List`1<System.Exception> FlattenExceptionHierarchy(System.Exception exception)
-    // Offset: 0x194AA58
+    // Offset: 0x1B62C8C
     static System::Collections::Generic::List_1<System::Exception*>* FlattenExceptionHierarchy(System::Exception* exception);
   }; // NUnit.Framework.Internal.ExceptionHelper
   #pragma pack(pop)

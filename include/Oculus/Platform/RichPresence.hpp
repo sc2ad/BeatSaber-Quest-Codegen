@@ -12,7 +12,6 @@ namespace Oculus::Platform {
   // Forward declaring type: Request
   class Request;
   // Forward declaring type: Request`1<T>
-  template<typename T>
   class Request_1;
   // Forward declaring type: RichPresenceOptions
   class RichPresenceOptions;
@@ -40,16 +39,16 @@ namespace Oculus::Platform {
   class RichPresence : public ::Il2CppObject {
     public:
     // static public Oculus.Platform.Request Clear()
-    // Offset: 0x2661B54
+    // Offset: 0x29FDCF4
     static Oculus::Platform::Request* Clear();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.DestinationList> GetDestinations()
-    // Offset: 0x2661C58
+    // Offset: 0x29FDDF8
     static Oculus::Platform::Request_1<Oculus::Platform::Models::DestinationList*>* GetDestinations();
     // static public Oculus.Platform.Request Set(Oculus.Platform.RichPresenceOptions richPresenceOptions)
-    // Offset: 0x2661D64
+    // Offset: 0x29FDF04
     static Oculus::Platform::Request* Set(Oculus::Platform::RichPresenceOptions* richPresenceOptions);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.DestinationList> GetNextDestinationListPage(Oculus.Platform.Models.DestinationList list)
-    // Offset: 0x2661EF4
+    // Offset: 0x29FE094
     static Oculus::Platform::Request_1<Oculus::Platform::Models::DestinationList*>* GetNextDestinationListPage(Oculus::Platform::Models::DestinationList* list);
   }; // Oculus.Platform.RichPresence
   #pragma pack(pop)

@@ -19,15 +19,14 @@ namespace GlobalNamespace {
   class MockPlayerSettings;
   // Forward declaring type: MockServerSettings
   class MockServerSettings;
-  // Forward declaring type: MasterServerAvailabilityData
-  class MasterServerAvailabilityData;
-  // Forward declaring type: MasterServerQuickPlaySetupData
-  class MasterServerQuickPlaySetupData;
+  // Forward declaring type: MultiplayerStatusData
+  class MultiplayerStatusData;
+  // Forward declaring type: QuickPlaySetupData
+  class QuickPlaySetupData;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -82,18 +81,18 @@ namespace GlobalNamespace {
     GlobalNamespace::MockServerSettings* quickplayServer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MockServerSettings*) == 0x8);
-    // private MasterServerAvailabilityData _masterServerAvailabilityData
+    // private MultiplayerStatusData _multiplayerStatusData
     // Size: 0x8
     // Offset: 0x38
-    GlobalNamespace::MasterServerAvailabilityData* masterServerAvailabilityData;
+    GlobalNamespace::MultiplayerStatusData* multiplayerStatusData;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::MasterServerAvailabilityData*) == 0x8);
-    // private MasterServerQuickPlaySetupData _masterServerQuickPlaySetupData
+    static_assert(sizeof(GlobalNamespace::MultiplayerStatusData*) == 0x8);
+    // private QuickPlaySetupData _quickPlaySetupData
     // Size: 0x8
     // Offset: 0x40
-    GlobalNamespace::MasterServerQuickPlaySetupData* masterServerQuickPlaySetupData;
+    GlobalNamespace::QuickPlaySetupData* quickPlaySetupData;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::MasterServerQuickPlaySetupData*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::QuickPlaySetupData*) == 0x8);
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
@@ -105,42 +104,42 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::MockPlayerSettings*>*& dyn__otherPlayers();
     // Get instance field reference: private MockServerSettings _quickplayServer
     GlobalNamespace::MockServerSettings*& dyn__quickplayServer();
-    // Get instance field reference: private MasterServerAvailabilityData _masterServerAvailabilityData
-    GlobalNamespace::MasterServerAvailabilityData*& dyn__masterServerAvailabilityData();
-    // Get instance field reference: private MasterServerQuickPlaySetupData _masterServerQuickPlaySetupData
-    GlobalNamespace::MasterServerQuickPlaySetupData*& dyn__masterServerQuickPlaySetupData();
+    // Get instance field reference: private MultiplayerStatusData _multiplayerStatusData
+    GlobalNamespace::MultiplayerStatusData*& dyn__multiplayerStatusData();
+    // Get instance field reference: private QuickPlaySetupData _quickPlaySetupData
+    GlobalNamespace::QuickPlaySetupData*& dyn__quickPlaySetupData();
     // public MockServerSettings get_quickplayServer()
-    // Offset: 0x11695C0
+    // Offset: 0x2A9B340
     GlobalNamespace::MockServerSettings* get_quickplayServer();
     // public MockPlayerSettings get_localPlayer()
-    // Offset: 0x11695C8
+    // Offset: 0x2A9B348
     GlobalNamespace::MockPlayerSettings* get_localPlayer();
-    // public MasterServerQuickPlaySetupData get_masterServerQuickPlaySetupData()
-    // Offset: 0x1169694
-    GlobalNamespace::MasterServerQuickPlaySetupData* get_masterServerQuickPlaySetupData();
-    // public System.Void set_masterServerQuickPlaySetupData(MasterServerQuickPlaySetupData value)
-    // Offset: 0x116969C
-    void set_masterServerQuickPlaySetupData(GlobalNamespace::MasterServerQuickPlaySetupData* value);
-    // public MasterServerAvailabilityData get_masterServerAvailabilityData()
-    // Offset: 0x11696A4
-    GlobalNamespace::MasterServerAvailabilityData* get_masterServerAvailabilityData();
-    // public System.Void set_masterServerAvailabilityData(MasterServerAvailabilityData value)
-    // Offset: 0x11696AC
-    void set_masterServerAvailabilityData(GlobalNamespace::MasterServerAvailabilityData* value);
+    // public QuickPlaySetupData get_quickPlaySetupData()
+    // Offset: 0x2A9B414
+    GlobalNamespace::QuickPlaySetupData* get_quickPlaySetupData();
+    // public System.Void set_quickPlaySetupData(QuickPlaySetupData value)
+    // Offset: 0x2A9B41C
+    void set_quickPlaySetupData(GlobalNamespace::QuickPlaySetupData* value);
+    // public MultiplayerStatusData get_multiplayerStatusData()
+    // Offset: 0x2A9B424
+    GlobalNamespace::MultiplayerStatusData* get_multiplayerStatusData();
+    // public System.Void set_multiplayerStatusData(MultiplayerStatusData value)
+    // Offset: 0x2A9B42C
+    void set_multiplayerStatusData(GlobalNamespace::MultiplayerStatusData* value);
     // public System.Collections.Generic.List`1<MockPlayerSettings> get_otherPlayers()
-    // Offset: 0x11696B4
+    // Offset: 0x2A9B434
     System::Collections::Generic::List_1<GlobalNamespace::MockPlayerSettings*>* get_otherPlayers();
     // public System.Boolean get_isEnabled()
-    // Offset: 0x11696BC
+    // Offset: 0x2A9B43C
     bool get_isEnabled();
     // public System.Void set_isEnabled(System.Boolean value)
-    // Offset: 0x11696C4
+    // Offset: 0x2A9B444
     void set_isEnabled(bool value);
     // static public MultiplayerMockSettings SharedSettings()
-    // Offset: 0x11696D0
+    // Offset: 0x2A9B450
     static GlobalNamespace::MultiplayerMockSettings* SharedSettings();
     // public System.Void .ctor()
-    // Offset: 0x11696D8
+    // Offset: 0x2A9B458
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -152,7 +151,7 @@ namespace GlobalNamespace {
     }
   }; // MultiplayerMockSettings
   #pragma pack(pop)
-  static check_size<sizeof(MultiplayerMockSettings), 64 + sizeof(GlobalNamespace::MasterServerQuickPlaySetupData*)> __GlobalNamespace_MultiplayerMockSettingsSizeCheck;
+  static check_size<sizeof(MultiplayerMockSettings), 64 + sizeof(GlobalNamespace::QuickPlaySetupData*)> __GlobalNamespace_MultiplayerMockSettingsSizeCheck;
   static_assert(sizeof(MultiplayerMockSettings) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
@@ -172,38 +171,38 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerMockSettings*), "get_localPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::get_masterServerQuickPlaySetupData
-// Il2CppName: get_masterServerQuickPlaySetupData
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::get_quickPlaySetupData
+// Il2CppName: get_quickPlaySetupData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MasterServerQuickPlaySetupData* (GlobalNamespace::MultiplayerMockSettings::*)()>(&GlobalNamespace::MultiplayerMockSettings::get_masterServerQuickPlaySetupData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::QuickPlaySetupData* (GlobalNamespace::MultiplayerMockSettings::*)()>(&GlobalNamespace::MultiplayerMockSettings::get_quickPlaySetupData)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerMockSettings*), "get_masterServerQuickPlaySetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerMockSettings*), "get_quickPlaySetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::set_masterServerQuickPlaySetupData
-// Il2CppName: set_masterServerQuickPlaySetupData
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::set_quickPlaySetupData
+// Il2CppName: set_quickPlaySetupData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerMockSettings::*)(GlobalNamespace::MasterServerQuickPlaySetupData*)>(&GlobalNamespace::MultiplayerMockSettings::set_masterServerQuickPlaySetupData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerMockSettings::*)(GlobalNamespace::QuickPlaySetupData*)>(&GlobalNamespace::MultiplayerMockSettings::set_quickPlaySetupData)> {
   static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("", "MasterServerQuickPlaySetupData")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerMockSettings*), "set_masterServerQuickPlaySetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+    static auto* value = &::il2cpp_utils::GetClassFromName("", "QuickPlaySetupData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerMockSettings*), "set_quickPlaySetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::get_masterServerAvailabilityData
-// Il2CppName: get_masterServerAvailabilityData
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::get_multiplayerStatusData
+// Il2CppName: get_multiplayerStatusData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MasterServerAvailabilityData* (GlobalNamespace::MultiplayerMockSettings::*)()>(&GlobalNamespace::MultiplayerMockSettings::get_masterServerAvailabilityData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerStatusData* (GlobalNamespace::MultiplayerMockSettings::*)()>(&GlobalNamespace::MultiplayerMockSettings::get_multiplayerStatusData)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerMockSettings*), "get_masterServerAvailabilityData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerMockSettings*), "get_multiplayerStatusData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::set_masterServerAvailabilityData
-// Il2CppName: set_masterServerAvailabilityData
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::set_multiplayerStatusData
+// Il2CppName: set_multiplayerStatusData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerMockSettings::*)(GlobalNamespace::MasterServerAvailabilityData*)>(&GlobalNamespace::MultiplayerMockSettings::set_masterServerAvailabilityData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerMockSettings::*)(GlobalNamespace::MultiplayerStatusData*)>(&GlobalNamespace::MultiplayerMockSettings::set_multiplayerStatusData)> {
   static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("", "MasterServerAvailabilityData")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerMockSettings*), "set_masterServerAvailabilityData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+    static auto* value = &::il2cpp_utils::GetClassFromName("", "MultiplayerStatusData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerMockSettings*), "set_multiplayerStatusData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::get_otherPlayers

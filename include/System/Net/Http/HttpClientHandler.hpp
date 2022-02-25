@@ -46,7 +46,6 @@ namespace System::Threading {
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
-  template<typename TResult>
   class Task_1;
 }
 // Completed forward declares
@@ -205,22 +204,22 @@ namespace System::Net::Http {
     // Get instance field reference: private System.Boolean disposed
     bool& dyn_disposed();
     // public System.Net.CookieContainer get_CookieContainer()
-    // Offset: 0x17CAAE8
+    // Offset: 0x19037F8
     System::Net::CookieContainer* get_CookieContainer();
     // public System.Int64 get_MaxRequestContentBufferSize()
-    // Offset: 0x17CAB54
+    // Offset: 0x1903864
     int64_t get_MaxRequestContentBufferSize();
     // System.Net.HttpWebRequest CreateWebRequest(System.Net.Http.HttpRequestMessage request)
-    // Offset: 0x17CAC00
+    // Offset: 0x1903910
     System::Net::HttpWebRequest* CreateWebRequest(System::Net::Http::HttpRequestMessage* request);
     // private System.Net.Http.HttpResponseMessage CreateResponseMessage(System.Net.HttpWebResponse wr, System.Net.Http.HttpRequestMessage requestMessage, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x17CB2C0
+    // Offset: 0x1903FD4
     System::Net::Http::HttpResponseMessage* CreateResponseMessage(System::Net::HttpWebResponse* wr, System::Net::Http::HttpRequestMessage* requestMessage, System::Threading::CancellationToken cancellationToken);
     // static private System.Boolean MethodHasBody(System.Net.Http.HttpMethod method)
-    // Offset: 0x17CB608
+    // Offset: 0x19042B8
     static bool MethodHasBody(System::Net::Http::HttpMethod* method);
     // public System.Void .ctor()
-    // Offset: 0x17C913C
+    // Offset: 0x1901D28
     // Implemented from: System.Net.Http.HttpMessageHandler
     // Base method: System.Void HttpMessageHandler::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -230,12 +229,12 @@ namespace System::Net::Http {
       return THROW_UNLESS((::il2cpp_utils::New<HttpClientHandler*, creationType>()));
     }
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x17CAB5C
+    // Offset: 0x190386C
     // Implemented from: System.Net.Http.HttpMessageHandler
     // Base method: System.Void HttpMessageHandler::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // protected internal override System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x17CB6EC
+    // Offset: 0x190439C
     // Implemented from: System.Net.Http.HttpMessageHandler
     // Base method: System.Threading.Tasks.Task`1<System.Net.Http.HttpResponseMessage> HttpMessageHandler::SendAsync(System.Net.Http.HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
     System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* SendAsync(System::Net::Http::HttpRequestMessage* request, System::Threading::CancellationToken cancellationToken);

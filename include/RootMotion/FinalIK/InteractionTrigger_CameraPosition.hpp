@@ -47,36 +47,36 @@ namespace RootMotion::FinalIK {
     protected:
     #endif
     #endif
-    // [TooltipAttribute] Offset: 0xF61FA0
+    // [TooltipAttribute] Offset: 0x1268AD0
     // public UnityEngine.Collider lookAtTarget
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Collider* lookAtTarget;
     // Field size check
     static_assert(sizeof(UnityEngine::Collider*) == 0x8);
-    // [TooltipAttribute] Offset: 0xF61FD8
+    // [TooltipAttribute] Offset: 0x1268B08
     // public UnityEngine.Vector3 direction
     // Size: 0xC
     // Offset: 0x18
     UnityEngine::Vector3 direction;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
-    // [TooltipAttribute] Offset: 0xF62010
+    // [TooltipAttribute] Offset: 0x1268B40
     // public System.Single maxDistance
     // Size: 0x4
     // Offset: 0x24
     float maxDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xF62048
-    // [RangeAttribute] Offset: 0xF62048
+    // [TooltipAttribute] Offset: 0x1268B78
+    // [RangeAttribute] Offset: 0x1268B78
     // public System.Single maxAngle
     // Size: 0x4
     // Offset: 0x28
     float maxAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xF620A0
+    // [TooltipAttribute] Offset: 0x1268BD0
     // public System.Boolean fixYAxis
     // Size: 0x1
     // Offset: 0x2C
@@ -95,13 +95,13 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Boolean fixYAxis
     bool& dyn_fixYAxis();
     // public UnityEngine.Quaternion GetRotation()
-    // Offset: 0x1C968FC
+    // Offset: 0x1F09590
     UnityEngine::Quaternion GetRotation();
     // public System.Boolean IsInRange(UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit hit, UnityEngine.Transform trigger, out System.Single error)
-    // Offset: 0x1C96AA4
+    // Offset: 0x1F09738
     bool IsInRange(UnityEngine::Transform* raycastFrom, UnityEngine::RaycastHit hit, UnityEngine::Transform* trigger, ByRef<float> error);
     // public System.Void .ctor()
-    // Offset: 0x1C96D84
+    // Offset: 0x1F09A18
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0xF3E240
+    // [InjectAttribute] Offset: 0x1244B54
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
@@ -75,13 +75,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _timeOfLastValidReturnedTime
     float& dyn__timeOfLastValidReturnedTime();
     // public System.Single get_offsetSyncTime()
-    // Offset: 0x11C4928
+    // Offset: 0x1428278
     float get_offsetSyncTime();
     // public System.Boolean get_isFailed()
-    // Offset: 0x11C4B50
+    // Offset: 0x14284A0
     bool get_isFailed();
     // public System.Void .ctor()
-    // Offset: 0x11C4CB0
+    // Offset: 0x1428600
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

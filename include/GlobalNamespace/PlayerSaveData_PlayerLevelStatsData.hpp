@@ -117,7 +117,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 playCount
     int& dyn_playCount();
     // public System.Void .ctor()
-    // Offset: 0x11AAA10
+    // Offset: 0x13DF78C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

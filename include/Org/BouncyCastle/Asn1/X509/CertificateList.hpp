@@ -91,44 +91,44 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerBitString sig
     Org::BouncyCastle::Asn1::DerBitString*& dyn_sig();
     // public Org.BouncyCastle.Asn1.X509.TbsCertificateList get_TbsCertList()
-    // Offset: 0x1C1B3E4
+    // Offset: 0x1E31668
     Org::BouncyCastle::Asn1::X509::TbsCertificateList* get_TbsCertList();
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_SignatureAlgorithm()
-    // Offset: 0x1C1B4A0
+    // Offset: 0x1E31724
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_SignatureAlgorithm();
     // public Org.BouncyCastle.Asn1.DerBitString get_Signature()
-    // Offset: 0x1C1B4A8
+    // Offset: 0x1E3172C
     Org::BouncyCastle::Asn1::DerBitString* get_Signature();
     // public System.Int32 get_Version()
-    // Offset: 0x1C1B4D0
+    // Offset: 0x1E31754
     int get_Version();
     // public Org.BouncyCastle.Asn1.X509.X509Name get_Issuer()
-    // Offset: 0x1C1B510
+    // Offset: 0x1E31794
     Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
     // public Org.BouncyCastle.Asn1.X509.Time get_ThisUpdate()
-    // Offset: 0x1C1B52C
+    // Offset: 0x1E317B0
     Org::BouncyCastle::Asn1::X509::Time* get_ThisUpdate();
     // public Org.BouncyCastle.Asn1.X509.Time get_NextUpdate()
-    // Offset: 0x1C1B548
+    // Offset: 0x1E317CC
     Org::BouncyCastle::Asn1::X509::Time* get_NextUpdate();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1C1B120
+    // Offset: 0x1E313A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CertificateList* New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::CertificateList::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CertificateList*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.X509.CertificateList GetInstance(System.Object obj)
-    // Offset: 0x1C1B07C
+    // Offset: 0x1E31300
     static Org::BouncyCastle::Asn1::X509::CertificateList* GetInstance(::Il2CppObject* obj);
     // public System.Collections.IEnumerable GetRevokedCertificateEnumeration()
-    // Offset: 0x1C1B3EC
+    // Offset: 0x1E31670
     System::Collections::IEnumerable* GetRevokedCertificateEnumeration();
     // public System.Byte[] GetSignatureOctets()
-    // Offset: 0x1C1B4B0
+    // Offset: 0x1E31734
     ::ArrayW<uint8_t> GetSignatureOctets();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1C1B564
+    // Offset: 0x1E317E8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

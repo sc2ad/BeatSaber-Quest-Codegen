@@ -21,7 +21,6 @@ namespace System {
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: IStateTable`3<TStateTable, TType, TState>
-  template<typename TStateTable, typename TType, typename TState>
   class IStateTable_3;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

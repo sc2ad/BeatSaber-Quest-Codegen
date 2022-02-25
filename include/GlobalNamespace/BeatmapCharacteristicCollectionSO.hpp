@@ -76,22 +76,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapCharacteristicSO[] _no360beatmapCharacteristics
     ::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*>& dyn__no360beatmapCharacteristics();
     // public BeatmapCharacteristicSO[] get_beatmapCharacteristics()
-    // Offset: 0x12CA4E8
+    // Offset: 0x2B43158
     ::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*> get_beatmapCharacteristics();
     // public BeatmapCharacteristicSO GetBeatmapCharacteristicBySerializedName(System.String serializedName)
-    // Offset: 0x12CA568
+    // Offset: 0x2B431D8
     GlobalNamespace::BeatmapCharacteristicSO* GetBeatmapCharacteristicBySerializedName(::StringW serializedName);
     // public System.Boolean ContainsBeatmapCharacteristic(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x12CA5F4
+    // Offset: 0x2B43264
     bool ContainsBeatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // private System.Void InitData()
-    // Offset: 0x12CA53C
+    // Offset: 0x2B431AC
     void InitData();
     // private BeatmapCharacteristicSO[] GetCharacteristicsWithout360Movement()
-    // Offset: 0x12CA6D4
+    // Offset: 0x2B43344
     ::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*> GetCharacteristicsWithout360Movement();
     // public System.Void .ctor()
-    // Offset: 0x12CA7D4
+    // Offset: 0x2B43444
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -103,7 +103,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCharacteristicCollectionSO*, creationType>()));
     }
     // protected override System.Void OnEnable()
-    // Offset: 0x12CA504
+    // Offset: 0x2B43174
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

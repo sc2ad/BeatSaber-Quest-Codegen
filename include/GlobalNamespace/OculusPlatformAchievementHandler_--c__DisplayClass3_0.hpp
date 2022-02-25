@@ -18,7 +18,6 @@
 // Forward declaring namespace: Oculus::Platform
 namespace Oculus::Platform {
   // Forward declaring type: Message`1<T>
-  template<typename T>
   class Message_1;
 }
 // Forward declaring namespace: Oculus::Platform::Models
@@ -66,10 +65,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public OculusPlatformAchievementHandler <>4__this
     GlobalNamespace::OculusPlatformAchievementHandler*& dyn_$$4__this();
     // System.Void <GetUnlockedAchievements>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.AchievementProgressList> message)
-    // Offset: 0x136C22C
+    // Offset: 0x2BB5618
     void $GetUnlockedAchievements$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::AchievementProgressList*>* message);
     // public System.Void .ctor()
-    // Offset: 0x136C1D0
+    // Offset: 0x2BB55BC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

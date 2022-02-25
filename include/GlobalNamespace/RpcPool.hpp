@@ -14,7 +14,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: System
@@ -60,8 +59,18 @@ namespace GlobalNamespace {
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
     }
+    // static public System.Void Fill()
+    // Offset: 0xFFFFFFFF
+    template<class T>
+    static void Fill() {
+      static_assert(std::is_convertible_v<std::remove_pointer_t<T>, GlobalNamespace::IRemoteProcedureCall>);
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::RpcPool::Fill");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "RpcPool", "Fill", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
+      static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method);
+    }
     // static public System.Void Release(IRemoteProcedureCall t)
-    // Offset: 0x18108CC
+    // Offset: 0x2E01E1C
     static void Release(GlobalNamespace::IRemoteProcedureCall* t);
   }; // RpcPool
   #pragma pack(pop)
@@ -69,6 +78,9 @@ namespace GlobalNamespace {
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RpcPool::Obtain
 // Il2CppName: Obtain
+// Cannot write MetadataGetter for generic methods!
+// Writing MetadataGetter for method: GlobalNamespace::RpcPool::Fill
+// Il2CppName: Fill
 // Cannot write MetadataGetter for generic methods!
 // Writing MetadataGetter for method: GlobalNamespace::RpcPool::Release
 // Il2CppName: Release

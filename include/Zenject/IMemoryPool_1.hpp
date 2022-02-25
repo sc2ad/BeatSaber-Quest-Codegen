@@ -14,7 +14,6 @@
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: IMemoryPool`1<TValue>
-  template<typename TValue>
   class IMemoryPool_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

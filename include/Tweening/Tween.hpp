@@ -173,82 +173,82 @@ namespace Tweening {
     // Get instance field reference: private UnityEngine.AnimationCurve <animationCurve>k__BackingField
     UnityEngine::AnimationCurve*& dyn_$animationCurve$k__BackingField();
     // public System.Single get_progress()
-    // Offset: 0x120BFDC
+    // Offset: 0x2AEF684
     float get_progress();
     // protected System.Void set_progress(System.Single value)
-    // Offset: 0x120BFE4
+    // Offset: 0x2AEF68C
     void set_progress(float value);
     // public System.Single get_startTime()
-    // Offset: 0x120BFEC
+    // Offset: 0x2AEF694
     float get_startTime();
     // protected System.Void set_startTime(System.Single value)
-    // Offset: 0x120BFF4
+    // Offset: 0x2AEF69C
     void set_startTime(float value);
     // public System.Single get_duration()
-    // Offset: 0x120BFFC
+    // Offset: 0x2AEF6A4
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x120C004
+    // Offset: 0x2AEF6AC
     void set_duration(float value);
     // public System.Boolean get_loop()
-    // Offset: 0x120C00C
+    // Offset: 0x2AEF6B4
     bool get_loop();
     // public System.Void set_loop(System.Boolean value)
-    // Offset: 0x120C014
+    // Offset: 0x2AEF6BC
     void set_loop(bool value);
     // public System.Single get_delay()
-    // Offset: 0x120C020
+    // Offset: 0x2AEF6C8
     float get_delay();
     // public System.Void set_delay(System.Single value)
-    // Offset: 0x120C028
+    // Offset: 0x2AEF6D0
     void set_delay(float value);
     // public System.Boolean get_isStarted()
-    // Offset: 0x120C030
+    // Offset: 0x2AEF6D8
     bool get_isStarted();
     // protected System.Void set_isStarted(System.Boolean value)
-    // Offset: 0x120C038
+    // Offset: 0x2AEF6E0
     void set_isStarted(bool value);
     // public System.Boolean get_isActive()
-    // Offset: 0x120C044
+    // Offset: 0x2AEF6EC
     bool get_isActive();
     // public System.Boolean get_isComplete()
-    // Offset: 0x120C068
+    // Offset: 0x2AEF710
     bool get_isComplete();
     // public System.Boolean get_isKilled()
-    // Offset: 0x120C07C
+    // Offset: 0x2AEF724
     bool get_isKilled();
     // private System.Void set_isKilled(System.Boolean value)
-    // Offset: 0x120C084
+    // Offset: 0x2AEF72C
     void set_isKilled(bool value);
     // public Tweening.InterpolationType get_interpolationType()
-    // Offset: 0x120C090
+    // Offset: 0x2AEF738
     Tweening::InterpolationType get_interpolationType();
     // protected System.Void set_interpolationType(Tweening.InterpolationType value)
-    // Offset: 0x120C098
+    // Offset: 0x2AEF740
     void set_interpolationType(Tweening::InterpolationType value);
     // public Tweening.EaseType get_easeType()
-    // Offset: 0x120C0A0
+    // Offset: 0x2AEF748
     Tweening::EaseType get_easeType();
     // public System.Void set_easeType(Tweening.EaseType value)
-    // Offset: 0x120C0A8
+    // Offset: 0x2AEF750
     void set_easeType(Tweening::EaseType value);
     // public UnityEngine.AnimationCurve get_animationCurve()
-    // Offset: 0x120C0B0
+    // Offset: 0x2AEF758
     UnityEngine::AnimationCurve* get_animationCurve();
     // protected System.Void set_animationCurve(UnityEngine.AnimationCurve value)
-    // Offset: 0x120C0B8
+    // Offset: 0x2AEF760
     void set_animationCurve(UnityEngine::AnimationCurve* value);
     // public System.Void Kill()
-    // Offset: 0x120C0C0
+    // Offset: 0x2AEF768
     void Kill();
     // public System.Void Restart(System.Single startTime)
-    // Offset: 0x120C0CC
+    // Offset: 0x2AEF774
     void Restart(float startTime);
     // public System.Void Resume()
-    // Offset: 0x120C0D8
+    // Offset: 0x2AEF780
     void Resume();
     // public System.Void SetStartTimeAndEndTime(System.Single startTime, System.Single endTime)
-    // Offset: 0x120C0E0
+    // Offset: 0x2AEF788
     void SetStartTimeAndEndTime(float startTime, float endTime);
     // public System.Void Update(System.Single currentTime)
     // Offset: 0xFFFFFFFF
@@ -257,10 +257,10 @@ namespace Tweening {
     // Offset: 0xFFFFFFFF
     void Sample(float t);
     // protected System.Single Interpolate(System.Single t)
-    // Offset: 0x120B5E4
+    // Offset: 0x2AEEC8C
     float Interpolate(float t);
     // protected System.Void .ctor()
-    // Offset: 0x120C0EC
+    // Offset: 0x2AEF794
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

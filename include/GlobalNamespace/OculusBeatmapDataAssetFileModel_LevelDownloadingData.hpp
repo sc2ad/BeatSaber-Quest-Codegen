@@ -19,7 +19,6 @@
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: TaskCompletionSource`1<TResult>
-  template<typename TResult>
   class TaskCompletionSource_1;
 }
 // Completed forward declares
@@ -69,7 +68,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Threading.Tasks.TaskCompletionSource`1<GetAssetBundleFileResult> downloadAssetBundleFileTCS
     System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetAssetBundleFileResult>*& dyn_downloadAssetBundleFileTCS();
     // public System.Void .ctor(System.String levelId, System.String assetBundlePath)
-    // Offset: 0x13642A4
+    // Offset: 0x2BAD8E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusBeatmapDataAssetFileModel::LevelDownloadingData* New_ctor(::StringW levelId, ::StringW assetBundlePath) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OculusBeatmapDataAssetFileModel::LevelDownloadingData::.ctor");

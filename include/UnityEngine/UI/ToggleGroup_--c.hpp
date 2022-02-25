@@ -16,10 +16,8 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Predicate`1<T>
-  template<typename T>
   class Predicate_1;
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: UnityEngine::UI
@@ -53,16 +51,16 @@ namespace UnityEngine::UI {
     // Set static field: static public System.Func`2<UnityEngine.UI.Toggle,System.Boolean> <>9__13_0
     static void _set_$$9__13_0(System::Func_2<UnityEngine::UI::Toggle*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2682560
+    // Offset: 0x2A15200
     static void _cctor();
     // System.Boolean <AnyTogglesOn>b__12_0(UnityEngine.UI.Toggle x)
-    // Offset: 0x26825CC
+    // Offset: 0x2A1526C
     bool $AnyTogglesOn$b__12_0(UnityEngine::UI::Toggle* x);
     // System.Boolean <ActiveToggles>b__13_0(UnityEngine.UI.Toggle x)
-    // Offset: 0x26825E4
+    // Offset: 0x2A15284
     bool $ActiveToggles$b__13_0(UnityEngine::UI::Toggle* x);
     // public System.Void .ctor()
-    // Offset: 0x26825C4
+    // Offset: 0x2A15264
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

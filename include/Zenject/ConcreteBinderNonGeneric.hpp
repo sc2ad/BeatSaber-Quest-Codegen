@@ -20,13 +20,11 @@ namespace System {
   // Forward declaring type: Type
   class Type;
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: Zenject
@@ -61,7 +59,7 @@ namespace Zenject {
   class ConcreteBinderNonGeneric : public Zenject::FromBinderNonGeneric {
     public:
     // public Zenject.FromBinderNonGeneric ToSelf()
-    // Offset: 0x14F9DCC
+    // Offset: 0x16DBE88
     Zenject::FromBinderNonGeneric* ToSelf();
     // public Zenject.FromBinderNonGeneric To()
     // Offset: 0xFFFFFFFF
@@ -73,19 +71,19 @@ namespace Zenject {
       return ::il2cpp_utils::RunMethodRethrow<Zenject::FromBinderNonGeneric*, false>(this, ___generic__method);
     }
     // public Zenject.FromBinderNonGeneric To(params System.Type[] concreteTypes)
-    // Offset: 0x14F9EE4
+    // Offset: 0x16DBFA0
     Zenject::FromBinderNonGeneric* To(::ArrayW<System::Type*> concreteTypes);
     // public Zenject.FromBinderNonGeneric To(System.Collections.Generic.IEnumerable`1<System.Type> concreteTypes)
-    // Offset: 0x14F9EE8
+    // Offset: 0x16DBFA4
     Zenject::FromBinderNonGeneric* To(System::Collections::Generic::IEnumerable_1<System::Type*>* concreteTypes);
     // public Zenject.FromBinderNonGeneric To(System.Action`1<Zenject.ConventionSelectTypesBinder> generator)
-    // Offset: 0x14F9FD8
+    // Offset: 0x16DC094
     Zenject::FromBinderNonGeneric* To(System::Action_1<Zenject::ConventionSelectTypesBinder*>* generator);
     // private Zenject.IProvider <ToSelf>b__1_0(Zenject.DiContainer container, System.Type type)
-    // Offset: 0x14FA30C
+    // Offset: 0x16DC3C8
     Zenject::IProvider* $ToSelf$b__1_0(Zenject::DiContainer* container, System::Type* type);
     // public System.Void .ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
-    // Offset: 0x14F9DA4
+    // Offset: 0x16DBE60
     // Implemented from: Zenject.FromBinderNonGeneric
     // Base method: System.Void FromBinderNonGeneric::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)
     // Base method: System.Void FromBinder::.ctor(Zenject.DiContainer bindContainer, Zenject.BindInfo bindInfo, Zenject.BindStatement bindStatement)

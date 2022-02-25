@@ -99,26 +99,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <scrollingSpeed>5__5
     float& dyn_$scrollingSpeed$5__5();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x118FCE8
+    // Offset: 0x13C5740
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x118FD50
+    // Offset: 0x13C57A8
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x118F9C8
+    // Offset: 0x13C5420
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CreditsController::$ScrollCoroutine$d__13* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CreditsController::$ScrollCoroutine$d__13::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CreditsController::$ScrollCoroutine$d__13*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x118FA3C
+    // Offset: 0x13C5494
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x118FA40
+    // Offset: 0x13C5498
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x118FCF0
+    // Offset: 0x13C5748
     void System_Collections_IEnumerator_Reset();
   }; // CreditsController/<ScrollCoroutine>d__13
   #pragma pack(pop)

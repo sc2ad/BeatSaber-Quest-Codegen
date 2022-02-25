@@ -25,14 +25,12 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
 // Type namespace: Polyglot
 namespace Polyglot {
   // Forward declaring type: LocalizedTextComponent`1<T>
-  template<typename T>
   class LocalizedTextComponent_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -54,20 +52,20 @@ namespace Polyglot {
     protected:
     #endif
     #endif
-    // [TooltipAttribute] Offset: 0xF0BB60
+    // [TooltipAttribute] Offset: 0x1211204
     // protected T localizedComponent
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T localizedComponent;
-    // [TooltipAttribute] Offset: 0xF0BBAC
+    // [TooltipAttribute] Offset: 0x1211250
     // private System.Boolean maintainTextAlignment
     // Size: 0x1
     // Offset: 0x0
     bool maintainTextAlignment;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xF0BBF8
-    // [LocalizationKeyAttribute] Offset: 0xF0BBF8
+    // [TooltipAttribute] Offset: 0x121129C
+    // [LocalizationKeyAttribute] Offset: 0x121129C
     // private System.String key
     // Size: 0x8
     // Offset: 0x0

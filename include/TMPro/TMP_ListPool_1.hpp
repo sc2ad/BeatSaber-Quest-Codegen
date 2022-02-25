@@ -15,20 +15,17 @@
 namespace TMPro {
   // Skipping declaration: <>c because it is already included!
   // Forward declaring type: TMP_ObjectPool`1<T>
-  template<typename T>
   class TMP_ObjectPool_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
 // Type namespace: TMPro
 namespace TMPro {
   // Forward declaring type: TMP_ListPool`1<T>
-  template<typename T>
   class TMP_ListPool_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

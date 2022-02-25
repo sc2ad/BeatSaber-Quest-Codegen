@@ -36,16 +36,16 @@ namespace UnityEngine::Experimental::TerrainAPI {
     // Nested type: UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_1
     class $$c__DisplayClass4_1;
     // static System.Boolean HasValidTerrains()
-    // Offset: 0x2696084
+    // Offset: 0x2A28328
     static bool HasValidTerrains();
     // static System.Void ClearConnectivity()
-    // Offset: 0x269612C
+    // Offset: 0x2A283D0
     static void ClearConnectivity();
     // static UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainGroups CollectTerrains(System.Boolean onlyAutoConnectedTerrains)
-    // Offset: 0x2696270
+    // Offset: 0x2A28514
     static UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainGroups* CollectTerrains(bool onlyAutoConnectedTerrains);
     // static public System.Void AutoConnect()
-    // Offset: 0x26968A8
+    // Offset: 0x2A28B4C
     static void AutoConnect();
   }; // UnityEngine.Experimental.TerrainAPI.TerrainUtility
   #pragma pack(pop)

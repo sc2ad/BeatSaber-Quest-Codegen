@@ -65,17 +65,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private IPreviewBeatmapLevel[] _levels
     ::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*>& dyn__levels();
     // public IPreviewBeatmapLevel[] get_beatmapLevels()
-    // Offset: 0x131FA08
+    // Offset: 0x14BE7D4
     ::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*> get_beatmapLevels();
     // public System.Void .ctor(IPreviewBeatmapLevel[] levels)
-    // Offset: 0x131FA10
+    // Offset: 0x14BE7DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelCollection* New_ctor(::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*> levels) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapLevelCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelCollection*, creationType>(levels)));
     }
     // static public BeatmapLevelCollection CreateBeatmapLevelCollectionByUsingBeatmapCharacteristicFiltering(IBeatmapLevelCollection beatmapLevelCollection, BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x131FA3C
+    // Offset: 0x14BE808
     static GlobalNamespace::BeatmapLevelCollection* CreateBeatmapLevelCollectionByUsingBeatmapCharacteristicFiltering(GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
   }; // BeatmapLevelCollection
   #pragma pack(pop)

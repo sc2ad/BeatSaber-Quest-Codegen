@@ -21,7 +21,6 @@ namespace LiteNetLib {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Queue`1<T>
-  template<typename T>
   class Queue_1;
 }
 // Completed forward declares
@@ -76,17 +75,17 @@ namespace LiteNetLib {
     // Get instance field reference: protected readonly System.Collections.Generic.Queue`1<LiteNetLib.NetPacket> OutgoingQueue
     System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>*& dyn_OutgoingQueue();
     // public System.Int32 get_PacketsInQueue()
-    // Offset: 0x1DC0400
+    // Offset: 0x20D9BD4
     int get_PacketsInQueue();
     // protected System.Void .ctor(LiteNetLib.NetPeer peer)
-    // Offset: 0x1DC0378
+    // Offset: 0x20D9B4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseChannel* New_ctor(LiteNetLib::NetPeer* peer) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::BaseChannel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseChannel*, creationType>(peer)));
     }
     // public System.Void AddToQueue(LiteNetLib.NetPacket packet)
-    // Offset: 0x1DC0450
+    // Offset: 0x20D9C24
     void AddToQueue(LiteNetLib::NetPacket* packet);
     // public System.Void SendNextPackets()
     // Offset: 0xFFFFFFFF

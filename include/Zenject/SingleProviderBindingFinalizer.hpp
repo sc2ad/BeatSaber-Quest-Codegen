@@ -16,7 +16,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`3<T1, T2, TResult>
-  template<typename T1, typename T2, typename TResult>
   class Func_3;
   // Forward declaring type: Type
   class Type;
@@ -69,14 +68,14 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Func`3<Zenject.DiContainer,System.Type,Zenject.IProvider> _providerFactory
     System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*& dyn__providerFactory();
     // public System.Void .ctor(Zenject.BindInfo bindInfo, System.Func`3<Zenject.DiContainer,System.Type,Zenject.IProvider> providerFactory)
-    // Offset: 0x21900F8
+    // Offset: 0x2465930
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SingleProviderBindingFinalizer* New_ctor(Zenject::BindInfo* bindInfo, System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>* providerFactory) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::SingleProviderBindingFinalizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SingleProviderBindingFinalizer*, creationType>(bindInfo, providerFactory)));
     }
     // protected override System.Void OnFinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0x2190124
+    // Offset: 0x246595C
     // Implemented from: Zenject.ProviderBindingFinalizer
     // Base method: System.Void ProviderBindingFinalizer::OnFinalizeBinding(Zenject.DiContainer container)
     void OnFinalizeBinding(Zenject::DiContainer* container);

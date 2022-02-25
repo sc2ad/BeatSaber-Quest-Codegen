@@ -19,10 +19,8 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Tuple`2<T1, T2>
-  template<typename T1, typename T2>
   class Tuple_2;
 }
 // Completed forward declares
@@ -47,13 +45,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Tuple`2<BeatmapDifficultyMask,System.String>,System.String> <>9__11_0
     static void _set_$$9__11_0(System::Func_2<System::Tuple_2<GlobalNamespace::BeatmapDifficultyMask, ::StringW>*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x12D3530
+    // Offset: 0x2B4C1A0
     static void _cctor();
     // System.String <Start>b__11_0(System.Tuple`2<BeatmapDifficultyMask,System.String> x)
-    // Offset: 0x12D359C
+    // Offset: 0x2B4C20C
     ::StringW $Start$b__11_0(System::Tuple_2<GlobalNamespace::BeatmapDifficultyMask, ::StringW>* x);
     // public System.Void .ctor()
-    // Offset: 0x12D3594
+    // Offset: 0x2B4C204
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

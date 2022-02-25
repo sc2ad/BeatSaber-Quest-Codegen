@@ -18,7 +18,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -43,13 +42,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<Zenject.BindingId,System.Boolean> <>9__7_0
     static void _set_$$9__7_0(System::Func_2<Zenject::BindingId, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x11E1DF4
+    // Offset: 0x13FE58C
     static void _cctor();
     // System.Boolean <InstallBindings>b__7_0(Zenject.BindingId t)
-    // Offset: 0x11E1E60
+    // Offset: 0x13FE5F8
     bool $InstallBindings$b__7_0(Zenject::BindingId t);
     // public System.Void .ctor()
-    // Offset: 0x11E1E58
+    // Offset: 0x13FE5F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

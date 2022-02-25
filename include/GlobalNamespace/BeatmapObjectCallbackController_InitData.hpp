@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Single spawningStartTime
     float& dyn_spawningStartTime();
     // public System.Void .ctor(IReadonlyBeatmapData beatmapData, System.Single spawningStartTime)
-    // Offset: 0x132AA2C
+    // Offset: 0x14C97FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectCallbackController::InitData* New_ctor(GlobalNamespace::IReadonlyBeatmapData* beatmapData, float spawningStartTime) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapObjectCallbackController::InitData::.ctor");

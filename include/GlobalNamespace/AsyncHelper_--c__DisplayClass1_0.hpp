@@ -19,7 +19,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`1<TResult>
-  template<typename TResult>
   class Func_1;
 }
 // Forward declaring namespace: System::Threading::Tasks
@@ -65,10 +64,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Func`1<System.Threading.Tasks.Task> asyncTask
     System::Func_1<System::Threading::Tasks::Task*>*& dyn_asyncTask();
     // System.Threading.Tasks.Task <RunSync>b__0()
-    // Offset: 0x138DF84
+    // Offset: 0x2C15920
     System::Threading::Tasks::Task* $RunSync$b__0();
     // public System.Void .ctor()
-    // Offset: 0x138DF7C
+    // Offset: 0x2C15918
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

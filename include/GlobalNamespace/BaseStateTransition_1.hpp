@@ -15,7 +15,6 @@
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: BaseStateTransition`1<T>
-  template<typename T>
   class BaseStateTransition_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -37,7 +36,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [SpaceAttribute] Offset: 0xF423DC
+    // [SpaceAttribute] Offset: 0x1248CE0
     // protected T _component
     // Size: 0xFFFFFFFF
     // Offset: 0x0

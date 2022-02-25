@@ -48,10 +48,10 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public System.String valid
     ::StringW& dyn_valid();
     // System.Boolean <TryParseColor>b__0(System.Char c)
-    // Offset: 0x1CCD698
+    // Offset: 0x1F40EE0
     bool $TryParseColor$b__0(::Il2CppChar c);
     // public System.Void .ctor()
-    // Offset: 0x1CCD3B0
+    // Offset: 0x1F40BF8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

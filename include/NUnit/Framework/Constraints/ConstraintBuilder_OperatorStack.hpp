@@ -12,7 +12,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Stack`1<T>
-  template<typename T>
   class Stack_1;
 }
 // Forward declaring namespace: NUnit::Framework::Constraints
@@ -55,10 +54,10 @@ namespace NUnit::Framework::Constraints {
     // Get instance field reference: private readonly System.Collections.Generic.Stack`1<NUnit.Framework.Constraints.ConstraintOperator> stack
     System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>*& dyn_stack();
     // public System.Boolean get_Empty()
-    // Offset: 0x1937078
+    // Offset: 0x1B4F2A4
     bool get_Empty();
     // public NUnit.Framework.Constraints.ConstraintOperator Pop()
-    // Offset: 0x1937020
+    // Offset: 0x1B4F24C
     NUnit::Framework::Constraints::ConstraintOperator* Pop();
   }; // NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.OperatorStack
   #pragma pack(pop)

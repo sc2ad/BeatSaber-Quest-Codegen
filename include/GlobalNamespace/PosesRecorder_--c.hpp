@@ -17,7 +17,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: GlobalNamespace
@@ -47,25 +46,25 @@ namespace GlobalNamespace {
     static GlobalNamespace::PosesRecorder::$$c* _get_$$9();
     // Set static field: static public readonly PosesRecorder/<>c <>9
     static void _set_$$9(GlobalNamespace::PosesRecorder::$$c* value);
-    // Get static field: static public System.Func`2<PoseObject,UnityEngine.Transform> <>9__2_0
-    static System::Func_2<GlobalNamespace::PoseObject*, UnityEngine::Transform*>* _get_$$9__2_0();
-    // Set static field: static public System.Func`2<PoseObject,UnityEngine.Transform> <>9__2_0
-    static void _set_$$9__2_0(System::Func_2<GlobalNamespace::PoseObject*, UnityEngine::Transform*>* value);
-    // Get static field: static public System.Func`2<PoseObject,System.String> <>9__2_1
-    static System::Func_2<GlobalNamespace::PoseObject*, ::StringW>* _get_$$9__2_1();
-    // Set static field: static public System.Func`2<PoseObject,System.String> <>9__2_1
-    static void _set_$$9__2_1(System::Func_2<GlobalNamespace::PoseObject*, ::StringW>* value);
+    // Get static field: static public System.Func`2<PoseObject,UnityEngine.Transform> <>9__6_0
+    static System::Func_2<GlobalNamespace::PoseObject*, UnityEngine::Transform*>* _get_$$9__6_0();
+    // Set static field: static public System.Func`2<PoseObject,UnityEngine.Transform> <>9__6_0
+    static void _set_$$9__6_0(System::Func_2<GlobalNamespace::PoseObject*, UnityEngine::Transform*>* value);
+    // Get static field: static public System.Func`2<PoseObject,System.String> <>9__6_1
+    static System::Func_2<GlobalNamespace::PoseObject*, ::StringW>* _get_$$9__6_1();
+    // Set static field: static public System.Func`2<PoseObject,System.String> <>9__6_1
+    static void _set_$$9__6_1(System::Func_2<GlobalNamespace::PoseObject*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x11AE3C8
+    // Offset: 0x13E7088
     static void _cctor();
-    // UnityEngine.Transform <StartRecording>b__2_0(PoseObject ro)
-    // Offset: 0x11AE434
-    UnityEngine::Transform* $StartRecording$b__2_0(GlobalNamespace::PoseObject* ro);
-    // System.String <StartRecording>b__2_1(PoseObject ro)
-    // Offset: 0x11AE44C
-    ::StringW $StartRecording$b__2_1(GlobalNamespace::PoseObject* ro);
+    // UnityEngine.Transform <Init>b__6_0(PoseObject ro)
+    // Offset: 0x13E70F4
+    UnityEngine::Transform* $Init$b__6_0(GlobalNamespace::PoseObject* ro);
+    // System.String <Init>b__6_1(PoseObject ro)
+    // Offset: 0x13E710C
+    ::StringW $Init$b__6_1(GlobalNamespace::PoseObject* ro);
     // public System.Void .ctor()
-    // Offset: 0x11AE42C
+    // Offset: 0x13E70EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -85,22 +84,22 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PosesRecorder::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PosesRecorder::$$c::$StartRecording$b__2_0
-// Il2CppName: <StartRecording>b__2_0
+// Writing MetadataGetter for method: GlobalNamespace::PosesRecorder::$$c::$Init$b__6_0
+// Il2CppName: <Init>b__6_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::PosesRecorder::$$c::*)(GlobalNamespace::PoseObject*)>(&GlobalNamespace::PosesRecorder::$$c::$StartRecording$b__2_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::PosesRecorder::$$c::*)(GlobalNamespace::PoseObject*)>(&GlobalNamespace::PosesRecorder::$$c::$Init$b__6_0)> {
   static const MethodInfo* get() {
     static auto* ro = &::il2cpp_utils::GetClassFromName("", "PoseObject")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PosesRecorder::$$c*), "<StartRecording>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ro});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PosesRecorder::$$c*), "<Init>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ro});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::PosesRecorder::$$c::$StartRecording$b__2_1
-// Il2CppName: <StartRecording>b__2_1
+// Writing MetadataGetter for method: GlobalNamespace::PosesRecorder::$$c::$Init$b__6_1
+// Il2CppName: <Init>b__6_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PosesRecorder::$$c::*)(GlobalNamespace::PoseObject*)>(&GlobalNamespace::PosesRecorder::$$c::$StartRecording$b__2_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::PosesRecorder::$$c::*)(GlobalNamespace::PoseObject*)>(&GlobalNamespace::PosesRecorder::$$c::$Init$b__6_1)> {
   static const MethodInfo* get() {
     static auto* ro = &::il2cpp_utils::GetClassFromName("", "PoseObject")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PosesRecorder::$$c*), "<StartRecording>b__2_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ro});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PosesRecorder::$$c*), "<Init>b__6_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ro});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PosesRecorder::$$c::New_ctor

@@ -52,13 +52,13 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.IntPtr Handle
     System::IntPtr& dyn_Handle();
     // public System.Void SetDeeplinkMessage(System.String value)
-    // Offset: 0x1D6F010
+    // Offset: 0x1FD15F8
     void SetDeeplinkMessage(::StringW value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.ApplicationOptions options)
-    // Offset: 0x1D6EBB4
+    // Offset: 0x1FD119C
     // ABORTED: conflicts with another method.  explicit operator System::IntPtr();
     // public System.Void .ctor()
-    // Offset: 0x1D6EF28
+    // Offset: 0x1FD1510
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -67,7 +67,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<ApplicationOptions*, creationType>()));
     }
     // protected override System.Void Finalize()
-    // Offset: 0x1D6F134
+    // Offset: 0x1FD171C
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

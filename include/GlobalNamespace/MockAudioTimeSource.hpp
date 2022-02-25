@@ -63,28 +63,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <lastFrameDeltaSongTime>k__BackingField
     float& dyn_$lastFrameDeltaSongTime$k__BackingField();
     // public System.Single get_songTime()
-    // Offset: 0x11BDFBC
+    // Offset: 0x14212D4
     float get_songTime();
     // private System.Void set_songTime(System.Single value)
-    // Offset: 0x11BDFC4
+    // Offset: 0x14212DC
     void set_songTime(float value);
     // public System.Single get_lastFrameDeltaSongTime()
-    // Offset: 0x11BDFCC
+    // Offset: 0x14212E4
     float get_lastFrameDeltaSongTime();
     // private System.Void set_lastFrameDeltaSongTime(System.Single value)
-    // Offset: 0x11BDFD4
+    // Offset: 0x14212EC
     void set_lastFrameDeltaSongTime(float value);
     // public System.Single get_songEndTime()
-    // Offset: 0x11BDFDC
+    // Offset: 0x14212F4
     float get_songEndTime();
     // public System.Boolean get_isReady()
-    // Offset: 0x11BDFE8
+    // Offset: 0x1421300
     bool get_isReady();
     // protected System.Void Update()
-    // Offset: 0x11BDFF0
+    // Offset: 0x1421308
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x11BE034
+    // Offset: 0x142134C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

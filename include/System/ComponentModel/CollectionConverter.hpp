@@ -12,6 +12,23 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
+// Begin forward declares
+// Forward declaring namespace: System::ComponentModel
+namespace System::ComponentModel {
+  // Forward declaring type: ITypeDescriptorContext
+  class ITypeDescriptorContext;
+}
+// Forward declaring namespace: System::Globalization
+namespace System::Globalization {
+  // Forward declaring type: CultureInfo
+  class CultureInfo;
+}
+// Forward declaring namespace: System
+namespace System {
+  // Forward declaring type: Type
+  class Type;
+}
+// Completed forward declares
 // Type namespace: System.ComponentModel
 namespace System::ComponentModel {
   // Forward declaring type: CollectionConverter
@@ -29,7 +46,7 @@ namespace System::ComponentModel {
   class CollectionConverter : public System::ComponentModel::TypeConverter {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1A25724
+    // Offset: 0x1DF01DC
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Void TypeConverter::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -38,6 +55,11 @@ namespace System::ComponentModel {
       static auto ___internal__logger = ::Logger::get().WithContext("System::ComponentModel::CollectionConverter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CollectionConverter*, creationType>()));
     }
+    // public override System.Object ConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value, System.Type destinationType)
+    // Offset: 0x1DF0070
+    // Implemented from: System.ComponentModel.TypeConverter
+    // Base method: System.Object TypeConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value, System.Type destinationType)
+    ::Il2CppObject* ConvertTo(System::ComponentModel::ITypeDescriptorContext* context, System::Globalization::CultureInfo* culture, ::Il2CppObject* value, System::Type* destinationType);
   }; // System.ComponentModel.CollectionConverter
   #pragma pack(pop)
 }
@@ -46,3 +68,15 @@ namespace System::ComponentModel {
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: System::ComponentModel::CollectionConverter::ConvertTo
+// Il2CppName: ConvertTo
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::ComponentModel::CollectionConverter::*)(System::ComponentModel::ITypeDescriptorContext*, System::Globalization::CultureInfo*, ::Il2CppObject*, System::Type*)>(&System::ComponentModel::CollectionConverter::ConvertTo)> {
+  static const MethodInfo* get() {
+    static auto* context = &::il2cpp_utils::GetClassFromName("System.ComponentModel", "ITypeDescriptorContext")->byval_arg;
+    static auto* culture = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* destinationType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::CollectionConverter*), "ConvertTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context, culture, value, destinationType});
+  }
+};

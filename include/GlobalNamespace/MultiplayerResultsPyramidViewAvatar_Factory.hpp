@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   class MultiplayerResultsPyramidViewAvatar::Factory : public Zenject::PlaceholderFactory_2<GlobalNamespace::IConnectedPlayer*, GlobalNamespace::MultiplayerResultsPyramidViewAvatar*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1175858
+    // Offset: 0x2AA762C
     // Implemented from: Zenject.PlaceholderFactory`2
     // Base method: System.Void PlaceholderFactory_2::.ctor()
     // Base method: System.Void PlaceholderFactoryBase_1::.ctor()

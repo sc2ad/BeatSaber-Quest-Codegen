@@ -16,7 +16,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: HoudiniEngineUnity
@@ -91,7 +90,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_LoadBufferInstancer> _instancerBuffers
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_LoadBufferInstancer*>*& dyn__instancerBuffers();
     // public System.Void .ctor()
-    // Offset: 0x177DB34
+    // Offset: 0x19A42D0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

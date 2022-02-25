@@ -17,7 +17,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System::Net::Http::Headers
@@ -75,38 +74,48 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private System.String <Name>k__BackingField
     ::StringW& dyn_$Name$k__BackingField();
     // public System.String get_Name()
-    // Offset: 0x17C3818
+    // Offset: 0x18FC500
     ::StringW get_Name();
     // System.Void set_Name(System.String value)
-    // Offset: 0x17C3820
+    // Offset: 0x18FC508
     void set_Name(::StringW value);
     // public System.String get_Value()
-    // Offset: 0x17C3828
+    // Offset: 0x18FC510
     ::StringW get_Value();
+    // public System.Void set_Value(System.String value)
+    // Offset: 0x18F5180
+    void set_Value(::StringW value);
+    // public System.Void .ctor(System.String name, System.String value)
+    // Offset: 0x18F52E4
+    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    static NameValueHeaderValue* New_ctor(::StringW name, ::StringW value) {
+      static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::NameValueHeaderValue::.ctor");
+      return THROW_UNLESS((::il2cpp_utils::New<NameValueHeaderValue*, creationType>(name, value)));
+    }
     // protected internal System.Void .ctor(System.Net.Http.Headers.NameValueHeaderValue source)
-    // Offset: 0x17BCE9C
+    // Offset: 0x18F571C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NameValueHeaderValue* New_ctor(System::Net::Http::Headers::NameValueHeaderValue* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::Http::Headers::NameValueHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NameValueHeaderValue*, creationType>(source)));
     }
     // static System.Net.Http.Headers.NameValueHeaderValue Create(System.String name, System.String value)
-    // Offset: 0x17BC380
+    // Offset: 0x18F48EC
     static System::Net::Http::Headers::NameValueHeaderValue* Create(::StringW name, ::StringW value);
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x17C3830
+    // Offset: 0x18FC518
     ::Il2CppObject* System_ICloneable_Clone();
     // static System.Boolean TryParsePragma(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> result)
-    // Offset: 0x17C3A08
+    // Offset: 0x18FC6F0
     static bool TryParsePragma(::StringW input, int minimalCount, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*> result);
     // static System.Boolean TryParseParameters(System.Net.Http.Headers.Lexer lexer, out System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> result, out System.Net.Http.Headers.Token t)
-    // Offset: 0x17BD258
+    // Offset: 0x18F5AD8
     static bool TryParseParameters(System::Net::Http::Headers::Lexer* lexer, ByRef<System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*> result, ByRef<System::Net::Http::Headers::Token> t);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.NameValueHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x17C3B24
+    // Offset: 0x18FC80C
     static bool TryParseElement(System::Net::Http::Headers::Lexer* lexer, ByRef<System::Net::Http::Headers::NameValueHeaderValue*> parsedValue, ByRef<System::Net::Http::Headers::Token> t);
     // System.Void .ctor()
-    // Offset: 0x17C3810
+    // Offset: 0x18FC4F8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -115,17 +124,17 @@ namespace System::Net::Http::Headers {
       return THROW_UNLESS((::il2cpp_utils::New<NameValueHeaderValue*, creationType>()));
     }
     // public override System.Int32 GetHashCode()
-    // Offset: 0x17C3890
+    // Offset: 0x18FC578
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x17C3910
+    // Offset: 0x18FC5F8
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.String ToString()
-    // Offset: 0x17C3AA8
+    // Offset: 0x18FC790
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -160,6 +169,19 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::NameValueHeaderValue*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
+// Writing MetadataGetter for method: System::Net::Http::Headers::NameValueHeaderValue::set_Value
+// Il2CppName: set_Value
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::NameValueHeaderValue::*)(::StringW)>(&System::Net::Http::Headers::NameValueHeaderValue::set_Value)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::NameValueHeaderValue*), "set_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: System::Net::Http::Headers::NameValueHeaderValue::New_ctor
+// Il2CppName: .ctor
+// Cannot get method pointer of value based method overload from template for constructor!
+// Try using FindMethod instead!
 // Writing MetadataGetter for method: System::Net::Http::Headers::NameValueHeaderValue::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

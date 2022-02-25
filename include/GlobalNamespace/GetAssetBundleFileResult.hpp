@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.String assetBundlePath
     ::StringW& dyn_assetBundlePath();
     // public System.Void .ctor(System.Boolean isError, System.String assetBundlePath)
-    // Offset: 0x1197398
+    // Offset: 0x13A4E40
     // ABORTED: conflicts with another method.  GetAssetBundleFileResult(bool isError, ::StringW assetBundlePath);
   }; // GetAssetBundleFileResult
   #pragma pack(pop)

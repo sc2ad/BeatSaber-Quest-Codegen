@@ -24,7 +24,6 @@ namespace Zenject {
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: Installer`5<TParam1, TParam2, TParam3, TParam4, TDerived>
-  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TDerived>
   class Installer_5;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

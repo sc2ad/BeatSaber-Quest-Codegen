@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     int month;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [SpaceAttribute] Offset: 0xF40CD8
+    // [SpaceAttribute] Offset: 0x12475DC
     // private UnityEngine.Sprite _falseSprite
     // Size: 0x8
     // Offset: 0x20
@@ -74,7 +74,7 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* trueSprite;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF40D20
+    // [SpaceAttribute] Offset: 0x1247624
     // private ConditionalSpriteSwitcher _conditionalSpriteSwitcher
     // Size: 0x8
     // Offset: 0x30
@@ -95,10 +95,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private ConditionalSpriteSwitcher _conditionalSpriteSwitcher
     GlobalNamespace::ConditionalSpriteSwitcher*& dyn__conditionalSpriteSwitcher();
     // protected System.Void Awake()
-    // Offset: 0x11D36F8
+    // Offset: 0x13EFDD8
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x11D37D4
+    // Offset: 0x13EFEB4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

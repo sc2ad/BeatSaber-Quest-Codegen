@@ -15,7 +15,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: UnityEngine::UI
@@ -41,7 +40,7 @@ namespace UnityEngine::UI {
   class Clipping : public ::Il2CppObject {
     public:
     // static public UnityEngine.Rect FindCullAndClipWorldRect(System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D> rectMaskParents, out System.Boolean validRect)
-    // Offset: 0x166F284
+    // Offset: 0x18745D8
     static UnityEngine::Rect FindCullAndClipWorldRect(System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>* rectMaskParents, ByRef<bool> validRect);
   }; // UnityEngine.UI.Clipping
   #pragma pack(pop)

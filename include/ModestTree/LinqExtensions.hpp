@@ -17,7 +17,6 @@ namespace ModestTree {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
 }
 // Completed forward declares
@@ -39,13 +38,10 @@ namespace ModestTree {
   class LinqExtensions : public ::Il2CppObject {
     public:
     // Nested type: ModestTree::LinqExtensions::$Yield$d__0_1<T>
-    template<typename T>
     class $Yield$d__0_1;
     // Nested type: ModestTree::LinqExtensions::$$c__7_1<T>
-    template<typename T>
     class $$c__7_1;
     // Nested type: ModestTree::LinqExtensions::$$c__DisplayClass9_0_1<T>
-    template<typename T>
     class $$c__DisplayClass9_0_1;
     // static public System.Collections.Generic.IEnumerable`1<T> Yield(T item)
     // Offset: 0xFFFFFFFF

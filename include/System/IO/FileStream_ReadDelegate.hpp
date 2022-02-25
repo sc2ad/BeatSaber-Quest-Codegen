@@ -36,20 +36,20 @@ namespace System::IO {
   class FileStream::ReadDelegate : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1AFF65C
+    // Offset: 0x1F7EB54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileStream::ReadDelegate* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::FileStream::ReadDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileStream::ReadDelegate*, creationType>(object, method)));
     }
     // public System.Int32 Invoke(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    // Offset: 0x1B01464
+    // Offset: 0x1F80400
     int Invoke(::ArrayW<uint8_t> buffer, int offset, int count);
     // public System.IAsyncResult BeginInvoke(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1AFF66C
+    // Offset: 0x1F7EB64
     System::IAsyncResult* BeginInvoke(::ArrayW<uint8_t> buffer, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1AFFA68
+    // Offset: 0x1F7ED64
     int EndInvoke(System::IAsyncResult* result);
   }; // System.IO.FileStream/System.IO.ReadDelegate
   #pragma pack(pop)

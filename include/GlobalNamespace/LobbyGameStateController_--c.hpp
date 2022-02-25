@@ -19,7 +19,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: GlobalNamespace
@@ -49,13 +48,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,ILobbyPlayerData>,System.Boolean> <>9__95_0
     static void _set_$$9__95_0(System::Func_2<System::Collections::Generic::KeyValuePair_2<::StringW, GlobalNamespace::ILobbyPlayerData*>, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x134BBF0
+    // Offset: 0x2B93D74
     static void _cctor();
     // System.Boolean <PredictCountdownEndTime>b__95_0(System.Collections.Generic.KeyValuePair`2<System.String,ILobbyPlayerData> pair)
-    // Offset: 0x134BC5C
+    // Offset: 0x2B93DE0
     bool $PredictCountdownEndTime$b__95_0(System::Collections::Generic::KeyValuePair_2<::StringW, GlobalNamespace::ILobbyPlayerData*> pair);
     // public System.Void .ctor()
-    // Offset: 0x134BC54
+    // Offset: 0x2B93DD8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

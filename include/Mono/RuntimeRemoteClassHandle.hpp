@@ -54,7 +54,7 @@ namespace Mono {
     // Get instance field reference: private Mono.RuntimeStructs/Mono.RemoteClass* value
     Mono::RuntimeStructs::RemoteClass*& dyn_value();
     // Mono.RuntimeClassHandle get_ProxyClass()
-    // Offset: 0x1C7BB54
+    // Offset: 0x1E750A4
     Mono::RuntimeClassHandle get_ProxyClass();
   }; // Mono.RuntimeRemoteClassHandle
   #pragma pack(pop)

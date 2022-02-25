@@ -90,27 +90,27 @@ namespace System::IO {
     // Get instance field reference: private System.String pattern
     ::StringW& dyn_pattern();
     // public System.Boolean get_HasWildcard()
-    // Offset: 0x1A380F0
+    // Offset: 0x1AA26E0
     bool get_HasWildcard();
     // public System.Void .ctor(System.String pattern)
-    // Offset: 0x1A3705C
+    // Offset: 0x1AA1644
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchPattern2* New_ctor(::StringW pattern) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchPattern2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SearchPattern2*, creationType>(pattern)));
     }
     // public System.Void .ctor(System.String pattern, System.Boolean ignore)
-    // Offset: 0x1A37DC4
+    // Offset: 0x1AA23B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SearchPattern2* New_ctor(::StringW pattern, bool ignore) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::SearchPattern2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SearchPattern2*, creationType>(pattern, ignore)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1A38128
+    // Offset: 0x1AA2718
     static void _cctor();
     // private System.Void Compile(System.String pattern)
-    // Offset: 0x1A37E0C
+    // Offset: 0x1AA23FC
     void Compile(::StringW pattern);
   }; // System.IO.SearchPattern2
   #pragma pack(pop)

@@ -26,13 +26,11 @@ namespace HMUI {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -73,7 +71,7 @@ namespace GlobalNamespace {
     System::Action_1<int>* didSelectHelpSubMenuEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<int>*) == 0x8);
-    // [TupleElementNamesAttribute] Offset: 0xF45724
+    // [TupleElementNamesAttribute] Offset: 0x124C028
     // private System.Collections.Generic.List`1<System.ValueTuple`2<HMUI.ViewController,System.String>> _viewControllers
     // Size: 0x8
     // Offset: 0x80
@@ -88,19 +86,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<System.ValueTuple`2<HMUI.ViewController,System.String>> _viewControllers
     System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController*, ::StringW>>*& dyn__viewControllers();
     // public System.Void add_didSelectHelpSubMenuEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x119DC2C
+    // Offset: 0x13AB6D4
     void add_didSelectHelpSubMenuEvent(System::Action_1<int>* value);
     // public System.Void remove_didSelectHelpSubMenuEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x119DE64
+    // Offset: 0x13AB90C
     void remove_didSelectHelpSubMenuEvent(System::Action_1<int>* value);
     // public System.Void Init(System.Collections.Generic.List`1<System.ValueTuple`2<HMUI.ViewController,System.String>> viewControllers)
-    // Offset: 0x119E178
+    // Offset: 0x13ABC20
     void Init(System::Collections::Generic::List_1<System::ValueTuple_2<HMUI::ViewController*, ::StringW>>* viewControllers);
     // private System.Void HandleHelpMenuSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellIdx)
-    // Offset: 0x119E358
+    // Offset: 0x13ABE00
     void HandleHelpMenuSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // public System.Void .ctor()
-    // Offset: 0x119E3CC
+    // Offset: 0x13ABE74
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -114,7 +112,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HelpMenuViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x119E180
+    // Offset: 0x13ABC28
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

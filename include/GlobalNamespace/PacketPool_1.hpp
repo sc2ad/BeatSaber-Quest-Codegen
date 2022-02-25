@@ -25,7 +25,6 @@ namespace GlobalNamespace {
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: PacketPool`1<T>
-  template<typename T>
   class PacketPool_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -120,11 +119,18 @@ namespace GlobalNamespace {
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Release", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(t)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, t);
     }
+    // public System.Void Fill()
+    // Offset: 0xFFFFFFFF
+    void Fill() {
+      static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PacketPool_1::Fill");
+      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Fill", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+      ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
+    }
     // public System.Void Clear()
     // Offset: 0xFFFFFFFF
     void Clear() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::PacketPool_1::Clear");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
     // private System.Void IPacketPool.Release(System.Object o)

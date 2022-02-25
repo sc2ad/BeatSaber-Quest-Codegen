@@ -17,19 +17,16 @@
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: TaskCompletionSource`1<TResult>
-  template<typename TResult>
   class TaskCompletionSource_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IReadOnlyList`1<T>
-  template<typename T>
   class IReadOnlyList_1;
 }
 // Forward declaring namespace: Oculus::Platform
 namespace Oculus::Platform {
   // Forward declaring type: Message`1<T>
-  template<typename T>
   class Message_1;
 }
 // Forward declaring namespace: Oculus::Platform::Models
@@ -77,10 +74,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public OculusPlatformUserModel <>4__this
     GlobalNamespace::OculusPlatformUserModel*& dyn_$$4__this();
     // System.Void <GetUserFriendsUserIds>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.UserList> message)
-    // Offset: 0x136FF5C
+    // Offset: 0x2BB9348
     void $GetUserFriendsUserIds$b__0(Oculus::Platform::Message_1<Oculus::Platform::Models::UserList*>* message);
     // public System.Void .ctor()
-    // Offset: 0x136FF54
+    // Offset: 0x2BB9340
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

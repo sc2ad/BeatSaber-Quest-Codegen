@@ -20,22 +20,18 @@
 namespace Priority_Queue {
   // Skipping declaration: <GetEnumerator>d__25 because it is already included!
   // Forward declaring type: GenericPriorityQueueNode`1<TPriority>
-  template<typename TPriority>
   class GenericPriorityQueueNode_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: IComparable`1<T>
-  template<typename T>
   class IComparable_1;
   // Forward declaring type: Comparison`1<T>
-  template<typename T>
   class Comparison_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IComparer`1<T>
-  template<typename T>
   class IComparer_1;
 }
 // Forward declaring namespace: System::Collections
@@ -46,7 +42,6 @@ namespace System::Collections {
 // Type namespace: Priority_Queue
 namespace Priority_Queue {
   // Forward declaring type: GenericPriorityQueue`2<TItem, TPriority>
-  template<typename TItem, typename TPriority>
   class GenericPriorityQueue_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

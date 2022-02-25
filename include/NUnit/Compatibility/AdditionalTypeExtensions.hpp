@@ -14,10 +14,8 @@ namespace NUnit::Compatibility {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System
@@ -55,13 +53,13 @@ namespace NUnit::Compatibility {
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.List`1<System.Type>> convertibleValueTypes
     static void _set_convertibleValueTypes(System::Collections::Generic::Dictionary_2<System::Type*, System::Collections::Generic::List_1<System::Type*>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1931760
+    // Offset: 0x1B4998C
     static void _cctor();
     // static public System.Boolean ParametersMatch(System.Reflection.ParameterInfo[] pinfos, System.Type[] ptypes)
-    // Offset: 0x1931400
+    // Offset: 0x1B4962C
     static bool ParametersMatch(::ArrayW<System::Reflection::ParameterInfo*> pinfos, ::ArrayW<System::Type*> ptypes);
     // static public System.Boolean IsCastableFrom(System.Type to, System.Type from)
-    // Offset: 0x1931514
+    // Offset: 0x1B49740
     static bool IsCastableFrom(System::Type* to, System::Type* from);
   }; // NUnit.Compatibility.AdditionalTypeExtensions
   #pragma pack(pop)

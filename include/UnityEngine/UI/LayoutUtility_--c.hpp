@@ -16,7 +16,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: UnityEngine::UI
@@ -74,34 +73,34 @@ namespace UnityEngine::UI {
     // Set static field: static public System.Func`2<UnityEngine.UI.ILayoutElement,System.Single> <>9__8_0
     static void _set_$$9__8_0(System::Func_2<UnityEngine::UI::ILayoutElement*, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1BA9A34
+    // Offset: 0x1DD3C80
     static void _cctor();
     // System.Single <GetMinWidth>b__3_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1BA9AA0
+    // Offset: 0x1DD3CEC
     float $GetMinWidth$b__3_0(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetPreferredWidth>b__4_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1BA9B50
+    // Offset: 0x1DD3D9C
     float $GetPreferredWidth$b__4_0(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetPreferredWidth>b__4_1(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1BA9C00
+    // Offset: 0x1DD3E4C
     float $GetPreferredWidth$b__4_1(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetFlexibleWidth>b__5_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1BA9CB0
+    // Offset: 0x1DD3EFC
     float $GetFlexibleWidth$b__5_0(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetMinHeight>b__6_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1BA9D60
+    // Offset: 0x1DD3FAC
     float $GetMinHeight$b__6_0(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetPreferredHeight>b__7_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1BA9E10
+    // Offset: 0x1DD405C
     float $GetPreferredHeight$b__7_0(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetPreferredHeight>b__7_1(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1BA9EC0
+    // Offset: 0x1DD410C
     float $GetPreferredHeight$b__7_1(UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetFlexibleHeight>b__8_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1BA9F70
+    // Offset: 0x1DD41BC
     float $GetFlexibleHeight$b__8_0(UnityEngine::UI::ILayoutElement* e);
     // public System.Void .ctor()
-    // Offset: 0x1BA9A98
+    // Offset: 0x1DD3CE4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -45,7 +45,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Get instance field reference: private readonly System.Int32 rounds
     int& dyn_rounds();
     // public System.Int32 get_Rounds()
-    // Offset: 0x13BBCE4
+    // Offset: 0x15656B0
     int get_Rounds();
   }; // Org.BouncyCastle.Crypto.Parameters.RC5Parameters
   #pragma pack(pop)

@@ -6,6 +6,13 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
+// Begin forward declares
+// Forward declaring namespace: System
+namespace System {
+  // Forward declaring type: Exception
+  class Exception;
+}
+// Completed forward declares
 // Type namespace: Microsoft.Extensions.Logging
 namespace Microsoft::Extensions::Logging {
   // Forward declaring type: ILogger
@@ -25,6 +32,9 @@ namespace Microsoft::Extensions::Logging {
     // public System.Void LogError(System.String message)
     // Offset: 0xFFFFFFFF
     void LogError(::StringW message);
+    // public System.Void LogError(System.Exception exception, System.String message)
+    // Offset: 0xFFFFFFFF
+    void LogError(System::Exception* exception, ::StringW message);
     // public System.Void LogInformation(System.String message)
     // Offset: 0xFFFFFFFF
     void LogInformation(::StringW message);
@@ -42,6 +52,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Micro
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Extensions::Logging::ILogger*), "LogError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
+  }
+};
+// Writing MetadataGetter for method: Microsoft::Extensions::Logging::ILogger::LogError
+// Il2CppName: LogError
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Microsoft::Extensions::Logging::ILogger::*)(System::Exception*, ::StringW)>(&Microsoft::Extensions::Logging::ILogger::LogError)> {
+  static const MethodInfo* get() {
+    static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
+    static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Extensions::Logging::ILogger*), "LogError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exception, message});
   }
 };
 // Writing MetadataGetter for method: Microsoft::Extensions::Logging::ILogger::LogInformation

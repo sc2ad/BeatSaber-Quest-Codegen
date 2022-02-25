@@ -26,7 +26,7 @@ namespace System::Net {
   class TimerThread::InfiniteTimerQueue : public System::Net::TimerThread::Queue {
     public:
     // System.Void .ctor()
-    // Offset: 0x17E6CF0
+    // Offset: 0x1CB2E78
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

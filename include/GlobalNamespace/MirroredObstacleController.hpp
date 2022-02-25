@@ -87,31 +87,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _followedTransform
     UnityEngine::Transform*& dyn__followedTransform();
     // public System.Void set_hide(System.Boolean value)
-    // Offset: 0x115E3AC
+    // Offset: 0x2A6AE38
     void set_hide(bool value);
     // protected System.Void Awake()
-    // Offset: 0x115EA80
+    // Offset: 0x2A6B50C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x115EAA8
+    // Offset: 0x2A6B534
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x115EB80
+    // Offset: 0x2A6B60C
     void Update();
     // private System.Void RemoveListeners()
-    // Offset: 0x115EAAC
+    // Offset: 0x2A6B538
     void RemoveListeners();
     // private System.Void UpdatePositionAndRotation()
-    // Offset: 0x115EB84
+    // Offset: 0x2A6B610
     void UpdatePositionAndRotation();
     // public System.Void Mirror(ObstacleController obstacleController)
-    // Offset: 0x115DF4C
+    // Offset: 0x2A6A9D8
     void Mirror(GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void HandleDidStartDissolving(ObstacleControllerBase obstacleController, System.Single duration)
-    // Offset: 0x115ECAC
+    // Offset: 0x2A6B738
     void HandleDidStartDissolving(GlobalNamespace::ObstacleControllerBase* obstacleController, float duration);
     // public System.Void .ctor()
-    // Offset: 0x115ECB8
+    // Offset: 0x2A6B744
     // Implemented from: ObstacleControllerBase
     // Base method: System.Void ObstacleControllerBase::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

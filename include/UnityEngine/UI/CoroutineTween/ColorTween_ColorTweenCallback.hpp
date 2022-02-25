@@ -27,7 +27,7 @@ namespace UnityEngine::UI::CoroutineTween {
   class ColorTween::ColorTweenCallback : public UnityEngine::Events::UnityEvent_1<UnityEngine::Color> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x166FF5C
+    // Offset: 0x18752B0
     // Implemented from: UnityEngine.Events.UnityEvent`1
     // Base method: System.Void UnityEvent_1::.ctor()
     // Base method: System.Void UnityEventBase::.ctor()

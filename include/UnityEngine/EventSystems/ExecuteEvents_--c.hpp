@@ -16,7 +16,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: UnityEngine::EventSystems
@@ -42,13 +41,13 @@ namespace UnityEngine::EventSystems {
     // Set static field: static public readonly UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.<>c <>9
     static void _set_$$9(UnityEngine::EventSystems::ExecuteEvents::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x16659B4
+    // Offset: 0x186AD08
     static void _cctor();
     // System.Void <.cctor>b__79_0(System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler> l)
-    // Offset: 0x1665A20
+    // Offset: 0x186AD74
     void $_cctor$b__79_0(System::Collections::Generic::List_1<UnityEngine::EventSystems::IEventSystemHandler*>* l);
     // public System.Void .ctor()
-    // Offset: 0x1665A18
+    // Offset: 0x186AD6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -31,7 +31,6 @@ namespace HoudiniEngineUnity {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System::Text
@@ -161,100 +160,100 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.String[] _eventMessageColorCode
     ::ArrayW<::StringW>& dyn__eventMessageColorCode();
     // static public HoudiniEngineUnity.HEU_PDGSession GetPDGSession()
-    // Offset: 0x1813D1C
+    // Offset: 0x1A4197C
     static HoudiniEngineUnity::HEU_PDGSession* GetPDGSession();
     // public System.Void AddAsset(HoudiniEngineUnity.HEU_PDGAssetLink asset)
-    // Offset: 0x1816F8C
+    // Offset: 0x1A44BEC
     void AddAsset(HoudiniEngineUnity::HEU_PDGAssetLink* asset);
     // public System.Void RemoveAsset(HoudiniEngineUnity.HEU_PDGAssetLink asset)
-    // Offset: 0x1813D98
+    // Offset: 0x1A419F8
     void RemoveAsset(HoudiniEngineUnity::HEU_PDGAssetLink* asset);
     // private System.Void Update()
-    // Offset: 0x1816F90
+    // Offset: 0x1A44BF0
     void Update();
     // private System.Void CleanUp()
-    // Offset: 0x1816F94
+    // Offset: 0x1A44BF4
     void CleanUp();
     // private System.Void UpdatePDGContext()
-    // Offset: 0x181707C
+    // Offset: 0x1A44CDC
     void UpdatePDGContext();
     // public System.Void ReinitializePDGContext()
-    // Offset: 0x1817080
+    // Offset: 0x1A44CE0
     void ReinitializePDGContext();
     // private System.Void ProcessPDGEvent(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 contextID, ref HoudiniEngineUnity.HAPI_PDG_EventInfo eventInfo)
-    // Offset: 0x1817084
+    // Offset: 0x1A44CE4
     void ProcessPDGEvent(HoudiniEngineUnity::HEU_SessionBase* session, int contextID, ByRef<HoudiniEngineUnity::HAPI_PDG_EventInfo> eventInfo);
     // private System.Boolean GetTOPAssetLinkAndNode(System.Int32 nodeID, out HoudiniEngineUnity.HEU_PDGAssetLink assetLink, out HoudiniEngineUnity.HEU_TOPNodeData topNode)
-    // Offset: 0x1817088
+    // Offset: 0x1A44CE8
     bool GetTOPAssetLinkAndNode(int nodeID, ByRef<HoudiniEngineUnity::HEU_PDGAssetLink*> assetLink, ByRef<HoudiniEngineUnity::HEU_TOPNodeData*> topNode);
     // private System.Void SetTOPNodePDGState(HoudiniEngineUnity.HEU_PDGAssetLink assetLink, HoudiniEngineUnity.HEU_TOPNodeData topNode, HoudiniEngineUnity.HEU_TOPNodeData/HoudiniEngineUnity.PDGState pdgState)
-    // Offset: 0x1817198
+    // Offset: 0x1A44DF8
     void SetTOPNodePDGState(HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, HoudiniEngineUnity::HEU_TOPNodeData* topNode, HoudiniEngineUnity::HEU_TOPNodeData::PDGState pdgState);
     // private System.Void NotifyTOPNodePDGStateClear(HoudiniEngineUnity.HEU_PDGAssetLink assetLink, HoudiniEngineUnity.HEU_TOPNodeData topNode)
-    // Offset: 0x18171C8
+    // Offset: 0x1A44E28
     void NotifyTOPNodePDGStateClear(HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, HoudiniEngineUnity::HEU_TOPNodeData* topNode);
     // private System.Void NotifyTOPNodeTotalWorkItem(HoudiniEngineUnity.HEU_PDGAssetLink assetLink, HoudiniEngineUnity.HEU_TOPNodeData topNode, System.Int32 inc)
-    // Offset: 0x1817218
+    // Offset: 0x1A44E78
     void NotifyTOPNodeTotalWorkItem(HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, HoudiniEngineUnity::HEU_TOPNodeData* topNode, int inc);
     // private System.Void NotifyTOPNodeCookedWorkItem(HoudiniEngineUnity.HEU_PDGAssetLink assetLink, HoudiniEngineUnity.HEU_TOPNodeData topNode)
-    // Offset: 0x18172CC
+    // Offset: 0x1A44F2C
     void NotifyTOPNodeCookedWorkItem(HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, HoudiniEngineUnity::HEU_TOPNodeData* topNode);
     // private System.Void NotifyTOPNodeErrorWorkItem(HoudiniEngineUnity.HEU_PDGAssetLink assetLink, HoudiniEngineUnity.HEU_TOPNodeData topNode)
-    // Offset: 0x181730C
+    // Offset: 0x1A44F6C
     void NotifyTOPNodeErrorWorkItem(HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, HoudiniEngineUnity::HEU_TOPNodeData* topNode);
     // private System.Void NotifyTOPNodeWaitingWorkItem(HoudiniEngineUnity.HEU_PDGAssetLink assetLink, HoudiniEngineUnity.HEU_TOPNodeData topNode, System.Int32 inc)
-    // Offset: 0x181734C
+    // Offset: 0x1A44FAC
     void NotifyTOPNodeWaitingWorkItem(HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, HoudiniEngineUnity::HEU_TOPNodeData* topNode, int inc);
     // private System.Void NotifyTOPNodeScheduledWorkItem(HoudiniEngineUnity.HEU_PDGAssetLink assetLink, HoudiniEngineUnity.HEU_TOPNodeData topNode, System.Int32 inc)
-    // Offset: 0x1817400
+    // Offset: 0x1A45060
     void NotifyTOPNodeScheduledWorkItem(HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, HoudiniEngineUnity::HEU_TOPNodeData* topNode, int inc);
     // private System.Void NotifyTOPNodeCookingWorkItem(HoudiniEngineUnity.HEU_PDGAssetLink assetLink, HoudiniEngineUnity.HEU_TOPNodeData topNode, System.Int32 inc)
-    // Offset: 0x18174B4
+    // Offset: 0x1A45114
     void NotifyTOPNodeCookingWorkItem(HoudiniEngineUnity::HEU_PDGAssetLink* assetLink, HoudiniEngineUnity::HEU_TOPNodeData* topNode, int inc);
     // static private System.Void ResetPDGEventInfo(ref HoudiniEngineUnity.HAPI_PDG_EventInfo eventInfo)
-    // Offset: 0x1817568
+    // Offset: 0x1A451C8
     static void ResetPDGEventInfo(ByRef<HoudiniEngineUnity::HAPI_PDG_EventInfo> eventInfo);
     // private System.Void SetErrorState(System.String msg, System.Boolean bLogIt)
-    // Offset: 0x181757C
+    // Offset: 0x1A451DC
     void SetErrorState(::StringW msg, bool bLogIt);
     // private System.Void ClearErrorState()
-    // Offset: 0x18175C0
+    // Offset: 0x1A45220
     void ClearErrorState();
     // public HoudiniEngineUnity.HEU_SessionBase GetHAPIPDGSession(System.Boolean bCreate)
-    // Offset: 0x1817614
+    // Offset: 0x1A45274
     HoudiniEngineUnity::HEU_SessionBase* GetHAPIPDGSession(bool bCreate);
     // public System.Void CookTOPNetworkOutputNode(HoudiniEngineUnity.HEU_TOPNetworkData topNetwork)
-    // Offset: 0x1815DC4
+    // Offset: 0x1A43A24
     void CookTOPNetworkOutputNode(HoudiniEngineUnity::HEU_TOPNetworkData* topNetwork);
     // public System.Void PauseCook(HoudiniEngineUnity.HEU_TOPNetworkData topNetwork)
-    // Offset: 0x1815E3C
+    // Offset: 0x1A43A9C
     void PauseCook(HoudiniEngineUnity::HEU_TOPNetworkData* topNetwork);
     // public System.Void CancelCook(HoudiniEngineUnity.HEU_TOPNetworkData topNetwork)
-    // Offset: 0x1815EB4
+    // Offset: 0x1A43B14
     void CancelCook(HoudiniEngineUnity::HEU_TOPNetworkData* topNetwork);
     // public System.Void ClearWorkItemResult(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 contextID, HoudiniEngineUnity.HAPI_PDG_EventInfo eventInfo, HoudiniEngineUnity.HEU_TOPNodeData topNode)
-    // Offset: 0x18176A0
+    // Offset: 0x1A45300
     void ClearWorkItemResult(HoudiniEngineUnity::HEU_SessionBase* session, int contextID, HoudiniEngineUnity::HAPI_PDG_EventInfo eventInfo, HoudiniEngineUnity::HEU_TOPNodeData* topNode);
     // public System.Boolean DirtyTOPNode(System.Int32 nodeID)
-    // Offset: 0x1815CAC
+    // Offset: 0x1A4390C
     bool DirtyTOPNode(int nodeID);
     // public System.Boolean CookTOPNode(System.Int32 nodeID)
-    // Offset: 0x1815CE0
+    // Offset: 0x1A43940
     bool CookTOPNode(int nodeID);
     // public System.Boolean DirtyAll(System.Int32 nodeID)
-    // Offset: 0x1815D0C
+    // Offset: 0x1A4396C
     bool DirtyAll(int nodeID);
     // public System.Void AddEventMessage(System.String msg)
-    // Offset: 0x18176A4
+    // Offset: 0x1A45304
     void AddEventMessage(::StringW msg);
     // public System.String GetEventMessages()
-    // Offset: 0x18176C0
+    // Offset: 0x1A45320
     ::StringW GetEventMessages();
     // public System.Void ClearEventMessages()
-    // Offset: 0x18176E0
+    // Offset: 0x1A45340
     void ClearEventMessages();
     // public System.Void .ctor()
-    // Offset: 0x1816E10
+    // Offset: 0x1A44A70
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -16,14 +16,12 @@ namespace GlobalNamespace {
   // Forward declaring type: IPoolablePacket
   class IPoolablePacket;
   // Forward declaring type: VersionedPacketPool`2<T, T2>
-  template<typename T, typename T2>
   class VersionedPacketPool_2;
 }
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: VersionedThreadStaticPacketPool`2<T, T2>
-  template<typename T, typename T2>
   class VersionedThreadStaticPacketPool_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

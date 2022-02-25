@@ -48,10 +48,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String path
     ::StringW& dyn_path();
     // System.Boolean <Load>b__0(System.String s)
-    // Offset: 0x187E164
+    // Offset: 0x1A7A988
     bool $Load$b__0(::StringW s);
     // public System.Void .ctor()
-    // Offset: 0x187E09C
+    // Offset: 0x1A7A8C0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

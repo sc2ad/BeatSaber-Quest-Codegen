@@ -16,7 +16,6 @@
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
-  template<typename TResult>
   class Task_1;
 }
 // Forward declaring namespace: GlobalNamespace
@@ -46,13 +45,13 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::IExperimentModel*>(this);
     }
     // public System.Threading.Tasks.Task`1<System.Boolean> IsEmployee()
-    // Offset: 0x133A72C
+    // Offset: 0x2B275BC
     System::Threading::Tasks::Task_1<bool>* IsEmployee();
     // public System.Threading.Tasks.Task`1<System.Boolean> IsInTest(IExperimentData data)
-    // Offset: 0x133A798
+    // Offset: 0x2B27628
     System::Threading::Tasks::Task_1<bool>* IsInTest(GlobalNamespace::IExperimentData* data);
     // public System.Void .ctor()
-    // Offset: 0x133A804
+    // Offset: 0x2B27694
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

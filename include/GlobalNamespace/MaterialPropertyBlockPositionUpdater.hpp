@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [SpaceAttribute] Offset: 0xF239E0
+    // [SpaceAttribute] Offset: 0x122A520
     // private UnityEngine.Transform _targetTransform
     // Size: 0x8
     // Offset: 0x30
@@ -58,7 +58,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _targetTransform
     UnityEngine::Transform*& dyn__targetTransform();
     // public System.Void .ctor()
-    // Offset: 0x1DB9D60
+    // Offset: 0x208E604
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -72,7 +72,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockPositionUpdater*, creationType>()));
     }
     // protected override System.Void SetProperty()
-    // Offset: 0x1DB9C48
+    // Offset: 0x208E4EC
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::SetProperty()
     void SetProperty();

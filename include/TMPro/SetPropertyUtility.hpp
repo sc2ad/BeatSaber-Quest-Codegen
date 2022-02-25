@@ -19,7 +19,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: IEquatable`1<T>
-  template<typename T>
   class IEquatable_1;
   // Forward declaring type: ValueType
   class ValueType;
@@ -42,7 +41,7 @@ namespace TMPro {
   class SetPropertyUtility : public ::Il2CppObject {
     public:
     // static public System.Boolean SetColor(ref UnityEngine.Color currentValue, UnityEngine.Color newValue)
-    // Offset: 0x123FE44
+    // Offset: 0x1405974
     static bool SetColor(ByRef<UnityEngine::Color> currentValue, UnityEngine::Color newValue);
     // static public System.Boolean SetEquatableStruct(ref T currentValue, T newValue)
     // Offset: 0xFFFFFFFF

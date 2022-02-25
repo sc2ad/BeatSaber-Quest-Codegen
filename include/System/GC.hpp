@@ -30,40 +30,46 @@ namespace System {
     // Set static field: static readonly System.Object EPHEMERON_TOMBSTONE
     static void _set_EPHEMERON_TOMBSTONE(::Il2CppObject* value);
     // static public System.Int32 get_MaxGeneration()
-    // Offset: 0x19ABADC
+    // Offset: 0x188A2D0
     static int get_MaxGeneration();
     // static private System.Void .cctor()
-    // Offset: 0x19ABC8C
+    // Offset: 0x188A534
     static void _cctor();
+    // static private System.Int32 GetCollectionCount(System.Int32 generation)
+    // Offset: 0x188A25C
+    static int GetCollectionCount(int generation);
     // static private System.Int32 GetMaxGeneration()
-    // Offset: 0x19ABA6C
+    // Offset: 0x188A260
     static int GetMaxGeneration();
     // static private System.Void InternalCollect(System.Int32 generation)
-    // Offset: 0x19ABA70
+    // Offset: 0x188A264
     static void InternalCollect(int generation);
     // static System.Void register_ephemeron_array(System.Runtime.CompilerServices.Ephemeron[] array)
-    // Offset: 0x19ABA74
+    // Offset: 0x188A268
     static void register_ephemeron_array(::ArrayW<System::Runtime::CompilerServices::Ephemeron> array);
     // static private System.Object get_ephemeron_tombstone()
-    // Offset: 0x19ABA78
+    // Offset: 0x188A26C
     static ::Il2CppObject* get_ephemeron_tombstone();
     // static public System.Void Collect()
-    // Offset: 0x19ABA7C
+    // Offset: 0x188A270
     static void Collect();
+    // static public System.Int32 CollectionCount(System.Int32 generation)
+    // Offset: 0x188A32C
+    static int CollectionCount(int generation);
     // static public System.Void KeepAlive(System.Object obj)
-    // Offset: 0x19ABB38
+    // Offset: 0x188A3E0
     static void KeepAlive(::Il2CppObject* obj);
     // static private System.Void _SuppressFinalize(System.Object o)
-    // Offset: 0x19ABB3C
+    // Offset: 0x188A3E4
     static void _SuppressFinalize(::Il2CppObject* o);
     // static public System.Void SuppressFinalize(System.Object obj)
-    // Offset: 0x19ABB40
+    // Offset: 0x188A3E8
     static void SuppressFinalize(::Il2CppObject* obj);
     // static private System.Void _ReRegisterForFinalize(System.Object o)
-    // Offset: 0x19ABBE4
+    // Offset: 0x188A48C
     static void _ReRegisterForFinalize(::Il2CppObject* o);
     // static public System.Void ReRegisterForFinalize(System.Object obj)
-    // Offset: 0x19ABBE8
+    // Offset: 0x188A490
     static void ReRegisterForFinalize(::Il2CppObject* obj);
   }; // System.GC
   #pragma pack(pop)
@@ -83,6 +89,15 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::GC::_cctor)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::GC*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: System::GC::GetCollectionCount
+// Il2CppName: GetCollectionCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&System::GC::GetCollectionCount)> {
+  static const MethodInfo* get() {
+    static auto* generation = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::GC*), "GetCollectionCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{generation});
   }
 };
 // Writing MetadataGetter for method: System::GC::GetMaxGeneration
@@ -125,6 +140,15 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::GC::Collect)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::GC*), "Collect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: System::GC::CollectionCount
+// Il2CppName: CollectionCount
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&System::GC::CollectionCount)> {
+  static const MethodInfo* get() {
+    static auto* generation = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::GC*), "CollectionCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{generation});
   }
 };
 // Writing MetadataGetter for method: System::GC::KeepAlive

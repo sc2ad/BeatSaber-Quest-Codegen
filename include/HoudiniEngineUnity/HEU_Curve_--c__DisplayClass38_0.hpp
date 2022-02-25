@@ -20,7 +20,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: HoudiniEngineUnity
@@ -76,16 +75,16 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector3> scales
     System::Collections::Generic::List_1<UnityEngine::Vector3>*& dyn_scales();
     // System.Void <UpdateCurveInputForCustomAttributes>b__0(HoudiniEngineUnity.CurveNodeData data)
-    // Offset: 0x14D4EF4
+    // Offset: 0x16B7FB0
     void $UpdateCurveInputForCustomAttributes$b__0(HoudiniEngineUnity::CurveNodeData* data);
     // System.Void <UpdateCurveInputForCustomAttributes>b__1(System.Int32 nIndex1, System.Int32 nIndex2, System.Single fCoeff, System.Int32 nInsertIndex)
-    // Offset: 0x14D4FA4
+    // Offset: 0x16B8060
     void $UpdateCurveInputForCustomAttributes$b__1(int nIndex1, int nIndex2, float fCoeff, int nInsertIndex);
     // System.Void <UpdateCurveInputForCustomAttributes>b__2(System.Int32 nIndex, System.Int32 nInsertIndex)
-    // Offset: 0x14D5338
+    // Offset: 0x16B83F4
     void $UpdateCurveInputForCustomAttributes$b__2(int nIndex, int nInsertIndex);
     // public System.Void .ctor()
-    // Offset: 0x14D4EEC
+    // Offset: 0x16B7FA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

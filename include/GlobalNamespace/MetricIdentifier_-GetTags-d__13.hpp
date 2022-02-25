@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     int $$1__state;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TupleElementNamesAttribute] Offset: 0xF1DE84
+    // [TupleElementNamesAttribute] Offset: 0x1222C88
     // private System.ValueTuple`2<System.String,System.String> <>2__current
     // Size: 0xFFFFFFFF
     // Offset: 0x18
@@ -90,32 +90,32 @@ namespace GlobalNamespace {
     // Get instance field reference: public MetricIdentifier <>3__<>4__this
     GlobalNamespace::MetricIdentifier& dyn_$$3__$$4__this();
     // private System.ValueTuple`2<System.String,System.String> System.Collections.Generic.IEnumerator<(System.Stringkey,System.Stringvalue)>.get_Current()
-    // Offset: 0x1805F08
+    // Offset: 0x2CA7018
     System::ValueTuple_2<::StringW, ::StringW> System_Collections_Generic_IEnumerator$_System_Stringkey_System_Stringvalue_$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1805F74
+    // Offset: 0x2CA7084
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1805DAC
+    // Offset: 0x2CA6EBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MetricIdentifier::$GetTags$d__13* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MetricIdentifier::$GetTags$d__13::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MetricIdentifier::$GetTags$d__13*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1805E44
+    // Offset: 0x2CA6F54
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1805E48
+    // Offset: 0x2CA6F58
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1805F14
+    // Offset: 0x2CA7024
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<System.ValueTuple`2<System.String,System.String>> System.Collections.Generic.IEnumerable<(System.Stringkey,System.Stringvalue)>.GetEnumerator()
-    // Offset: 0x1805FD8
+    // Offset: 0x2CA70E8
     System::Collections::Generic::IEnumerator_1<System::ValueTuple_2<::StringW, ::StringW>>* System_Collections_Generic_IEnumerable$_System_Stringkey_System_Stringvalue_$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x18060C4
+    // Offset: 0x2CA71D4
     System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // MetricIdentifier/<GetTags>d__13
   // WARNING Not writing size check since size may be invalid!

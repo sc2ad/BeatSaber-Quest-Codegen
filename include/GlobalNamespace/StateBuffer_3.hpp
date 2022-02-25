@@ -26,7 +26,6 @@ namespace GlobalNamespace {
   // Skipping declaration: InterpolationDelegate because it is already included!
   // Skipping declaration: SmoothingDelegate because it is already included!
   // Forward declaring type: IStateTable`3<TStateTable, TType, TState>
-  template<typename TStateTable, typename TType, typename TState>
   class IStateTable_3;
 }
 // Forward declaring namespace: LiteNetLib::Utils
@@ -46,7 +45,6 @@ namespace System {
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: StateBuffer`3<TStateTable, TType, TState>
-  template<typename TStateTable, typename TType, typename TState>
   class StateBuffer_3;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -358,7 +356,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void Clear() {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::StateBuffer_3::Clear");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Clear", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method);
     }
   }; // StateBuffer`3

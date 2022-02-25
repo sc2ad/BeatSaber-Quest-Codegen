@@ -28,13 +28,11 @@ namespace System {
   // Forward declaring type: Action
   class Action;
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: TMPro
@@ -139,49 +137,49 @@ namespace HMUI {
     // Get instance field reference: private System.Collections.Generic.List`1<TMPro.TextMeshProUGUI> _letterBtnTexts
     System::Collections::Generic::List_1<TMPro::TextMeshProUGUI*>*& dyn__letterBtnTexts();
     // public System.Void add_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x14D4498
+    // Offset: 0x16B6554
     void add_okButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_okButtonWasPressedEvent(System.Action value)
-    // Offset: 0x14D453C
+    // Offset: 0x16B65F8
     void remove_okButtonWasPressedEvent(System::Action* value);
     // public System.Void add_keyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0x14C2440
+    // Offset: 0x16A44FC
     void add_keyWasPressedEvent(System::Action_1<::Il2CppChar>* value);
     // public System.Void remove_keyWasPressedEvent(System.Action`1<System.Char> value)
-    // Offset: 0x14C2770
+    // Offset: 0x16A482C
     void remove_keyWasPressedEvent(System::Action_1<::Il2CppChar>* value);
     // public System.Void add_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0x14C24E4
+    // Offset: 0x16A45A0
     void add_deleteButtonWasPressedEvent(System::Action* value);
     // public System.Void remove_deleteButtonWasPressedEvent(System.Action value)
-    // Offset: 0x14C2814
+    // Offset: 0x16A48D0
     void remove_deleteButtonWasPressedEvent(System::Action* value);
     // protected System.Void Awake()
-    // Offset: 0x14D45E0
+    // Offset: 0x16B669C
     void Awake();
     // private System.Void HandleKeyPress(UnityEngine.KeyCode keyCode)
-    // Offset: 0x14D4854
+    // Offset: 0x16B6910
     void HandleKeyPress(UnityEngine::KeyCode keyCode);
     // private System.Void HandleCapsLockPressed()
-    // Offset: 0x14D4950
+    // Offset: 0x16B6A0C
     void HandleCapsLockPressed();
     // private System.Void SetKeyboardCapitalization(System.Boolean capitalize)
-    // Offset: 0x14D4968
+    // Offset: 0x16B6A24
     void SetKeyboardCapitalization(bool capitalize);
     // private System.Boolean HasFontStyle(TMPro.TextMeshProUGUI text, TMPro.FontStyles style)
-    // Offset: 0x14D4A98
+    // Offset: 0x16B6B54
     bool HasFontStyle(TMPro::TextMeshProUGUI* text, TMPro::FontStyles style);
     // private System.Void OnEnable()
-    // Offset: 0x14D4AB8
+    // Offset: 0x16B6B74
     void OnEnable();
     // private System.Void <Awake>b__13_0()
-    // Offset: 0x14D4B2C
+    // Offset: 0x16B6BE8
     void $Awake$b__13_0();
     // private System.Void <Awake>b__13_1()
-    // Offset: 0x14D4B40
+    // Offset: 0x16B6BFC
     void $Awake$b__13_1();
     // public System.Void .ctor()
-    // Offset: 0x14D4AC4
+    // Offset: 0x16B6B80
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

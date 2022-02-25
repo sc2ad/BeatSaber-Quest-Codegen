@@ -59,10 +59,10 @@ namespace NUnit::Compatibility {
     // Get instance field reference: public System.Type to
     System::Type*& dyn_to();
     // System.Boolean <IsCastableFrom>b__0(System.Reflection.MethodInfo m)
-    // Offset: 0x1932180
+    // Offset: 0x1B4A3AC
     bool $IsCastableFrom$b__0(System::Reflection::MethodInfo* m);
     // public System.Void .ctor()
-    // Offset: 0x1931754
+    // Offset: 0x1B49980
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

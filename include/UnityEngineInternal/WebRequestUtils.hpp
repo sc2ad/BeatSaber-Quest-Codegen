@@ -40,19 +40,19 @@ namespace UnityEngineInternal {
     // Set static field: static private System.Text.RegularExpressions.Regex domainRegex
     static void _set_domainRegex(System::Text::RegularExpressions::Regex* value);
     // static private System.Void .cctor()
-    // Offset: 0x26A7900
+    // Offset: 0x2A339B0
     static void _cctor();
     // static System.String RedirectTo(System.String baseUri, System.String redirectUri)
-    // Offset: 0x26A73F4
+    // Offset: 0x2A334A4
     static ::StringW RedirectTo(::StringW baseUri, ::StringW redirectUri);
     // static System.String MakeInitialUrl(System.String targetUrl, System.String localUrl)
-    // Offset: 0x26A5860
+    // Offset: 0x2A31910
     static ::StringW MakeInitialUrl(::StringW targetUrl, ::StringW localUrl);
     // static System.String MakeUriString(System.Uri targetUri, System.String targetUrl, System.Boolean prependProtocol)
-    // Offset: 0x26A74FC
+    // Offset: 0x2A335AC
     static ::StringW MakeUriString(System::Uri* targetUri, ::StringW targetUrl, bool prependProtocol);
     // static private System.String URLDecode(System.String encoded)
-    // Offset: 0x26A784C
+    // Offset: 0x2A338FC
     static ::StringW URLDecode(::StringW encoded);
   }; // UnityEngineInternal.WebRequestUtils
   #pragma pack(pop)

@@ -120,31 +120,31 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Int32 idx
     int& dyn_idx();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1FC555C
+    // Offset: 0x231FD28
     ::StringW get_AlgorithmName();
     // private System.UInt32 Step()
-    // Offset: 0x1FC4F6C
+    // Offset: 0x231F738
     uint Step();
     // private System.Void Init()
-    // Offset: 0x1FC51DC
+    // Offset: 0x231F9A8
     void Init();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1FC55A4
+    // Offset: 0x231FD70
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // private System.Byte GetByte()
-    // Offset: 0x1FC5774
+    // Offset: 0x231FF40
     uint8_t GetByte();
     // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1FC57F4
+    // Offset: 0x231FFC0
     void ProcessBytes(::ArrayW<uint8_t> input, int inOff, int len, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1FC5994
+    // Offset: 0x2320160
     void Reset();
     // static private System.UInt32 RotateRight(System.UInt32 x, System.Int32 bits)
-    // Offset: 0x1FC51D4
+    // Offset: 0x231F9A0
     static uint RotateRight(uint x, int bits);
     // public System.Void .ctor()
-    // Offset: 0x1FC5998
+    // Offset: 0x2320164
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

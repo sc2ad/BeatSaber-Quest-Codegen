@@ -22,7 +22,6 @@ namespace UnityEngine::AddressableAssets {
 // Forward declaring namespace: UnityEngine::ResourceManagement::AsyncOperations
 namespace UnityEngine::ResourceManagement::AsyncOperations {
   // Forward declaring type: AsyncOperationHandle`1<TObject>
-  template<typename TObject>
   struct AsyncOperationHandle_1;
 }
 // Forward declaring namespace: UnityEngine::AddressableAssets::ResourceLocators
@@ -72,10 +71,10 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Get instance field reference: public System.String providerSuffix
     ::StringW& dyn_providerSuffix();
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> <LoadContentCatalog>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> res)
-    // Offset: 0x1612450
+    // Offset: 0x17E79A0
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> $LoadContentCatalog$b__0(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> res);
     // public System.Void .ctor()
-    // Offset: 0x161204C
+    // Offset: 0x17E759C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

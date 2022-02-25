@@ -16,10 +16,8 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: System
@@ -101,23 +99,23 @@ namespace UnityEngine::ResourceManagement::Util {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<System.Object>> m_cache
     System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<::Il2CppObject*>*>*& dyn_m_cache();
     // public System.Void .ctor(System.Int32 poolMaxSize, System.Int32 poolCapacity, System.Int32 poolCacheMaxSize, System.Int32 initialPoolCacheCapacity)
-    // Offset: 0x1BE6D20
+    // Offset: 0x1E21FB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LRUCacheAllocationStrategy* New_ctor(int poolMaxSize, int poolCapacity, int poolCacheMaxSize, int initialPoolCacheCapacity) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LRUCacheAllocationStrategy*, creationType>(poolMaxSize, poolCapacity, poolCacheMaxSize, initialPoolCacheCapacity)));
     }
     // private System.Collections.Generic.List`1<System.Object> GetPool()
-    // Offset: 0x1BF20A0
+    // Offset: 0x1E2D330
     System::Collections::Generic::List_1<::Il2CppObject*>* GetPool();
     // private System.Void ReleasePool(System.Collections.Generic.List`1<System.Object> pool)
-    // Offset: 0x1BF2148
+    // Offset: 0x1E2D3D8
     void ReleasePool(System::Collections::Generic::List_1<::Il2CppObject*>* pool);
     // public System.Object New(System.Type type, System.Int32 typeHash)
-    // Offset: 0x1BF21D0
+    // Offset: 0x1E2D460
     ::Il2CppObject* New(System::Type* type, int typeHash);
     // public System.Void Release(System.Int32 typeHash, System.Object obj)
-    // Offset: 0x1BF2310
+    // Offset: 0x1E2D5A0
     void Release(int typeHash, ::Il2CppObject* obj);
   }; // UnityEngine.ResourceManagement.Util.LRUCacheAllocationStrategy
   #pragma pack(pop)

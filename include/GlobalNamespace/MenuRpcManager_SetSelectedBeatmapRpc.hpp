@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   class MenuRpcManager::SetSelectedBeatmapRpc : public GlobalNamespace::RemoteProcedureCall_1<GlobalNamespace::BeatmapIdentifierNetSerializable*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x18040C8
+    // Offset: 0x2CA51D8
     // Implemented from: RemoteProcedureCall`1
     // Base method: System.Void RemoteProcedureCall_1::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

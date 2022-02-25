@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Int32 nodeIdx
     int& dyn_nodeIdx();
     // public System.Void .ctor(UnityEngine.XR.XRNode nodeType, System.Int32 nodeIdx)
-    // Offset: 0x1BDB4DC
+    // Offset: 0x2CB9238
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRControllersRecorderData::NodeInfo* New_ctor(UnityEngine::XR::XRNode nodeType, int nodeIdx) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRControllersRecorderData::NodeInfo::.ctor");

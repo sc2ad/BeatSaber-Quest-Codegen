@@ -73,16 +73,16 @@ namespace GlobalNamespace {
     // Set static field: static public OVRComposition currentComposition
     static void _set_currentComposition(GlobalNamespace::OVRComposition* value);
     // static private System.Void .cctor()
-    // Offset: 0x14776C4
+    // Offset: 0x1647E4C
     static void _cctor();
     // static public System.Void Update(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, OVRMixedRealityCaptureConfiguration configuration, OVRManager/TrackingOrigin trackingOrigin)
-    // Offset: 0x1476B94
+    // Offset: 0x164731C
     static void Update(UnityEngine::GameObject* parentObject, UnityEngine::Camera* mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration, GlobalNamespace::OVRManager_TrackingOrigin trackingOrigin);
     // static public System.Void Cleanup()
-    // Offset: 0x147741C
+    // Offset: 0x1647BA4
     static void Cleanup();
     // static public System.Void RecenterPose()
-    // Offset: 0x1477618
+    // Offset: 0x1647DA0
     static void RecenterPose();
   }; // OVRMixedReality
   #pragma pack(pop)

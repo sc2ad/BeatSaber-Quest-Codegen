@@ -59,7 +59,7 @@ namespace UnityEngine::Rendering {
     static UnityEngine::Rendering::PassType _get_VertexLM();
     // Set static field: static public UnityEngine.Rendering.PassType VertexLM
     static void _set_VertexLM(UnityEngine::Rendering::PassType value);
-    // [ObsoleteAttribute] Offset: 0xEB9284
+    // [ObsoleteAttribute] Offset: 0x11AA2C8
     // static field const value: static public UnityEngine.Rendering.PassType VertexLMRGBM
     static constexpr const int VertexLMRGBM = 3;
     // Get static field: static public UnityEngine.Rendering.PassType VertexLMRGBM

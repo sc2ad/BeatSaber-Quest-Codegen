@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 preallocateCount
     int& dyn_preallocateCount();
     // public System.Void .ctor()
-    // Offset: 0x1DB2D4C
+    // Offset: 0x20875F0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

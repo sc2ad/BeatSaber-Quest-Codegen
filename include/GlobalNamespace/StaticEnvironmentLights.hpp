@@ -67,10 +67,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Material[] _materials
     ::ArrayW<UnityEngine::Material*>& dyn__materials();
     // protected System.Void Awake()
-    // Offset: 0x1223A0C
+    // Offset: 0x2ADEECC
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x1223AB4
+    // Offset: 0x2ADEF74
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -18,7 +18,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: HoudiniEngineUnity
@@ -66,10 +65,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector3> scales
     System::Collections::Generic::List_1<UnityEngine::Vector3>*& dyn_scales();
     // System.Void <UpdatePoints>b__0(HoudiniEngineUnity.CurveNodeData data)
-    // Offset: 0x14D554C
+    // Offset: 0x16B8608
     void $UpdatePoints$b__0(HoudiniEngineUnity::CurveNodeData* data);
     // public System.Void .ctor()
-    // Offset: 0x14D5544
+    // Offset: 0x16B8600
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

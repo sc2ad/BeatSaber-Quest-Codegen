@@ -16,7 +16,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: HashSet`1<T>
-  template<typename T>
   class HashSet_1;
 }
 // Completed forward declares
@@ -55,10 +54,10 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public System.Collections.Generic.HashSet`1<System.Int32> common
     System::Collections::Generic::HashSet_1<int>*& dyn_common();
     // System.Boolean <SortCommonIndexesByAdjacency>b__0(UnityEngine.ProBuilder.WingedEdge x)
-    // Offset: 0x258C9CC
+    // Offset: 0x28D0F0C
     bool $SortCommonIndexesByAdjacency$b__0(UnityEngine::ProBuilder::WingedEdge* x);
     // public System.Void .ctor()
-    // Offset: 0x258C7D0
+    // Offset: 0x28D0D10
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

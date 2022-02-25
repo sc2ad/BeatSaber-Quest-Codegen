@@ -20,7 +20,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System
@@ -108,7 +107,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Collections.Generic.List`1<PlayerSaveData/GuestPlayer> guestPlayers
     System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::GuestPlayer*>*& dyn_guestPlayers();
     // public System.Void .ctor()
-    // Offset: 0x11AA808
+    // Offset: 0x13DF5D4
     // Implemented from: VersionSaveData
     // Base method: System.Void VersionSaveData::.ctor()
     // Base method: System.Void Object::.ctor()

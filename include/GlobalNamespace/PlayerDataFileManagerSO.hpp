@@ -35,6 +35,8 @@ namespace GlobalNamespace {
   class PlayerSaveDataV1_0_1;
   // Forward declaring type: OverrideEnvironmentSettings
   class OverrideEnvironmentSettings;
+  // Forward declaring type: EnvironmentInfoSO
+  class EnvironmentInfoSO;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -163,37 +165,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Version _eulaUpdateVersion
     System::Version*& dyn__eulaUpdateVersion();
     // public System.Void Save(PlayerData playerData)
-    // Offset: 0x11535AC
+    // Offset: 0x13DE8F8
     void Save(GlobalNamespace::PlayerData* playerData);
     // public PlayerData Load()
-    // Offset: 0x1154240
+    // Offset: 0x13DF928
     GlobalNamespace::PlayerData* Load();
     // private PlayerData LoadFromJSONString(System.String jsonString)
-    // Offset: 0x115431C
+    // Offset: 0x13DFA04
     GlobalNamespace::PlayerData* LoadFromJSONString(::StringW jsonString);
     // private PlayerData LoadFromCurrentVersion(PlayerSaveData playerSaveData)
-    // Offset: 0x1154D84
+    // Offset: 0x13E04B4
     GlobalNamespace::PlayerData* LoadFromCurrentVersion(GlobalNamespace::PlayerSaveData* playerSaveData);
     // private PlayerData LoadFromVersionV1_0_1(PlayerSaveDataV1_0_1 playerDataModelSaveData)
-    // Offset: 0x1154584
+    // Offset: 0x13DFC70
     GlobalNamespace::PlayerData* LoadFromVersionV1_0_1(GlobalNamespace::PlayerSaveDataV1_0_1* playerDataModelSaveData);
     // public PlayerData CreateDefaultPlayerData()
-    // Offset: 0x11544B8
+    // Offset: 0x13DFBA0
     GlobalNamespace::PlayerData* CreateDefaultPlayerData();
     // static public System.String GetLevelIdFromV_1_0_1LevelId(System.String oldLevelId, BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x1155B74
+    // Offset: 0x13E1980
     static ::StringW GetLevelIdFromV_1_0_1LevelId(::StringW oldLevelId, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // static public BeatmapCharacteristicSO GetBeatmapCharacteristicFromV_1_0_1LevelId(BeatmapCharacteristicCollectionSO beatmapCharacteristicCollection, System.String levelId)
-    // Offset: 0x1155A40
+    // Offset: 0x13E184C
     static GlobalNamespace::BeatmapCharacteristicSO* GetBeatmapCharacteristicFromV_1_0_1LevelId(GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection, ::StringW levelId);
     // private OverrideEnvironmentSettings CreateDefaultOverrideEnvironmentSettings()
-    // Offset: 0x1155BE0
+    // Offset: 0x13E1A28
     GlobalNamespace::OverrideEnvironmentSettings* CreateDefaultOverrideEnvironmentSettings();
+    // public EnvironmentInfoSO GetEnvironmentInfoBySerializedName(System.String environmentName)
+    // Offset: 0x13E1AF4
+    GlobalNamespace::EnvironmentInfoSO* GetEnvironmentInfoBySerializedName(::StringW environmentName);
     // private System.String LoadCorrectedSongPackMask(System.Byte[] songMaskPackBytes)
-    // Offset: 0x11559C4
+    // Offset: 0x13E13F4
     ::StringW LoadCorrectedSongPackMask(::ArrayW<uint8_t> songMaskPackBytes);
     // public System.Void .ctor()
-    // Offset: 0x1155CA0
+    // Offset: 0x13E1B10
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::.ctor()
     // Base method: System.Void ScriptableObject::.ctor()
@@ -288,6 +293,15 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OverrideEnvironmentSettings* (GlobalNamespace::PlayerDataFileManagerSO::*)()>(&GlobalNamespace::PlayerDataFileManagerSO::CreateDefaultOverrideEnvironmentSettings)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataFileManagerSO*), "CreateDefaultOverrideEnvironmentSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::PlayerDataFileManagerSO::GetEnvironmentInfoBySerializedName
+// Il2CppName: GetEnvironmentInfoBySerializedName
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentInfoSO* (GlobalNamespace::PlayerDataFileManagerSO::*)(::StringW)>(&GlobalNamespace::PlayerDataFileManagerSO::GetEnvironmentInfoBySerializedName)> {
+  static const MethodInfo* get() {
+    static auto* environmentName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataFileManagerSO*), "GetEnvironmentInfoBySerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{environmentName});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PlayerDataFileManagerSO::LoadCorrectedSongPackMask

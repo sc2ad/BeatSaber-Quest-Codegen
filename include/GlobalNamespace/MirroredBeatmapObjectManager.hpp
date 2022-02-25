@@ -22,7 +22,6 @@ namespace GlobalNamespace {
   // Forward declaring type: BeatmapObjectManager
   class BeatmapObjectManager;
   // Forward declaring type: MemoryPoolContainer`1<T>
-  template<typename T>
   class MemoryPoolContainer_1;
   // Forward declaring type: NoteController
   class NoteController;
@@ -36,7 +35,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Completed forward declares
@@ -123,29 +121,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<ObstacleController,MirroredObstacleController> _obstacleControllersToMirroredObstacleControllers
     System::Collections::Generic::Dictionary_2<GlobalNamespace::ObstacleController*, GlobalNamespace::MirroredObstacleController*>*& dyn__obstacleControllersToMirroredObstacleControllers();
     // private System.Void .ctor(BeatmapObjectManager beatmapObjectManager, MirroredCubeNoteController/Pool mirroredCubeNotePool, MirroredBombNoteController/Pool mirroredBombNotePool, MirroredObstacleController/Pool mirroredObstaclePool)
-    // Offset: 0x115D770
+    // Offset: 0x2A6A1FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MirroredBeatmapObjectManager* New_ctor(GlobalNamespace::BeatmapObjectManager* beatmapObjectManager, GlobalNamespace::MirroredCubeNoteController::Pool* mirroredCubeNotePool, GlobalNamespace::MirroredBombNoteController::Pool* mirroredBombNotePool, GlobalNamespace::MirroredObstacleController::Pool* mirroredObstaclePool) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MirroredBeatmapObjectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MirroredBeatmapObjectManager*, creationType>(beatmapObjectManager, mirroredCubeNotePool, mirroredBombNotePool, mirroredObstaclePool)));
     }
     // private System.Void HandleNoteWasSpawned(NoteController noteController)
-    // Offset: 0x115DC54
+    // Offset: 0x2A6A6E0
     void HandleNoteWasSpawned(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleNoteWasDespawned(NoteController noteController)
-    // Offset: 0x115DD7C
+    // Offset: 0x2A6A808
     void HandleNoteWasDespawned(GlobalNamespace::NoteController* noteController);
     // private System.Void HandleObstacleWasSpawned(ObstacleController obstacleController)
-    // Offset: 0x115DEB0
+    // Offset: 0x2A6A93C
     void HandleObstacleWasSpawned(GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void HandleObstacleWasDespawned(ObstacleController obstacleController)
-    // Offset: 0x115E03C
+    // Offset: 0x2A6AAC8
     void HandleObstacleWasDespawned(GlobalNamespace::ObstacleController* obstacleController);
     // private System.Void HandleDidHideAllBeatmapObjects(System.Boolean hide)
-    // Offset: 0x115E0EC
+    // Offset: 0x2A6AB78
     void HandleDidHideAllBeatmapObjects(bool hide);
     // protected override System.Void Finalize()
-    // Offset: 0x115DA38
+    // Offset: 0x2A6A4C4
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

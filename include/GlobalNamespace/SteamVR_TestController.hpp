@@ -19,7 +19,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -97,22 +96,22 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Transform pointer
     UnityEngine::Transform*& dyn_pointer();
     // private System.Void OnDeviceConnected(System.Int32 index, System.Boolean connected)
-    // Offset: 0x15CA1D4
+    // Offset: 0x17CFFF4
     void OnDeviceConnected(int index, bool connected);
     // private System.Void OnEnable()
-    // Offset: 0x15CA7D8
+    // Offset: 0x17D05F8
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x15CA89C
+    // Offset: 0x17D06BC
     void OnDisable();
     // private System.Void PrintControllerStatus(System.Int32 index)
-    // Offset: 0x15CA388
+    // Offset: 0x17D01A8
     void PrintControllerStatus(int index);
     // private System.Void Update()
-    // Offset: 0x15CA960
+    // Offset: 0x17D0780
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x15CB2B0
+    // Offset: 0x17D10D0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -70,13 +70,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Animation _animation
     UnityEngine::Animation*& dyn__animation();
     // public System.Void SetTextAndRunAnimation(System.String text)
-    // Offset: 0x118E98C
+    // Offset: 0x13C43E4
     void SetTextAndRunAnimation(::StringW text);
     // public System.Void StopAndHide()
-    // Offset: 0x118E9EC
+    // Offset: 0x13C4444
     void StopAndHide();
     // public System.Void .ctor()
-    // Offset: 0x118EA8C
+    // Offset: 0x13C44E4
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

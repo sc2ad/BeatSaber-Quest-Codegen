@@ -11,7 +11,6 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: HMCache`2<K, V>
-  template<typename K, typename V>
   class HMCache_2;
 }
 // Forward declaring namespace: UnityEngine
@@ -22,7 +21,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: System::Collections
@@ -54,13 +52,13 @@ namespace GlobalNamespace {
     // Set static field: static private HMCache`2<System.String,UnityEngine.Texture2D> _cache
     static void _set__cache(GlobalNamespace::HMCache_2<::StringW, UnityEngine::Texture2D*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x123A8C0
+    // Offset: 0x13CD10C
     static void _cctor();
     // static public System.Void LoadTexture(System.String filePath, System.Boolean useCache, System.Action`1<UnityEngine.Texture2D> finishedCallback)
-    // Offset: 0x123A740
+    // Offset: 0x13CCF8C
     static void LoadTexture(::StringW filePath, bool useCache, System::Action_1<UnityEngine::Texture2D*>* finishedCallback);
     // static public System.Collections.IEnumerator LoadTextureCoroutine(System.String filePath, System.Boolean useCache, System.Action`1<UnityEngine.Texture2D> finishedCallback)
-    // Offset: 0x123A80C
+    // Offset: 0x13CD058
     static System::Collections::IEnumerator* LoadTextureCoroutine(::StringW filePath, bool useCache, System::Action_1<UnityEngine::Texture2D*>* finishedCallback);
   }; // SimpleTextureLoader
   #pragma pack(pop)

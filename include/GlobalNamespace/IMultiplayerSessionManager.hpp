@@ -25,13 +25,11 @@ namespace GlobalNamespace {
   // Forward declaring type: ConnectedPlayerManager
   class ConnectedPlayerManager;
   // Forward declaring type: INetworkPacketSubSerializer`1<TData>
-  template<typename TData>
   class INetworkPacketSubSerializer_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IReadOnlyList`1<T>
-  template<typename T>
   class IReadOnlyList_1;
 }
 // Forward declaring namespace: System
@@ -39,13 +37,10 @@ namespace System {
   // Forward declaring type: Action
   class Action;
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
   // Forward declaring type: Action`2<T1, T2>
-  template<typename T1, typename T2>
   class Action_2;
   // Forward declaring type: Func`1<TResult>
-  template<typename TResult>
   class Func_1;
 }
 // Forward declaring namespace: LiteNetLib::Utils
@@ -82,9 +77,6 @@ namespace GlobalNamespace {
     // public System.Boolean get_isSyncTimeInitialized()
     // Offset: 0xFFFFFFFF
     bool get_isSyncTimeInitialized();
-    // public System.Single get_syncTimeDelay()
-    // Offset: 0xFFFFFFFF
-    float get_syncTimeDelay();
     // public System.Int32 get_maxPlayerCount()
     // Offset: 0xFFFFFFFF
     int get_maxPlayerCount();
@@ -163,9 +155,9 @@ namespace GlobalNamespace {
     // public System.Void SetMaxPlayerCount(System.Int32 maxPlayerCount)
     // Offset: 0xFFFFFFFF
     void SetMaxPlayerCount(int maxPlayerCount);
-    // public System.Void StartSession(ConnectedPlayerManager connectedPlayerManager)
+    // public System.Void StartSession(MultiplayerSessionManager/SessionType sessionType, ConnectedPlayerManager connectedPlayerManager)
     // Offset: 0xFFFFFFFF
-    void StartSession(GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager);
+    void StartSession(GlobalNamespace::MultiplayerSessionManager::SessionType sessionType, GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager);
     // public System.Void EndSession()
     // Offset: 0xFFFFFFFF
     void EndSession();
@@ -290,14 +282,6 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IMultiplayerSessionManager::*)()>(&GlobalNamespace::IMultiplayerSessionManager::get_isSyncTimeInitialized)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerSessionManager*), "get_isSyncTimeInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::IMultiplayerSessionManager::get_syncTimeDelay
-// Il2CppName: get_syncTimeDelay
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::IMultiplayerSessionManager::*)()>(&GlobalNamespace::IMultiplayerSessionManager::get_syncTimeDelay)> {
-  static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerSessionManager*), "get_syncTimeDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerSessionManager::get_maxPlayerCount
@@ -528,10 +512,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerSessionManager::StartSession
 // Il2CppName: StartSession
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerSessionManager::*)(GlobalNamespace::ConnectedPlayerManager*)>(&GlobalNamespace::IMultiplayerSessionManager::StartSession)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerSessionManager::*)(GlobalNamespace::MultiplayerSessionManager::SessionType, GlobalNamespace::ConnectedPlayerManager*)>(&GlobalNamespace::IMultiplayerSessionManager::StartSession)> {
   static const MethodInfo* get() {
+    static auto* sessionType = &::il2cpp_utils::GetClassFromName("", "MultiplayerSessionManager/SessionType")->byval_arg;
     static auto* connectedPlayerManager = &::il2cpp_utils::GetClassFromName("", "ConnectedPlayerManager")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerSessionManager*), "StartSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connectedPlayerManager});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerSessionManager*), "StartSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sessionType, connectedPlayerManager});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerSessionManager::EndSession

@@ -29,10 +29,10 @@ namespace GlobalNamespace {
   class PersistentScriptableObject : public UnityEngine::ScriptableObject {
     public:
     // protected System.Void OnEnable()
-    // Offset: 0x138E544
+    // Offset: 0x2C15EE0
     void OnEnable();
     // public System.Void .ctor()
-    // Offset: 0x13A1858
+    // Offset: 0x2C294AC
     // Implemented from: UnityEngine.ScriptableObject
     // Base method: System.Void ScriptableObject::.ctor()
     // Base method: System.Void Object::.ctor()

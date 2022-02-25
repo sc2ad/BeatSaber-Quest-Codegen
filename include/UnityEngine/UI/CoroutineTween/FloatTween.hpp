@@ -16,7 +16,6 @@ namespace UnityEngine::UI::CoroutineTween {
 // Forward declaring namespace: UnityEngine::Events
 namespace UnityEngine::Events {
   // Forward declaring type: UnityAction`1<T0>
-  template<typename T0>
   class UnityAction_1;
 }
 // Completed forward declares
@@ -91,43 +90,43 @@ namespace UnityEngine::UI::CoroutineTween {
     // Get instance field reference: private System.Boolean m_IgnoreTimeScale
     bool& dyn_m_IgnoreTimeScale();
     // public System.Single get_startValue()
-    // Offset: 0x166FFBC
+    // Offset: 0x1875310
     float get_startValue();
     // public System.Void set_startValue(System.Single value)
-    // Offset: 0x166FFC4
+    // Offset: 0x1875318
     void set_startValue(float value);
     // public System.Single get_targetValue()
-    // Offset: 0x166FFCC
+    // Offset: 0x1875320
     float get_targetValue();
     // public System.Void set_targetValue(System.Single value)
-    // Offset: 0x166FFD4
+    // Offset: 0x1875328
     void set_targetValue(float value);
     // public System.Single get_duration()
-    // Offset: 0x166FFDC
+    // Offset: 0x1875330
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x166FFE4
+    // Offset: 0x1875338
     void set_duration(float value);
     // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0x166FFEC
+    // Offset: 0x1875340
     bool get_ignoreTimeScale();
     // public System.Void set_ignoreTimeScale(System.Boolean value)
-    // Offset: 0x166FFF4
+    // Offset: 0x1875348
     void set_ignoreTimeScale(bool value);
     // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0x1670000
+    // Offset: 0x1875354
     void TweenValue(float floatPercentage);
     // public System.Void AddOnChangedCallback(UnityEngine.Events.UnityAction`1<System.Single> callback)
-    // Offset: 0x16700D0
+    // Offset: 0x1875424
     void AddOnChangedCallback(UnityEngine::Events::UnityAction_1<float>* callback);
     // public System.Boolean GetIgnoreTimescale()
-    // Offset: 0x16701AC
+    // Offset: 0x1875500
     bool GetIgnoreTimescale();
     // public System.Single GetDuration()
-    // Offset: 0x16701B4
+    // Offset: 0x1875508
     float GetDuration();
     // public System.Boolean ValidTarget()
-    // Offset: 0x16700C0
+    // Offset: 0x1875414
     bool ValidTarget();
   }; // UnityEngine.UI.CoroutineTween.FloatTween
   #pragma pack(pop)

@@ -25,7 +25,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Completed forward declares
@@ -54,7 +53,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectAttribute] Offset: 0xF3C660
+    // [InjectAttribute] Offset: 0x1242FD4
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
     // Offset: 0x18
@@ -115,10 +114,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _rotatingLasers
     bool& dyn__rotatingLasers();
     // protected System.Void Update()
-    // Offset: 0x11E00E8
+    // Offset: 0x13FC7BC
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x11E056C
+    // Offset: 0x13FCC40
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

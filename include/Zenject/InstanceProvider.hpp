@@ -30,7 +30,6 @@ namespace Zenject {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -90,26 +89,26 @@ namespace Zenject {
     // Get instance field reference: private readonly Zenject.DiContainer _container
     Zenject::DiContainer*& dyn__container();
     // public System.Boolean get_IsCached()
-    // Offset: 0x18D2AEC
+    // Offset: 0x1B03178
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x18D2AF4
+    // Offset: 0x1B03180
     bool get_TypeVariesBasedOnMemberType();
     // public System.Void .ctor(System.Type instanceType, System.Object instance, Zenject.DiContainer container)
-    // Offset: 0x18D2AAC
+    // Offset: 0x1B03138
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InstanceProvider* New_ctor(System::Type* instanceType, ::Il2CppObject* instance, Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InstanceProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InstanceProvider*, creationType>(instanceType, instance, container)));
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x18D2AFC
+    // Offset: 0x1B03188
     System::Type* GetInstanceType(Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x18D2B04
+    // Offset: 0x1B03190
     void GetAllInstancesWithInjectSplit(Zenject::InjectContext* context, System::Collections::Generic::List_1<Zenject::TypeValuePair>* args, ByRef<System::Action*> injectAction, System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
     // private System.Void <GetAllInstancesWithInjectSplit>b__9_0()
-    // Offset: 0x18D2C2C
+    // Offset: 0x1B032B8
     void $GetAllInstancesWithInjectSplit$b__9_0();
   }; // Zenject.InstanceProvider
   #pragma pack(pop)

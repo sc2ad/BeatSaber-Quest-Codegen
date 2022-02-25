@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 nextEventIndex
     int& dyn_nextEventIndex();
     // public System.Void .ctor(BeatmapEventCallback callback, System.Single aheadTime)
-    // Offset: 0x131F480
+    // Offset: 0x14BE24C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEventCallbackData* New_ctor(GlobalNamespace::BeatmapEventCallback* callback, float aheadTime) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BeatmapEventCallbackData::.ctor");

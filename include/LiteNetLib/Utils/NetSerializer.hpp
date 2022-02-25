@@ -24,7 +24,6 @@ namespace LiteNetLib::Utils {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: System
@@ -34,13 +33,10 @@ namespace System {
   // Forward declaring type: ValueType
   class ValueType;
   // Forward declaring type: Func`1<TResult>
-  template<typename TResult>
   class Func_1;
   // Forward declaring type: Action`2<T1, T2>
-  template<typename T1, typename T2>
   class Action_2;
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -61,84 +57,58 @@ namespace LiteNetLib::Utils {
   class NetSerializer : public ::Il2CppObject {
     public:
     // Nested type: LiteNetLib::Utils::NetSerializer::FastCall_1<T>
-    template<typename T>
     class FastCall_1;
     // Nested type: LiteNetLib::Utils::NetSerializer::FastCallSpecific_2<TClass, TProperty>
-    template<typename TClass, typename TProperty>
     class FastCallSpecific_2;
     // Nested type: LiteNetLib::Utils::NetSerializer::FastCallSpecificAuto_2<TClass, TProperty>
-    template<typename TClass, typename TProperty>
     class FastCallSpecificAuto_2;
     // Nested type: LiteNetLib::Utils::NetSerializer::FastCallStatic_2<TClass, TProperty>
-    template<typename TClass, typename TProperty>
     class FastCallStatic_2;
     // Nested type: LiteNetLib::Utils::NetSerializer::FastCallStruct_2<TClass, TProperty>
-    template<typename TClass, typename TProperty>
     class FastCallStruct_2;
     // Nested type: LiteNetLib::Utils::NetSerializer::FastCallClass_2<TClass, TProperty>
-    template<typename TClass, typename TProperty>
     class FastCallClass_2;
     // Nested type: LiteNetLib::Utils::NetSerializer::IntSerializer_1<T>
-    template<typename T>
     class IntSerializer_1;
     // Nested type: LiteNetLib::Utils::NetSerializer::UIntSerializer_1<T>
-    template<typename T>
     class UIntSerializer_1;
     // Nested type: LiteNetLib::Utils::NetSerializer::ShortSerializer_1<T>
-    template<typename T>
     class ShortSerializer_1;
     // Nested type: LiteNetLib::Utils::NetSerializer::UShortSerializer_1<T>
-    template<typename T>
     class UShortSerializer_1;
     // Nested type: LiteNetLib::Utils::NetSerializer::LongSerializer_1<T>
-    template<typename T>
     class LongSerializer_1;
     // Nested type: LiteNetLib::Utils::NetSerializer::ULongSerializer_1<T>
-    template<typename T>
     class ULongSerializer_1;
     // Nested type: LiteNetLib::Utils::NetSerializer::ByteSerializer_1<T>
-    template<typename T>
     class ByteSerializer_1;
     // Nested type: LiteNetLib::Utils::NetSerializer::SByteSerializer_1<T>
-    template<typename T>
     class SByteSerializer_1;
     // Nested type: LiteNetLib::Utils::NetSerializer::FloatSerializer_1<T>
-    template<typename T>
     class FloatSerializer_1;
     // Nested type: LiteNetLib::Utils::NetSerializer::DoubleSerializer_1<T>
-    template<typename T>
     class DoubleSerializer_1;
     // Nested type: LiteNetLib::Utils::NetSerializer::BoolSerializer_1<T>
-    template<typename T>
     class BoolSerializer_1;
     // Nested type: LiteNetLib::Utils::NetSerializer::CharSerializer_1<T>
-    template<typename T>
     class CharSerializer_1;
     // Nested type: LiteNetLib::Utils::NetSerializer::IPEndPointSerializer_1<T>
-    template<typename T>
     class IPEndPointSerializer_1;
     // Nested type: LiteNetLib::Utils::NetSerializer::StringSerializer_1<T>
-    template<typename T>
     class StringSerializer_1;
     // Nested type: LiteNetLib::Utils::NetSerializer::EnumByteSerializer_1<T>
-    template<typename T>
     class EnumByteSerializer_1;
     // Nested type: LiteNetLib::Utils::NetSerializer::EnumIntSerializer_1<T>
-    template<typename T>
     class EnumIntSerializer_1;
     // Nested type: LiteNetLib::Utils::NetSerializer::ClassInfo_1<T>
-    template<typename T>
     class ClassInfo_1;
     // Nested type: LiteNetLib::Utils::NetSerializer::CustomType
     class CustomType;
     // Nested type: LiteNetLib::Utils::NetSerializer::CustomTypeStruct_1<TProperty>
-    template<typename TProperty>
     class CustomTypeStruct_1;
     // Nested type: LiteNetLib::Utils::NetSerializer::CustomTypeClass_1<TProperty>
-    template<typename TProperty>
     class CustomTypeClass_1;
     // Nested type: LiteNetLib::Utils::NetSerializer::CustomTypeStatic_1<TProperty>
-    template<typename TProperty>
     class CustomTypeStatic_1;
     #ifdef USE_CODEGEN_FIELDS
     public:
@@ -177,7 +147,7 @@ namespace LiteNetLib::Utils {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.Type,LiteNetLib.Utils.NetSerializer/LiteNetLib.Utils.CustomType> _registeredTypes
     System::Collections::Generic::Dictionary_2<System::Type*, LiteNetLib::Utils::NetSerializer::CustomType*>*& dyn__registeredTypes();
     // public System.Void .ctor(System.Int32 maxStringLength)
-    // Offset: 0x26C1D84
+    // Offset: 0x2A4EE34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSerializer* New_ctor(int maxStringLength) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::.ctor");
@@ -267,7 +237,7 @@ namespace LiteNetLib::Utils {
       return ::il2cpp_utils::RunMethodRethrow<::ArrayW<uint8_t>, false>(this, ___generic__method, obj);
     }
     // public System.Void .ctor()
-    // Offset: 0x26C1CBC
+    // Offset: 0x2A4ED6C
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

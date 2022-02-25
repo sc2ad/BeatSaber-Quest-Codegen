@@ -23,7 +23,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -44,13 +43,13 @@ namespace GlobalNamespace {
   class HEU_BoundingVolume : public UnityEngine::MonoBehaviour {
     public:
     // public UnityEngine.Collider get_BoundingCollider()
-    // Offset: 0x145F9A8
+    // Offset: 0x1630130
     UnityEngine::Collider* get_BoundingCollider();
     // public System.Collections.Generic.List`1<UnityEngine.GameObject> GetAllIntersectingObjects()
-    // Offset: 0x145F9F8
+    // Offset: 0x1630180
     System::Collections::Generic::List_1<UnityEngine::GameObject*>* GetAllIntersectingObjects();
     // public System.Void .ctor()
-    // Offset: 0x145FC58
+    // Offset: 0x16303E0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

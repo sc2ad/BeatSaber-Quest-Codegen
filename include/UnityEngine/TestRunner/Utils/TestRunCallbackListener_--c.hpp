@@ -16,7 +16,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: System::Reflection
@@ -29,7 +28,6 @@ namespace System::Reflection {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: UnityEngine::TestRunner
@@ -73,22 +71,22 @@ namespace UnityEngine::TestRunner::Utils {
     // Set static field: static public System.Func`2<UnityEngine.TestRunner.TestRunCallbackAttribute,UnityEngine.TestRunner.ITestRunCallback> <>9__2_2
     static void _set_$$9__2_2(System::Func_2<UnityEngine::TestRunner::TestRunCallbackAttribute*, UnityEngine::TestRunner::ITestRunCallback*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x16CC440
+    // Offset: 0x18D51EC
     static void _cctor();
     // System.Boolean <GetAllCallbacks>b__2_0(System.Reflection.Assembly x)
-    // Offset: 0x16CC4AC
+    // Offset: 0x18D5258
     bool $GetAllCallbacks$b__2_0(System::Reflection::Assembly* x);
     // System.Boolean <GetAllCallbacks>b__2_3(System.Reflection.AssemblyName z)
-    // Offset: 0x16CC5C0
+    // Offset: 0x18D536C
     bool $GetAllCallbacks$b__2_3(System::Reflection::AssemblyName* z);
     // System.Collections.Generic.IEnumerable`1<UnityEngine.TestRunner.TestRunCallbackAttribute> <GetAllCallbacks>b__2_1(System.Reflection.Assembly assembly)
-    // Offset: 0x16CC61C
+    // Offset: 0x18D53C8
     System::Collections::Generic::IEnumerable_1<UnityEngine::TestRunner::TestRunCallbackAttribute*>* $GetAllCallbacks$b__2_1(System::Reflection::Assembly* assembly);
     // UnityEngine.TestRunner.ITestRunCallback <GetAllCallbacks>b__2_2(UnityEngine.TestRunner.TestRunCallbackAttribute attribute)
-    // Offset: 0x16CC6C0
+    // Offset: 0x18D5470
     UnityEngine::TestRunner::ITestRunCallback* $GetAllCallbacks$b__2_2(UnityEngine::TestRunner::TestRunCallbackAttribute* attribute);
     // public System.Void .ctor()
-    // Offset: 0x16CC4A4
+    // Offset: 0x18D5250
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -51,7 +51,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public PlayerSaveDataV1_0_1/PlayerSpecificSettings playerSpecificSettings
     GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings*& dyn_playerSpecificSettings();
     // public System.Void .ctor()
-    // Offset: 0x11AAACC
+    // Offset: 0x13E3948
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

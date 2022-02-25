@@ -41,8 +41,7 @@ namespace GlobalNamespace {
   class RemoteProcedureCall : public ::Il2CppObject/*, public GlobalNamespace::IRemoteProcedureCall*/ {
     public:
     // Nested type: GlobalNamespace::RemoteProcedureCall::TypeWrapper_1<T>
-    template<typename T>
-    struct TypeWrapper_1;
+    class TypeWrapper_1;
     #ifdef USE_CODEGEN_FIELDS
     public:
     #else
@@ -70,31 +69,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <syncTime>k__BackingField
     float& dyn_$syncTime$k__BackingField();
     // public System.Single get_syncTime()
-    // Offset: 0x1810820
+    // Offset: 0x2E01D68
     float get_syncTime();
-    // public System.Void set_syncTime(System.Single value)
-    // Offset: 0x1810828
+    // protected System.Void set_syncTime(System.Single value)
+    // Offset: 0x2E01D70
     void set_syncTime(float value);
-    // protected System.Void SerializeData(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1810830
-    void SerializeData(LiteNetLib::Utils::NetDataWriter* writer);
-    // protected System.Void DeserializeData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1810834
-    void DeserializeData(LiteNetLib::Utils::NetDataReader* reader);
+    // protected System.Void SerializeData(LiteNetLib.Utils.NetDataWriter writer, System.UInt32 protocolVersion)
+    // Offset: 0x2E01D78
+    void SerializeData(LiteNetLib::Utils::NetDataWriter* writer, uint protocolVersion);
+    // protected System.Void DeserializeData(LiteNetLib.Utils.NetDataReader reader, System.UInt32 protocolVersion)
+    // Offset: 0x2E01D7C
+    void DeserializeData(LiteNetLib::Utils::NetDataReader* reader, uint protocolVersion);
     // private System.Void LiteNetLib.Utils.INetSerializable.Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1810838
+    // Offset: 0x2E01D80
     void LiteNetLib_Utils_INetSerializable_Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // private System.Void LiteNetLib.Utils.INetSerializable.Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1810880
+    // Offset: 0x2E01DCC
     void LiteNetLib_Utils_INetSerializable_Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x18108C8
+    // Offset: 0x2E01E18
     void Release();
     // public IRemoteProcedureCall Init(System.Single syncTime)
-    // Offset: 0x18109E8
+    // Offset: 0x2E01F38
     GlobalNamespace::IRemoteProcedureCall* Init(float syncTime);
     // protected System.Void .ctor()
-    // Offset: 0x1803B38
+    // Offset: 0x2E01F40
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -128,19 +127,21 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::RemoteProcedureCall::SerializeData
 // Il2CppName: SerializeData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RemoteProcedureCall::*)(LiteNetLib::Utils::NetDataWriter*)>(&GlobalNamespace::RemoteProcedureCall::SerializeData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RemoteProcedureCall::*)(LiteNetLib::Utils::NetDataWriter*, uint)>(&GlobalNamespace::RemoteProcedureCall::SerializeData)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RemoteProcedureCall*), "SerializeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer});
+    static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RemoteProcedureCall*), "SerializeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer, protocolVersion});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::RemoteProcedureCall::DeserializeData
 // Il2CppName: DeserializeData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RemoteProcedureCall::*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::RemoteProcedureCall::DeserializeData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RemoteProcedureCall::*)(LiteNetLib::Utils::NetDataReader*, uint)>(&GlobalNamespace::RemoteProcedureCall::DeserializeData)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RemoteProcedureCall*), "DeserializeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
+    static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RemoteProcedureCall*), "DeserializeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader, protocolVersion});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::RemoteProcedureCall::LiteNetLib_Utils_INetSerializable_Serialize

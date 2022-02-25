@@ -15,7 +15,6 @@
 // Type namespace: RootMotion
 namespace RootMotion {
   // Forward declaring type: Singleton`1<T>
-  template<typename T>
   class Singleton_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

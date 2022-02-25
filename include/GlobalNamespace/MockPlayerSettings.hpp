@@ -96,7 +96,7 @@ namespace GlobalNamespace {
     float aiCubeHitChance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0xF3E178
+    // [SpaceAttribute] Offset: 0x1244A7C
     // private System.Boolean _leftHanded
     // Size: 0x1
     // Offset: 0x3C
@@ -151,85 +151,85 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _obstaclesColor
     UnityEngine::Color& dyn__obstaclesColor();
     // public System.String get_userName()
-    // Offset: 0x11C2EC8
+    // Offset: 0x142679C
     ::StringW get_userName();
     // public System.Void set_userName(System.String value)
-    // Offset: 0x11C2ED0
+    // Offset: 0x14267A4
     void set_userName(::StringW value);
     // public System.String get_userId()
-    // Offset: 0x11C2ED8
+    // Offset: 0x14267AC
     ::StringW get_userId();
     // public System.Void set_userId(System.String value)
-    // Offset: 0x11C2EE0
+    // Offset: 0x14267B4
     void set_userId(::StringW value);
     // public System.Int32 get_sortIndex()
-    // Offset: 0x11C2EE8
+    // Offset: 0x14267BC
     int get_sortIndex();
     // public System.Void set_sortIndex(System.Int32 value)
-    // Offset: 0x11C2EF0
+    // Offset: 0x14267C4
     void set_sortIndex(int value);
     // public System.Single get_latency()
-    // Offset: 0x11C2EF8
+    // Offset: 0x14267CC
     float get_latency();
     // public System.Void set_latency(System.Single value)
-    // Offset: 0x11C2F00
+    // Offset: 0x14267D4
     void set_latency(float value);
     // public System.Boolean get_autoConnect()
-    // Offset: 0x11C2F08
+    // Offset: 0x14267DC
     bool get_autoConnect();
     // public System.Void set_autoConnect(System.Boolean value)
-    // Offset: 0x11C2F10
+    // Offset: 0x14267E4
     void set_autoConnect(bool value);
     // public System.Boolean get_inactiveByDefault()
-    // Offset: 0x11C2F1C
+    // Offset: 0x14267F0
     bool get_inactiveByDefault();
     // public System.Void set_inactiveByDefault(System.Boolean value)
-    // Offset: 0x11C2F24
+    // Offset: 0x14267F8
     void set_inactiveByDefault(bool value);
     // public MockPlayerMovementType get_movementType()
-    // Offset: 0x11C2F30
+    // Offset: 0x1426804
     GlobalNamespace::MockPlayerMovementType get_movementType();
     // public System.Void set_movementType(MockPlayerMovementType value)
-    // Offset: 0x11C2F38
+    // Offset: 0x142680C
     void set_movementType(GlobalNamespace::MockPlayerMovementType value);
     // public System.String get_recodingFile()
-    // Offset: 0x11C2F40
+    // Offset: 0x1426814
     ::StringW get_recodingFile();
     // public System.Void set_recodingFile(System.String value)
-    // Offset: 0x11C2F48
+    // Offset: 0x142681C
     void set_recodingFile(::StringW value);
     // public System.Single get_aiCubeHitChance()
-    // Offset: 0x11C2F50
+    // Offset: 0x1426824
     float get_aiCubeHitChance();
     // public System.Void set_aiCubeHitChance(System.Single value)
-    // Offset: 0x11C2F58
+    // Offset: 0x142682C
     void set_aiCubeHitChance(float value);
     // public System.Boolean get_leftHanded()
-    // Offset: 0x11C2F60
+    // Offset: 0x1426834
     bool get_leftHanded();
     // public System.Void set_leftHanded(System.Boolean value)
-    // Offset: 0x11C2F68
+    // Offset: 0x142683C
     void set_leftHanded(bool value);
     // public UnityEngine.Color get_saberAColor()
-    // Offset: 0x11C2F74
+    // Offset: 0x1426848
     UnityEngine::Color get_saberAColor();
     // public System.Void set_saberAColor(UnityEngine.Color value)
-    // Offset: 0x11C2F80
+    // Offset: 0x1426854
     void set_saberAColor(UnityEngine::Color value);
     // public UnityEngine.Color get_saberBColor()
-    // Offset: 0x11C2F8C
+    // Offset: 0x1426860
     UnityEngine::Color get_saberBColor();
     // public System.Void set_saberBColor(UnityEngine.Color value)
-    // Offset: 0x11C2F98
+    // Offset: 0x142686C
     void set_saberBColor(UnityEngine::Color value);
     // public UnityEngine.Color get_obstaclesColor()
-    // Offset: 0x11C2FA4
+    // Offset: 0x1426878
     UnityEngine::Color get_obstaclesColor();
     // public System.Void set_obstaclesColor(UnityEngine.Color value)
-    // Offset: 0x11C2FB0
+    // Offset: 0x1426884
     void set_obstaclesColor(UnityEngine::Color value);
     // public System.Void .ctor()
-    // Offset: 0x11C2FBC
+    // Offset: 0x1426890
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

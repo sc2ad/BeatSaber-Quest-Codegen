@@ -44,13 +44,13 @@ namespace HoudiniEngineUnity {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializationSurrogate*>(this);
     }
     // private System.Void System.Runtime.Serialization.ISerializationSurrogate.GetObjectData(System.Object obj, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x178216C
+    // Offset: 0x19A8908
     void System_Runtime_Serialization_ISerializationSurrogate_GetObjectData(::Il2CppObject* obj, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // private System.Object System.Runtime.Serialization.ISerializationSurrogate.SetObjectData(System.Object obj, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context, System.Runtime.Serialization.ISurrogateSelector selector)
-    // Offset: 0x178224C
+    // Offset: 0x19A89E8
     ::Il2CppObject* System_Runtime_Serialization_ISerializationSurrogate_SetObjectData(::Il2CppObject* obj, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::ISurrogateSelector* selector);
     // public System.Void .ctor()
-    // Offset: 0x178240C
+    // Offset: 0x19A8BA8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

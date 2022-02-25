@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class MultiplayerPsPlusFeatureNotifier : public UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1174CB4
+    // Offset: 0x2AA6A88
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

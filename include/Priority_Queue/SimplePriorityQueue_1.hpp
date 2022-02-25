@@ -16,20 +16,17 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IComparer`1<T>
-  template<typename T>
   class IComparer_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Comparison`1<T>
-  template<typename T>
   class Comparison_1;
 }
 // Completed forward declares
 // Type namespace: Priority_Queue
 namespace Priority_Queue {
   // Forward declaring type: SimplePriorityQueue`1<TItem>
-  template<typename TItem>
   class SimplePriorityQueue_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

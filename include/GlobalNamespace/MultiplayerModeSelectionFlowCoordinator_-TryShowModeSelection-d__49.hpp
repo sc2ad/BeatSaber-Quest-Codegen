@@ -18,10 +18,10 @@
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
-  // Forward declaring type: MasterServerAvailabilityData
-  class MasterServerAvailabilityData;
-  // Forward declaring type: MasterServerQuickPlaySetupData
-  class MasterServerQuickPlaySetupData;
+  // Forward declaring type: MultiplayerStatusData
+  class MultiplayerStatusData;
+  // Forward declaring type: QuickPlaySetupData
+  class QuickPlaySetupData;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -58,12 +58,12 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerModeSelectionFlowCoordinator* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*) == 0x8);
-    // private MasterServerAvailabilityData <masterServerAvailabilityData>5__2
+    // private MultiplayerStatusData <multiplayerStatusData>5__2
     // Size: 0x8
     // Offset: 0x30
-    GlobalNamespace::MasterServerAvailabilityData* $masterServerAvailabilityData$5__2;
+    GlobalNamespace::MultiplayerStatusData* $multiplayerStatusData$5__2;
     // Field size check
-    static_assert(sizeof(GlobalNamespace::MasterServerAvailabilityData*) == 0x8);
+    static_assert(sizeof(GlobalNamespace::MultiplayerStatusData*) == 0x8);
     // private System.Exception <exception>5__3
     // Size: 0x8
     // Offset: 0x38
@@ -74,17 +74,17 @@ namespace GlobalNamespace {
     // Size: 0xFFFFFFFF
     // Offset: 0x40
     System::Runtime::CompilerServices::TaskAwaiter_1<bool> $$u__1;
-    // private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServerAvailabilityData> <>u__2
+    // private System.Runtime.CompilerServices.TaskAwaiter`1<MultiplayerStatusData> <>u__2
     // Size: 0xFFFFFFFF
     // Offset: 0x48
-    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::MasterServerAvailabilityData*> $$u__2;
-    // private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServerQuickPlaySetupData> <>u__3
+    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::MultiplayerStatusData*> $$u__2;
+    // private System.Runtime.CompilerServices.TaskAwaiter`1<QuickPlaySetupData> <>u__3
     // Size: 0xFFFFFFFF
     // Offset: 0x50
-    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::MasterServerQuickPlaySetupData*> $$u__3;
+    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::QuickPlaySetupData*> $$u__3;
     public:
     // Creating value type constructor for type: $TryShowModeSelection$d__49
-    constexpr $TryShowModeSelection$d__49(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::MultiplayerModeSelectionFlowCoordinator* $$4__this_ = {}, GlobalNamespace::MasterServerAvailabilityData* $masterServerAvailabilityData$5__2_ = {}, System::Exception* $exception$5__3_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<bool> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::MasterServerAvailabilityData*> $$u__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::MasterServerQuickPlaySetupData*> $$u__3_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $masterServerAvailabilityData$5__2{$masterServerAvailabilityData$5__2_}, $exception$5__3{$exception$5__3_}, $$u__1{$$u__1_}, $$u__2{$$u__2_}, $$u__3{$$u__3_} {}
+    constexpr $TryShowModeSelection$d__49(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::MultiplayerModeSelectionFlowCoordinator* $$4__this_ = {}, GlobalNamespace::MultiplayerStatusData* $multiplayerStatusData$5__2_ = {}, System::Exception* $exception$5__3_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<bool> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::MultiplayerStatusData*> $$u__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::QuickPlaySetupData*> $$u__3_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $multiplayerStatusData$5__2{$multiplayerStatusData$5__2_}, $exception$5__3{$exception$5__3_}, $$u__1{$$u__1_}, $$u__2{$$u__2_}, $$u__3{$$u__3_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -99,21 +99,21 @@ namespace GlobalNamespace {
     System::Runtime::CompilerServices::AsyncVoidMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public MultiplayerModeSelectionFlowCoordinator <>4__this
     GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*& dyn_$$4__this();
-    // Get instance field reference: private MasterServerAvailabilityData <masterServerAvailabilityData>5__2
-    GlobalNamespace::MasterServerAvailabilityData*& dyn_$masterServerAvailabilityData$5__2();
+    // Get instance field reference: private MultiplayerStatusData <multiplayerStatusData>5__2
+    GlobalNamespace::MultiplayerStatusData*& dyn_$multiplayerStatusData$5__2();
     // Get instance field reference: private System.Exception <exception>5__3
     System::Exception*& dyn_$exception$5__3();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> <>u__1
     System::Runtime::CompilerServices::TaskAwaiter_1<bool>& dyn_$$u__1();
-    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServerAvailabilityData> <>u__2
-    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::MasterServerAvailabilityData*>& dyn_$$u__2();
-    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServerQuickPlaySetupData> <>u__3
-    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::MasterServerQuickPlaySetupData*>& dyn_$$u__3();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<MultiplayerStatusData> <>u__2
+    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::MultiplayerStatusData*>& dyn_$$u__2();
+    // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<QuickPlaySetupData> <>u__3
+    System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::QuickPlaySetupData*>& dyn_$$u__3();
     // private System.Void MoveNext()
-    // Offset: 0x116CB68
+    // Offset: 0x2A9E8EC
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x116D8A4
+    // Offset: 0x2A9F6B8
     void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MultiplayerModeSelectionFlowCoordinator/<TryShowModeSelection>d__49
   // WARNING Not writing size check since size may be invalid!

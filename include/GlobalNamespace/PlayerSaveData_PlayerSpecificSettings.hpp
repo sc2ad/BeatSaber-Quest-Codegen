@@ -284,7 +284,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public PlayerSaveData/PlayerSpecificSettings/EnvironmentEffectsFilterPresetSaveData environmentEffectsFilterExpertPlusPreset
     GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData& dyn_environmentEffectsFilterExpertPlusPreset();
     // public System.Void .ctor()
-    // Offset: 0x11AAA20
+    // Offset: 0x13DF650
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

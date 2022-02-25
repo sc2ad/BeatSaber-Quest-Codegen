@@ -101,31 +101,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TextMeshProUGUI _valueText
     TMPro::TextMeshProUGUI*& dyn__valueText();
     // public System.Void set_iconColor(UnityEngine.Color value)
-    // Offset: 0x11B4E88
+    // Offset: 0x2B4D310
     void set_iconColor(UnityEngine::Color value);
     // public System.Void set_icon(UnityEngine.Sprite value)
-    // Offset: 0x11B4EAC
+    // Offset: 0x2B4D334
     void set_icon(UnityEngine::Sprite* value);
     // public System.Void set_iconGlow(UnityEngine.Sprite value)
-    // Offset: 0x11B4EC8
+    // Offset: 0x2B4D350
     void set_iconGlow(UnityEngine::Sprite* value);
     // public System.Void set_title(System.String value)
-    // Offset: 0x11B4EE4
+    // Offset: 0x2B4D36C
     void set_title(::StringW value);
     // public System.Void set_conditionText(System.String value)
-    // Offset: 0x11B4F00
+    // Offset: 0x2B4D388
     void set_conditionText(::StringW value);
     // public System.Void set_hideConditionText(System.Boolean value)
-    // Offset: 0x11B4F1C
+    // Offset: 0x2B4D3A4
     void set_hideConditionText(bool value);
     // public System.Void set_valueText(System.String value)
-    // Offset: 0x11B4F5C
+    // Offset: 0x2B4D3E4
     void set_valueText(::StringW value);
     // public System.Void set_hideValueText(System.Boolean value)
-    // Offset: 0x11B4F78
+    // Offset: 0x2B4D400
     void set_hideValueText(bool value);
     // public System.Void .ctor()
-    // Offset: 0x11B4FB8
+    // Offset: 0x2B4D440
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

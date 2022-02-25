@@ -50,13 +50,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public CreditsData/Text text
     GlobalNamespace::CreditsData::Text*& dyn_text();
     // public System.Boolean HasTitle()
-    // Offset: 0x118FE24
+    // Offset: 0x13C58CC
     bool HasTitle();
     // public System.Boolean HasText()
-    // Offset: 0x118FE34
+    // Offset: 0x13C58DC
     bool HasText();
     // public System.Void .ctor()
-    // Offset: 0x118FE44
+    // Offset: 0x13C58EC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

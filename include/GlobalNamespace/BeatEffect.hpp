@@ -20,12 +20,10 @@ namespace GlobalNamespace {
   // Forward declaring type: TubeBloomPrePassLight
   class TubeBloomPrePassLight;
   // Forward declaring type: LazyCopyHashSet`1<T>
-  template<typename T>
   class LazyCopyHashSet_1;
   // Forward declaring type: IBeatEffectDidFinishEvent
   class IBeatEffectDidFinishEvent;
   // Forward declaring type: ILazyCopyHashSet`1<T>
-  template<typename T>
   class ILazyCopyHashSet_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -84,7 +82,7 @@ namespace GlobalNamespace {
     GlobalNamespace::TubeBloomPrePassLight* tubeBloomPrePassLight;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TubeBloomPrePassLight*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF3A504
+    // [SpaceAttribute] Offset: 0x1240EC8
     // private UnityEngine.AnimationCurve _lightIntensityCurve
     // Size: 0x8
     // Offset: 0x30
@@ -159,16 +157,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _color
     UnityEngine::Color& dyn__color();
     // public ILazyCopyHashSet`1<IBeatEffectDidFinishEvent> get_didFinishEvent()
-    // Offset: 0x12C6164
+    // Offset: 0x2B3EDD4
     GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::IBeatEffectDidFinishEvent*>* get_didFinishEvent();
     // public System.Void Init(UnityEngine.Color color, System.Single animationDuration, UnityEngine.Quaternion rotation)
-    // Offset: 0x12C616C
+    // Offset: 0x2B3EDDC
     void Init(UnityEngine::Color color, float animationDuration, UnityEngine::Quaternion rotation);
     // public System.Void ManualUpdate(System.Single deltaTime)
-    // Offset: 0x12C6264
+    // Offset: 0x2B3EED4
     void ManualUpdate(float deltaTime);
     // public System.Void .ctor()
-    // Offset: 0x12C653C
+    // Offset: 0x2B3F1AC
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

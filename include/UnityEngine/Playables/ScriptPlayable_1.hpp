@@ -44,7 +44,6 @@ struct Il2CppObject;
 // Type namespace: UnityEngine.Playables
 namespace UnityEngine::Playables {
   // Forward declaring type: ScriptPlayable`1<T>
-  template<typename T>
   struct ScriptPlayable_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

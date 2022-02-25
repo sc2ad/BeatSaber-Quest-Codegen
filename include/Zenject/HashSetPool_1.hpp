@@ -16,14 +16,12 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: HashSet`1<T>
-  template<typename T>
   class HashSet_1;
 }
 // Completed forward declares
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: HashSetPool`1<T>
-  template<typename T>
   class HashSetPool_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

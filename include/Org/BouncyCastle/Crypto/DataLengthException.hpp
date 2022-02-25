@@ -30,7 +30,7 @@ namespace Org::BouncyCastle::Crypto {
   class DataLengthException : public Org::BouncyCastle::Crypto::CryptoException {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1ED4474
+    // Offset: 0x2251ED0
     // Implemented from: Org.BouncyCastle.Crypto.CryptoException
     // Base method: System.Void CryptoException::.ctor()
     // Base method: System.Void Exception::.ctor()
@@ -41,7 +41,7 @@ namespace Org::BouncyCastle::Crypto {
       return THROW_UNLESS((::il2cpp_utils::New<DataLengthException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x1ED35A0
+    // Offset: 0x2250FFC
     // Implemented from: Org.BouncyCastle.Crypto.CryptoException
     // Base method: System.Void CryptoException::.ctor(System.String message)
     // Base method: System.Void Exception::.ctor(System.String message)

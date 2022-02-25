@@ -23,10 +23,8 @@ namespace Oculus::Platform {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -49,7 +47,6 @@ namespace Oculus::Platform {
     // Nested type: Oculus::Platform::Callback::RequestCallback
     class RequestCallback;
     // Nested type: Oculus::Platform::Callback::RequestCallback_1<T>
-    template<typename T>
     class RequestCallback_1;
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.UInt64,Oculus.Platform.Request> requestIDsToRequests
     static System::Collections::Generic::Dictionary_2<uint64_t, Oculus::Platform::Request*>* _get_requestIDsToRequests();
@@ -76,7 +73,7 @@ namespace Oculus::Platform {
     // Set static field: static private Oculus.Platform.Message latestPendingJoinIntentNotifications
     static void _set_latestPendingJoinIntentNotifications(Oculus::Platform::Message* value);
     // static private System.Void .cctor()
-    // Offset: 0x174A768
+    // Offset: 0x1956E88
     static void _cctor();
     // static System.Void SetNotificationCallback(Oculus.Platform.Message/Oculus.Platform.MessageType type, Oculus.Platform.Message`1/Oculus.Platform.Callback<T> callback)
     // Offset: 0xFFFFFFFF
@@ -88,28 +85,28 @@ namespace Oculus::Platform {
       ::il2cpp_utils::RunMethodRethrow<void, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, type, callback);
     }
     // static System.Void SetNotificationCallback(Oculus.Platform.Message/Oculus.Platform.MessageType type, Oculus.Platform.Message/Oculus.Platform.Callback callback)
-    // Offset: 0x1749E24
+    // Offset: 0x1956544
     static void SetNotificationCallback(Oculus::Platform::Message::MessageType type, Oculus::Platform::Message::Callback* callback);
     // static System.Void AddRequest(Oculus.Platform.Request request)
-    // Offset: 0x1749F48
+    // Offset: 0x1956668
     static void AddRequest(Oculus::Platform::Request* request);
     // static System.Void RunCallbacks()
-    // Offset: 0x174A018
+    // Offset: 0x1956738
     static void RunCallbacks();
     // static System.Void RunLimitedCallbacks(System.UInt32 limit)
-    // Offset: 0x174A3FC
+    // Offset: 0x1956B1C
     static void RunLimitedCallbacks(uint limit);
     // static System.Void OnApplicationQuit()
-    // Offset: 0x174A494
+    // Offset: 0x1956BB4
     static void OnApplicationQuit();
     // static private System.Void FlushRoomInviteNotificationQueue()
-    // Offset: 0x174A530
+    // Offset: 0x1956C50
     static void FlushRoomInviteNotificationQueue();
     // static private System.Void FlushJoinIntentNotificationQueue()
-    // Offset: 0x174A6A4
+    // Offset: 0x1956DC4
     static void FlushJoinIntentNotificationQueue();
     // static System.Void HandleMessage(Oculus.Platform.Message msg)
-    // Offset: 0x174A188
+    // Offset: 0x19568A8
     static void HandleMessage(Oculus::Platform::Message* msg);
   }; // Oculus.Platform.Callback
   #pragma pack(pop)

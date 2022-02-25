@@ -32,7 +32,7 @@ namespace Org::BouncyCastle::X509::Extension {
   class X509ExtensionUtilities : public ::Il2CppObject {
     public:
     // static public Org.BouncyCastle.Asn1.Asn1Object FromExtensionValue(Org.BouncyCastle.Asn1.Asn1OctetString extensionValue)
-    // Offset: 0x222C82C
+    // Offset: 0x25A8468
     static Org::BouncyCastle::Asn1::Asn1Object* FromExtensionValue(Org::BouncyCastle::Asn1::Asn1OctetString* extensionValue);
   }; // Org.BouncyCastle.X509.Extension.X509ExtensionUtilities
   #pragma pack(pop)

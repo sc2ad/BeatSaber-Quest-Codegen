@@ -62,7 +62,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.AccessToken accessToken
     BeatSaberAPI::DataTransferObjects::AccessToken*& dyn_accessToken();
     // public System.Void .ctor()
-    // Offset: 0x12C79D0
+    // Offset: 0x2B40640
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

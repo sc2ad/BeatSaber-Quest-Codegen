@@ -23,7 +23,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: Oculus::Platform
 namespace Oculus::Platform {
   // Forward declaring type: Message`1<T>
-  template<typename T>
   class Message_1;
 }
 // Forward declaring namespace: Oculus::Platform::Models
@@ -59,14 +58,14 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [InjectOptionalAttribute] Offset: 0xF34C38
+    // [InjectOptionalAttribute] Offset: 0x123B4BC
     // private OculusDeeplinkManager _oculusDeeplinkManager
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::OculusDeeplinkManager* oculusDeeplinkManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OculusDeeplinkManager*) == 0x8);
-    // [InjectAttribute] Offset: 0xF34C48
+    // [InjectAttribute] Offset: 0x123B4CC
     // private DlcPromoPanelModel _dlcPromoPanelModel
     // Size: 0x8
     // Offset: 0x20
@@ -81,13 +80,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private DlcPromoPanelModel _dlcPromoPanelModel
     GlobalNamespace::DlcPromoPanelModel*& dyn__dlcPromoPanelModel();
     // public System.Void Init()
-    // Offset: 0x1367CE0
+    // Offset: 0x2BB10CC
     void Init();
     // private System.Void InitCallback(Oculus.Platform.Message`1<Oculus.Platform.Models.PlatformInitialize> msg)
-    // Offset: 0x1367EB4
+    // Offset: 0x2BB12A0
     void InitCallback(Oculus::Platform::Message_1<Oculus::Platform::Models::PlatformInitialize*>* msg);
     // public System.Void .ctor()
-    // Offset: 0x1368064
+    // Offset: 0x2BB1450
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

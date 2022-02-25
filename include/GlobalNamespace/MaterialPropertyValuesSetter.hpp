@@ -99,19 +99,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private MaterialPropertyValuesSetter/PropertyNameIntValuePair[] _ints
     ::ArrayW<GlobalNamespace::MaterialPropertyValuesSetter::PropertyNameIntValuePair*>& dyn__ints();
     // protected System.Void Start()
-    // Offset: 0x1DB9F6C
+    // Offset: 0x208E810
     void Start();
     // protected System.Void OnValidate()
-    // Offset: 0x1DBA144
+    // Offset: 0x208E9E8
     void OnValidate();
     // private System.Void RefreshPropertyIds()
-    // Offset: 0x1DBA1E0
+    // Offset: 0x208EA84
     void RefreshPropertyIds();
     // private System.Void ApplyParams()
-    // Offset: 0x1DB9F70
+    // Offset: 0x208E814
     void ApplyParams();
     // public System.Void .ctor()
-    // Offset: 0x1DBA378
+    // Offset: 0x208EC1C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

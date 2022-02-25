@@ -26,7 +26,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -85,10 +84,10 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Collider> _colliders
     System::Collections::Generic::List_1<UnityEngine::Collider*>*& dyn__colliders();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_GeneratedOutputData other)
-    // Offset: 0x14E7AC0
+    // Offset: 0x16CAB7C
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_GeneratedOutputData* other);
     // public System.Void .ctor()
-    // Offset: 0x14E140C
+    // Offset: 0x16C44C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

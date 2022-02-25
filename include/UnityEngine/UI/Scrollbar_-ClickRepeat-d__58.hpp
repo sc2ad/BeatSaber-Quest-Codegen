@@ -92,26 +92,26 @@ namespace UnityEngine::UI {
     // Get instance field reference: public UnityEngine.Camera camera
     UnityEngine::Camera*& dyn_camera();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1BB7CEC
+    // Offset: 0x1DE1F38
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1BB7D54
+    // Offset: 0x1DE1FA0
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1BB7060
+    // Offset: 0x1DE12AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Scrollbar::$ClickRepeat$d__58* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Scrollbar::$ClickRepeat$d__58*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1BB7B44
+    // Offset: 0x1DE1D90
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1BB7B48
+    // Offset: 0x1DE1D94
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1BB7CF4
+    // Offset: 0x1DE1F40
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.UI.Scrollbar/UnityEngine.UI.<ClickRepeat>d__58
   #pragma pack(pop)

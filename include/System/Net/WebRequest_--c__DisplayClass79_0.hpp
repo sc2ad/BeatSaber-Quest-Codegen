@@ -21,7 +21,6 @@ namespace System::Security::Principal {
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
-  template<typename TResult>
   class Task_1;
 }
 // Forward declaring namespace: System::Net
@@ -69,10 +68,10 @@ namespace System::Net {
     // Get instance field reference: public System.Net.WebRequest <>4__this
     System::Net::WebRequest*& dyn_$$4__this();
     // System.Threading.Tasks.Task`1<System.Net.WebResponse> <GetResponseAsync>b__1()
-    // Offset: 0x17F8C68
+    // Offset: 0x1BE4A3C
     System::Threading::Tasks::Task_1<System::Net::WebResponse*>* $GetResponseAsync$b__1();
     // public System.Void .ctor()
-    // Offset: 0x17F8480
+    // Offset: 0x1BE4240
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

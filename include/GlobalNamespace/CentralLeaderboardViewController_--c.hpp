@@ -19,7 +19,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: GlobalNamespace
@@ -57,19 +56,19 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<GameplayModifierParamsSO,System.String> <>9__37_0
     static void _set_$$9__37_0(System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x11875BC
+    // Offset: 0x13BD014
     static void _cctor();
     // System.String <DidActivate>b__26_1(CentralLeaderboardViewController/LeaderboardPanel x)
-    // Offset: 0x1187628
+    // Offset: 0x13BD080
     ::StringW $DidActivate$b__26_1(GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel* x);
     // HMUI.IconSegmentedControl/HMUI.DataItem <DidActivate>b__26_2(CentralLeaderboardViewController/ScoreScopeInfo x)
-    // Offset: 0x1187640
+    // Offset: 0x13BD098
     HMUI::IconSegmentedControl::DataItem* $DidActivate$b__26_2(GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo* x);
     // System.String <LoadScoresAsync>b__37_0(GameplayModifierParamsSO m)
-    // Offset: 0x11876BC
+    // Offset: 0x13BD114
     ::StringW $LoadScoresAsync$b__37_0(GlobalNamespace::GameplayModifierParamsSO* m);
     // public System.Void .ctor()
-    // Offset: 0x1187620
+    // Offset: 0x13BD078
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

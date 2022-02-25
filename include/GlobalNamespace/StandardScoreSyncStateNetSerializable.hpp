@@ -22,7 +22,6 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: PacketPool`1<T>
-  template<typename T>
   class PacketPool_1;
 }
 // Forward declaring namespace: LiteNetLib::Utils
@@ -98,37 +97,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <time>k__BackingField
     float& dyn_$time$k__BackingField();
     // static public PacketPool`1<StandardScoreSyncStateNetSerializable> get_pool()
-    // Offset: 0x268D7B4
+    // Offset: 0x2E0713C
     static GlobalNamespace::PacketPool_1<GlobalNamespace::StandardScoreSyncStateNetSerializable*>* get_pool();
     // public SyncStateId get_id()
-    // Offset: 0x268D7FC
+    // Offset: 0x2E07184
     GlobalNamespace::SyncStateId get_id();
     // public System.Void set_id(SyncStateId value)
-    // Offset: 0x268D804
+    // Offset: 0x2E0718C
     void set_id(GlobalNamespace::SyncStateId value);
     // public System.Single get_time()
-    // Offset: 0x268D80C
+    // Offset: 0x2E07194
     float get_time();
     // public System.Void set_time(System.Single value)
-    // Offset: 0x268D814
+    // Offset: 0x2E0719C
     void set_time(float value);
     // public StandardScoreSyncState get_state()
-    // Offset: 0x268D81C
+    // Offset: 0x2E071A4
     GlobalNamespace::StandardScoreSyncState get_state();
     // public System.Void set_state(StandardScoreSyncState value)
-    // Offset: 0x268D830
+    // Offset: 0x2E071B8
     void set_state(GlobalNamespace::StandardScoreSyncState value);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x268D844
+    // Offset: 0x2E071CC
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x268D8B8
+    // Offset: 0x2E07240
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x268D92C
+    // Offset: 0x2E072B4
     void Release();
     // public System.Void .ctor()
-    // Offset: 0x268D988
+    // Offset: 0x2E07310
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

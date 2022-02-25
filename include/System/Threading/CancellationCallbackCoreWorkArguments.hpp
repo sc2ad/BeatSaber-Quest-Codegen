@@ -11,7 +11,6 @@
 // Forward declaring namespace: System::Threading
 namespace System::Threading {
   // Forward declaring type: SparselyPopulatedArrayFragment`1<T>
-  template<typename T>
   class SparselyPopulatedArrayFragment_1;
   // Forward declaring type: CancellationCallbackInfo
   class CancellationCallbackInfo;
@@ -58,7 +57,7 @@ namespace System::Threading {
     // Get instance field reference: System.Int32 m_currArrayIndex
     int& dyn_m_currArrayIndex();
     // public System.Void .ctor(System.Threading.SparselyPopulatedArrayFragment`1<System.Threading.CancellationCallbackInfo> currArrayFragment, System.Int32 currArrayIndex)
-    // Offset: 0x1A59C98
+    // Offset: 0x1C29660
     // ABORTED: conflicts with another method.  CancellationCallbackCoreWorkArguments(System::Threading::SparselyPopulatedArrayFragment_1<System::Threading::CancellationCallbackInfo*>* currArrayFragment, int currArrayIndex);
   }; // System.Threading.CancellationCallbackCoreWorkArguments
   #pragma pack(pop)

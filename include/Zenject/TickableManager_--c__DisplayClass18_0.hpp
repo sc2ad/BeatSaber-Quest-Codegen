@@ -24,7 +24,6 @@ namespace Zenject {
 // Forward declaring namespace: ModestTree::Util
 namespace ModestTree::Util {
   // Forward declaring type: ValuePair`2<T1, T2>
-  template<typename T1, typename T2>
   class ValuePair_2;
 }
 // Forward declaring namespace: System
@@ -68,16 +67,16 @@ namespace Zenject {
     // Get instance field reference: public Zenject.ITickable tickable
     Zenject::ITickable*& dyn_tickable();
     // System.Boolean <InitTickables>b__1(ModestTree.Util.ValuePair`2<System.Type,System.Int32> x)
-    // Offset: 0x2199CE8
+    // Offset: 0x246F520
     bool $InitTickables$b__1(ModestTree::Util::ValuePair_2<System::Type*, int>* x);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x2199D80
+    // Offset: 0x246F5B8
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x2199DDC
+    // Offset: 0x246F614
     static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x21986C8
+    // Offset: 0x246DF00
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

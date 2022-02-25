@@ -16,7 +16,6 @@ namespace GlobalNamespace {
   // Forward declaring type: NoteData
   class NoteData;
   // Forward declaring type: ILazyCopyHashSet`1<T>
-  template<typename T>
   class ILazyCopyHashSet_1;
   // Forward declaring type: INoteControllerNoteDidStartDissolvingEvent
   class INoteControllerNoteDidStartDissolvingEvent;

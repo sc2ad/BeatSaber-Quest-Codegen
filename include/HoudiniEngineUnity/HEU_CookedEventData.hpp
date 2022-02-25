@@ -21,7 +21,6 @@ namespace HoudiniEngineUnity {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -47,7 +46,7 @@ namespace HoudiniEngineUnity {
   class HEU_CookedEventData : public HoudiniEngineUnity::HEU_AssetEventData {
     public:
     // public System.Void .ctor(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.Boolean successful, System.Collections.Generic.List`1<UnityEngine.GameObject> outputObjects)
-    // Offset: 0x14704DC
+    // Offset: 0x1640C64
     // Implemented from: HoudiniEngineUnity.HEU_AssetEventData
     // Base method: System.Void HEU_AssetEventData::.ctor(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.Boolean successful, System.Collections.Generic.List`1<UnityEngine.GameObject> outputObjects)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -21,7 +21,6 @@ namespace HoudiniEngineUnity {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -77,22 +76,22 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.GameObject> _bakeTargets
     System::Collections::Generic::List_1<UnityEngine::GameObject*>*& dyn__bakeTargets();
     // private System.Void OnDestroy()
-    // Offset: 0x158A644
+    // Offset: 0x1779AF4
     void OnDestroy();
     // public System.Void RemoveHoudiniEngineAssetData()
-    // Offset: 0x158A81C
+    // Offset: 0x1779CCC
     void RemoveHoudiniEngineAssetData();
     // public System.Void ClearHoudiniEngineReferences()
-    // Offset: 0x158A8F4
+    // Offset: 0x1779DA4
     void ClearHoudiniEngineReferences();
     // static public System.Void DestroyRootComponent(HoudiniEngineUnity.HEU_HoudiniAssetRoot assetRoot)
-    // Offset: 0x158A950
+    // Offset: 0x1779E00
     static void DestroyRootComponent(HoudiniEngineUnity::HEU_HoudiniAssetRoot* assetRoot);
     // private System.Void Reset()
-    // Offset: 0x158A960
+    // Offset: 0x1779E10
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x158AA60
+    // Offset: 0x1779F10
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

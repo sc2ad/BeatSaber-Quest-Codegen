@@ -41,21 +41,21 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0xF2A46C
+    // [DescriptionAttribute] Offset: 0x1230CF8
     // static field const value: static public Oculus.Platform.NetSyncVoipMicSource Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.NetSyncVoipMicSource Unknown
     static Oculus::Platform::NetSyncVoipMicSource _get_Unknown();
     // Set static field: static public Oculus.Platform.NetSyncVoipMicSource Unknown
     static void _set_Unknown(Oculus::Platform::NetSyncVoipMicSource value);
-    // [DescriptionAttribute] Offset: 0xF2A4A4
+    // [DescriptionAttribute] Offset: 0x1230D30
     // static field const value: static public Oculus.Platform.NetSyncVoipMicSource None
     static constexpr const int None = 1;
     // Get static field: static public Oculus.Platform.NetSyncVoipMicSource None
     static Oculus::Platform::NetSyncVoipMicSource _get_None();
     // Set static field: static public Oculus.Platform.NetSyncVoipMicSource None
     static void _set_None(Oculus::Platform::NetSyncVoipMicSource value);
-    // [DescriptionAttribute] Offset: 0xF2A4DC
+    // [DescriptionAttribute] Offset: 0x1230D68
     // static field const value: static public Oculus.Platform.NetSyncVoipMicSource Internal
     static constexpr const int Internal = 2;
     // Get static field: static public Oculus.Platform.NetSyncVoipMicSource Internal

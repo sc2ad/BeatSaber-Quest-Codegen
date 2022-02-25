@@ -6,6 +6,18 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
+// Begin forward declares
+// Forward declaring namespace: System::Collections::Generic
+namespace System::Collections::Generic {
+  // Forward declaring type: IDictionary`2<TKey, TValue>
+  class IDictionary_2;
+}
+// Forward declaring namespace: System::Xml
+namespace System::Xml {
+  // Forward declaring type: XmlNamespaceScope
+  struct XmlNamespaceScope;
+}
+// Completed forward declares
 // Type namespace: System.Xml
 namespace System::Xml {
   // Forward declaring type: IXmlNamespaceResolver
@@ -22,6 +34,9 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class IXmlNamespaceResolver {
     public:
+    // public System.Collections.Generic.IDictionary`2<System.String,System.String> GetNamespacesInScope(System.Xml.XmlNamespaceScope scope)
+    // Offset: 0xFFFFFFFF
+    System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* GetNamespacesInScope(System::Xml::XmlNamespaceScope scope);
     // public System.String LookupNamespace(System.String prefix)
     // Offset: 0xFFFFFFFF
     ::StringW LookupNamespace(::StringW prefix);
@@ -32,6 +47,15 @@ namespace System::Xml {
   #pragma pack(pop)
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Xml::IXmlNamespaceResolver::GetNamespacesInScope
+// Il2CppName: GetNamespacesInScope
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* (System::Xml::IXmlNamespaceResolver::*)(System::Xml::XmlNamespaceScope)>(&System::Xml::IXmlNamespaceResolver::GetNamespacesInScope)> {
+  static const MethodInfo* get() {
+    static auto* scope = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNamespaceScope")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::IXmlNamespaceResolver*), "GetNamespacesInScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scope});
+  }
+};
 // Writing MetadataGetter for method: System::Xml::IXmlNamespaceResolver::LookupNamespace
 // Il2CppName: LookupNamespace
 template<>

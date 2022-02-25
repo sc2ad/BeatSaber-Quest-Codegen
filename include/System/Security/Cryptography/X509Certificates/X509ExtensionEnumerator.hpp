@@ -67,23 +67,23 @@ namespace System::Security::Cryptography::X509Certificates {
     // Get instance field reference: private System.Collections.IEnumerator enumerator
     System::Collections::IEnumerator*& dyn_enumerator();
     // public System.Security.Cryptography.X509Certificates.X509Extension get_Current()
-    // Offset: 0x19E04EC
+    // Offset: 0x1BF484C
     System::Security::Cryptography::X509Certificates::X509Extension* get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x19E2584
+    // Offset: 0x1BF669C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // System.Void .ctor(System.Collections.ArrayList list)
-    // Offset: 0x19E2474
+    // Offset: 0x1BF658C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509ExtensionEnumerator* New_ctor(System::Collections::ArrayList* list) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509ExtensionEnumerator*, creationType>(list)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x19E05E0
+    // Offset: 0x1BF4940
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x19E2638
+    // Offset: 0x1BF6750
     void Reset();
   }; // System.Security.Cryptography.X509Certificates.X509ExtensionEnumerator
   #pragma pack(pop)

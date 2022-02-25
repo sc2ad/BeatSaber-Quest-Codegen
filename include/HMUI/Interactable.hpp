@@ -49,13 +49,13 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean _interactable
     bool& dyn__interactable();
     // public System.Boolean get_interactable()
-    // Offset: 0x14C385C
+    // Offset: 0x16A5918
     bool get_interactable();
     // public System.Void set_interactable(System.Boolean value)
-    // Offset: 0x14C3864
+    // Offset: 0x16A5920
     void set_interactable(bool value);
     // public System.Void .ctor()
-    // Offset: 0x14C3870
+    // Offset: 0x16A592C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

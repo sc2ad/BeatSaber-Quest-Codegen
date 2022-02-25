@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorSchemeSO* defaultColorScheme;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorSchemeSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF48DCC
+    // [SpaceAttribute] Offset: 0x124F6D0
     // private SimpleColorSO _environmentColor0
     // Size: 0x8
     // Offset: 0x20
@@ -84,7 +84,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SimpleColorSO* environmentColor1Boost;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SimpleColorSO*) == 0x8);
-    // [InjectOptionalAttribute] Offset: 0xF48E34
+    // [InjectOptionalAttribute] Offset: 0x124F738
     // private ColorScheme _colorScheme
     // Size: 0x8
     // Offset: 0x40
@@ -107,25 +107,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorScheme _colorScheme
     GlobalNamespace::ColorScheme*& dyn__colorScheme();
     // public UnityEngine.Color get_environmentColor0()
-    // Offset: 0x11DD8E8
+    // Offset: 0x13F9FBC
     UnityEngine::Color get_environmentColor0();
     // public UnityEngine.Color get_environmentColor1()
-    // Offset: 0x11DD908
+    // Offset: 0x13F9FDC
     UnityEngine::Color get_environmentColor1();
     // public UnityEngine.Color get_environmentColor0Boost()
-    // Offset: 0x11DD928
+    // Offset: 0x13F9FFC
     UnityEngine::Color get_environmentColor0Boost();
     // public UnityEngine.Color get_environmentColor1Boost()
-    // Offset: 0x11DD97C
+    // Offset: 0x13FA050
     UnityEngine::Color get_environmentColor1Boost();
     // protected System.Void Awake()
-    // Offset: 0x11DD9D0
+    // Offset: 0x13FA0A4
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x11DD9FC
+    // Offset: 0x13FA0D0
     void Start();
     // public System.Void .ctor()
-    // Offset: 0x11DDABC
+    // Offset: 0x13FA190
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

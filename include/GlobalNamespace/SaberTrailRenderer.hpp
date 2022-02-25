@@ -135,7 +135,7 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF3B094
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1241A58
     // Get static field: static private readonly UnityEngine.Bounds _bounds
     static UnityEngine::Bounds _get__bounds();
     // Set static field: static private readonly UnityEngine.Bounds _bounds
@@ -177,34 +177,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _whiteSectionMaxDuration
     float& dyn__whiteSectionMaxDuration();
     // public System.Void Init(System.Single trailWidth, System.Single trailDuration, System.Int32 granularity, System.Single whiteSectionMaxDuration)
-    // Offset: 0x122D22C
+    // Offset: 0x2B58A3C
     void Init(float trailWidth, float trailDuration, int granularity, float whiteSectionMaxDuration);
     // protected System.Void OnDestroy()
-    // Offset: 0x122D554
+    // Offset: 0x2B58D64
     void OnDestroy();
     // private System.Void OnValidate()
-    // Offset: 0x122D560
+    // Offset: 0x2B58D70
     void OnValidate();
     // protected System.Void OnEnable()
-    // Offset: 0x122D640
+    // Offset: 0x2B58E50
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x122D6D4
+    // Offset: 0x2B58EE4
     void OnDisable();
     // public System.Void SetTrailWidth(System.Single width)
-    // Offset: 0x122D768
+    // Offset: 0x2B58F78
     void SetTrailWidth(float width);
     // public System.Void UpdateMesh(TrailElementCollection trailElementCollection, UnityEngine.Color color)
-    // Offset: 0x122CC84
+    // Offset: 0x2B58494
     void UpdateMesh(GlobalNamespace::TrailElementCollection* trailElementCollection, UnityEngine::Color color);
     // protected System.Void UpdateVertices(TrailElementCollection trailElementCollection, UnityEngine.Color color)
-    // Offset: 0x122D770
+    // Offset: 0x2B58F80
     void UpdateVertices(GlobalNamespace::TrailElementCollection* trailElementCollection, UnityEngine::Color color);
     // private System.Void UpdateIndices()
-    // Offset: 0x122D36C
+    // Offset: 0x2B58B7C
     void UpdateIndices();
     // public System.Void .ctor()
-    // Offset: 0x122DC9C
+    // Offset: 0x2B594C0
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -217,7 +217,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SaberTrailRenderer*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x122DCA4
+    // Offset: 0x2B594C8
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

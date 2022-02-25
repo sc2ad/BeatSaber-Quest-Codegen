@@ -16,7 +16,6 @@
 // Type namespace: UnityEngine.ProBuilder.KdTree.Math
 namespace UnityEngine::ProBuilder::KdTree::Math {
   // Forward declaring type: TypeMath`1<T>
-  template<typename T>
   class TypeMath_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

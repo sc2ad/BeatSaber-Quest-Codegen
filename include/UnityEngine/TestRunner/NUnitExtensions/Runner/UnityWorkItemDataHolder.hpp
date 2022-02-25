@@ -11,7 +11,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -40,7 +39,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Set static field: static public System.Collections.Generic.List`1<System.String> alreadyExecutedTests
     static void _set_alreadyExecutedTests(System::Collections::Generic::List_1<::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x16C7C34
+    // Offset: 0x18D09E0
     static void _cctor();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.UnityWorkItemDataHolder
   #pragma pack(pop)

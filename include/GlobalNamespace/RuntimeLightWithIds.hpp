@@ -25,7 +25,6 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
 }
 // Completed forward declares
@@ -64,7 +63,7 @@ namespace GlobalNamespace {
     ::ArrayW<GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData*> lightIntensityData;
     // Field size check
     static_assert(sizeof(::ArrayW<GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData*>) == 0x8);
-    // [SpaceAttribute] Offset: 0xF234F0
+    // [SpaceAttribute] Offset: 0x122A030
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x30
@@ -96,15 +95,15 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFF
     void ColorWasSet(UnityEngine::Color color);
     // private UnityEngine.Color ProcessColor(UnityEngine.Color color, System.Single intensity)
-    // Offset: 0x1DBD518
+    // Offset: 0x2091DBC
     UnityEngine::Color ProcessColor(UnityEngine::Color color, float intensity);
     // protected override System.Collections.Generic.IEnumerable`1<LightWithIds/LightData> get_lightIntensityData()
-    // Offset: 0x1DBD324
+    // Offset: 0x2091BC8
     // Implemented from: LightWithIds
     // Base method: System.Collections.Generic.IEnumerable`1<LightWithIds/LightData> LightWithIds::get_lightIntensityData()
     System::Collections::Generic::IEnumerable_1<GlobalNamespace::LightWithIds::LightData*>* get_lightIntensityData();
     // protected System.Void .ctor()
-    // Offset: 0x1DB04D4
+    // Offset: 0x2084D78
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()
@@ -118,7 +117,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeLightWithIds*, creationType>()));
     }
     // protected override System.Void HandleLightManagerDidChangeSomeColorsThisFrame()
-    // Offset: 0x1DBD32C
+    // Offset: 0x2091BD0
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::HandleLightManagerDidChangeSomeColorsThisFrame()
     void HandleLightManagerDidChangeSomeColorsThisFrame();

@@ -16,7 +16,6 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Comparison`1<T>
-  template<typename T>
   class Comparison_1;
 }
 // Completed forward declares
@@ -41,13 +40,13 @@ namespace GlobalNamespace {
     // Set static field: static public System.Comparison`1<OVRRaycaster/RaycastHit> <>9__16_0
     static void _set_$$9__16_0(System::Comparison_1<GlobalNamespace::OVRRaycaster::RaycastHit>* value);
     // static private System.Void .cctor()
-    // Offset: 0x187DD1C
+    // Offset: 0x1A7A540
     static void _cctor();
     // System.Int32 <GraphicRaycast>b__16_0(OVRRaycaster/RaycastHit g1, OVRRaycaster/RaycastHit g2)
-    // Offset: 0x187DD88
+    // Offset: 0x1A7A5AC
     int $GraphicRaycast$b__16_0(GlobalNamespace::OVRRaycaster::RaycastHit g1, GlobalNamespace::OVRRaycaster::RaycastHit g2);
     // public System.Void .ctor()
-    // Offset: 0x187DD80
+    // Offset: 0x1A7A5A4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

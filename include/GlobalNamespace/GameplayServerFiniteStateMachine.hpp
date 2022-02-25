@@ -16,8 +16,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: MasterServer
-namespace MasterServer {
+// Forward declaring namespace: BGNet::Core
+namespace BGNet::Core {
   // Forward declaring type: ITimeProvider
   class ITimeProvider;
 }
@@ -60,12 +60,12 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // private MasterServer.ITimeProvider <timeProvider>k__BackingField
+    // private BGNet.Core.ITimeProvider <timeProvider>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    MasterServer::ITimeProvider* timeProvider;
+    BGNet::Core::ITimeProvider* timeProvider;
     // Field size check
-    static_assert(sizeof(MasterServer::ITimeProvider*) == 0x8);
+    static_assert(sizeof(BGNet::Core::ITimeProvider*) == 0x8);
     // private IMultiplayerSessionManager <multiplayerSessionManager>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -121,8 +121,8 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     public:
-    // Get instance field reference: private MasterServer.ITimeProvider <timeProvider>k__BackingField
-    MasterServer::ITimeProvider*& dyn_$timeProvider$k__BackingField();
+    // Get instance field reference: private BGNet.Core.ITimeProvider <timeProvider>k__BackingField
+    BGNet::Core::ITimeProvider*& dyn_$timeProvider$k__BackingField();
     // Get instance field reference: private IMultiplayerSessionManager <multiplayerSessionManager>k__BackingField
     GlobalNamespace::IMultiplayerSessionManager*& dyn_$multiplayerSessionManager$k__BackingField();
     // Get instance field reference: private System.String <ownerUserId>k__BackingField
@@ -141,58 +141,58 @@ namespace GlobalNamespace {
     GlobalNamespace::GameState*& dyn_state();
     // Get instance field reference: protected System.Boolean enteringState
     bool& dyn_enteringState();
-    // public MasterServer.ITimeProvider get_timeProvider()
-    // Offset: 0x156A4B8
-    MasterServer::ITimeProvider* get_timeProvider();
-    // private System.Void set_timeProvider(MasterServer.ITimeProvider value)
-    // Offset: 0x156A4C0
-    void set_timeProvider(MasterServer::ITimeProvider* value);
+    // public BGNet.Core.ITimeProvider get_timeProvider()
+    // Offset: 0x2C48654
+    BGNet::Core::ITimeProvider* get_timeProvider();
+    // private System.Void set_timeProvider(BGNet.Core.ITimeProvider value)
+    // Offset: 0x2C4865C
+    void set_timeProvider(BGNet::Core::ITimeProvider* value);
     // public IMultiplayerSessionManager get_multiplayerSessionManager()
-    // Offset: 0x156A4C8
+    // Offset: 0x2C48664
     GlobalNamespace::IMultiplayerSessionManager* get_multiplayerSessionManager();
     // private System.Void set_multiplayerSessionManager(IMultiplayerSessionManager value)
-    // Offset: 0x156A4D0
+    // Offset: 0x2C4866C
     void set_multiplayerSessionManager(GlobalNamespace::IMultiplayerSessionManager* value);
     // public System.String get_ownerUserId()
-    // Offset: 0x156A4D8
+    // Offset: 0x2C48674
     ::StringW get_ownerUserId();
     // private System.Void set_ownerUserId(System.String value)
-    // Offset: 0x156A4E0
+    // Offset: 0x2C4867C
     void set_ownerUserId(::StringW value);
     // public BeatmapLevelSelectionMask get_selectionMask()
-    // Offset: 0x156A4E8
+    // Offset: 0x2C48684
     GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
     // private System.Void set_selectionMask(BeatmapLevelSelectionMask value)
-    // Offset: 0x156A4FC
+    // Offset: 0x2C48698
     void set_selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value);
     // public GameplayServerConfiguration get_configuration()
-    // Offset: 0x156A510
+    // Offset: 0x2C486AC
     GlobalNamespace::GameplayServerConfiguration get_configuration();
     // private System.Void set_configuration(GameplayServerConfiguration value)
-    // Offset: 0x156A524
+    // Offset: 0x2C486C0
     void set_configuration(GlobalNamespace::GameplayServerConfiguration value);
     // public IServerBeatmapProvider get_beatmapProvider()
-    // Offset: 0x156A538
+    // Offset: 0x2C486D4
     GlobalNamespace::IServerBeatmapProvider* get_beatmapProvider();
     // private System.Void set_beatmapProvider(IServerBeatmapProvider value)
-    // Offset: 0x156A540
+    // Offset: 0x2C486DC
     void set_beatmapProvider(GlobalNamespace::IServerBeatmapProvider* value);
     // public MenuRpcManager get_menuRpcManager()
-    // Offset: 0x156A548
+    // Offset: 0x2C486E4
     GlobalNamespace::MenuRpcManager* get_menuRpcManager();
     // private System.Void set_menuRpcManager(MenuRpcManager value)
-    // Offset: 0x156A550
+    // Offset: 0x2C486EC
     void set_menuRpcManager(GlobalNamespace::MenuRpcManager* value);
     // public GameplayRpcManager get_gameplayRpcManager()
-    // Offset: 0x156A558
+    // Offset: 0x2C486F4
     GlobalNamespace::GameplayRpcManager* get_gameplayRpcManager();
     // private System.Void set_gameplayRpcManager(GameplayRpcManager value)
-    // Offset: 0x156A560
+    // Offset: 0x2C486FC
     void set_gameplayRpcManager(GlobalNamespace::GameplayRpcManager* value);
-    // public System.Void .ctor(MasterServer.ITimeProvider timeProvider, IMultiplayerSessionManager multiplayerSessionManager, System.String ownerUserId, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
-    // Offset: 0x1564884
+    // public System.Void .ctor(BGNet.Core.ITimeProvider timeProvider, IMultiplayerSessionManager multiplayerSessionManager, System.String ownerUserId, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
+    // Offset: 0x2C3E5A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GameplayServerFiniteStateMachine* New_ctor(MasterServer::ITimeProvider* timeProvider, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::StringW ownerUserId, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, GlobalNamespace::IServerBeatmapProvider* beatmapProvider) {
+    static GameplayServerFiniteStateMachine* New_ctor(BGNet::Core::ITimeProvider* timeProvider, GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::StringW ownerUserId, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, GlobalNamespace::IServerBeatmapProvider* beatmapProvider) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::GameplayServerFiniteStateMachine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameplayServerFiniteStateMachine*, creationType>(timeProvider, multiplayerSessionManager, ownerUserId, selectionMask, configuration, beatmapProvider)));
     }
@@ -205,7 +205,7 @@ namespace GlobalNamespace {
 // Writing MetadataGetter for method: GlobalNamespace::GameplayServerFiniteStateMachine::get_timeProvider
 // Il2CppName: get_timeProvider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ITimeProvider* (GlobalNamespace::GameplayServerFiniteStateMachine::*)()>(&GlobalNamespace::GameplayServerFiniteStateMachine::get_timeProvider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<BGNet::Core::ITimeProvider* (GlobalNamespace::GameplayServerFiniteStateMachine::*)()>(&GlobalNamespace::GameplayServerFiniteStateMachine::get_timeProvider)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayServerFiniteStateMachine*), "get_timeProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -213,9 +213,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServe
 // Writing MetadataGetter for method: GlobalNamespace::GameplayServerFiniteStateMachine::set_timeProvider
 // Il2CppName: set_timeProvider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayServerFiniteStateMachine::*)(MasterServer::ITimeProvider*)>(&GlobalNamespace::GameplayServerFiniteStateMachine::set_timeProvider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayServerFiniteStateMachine::*)(BGNet::Core::ITimeProvider*)>(&GlobalNamespace::GameplayServerFiniteStateMachine::set_timeProvider)> {
   static const MethodInfo* get() {
-    static auto* value = &::il2cpp_utils::GetClassFromName("MasterServer", "ITimeProvider")->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("BGNet.Core", "ITimeProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayServerFiniteStateMachine*), "set_timeProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };

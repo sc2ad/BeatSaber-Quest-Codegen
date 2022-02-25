@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class PS4LocalPlayerAudioSyncHelper : public UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1147E38
+    // Offset: 0x2AB7CA8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -25,7 +25,7 @@ namespace NetEase::Docker {
   struct LoginData/*, public System::ValueType*/ {
     public:
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xF2E7B0
+    // [DebuggerBrowsableAttribute] Offset: 0x123502C
     // private System.Boolean <LoginSuccessful>k__BackingField
     // Size: 0x1
     // Offset: 0x0
@@ -34,14 +34,14 @@ namespace NetEase::Docker {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: LoginSuccessful and: LoginCode
     char __padding0[0x3] = {};
-    // [DebuggerBrowsableAttribute] Offset: 0xF2E7EC
+    // [DebuggerBrowsableAttribute] Offset: 0x1235068
     // private System.Int32 <LoginCode>k__BackingField
     // Size: 0x4
     // Offset: 0x4
     int LoginCode;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [DebuggerBrowsableAttribute] Offset: 0xF2E828
+    // [DebuggerBrowsableAttribute] Offset: 0x12350A4
     // private System.String <UserName>k__BackingField
     // Size: 0x8
     // Offset: 0x8
@@ -62,19 +62,19 @@ namespace NetEase::Docker {
     // Get instance field reference: private System.String <UserName>k__BackingField
     ::StringW& dyn_$UserName$k__BackingField();
     // public System.Boolean get_LoginSuccessful()
-    // Offset: 0x26CAA94
+    // Offset: 0x2A57B44
     bool get_LoginSuccessful();
     // public System.Void set_LoginSuccessful(System.Boolean value)
-    // Offset: 0x26CAA9C
+    // Offset: 0x2A57B4C
     void set_LoginSuccessful(bool value);
     // public System.Void set_LoginCode(System.Int32 value)
-    // Offset: 0x26CAAA8
+    // Offset: 0x2A57B58
     void set_LoginCode(int value);
     // public System.String get_UserName()
-    // Offset: 0x26CAAB0
+    // Offset: 0x2A57B60
     ::StringW get_UserName();
     // public System.Void set_UserName(System.String value)
-    // Offset: 0x26CAAB8
+    // Offset: 0x2A57B68
     void set_UserName(::StringW value);
   }; // NetEase.Docker.LoginData
   #pragma pack(pop)

@@ -15,7 +15,6 @@
 // Forward declaring namespace: Oculus::Platform
 namespace Oculus::Platform {
   // Forward declaring type: Request`1<T>
-  template<typename T>
   class Request_1;
 }
 // Forward declaring namespace: Oculus::Platform::Models
@@ -49,28 +48,28 @@ namespace Oculus::Platform {
     // Set static field: static public System.Boolean LogMessages
     static void _set_LogMessages(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x174DB5C
+    // Offset: 0x195A27C
     static void _cctor();
     // static public System.Boolean IsInitialized()
-    // Offset: 0x174D344
+    // Offset: 0x1959A64
     static bool IsInitialized();
     // static System.Void ForceInitialized()
-    // Offset: 0x174D3AC
+    // Offset: 0x1959ACC
     static void ForceInitialized();
     // static private System.String getAppID(System.String appId)
-    // Offset: 0x174D418
+    // Offset: 0x1959B38
     static ::StringW getAppID(::StringW appId);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> AsyncInitialize(System.String appId)
-    // Offset: 0x174D5E0
+    // Offset: 0x1959D00
     static Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
     // static public System.Void Initialize(System.String appId)
-    // Offset: 0x174D878
+    // Offset: 0x1959F98
     static void Initialize(::StringW appId);
     // static private System.String GetAppIDFromConfig()
-    // Offset: 0x174D5B0
+    // Offset: 0x1959CD0
     static ::StringW GetAppIDFromConfig();
     // public System.Void .ctor()
-    // Offset: 0x174DB54
+    // Offset: 0x195A274
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

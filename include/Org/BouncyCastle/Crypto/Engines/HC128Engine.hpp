@@ -120,61 +120,61 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Int32 idx
     int& dyn_idx();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1FC4AA0
+    // Offset: 0x231F26C
     ::StringW get_AlgorithmName();
     // static private System.UInt32 F1(System.UInt32 x)
-    // Offset: 0x1FC44A0
+    // Offset: 0x231EC6C
     static uint F1(uint x);
     // static private System.UInt32 F2(System.UInt32 x)
-    // Offset: 0x1FC44B8
+    // Offset: 0x231EC84
     static uint F2(uint x);
     // private System.UInt32 G1(System.UInt32 x, System.UInt32 y, System.UInt32 z)
-    // Offset: 0x1FC44C8
+    // Offset: 0x231EC94
     uint G1(uint x, uint y, uint z);
     // private System.UInt32 G2(System.UInt32 x, System.UInt32 y, System.UInt32 z)
-    // Offset: 0x1FC44DC
+    // Offset: 0x231ECA8
     uint G2(uint x, uint y, uint z);
     // static private System.UInt32 RotateLeft(System.UInt32 x, System.Int32 bits)
-    // Offset: 0x1FC44F0
+    // Offset: 0x231ECBC
     static uint RotateLeft(uint x, int bits);
     // static private System.UInt32 RotateRight(System.UInt32 x, System.Int32 bits)
-    // Offset: 0x1FC44B0
+    // Offset: 0x231EC7C
     static uint RotateRight(uint x, int bits);
     // private System.UInt32 H1(System.UInt32 x)
-    // Offset: 0x1FC44FC
+    // Offset: 0x231ECC8
     uint H1(uint x);
     // private System.UInt32 H2(System.UInt32 x)
-    // Offset: 0x1FC4554
+    // Offset: 0x231ED20
     uint H2(uint x);
     // static private System.UInt32 Mod1024(System.UInt32 x)
-    // Offset: 0x1FC45AC
+    // Offset: 0x231ED78
     static uint Mod1024(uint x);
     // static private System.UInt32 Mod512(System.UInt32 x)
-    // Offset: 0x1FC45B4
+    // Offset: 0x231ED80
     static uint Mod512(uint x);
     // static private System.UInt32 Dim(System.UInt32 x, System.UInt32 y)
-    // Offset: 0x1FC45BC
+    // Offset: 0x231ED88
     static uint Dim(uint x, uint y);
     // private System.UInt32 Step()
-    // Offset: 0x1FC45C8
+    // Offset: 0x231ED94
     uint Step();
     // private System.Void Init()
-    // Offset: 0x1FC4794
+    // Offset: 0x231EF60
     void Init();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1FC4AE8
+    // Offset: 0x231F2B4
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // private System.Byte GetByte()
-    // Offset: 0x1FC4CB8
+    // Offset: 0x231F484
     uint8_t GetByte();
     // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1FC4D38
+    // Offset: 0x231F504
     void ProcessBytes(::ArrayW<uint8_t> input, int inOff, int len, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1FC4ED8
+    // Offset: 0x231F6A4
     void Reset();
     // public System.Void .ctor()
-    // Offset: 0x1FC4EDC
+    // Offset: 0x231F6A8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

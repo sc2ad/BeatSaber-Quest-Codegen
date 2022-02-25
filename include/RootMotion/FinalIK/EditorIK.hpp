@@ -57,13 +57,13 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private RootMotion.FinalIK.IK ik
     RootMotion::FinalIK::IK*& dyn_ik();
     // private System.Void Start()
-    // Offset: 0x1EADF6C
+    // Offset: 0x222B9C8
     void Start();
     // private System.Void Update()
-    // Offset: 0x1EAE000
+    // Offset: 0x222BA5C
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x1EAE0D0
+    // Offset: 0x222BB2C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

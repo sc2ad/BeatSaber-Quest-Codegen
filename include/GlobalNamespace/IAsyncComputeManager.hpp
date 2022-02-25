@@ -17,13 +17,11 @@ namespace GlobalNamespace {
   // Forward declaring type: AsyncComputeOperation
   class AsyncComputeOperation;
   // Forward declaring type: AsyncComputeOperation`1<T>
-  template<typename T>
   class AsyncComputeOperation_1;
 }
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
-  template<typename TResult>
   class Task_1;
 }
 // Completed forward declares

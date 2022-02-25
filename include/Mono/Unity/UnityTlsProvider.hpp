@@ -70,42 +70,42 @@ namespace Mono::Unity {
   class UnityTlsProvider : public Mono::Security::Interface::MonoTlsProvider {
     public:
     // public override System.String get_Name()
-    // Offset: 0x1A1FB34
+    // Offset: 0x1DE7330
     // Implemented from: Mono.Security.Interface.MonoTlsProvider
     // Base method: System.String MonoTlsProvider::get_Name()
     ::StringW get_Name();
     // public override System.Guid get_ID()
-    // Offset: 0x1A1FB7C
+    // Offset: 0x1DE7378
     // Implemented from: Mono.Security.Interface.MonoTlsProvider
     // Base method: System.Guid MonoTlsProvider::get_ID()
     System::Guid get_ID();
     // public override System.Boolean get_SupportsSslStream()
-    // Offset: 0x1A1FBE4
+    // Offset: 0x1DE73E0
     // Implemented from: Mono.Security.Interface.MonoTlsProvider
     // Base method: System.Boolean MonoTlsProvider::get_SupportsSslStream()
     bool get_SupportsSslStream();
     // public override System.Boolean get_SupportsMonoExtensions()
-    // Offset: 0x1A1FBEC
+    // Offset: 0x1DE73E8
     // Implemented from: Mono.Security.Interface.MonoTlsProvider
     // Base method: System.Boolean MonoTlsProvider::get_SupportsMonoExtensions()
     bool get_SupportsMonoExtensions();
     // public override System.Boolean get_SupportsConnectionInfo()
-    // Offset: 0x1A1FBF4
+    // Offset: 0x1DE73F0
     // Implemented from: Mono.Security.Interface.MonoTlsProvider
     // Base method: System.Boolean MonoTlsProvider::get_SupportsConnectionInfo()
     bool get_SupportsConnectionInfo();
     // override System.Boolean get_SupportsCleanShutdown()
-    // Offset: 0x1A1FBFC
+    // Offset: 0x1DE73F8
     // Implemented from: Mono.Security.Interface.MonoTlsProvider
     // Base method: System.Boolean MonoTlsProvider::get_SupportsCleanShutdown()
     bool get_SupportsCleanShutdown();
     // public override System.Security.Authentication.SslProtocols get_SupportedProtocols()
-    // Offset: 0x1A1FC04
+    // Offset: 0x1DE7400
     // Implemented from: Mono.Security.Interface.MonoTlsProvider
     // Base method: System.Security.Authentication.SslProtocols MonoTlsProvider::get_SupportedProtocols()
     System::Security::Authentication::SslProtocols get_SupportedProtocols();
     // public System.Void .ctor()
-    // Offset: 0x1A202DC
+    // Offset: 0x1DE7AD8
     // Implemented from: Mono.Security.Interface.MonoTlsProvider
     // Base method: System.Void MonoTlsProvider::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -115,17 +115,17 @@ namespace Mono::Unity {
       return THROW_UNLESS((::il2cpp_utils::New<UnityTlsProvider*, creationType>()));
     }
     // public override Mono.Security.Interface.IMonoSslStream CreateSslStream(System.IO.Stream innerStream, System.Boolean leaveInnerStreamOpen, Mono.Security.Interface.MonoTlsSettings settings)
-    // Offset: 0x1A1FC0C
+    // Offset: 0x1DE7408
     // Implemented from: Mono.Security.Interface.MonoTlsProvider
     // Base method: Mono.Security.Interface.IMonoSslStream MonoTlsProvider::CreateSslStream(System.IO.Stream innerStream, System.Boolean leaveInnerStreamOpen, Mono.Security.Interface.MonoTlsSettings settings)
     Mono::Security::Interface::IMonoSslStream* CreateSslStream(System::IO::Stream* innerStream, bool leaveInnerStreamOpen, Mono::Security::Interface::MonoTlsSettings* settings);
     // override Mono.Security.Interface.IMonoSslStream CreateSslStreamInternal(System.Net.Security.SslStream sslStream, System.IO.Stream innerStream, System.Boolean leaveInnerStreamOpen, Mono.Security.Interface.MonoTlsSettings settings)
-    // Offset: 0x1A1FC24
+    // Offset: 0x1DE7420
     // Implemented from: Mono.Security.Interface.MonoTlsProvider
     // Base method: Mono.Security.Interface.IMonoSslStream MonoTlsProvider::CreateSslStreamInternal(System.Net.Security.SslStream sslStream, System.IO.Stream innerStream, System.Boolean leaveInnerStreamOpen, Mono.Security.Interface.MonoTlsSettings settings)
     Mono::Security::Interface::IMonoSslStream* CreateSslStreamInternal(System::Net::Security::SslStream* sslStream, System::IO::Stream* innerStream, bool leaveInnerStreamOpen, Mono::Security::Interface::MonoTlsSettings* settings);
     // override System.Boolean ValidateCertificate(Mono.Security.Interface.ICertificateValidator2 validator, System.String targetHost, System.Boolean serverMode, System.Security.Cryptography.X509Certificates.X509CertificateCollection certificates, System.Boolean wantsChain, ref System.Security.Cryptography.X509Certificates.X509Chain chain, ref Mono.Security.Interface.MonoSslPolicyErrors errors, ref System.Int32 status11)
-    // Offset: 0x1A1FD5C
+    // Offset: 0x1DE7558
     // Implemented from: Mono.Security.Interface.MonoTlsProvider
     // Base method: System.Boolean MonoTlsProvider::ValidateCertificate(Mono.Security.Interface.ICertificateValidator2 validator, System.String targetHost, System.Boolean serverMode, System.Security.Cryptography.X509Certificates.X509CertificateCollection certificates, System.Boolean wantsChain, ref System.Security.Cryptography.X509Certificates.X509Chain chain, ref Mono.Security.Interface.MonoSslPolicyErrors errors, ref System.Int32 status11)
     bool ValidateCertificate(Mono::Security::Interface::ICertificateValidator2* validator, ::StringW targetHost, bool serverMode, System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates, bool wantsChain, ByRef<System::Security::Cryptography::X509Certificates::X509Chain*> chain, ByRef<Mono::Security::Interface::MonoSslPolicyErrors> errors, ByRef<int> status11);

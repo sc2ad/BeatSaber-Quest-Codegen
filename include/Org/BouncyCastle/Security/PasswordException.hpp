@@ -30,7 +30,7 @@ namespace Org::BouncyCastle::Security {
   class PasswordException : public System::IO::IOException {
     public:
     // public System.Void .ctor(System.String message)
-    // Offset: 0x152F7F4
+    // Offset: 0x172E474
     // Implemented from: System.IO.IOException
     // Base method: System.Void IOException::.ctor(System.String message)
     // Base method: System.Void SystemException::.ctor(System.String message)

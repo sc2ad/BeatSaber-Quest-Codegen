@@ -63,7 +63,7 @@ namespace HMUI {
     ::ArrayW<HMUI::CurvedCanvasSettings*> curvedCanvases;
     // Field size check
     static_assert(sizeof(::ArrayW<HMUI::CurvedCanvasSettings*>) == 0x8);
-    // [InjectAttribute] Offset: 0xF254A0
+    // [InjectAttribute] Offset: 0x122BFE0
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x20
@@ -94,16 +94,16 @@ namespace HMUI {
     // Get instance field reference: private UnityEngine.Transform _transform
     UnityEngine::Transform*& dyn__transform();
     // protected System.Void Awake()
-    // Offset: 0x14C7904
+    // Offset: 0x16A99C0
     void Awake();
     // public System.Void SetMode(HMUI.ScreenModeData screenModeData)
-    // Offset: 0x14C7B00
+    // Offset: 0x16A9BBC
     void SetMode(HMUI::ScreenModeData* screenModeData);
     // public System.Void SetDefaultMode()
-    // Offset: 0x14C7D68
+    // Offset: 0x16A9E24
     void SetDefaultMode();
     // public System.Void .ctor()
-    // Offset: 0x14C7D70
+    // Offset: 0x16A9E2C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

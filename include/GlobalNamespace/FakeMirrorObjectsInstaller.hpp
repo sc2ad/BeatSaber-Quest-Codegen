@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [SpaceAttribute] Offset: 0xF40FE0
+    // [SpaceAttribute] Offset: 0x12478E4
     // private MirroredCubeNoteController _mirroredGameNoteControllerPrefab
     // Size: 0x8
     // Offset: 0x20
@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MirroredObstacleController* mirroredObstacleControllerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MirroredObstacleController*) == 0x8);
-    // [SpaceAttribute] Offset: 0xF41038
+    // [SpaceAttribute] Offset: 0x124793C
     // private IntSO _mirrorGraphicsSettings
     // Size: 0x8
     // Offset: 0x38
@@ -98,10 +98,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private MirrorRendererGraphicsSettingsPresets _mirrorRendererGraphicsSettingsPresets
     GlobalNamespace::MirrorRendererGraphicsSettingsPresets*& dyn__mirrorRendererGraphicsSettingsPresets();
     // public MirroredCubeNoteController get_mirroredGameNoteControllerPrefab()
-    // Offset: 0x11E1AC0
+    // Offset: 0x13FE258
     GlobalNamespace::MirroredCubeNoteController* get_mirroredGameNoteControllerPrefab();
     // public System.Void .ctor()
-    // Offset: 0x11E1DEC
+    // Offset: 0x13FE584
     // Implemented from: Zenject.MonoInstaller
     // Base method: System.Void MonoInstaller::.ctor()
     // Base method: System.Void MonoInstallerBase::.ctor()
@@ -116,7 +116,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<FakeMirrorObjectsInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x11E1AC8
+    // Offset: 0x13FE260
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

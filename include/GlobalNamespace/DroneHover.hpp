@@ -19,7 +19,6 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -75,7 +74,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::DroneHover::SineLayer*>* compoundSins;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::DroneHover::SineLayer*>*) == 0x8);
-    // [HeaderAttribute] Offset: 0xF34404
+    // [HeaderAttribute] Offset: 0x123AC78
     // private System.Collections.Generic.List`1<UnityEngine.Transform> _tiltTransforms
     // Size: 0x8
     // Offset: 0x30
@@ -146,22 +145,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Cloth _cloth
     UnityEngine::Cloth*& dyn__cloth();
     // protected System.Void Start()
-    // Offset: 0x11D7110
+    // Offset: 0x13F37F0
     void Start();
     // protected System.Void Update()
-    // Offset: 0x11D714C
+    // Offset: 0x13F382C
     void Update();
     // private UnityEngine.Vector3 GetNoiseVec3(System.Single time)
-    // Offset: 0x11D7300
+    // Offset: 0x13F39E0
     UnityEngine::Vector3 GetNoiseVec3(float time);
     // private System.Single GetNoise(System.Single time, System.Single offset)
-    // Offset: 0x11D7644
+    // Offset: 0x13F3D24
     float GetNoise(float time, float offset);
     // private System.Void UpdateTiltTransform()
-    // Offset: 0x11D73AC
+    // Offset: 0x13F3A8C
     void UpdateTiltTransform();
     // public System.Void .ctor()
-    // Offset: 0x11D7780
+    // Offset: 0x13F3E60
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

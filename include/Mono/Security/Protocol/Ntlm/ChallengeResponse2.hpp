@@ -42,34 +42,34 @@ namespace Mono::Security::Protocol::Ntlm {
     // Set static field: static private System.Byte[] nullEncMagic
     static void _set_nullEncMagic(::ArrayW<uint8_t> value);
     // static private System.Void .cctor()
-    // Offset: 0x1F98088
+    // Offset: 0x22D0C8C
     static void _cctor();
     // static private System.Byte[] Compute_LM(System.String password, System.Byte[] challenge)
-    // Offset: 0x1F96C04
+    // Offset: 0x22CF808
     static ::ArrayW<uint8_t> Compute_LM(::StringW password, ::ArrayW<uint8_t> challenge);
     // static private System.Byte[] Compute_NTLM_Password(System.String password)
-    // Offset: 0x1F973E0
+    // Offset: 0x22CFFE4
     static ::ArrayW<uint8_t> Compute_NTLM_Password(::StringW password);
     // static private System.Byte[] Compute_NTLM(System.String password, System.Byte[] challenge)
-    // Offset: 0x1F974E8
+    // Offset: 0x22D00EC
     static ::ArrayW<uint8_t> Compute_NTLM(::StringW password, ::ArrayW<uint8_t> challenge);
     // static private System.Void Compute_NTLMv2_Session(System.String password, System.Byte[] challenge, out System.Byte[] lm, out System.Byte[] ntlm)
-    // Offset: 0x1F97564
+    // Offset: 0x22D0168
     static void Compute_NTLMv2_Session(::StringW password, ::ArrayW<uint8_t> challenge, ByRef<::ArrayW<uint8_t>> lm, ByRef<::ArrayW<uint8_t>> ntlm);
     // static private System.Byte[] Compute_NTLMv2(Mono.Security.Protocol.Ntlm.Type2Message type2, System.String username, System.String password, System.String domain)
-    // Offset: 0x1F97734
+    // Offset: 0x22D0338
     static ::ArrayW<uint8_t> Compute_NTLMv2(Mono::Security::Protocol::Ntlm::Type2Message* type2, ::StringW username, ::StringW password, ::StringW domain);
     // static public System.Void Compute(Mono.Security.Protocol.Ntlm.Type2Message type2, Mono.Security.Protocol.Ntlm.NtlmAuthLevel level, System.String username, System.String password, System.String domain, out System.Byte[] lm, out System.Byte[] ntlm)
-    // Offset: 0x1F97C6C
+    // Offset: 0x22D0870
     static void Compute(Mono::Security::Protocol::Ntlm::Type2Message* type2, Mono::Security::Protocol::Ntlm::NtlmAuthLevel level, ::StringW username, ::StringW password, ::StringW domain, ByRef<::ArrayW<uint8_t>> lm, ByRef<::ArrayW<uint8_t>> ntlm);
     // static private System.Byte[] GetResponse(System.Byte[] challenge, System.Byte[] pwd)
-    // Offset: 0x1F970E0
+    // Offset: 0x22CFCE4
     static ::ArrayW<uint8_t> GetResponse(::ArrayW<uint8_t> challenge, ::ArrayW<uint8_t> pwd);
     // static private System.Byte[] PrepareDESKey(System.Byte[] key56bits, System.Int32 position)
-    // Offset: 0x1F97E80
+    // Offset: 0x22D0A84
     static ::ArrayW<uint8_t> PrepareDESKey(::ArrayW<uint8_t> key56bits, int position);
     // static private System.Byte[] PasswordToKey(System.String password, System.Int32 position)
-    // Offset: 0x1F96F74
+    // Offset: 0x22CFB78
     static ::ArrayW<uint8_t> PasswordToKey(::StringW password, int position);
   }; // Mono.Security.Protocol.Ntlm.ChallengeResponse2
   #pragma pack(pop)

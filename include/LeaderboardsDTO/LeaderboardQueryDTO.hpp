@@ -135,7 +135,7 @@ namespace LeaderboardsDTO {
     // Get instance field reference: public System.Boolean includedScoreWithModifiers
     bool& dyn_includedScoreWithModifiers();
     // public System.Void .ctor()
-    // Offset: 0x11A3AB0
+    // Offset: 0x13B1610
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

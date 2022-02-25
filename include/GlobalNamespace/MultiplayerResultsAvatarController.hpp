@@ -68,13 +68,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private MultiplayerAvatarPoseController _multiplayerAvatarPoseController
     GlobalNamespace::MultiplayerAvatarPoseController*& dyn__multiplayerAvatarPoseController();
     // public System.Void SetScale(System.Single scale)
-    // Offset: 0x1174CBC
+    // Offset: 0x2AA6A90
     void SetScale(float scale);
     // public System.Void Setup(IConnectedPlayer connectedPlayer)
-    // Offset: 0x1174D30
+    // Offset: 0x2AA6B04
     void Setup(GlobalNamespace::IConnectedPlayer* connectedPlayer);
     // public System.Void .ctor()
-    // Offset: 0x1174E78
+    // Offset: 0x2AA6C4C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

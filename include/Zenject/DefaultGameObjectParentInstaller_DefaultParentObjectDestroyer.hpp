@@ -65,20 +65,20 @@ namespace Zenject {
     // Get instance field reference: private readonly UnityEngine.GameObject _gameObject
     UnityEngine::GameObject*& dyn__gameObject();
     // public System.Void .ctor(UnityEngine.GameObject gameObject)
-    // Offset: 0x15007C4
+    // Offset: 0x16E2880
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer* New_ctor(UnityEngine::GameObject* gameObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer*, creationType>(gameObject)));
     }
     // public System.Void Dispose()
-    // Offset: 0x15007F0
+    // Offset: 0x16E28AC
     void Dispose();
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x150085C
+    // Offset: 0x16E2918
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1500908
+    // Offset: 0x16E29C4
     static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.DefaultGameObjectParentInstaller/Zenject.DefaultParentObjectDestroyer
   #pragma pack(pop)

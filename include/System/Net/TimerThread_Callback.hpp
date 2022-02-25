@@ -35,20 +35,20 @@ namespace System::Net {
   class TimerThread::Callback : public System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x17E6F28
+    // Offset: 0x1CB30B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimerThread::Callback* New_ctor(::Il2CppObject* object, System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::TimerThread::Callback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimerThread::Callback*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Net.TimerThread/System.Net.Timer timer, System.Int32 timeNoticed, System.Object context)
-    // Offset: 0x17E6F38
+    // Offset: 0x1CB30C0
     void Invoke(System::Net::TimerThread::Timer* timer, int timeNoticed, ::Il2CppObject* context);
     // public System.IAsyncResult BeginInvoke(System.Net.TimerThread/System.Net.Timer timer, System.Int32 timeNoticed, System.Object context, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x17E736C
+    // Offset: 0x1CB34F4
     System::IAsyncResult* BeginInvoke(System::Net::TimerThread::Timer* timer, int timeNoticed, ::Il2CppObject* context, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x17E740C
+    // Offset: 0x1CB3594
     void EndInvoke(System::IAsyncResult* result);
   }; // System.Net.TimerThread/System.Net.Callback
   #pragma pack(pop)

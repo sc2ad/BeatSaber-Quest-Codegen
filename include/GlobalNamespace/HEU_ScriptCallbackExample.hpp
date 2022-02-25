@@ -51,13 +51,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String _msg
     ::StringW& dyn__msg();
     // private System.Void AssetCallbackWithMsg(System.String msg)
-    // Offset: 0x14619C0
+    // Offset: 0x1632148
     void AssetCallbackWithMsg(::StringW msg);
     // private System.Void AssetCallbackNoMsg()
-    // Offset: 0x1461A5C
+    // Offset: 0x16321E4
     void AssetCallbackNoMsg();
     // public System.Void .ctor()
-    // Offset: 0x1461AC8
+    // Offset: 0x1632250
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

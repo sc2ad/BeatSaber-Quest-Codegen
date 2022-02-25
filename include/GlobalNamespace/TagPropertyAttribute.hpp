@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class TagPropertyAttribute : public UnityEngine::PropertyAttribute {
     public:
     // public System.Void .ctor()
-    // Offset: 0x26413B4
+    // Offset: 0x299E2E4
     // Implemented from: UnityEngine.PropertyAttribute
     // Base method: System.Void PropertyAttribute::.ctor()
     // Base method: System.Void Attribute::.ctor()

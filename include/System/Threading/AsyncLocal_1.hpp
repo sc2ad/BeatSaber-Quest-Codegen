@@ -18,14 +18,12 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
 }
 // Completed forward declares
 // Type namespace: System.Threading
 namespace System::Threading {
   // Forward declaring type: AsyncLocal`1<T>
-  template<typename T>
   class AsyncLocal_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

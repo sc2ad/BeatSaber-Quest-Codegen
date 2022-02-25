@@ -94,16 +94,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _startAnimationTime
     float& dyn__startAnimationTime();
     // public System.Void UpdateLocalPositionY(System.Single dstPosY, System.Boolean animated, System.Single animationDuration)
-    // Offset: 0x11BD18C
+    // Offset: 0x14204A4
     void UpdateLocalPositionY(float dstPosY, bool animated, float animationDuration);
     // protected System.Void Update()
-    // Offset: 0x11BD230
+    // Offset: 0x1420548
     void Update();
     // public System.Void UpdateStageLockText(System.String text)
-    // Offset: 0x11BD384
+    // Offset: 0x142069C
     void UpdateStageLockText(::StringW text);
     // public System.Void .ctor()
-    // Offset: 0x11BD3A0
+    // Offset: 0x14206B8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

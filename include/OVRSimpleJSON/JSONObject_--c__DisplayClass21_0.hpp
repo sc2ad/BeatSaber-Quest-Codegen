@@ -22,7 +22,6 @@ namespace OVRSimpleJSON {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: KeyValuePair`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   struct KeyValuePair_2;
 }
 // Completed forward declares
@@ -61,10 +60,10 @@ namespace OVRSimpleJSON {
     // Get instance field reference: public OVRSimpleJSON.JSONNode aNode
     OVRSimpleJSON::JSONNode*& dyn_aNode();
     // System.Boolean <Remove>b__0(System.Collections.Generic.KeyValuePair`2<System.String,OVRSimpleJSON.JSONNode> k)
-    // Offset: 0x2166788
+    // Offset: 0x243BFC0
     bool $Remove$b__0(System::Collections::Generic::KeyValuePair_2<::StringW, OVRSimpleJSON::JSONNode*> k);
     // public System.Void .ctor()
-    // Offset: 0x2166368
+    // Offset: 0x243BBA0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

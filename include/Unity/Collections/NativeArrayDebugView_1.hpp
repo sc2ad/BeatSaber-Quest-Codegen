@@ -16,7 +16,6 @@ namespace System {
 // Type namespace: Unity.Collections
 namespace Unity::Collections {
   // Forward declaring type: NativeArrayDebugView`1<T>
-  template<typename T>
   class NativeArrayDebugView_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

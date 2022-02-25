@@ -55,14 +55,14 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::FABRIK* ik;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::FABRIK*) == 0x8);
-    // [RangeAttribute] Offset: 0xF5DC24
+    // [RangeAttribute] Offset: 0x1264754
     // public System.Single pull
     // Size: 0x4
     // Offset: 0x18
     float pull;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0xF5DC3C
+    // [RangeAttribute] Offset: 0x126476C
     // public System.Single pin
     // Size: 0x4
     // Offset: 0x1C
@@ -85,22 +85,22 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Int32[] children
     ::ArrayW<int>& dyn_children();
     // public System.Boolean IsValid(ref System.String message)
-    // Offset: 0x1EAE278
+    // Offset: 0x222BCD4
     bool IsValid(ByRef<::StringW> message);
     // public System.Void Initiate()
-    // Offset: 0x1EAE340
+    // Offset: 0x222BD9C
     void Initiate();
     // public System.Void Stage1(RootMotion.FinalIK.FABRIKChain[] chain)
-    // Offset: 0x1EAE360
+    // Offset: 0x222BDBC
     void Stage1(::ArrayW<RootMotion::FinalIK::FABRIKChain*> chain);
     // public System.Void Stage2(UnityEngine.Vector3 rootPosition, RootMotion.FinalIK.FABRIKChain[] chain)
-    // Offset: 0x1EAE730
+    // Offset: 0x222C18C
     void Stage2(UnityEngine::Vector3 rootPosition, ::ArrayW<RootMotion::FinalIK::FABRIKChain*> chain);
     // private UnityEngine.Vector3 GetCentroid(RootMotion.FinalIK.FABRIKChain[] chain)
-    // Offset: 0x1EAE434
+    // Offset: 0x222BE90
     UnityEngine::Vector3 GetCentroid(::ArrayW<RootMotion::FinalIK::FABRIKChain*> chain);
     // public System.Void .ctor()
-    // Offset: 0x1EAE828
+    // Offset: 0x222C284
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

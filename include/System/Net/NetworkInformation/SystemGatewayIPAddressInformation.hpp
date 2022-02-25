@@ -65,14 +65,14 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: private System.Net.IPAddress address
     System::Net::IPAddress*& dyn_address();
     // System.Void .ctor(System.Net.IPAddress address)
-    // Offset: 0x16A9278
+    // Offset: 0x17AD2CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SystemGatewayIPAddressInformation* New_ctor(System::Net::IPAddress* address) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::NetworkInformation::SystemGatewayIPAddressInformation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SystemGatewayIPAddressInformation*, creationType>(address)));
     }
     // static System.Net.NetworkInformation.GatewayIPAddressInformationCollection ToGatewayIpAddressInformationCollection(System.Net.NetworkInformation.IPAddressCollection addresses)
-    // Offset: 0x16A64CC
+    // Offset: 0x17AA5D0
     static System::Net::NetworkInformation::GatewayIPAddressInformationCollection* ToGatewayIpAddressInformationCollection(System::Net::NetworkInformation::IPAddressCollection* addresses);
   }; // System.Net.NetworkInformation.SystemGatewayIPAddressInformation
   #pragma pack(pop)

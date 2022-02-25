@@ -43,7 +43,7 @@ namespace RootMotion::FinalIK {
     protected:
     #endif
     #endif
-    // [TooltipAttribute] Offset: 0xF61DD4
+    // [TooltipAttribute] Offset: 0x1268904
     // public System.Boolean use
     // Size: 0x1
     // Offset: 0x10
@@ -52,44 +52,44 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: use and: offset
     char __padding0[0x3] = {};
-    // [TooltipAttribute] Offset: 0xF61E0C
+    // [TooltipAttribute] Offset: 0x126893C
     // public UnityEngine.Vector2 offset
     // Size: 0x8
     // Offset: 0x14
     UnityEngine::Vector2 offset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
-    // [TooltipAttribute] Offset: 0xF61E44
-    // [RangeAttribute] Offset: 0xF61E44
+    // [TooltipAttribute] Offset: 0x1268974
+    // [RangeAttribute] Offset: 0x1268974
     // public System.Single angleOffset
     // Size: 0x4
     // Offset: 0x1C
     float angleOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xF61EA0
-    // [RangeAttribute] Offset: 0xF61EA0
+    // [TooltipAttribute] Offset: 0x12689D0
+    // [RangeAttribute] Offset: 0x12689D0
     // public System.Single maxAngle
     // Size: 0x4
     // Offset: 0x20
     float maxAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xF61EF8
+    // [TooltipAttribute] Offset: 0x1268A28
     // public System.Single radius
     // Size: 0x4
     // Offset: 0x24
     float radius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0xF61F30
+    // [TooltipAttribute] Offset: 0x1268A60
     // public System.Boolean orbit
     // Size: 0x1
     // Offset: 0x28
     bool orbit;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // [TooltipAttribute] Offset: 0xF61F68
+    // [TooltipAttribute] Offset: 0x1268A98
     // public System.Boolean fixYAxis
     // Size: 0x1
     // Offset: 0x29
@@ -112,16 +112,16 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Boolean fixYAxis
     bool& dyn_fixYAxis();
     // public UnityEngine.Vector3 get_offset3D()
-    // Offset: 0x1C96E10
+    // Offset: 0x1F09AA4
     UnityEngine::Vector3 get_offset3D();
     // public UnityEngine.Vector3 get_direction3D()
-    // Offset: 0x1C96E4C
+    // Offset: 0x1F09AE0
     UnityEngine::Vector3 get_direction3D();
     // public System.Boolean IsInRange(UnityEngine.Transform character, UnityEngine.Transform trigger, out System.Single error)
-    // Offset: 0x1C96F44
+    // Offset: 0x1F09BD8
     bool IsInRange(UnityEngine::Transform* character, UnityEngine::Transform* trigger, ByRef<float> error);
     // public System.Void .ctor()
-    // Offset: 0x1C975C0
+    // Offset: 0x1F0A254
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

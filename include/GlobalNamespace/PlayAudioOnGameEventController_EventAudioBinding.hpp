@@ -23,7 +23,6 @@ namespace GlobalNamespace {
   // Forward declaring type: AudioClipQueue
   class AudioClipQueue;
   // Forward declaring type: RandomObjectPicker`1<T>
-  template<typename T>
   class RandomObjectPicker_1;
 }
 // Completed forward declares
@@ -47,7 +46,7 @@ namespace GlobalNamespace {
     protected:
     #endif
     #endif
-    // [HeaderAttribute] Offset: 0xF4AE8C
+    // [HeaderAttribute] Offset: 0x12518A0
     // private Signal _signal
     // Size: 0x8
     // Offset: 0x10
@@ -92,16 +91,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private RandomObjectPicker`1<LocalizedAudioClipSO> _randomObjectPicker
     GlobalNamespace::RandomObjectPicker_1<GlobalNamespace::LocalizedAudioClipSO*>*& dyn__randomObjectPicker();
     // public System.Void Init(AudioClipQueue audioClipQueue)
-    // Offset: 0x11515BC
+    // Offset: 0x2AC122C
     void Init(GlobalNamespace::AudioClipQueue* audioClipQueue);
     // public System.Void Deinit()
-    // Offset: 0x11516F0
+    // Offset: 0x2AC1360
     void Deinit();
     // private System.Void HandleGameEvent()
-    // Offset: 0x1151784
+    // Offset: 0x2AC13F4
     void HandleGameEvent();
     // public System.Void .ctor()
-    // Offset: 0x1151858
+    // Offset: 0x2AC14C8
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

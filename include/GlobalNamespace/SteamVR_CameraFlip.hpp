@@ -30,10 +30,10 @@ namespace GlobalNamespace {
   class SteamVR_CameraFlip : public UnityEngine::MonoBehaviour {
     public:
     // private System.Void Awake()
-    // Offset: 0x15B7290
+    // Offset: 0x17BD0B0
     void Awake();
     // public System.Void .ctor()
-    // Offset: 0x15B732C
+    // Offset: 0x17BD14C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

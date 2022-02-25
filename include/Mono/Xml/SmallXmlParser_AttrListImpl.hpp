@@ -20,7 +20,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -66,31 +65,31 @@ namespace Mono::Xml {
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> attrValues
     System::Collections::Generic::List_1<::StringW>*& dyn_attrValues();
     // public System.Int32 get_Length()
-    // Offset: 0x1C95978
+    // Offset: 0x1E8EECC
     int get_Length();
     // public System.String[] get_Names()
-    // Offset: 0x1C95B8C
+    // Offset: 0x1E8F0E0
     ::ArrayW<::StringW> get_Names();
     // public System.String[] get_Values()
-    // Offset: 0x1C95BE4
+    // Offset: 0x1E8F138
     ::ArrayW<::StringW> get_Values();
     // public System.String GetName(System.Int32 i)
-    // Offset: 0x1C959C8
+    // Offset: 0x1E8EF1C
     ::StringW GetName(int i);
     // public System.String GetValue(System.Int32 i)
-    // Offset: 0x1C95A40
+    // Offset: 0x1E8EF94
     ::StringW GetValue(int i);
     // public System.String GetValue(System.String name)
-    // Offset: 0x1C95AB8
+    // Offset: 0x1E8F00C
     ::StringW GetValue(::StringW name);
     // System.Void Clear()
-    // Offset: 0x1C953A4
+    // Offset: 0x1E8E8F8
     void Clear();
     // System.Void Add(System.String name, System.String value)
-    // Offset: 0x1C958F8
+    // Offset: 0x1E8EE4C
     void Add(::StringW name, ::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x1C93FE8
+    // Offset: 0x1E8D538
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

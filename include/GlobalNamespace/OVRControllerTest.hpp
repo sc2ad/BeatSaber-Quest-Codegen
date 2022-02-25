@@ -25,7 +25,6 @@ namespace UnityEngine::UI {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System::Text
@@ -99,13 +98,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Text.StringBuilder data
     System::Text::StringBuilder*& dyn_data();
     // private System.Void Start()
-    // Offset: 0x13DE110
+    // Offset: 0x15A5FB4
     void Start();
     // private System.Void Update()
-    // Offset: 0x13DF8FC
+    // Offset: 0x15A77A0
     void Update();
     // public System.Void .ctor()
-    // Offset: 0x13E02B0
+    // Offset: 0x15A8154
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()
@@ -118,7 +117,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRControllerTest*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x13E02B8
+    // Offset: 0x15A815C
     // Implemented from: UnityEngine.Object
     // Base method: System.Void Object::.cctor()
     static void _cctor();

@@ -57,19 +57,19 @@ namespace Mono {
     // Get instance field reference: private System.IntPtr marshaled_string
     System::IntPtr& dyn_marshaled_string();
     // public System.IntPtr get_Value()
-    // Offset: 0x1C7BBEC
+    // Offset: 0x1E7513C
     System::IntPtr get_Value();
     // public System.Void .ctor(System.String str)
-    // Offset: 0x1C7B860
+    // Offset: 0x1E74DB0
     SafeStringMarshal(::StringW str);
     // static public System.IntPtr StringToUtf8(System.String str)
-    // Offset: 0x1C7BBE4
+    // Offset: 0x1E75134
     static System::IntPtr StringToUtf8(::StringW str);
     // static public System.Void GFree(System.IntPtr ptr)
-    // Offset: 0x1C7BBE8
+    // Offset: 0x1E75138
     static void GFree(System::IntPtr ptr);
     // public System.Void Dispose()
-    // Offset: 0x1C7BC54
+    // Offset: 0x1E751A4
     void Dispose();
   }; // Mono.SafeStringMarshal
   #pragma pack(pop)

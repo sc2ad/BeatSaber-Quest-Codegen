@@ -14,20 +14,17 @@
 // Forward declaring namespace: UnityEngine::ResourceManagement::Util
 namespace UnityEngine::ResourceManagement::Util {
   // Forward declaring type: LinkedListNodeCache`1<T>
-  template<typename T>
   class LinkedListNodeCache_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: LinkedListNode`1<T>
-  template<typename T>
   class LinkedListNode_1;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ResourceManagement.Util
 namespace UnityEngine::ResourceManagement::Util {
   // Forward declaring type: GlobalLinkedListNodeCache`1<T>
-  template<typename T>
   class GlobalLinkedListNodeCache_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

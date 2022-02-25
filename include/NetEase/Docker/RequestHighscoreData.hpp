@@ -25,14 +25,14 @@ namespace NetEase::Docker {
   struct RequestHighscoreData/*, public System::ValueType*/ {
     public:
     public:
-    // [DebuggerBrowsableAttribute] Offset: 0xF2EA44
+    // [DebuggerBrowsableAttribute] Offset: 0x12352C0
     // private System.String <Track>k__BackingField
     // Size: 0x8
     // Offset: 0x0
     ::StringW Track;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0xF2EA80
+    // [DebuggerBrowsableAttribute] Offset: 0x12352FC
     // private System.String <HighscoreType>k__BackingField
     // Size: 0x8
     // Offset: 0x8
@@ -51,13 +51,13 @@ namespace NetEase::Docker {
     // Get instance field reference: private System.String <HighscoreType>k__BackingField
     ::StringW& dyn_$HighscoreType$k__BackingField();
     // public System.String get_Track()
-    // Offset: 0x26CAB04
+    // Offset: 0x2A57BB4
     ::StringW get_Track();
     // public System.Void set_Track(System.String value)
-    // Offset: 0x26CAB0C
+    // Offset: 0x2A57BBC
     void set_Track(::StringW value);
     // public System.Void set_HighscoreType(System.String value)
-    // Offset: 0x26CAB14
+    // Offset: 0x2A57BC4
     void set_HighscoreType(::StringW value);
   }; // NetEase.Docker.RequestHighscoreData
   #pragma pack(pop)

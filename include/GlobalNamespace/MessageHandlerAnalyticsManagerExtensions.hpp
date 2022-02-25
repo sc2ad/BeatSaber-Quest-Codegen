@@ -18,23 +18,25 @@ namespace System {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
-  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
-// Forward declaring namespace: MasterServer
-namespace MasterServer {
-  // Forward declaring type: IMasterServerMessage
-  class IMasterServerMessage;
-  // Forward declaring type: IMasterServerResponse
-  class IMasterServerResponse;
+// Forward declaring namespace: BGNet::Core::Messages
+namespace BGNet::Core::Messages {
+  // Forward declaring type: IUnconnectedMessage
+  class IUnconnectedMessage;
+  // Forward declaring type: IUnconnectedResponse
+  class IUnconnectedResponse;
+  // Forward declaring type: IUnconnectedReliableRequest
+  class IUnconnectedReliableRequest;
+  // Forward declaring type: IUnconnectedReliableResponse
+  class IUnconnectedReliableResponse;
+  // Forward declaring type: IUnconnectedUnreliableMessage
+  class IUnconnectedUnreliableMessage;
+}
+// Forward declaring namespace: BGNet::Core
+namespace BGNet::Core {
   // Forward declaring type: IAnalyticsManager
   class IAnalyticsManager;
-  // Forward declaring type: IMasterServerReliableRequest
-  class IMasterServerReliableRequest;
-  // Forward declaring type: IMasterServerReliableResponse
-  class IMasterServerReliableResponse;
-  // Forward declaring type: IMasterServerUnreliableMessage
-  class IMasterServerUnreliableMessage;
 }
 // Completed forward declares
 // Type namespace: 
@@ -129,38 +131,38 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.Dictionary`2<System.Byte,System.String>> _responseCodeLookup
     static void _set__responseCodeLookup(System::Collections::Generic::Dictionary_2<System::Type*, System::Collections::Generic::Dictionary_2<uint8_t, ::StringW>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x180560C
+    // Offset: 0x2CA671C
     static void _cctor();
-    // static private System.String GetMessageName(MasterServer.IMasterServerMessage message)
-    // Offset: 0x1804208
-    static ::StringW GetMessageName(MasterServer::IMasterServerMessage* message);
-    // static private System.String GetResponseCodeName(MasterServer.IMasterServerResponse response)
-    // Offset: 0x1804350
-    static ::StringW GetResponseCodeName(MasterServer::IMasterServerResponse* response);
-    // static public System.Void ReceivedReliableRequestEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerReliableRequest request)
-    // Offset: 0x1804610
-    static void ReceivedReliableRequestEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerReliableRequest* request);
-    // static public System.Void SentReliableRequestEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerReliableRequest request)
-    // Offset: 0x18048AC
-    static void SentReliableRequestEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerReliableRequest* request);
-    // static public System.Void ReceivedReliableResponseEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerReliableResponse response)
-    // Offset: 0x1804A7C
-    static void ReceivedReliableResponseEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerReliableResponse* response);
-    // static public System.Void SentReliableResponseEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerReliableResponse response)
-    // Offset: 0x1804C78
-    static void SentReliableResponseEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerReliableResponse* response);
-    // static public System.Void ReceivedUnreliableMessageEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerUnreliableMessage message)
-    // Offset: 0x1804E74
-    static void ReceivedUnreliableMessageEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerUnreliableMessage* message);
-    // static public System.Void SentUnreliableMessageEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerUnreliableMessage message)
-    // Offset: 0x1805044
-    static void SentUnreliableMessageEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerUnreliableMessage* message);
-    // static public System.Void ReceivedUnreliableResponseEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerResponse response)
-    // Offset: 0x1805214
-    static void ReceivedUnreliableResponseEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerResponse* response);
-    // static public System.Void SentUnreliableResponseEvent(MasterServer.IAnalyticsManager analyticsManager, MasterServer.IMasterServerResponse response)
-    // Offset: 0x1805410
-    static void SentUnreliableResponseEvent(MasterServer::IAnalyticsManager* analyticsManager, MasterServer::IMasterServerResponse* response);
+    // static private System.String GetMessageName(BGNet.Core.Messages.IUnconnectedMessage message)
+    // Offset: 0x2CA5318
+    static ::StringW GetMessageName(BGNet::Core::Messages::IUnconnectedMessage* message);
+    // static private System.String GetResponseCodeName(BGNet.Core.Messages.IUnconnectedResponse response)
+    // Offset: 0x2CA5460
+    static ::StringW GetResponseCodeName(BGNet::Core::Messages::IUnconnectedResponse* response);
+    // static public System.Void ReceivedReliableRequestEvent(BGNet.Core.IAnalyticsManager analyticsManager, BGNet.Core.Messages.IUnconnectedReliableRequest request)
+    // Offset: 0x2CA5720
+    static void ReceivedReliableRequestEvent(BGNet::Core::IAnalyticsManager* analyticsManager, BGNet::Core::Messages::IUnconnectedReliableRequest* request);
+    // static public System.Void SentReliableRequestEvent(BGNet.Core.IAnalyticsManager analyticsManager, BGNet.Core.Messages.IUnconnectedReliableRequest request)
+    // Offset: 0x2CA59BC
+    static void SentReliableRequestEvent(BGNet::Core::IAnalyticsManager* analyticsManager, BGNet::Core::Messages::IUnconnectedReliableRequest* request);
+    // static public System.Void ReceivedReliableResponseEvent(BGNet.Core.IAnalyticsManager analyticsManager, BGNet.Core.Messages.IUnconnectedReliableResponse response)
+    // Offset: 0x2CA5B8C
+    static void ReceivedReliableResponseEvent(BGNet::Core::IAnalyticsManager* analyticsManager, BGNet::Core::Messages::IUnconnectedReliableResponse* response);
+    // static public System.Void SentReliableResponseEvent(BGNet.Core.IAnalyticsManager analyticsManager, BGNet.Core.Messages.IUnconnectedReliableResponse response)
+    // Offset: 0x2CA5D88
+    static void SentReliableResponseEvent(BGNet::Core::IAnalyticsManager* analyticsManager, BGNet::Core::Messages::IUnconnectedReliableResponse* response);
+    // static public System.Void ReceivedUnreliableMessageEvent(BGNet.Core.IAnalyticsManager analyticsManager, BGNet.Core.Messages.IUnconnectedUnreliableMessage message)
+    // Offset: 0x2CA5F84
+    static void ReceivedUnreliableMessageEvent(BGNet::Core::IAnalyticsManager* analyticsManager, BGNet::Core::Messages::IUnconnectedUnreliableMessage* message);
+    // static public System.Void SentUnreliableMessageEvent(BGNet.Core.IAnalyticsManager analyticsManager, BGNet.Core.Messages.IUnconnectedUnreliableMessage message)
+    // Offset: 0x2CA6154
+    static void SentUnreliableMessageEvent(BGNet::Core::IAnalyticsManager* analyticsManager, BGNet::Core::Messages::IUnconnectedUnreliableMessage* message);
+    // static public System.Void ReceivedUnreliableResponseEvent(BGNet.Core.IAnalyticsManager analyticsManager, BGNet.Core.Messages.IUnconnectedResponse response)
+    // Offset: 0x2CA6324
+    static void ReceivedUnreliableResponseEvent(BGNet::Core::IAnalyticsManager* analyticsManager, BGNet::Core::Messages::IUnconnectedResponse* response);
+    // static public System.Void SentUnreliableResponseEvent(BGNet.Core.IAnalyticsManager analyticsManager, BGNet.Core.Messages.IUnconnectedResponse response)
+    // Offset: 0x2CA6520
+    static void SentUnreliableResponseEvent(BGNet::Core::IAnalyticsManager* analyticsManager, BGNet::Core::Messages::IUnconnectedResponse* response);
   }; // MessageHandlerAnalyticsManagerExtensions
   #pragma pack(pop)
 }
@@ -176,98 +178,98 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::GetMessageName
 // Il2CppName: GetMessageName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(MasterServer::IMasterServerMessage*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::GetMessageName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(BGNet::Core::Messages::IUnconnectedMessage*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::GetMessageName)> {
   static const MethodInfo* get() {
-    static auto* message = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerMessage")->byval_arg;
+    static auto* message = &::il2cpp_utils::GetClassFromName("BGNet.Core.Messages", "IUnconnectedMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MessageHandlerAnalyticsManagerExtensions*), "GetMessageName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::GetResponseCodeName
 // Il2CppName: GetResponseCodeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(MasterServer::IMasterServerResponse*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::GetResponseCodeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(BGNet::Core::Messages::IUnconnectedResponse*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::GetResponseCodeName)> {
   static const MethodInfo* get() {
-    static auto* response = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerResponse")->byval_arg;
+    static auto* response = &::il2cpp_utils::GetClassFromName("BGNet.Core.Messages", "IUnconnectedResponse")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MessageHandlerAnalyticsManagerExtensions*), "GetResponseCodeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{response});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::ReceivedReliableRequestEvent
 // Il2CppName: ReceivedReliableRequestEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(MasterServer::IAnalyticsManager*, MasterServer::IMasterServerReliableRequest*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::ReceivedReliableRequestEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(BGNet::Core::IAnalyticsManager*, BGNet::Core::Messages::IUnconnectedReliableRequest*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::ReceivedReliableRequestEvent)> {
   static const MethodInfo* get() {
-    static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("MasterServer", "IAnalyticsManager")->byval_arg;
-    static auto* request = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerReliableRequest")->byval_arg;
+    static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("BGNet.Core", "IAnalyticsManager")->byval_arg;
+    static auto* request = &::il2cpp_utils::GetClassFromName("BGNet.Core.Messages", "IUnconnectedReliableRequest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MessageHandlerAnalyticsManagerExtensions*), "ReceivedReliableRequestEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{analyticsManager, request});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::SentReliableRequestEvent
 // Il2CppName: SentReliableRequestEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(MasterServer::IAnalyticsManager*, MasterServer::IMasterServerReliableRequest*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::SentReliableRequestEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(BGNet::Core::IAnalyticsManager*, BGNet::Core::Messages::IUnconnectedReliableRequest*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::SentReliableRequestEvent)> {
   static const MethodInfo* get() {
-    static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("MasterServer", "IAnalyticsManager")->byval_arg;
-    static auto* request = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerReliableRequest")->byval_arg;
+    static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("BGNet.Core", "IAnalyticsManager")->byval_arg;
+    static auto* request = &::il2cpp_utils::GetClassFromName("BGNet.Core.Messages", "IUnconnectedReliableRequest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MessageHandlerAnalyticsManagerExtensions*), "SentReliableRequestEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{analyticsManager, request});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::ReceivedReliableResponseEvent
 // Il2CppName: ReceivedReliableResponseEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(MasterServer::IAnalyticsManager*, MasterServer::IMasterServerReliableResponse*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::ReceivedReliableResponseEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(BGNet::Core::IAnalyticsManager*, BGNet::Core::Messages::IUnconnectedReliableResponse*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::ReceivedReliableResponseEvent)> {
   static const MethodInfo* get() {
-    static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("MasterServer", "IAnalyticsManager")->byval_arg;
-    static auto* response = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerReliableResponse")->byval_arg;
+    static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("BGNet.Core", "IAnalyticsManager")->byval_arg;
+    static auto* response = &::il2cpp_utils::GetClassFromName("BGNet.Core.Messages", "IUnconnectedReliableResponse")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MessageHandlerAnalyticsManagerExtensions*), "ReceivedReliableResponseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{analyticsManager, response});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::SentReliableResponseEvent
 // Il2CppName: SentReliableResponseEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(MasterServer::IAnalyticsManager*, MasterServer::IMasterServerReliableResponse*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::SentReliableResponseEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(BGNet::Core::IAnalyticsManager*, BGNet::Core::Messages::IUnconnectedReliableResponse*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::SentReliableResponseEvent)> {
   static const MethodInfo* get() {
-    static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("MasterServer", "IAnalyticsManager")->byval_arg;
-    static auto* response = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerReliableResponse")->byval_arg;
+    static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("BGNet.Core", "IAnalyticsManager")->byval_arg;
+    static auto* response = &::il2cpp_utils::GetClassFromName("BGNet.Core.Messages", "IUnconnectedReliableResponse")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MessageHandlerAnalyticsManagerExtensions*), "SentReliableResponseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{analyticsManager, response});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::ReceivedUnreliableMessageEvent
 // Il2CppName: ReceivedUnreliableMessageEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(MasterServer::IAnalyticsManager*, MasterServer::IMasterServerUnreliableMessage*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::ReceivedUnreliableMessageEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(BGNet::Core::IAnalyticsManager*, BGNet::Core::Messages::IUnconnectedUnreliableMessage*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::ReceivedUnreliableMessageEvent)> {
   static const MethodInfo* get() {
-    static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("MasterServer", "IAnalyticsManager")->byval_arg;
-    static auto* message = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerUnreliableMessage")->byval_arg;
+    static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("BGNet.Core", "IAnalyticsManager")->byval_arg;
+    static auto* message = &::il2cpp_utils::GetClassFromName("BGNet.Core.Messages", "IUnconnectedUnreliableMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MessageHandlerAnalyticsManagerExtensions*), "ReceivedUnreliableMessageEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{analyticsManager, message});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::SentUnreliableMessageEvent
 // Il2CppName: SentUnreliableMessageEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(MasterServer::IAnalyticsManager*, MasterServer::IMasterServerUnreliableMessage*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::SentUnreliableMessageEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(BGNet::Core::IAnalyticsManager*, BGNet::Core::Messages::IUnconnectedUnreliableMessage*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::SentUnreliableMessageEvent)> {
   static const MethodInfo* get() {
-    static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("MasterServer", "IAnalyticsManager")->byval_arg;
-    static auto* message = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerUnreliableMessage")->byval_arg;
+    static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("BGNet.Core", "IAnalyticsManager")->byval_arg;
+    static auto* message = &::il2cpp_utils::GetClassFromName("BGNet.Core.Messages", "IUnconnectedUnreliableMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MessageHandlerAnalyticsManagerExtensions*), "SentUnreliableMessageEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{analyticsManager, message});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::ReceivedUnreliableResponseEvent
 // Il2CppName: ReceivedUnreliableResponseEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(MasterServer::IAnalyticsManager*, MasterServer::IMasterServerResponse*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::ReceivedUnreliableResponseEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(BGNet::Core::IAnalyticsManager*, BGNet::Core::Messages::IUnconnectedResponse*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::ReceivedUnreliableResponseEvent)> {
   static const MethodInfo* get() {
-    static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("MasterServer", "IAnalyticsManager")->byval_arg;
-    static auto* response = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerResponse")->byval_arg;
+    static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("BGNet.Core", "IAnalyticsManager")->byval_arg;
+    static auto* response = &::il2cpp_utils::GetClassFromName("BGNet.Core.Messages", "IUnconnectedResponse")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MessageHandlerAnalyticsManagerExtensions*), "ReceivedUnreliableResponseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{analyticsManager, response});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::SentUnreliableResponseEvent
 // Il2CppName: SentUnreliableResponseEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(MasterServer::IAnalyticsManager*, MasterServer::IMasterServerResponse*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::SentUnreliableResponseEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(BGNet::Core::IAnalyticsManager*, BGNet::Core::Messages::IUnconnectedResponse*)>(&GlobalNamespace::MessageHandlerAnalyticsManagerExtensions::SentUnreliableResponseEvent)> {
   static const MethodInfo* get() {
-    static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("MasterServer", "IAnalyticsManager")->byval_arg;
-    static auto* response = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerResponse")->byval_arg;
+    static auto* analyticsManager = &::il2cpp_utils::GetClassFromName("BGNet.Core", "IAnalyticsManager")->byval_arg;
+    static auto* response = &::il2cpp_utils::GetClassFromName("BGNet.Core.Messages", "IUnconnectedResponse")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MessageHandlerAnalyticsManagerExtensions*), "SentUnreliableResponseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{analyticsManager, response});
   }
 };

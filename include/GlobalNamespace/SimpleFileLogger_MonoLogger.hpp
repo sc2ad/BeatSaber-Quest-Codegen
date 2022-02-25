@@ -19,7 +19,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -55,16 +54,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.String> _lines
     System::Collections::Generic::List_1<::StringW>*& dyn__lines();
     // protected System.Void OnDestroy()
-    // Offset: 0x2640604
+    // Offset: 0x299D534
     void OnDestroy();
     // public System.Void Log(System.String text)
-    // Offset: 0x264029C
+    // Offset: 0x299D1CC
     void Log(::StringW text);
     // public System.Void Clear()
-    // Offset: 0x2640590
+    // Offset: 0x299D4C0
     void Clear();
     // public System.Void .ctor()
-    // Offset: 0x2640658
+    // Offset: 0x299D588
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

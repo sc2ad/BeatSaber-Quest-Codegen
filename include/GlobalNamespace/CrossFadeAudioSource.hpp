@@ -30,7 +30,6 @@ namespace Tweening {
   // Forward declaring type: TimeTweeningManager
   class TimeTweeningManager;
   // Forward declaring type: Tween`1<T>
-  template<typename T>
   class Tween_1;
 }
 // Completed forward declares
@@ -91,7 +90,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AudioPitchGainEffect* audioPitchGainEffect2;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioPitchGainEffect*) == 0x8);
-    // [InjectAttribute] Offset: 0xF35188
+    // [InjectAttribute] Offset: 0x123BA1C
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x40
@@ -162,58 +161,58 @@ namespace GlobalNamespace {
     // Get instance field reference: private AudioPitchGainEffect _inactivePitchGainEffect
     GlobalNamespace::AudioPitchGainEffect*& dyn__inactivePitchGainEffect();
     // public UnityEngine.AudioClip get_clip()
-    // Offset: 0x11900B8
+    // Offset: 0x13C5B60
     UnityEngine::AudioClip* get_clip();
     // public System.Void set_clip(UnityEngine.AudioClip value)
-    // Offset: 0x11900D4
+    // Offset: 0x13C5B7C
     void set_clip(UnityEngine::AudioClip* value);
     // public System.Void set_pitch(System.Single value)
-    // Offset: 0x1190118
+    // Offset: 0x13C5BC0
     void set_pitch(float value);
     // public System.Void set_time(System.Single value)
-    // Offset: 0x1190164
+    // Offset: 0x13C5C0C
     void set_time(float value);
     // public System.Boolean get_isPlaying()
-    // Offset: 0x11901B0
+    // Offset: 0x13C5C58
     bool get_isPlaying();
     // protected System.Void Awake()
-    // Offset: 0x11901CC
+    // Offset: 0x13C5C74
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1190324
+    // Offset: 0x13C5DCC
     void OnDestroy();
     // public System.Void PlayPitchGainEffect(System.Single volumeScale)
-    // Offset: 0x11903BC
+    // Offset: 0x13C5E64
     void PlayPitchGainEffect(float volumeScale);
     // public System.Void InterruptLastPitchGainEffect()
-    // Offset: 0x11903DC
+    // Offset: 0x13C5E84
     void InterruptLastPitchGainEffect();
     // public System.Void CrossFade(System.Single toSongTime, System.Single toVolume)
-    // Offset: 0x11903F8
+    // Offset: 0x13C5EA0
     void CrossFade(float toSongTime, float toVolume);
     // public System.Void Play()
-    // Offset: 0x11905C8
+    // Offset: 0x13C6070
     void Play();
     // public System.Void Stop()
-    // Offset: 0x11905E4
+    // Offset: 0x13C608C
     void Stop();
     // private System.Void <Awake>b__21_0(System.Single val)
-    // Offset: 0x1190654
+    // Offset: 0x13C60FC
     void $Awake$b__21_0(float val);
     // private System.Void <Awake>b__21_1(System.Single val)
-    // Offset: 0x1190670
+    // Offset: 0x13C6118
     void $Awake$b__21_1(float val);
     // private System.Void <CrossFade>b__25_0(System.Single val)
-    // Offset: 0x119068C
+    // Offset: 0x13C6134
     void $CrossFade$b__25_0(float val);
     // private System.Void <CrossFade>b__25_1(System.Single val)
-    // Offset: 0x11906A8
+    // Offset: 0x13C6150
     void $CrossFade$b__25_1(float val);
     // private System.Void <CrossFade>b__25_2()
-    // Offset: 0x11906C4
+    // Offset: 0x13C616C
     void $CrossFade$b__25_2();
     // public System.Void .ctor()
-    // Offset: 0x1190640
+    // Offset: 0x13C60E8
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -22,7 +22,6 @@ namespace System::Text::RegularExpressions {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Nullable`1<T>
-  template<typename T>
   struct Nullable_1;
 }
 // Forward declaring namespace: UnityEngine::TestTools::Logging
@@ -92,19 +91,19 @@ namespace UnityEngine::TestTools::Logging {
     // Get instance field reference: private System.String m_LogType
     ::StringW& dyn_m_LogType();
     // public System.String get_Message()
-    // Offset: 0x16CFF14
+    // Offset: 0x18D8CC4
     ::StringW get_Message();
     // public System.Text.RegularExpressions.Regex get_MessageRegex()
-    // Offset: 0x16CFF1C
+    // Offset: 0x18D8CCC
     System::Text::RegularExpressions::Regex* get_MessageRegex();
     // public System.Nullable`1<UnityEngine.LogType> get_LogType()
-    // Offset: 0x16CFF94
+    // Offset: 0x18D8D44
     System::Nullable_1<UnityEngine::LogType> get_LogType();
     // public System.Boolean Matches(UnityEngine.TestTools.Logging.LogEvent log)
-    // Offset: 0x16D00B0
+    // Offset: 0x18D8E60
     bool Matches(UnityEngine::TestTools::Logging::LogEvent* log);
     // public System.Void .ctor()
-    // Offset: 0x16D0250
+    // Offset: 0x18D9000
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -113,7 +112,7 @@ namespace UnityEngine::TestTools::Logging {
       return THROW_UNLESS((::il2cpp_utils::New<LogMatch*, creationType>()));
     }
     // public override System.String ToString()
-    // Offset: 0x16D0188
+    // Offset: 0x18D8F38
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

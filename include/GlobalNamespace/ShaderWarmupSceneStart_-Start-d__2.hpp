@@ -67,26 +67,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public ShaderWarmupSceneStart <>4__this
     GlobalNamespace::ShaderWarmupSceneStart*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x123791C
+    // Offset: 0x13CA168
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1237984
+    // Offset: 0x13CA1D0
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x123784C
+    // Offset: 0x13CA098
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShaderWarmupSceneStart::$Start$d__2* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ShaderWarmupSceneStart::$Start$d__2::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShaderWarmupSceneStart::$Start$d__2*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1237880
+    // Offset: 0x13CA0CC
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1237884
+    // Offset: 0x13CA0D0
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1237924
+    // Offset: 0x13CA170
     void System_Collections_IEnumerator_Reset();
   }; // ShaderWarmupSceneStart/<Start>d__2
   #pragma pack(pop)

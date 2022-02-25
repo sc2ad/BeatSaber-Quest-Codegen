@@ -74,34 +74,34 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action didResumeEvent
     System::Action*& dyn_didResumeEvent();
     // public System.Void add_didPauseEvent(System.Action value)
-    // Offset: 0x11BFA0C
+    // Offset: 0x1422CA8
     void add_didPauseEvent(System::Action* value);
     // public System.Void remove_didPauseEvent(System.Action value)
-    // Offset: 0x11BFAB0
+    // Offset: 0x1422D4C
     void remove_didPauseEvent(System::Action* value);
     // public System.Void add_willResumeEvent(System.Action value)
-    // Offset: 0x11BFB54
+    // Offset: 0x1422DF0
     void add_willResumeEvent(System::Action* value);
     // public System.Void remove_willResumeEvent(System.Action value)
-    // Offset: 0x11BFBF8
+    // Offset: 0x1422E94
     void remove_willResumeEvent(System::Action* value);
     // public System.Void add_didResumeEvent(System.Action value)
-    // Offset: 0x11BFC9C
+    // Offset: 0x1422F38
     void add_didResumeEvent(System::Action* value);
     // public System.Void remove_didResumeEvent(System.Action value)
-    // Offset: 0x11BFD40
+    // Offset: 0x1422FDC
     void remove_didResumeEvent(System::Action* value);
     // public System.Void Pause()
-    // Offset: 0x11BFDE4
+    // Offset: 0x1423080
     void Pause();
     // public System.Void WillResume()
-    // Offset: 0x11BFE44
+    // Offset: 0x14230E0
     void WillResume();
     // public System.Void Resume()
-    // Offset: 0x11BFEA4
+    // Offset: 0x1423140
     void Resume();
     // public System.Void .ctor()
-    // Offset: 0x11BFF04
+    // Offset: 0x14231A0
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

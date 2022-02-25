@@ -18,16 +18,12 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: LinkedList`1<T>
-  template<typename T>
   class LinkedList_1;
   // Forward declaring type: List`1<T>
-  template<typename T>
   class List_1;
   // Forward declaring type: Stack`1<T>
-  template<typename T>
   class Stack_1;
   // Forward declaring type: LinkedListNode`1<T>
-  template<typename T>
   class LinkedListNode_1;
 }
 // Forward declaring namespace: UnityEngine::ResourceManagement::Util
@@ -111,19 +107,19 @@ namespace UnityEngine::ResourceManagement::Util {
       // Get instance field reference: private System.Single <InvocationTime>k__BackingField
       float& dyn_$InvocationTime$k__BackingField();
       // public System.Single get_InvocationTime()
-      // Offset: 0x1BF1CCC
+      // Offset: 0x1E2CF5C
       float get_InvocationTime();
       // private System.Void set_InvocationTime(System.Single value)
-      // Offset: 0x1BF1CD4
+      // Offset: 0x1E2CF64
       void set_InvocationTime(float value);
       // public System.Void .ctor(System.Delegate d, System.Single invocationTime, params System.Object[] p)
-      // Offset: 0x1BF139C
+      // Offset: 0x1E2C62C
       DelegateInfo(System::Delegate* d, float invocationTime, ::ArrayW<::Il2CppObject*> p);
       // public System.Void Invoke()
-      // Offset: 0x1BF18F4
+      // Offset: 0x1E2CB84
       void Invoke();
       // public override System.String ToString()
-      // Offset: 0x1BF1CDC
+      // Offset: 0x1E2CF6C
       // Implemented from: System.ValueType
       // Base method: System.String ValueType::ToString()
       ::StringW ToString();
@@ -184,37 +180,37 @@ namespace UnityEngine::ResourceManagement::Util {
     // Get instance field reference: private System.Boolean m_DestroyOnCompletion
     bool& dyn_m_DestroyOnCompletion();
     // static public System.Boolean get_IsActive()
-    // Offset: 0x1BF1424
+    // Offset: 0x1E2C6B4
     static bool get_IsActive();
     // private System.Collections.Generic.LinkedListNode`1<UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo> GetNode(ref UnityEngine.ResourceManagement.Util.DelayedActionManager/UnityEngine.ResourceManagement.Util.DelegateInfo del)
-    // Offset: 0x1BF0FD0
+    // Offset: 0x1E2C260
     System::Collections::Generic::LinkedListNode_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>* GetNode(ByRef<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo> del);
     // static public System.Void Clear()
-    // Offset: 0x1BF10A8
+    // Offset: 0x1E2C338
     static void Clear();
     // private System.Void DestroyWhenComplete()
-    // Offset: 0x1BF1118
+    // Offset: 0x1E2C3A8
     void DestroyWhenComplete();
     // static public System.Void AddAction(System.Delegate action, System.Single delay, params System.Object[] parameters)
-    // Offset: 0x1BF1124
+    // Offset: 0x1E2C3B4
     static void AddAction(System::Delegate* action, float delay, ::ArrayW<::Il2CppObject*> parameters);
     // private System.Void AddActionInternal(System.Delegate action, System.Single delay, params System.Object[] parameters)
-    // Offset: 0x1BF11A0
+    // Offset: 0x1E2C430
     void AddActionInternal(System::Delegate* action, float delay, ::ArrayW<::Il2CppObject*> parameters);
     // static public System.Boolean Wait(System.Single timeout, System.Single timeAdvanceAmount)
-    // Offset: 0x1BF1524
+    // Offset: 0x1E2C7B4
     static bool Wait(float timeout, float timeAdvanceAmount);
     // private System.Void LateUpdate()
-    // Offset: 0x1BF18CC
+    // Offset: 0x1E2CB5C
     void LateUpdate();
     // private System.Void InternalLateUpdate(System.Single t)
-    // Offset: 0x1BF1658
+    // Offset: 0x1E2C8E8
     void InternalLateUpdate(float t);
     // private System.Void OnApplicationQuit()
-    // Offset: 0x1BF1AA8
+    // Offset: 0x1E2CD38
     void OnApplicationQuit();
     // public System.Void .ctor()
-    // Offset: 0x1BF1B54
+    // Offset: 0x1E2CDE4
     // Implemented from: UnityEngine.ResourceManagement.Util.ComponentSingleton`1
     // Base method: System.Void ComponentSingleton_1::.ctor()
     // Base method: System.Void MonoBehaviour::.ctor()

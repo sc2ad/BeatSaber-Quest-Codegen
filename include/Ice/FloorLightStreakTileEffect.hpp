@@ -23,7 +23,6 @@ namespace GlobalNamespace {
   // Forward declaring type: IAudioTimeSource
   class IAudioTimeSource;
   // Forward declaring type: SimpleMemoryPool`1<T>
-  template<typename T>
   class SimpleMemoryPool_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -73,7 +72,7 @@ namespace Ice {
     Ice::FloorLightTilesGrid* floorLightTilesGrid;
     // Field size check
     static_assert(sizeof(Ice::FloorLightTilesGrid*) == 0x8);
-    // [InjectAttribute] Offset: 0xF65B44
+    // [InjectAttribute] Offset: 0x126C674
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x28
@@ -110,25 +109,25 @@ namespace Ice {
     // Get instance field reference: private SimpleMemoryPool`1<Ice.FloorLightStreakTileEffect/Ice.Element> _elementsPool
     GlobalNamespace::SimpleMemoryPool_1<Ice::FloorLightStreakTileEffect::Element*>*& dyn__elementsPool();
     // protected System.Void Start()
-    // Offset: 0x26A7C10
+    // Offset: 0x2A33CC0
     void Start();
     // protected System.Void Update()
-    // Offset: 0x26A7CBC
+    // Offset: 0x2A33D6C
     void Update();
     // public System.Void SpawnEffect(System.Int32 x, UnityEngine.Color color)
-    // Offset: 0x26A7EEC
+    // Offset: 0x2A33F9C
     void SpawnEffect(int x, UnityEngine::Color color);
     // public System.Void DespawnAllEffects()
-    // Offset: 0x26A81F0
+    // Offset: 0x2A342A0
     void DespawnAllEffects();
     // private Ice.FloorLightStreakTileEffect/Ice.Element CreateNewElement()
-    // Offset: 0x26A82C8
+    // Offset: 0x2A34378
     Ice::FloorLightStreakTileEffect::Element* CreateNewElement();
     // private System.Void HandleElementDidMoveToNextTile(Ice.FloorLightStreakTileEffect/Ice.Element element)
-    // Offset: 0x26A83AC
+    // Offset: 0x2A3445C
     void HandleElementDidMoveToNextTile(Ice::FloorLightStreakTileEffect::Element* element);
     // public System.Void .ctor()
-    // Offset: 0x26A845C
+    // Offset: 0x2A3450C
     // Implemented from: UnityEngine.MonoBehaviour
     // Base method: System.Void MonoBehaviour::.ctor()
     // Base method: System.Void Behaviour::.ctor()

@@ -21,10 +21,8 @@ namespace System::Collections {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
-  template<typename T>
   class Action_1;
   // Forward declaring type: Func`2<T, TResult>
-  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -47,7 +45,7 @@ namespace Polyglot {
     // Nested type: Polyglot::GoogleDownload::$DownloadSheet$d__0
     class $DownloadSheet$d__0;
     // static public System.Collections.IEnumerator DownloadSheet(System.String docsId, System.String sheetId, System.Action`1<System.String> done, Polyglot.GoogleDriveDownloadFormat format, System.Func`2<System.Single,System.Boolean> progressbar)
-    // Offset: 0x2627538
+    // Offset: 0x2995E14
     static System::Collections::IEnumerator* DownloadSheet(::StringW docsId, ::StringW sheetId, System::Action_1<::StringW>* done, Polyglot::GoogleDriveDownloadFormat format, System::Func_2<float, bool>* progressbar);
   }; // Polyglot.GoogleDownload
   #pragma pack(pop)

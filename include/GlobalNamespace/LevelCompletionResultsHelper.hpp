@@ -45,10 +45,10 @@ namespace GlobalNamespace {
   class LevelCompletionResultsHelper : public ::Il2CppObject {
     public:
     // static public LevelCompletionResults Create(System.Int32 levelNotesCount, BeatmapObjectExecutionRating[] beatmapObjectExecutionRatings, GameplayModifiers gameplayModifiers, GameplayModifiersModelSO gameplayModifiersModel, System.Int32 rawScore, System.Int32 modifiedScore, System.Int32 maxCombo, System.Single[] saberActivityValues, System.Single leftSaberMovementDistance, System.Single rightSaberMovementDistance, System.Single[] handActivityValues, System.Single leftHandMovementDistance, System.Single rightHandMovementDistance, System.Single songDuration, LevelCompletionResults/LevelEndStateType levelEndStateType, LevelCompletionResults/LevelEndAction levelEndAction, System.Single energy, System.Single songTime)
-    // Offset: 0x12F661C
+    // Offset: 0x1471B74
     static GlobalNamespace::LevelCompletionResults* Create(int levelNotesCount, ::ArrayW<GlobalNamespace::BeatmapObjectExecutionRating*> beatmapObjectExecutionRatings, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, int rawScore, int modifiedScore, int maxCombo, ::ArrayW<float> saberActivityValues, float leftSaberMovementDistance, float rightSaberMovementDistance, ::ArrayW<float> handActivityValues, float leftHandMovementDistance, float rightHandMovementDistance, float songDuration, GlobalNamespace::LevelCompletionResults::LevelEndStateType levelEndStateType, GlobalNamespace::LevelCompletionResults::LevelEndAction levelEndAction, float energy, float songTime);
     // static public System.Void ProcessScore(PlayerData playerData, PlayerLevelStatsData playerLevelStats, LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap, PlatformLeaderboardsModel platformLeaderboardsModel)
-    // Offset: 0x12F6ADC
+    // Offset: 0x1472034
     static void ProcessScore(GlobalNamespace::PlayerData* playerData, GlobalNamespace::PlayerLevelStatsData* playerLevelStats, GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel);
   }; // LevelCompletionResultsHelper
   #pragma pack(pop)

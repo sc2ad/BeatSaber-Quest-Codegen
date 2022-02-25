@@ -18,7 +18,6 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
-  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: System
@@ -67,16 +66,16 @@ namespace Zenject {
     // Get instance field reference: public System.Collections.Generic.IEnumerable`1<System.String> namespaces
     System::Collections::Generic::IEnumerable_1<::StringW>*& dyn_namespaces();
     // System.Boolean <InNamespaces>b__0(System.Type t)
-    // Offset: 0x14FE4D4
+    // Offset: 0x16E0590
     bool $InNamespaces$b__0(System::Type* t);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x14FE59C
+    // Offset: 0x16E0658
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x14FE5F8
+    // Offset: 0x16E06B4
     static Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
     // public System.Void .ctor()
-    // Offset: 0x14FE110
+    // Offset: 0x16E01CC
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

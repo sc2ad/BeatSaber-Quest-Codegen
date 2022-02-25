@@ -35,10 +35,10 @@ namespace Oculus::Platform {
   class MessageWithUserDataStoreUpdateResponse : public Oculus::Platform::Message_1<Oculus::Platform::Models::UserDataStoreUpdateResponse*> {
     public:
     // protected Oculus.Platform.Models.UserDataStoreUpdateResponse GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x17602D0
+    // Offset: 0x196C9F0
     Oculus::Platform::Models::UserDataStoreUpdateResponse* GetDataFromMessage(System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1755E9C
+    // Offset: 0x19625BC
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -48,7 +48,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithUserDataStoreUpdateResponse*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.UserDataStoreUpdateResponse GetUserDataStoreUpdateResponse()
-    // Offset: 0x176028C
+    // Offset: 0x196C9AC
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.UserDataStoreUpdateResponse Message::GetUserDataStoreUpdateResponse()
     Oculus::Platform::Models::UserDataStoreUpdateResponse* GetUserDataStoreUpdateResponse();

@@ -72,10 +72,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private SceneInfo _gameCoreSceneInfo
     GlobalNamespace::SceneInfo*& dyn__gameCoreSceneInfo();
     // public System.Void Init()
-    // Offset: 0x11E11D8
+    // Offset: 0x13FD8AC
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x11E1398
+    // Offset: 0x13FDA6C
     // Implemented from: ScenesTransitionSetupDataSO
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void PersistentScriptableObject::.ctor()

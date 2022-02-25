@@ -71,14 +71,14 @@ namespace TMPro {
     // Get instance field reference: public System.Single yAdvance
     float& dyn_yAdvance();
     // System.Void .ctor(UnityEngine.TextCore.LowLevel.GlyphValueRecord valueRecord)
-    // Offset: 0x123E274
+    // Offset: 0x1403DA4
     GlyphValueRecord_Legacy(UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord);
   }; // TMPro.GlyphValueRecord_Legacy
   #pragma pack(pop)
   static check_size<sizeof(GlyphValueRecord_Legacy), 12 + sizeof(float)> __TMPro_GlyphValueRecord_LegacySizeCheck;
   static_assert(sizeof(GlyphValueRecord_Legacy) == 0x10);
   // static public TMPro.GlyphValueRecord_Legacy op_Addition(TMPro.GlyphValueRecord_Legacy a, TMPro.GlyphValueRecord_Legacy b)
-  // Offset: 0x123E2E0
+  // Offset: 0x1403E10
   TMPro::GlyphValueRecord_Legacy operator+(const TMPro::GlyphValueRecord_Legacy& a, const TMPro::GlyphValueRecord_Legacy& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

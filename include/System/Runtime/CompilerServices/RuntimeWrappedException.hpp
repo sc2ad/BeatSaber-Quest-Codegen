@@ -57,15 +57,18 @@ namespace System::Runtime::CompilerServices {
     }
     // Get instance field reference: private System.Object m_wrappedException
     ::Il2CppObject*& dyn_m_wrappedException();
+    // public System.Object get_WrappedException()
+    // Offset: 0x1C6AB88
+    ::Il2CppObject* get_WrappedException();
     // private System.Void .ctor(System.Object thrownObject)
-    // Offset: 0x162170C
+    // Offset: 0x1C6AAD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeWrappedException* New_ctor(::Il2CppObject* thrownObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::CompilerServices::RuntimeWrappedException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeWrappedException*, creationType>(thrownObject)));
     }
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x16218C8
+    // Offset: 0x1C6AC9C
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -74,7 +77,7 @@ namespace System::Runtime::CompilerServices {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeWrappedException*, creationType>(info, context)));
     }
     // System.Void .ctor()
-    // Offset: 0x16219BC
+    // Offset: 0x1C6AD90
     // Implemented from: System.Exception
     // Base method: System.Void Exception::.ctor()
     // Base method: System.Void Object::.ctor()
@@ -84,7 +87,7 @@ namespace System::Runtime::CompilerServices {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeWrappedException*, creationType>()));
     }
     // public override System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x16217BC
+    // Offset: 0x1C6AB90
     // Implemented from: System.Exception
     // Base method: System.Void Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -94,6 +97,14 @@ namespace System::Runtime::CompilerServices {
   static_assert(sizeof(RuntimeWrappedException) == 0x90);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::RuntimeWrappedException::get_WrappedException
+// Il2CppName: get_WrappedException
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::CompilerServices::RuntimeWrappedException::*)()>(&System::Runtime::CompilerServices::RuntimeWrappedException::get_WrappedException)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::RuntimeWrappedException*), "get_WrappedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::RuntimeWrappedException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
