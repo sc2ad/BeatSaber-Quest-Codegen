@@ -16,6 +16,7 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: HashSet`1<T>
+  template<typename T>
   class HashSet_1;
 }
 // Forward declaring namespace: UnityEngine::ProBuilder

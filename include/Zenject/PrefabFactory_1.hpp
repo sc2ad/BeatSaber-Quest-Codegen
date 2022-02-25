@@ -30,6 +30,7 @@ namespace Zenject {
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: PrefabFactory`1<T>
+  template<typename T>
   class PrefabFactory_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -21,6 +21,7 @@
 // Forward declaring namespace: Newtonsoft::Json::Utilities
 namespace Newtonsoft::Json::Utilities {
   // Forward declaring type: ThreadSafeStore`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class ThreadSafeStore_2;
 }
 // Forward declaring namespace: System

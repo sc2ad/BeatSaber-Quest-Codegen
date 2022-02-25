@@ -12,6 +12,7 @@
 // Forward declaring namespace: System::Dynamic::Utils
 namespace System::Dynamic::Utils {
   // Forward declaring type: CacheDict`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class CacheDict_2;
 }
 // Forward declaring namespace: System::Reflection

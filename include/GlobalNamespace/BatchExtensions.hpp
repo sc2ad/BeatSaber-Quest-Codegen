@@ -17,8 +17,10 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -40,6 +42,7 @@ namespace GlobalNamespace {
   class BatchExtensions : public ::Il2CppObject {
     public:
     // Nested type: GlobalNamespace::BatchExtensions::$Batch$d__0_1<T>
+    template<typename T>
     class $Batch$d__0_1;
     // static public System.Collections.Generic.IEnumerable`1<System.Collections.Generic.List`1<T>> Batch(System.Collections.Generic.IEnumerable`1<T> enumerable, System.Int32 batchSize)
     // Offset: 0xFFFFFFFF

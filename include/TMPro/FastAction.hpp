@@ -14,10 +14,13 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: LinkedList`1<T>
+  template<typename T>
   class LinkedList_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: LinkedListNode`1<T>
+  template<typename T>
   class LinkedListNode_1;
 }
 // Forward declaring namespace: System

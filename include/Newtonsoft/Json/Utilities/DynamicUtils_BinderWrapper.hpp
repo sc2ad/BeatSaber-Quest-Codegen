@@ -15,6 +15,7 @@
 // Forward declaring namespace: Newtonsoft::Json::Utilities
 namespace Newtonsoft::Json::Utilities {
   // Forward declaring type: MethodCall`2<T, TResult>
+  template<typename T, typename TResult>
   class MethodCall_2;
 }
 // Forward declaring namespace: System::Runtime::CompilerServices

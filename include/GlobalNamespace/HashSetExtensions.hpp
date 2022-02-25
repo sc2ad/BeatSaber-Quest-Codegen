@@ -17,6 +17,7 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: HashSet`1<T>
+  template<typename T>
   class HashSet_1;
 }
 // Completed forward declares
@@ -38,6 +39,7 @@ namespace GlobalNamespace {
   class HashSetExtensions : public ::Il2CppObject {
     public:
     // Nested type: GlobalNamespace::HashSetExtensions::HashSetDelegateHolder_1<T>
+    template<typename T>
     class HashSetDelegateHolder_1;
     // static public System.Void SetCapacity(System.Collections.Generic.HashSet`1<T> hs, System.Int32 capacity)
     // Offset: 0xFFFFFFFF

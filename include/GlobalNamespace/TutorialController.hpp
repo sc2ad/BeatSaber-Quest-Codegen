@@ -36,6 +36,7 @@ namespace System::Collections {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
 }
 // Completed forward declares

@@ -45,8 +45,10 @@ namespace UnityEngine {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`4<T1, T2, T3, T4>
+  template<typename T1, typename T2, typename T3, typename T4>
   class Action_4;
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
   // Forward declaring type: Action
   class Action;
@@ -59,6 +61,7 @@ namespace System::Threading {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IReadOnlyList`1<T>
+  template<typename T>
   class IReadOnlyList_1;
 }
 // Forward declaring namespace: HMUI

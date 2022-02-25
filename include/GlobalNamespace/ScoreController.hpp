@@ -40,6 +40,7 @@ namespace GlobalNamespace {
   // Forward declaring type: GameplayModifierParamsSO
   class GameplayModifierParamsSO;
   // Forward declaring type: MemoryPoolContainer`1<T>
+  template<typename T>
   class MemoryPoolContainer_1;
   // Forward declaring type: NoteController
   class NoteController;
@@ -49,8 +50,10 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`2<T1, T2>
+  template<typename T1, typename T2>
   class Action_2;
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
   // Forward declaring type: Action
   class Action;
@@ -58,6 +61,7 @@ namespace System {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Completed forward declares

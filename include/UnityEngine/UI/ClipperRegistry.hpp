@@ -14,6 +14,7 @@
 // Forward declaring namespace: UnityEngine::UI::Collections
 namespace UnityEngine::UI::Collections {
   // Forward declaring type: IndexedSet`1<T>
+  template<typename T>
   class IndexedSet_1;
 }
 // Forward declaring namespace: UnityEngine::UI

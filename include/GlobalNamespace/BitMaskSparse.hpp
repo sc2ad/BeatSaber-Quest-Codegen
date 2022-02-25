@@ -22,6 +22,7 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: SortedSet`1<T>
+  template<typename T>
   class SortedSet_1;
 }
 // Forward declaring namespace: LiteNetLib::Utils

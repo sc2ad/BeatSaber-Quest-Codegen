@@ -26,6 +26,7 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -48,6 +49,7 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::OVRResources::$$c__DisplayClass2_0
     class $$c__DisplayClass2_0;
     // Nested type: GlobalNamespace::OVRResources::$$c__DisplayClass3_0_1<T>
+    template<typename T>
     class $$c__DisplayClass3_0_1;
     // Get static field: static private UnityEngine.AssetBundle resourceBundle
     static UnityEngine::AssetBundle* _get_resourceBundle();

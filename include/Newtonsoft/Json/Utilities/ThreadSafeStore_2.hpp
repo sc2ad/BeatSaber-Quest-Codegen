@@ -14,17 +14,20 @@
 // Forward declaring namespace: System::Collections::Concurrent
 namespace System::Collections::Concurrent {
   // Forward declaring type: ConcurrentDictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class ConcurrentDictionary_2;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Forward declaring type: ThreadSafeStore`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class ThreadSafeStore_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

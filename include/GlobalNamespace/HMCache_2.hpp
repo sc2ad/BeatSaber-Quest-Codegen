@@ -14,19 +14,23 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: Queue`1<T>
+  template<typename T>
   class Queue_1;
 }
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: HMCache`2<K, V>
+  template<typename K, typename V>
   class HMCache_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

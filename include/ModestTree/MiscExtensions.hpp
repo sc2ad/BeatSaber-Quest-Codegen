@@ -17,14 +17,19 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IList`1<T>
+  template<typename T>
   class IList_1;
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
   // Forward declaring type: LinkedList`1<T>
+  template<typename T>
   class LinkedList_1;
   // Forward declaring type: IDictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class IDictionary_2;
   // Forward declaring type: HashSet`1<T>
+  template<typename T>
   class HashSet_1;
 }
 // Completed forward declares

@@ -21,6 +21,7 @@ namespace GlobalNamespace {
   // Forward declaring type: TubeBloomPrePassLight
   class TubeBloomPrePassLight;
   // Forward declaring type: RandomObjectPicker`1<T>
+  template<typename T>
   class RandomObjectPicker_1;
   // Forward declaring type: DirectionalLight
   class DirectionalLight;
@@ -39,6 +40,7 @@ namespace UnityEngine {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: System::Collections

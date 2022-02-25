@@ -65,6 +65,7 @@ namespace System {
   // Forward declaring type: Exception
   class Exception;
   // Forward declaring type: ValueTuple`2<T1, T2>
+  template<typename T1, typename T2>
   struct ValueTuple_2;
   // Forward declaring type: IAsyncResult
   class IAsyncResult;
@@ -81,6 +82,7 @@ namespace System::Threading::Tasks {
   // Forward declaring type: Task
   class Task;
   // Forward declaring type: Task`1<TResult>
+  template<typename TResult>
   class Task_1;
 }
 // Forward declaring namespace: System::Threading

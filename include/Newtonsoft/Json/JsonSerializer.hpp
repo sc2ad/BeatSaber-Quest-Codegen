@@ -91,6 +91,7 @@ namespace System::Globalization {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: EventHandler`1<TEventArgs>
+  template<typename TEventArgs>
   class EventHandler_1;
   // Forward declaring type: Type
   class Type;
@@ -98,6 +99,7 @@ namespace System {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IList`1<T>
+  template<typename T>
   class IList_1;
 }
 // Completed forward declares

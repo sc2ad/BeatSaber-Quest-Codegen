@@ -14,6 +14,7 @@
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: IFactory`3<TParam1, TParam2, TValue>
+  template<typename TParam1, typename TParam2, typename TValue>
   class IFactory_3;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

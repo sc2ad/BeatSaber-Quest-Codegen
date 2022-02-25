@@ -20,10 +20,12 @@ namespace GlobalNamespace {
   // Forward declaring type: TubeBloomPrePassLight
   class TubeBloomPrePassLight;
   // Forward declaring type: LazyCopyHashSet`1<T>
+  template<typename T>
   class LazyCopyHashSet_1;
   // Forward declaring type: IBeatEffectDidFinishEvent
   class IBeatEffectDidFinishEvent;
   // Forward declaring type: ILazyCopyHashSet`1<T>
+  template<typename T>
   class ILazyCopyHashSet_1;
 }
 // Forward declaring namespace: UnityEngine

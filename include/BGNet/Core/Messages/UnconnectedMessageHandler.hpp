@@ -54,30 +54,38 @@ namespace System::Net {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`1<TResult>
+  template<typename TResult>
   class Func_1;
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Action`2<T1, T2>
+  template<typename T1, typename T2>
   class Action_2;
   // Forward declaring type: Func`3<T1, T2, TResult>
+  template<typename T1, typename T2, typename TResult>
   class Func_3;
   // Forward declaring type: Exception
   class Exception;
   // Forward declaring type: Func`5<T1, T2, T3, T4, TResult>
+  template<typename T1, typename T2, typename T3, typename T4, typename TResult>
   class Func_5;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: INetworkPacketSerializer`1<TData>
+  template<typename TData>
   class INetworkPacketSerializer_1;
   // Forward declaring type: IUnconnectedMessageSender
   class IUnconnectedMessageSender;
   // Forward declaring type: ExpiringDictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class ExpiringDictionary_2;
   // Forward declaring type: SmallBufferPool
   class SmallBufferPool;
@@ -106,6 +114,7 @@ namespace System::Threading {
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
+  template<typename TResult>
   class Task_1;
   // Forward declaring type: Task
   class Task;
@@ -142,16 +151,22 @@ namespace BGNet::Core::Messages {
     // Nested type: BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin
     struct MessageOrigin;
     // Nested type: BGNet::Core::Messages::UnconnectedMessageHandler::$$c__DisplayClass45_0_1<T>
+    template<typename T>
     class $$c__DisplayClass45_0_1;
     // Nested type: BGNet::Core::Messages::UnconnectedMessageHandler::$$c__DisplayClass51_0_1<T>
+    template<typename T>
     class $$c__DisplayClass51_0_1;
     // Nested type: BGNet::Core::Messages::UnconnectedMessageHandler::$$c__DisplayClass52_0_1<T>
+    template<typename T>
     class $$c__DisplayClass52_0_1;
     // Nested type: BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponse$d__56_2<TRequest, TResponse>
+    template<typename TRequest, typename TResponse>
     struct $GetAndSendResponse$d__56_2;
     // Nested type: BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendResponseAsync$d__57_2<TRequest, TResponse>
+    template<typename TRequest, typename TResponse>
     struct $GetAndSendResponseAsync$d__57_2;
     // Nested type: BGNet::Core::Messages::UnconnectedMessageHandler::$GetAndSendUnreilableResponse$d__58_2<TRequest, TResponse>
+    template<typename TRequest, typename TResponse>
     struct $GetAndSendUnreilableResponse$d__58_2;
     // Nested type: BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetry$d__71
     struct $SendMessageWithRetry$d__71;
@@ -162,10 +177,13 @@ namespace BGNet::Core::Messages {
     // Nested type: BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAsyncInternal$d__74
     struct $SendMessageWithRetryAsyncInternal$d__74;
     // Nested type: BGNet::Core::Messages::UnconnectedMessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__75_1<T>
+    template<typename T>
     struct $SendMessageWithRetryAwaitResponseAsync$d__75_1;
     // Nested type: BGNet::Core::Messages::UnconnectedMessageHandler::$$c__DisplayClass76_0_1<T>
+    template<typename T>
     class $$c__DisplayClass76_0_1;
     // Nested type: BGNet::Core::Messages::UnconnectedMessageHandler::$AwaitResponseAsync$d__77_1<T>
+    template<typename T>
     struct $AwaitResponseAsync$d__77_1;
     // Size: 0xC
     #pragma pack(push, 1)

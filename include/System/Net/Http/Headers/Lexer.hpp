@@ -23,6 +23,7 @@ namespace System::Net::Http::Headers {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Nullable`1<T>
+  template<typename T>
   struct Nullable_1;
   // Forward declaring type: DateTimeOffset
   struct DateTimeOffset;

@@ -18,6 +18,7 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: IComparable`1<T>
+  template<typename T>
   class IComparable_1;
   // Skipping declaration: ValueType because it is already included!
 }
@@ -25,6 +26,7 @@ namespace System {
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // Forward declaring type: NullableComparer`1<T>
+  template<typename T>
   class NullableComparer_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

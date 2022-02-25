@@ -17,6 +17,7 @@
 // Forward declaring namespace: System::Net::Http::Headers
 namespace System::Net::Http::Headers {
   // Forward declaring type: HttpHeaderValueCollection`1<T>
+  template<typename T>
   class HttpHeaderValueCollection_1;
   // Forward declaring type: TransferCodingHeaderValue
   class TransferCodingHeaderValue;

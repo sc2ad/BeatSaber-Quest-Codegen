@@ -17,8 +17,10 @@
 // Forward declaring namespace: System::Net::Http::Headers
 namespace System::Net::Http::Headers {
   // Forward declaring type: TryParseDelegate`1<T>
+  template<typename T>
   class TryParseDelegate_1;
   // Forward declaring type: TryParseListDelegate`1<T>
+  template<typename T>
   class TryParseListDelegate_1;
   // Forward declaring type: HttpHeaders
   class HttpHeaders;
@@ -26,11 +28,13 @@ namespace System::Net::Http::Headers {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -51,8 +55,10 @@ namespace System::Net::Http::Headers {
   class HeaderInfo : public ::Il2CppObject {
     public:
     // Nested type: System::Net::Http::Headers::HeaderInfo::HeaderTypeInfo_2<T, U>
+    template<typename T, typename U>
     class HeaderTypeInfo_2;
     // Nested type: System::Net::Http::Headers::HeaderInfo::CollectionHeaderTypeInfo_2<T, U>
+    template<typename T, typename U>
     class CollectionHeaderTypeInfo_2;
     #ifdef USE_CODEGEN_FIELDS
     public:

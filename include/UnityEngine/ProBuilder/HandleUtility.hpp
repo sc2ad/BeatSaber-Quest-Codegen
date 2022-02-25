@@ -15,10 +15,13 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
   // Forward declaring type: HashSet`1<T>
+  template<typename T>
   class HashSet_1;
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -45,6 +48,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: CullingMode
   struct CullingMode;
   // Forward declaring type: SimpleTuple`2<T1, T2>
+  template<typename T1, typename T2>
   struct SimpleTuple_2;
   // Forward declaring type: HandleOrientation
   struct HandleOrientation;

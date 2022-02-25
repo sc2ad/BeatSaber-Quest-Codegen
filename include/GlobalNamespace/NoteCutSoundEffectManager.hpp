@@ -31,8 +31,10 @@ namespace GlobalNamespace {
   // Forward declaring type: AudioTimeSyncController
   class AudioTimeSyncController;
   // Forward declaring type: RandomObjectPicker`1<T>
+  template<typename T>
   class RandomObjectPicker_1;
   // Forward declaring type: MemoryPoolContainer`1<T>
+  template<typename T>
   class MemoryPoolContainer_1;
   // Forward declaring type: NoteController
   class NoteController;

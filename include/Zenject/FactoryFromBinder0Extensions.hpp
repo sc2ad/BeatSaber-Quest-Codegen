@@ -14,25 +14,32 @@
 // Forward declaring namespace: Zenject
 namespace Zenject {
   // Forward declaring type: IPoolable`1<TParam1>
+  template<typename TParam1>
   class IPoolable_1;
   // Forward declaring type: IMemoryPool
   class IMemoryPool;
   // Forward declaring type: MemoryPool`2<TParam1, TValue>
+  template<typename TParam1, typename TValue>
   class MemoryPool_2;
   // Forward declaring type: ArgConditionCopyNonLazyBinder
   class ArgConditionCopyNonLazyBinder;
   // Forward declaring type: FactoryFromBinder`1<TContract>
+  template<typename TContract>
   class FactoryFromBinder_1;
   // Forward declaring type: MemoryPoolInitialSizeMaxSizeBinder`1<TContract>
+  template<typename TContract>
   class MemoryPoolInitialSizeMaxSizeBinder_1;
   // Forward declaring type: ConcreteBinderGeneric`1<TContract>
+  template<typename TContract>
   class ConcreteBinderGeneric_1;
   // Forward declaring type: IFactory`1<TValue>
+  template<typename TValue>
   class IFactory_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -59,14 +66,19 @@ namespace Zenject {
   class FactoryFromBinder0Extensions : public ::Il2CppObject {
     public:
     // Nested type: Zenject::FactoryFromBinder0Extensions::$$c__DisplayClass0_0_2<TContract, TMemoryPool>
+    template<typename TContract, typename TMemoryPool>
     class $$c__DisplayClass0_0_2;
     // Nested type: Zenject::FactoryFromBinder0Extensions::$$c__1_1<TContract>
+    template<typename TContract>
     class $$c__1_1;
     // Nested type: Zenject::FactoryFromBinder0Extensions::$$c__3_1<TContract>
+    template<typename TContract>
     class $$c__3_1;
     // Nested type: Zenject::FactoryFromBinder0Extensions::$$c__5_2<TContract, TMemoryPool>
+    template<typename TContract, typename TMemoryPool>
     class $$c__5_2;
     // Nested type: Zenject::FactoryFromBinder0Extensions::$$c__DisplayClass6_0_1<TContract>
+    template<typename TContract>
     class $$c__DisplayClass6_0_1;
     // static public Zenject.ArgConditionCopyNonLazyBinder FromPoolableMemoryPool(Zenject.FactoryFromBinder`1<TContract> fromBinder, System.Action`1<Zenject.MemoryPoolInitialSizeMaxSizeBinder`1<TContract>> poolBindGenerator)
     // Offset: 0xFFFFFFFF

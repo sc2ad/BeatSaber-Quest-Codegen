@@ -35,6 +35,7 @@ namespace GlobalNamespace {
   // Forward declaring type: AudioClipAsyncLoader
   class AudioClipAsyncLoader;
   // Forward declaring type: HMCache`2<K, V>
+  template<typename K, typename V>
   class HMCache_2;
   // Forward declaring type: IBeatmapLevel
   class IBeatmapLevel;
@@ -48,16 +49,19 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
+  template<typename TResult>
   class Task_1;
 }
 // Forward declaring namespace: System::Threading

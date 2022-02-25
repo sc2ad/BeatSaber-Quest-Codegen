@@ -18,17 +18,21 @@ namespace HMUI {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Tuple`4<T1, T2, T3, T4>
+  template<typename T1, typename T2, typename T3, typename T4>
   class Tuple_4;
   // Forward declaring type: Action
   class Action;
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Tuple`2<T1, T2>
+  template<typename T1, typename T2>
   class Tuple_2;
 }
 // Forward declaring namespace: UnityEngine::UI
@@ -41,11 +45,13 @@ namespace GlobalNamespace {
   // Forward declaring type: IObservableChange
   class IObservableChange;
   // Forward declaring type: IValue`1<T>
+  template<typename T>
   class IValue_1;
 }
 // Forward declaring namespace: UnityEngine::Events
 namespace UnityEngine::Events {
   // Forward declaring type: UnityAction`1<T0>
+  template<typename T0>
   class UnityAction_1;
 }
 // Completed forward declares
@@ -66,8 +72,10 @@ namespace HMUI {
   class InputFieldDataBinder : public ::Il2CppObject {
     public:
     // Nested type: HMUI::InputFieldDataBinder::$$c__DisplayClass2_0_2<T0, T1>
+    template<typename T0, typename T1>
     class $$c__DisplayClass2_0_2;
     // Nested type: HMUI::InputFieldDataBinder::$$c__3_1<T>
+    template<typename T>
     class $$c__3_1;
     #ifdef USE_CODEGEN_FIELDS
     public:

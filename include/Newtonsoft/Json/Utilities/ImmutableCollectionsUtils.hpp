@@ -13,6 +13,7 @@ namespace Newtonsoft::Json::Utilities {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IList`1<T>
+  template<typename T>
   class IList_1;
 }
 // Forward declaring namespace: System
@@ -23,6 +24,7 @@ namespace System {
 // Forward declaring namespace: Newtonsoft::Json::Serialization
 namespace Newtonsoft::Json::Serialization {
   // Forward declaring type: ObjectConstructor`1<T>
+  template<typename T>
   class ObjectConstructor_1;
 }
 // Completed forward declares

@@ -16,6 +16,7 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: IBitMask`1<T>
+  template<typename T>
   class IBitMask_1;
 }
 // Completed forward declares

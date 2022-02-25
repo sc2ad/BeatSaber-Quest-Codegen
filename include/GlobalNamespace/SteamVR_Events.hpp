@@ -24,15 +24,19 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: UnityEngine::Events
 namespace UnityEngine::Events {
   // Forward declaring type: UnityAction`1<T0>
+  template<typename T0>
   class UnityAction_1;
   // Forward declaring type: UnityAction`2<T0, T1>
+  template<typename T0, typename T1>
   class UnityAction_2;
   // Forward declaring type: UnityAction`3<T0, T1, T2>
+  template<typename T0, typename T1, typename T2>
   class UnityAction_3;
   // Forward declaring type: UnityAction
   class UnityAction;
@@ -59,18 +63,24 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::SteamVR_Events::ActionNoArgs
     class ActionNoArgs;
     // Nested type: GlobalNamespace::SteamVR_Events::Action_1<T>
+    template<typename T>
     class Action_1;
     // Nested type: GlobalNamespace::SteamVR_Events::Action_2<T0, T1>
+    template<typename T0, typename T1>
     class Action_2;
     // Nested type: GlobalNamespace::SteamVR_Events::Action_3<T0, T1, T2>
+    template<typename T0, typename T1, typename T2>
     class Action_3;
     // Nested type: GlobalNamespace::SteamVR_Events::Event
     class Event;
     // Nested type: GlobalNamespace::SteamVR_Events::Event_1<T>
+    template<typename T>
     class Event_1;
     // Nested type: GlobalNamespace::SteamVR_Events::Event_2<T0, T1>
+    template<typename T0, typename T1>
     class Event_2;
     // Nested type: GlobalNamespace::SteamVR_Events::Event_3<T0, T1, T2>
+    template<typename T0, typename T1, typename T2>
     class Event_3;
     // Get static field: static public SteamVR_Events/Event`1<System.Boolean> Calibrating
     static GlobalNamespace::SteamVR_Events::Event_1<bool>* _get_Calibrating();

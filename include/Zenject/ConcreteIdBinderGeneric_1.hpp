@@ -26,6 +26,7 @@ namespace Zenject {
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: ConcreteIdBinderGeneric`1<TContract>
+  template<typename TContract>
   class ConcreteIdBinderGeneric_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -21,6 +21,7 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: IPacketPool`1<T>
+  template<typename T>
   class IPacketPool_1;
 }
 // Forward declaring namespace: LiteNetLib::Utils

@@ -23,6 +23,7 @@ namespace GlobalNamespace {
   // Forward declaring type: IAudioTimeSource
   class IAudioTimeSource;
   // Forward declaring type: SimpleMemoryPool`1<T>
+  template<typename T>
   class SimpleMemoryPool_1;
 }
 // Forward declaring namespace: UnityEngine

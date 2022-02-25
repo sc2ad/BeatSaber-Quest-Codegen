@@ -17,13 +17,16 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
   // Forward declaring type: IEnumerator`1<T>
+  template<typename T>
   class IEnumerator_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: System::Collections
@@ -35,6 +38,7 @@ namespace System::Collections {
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: ListWithEvents`1<T>
+  template<typename T>
   class ListWithEvents_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

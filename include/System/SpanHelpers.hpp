@@ -35,6 +35,7 @@ namespace System {
   class SpanHelpers : public ::Il2CppObject {
     public:
     // Nested type: System::SpanHelpers::PerTypeValues_1<T>
+    template<typename T>
     class PerTypeValues_1;
     // static public System.Boolean IsReferenceOrContainsReferences()
     // Offset: 0xFFFFFFFF

@@ -45,11 +45,13 @@ namespace System {
   // Forward declaring type: Action
   class Action;
   // Forward declaring type: Action`5<T1, T2, T3, T4, T5>
+  template<typename T1, typename T2, typename T3, typename T4, typename T5>
   class Action_5;
 }
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
+  template<typename TResult>
   class Task_1;
 }
 // Completed forward declares

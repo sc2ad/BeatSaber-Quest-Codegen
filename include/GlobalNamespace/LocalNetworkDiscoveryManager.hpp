@@ -30,6 +30,7 @@ namespace System::Net {
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: NetworkPacketSerializer`2<TType, TData>
+  template<typename TType, typename TData>
   class NetworkPacketSerializer_2;
   // Forward declaring type: GameplayServerConfiguration
   struct GameplayServerConfiguration;

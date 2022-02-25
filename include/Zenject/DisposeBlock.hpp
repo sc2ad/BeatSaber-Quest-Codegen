@@ -18,24 +18,34 @@
 // Forward declaring namespace: Zenject
 namespace Zenject {
   // Forward declaring type: StaticMemoryPool`1<TValue>
+  template<typename TValue>
   class StaticMemoryPool_1;
   // Forward declaring type: IDespawnableMemoryPool`1<TValue>
+  template<typename TValue>
   class IDespawnableMemoryPool_1;
   // Forward declaring type: IMemoryPool`1<TValue>
+  template<typename TValue>
   class IMemoryPool_1;
   // Forward declaring type: IMemoryPool`2<TParam1, TValue>
+  template<typename TParam1, typename TValue>
   class IMemoryPool_2;
   // Forward declaring type: IMemoryPool`3<TParam1, TParam2, TValue>
+  template<typename TParam1, typename TParam2, typename TValue>
   class IMemoryPool_3;
   // Forward declaring type: IMemoryPool`4<TParam1, TParam2, TParam3, TValue>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TValue>
   class IMemoryPool_4;
   // Forward declaring type: IMemoryPool`5<TParam1, TParam2, TParam3, TParam4, TValue>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue>
   class IMemoryPool_5;
   // Forward declaring type: IMemoryPool`6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue>
   class IMemoryPool_6;
   // Forward declaring type: IMemoryPool`7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
   class IMemoryPool_7;
   // Forward declaring type: IMemoryPool`8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue>
   class IMemoryPool_8;
   // Forward declaring type: IMemoryPool
   class IMemoryPool;
@@ -43,10 +53,13 @@ namespace Zenject {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
   // Forward declaring type: IList`1<T>
+  template<typename T>
   class IList_1;
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
 }
 // Completed forward declares

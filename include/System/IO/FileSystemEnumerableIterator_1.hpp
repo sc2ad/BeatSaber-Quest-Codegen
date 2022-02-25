@@ -23,6 +23,7 @@
 // Forward declaring namespace: System::IO
 namespace System::IO {
   // Forward declaring type: SearchResultHandler`1<TSource>
+  template<typename TSource>
   class SearchResultHandler_1;
   // Forward declaring type: SearchResult
   class SearchResult;
@@ -30,6 +31,7 @@ namespace System::IO {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: Microsoft::Win32::SafeHandles
@@ -41,6 +43,7 @@ namespace Microsoft::Win32::SafeHandles {
 // Type namespace: System.IO
 namespace System::IO {
   // Forward declaring type: FileSystemEnumerableIterator`1<TSource>
+  template<typename TSource>
   class FileSystemEnumerableIterator_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

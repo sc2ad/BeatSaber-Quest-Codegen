@@ -58,14 +58,19 @@ namespace System::Threading {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Queue`1<T>
+  template<typename T>
   class Queue_1;
   // Forward declaring type: Stack`1<T>
+  template<typename T>
   class Stack_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
   // Forward declaring type: IEnumerator`1<T>
+  template<typename T>
   class IEnumerator_1;
 }
 // Forward declaring namespace: System::Net

@@ -16,15 +16,19 @@
 // Forward declaring namespace: System::Collections::ObjectModel
 namespace System::Collections::ObjectModel {
   // Forward declaring type: ReadOnlyCollection`1<T>
+  template<typename T>
   class ReadOnlyCollection_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IReadOnlyList`1<T>
+  template<typename T>
   class IReadOnlyList_1;
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
   // Forward declaring type: ICollection`1<T>
+  template<typename T>
   class ICollection_1;
 }
 // Forward declaring namespace: System::Reflection

@@ -29,6 +29,7 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Queue`1<T>
+  template<typename T>
   class Queue_1;
 }
 // Completed forward declares

@@ -14,13 +14,16 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Tuple`2<T1, T2>
+  template<typename T1, typename T2>
   class Tuple_2;
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: UnityEngine::UI
@@ -31,6 +34,7 @@ namespace UnityEngine::UI {
 // Forward declaring namespace: UnityEngine::Events
 namespace UnityEngine::Events {
   // Forward declaring type: UnityAction`1<T0>
+  template<typename T0>
   class UnityAction_1;
 }
 // Completed forward declares

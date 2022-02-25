@@ -65,6 +65,7 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System
@@ -90,14 +91,19 @@ namespace HoudiniEngineUnity {
   class HEU_GeneralUtility : public ::Il2CppObject {
     public:
     // Nested type: HoudiniEngineUnity::HEU_GeneralUtility::GetArray1ArgDel_1<T>
+    template<typename T>
     class GetArray1ArgDel_1;
     // Nested type: HoudiniEngineUnity::HEU_GeneralUtility::GetArray2ArgDel_2<ARG2, T>
+    template<typename ARG2, typename T>
     class GetArray2ArgDel_2;
     // Nested type: HoudiniEngineUnity::HEU_GeneralUtility::GetArray3ArgDel_3<ARG3, ARG2, T>
+    template<typename ARG3, typename ARG2, typename T>
     class GetArray3ArgDel_3;
     // Nested type: HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeArrayInputFunc_1<T>
+    template<typename T>
     class GetAttributeArrayInputFunc_1;
     // Nested type: HoudiniEngineUnity::HEU_GeneralUtility::SetAttributeArrayFunc_1<T>
+    template<typename T>
     class SetAttributeArrayFunc_1;
     // static public System.Boolean GetArray1Arg(System.Int32 arg1, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetArray1ArgDel`1<T> func, out T[] data, System.Int32 start, System.Int32 count)
     // Offset: 0xFFFFFFFF

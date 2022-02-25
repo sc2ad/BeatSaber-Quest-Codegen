@@ -20,10 +20,12 @@ namespace GlobalNamespace {
   // Forward declaring type: ISaberSwingRatingCounter
   class ISaberSwingRatingCounter;
   // Forward declaring type: LazyCopyHashSet`1<T>
+  template<typename T>
   class LazyCopyHashSet_1;
   // Forward declaring type: ICutScoreHandlerDidFinishEvent
   class ICutScoreHandlerDidFinishEvent;
   // Forward declaring type: ILazyCopyHashSet`1<T>
+  template<typename T>
   class ILazyCopyHashSet_1;
   // Forward declaring type: NoteCutInfo
   struct NoteCutInfo;

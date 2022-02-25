@@ -9,6 +9,7 @@
 // Type namespace: System.Collections.Concurrent
 namespace System::Collections::Concurrent {
   // Forward declaring type: IProducerConsumerCollectionDebugView`1<T>
+  template<typename T>
   class IProducerConsumerCollectionDebugView_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

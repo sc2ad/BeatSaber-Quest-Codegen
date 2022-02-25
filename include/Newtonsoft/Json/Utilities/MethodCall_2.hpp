@@ -26,6 +26,7 @@ namespace System {
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Forward declaring type: MethodCall`2<T, TResult>
+  template<typename T, typename TResult>
   class MethodCall_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -21,10 +21,12 @@ namespace UnityEngine {
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: LazyCopyHashSet`1<T>
+  template<typename T>
   class LazyCopyHashSet_1;
   // Forward declaring type: IFlyingObjectEffectDidFinishEvent
   class IFlyingObjectEffectDidFinishEvent;
   // Forward declaring type: ILazyCopyHashSet`1<T>
+  template<typename T>
   class ILazyCopyHashSet_1;
 }
 // Completed forward declares

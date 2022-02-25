@@ -26,10 +26,13 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`2<T1, T2>
+  template<typename T1, typename T2>
   class Action_2;
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
   // Forward declaring type: Tuple`2<T1, T2>
+  template<typename T1, typename T2>
   class Tuple_2;
 }
 // Forward declaring namespace: HMUI
@@ -43,12 +46,16 @@ namespace HMUI {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: HashSet`1<T>
+  template<typename T>
   class HashSet_1;
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
 }
 // Completed forward declares

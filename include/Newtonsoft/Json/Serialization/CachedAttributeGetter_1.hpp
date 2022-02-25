@@ -19,12 +19,14 @@ namespace System {
 // Forward declaring namespace: Newtonsoft::Json::Utilities
 namespace Newtonsoft::Json::Utilities {
   // Forward declaring type: ThreadSafeStore`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class ThreadSafeStore_2;
 }
 // Completed forward declares
 // Type namespace: Newtonsoft.Json.Serialization
 namespace Newtonsoft::Json::Serialization {
   // Forward declaring type: CachedAttributeGetter`1<T>
+  template<typename T>
   class CachedAttributeGetter_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

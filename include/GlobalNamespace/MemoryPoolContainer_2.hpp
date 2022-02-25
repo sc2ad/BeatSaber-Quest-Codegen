@@ -14,22 +14,26 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: LazyCopyHashSet`1<T>
+  template<typename T>
   class LazyCopyHashSet_1;
 }
 // Forward declaring namespace: Zenject
 namespace Zenject {
   // Forward declaring type: IMemoryPool`1<TValue>
+  template<typename TValue>
   class IMemoryPool_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: MemoryPoolContainer`2<T0, T1>
+  template<typename T0, typename T1>
   class MemoryPoolContainer_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

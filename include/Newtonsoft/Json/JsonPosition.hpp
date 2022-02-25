@@ -26,11 +26,13 @@ namespace System::IO {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Nullable`1<T>
+  template<typename T>
   struct Nullable_1;
 }
 // Forward declaring namespace: Newtonsoft::Json

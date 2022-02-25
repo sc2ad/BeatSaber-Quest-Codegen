@@ -21,11 +21,13 @@ namespace System::Threading::Tasks {
 // Forward declaring namespace: System::Runtime::CompilerServices
 namespace System::Runtime::CompilerServices {
   // Forward declaring type: ConditionalWeakTable`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class ConditionalWeakTable_2;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: EventHandler`1<TEventArgs>
+  template<typename TEventArgs>
   class EventHandler_1;
 }
 // Completed forward declares

@@ -40,6 +40,7 @@ namespace System::Linq::Expressions::Interpreter {
   class CastInstruction : public System::Linq::Expressions::Interpreter::Instruction {
     public:
     // Nested type: System::Linq::Expressions::Interpreter::CastInstruction::CastInstructionT_1<T>
+    template<typename T>
     class CastInstructionT_1;
     // Nested type: System::Linq::Expressions::Interpreter::CastInstruction::CastInstructionNoT
     class CastInstructionNoT;

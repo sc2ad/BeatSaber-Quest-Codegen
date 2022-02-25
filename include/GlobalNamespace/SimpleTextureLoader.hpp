@@ -11,6 +11,7 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: HMCache`2<K, V>
+  template<typename K, typename V>
   class HMCache_2;
 }
 // Forward declaring namespace: UnityEngine
@@ -21,6 +22,7 @@ namespace UnityEngine {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: System::Collections

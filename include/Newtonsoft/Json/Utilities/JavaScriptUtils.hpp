@@ -14,6 +14,7 @@ namespace Newtonsoft::Json {
   // Forward declaring type: StringEscapeHandling
   struct StringEscapeHandling;
   // Forward declaring type: IArrayPool`1<T>
+  template<typename T>
   class IArrayPool_1;
   // Forward declaring type: JsonReader
   class JsonReader;
@@ -28,6 +29,7 @@ namespace System {
   // Forward declaring type: DateTime
   struct DateTime;
   // Forward declaring type: Nullable`1<T>
+  template<typename T>
   struct Nullable_1;
 }
 // Completed forward declares

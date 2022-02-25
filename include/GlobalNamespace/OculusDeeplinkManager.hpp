@@ -17,6 +17,7 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: GlobalNamespace
@@ -27,6 +28,7 @@ namespace GlobalNamespace {
 // Forward declaring namespace: Oculus::Platform
 namespace Oculus::Platform {
   // Forward declaring type: Message`1<T>
+  template<typename T>
   class Message_1;
 }
 // Forward declaring namespace: Oculus::Platform::Models

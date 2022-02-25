@@ -26,6 +26,7 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IReadOnlyList`1<T>
+  template<typename T>
   class IReadOnlyList_1;
 }
 // Completed forward declares

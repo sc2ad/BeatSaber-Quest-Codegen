@@ -24,6 +24,7 @@ namespace Zenject {
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: LazyInject`1<T>
+  template<typename T>
   class LazyInject_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

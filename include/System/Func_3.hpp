@@ -24,6 +24,7 @@ namespace System {
 // Type namespace: System
 namespace System {
   // Forward declaring type: Func`3<T1, T2, TResult>
+  template<typename T1, typename T2, typename TResult>
   class Func_3;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

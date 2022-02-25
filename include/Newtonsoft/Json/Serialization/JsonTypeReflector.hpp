@@ -22,6 +22,7 @@ namespace Newtonsoft::Json::Serialization {
 // Forward declaring namespace: Newtonsoft::Json::Utilities
 namespace Newtonsoft::Json::Utilities {
   // Forward declaring type: ThreadSafeStore`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class ThreadSafeStore_2;
   // Forward declaring type: ReflectionObject
   class ReflectionObject;
@@ -33,6 +34,7 @@ namespace System {
   // Forward declaring type: Type
   class Type;
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Attribute
   class Attribute;

@@ -39,8 +39,10 @@ namespace System {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: Microsoft::Win32
@@ -51,6 +53,7 @@ namespace Microsoft::Win32 {
 // Forward declaring namespace: System::Collections::ObjectModel
 namespace System::Collections::ObjectModel {
   // Forward declaring type: ReadOnlyCollection`1<T>
+  template<typename T>
   class ReadOnlyCollection_1;
 }
 // Forward declaring namespace: System::Runtime::Serialization

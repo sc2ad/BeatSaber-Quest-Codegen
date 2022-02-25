@@ -17,21 +17,26 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: HashSet`1<T>
+  template<typename T>
   class HashSet_1;
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ResourceManagement
 namespace UnityEngine::ResourceManagement {
   // Forward declaring type: ChainOperationTypelessDepedency`1<TObject>
+  template<typename TObject>
   class ChainOperationTypelessDepedency_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

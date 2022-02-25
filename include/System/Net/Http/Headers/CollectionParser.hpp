@@ -15,6 +15,7 @@
 // Forward declaring namespace: System::Net::Http::Headers
 namespace System::Net::Http::Headers {
   // Forward declaring type: ElementTryParser`1<T>
+  template<typename T>
   class ElementTryParser_1;
   // Forward declaring type: Lexer
   class Lexer;
@@ -24,6 +25,7 @@ namespace System::Net::Http::Headers {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Completed forward declares

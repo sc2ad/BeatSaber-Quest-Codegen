@@ -32,10 +32,12 @@ namespace Zenject {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
   // Forward declaring type: Action
   class Action;
   // Forward declaring type: Action`2<T1, T2>
+  template<typename T1, typename T2>
   class Action_2;
   // Forward declaring type: String
   class String;
@@ -43,8 +45,10 @@ namespace System {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
   // Forward declaring type: HashSet`1<T>
+  template<typename T>
   class HashSet_1;
 }
 // Forward declaring namespace: UnityEngine

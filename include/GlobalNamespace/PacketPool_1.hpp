@@ -25,6 +25,7 @@ namespace GlobalNamespace {
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: PacketPool`1<T>
+  template<typename T>
   class PacketPool_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

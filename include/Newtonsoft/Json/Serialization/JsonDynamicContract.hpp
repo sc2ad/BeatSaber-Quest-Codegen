@@ -22,10 +22,13 @@ namespace Newtonsoft::Json::Serialization {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Func`3<T1, T2, TResult>
+  template<typename T1, typename T2, typename TResult>
   class Func_3;
   // Forward declaring type: Func`4<T1, T2, T3, TResult>
+  template<typename T1, typename T2, typename T3, typename TResult>
   class Func_4;
   // Forward declaring type: Type
   class Type;
@@ -33,11 +36,13 @@ namespace System {
 // Forward declaring namespace: Newtonsoft::Json::Utilities
 namespace Newtonsoft::Json::Utilities {
   // Forward declaring type: ThreadSafeStore`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class ThreadSafeStore_2;
 }
 // Forward declaring namespace: System::Runtime::CompilerServices
 namespace System::Runtime::CompilerServices {
   // Forward declaring type: CallSite`1<T>
+  template<typename T>
   class CallSite_1;
   // Forward declaring type: CallSite
   class CallSite;

@@ -25,11 +25,13 @@ namespace GlobalNamespace {
   // Forward declaring type: ConnectedPlayerManager
   class ConnectedPlayerManager;
   // Forward declaring type: INetworkPacketSubSerializer`1<TData>
+  template<typename TData>
   class INetworkPacketSubSerializer_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IReadOnlyList`1<T>
+  template<typename T>
   class IReadOnlyList_1;
 }
 // Forward declaring namespace: System
@@ -37,10 +39,13 @@ namespace System {
   // Forward declaring type: Action
   class Action;
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
   // Forward declaring type: Action`2<T1, T2>
+  template<typename T1, typename T2>
   class Action_2;
   // Forward declaring type: Func`1<TResult>
+  template<typename TResult>
   class Func_1;
 }
 // Forward declaring namespace: LiteNetLib::Utils

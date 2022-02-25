@@ -13,6 +13,7 @@
 // Type namespace: Priority_Queue
 namespace Priority_Queue {
   // Forward declaring type: GenericPriorityQueueNode`1<TPriority>
+  template<typename TPriority>
   class GenericPriorityQueueNode_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

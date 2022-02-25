@@ -15,12 +15,14 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: IComparable`1<T>
+  template<typename T>
   class IComparable_1;
 }
 // Completed forward declares
 // Type namespace: Priority_Queue
 namespace Priority_Queue {
   // Forward declaring type: IFixedSizePriorityQueue`2<TItem, TPriority>
+  template<typename TItem, typename TPriority>
   class IFixedSizePriorityQueue_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

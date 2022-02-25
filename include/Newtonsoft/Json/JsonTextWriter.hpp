@@ -28,6 +28,7 @@ namespace Newtonsoft::Json::Utilities {
 // Forward declaring namespace: Newtonsoft::Json
 namespace Newtonsoft::Json {
   // Forward declaring type: IArrayPool`1<T>
+  template<typename T>
   class IArrayPool_1;
   // Forward declaring type: JsonToken
   struct JsonToken;
@@ -37,6 +38,7 @@ namespace System {
   // Skipping declaration: DateTime because it is already included!
   // Skipping declaration: DateTimeOffset because it is already included!
   // Forward declaring type: Nullable`1<T>
+  template<typename T>
   struct Nullable_1;
   // Skipping declaration: Decimal because it is already included!
   // Skipping declaration: Guid because it is already included!

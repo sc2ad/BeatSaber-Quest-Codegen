@@ -23,11 +23,13 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: PacketPool`1<T>
+  template<typename T>
   class PacketPool_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: ValueTuple`2<T1, T2>
+  template<typename T1, typename T2>
   struct ValueTuple_2;
 }
 // Forward declaring namespace: LiteNetLib::Utils

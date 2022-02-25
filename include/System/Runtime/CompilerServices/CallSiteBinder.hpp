@@ -15,13 +15,16 @@
 // Forward declaring namespace: System::Runtime::CompilerServices
 namespace System::Runtime::CompilerServices {
   // Forward declaring type: CallSite`1<T>
+  template<typename T>
   class CallSite_1;
   // Forward declaring type: RuleCache`1<T>
+  template<typename T>
   class RuleCache_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: System
@@ -38,11 +41,13 @@ namespace System::Linq::Expressions {
   // Forward declaring type: ParameterExpression
   class ParameterExpression;
   // Forward declaring type: Expression`1<TDelegate>
+  template<typename TDelegate>
   class Expression_1;
 }
 // Forward declaring namespace: System::Collections::ObjectModel
 namespace System::Collections::ObjectModel {
   // Forward declaring type: ReadOnlyCollection`1<T>
+  template<typename T>
   class ReadOnlyCollection_1;
 }
 // Completed forward declares
@@ -63,6 +68,7 @@ namespace System::Runtime::CompilerServices {
   class CallSiteBinder : public ::Il2CppObject {
     public:
     // Nested type: System::Runtime::CompilerServices::CallSiteBinder::LambdaSignature_1<T>
+    template<typename T>
     class LambdaSignature_1;
     #ifdef USE_CODEGEN_FIELDS
     public:

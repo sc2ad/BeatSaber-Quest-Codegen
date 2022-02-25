@@ -21,13 +21,16 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Stack`1<T>
+  template<typename T>
   class Stack_1;
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: Zenject
 namespace Zenject {
   // Forward declaring type: IFactory`1<TValue>
+  template<typename TValue>
   class IFactory_1;
   // Forward declaring type: MemoryPoolSettings
   class MemoryPoolSettings;
@@ -45,6 +48,7 @@ namespace System {
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: MemoryPoolBase`1<TContract>
+  template<typename TContract>
   class MemoryPoolBase_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

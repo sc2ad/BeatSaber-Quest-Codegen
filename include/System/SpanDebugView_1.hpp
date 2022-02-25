@@ -9,6 +9,7 @@
 // Type namespace: System
 namespace System {
   // Forward declaring type: SpanDebugView`1<T>
+  template<typename T>
   class SpanDebugView_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

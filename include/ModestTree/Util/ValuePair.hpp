@@ -14,10 +14,13 @@
 // Forward declaring namespace: ModestTree::Util
 namespace ModestTree::Util {
   // Forward declaring type: ValuePair`2<T1, T2>
+  template<typename T1, typename T2>
   class ValuePair_2;
   // Forward declaring type: ValuePair`3<T1, T2, T3>
+  template<typename T1, typename T2, typename T3>
   class ValuePair_3;
   // Forward declaring type: ValuePair`4<T1, T2, T3, T4>
+  template<typename T1, typename T2, typename T3, typename T4>
   class ValuePair_4;
 }
 // Completed forward declares

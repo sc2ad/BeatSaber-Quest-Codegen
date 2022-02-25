@@ -28,6 +28,7 @@ namespace LiteNetLib::Utils {
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: RemoteProcedureCall`2<T0, T1>
+  template<typename T0, typename T1>
   class RemoteProcedureCall_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

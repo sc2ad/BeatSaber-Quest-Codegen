@@ -18,14 +18,17 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`3<T1, T2, T3>
+  template<typename T1, typename T2, typename T3>
   class Action_3;
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
 }
 // Completed forward declares
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: StaticMemoryPool`3<TParam1, TParam2, TValue>
+  template<typename TParam1, typename TParam2, typename TValue>
   class StaticMemoryPool_3;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

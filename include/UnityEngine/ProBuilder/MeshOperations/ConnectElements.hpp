@@ -22,6 +22,7 @@ namespace UnityEngine::ProBuilder {
   // Forward declaring type: ProBuilderMesh
   class ProBuilderMesh;
   // Forward declaring type: SimpleTuple`2<T1, T2>
+  template<typename T1, typename T2>
   struct SimpleTuple_2;
   // Forward declaring type: ActionResult
   class ActionResult;
@@ -33,14 +34,19 @@ namespace UnityEngine::ProBuilder {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
   // Forward declaring type: IList`1<T>
+  template<typename T>
   class IList_1;
   // Forward declaring type: HashSet`1<T>
+  template<typename T>
   class HashSet_1;
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Completed forward declares

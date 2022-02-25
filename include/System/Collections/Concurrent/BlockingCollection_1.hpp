@@ -22,6 +22,7 @@
 // Forward declaring namespace: System::Collections::Concurrent
 namespace System::Collections::Concurrent {
   // Forward declaring type: IProducerConsumerCollection`1<T>
+  template<typename T>
   class IProducerConsumerCollection_1;
 }
 // Forward declaring namespace: System::Threading
@@ -39,6 +40,7 @@ namespace System {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerator`1<T>
+  template<typename T>
   class IEnumerator_1;
 }
 // Forward declaring namespace: System::Collections
@@ -50,6 +52,7 @@ namespace System::Collections {
 // Type namespace: System.Collections.Concurrent
 namespace System::Collections::Concurrent {
   // Forward declaring type: BlockingCollection`1<T>
+  template<typename T>
   class BlockingCollection_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

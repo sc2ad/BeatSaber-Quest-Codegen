@@ -13,6 +13,7 @@
 // Type namespace: ModestTree.Util
 namespace ModestTree::Util {
   // Forward declaring type: ValuePair`3<T1, T2, T3>
+  template<typename T1, typename T2, typename T3>
   class ValuePair_3;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -15,6 +15,7 @@ namespace GlobalNamespace {
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: INetworkPlayerModelPartyConfig`1<T>
+  template<typename T>
   class INetworkPlayerModelPartyConfig_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

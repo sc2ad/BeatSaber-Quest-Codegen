@@ -49,14 +49,19 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: HashSet`1<T>
+  template<typename T>
   class HashSet_1;
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
   // Forward declaring type: IList`1<T>
+  template<typename T>
   class IList_1;
 }
 // Forward declaring namespace: UnityEngine::AddressableAssets::ResourceLocators
@@ -67,10 +72,12 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
   // Forward declaring type: String
   class String;
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Exception
   class Exception;
@@ -135,16 +142,20 @@ namespace UnityEngine::AddressableAssets {
     // Nested type: UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass60_0
     class $$c__DisplayClass60_0;
     // Nested type: UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass66_0_1<TObject>
+    template<typename TObject>
     class $$c__DisplayClass66_0_1;
     // Nested type: UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass70_0
     class $$c__DisplayClass70_0;
     // Nested type: UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass72_0
     class $$c__DisplayClass72_0;
     // Nested type: UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass75_0_1<TObject>
+    template<typename TObject>
     class $$c__DisplayClass75_0_1;
     // Nested type: UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass77_0_1<TObject>
+    template<typename TObject>
     class $$c__DisplayClass77_0_1;
     // Nested type: UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass83_0_1<TObject>
+    template<typename TObject>
     class $$c__DisplayClass83_0_1;
     // Nested type: UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass85_0
     class $$c__DisplayClass85_0;

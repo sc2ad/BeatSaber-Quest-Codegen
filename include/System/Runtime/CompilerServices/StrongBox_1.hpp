@@ -15,6 +15,7 @@
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Forward declaring type: StrongBox`1<T>
+  template<typename T>
   class StrongBox_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

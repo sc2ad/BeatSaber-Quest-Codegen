@@ -18,6 +18,7 @@
 // Forward declaring namespace: UnityEngine::Timeline
 namespace UnityEngine::Timeline {
   // Forward declaring type: IntervalTree`1<T>
+  template<typename T>
   class IntervalTree_1;
   // Forward declaring type: RuntimeElement
   class RuntimeElement;
@@ -29,15 +30,19 @@ namespace UnityEngine::Timeline {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: UnityEngine::Playables
 namespace UnityEngine::Playables {
   // Forward declaring type: ScriptPlayable`1<T>
+  template<typename T>
   struct ScriptPlayable_1;
   // Forward declaring type: PlayableGraph
   struct PlayableGraph;

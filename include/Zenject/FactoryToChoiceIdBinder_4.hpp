@@ -26,6 +26,7 @@ namespace Zenject {
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: FactoryToChoiceIdBinder`4<TParam1, TParam2, TParam3, TContract>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TContract>
   class FactoryToChoiceIdBinder_4;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

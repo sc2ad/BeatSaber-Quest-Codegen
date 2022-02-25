@@ -22,11 +22,13 @@ namespace Newtonsoft::Json::Utilities {
 // Forward declaring namespace: Newtonsoft::Json::Serialization
 namespace Newtonsoft::Json::Serialization {
   // Forward declaring type: ObjectConstructor`1<T>
+  template<typename T>
   class ObjectConstructor_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IDictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class IDictionary_2;
 }
 // Forward declaring namespace: System

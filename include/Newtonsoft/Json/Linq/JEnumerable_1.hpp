@@ -24,6 +24,7 @@ namespace Newtonsoft::Json::Linq {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerator`1<T>
+  template<typename T>
   class IEnumerator_1;
 }
 // Forward declaring namespace: System::Collections
@@ -38,6 +39,7 @@ struct Il2CppObject;
 // Type namespace: Newtonsoft.Json.Linq
 namespace Newtonsoft::Json::Linq {
   // Forward declaring type: JEnumerable`1<T>
+  template<typename T>
   struct JEnumerable_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -28,6 +28,7 @@ namespace Tweening {
   // Forward declaring type: TimeTweeningManager
   class TimeTweeningManager;
   // Forward declaring type: Tween`1<T>
+  template<typename T>
   class Tween_1;
 }
 // Forward declaring namespace: System::Collections

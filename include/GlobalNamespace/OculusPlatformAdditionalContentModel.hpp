@@ -24,6 +24,7 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: HashSet`1<T>
+  template<typename T>
   class HashSet_1;
 }
 // Forward declaring namespace: System::Threading
@@ -36,11 +37,13 @@ namespace System::Threading {
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
+  template<typename TResult>
   class Task_1;
 }
 // Forward declaring namespace: Oculus::Platform
 namespace Oculus::Platform {
   // Forward declaring type: Message`1<T>
+  template<typename T>
   class Message_1;
 }
 // Forward declaring namespace: Oculus::Platform::Models

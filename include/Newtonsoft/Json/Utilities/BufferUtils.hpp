@@ -11,6 +11,7 @@
 // Forward declaring namespace: Newtonsoft::Json
 namespace Newtonsoft::Json {
   // Forward declaring type: IArrayPool`1<T>
+  template<typename T>
   class IArrayPool_1;
 }
 // Completed forward declares

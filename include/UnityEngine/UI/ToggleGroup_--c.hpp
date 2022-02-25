@@ -16,8 +16,10 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Predicate`1<T>
+  template<typename T>
   class Predicate_1;
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: UnityEngine::UI

@@ -42,6 +42,7 @@ namespace System::Linq::Expressions {
   // Forward declaring type: LabelExpression
   class LabelExpression;
   // Forward declaring type: Expression`1<TDelegate>
+  template<typename TDelegate>
   class Expression_1;
   // Forward declaring type: LoopExpression
   class LoopExpression;
@@ -65,11 +66,13 @@ namespace System::Linq::Expressions {
 // Forward declaring namespace: System::Collections::ObjectModel
 namespace System::Collections::ObjectModel {
   // Forward declaring type: ReadOnlyCollection`1<T>
+  template<typename T>
   class ReadOnlyCollection_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Type
   class Type;

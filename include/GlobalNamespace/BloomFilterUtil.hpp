@@ -15,11 +15,13 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: IBitMask`1<T>
+  template<typename T>
   class IBitMask_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
 }
 // Completed forward declares
@@ -41,6 +43,7 @@ namespace GlobalNamespace {
   class BloomFilterUtil : public ::Il2CppObject {
     public:
     // Nested type: GlobalNamespace::BloomFilterUtil::$$c__DisplayClass2_0_1<T>
+    template<typename T>
     class $$c__DisplayClass2_0_1;
     // static private System.UInt32 MurmurHash2(System.String key)
     // Offset: 0x2971EE8

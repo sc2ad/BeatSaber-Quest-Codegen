@@ -26,12 +26,16 @@ namespace UnityEngine::ProBuilder {
 namespace System::Collections::Generic {
   // Skipping declaration: IEnumerable`1 because it is already included!
   // Forward declaring type: IEnumerator`1<T>
+  template<typename T>
   class IEnumerator_1;
   // Forward declaring type: IList`1<T>
+  template<typename T>
   class IList_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System::Collections

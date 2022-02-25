@@ -17,6 +17,7 @@ namespace System::Reflection {
 // Forward declaring namespace: System::Collections::ObjectModel
 namespace System::Collections::ObjectModel {
   // Forward declaring type: ReadOnlyCollection`1<T>
+  template<typename T>
   class ReadOnlyCollection_1;
 }
 // Forward declaring namespace: System::Linq::Expressions

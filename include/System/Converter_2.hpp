@@ -24,6 +24,7 @@ namespace System {
 // Type namespace: System
 namespace System {
   // Forward declaring type: Converter`2<TInput, TOutput>
+  template<typename TInput, typename TOutput>
   class Converter_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

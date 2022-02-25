@@ -28,6 +28,7 @@ namespace System::Net {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: ArraySegment`1<T>
+  template<typename T>
   struct ArraySegment_1;
 }
 // Completed forward declares

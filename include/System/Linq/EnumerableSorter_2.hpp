@@ -17,17 +17,20 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IComparer`1<T>
+  template<typename T>
   class IComparer_1;
 }
 // Completed forward declares
 // Type namespace: System.Linq
 namespace System::Linq {
   // Forward declaring type: EnumerableSorter`2<TElement, TKey>
+  template<typename TElement, typename TKey>
   class EnumerableSorter_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

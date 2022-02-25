@@ -27,10 +27,12 @@ namespace System {
   // Forward declaring type: Decimal
   struct Decimal;
   // Forward declaring type: ReadOnlySpan`1<T>
+  template<typename T>
   struct ReadOnlySpan_1;
   // Forward declaring type: IFormatProvider
   class IFormatProvider;
   // Forward declaring type: Span`1<T>
+  template<typename T>
   struct Span_1;
 }
 // Forward declaring namespace: System::Globalization

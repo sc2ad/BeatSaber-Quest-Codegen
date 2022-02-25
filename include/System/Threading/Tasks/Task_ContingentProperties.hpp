@@ -29,11 +29,13 @@ namespace System::Threading::Tasks {
   // Forward declaring type: TaskExceptionHolder
   class TaskExceptionHolder;
   // Forward declaring type: Shared`1<T>
+  template<typename T>
   class Shared_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Completed forward declares

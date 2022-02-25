@@ -29,13 +29,16 @@ namespace BGNet::Core::Messages {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`3<T1, T2, TResult>
+  template<typename T1, typename T2, typename TResult>
   class Func_3;
   // Forward declaring type: Func`1<TResult>
+  template<typename TResult>
   class Func_1;
 }
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
+  template<typename TResult>
   class Task_1;
 }
 // Completed forward declares

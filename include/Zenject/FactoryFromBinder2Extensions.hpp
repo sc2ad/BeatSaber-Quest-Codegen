@@ -16,23 +16,30 @@ namespace Zenject {
   // Forward declaring type: ArgConditionCopyNonLazyBinder
   class ArgConditionCopyNonLazyBinder;
   // Forward declaring type: FactoryFromBinder`3<TParam1, TParam2, TContract>
+  template<typename TParam1, typename TParam2, typename TContract>
   class FactoryFromBinder_3;
   // Forward declaring type: ConcreteBinderGeneric`1<TContract>
+  template<typename TContract>
   class ConcreteBinderGeneric_1;
   // Forward declaring type: IFactory`3<TParam1, TParam2, TValue>
+  template<typename TParam1, typename TParam2, typename TValue>
   class IFactory_3;
   // Forward declaring type: IPoolable`3<TParam1, TParam2, TParam3>
+  template<typename TParam1, typename TParam2, typename TParam3>
   class IPoolable_3;
   // Forward declaring type: IMemoryPool
   class IMemoryPool;
   // Forward declaring type: MemoryPoolInitialSizeMaxSizeBinder`1<TContract>
+  template<typename TContract>
   class MemoryPoolInitialSizeMaxSizeBinder_1;
   // Forward declaring type: MemoryPool`4<TParam1, TParam2, TParam3, TValue>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TValue>
   class MemoryPool_4;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -59,14 +66,19 @@ namespace Zenject {
   class FactoryFromBinder2Extensions : public ::Il2CppObject {
     public:
     // Nested type: Zenject::FactoryFromBinder2Extensions::$$c__DisplayClass0_0_3<TParam1, TParam2, TContract>
+    template<typename TParam1, typename TParam2, typename TContract>
     class $$c__DisplayClass0_0_3;
     // Nested type: Zenject::FactoryFromBinder2Extensions::$$c__1_3<TParam1, TParam2, TContract>
+    template<typename TParam1, typename TParam2, typename TContract>
     class $$c__1_3;
     // Nested type: Zenject::FactoryFromBinder2Extensions::$$c__3_3<TParam1, TParam2, TContract>
+    template<typename TParam1, typename TParam2, typename TContract>
     class $$c__3_3;
     // Nested type: Zenject::FactoryFromBinder2Extensions::$$c__5_4<TParam1, TParam2, TContract, TMemoryPool>
+    template<typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
     class $$c__5_4;
     // Nested type: Zenject::FactoryFromBinder2Extensions::$$c__DisplayClass6_0_4<TParam1, TParam2, TContract, TMemoryPool>
+    template<typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
     class $$c__DisplayClass6_0_4;
     // static public Zenject.ArgConditionCopyNonLazyBinder FromIFactory(Zenject.FactoryFromBinder`3<TParam1,TParam2,TContract> fromBinder, System.Action`1<Zenject.ConcreteBinderGeneric`1<Zenject.IFactory`3<TParam1,TParam2,TContract>>> factoryBindGenerator)
     // Offset: 0xFFFFFFFF

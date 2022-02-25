@@ -22,6 +22,7 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: TaskCompletionSource`1<TResult>
+  template<typename TResult>
   class TaskCompletionSource_1;
   // Forward declaring type: Task
   class Task;
@@ -31,6 +32,7 @@ namespace System {
   // Forward declaring type: Action
   class Action;
   // Forward declaring type: Func`1<TResult>
+  template<typename TResult>
   class Func_1;
 }
 // Forward declaring namespace: System::Threading

@@ -17,6 +17,7 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: System::Linq::Expressions::Interpreter
@@ -28,6 +29,7 @@ namespace System::Linq::Expressions::Interpreter {
 // Type namespace: System.Linq.Expressions.Interpreter
 namespace System::Linq::Expressions::Interpreter {
   // Forward declaring type: IntSwitchInstruction`1<T>
+  template<typename T>
   class IntSwitchInstruction_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -20,6 +20,7 @@ namespace GlobalNamespace {
   // Forward declaring type: NoteMovement
   class NoteMovement;
   // Forward declaring type: LazyCopyHashSet`1<T>
+  template<typename T>
   class LazyCopyHashSet_1;
   // Forward declaring type: INoteControllerDidInitEvent
   class INoteControllerDidInitEvent;
@@ -40,6 +41,7 @@ namespace GlobalNamespace {
   // Forward declaring type: NoteData
   class NoteData;
   // Forward declaring type: ILazyCopyHashSet`1<T>
+  template<typename T>
   class ILazyCopyHashSet_1;
   // Forward declaring type: NoteCutInfo
   struct NoteCutInfo;

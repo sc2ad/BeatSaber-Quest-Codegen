@@ -10,6 +10,7 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: EventHandler`1<TEventArgs>
+  template<typename TEventArgs>
   class EventHandler_1;
 }
 // Forward declaring namespace: System::Xml::Linq

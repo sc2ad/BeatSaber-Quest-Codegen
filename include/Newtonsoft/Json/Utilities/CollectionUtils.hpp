@@ -18,12 +18,16 @@ namespace Newtonsoft::Json::Utilities {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: ICollection`1<T>
+  template<typename T>
   class ICollection_1;
   // Forward declaring type: IList`1<T>
+  template<typename T>
   class IList_1;
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System
@@ -31,6 +35,7 @@ namespace System {
   // Forward declaring type: Type
   class Type;
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Array
   class Array;
@@ -68,6 +73,7 @@ namespace Newtonsoft::Json::Utilities {
   class CollectionUtils : public ::Il2CppObject {
     public:
     // Nested type: Newtonsoft::Json::Utilities::CollectionUtils::EmptyArrayContainer_1<T>
+    template<typename T>
     class EmptyArrayContainer_1;
     // static public System.Boolean IsNullOrEmpty(System.Collections.Generic.ICollection`1<T> collection)
     // Offset: 0xFFFFFFFF

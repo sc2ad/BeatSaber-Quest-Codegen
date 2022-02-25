@@ -22,6 +22,7 @@ namespace System {
   // Forward declaring type: Action
   class Action;
   // Forward declaring type: Action`4<T1, T2, T3, T4>
+  template<typename T1, typename T2, typename T3, typename T4>
   class Action_4;
   // Forward declaring type: IAsyncResult
   class IAsyncResult;

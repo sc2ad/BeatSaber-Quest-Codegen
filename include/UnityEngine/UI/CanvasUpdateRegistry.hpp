@@ -16,6 +16,7 @@
 // Forward declaring namespace: UnityEngine::UI::Collections
 namespace UnityEngine::UI::Collections {
   // Forward declaring type: IndexedSet`1<T>
+  template<typename T>
   class IndexedSet_1;
 }
 // Forward declaring namespace: UnityEngine::UI
@@ -28,6 +29,7 @@ namespace System {
   // Forward declaring type: String
   class String;
   // Forward declaring type: Comparison`1<T>
+  template<typename T>
   class Comparison_1;
 }
 // Forward declaring namespace: UnityEngine

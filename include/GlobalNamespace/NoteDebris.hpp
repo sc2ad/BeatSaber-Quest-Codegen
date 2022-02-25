@@ -23,10 +23,12 @@ namespace GlobalNamespace {
   // Forward declaring type: ColorManager
   class ColorManager;
   // Forward declaring type: LazyCopyHashSet`1<T>
+  template<typename T>
   class LazyCopyHashSet_1;
   // Forward declaring type: INoteDebrisDidFinishEvent
   class INoteDebrisDidFinishEvent;
   // Forward declaring type: ILazyCopyHashSet`1<T>
+  template<typename T>
   class ILazyCopyHashSet_1;
   // Forward declaring type: ColorType
   struct ColorType;

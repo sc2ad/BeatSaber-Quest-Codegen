@@ -16,16 +16,20 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEqualityComparer`1<T>
+  template<typename T>
   class IEqualityComparer_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: IDictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class IDictionary_2;
 }
 // Completed forward declares
 // Type namespace: System.Collections.ObjectModel
 namespace System::Collections::ObjectModel {
   // Forward declaring type: KeyedCollection`2<TKey, TItem>
+  template<typename TKey, typename TItem>
   class KeyedCollection_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

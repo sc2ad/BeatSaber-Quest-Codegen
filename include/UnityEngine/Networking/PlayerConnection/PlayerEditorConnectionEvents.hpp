@@ -20,6 +20,7 @@ namespace UnityEngine::Networking::PlayerConnection {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System
@@ -30,8 +31,10 @@ namespace System {
 // Forward declaring namespace: UnityEngine::Events
 namespace UnityEngine::Events {
   // Forward declaring type: UnityEvent`1<T0>
+  template<typename T0>
   class UnityEvent_1;
   // Forward declaring type: UnityAction`1<T0>
+  template<typename T0>
   class UnityAction_1;
 }
 // Completed forward declares

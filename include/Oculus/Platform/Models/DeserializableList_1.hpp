@@ -18,8 +18,10 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
   // Forward declaring type: IEnumerator`1<T>
+  template<typename T>
   class IEnumerator_1;
 }
 // Forward declaring namespace: System::Collections
@@ -31,6 +33,7 @@ namespace System::Collections {
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
   // Forward declaring type: DeserializableList`1<T>
+  template<typename T>
   class DeserializableList_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

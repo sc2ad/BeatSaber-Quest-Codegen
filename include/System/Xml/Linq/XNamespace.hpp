@@ -15,6 +15,7 @@
 // Forward declaring namespace: System::Xml::Linq
 namespace System::Xml::Linq {
   // Forward declaring type: XHashtable`1<TValue>
+  template<typename TValue>
   class XHashtable_1;
   // Forward declaring type: XName
   class XName;

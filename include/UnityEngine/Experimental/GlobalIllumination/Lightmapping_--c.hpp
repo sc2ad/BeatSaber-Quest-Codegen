@@ -24,6 +24,7 @@ namespace UnityEngine {
 // Forward declaring namespace: Unity::Collections
 namespace Unity::Collections {
   // Forward declaring type: NativeArray`1<T>
+  template<typename T>
   struct NativeArray_1;
 }
 // Completed forward declares

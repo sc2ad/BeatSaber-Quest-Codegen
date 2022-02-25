@@ -62,6 +62,7 @@ namespace Newtonsoft::Json {
 // Forward declaring namespace: Newtonsoft::Json::Utilities
 namespace Newtonsoft::Json::Utilities {
   // Forward declaring type: ThreadSafeStore`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class ThreadSafeStore_2;
 }
 // Forward declaring namespace: System
@@ -69,8 +70,10 @@ namespace System {
   // Forward declaring type: Type
   class Type;
   // Forward declaring type: Func`1<TResult>
+  template<typename TResult>
   class Func_1;
   // Forward declaring type: Predicate`1<T>
+  template<typename T>
   class Predicate_1;
 }
 // Forward declaring namespace: System::Reflection
@@ -87,8 +90,10 @@ namespace System::Reflection {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
   // Forward declaring type: IList`1<T>
+  template<typename T>
   class IList_1;
 }
 // Forward declaring namespace: System::Runtime::Serialization
@@ -116,6 +121,7 @@ namespace Newtonsoft::Json::Serialization {
   class DefaultContractResolver : public ::Il2CppObject/*, public Newtonsoft::Json::Serialization::IContractResolver*/ {
     public:
     // Nested type: Newtonsoft::Json::Serialization::DefaultContractResolver::EnumerableDictionaryWrapper_2<TEnumeratorKey, TEnumeratorValue>
+    template<typename TEnumeratorKey, typename TEnumeratorValue>
     class EnumerableDictionaryWrapper_2;
     // Nested type: Newtonsoft::Json::Serialization::DefaultContractResolver::$$c
     class $$c;

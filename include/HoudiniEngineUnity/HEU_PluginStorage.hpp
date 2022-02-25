@@ -23,8 +23,10 @@ namespace HoudiniEngineUnity {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System
@@ -54,6 +56,7 @@ namespace HoudiniEngineUnity {
     // Nested type: HoudiniEngineUnity::HEU_PluginStorage::StoreData
     class StoreData;
     // Nested type: HoudiniEngineUnity::HEU_PluginStorage::StoreDataArray_1<T>
+    template<typename T>
     class StoreDataArray_1;
     #ifdef USE_CODEGEN_FIELDS
     public:

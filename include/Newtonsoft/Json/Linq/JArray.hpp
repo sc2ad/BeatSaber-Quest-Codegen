@@ -18,8 +18,10 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
   // Forward declaring type: IEnumerator`1<T>
+  template<typename T>
   class IEnumerator_1;
   // Skipping declaration: IList`1 because it is already included!
 }

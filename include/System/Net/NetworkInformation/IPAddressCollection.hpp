@@ -22,6 +22,7 @@ namespace System::Net {
 // Forward declaring namespace: System::Collections::ObjectModel
 namespace System::Collections::ObjectModel {
   // Forward declaring type: Collection`1<T>
+  template<typename T>
   class Collection_1;
 }
 // Forward declaring namespace: System::Collections
@@ -32,6 +33,7 @@ namespace System::Collections {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerator`1<T>
+  template<typename T>
   class IEnumerator_1;
 }
 // Completed forward declares

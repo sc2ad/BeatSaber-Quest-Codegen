@@ -19,6 +19,7 @@ namespace System::Globalization {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: ReadOnlySpan`1<T>
+  template<typename T>
   struct ReadOnlySpan_1;
 }
 // Forward declaring namespace: System::Text

@@ -12,6 +12,7 @@
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: IValue`1<T>
+  template<typename T>
   class IValue_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

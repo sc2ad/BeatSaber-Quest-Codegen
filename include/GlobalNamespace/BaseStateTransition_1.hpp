@@ -15,6 +15,7 @@
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: BaseStateTransition`1<T>
+  template<typename T>
   class BaseStateTransition_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

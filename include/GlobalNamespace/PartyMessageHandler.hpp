@@ -21,6 +21,7 @@ namespace GlobalNamespace {
   // Forward declaring type: IConnectedPlayer
   class IConnectedPlayer;
   // Forward declaring type: NetworkPacketSerializer`2<TType, TData>
+  template<typename TType, typename TData>
   class NetworkPacketSerializer_2;
   // Forward declaring type: ConnectedPlayerManager
   class ConnectedPlayerManager;

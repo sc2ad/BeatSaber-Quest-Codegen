@@ -30,6 +30,7 @@ namespace System::Runtime::CompilerServices {
 // Forward declaring namespace: System::Dynamic::Utils
 namespace System::Dynamic::Utils {
   // Forward declaring type: CacheDict`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class CacheDict_2;
 }
 // Forward declaring namespace: System
@@ -37,6 +38,7 @@ namespace System {
   // Forward declaring type: Type
   class Type;
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Delegate
   class Delegate;

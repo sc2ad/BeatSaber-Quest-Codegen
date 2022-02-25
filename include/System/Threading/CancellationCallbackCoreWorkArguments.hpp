@@ -11,6 +11,7 @@
 // Forward declaring namespace: System::Threading
 namespace System::Threading {
   // Forward declaring type: SparselyPopulatedArrayFragment`1<T>
+  template<typename T>
   class SparselyPopulatedArrayFragment_1;
   // Forward declaring type: CancellationCallbackInfo
   class CancellationCallbackInfo;

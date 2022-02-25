@@ -16,11 +16,13 @@
 // Forward declaring namespace: Newtonsoft::Json::Utilities
 namespace Newtonsoft::Json::Utilities {
   // Forward declaring type: MethodCall`2<T, TResult>
+  template<typename T, typename TResult>
   class MethodCall_2;
 }
 // Forward declaring namespace: Newtonsoft::Json::Serialization
 namespace Newtonsoft::Json::Serialization {
   // Forward declaring type: ObjectConstructor`1<T>
+  template<typename T>
   class ObjectConstructor_1;
 }
 // Forward declaring namespace: System::Reflection
@@ -35,12 +37,15 @@ namespace System::Reflection {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`1<TResult>
+  template<typename TResult>
   class Func_1;
   // Forward declaring type: Type
   class Type;
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Action`2<T1, T2>
+  template<typename T1, typename T2>
   class Action_2;
 }
 // Completed forward declares
@@ -65,16 +70,22 @@ namespace Newtonsoft::Json::Utilities {
     // Nested type: Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0
     class $$c__DisplayClass3_0;
     // Nested type: Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::$$c__DisplayClass4_0_1<T>
+    template<typename T>
     class $$c__DisplayClass4_0_1;
     // Nested type: Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::$$c__DisplayClass5_0_1<T>
+    template<typename T>
     class $$c__DisplayClass5_0_1;
     // Nested type: Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::$$c__DisplayClass6_0_1<T>
+    template<typename T>
     class $$c__DisplayClass6_0_1;
     // Nested type: Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::$$c__DisplayClass7_0_1<T>
+    template<typename T>
     class $$c__DisplayClass7_0_1;
     // Nested type: Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::$$c__DisplayClass8_0_1<T>
+    template<typename T>
     class $$c__DisplayClass8_0_1;
     // Nested type: Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::$$c__DisplayClass9_0_1<T>
+    template<typename T>
     class $$c__DisplayClass9_0_1;
     // Get static field: static private readonly Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory _instance
     static Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory* _get__instance();

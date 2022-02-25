@@ -19,6 +19,7 @@ struct Il2CppObject;
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Forward declaring type: StructMultiKey`2<T1, T2>
+  template<typename T1, typename T2>
   struct StructMultiKey_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

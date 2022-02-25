@@ -28,8 +28,10 @@ namespace Zenject {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System
@@ -41,6 +43,7 @@ namespace System {
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: PlaceholderFactoryBase`1<TValue>
+  template<typename TValue>
   class PlaceholderFactoryBase_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

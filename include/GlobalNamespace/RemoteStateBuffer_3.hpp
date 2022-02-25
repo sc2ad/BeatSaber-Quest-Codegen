@@ -19,6 +19,7 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: IStateTable`3<TStateTable, TType, TState>
+  template<typename TStateTable, typename TType, typename TState>
   class IStateTable_3;
   // Skipping declaration: IEquatableByReference`1 because it is already included!
 }
@@ -36,6 +37,7 @@ namespace System {
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: RemoteStateBuffer`3<TStateTable, TType, TState>
+  template<typename TStateTable, typename TType, typename TState>
   class RemoteStateBuffer_3;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

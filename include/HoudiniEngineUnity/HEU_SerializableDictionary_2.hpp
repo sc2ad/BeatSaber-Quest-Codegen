@@ -19,9 +19,11 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Skipping declaration: ICollection`1 because it is already included!
   // Forward declaring type: IEnumerator`1<T>
+  template<typename T>
   class IEnumerator_1;
 }
 // Forward declaring namespace: System::Collections
@@ -33,6 +35,7 @@ namespace System::Collections {
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Forward declaring type: HEU_SerializableDictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class HEU_SerializableDictionary_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

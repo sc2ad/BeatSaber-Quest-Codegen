@@ -19,6 +19,7 @@ namespace GlobalNamespace {
   // Forward declaring type: Signal
   class Signal;
   // Forward declaring type: RandomObjectPicker`1<T>
+  template<typename T>
   class RandomObjectPicker_1;
 }
 // Forward declaring namespace: UnityEngine

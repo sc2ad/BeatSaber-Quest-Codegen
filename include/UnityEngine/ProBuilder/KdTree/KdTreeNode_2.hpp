@@ -16,12 +16,14 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Completed forward declares
 // Type namespace: UnityEngine.ProBuilder.KdTree
 namespace UnityEngine::ProBuilder::KdTree {
   // Forward declaring type: KdTreeNode`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class KdTreeNode_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

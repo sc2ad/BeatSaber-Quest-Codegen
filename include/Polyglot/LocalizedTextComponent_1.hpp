@@ -25,12 +25,14 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Completed forward declares
 // Type namespace: Polyglot
 namespace Polyglot {
   // Forward declaring type: LocalizedTextComponent`1<T>
+  template<typename T>
   class LocalizedTextComponent_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

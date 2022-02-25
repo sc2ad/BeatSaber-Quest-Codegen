@@ -55,13 +55,16 @@ namespace UnityEngine::EventSystems {
 // Forward declaring namespace: UnityEngine::UI
 namespace UnityEngine::UI {
   // Forward declaring type: ObjectPool`1<T>
+  template<typename T>
   class ObjectPool_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
   // Forward declaring type: IList`1<T>
+  template<typename T>
   class IList_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -91,6 +94,7 @@ namespace UnityEngine::EventSystems {
   class ExecuteEvents : public ::Il2CppObject {
     public:
     // Nested type: UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<T1>
+    template<typename T1>
     class EventFunction_1;
     // Nested type: UnityEngine::EventSystems::ExecuteEvents::$$c
     class $$c;

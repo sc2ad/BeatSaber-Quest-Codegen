@@ -18,6 +18,7 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Pinnable`1<T>
+  template<typename T>
   class Pinnable_1;
 }
 // Completed forward declares
@@ -27,6 +28,7 @@ struct Il2CppObject;
 // Type namespace: System
 namespace System {
   // Forward declaring type: ReadOnlySpan`1<T>
+  template<typename T>
   struct ReadOnlySpan_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

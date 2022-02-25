@@ -28,6 +28,7 @@ namespace System::IO {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`4<T1, T2, T3, TResult>
+  template<typename T1, typename T2, typename T3, typename TResult>
   class Func_4;
 }
 // Forward declaring namespace: System::Xml

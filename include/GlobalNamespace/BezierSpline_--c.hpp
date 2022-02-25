@@ -18,8 +18,10 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Comparison`1<T>
+  template<typename T>
   class Comparison_1;
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares

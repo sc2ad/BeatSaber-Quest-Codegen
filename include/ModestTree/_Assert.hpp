@@ -17,8 +17,10 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IList`1<T>
+  template<typename T>
   class IList_1;
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: System
@@ -26,6 +28,7 @@ namespace System {
   // Forward declaring type: Type
   class Type;
   // Forward declaring type: Func`1<TResult>
+  template<typename TResult>
   class Func_1;
   // Forward declaring type: Action
   class Action;

@@ -24,6 +24,7 @@ namespace System::Threading {
   // Forward declaring type: InternalThread
   class InternalThread;
   // Forward declaring type: AsyncLocal`1<T>
+  template<typename T>
   class AsyncLocal_1;
   // Forward declaring type: ThreadPriority
   struct ThreadPriority;
@@ -34,6 +35,7 @@ namespace System::Threading {
   // Forward declaring type: ParameterizedThreadStart
   class ParameterizedThreadStart;
   // Forward declaring type: AsyncLocalValueChangedArgs`1<T>
+  template<typename T>
   struct AsyncLocalValueChangedArgs_1;
   // Forward declaring type: StackCrawlMark
   struct StackCrawlMark;

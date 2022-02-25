@@ -28,6 +28,7 @@ namespace System {
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: INetworkPacketSubSerializer`1<TData>
+  template<typename TData>
   class INetworkPacketSubSerializer_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

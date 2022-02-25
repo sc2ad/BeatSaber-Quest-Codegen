@@ -25,6 +25,7 @@ namespace System {
 // Type namespace: System.Net.Http.Headers
 namespace System::Net::Http::Headers {
   // Forward declaring type: TryParseDelegate`1<T>
+  template<typename T>
   class TryParseDelegate_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

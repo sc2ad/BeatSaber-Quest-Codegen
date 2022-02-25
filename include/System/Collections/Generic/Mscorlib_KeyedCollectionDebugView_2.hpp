@@ -9,6 +9,7 @@
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Mscorlib_KeyedCollectionDebugView`2<K, T>
+  template<typename K, typename T>
   class Mscorlib_KeyedCollectionDebugView_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

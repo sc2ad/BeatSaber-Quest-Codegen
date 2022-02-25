@@ -50,6 +50,7 @@ namespace Newtonsoft::Json::Linq {
   // Forward declaring type: JProperty
   class JProperty;
   // Forward declaring type: JEnumerable`1<T>
+  template<typename T>
   struct JEnumerable_1;
 }
 // Completed forward declares

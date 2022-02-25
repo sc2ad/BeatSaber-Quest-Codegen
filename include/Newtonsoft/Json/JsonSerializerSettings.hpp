@@ -54,6 +54,7 @@ namespace System::Globalization {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IList`1<T>
+  template<typename T>
   class IList_1;
 }
 // Forward declaring namespace: Newtonsoft::Json
@@ -82,8 +83,10 @@ namespace System::Collections {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`1<TResult>
+  template<typename TResult>
   class Func_1;
   // Forward declaring type: EventHandler`1<TEventArgs>
+  template<typename TEventArgs>
   class EventHandler_1;
 }
 // Completed forward declares

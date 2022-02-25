@@ -12,6 +12,7 @@
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEqualityComparer`1<T>
+  template<typename T>
   class IEqualityComparer_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

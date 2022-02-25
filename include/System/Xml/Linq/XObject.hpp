@@ -38,6 +38,7 @@ namespace System {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
 }
 // Completed forward declares
@@ -58,6 +59,7 @@ namespace System::Xml::Linq {
   class XObject : public ::Il2CppObject/*, public System::Xml::IXmlLineInfo*/ {
     public:
     // Nested type: System::Xml::Linq::XObject::$Annotations$d__16_1<T>
+    template<typename T>
     class $Annotations$d__16_1;
     #ifdef USE_CODEGEN_FIELDS
     public:

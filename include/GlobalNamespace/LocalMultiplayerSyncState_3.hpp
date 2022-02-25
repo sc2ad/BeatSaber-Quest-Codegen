@@ -18,19 +18,24 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: IStateTable`3<TStateTable, TType, TState>
+  template<typename TStateTable, typename TType, typename TState>
   class IStateTable_3;
   // Skipping declaration: IEquatableByReference`1 because it is already included!
   // Forward declaring type: IConnectedPlayer
   class IConnectedPlayer;
   // Forward declaring type: LocalStateBuffer`3<TStateTable, TType, TState>
+  template<typename TStateTable, typename TType, typename TState>
   class LocalStateBuffer_3;
   // Forward declaring type: IPoolablePacket
   class IPoolablePacket;
   // Forward declaring type: ISyncStateSerializable`1<T>
+  template<typename T>
   class ISyncStateSerializable_1;
   // Forward declaring type: IPacketPool`1<T>
+  template<typename T>
   class IPacketPool_1;
   // Forward declaring type: ISyncStateDeltaSerializable`1<T>
+  template<typename T>
   class ISyncStateDeltaSerializable_1;
 }
 // Forward declaring namespace: LiteNetLib::Utils
@@ -47,6 +52,7 @@ namespace System {
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: LocalMultiplayerSyncState`3<TStateTable, TType, TState>
+  template<typename TStateTable, typename TType, typename TState>
   class LocalMultiplayerSyncState_3;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

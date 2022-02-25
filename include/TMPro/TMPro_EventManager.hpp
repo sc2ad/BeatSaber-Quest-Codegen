@@ -10,6 +10,7 @@
 // Forward declaring namespace: TMPro
 namespace TMPro {
   // Forward declaring type: FastAction`2<A, B>
+  template<typename A, typename B>
   class FastAction_2;
   // Forward declaring type: Compute_DT_EventArgs
   class Compute_DT_EventArgs;
@@ -18,8 +19,10 @@ namespace TMPro {
   // Forward declaring type: TextMeshPro
   class TextMeshPro;
   // Forward declaring type: FastAction`3<A, B, C>
+  template<typename A, typename B, typename C>
   class FastAction_3;
   // Forward declaring type: FastAction`1<A>
+  template<typename A>
   class FastAction_1;
   // Forward declaring type: TMP_ColorGradient
   class TMP_ColorGradient;

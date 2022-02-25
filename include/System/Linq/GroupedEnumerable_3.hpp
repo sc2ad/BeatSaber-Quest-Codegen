@@ -16,18 +16,22 @@
 // Forward declaring namespace: System::Linq
 namespace System::Linq {
   // Forward declaring type: IGrouping`2<TKey, TElement>
+  template<typename TKey, typename TElement>
   class IGrouping_2;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEqualityComparer`1<T>
+  template<typename T>
   class IEqualityComparer_1;
   // Forward declaring type: IEnumerator`1<T>
+  template<typename T>
   class IEnumerator_1;
 }
 // Forward declaring namespace: System::Collections
@@ -39,6 +43,7 @@ namespace System::Collections {
 // Type namespace: System.Linq
 namespace System::Linq {
   // Forward declaring type: GroupedEnumerable`3<TSource, TKey, TElement>
+  template<typename TSource, typename TKey, typename TElement>
   class GroupedEnumerable_3;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

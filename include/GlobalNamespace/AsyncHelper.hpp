@@ -17,11 +17,13 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`1<TResult>
+  template<typename TResult>
   class Func_1;
 }
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
+  template<typename TResult>
   class Task_1;
   // Forward declaring type: Task
   class Task;
@@ -44,6 +46,7 @@ namespace GlobalNamespace {
   class AsyncHelper : public ::Il2CppObject {
     public:
     // Nested type: GlobalNamespace::AsyncHelper::$$c__DisplayClass0_0_1<T>
+    template<typename T>
     class $$c__DisplayClass0_0_1;
     // Nested type: GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0
     class $$c__DisplayClass1_0;

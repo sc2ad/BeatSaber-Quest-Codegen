@@ -76,10 +76,12 @@ namespace UnityEngine {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
   // Forward declaring type: Exception
   class Exception;
   // Forward declaring type: Nullable`1<T>
+  template<typename T>
   struct Nullable_1;
 }
 // Forward declaring namespace: System::Threading
@@ -90,6 +92,7 @@ namespace System::Threading {
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: TaskCompletionSource`1<TResult>
+  template<typename TResult>
   class TaskCompletionSource_1;
 }
 // Completed forward declares

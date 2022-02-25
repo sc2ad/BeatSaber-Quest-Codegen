@@ -14,21 +14,26 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: LinkedListNode`1<T>
+  template<typename T>
   class LinkedListNode_1;
   // Forward declaring type: LinkedList`1<T>
+  template<typename T>
   class LinkedList_1;
 }
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: DelegateList`1<T>
+  template<typename T>
   class DelegateList_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

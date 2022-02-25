@@ -43,6 +43,7 @@ namespace Newtonsoft::Json::Linq {
   // Forward declaring type: JContainer
   class JContainer;
   // Forward declaring type: JEnumerable`1<T>
+  template<typename T>
   struct JEnumerable_1;
   // Forward declaring type: JValue
   class JValue;
@@ -65,6 +66,7 @@ namespace System {
   // Forward declaring type: Uri
   class Uri;
   // Forward declaring type: Nullable`1<T>
+  template<typename T>
   struct Nullable_1;
   // Forward declaring type: Type
   class Type;
@@ -77,6 +79,7 @@ namespace System::Collections {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerator`1<T>
+  template<typename T>
   class IEnumerator_1;
 }
 // Forward declaring namespace: System::Dynamic

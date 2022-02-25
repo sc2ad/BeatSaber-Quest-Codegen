@@ -36,6 +36,7 @@ namespace System::Threading {
   class ThreadPoolWorkQueue : public ::Il2CppObject {
     public:
     // Nested type: System::Threading::ThreadPoolWorkQueue::SparseArray_1<T>
+    template<typename T>
     class SparseArray_1;
     // Nested type: System::Threading::ThreadPoolWorkQueue::WorkStealingQueue
     class WorkStealingQueue;

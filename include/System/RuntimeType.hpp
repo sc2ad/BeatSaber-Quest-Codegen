@@ -102,6 +102,7 @@ namespace System::Threading {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IList`1<T>
+  template<typename T>
   class IList_1;
 }
 // Completed forward declares
@@ -125,6 +126,7 @@ namespace System {
     // Nested type: System::RuntimeType::MemberListType
     struct MemberListType;
     // Nested type: System::RuntimeType::ListBuilder_1<T>
+    template<typename T>
     struct ListBuilder_1;
     #ifdef USE_CODEGEN_FIELDS
     public:

@@ -20,18 +20,23 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`1<TResult>
+  template<typename TResult>
   class Func_1;
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Func`5<T1, T2, T3, T4, TResult>
+  template<typename T1, typename T2, typename T3, typename T4, typename TResult>
   class Func_5;
   // Forward declaring type: AsyncCallback
   class AsyncCallback;
   // Forward declaring type: IAsyncResult
   class IAsyncResult;
   // Forward declaring type: Func`3<T1, T2, TResult>
+  template<typename T1, typename T2, typename TResult>
   class Func_3;
   // Forward declaring type: Action`2<T1, T2>
+  template<typename T1, typename T2>
   class Action_2;
 }
 // Forward declaring namespace: System::Threading

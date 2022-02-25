@@ -19,6 +19,7 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: AsyncCachedLoader`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class AsyncCachedLoader_2;
 }
 // Forward declaring namespace: UnityEngine
@@ -29,6 +30,7 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
+  template<typename TResult>
   class Task_1;
 }
 // Forward declaring namespace: System::Threading

@@ -20,6 +20,7 @@ namespace System {
   // Forward declaring type: Guid
   struct Guid;
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
 }
 // Completed forward declares

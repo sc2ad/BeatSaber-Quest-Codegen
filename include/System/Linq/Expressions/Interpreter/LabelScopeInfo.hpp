@@ -16,6 +16,7 @@
 // Forward declaring namespace: System::Linq::Expressions::Interpreter
 namespace System::Linq::Expressions::Interpreter {
   // Forward declaring type: HybridReferenceDictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class HybridReferenceDictionary_2;
   // Forward declaring type: LabelInfo
   class LabelInfo;

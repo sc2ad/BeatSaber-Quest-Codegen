@@ -19,6 +19,7 @@
 // Forward declaring namespace: System::Net::Http::Headers
 namespace System::Net::Http::Headers {
   // Forward declaring type: TryParseDelegate`1<T>
+  template<typename T>
   class TryParseDelegate_1;
   // Forward declaring type: HttpHeaders
   class HttpHeaders;
@@ -26,6 +27,7 @@ namespace System::Net::Http::Headers {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Completed forward declares

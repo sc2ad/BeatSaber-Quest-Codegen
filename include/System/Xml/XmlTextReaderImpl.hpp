@@ -72,18 +72,22 @@ namespace System::Text {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: IDictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class IDictionary_2;
 }
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
+  template<typename TResult>
   class Task_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Tuple`4<T1, T2, T3, T4>
+  template<typename T1, typename T2, typename T3, typename T4>
   class Tuple_4;
   // Forward declaring type: Uri
   class Uri;

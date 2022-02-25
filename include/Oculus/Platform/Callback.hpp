@@ -23,8 +23,10 @@ namespace Oculus::Platform {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -47,6 +49,7 @@ namespace Oculus::Platform {
     // Nested type: Oculus::Platform::Callback::RequestCallback
     class RequestCallback;
     // Nested type: Oculus::Platform::Callback::RequestCallback_1<T>
+    template<typename T>
     class RequestCallback_1;
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.UInt64,Oculus.Platform.Request> requestIDsToRequests
     static System::Collections::Generic::Dictionary_2<uint64_t, Oculus::Platform::Request*>* _get_requestIDsToRequests();

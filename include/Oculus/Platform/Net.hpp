@@ -17,6 +17,7 @@ namespace Oculus::Platform {
   // Forward declaring type: SendPolicy
   struct SendPolicy;
   // Forward declaring type: Request`1<T>
+  template<typename T>
   class Request_1;
 }
 // Forward declaring namespace: Oculus::Platform::Models

@@ -31,6 +31,7 @@ namespace GlobalNamespace {
   // Forward declaring type: ByteArrayNetSerializable
   class ByteArrayNetSerializable;
   // Forward declaring type: IPacketPool`1<T>
+  template<typename T>
   class IPacketPool_1;
 }
 // Forward declaring namespace: MasterServer

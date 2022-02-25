@@ -39,6 +39,7 @@ namespace HMUI {
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: EnumTableViewDataSource`1<T>
+  template<typename T>
   class EnumTableViewDataSource_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

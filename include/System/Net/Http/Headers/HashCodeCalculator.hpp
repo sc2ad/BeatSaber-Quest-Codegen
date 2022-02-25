@@ -14,6 +14,7 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: ICollection`1<T>
+  template<typename T>
   class ICollection_1;
 }
 // Completed forward declares

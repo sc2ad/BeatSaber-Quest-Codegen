@@ -24,6 +24,7 @@ namespace System::Linq::Expressions {
 // Type namespace: System.Linq.Expressions
 namespace System::Linq::Expressions {
   // Forward declaring type: Expression0`1<TDelegate>
+  template<typename TDelegate>
   class Expression0_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

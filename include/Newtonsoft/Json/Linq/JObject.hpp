@@ -51,6 +51,7 @@ namespace System::Collections::Generic {
   // Skipping declaration: ICollection`1 because it is already included!
   // Skipping declaration: IEnumerable`1 because it is already included!
   // Forward declaring type: IEnumerator`1<T>
+  template<typename T>
   class IEnumerator_1;
   // Skipping declaration: IList`1 because it is already included!
 }

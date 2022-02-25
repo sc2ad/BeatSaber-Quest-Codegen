@@ -14,6 +14,7 @@
 // Type namespace: System.Linq
 namespace System::Linq {
   // Forward declaring type: IGrouping`2<TKey, TElement>
+  template<typename TKey, typename TElement>
   class IGrouping_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -19,6 +19,7 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`1<TResult>
+  template<typename TResult>
   class Func_1;
 }
 // Forward declaring namespace: System::Threading::Tasks

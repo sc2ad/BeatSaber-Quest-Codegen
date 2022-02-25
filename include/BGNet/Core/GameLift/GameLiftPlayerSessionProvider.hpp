@@ -45,6 +45,7 @@ namespace System::Net::Http {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: System
@@ -55,6 +56,7 @@ namespace System {
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
+  template<typename TResult>
   class Task_1;
 }
 // Forward declaring namespace: System::Threading
@@ -82,8 +84,10 @@ namespace BGNet::Core::GameLift {
     // Nested type: BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$GetGameLiftPlayerSessionInfo$d__13
     struct $GetGameLiftPlayerSessionInfo$d__13;
     // Nested type: BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$Post$d__14_2<TRequest, TResponse>
+    template<typename TRequest, typename TResponse>
     struct $Post$d__14_2;
     // Nested type: BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$Get$d__15_1<TResponse>
+    template<typename TResponse>
     struct $Get$d__15_1;
     // Nested type: BGNet::Core::GameLift::GameLiftPlayerSessionProvider::$PingAllAwsGameLiftRegions$d__16
     struct $PingAllAwsGameLiftRegions$d__16;

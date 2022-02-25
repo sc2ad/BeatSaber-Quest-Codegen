@@ -19,8 +19,10 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
+  template<typename TResult>
   class Task_1;
   // Forward declaring type: TaskCompletionSource`1<TResult>
+  template<typename TResult>
   class TaskCompletionSource_1;
 }
 // Completed forward declares
@@ -42,8 +44,10 @@ namespace GlobalNamespace {
   class TaskExtensions : public ::Il2CppObject {
     public:
     // Nested type: GlobalNamespace::TaskExtensions::$$c__DisplayClass0_0_1<T>
+    template<typename T>
     class $$c__DisplayClass0_0_1;
     // Nested type: GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1<T>
+    template<typename T>
     struct $WaitForTask$d__1_1;
     // static public System.Threading.Tasks.Task`1<T> WithCancellation(System.Threading.Tasks.Task`1<T> task, System.Threading.CancellationToken cancellationToken)
     // Offset: 0xFFFFFFFF

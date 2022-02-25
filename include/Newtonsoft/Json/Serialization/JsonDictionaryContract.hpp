@@ -17,16 +17,19 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Type
   class Type;
   // Forward declaring type: Func`1<TResult>
+  template<typename TResult>
   class Func_1;
 }
 // Forward declaring namespace: Newtonsoft::Json::Serialization
 namespace Newtonsoft::Json::Serialization {
   // Skipping declaration: JsonContract because it is already included!
   // Forward declaring type: ObjectConstructor`1<T>
+  template<typename T>
   class ObjectConstructor_1;
 }
 // Forward declaring namespace: System::Reflection

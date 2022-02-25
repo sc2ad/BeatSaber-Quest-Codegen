@@ -25,6 +25,7 @@ namespace Zenject {
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: MonoInstaller`2<TParam1, TDerived>
+  template<typename TParam1, typename TDerived>
   class MonoInstaller_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

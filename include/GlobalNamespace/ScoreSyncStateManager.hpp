@@ -24,6 +24,7 @@ namespace GlobalNamespace {
   // Forward declaring type: StandardScoreSyncStateDeltaNetSerializable
   class StandardScoreSyncStateDeltaNetSerializable;
   // Forward declaring type: IPacketPool`1<T>
+  template<typename T>
   class IPacketPool_1;
   // Skipping declaration: MessageType because it is already included!
 }

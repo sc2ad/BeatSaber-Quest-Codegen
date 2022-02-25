@@ -18,6 +18,7 @@
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: TaskCompletionSource`1<TResult>
+  template<typename TResult>
   class TaskCompletionSource_1;
 }
 // Forward declaring namespace: Oculus::Platform::Models
@@ -30,6 +31,7 @@ namespace Oculus::Platform::Models {
 // Forward declaring namespace: Oculus::Platform
 namespace Oculus::Platform {
   // Forward declaring type: Message`1<T>
+  template<typename T>
   class Message_1;
 }
 // Completed forward declares

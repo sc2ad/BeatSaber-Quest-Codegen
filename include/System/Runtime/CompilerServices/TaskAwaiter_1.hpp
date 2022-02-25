@@ -17,6 +17,7 @@
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
+  template<typename TResult>
   class Task_1;
 }
 // Forward declaring namespace: System
@@ -28,6 +29,7 @@ namespace System {
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Forward declaring type: TaskAwaiter`1<TResult>
+  template<typename TResult>
   struct TaskAwaiter_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

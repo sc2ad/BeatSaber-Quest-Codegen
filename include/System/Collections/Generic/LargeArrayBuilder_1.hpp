@@ -18,12 +18,14 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
 }
 // Completed forward declares
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // Forward declaring type: LargeArrayBuilder`1<T>
+  template<typename T>
   struct LargeArrayBuilder_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

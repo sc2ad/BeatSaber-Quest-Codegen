@@ -42,8 +42,10 @@ namespace GlobalNamespace {
   // Forward declaring type: IDiffieHellmanKeyPair
   class IDiffieHellmanKeyPair;
   // Forward declaring type: NetworkPacketSerializer`2<TType, TData>
+  template<typename TType, typename TData>
   class NetworkPacketSerializer_2;
   // Forward declaring type: INetworkPacketSubSerializer`1<TData>
+  template<typename TData>
   class INetworkPacketSubSerializer_1;
 }
 // Forward declaring namespace: System
@@ -51,6 +53,7 @@ namespace System {
   // Forward declaring type: Action
   class Action;
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: LiteNetLib::Utils
@@ -65,8 +68,10 @@ namespace LiteNetLib::Utils {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
   // Forward declaring type: HashSet`1<T>
+  template<typename T>
   class HashSet_1;
 }
 // Forward declaring namespace: LiteNetLib

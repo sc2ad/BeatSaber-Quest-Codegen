@@ -21,10 +21,12 @@ namespace Zenject {
   // Forward declaring type: ScopeConcreteIdArgConditionCopyNonLazyBinder
   class ScopeConcreteIdArgConditionCopyNonLazyBinder;
   // Forward declaring type: FromBinderGeneric`1<TContract>
+  template<typename TContract>
   class FromBinderGeneric_1;
   // Forward declaring type: ConditionCopyNonLazyBinder
   class ConditionCopyNonLazyBinder;
   // Forward declaring type: FactoryFromBinder`1<TContract>
+  template<typename TContract>
   class FactoryFromBinder_1;
 }
 // Completed forward declares

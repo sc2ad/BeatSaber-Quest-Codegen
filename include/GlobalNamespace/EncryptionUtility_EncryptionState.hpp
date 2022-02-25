@@ -21,6 +21,7 @@
 // Forward declaring namespace: System::Collections::Concurrent
 namespace System::Collections::Concurrent {
   // Forward declaring type: ConcurrentQueue`1<T>
+  template<typename T>
   class ConcurrentQueue_1;
 }
 // Forward declaring namespace: Org::BouncyCastle::Crypto::Macs

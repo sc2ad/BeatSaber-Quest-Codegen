@@ -24,11 +24,13 @@ namespace GlobalNamespace {
   // Forward declaring type: IAvatarPart
   class IAvatarPart;
   // Forward declaring type: AvatarPartCollection`1<T>
+  template<typename T>
   class AvatarPartCollection_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
 }
 // Completed forward declares

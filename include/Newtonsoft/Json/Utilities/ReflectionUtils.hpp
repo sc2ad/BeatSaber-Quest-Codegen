@@ -16,6 +16,7 @@
 // Forward declaring namespace: Newtonsoft::Json::Utilities
 namespace Newtonsoft::Json::Utilities {
   // Forward declaring type: StructMultiKey`2<T1, T2>
+  template<typename T1, typename T2>
   struct StructMultiKey_2;
 }
 // Forward declaring namespace: System
@@ -25,6 +26,7 @@ namespace System {
   // Forward declaring type: Attribute
   class Attribute;
   // Forward declaring type: Nullable`1<T>
+  template<typename T>
   struct Nullable_1;
 }
 // Forward declaring namespace: System::Reflection
@@ -55,10 +57,13 @@ namespace Newtonsoft::Json::Serialization {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
   // Forward declaring type: IList`1<T>
+  template<typename T>
   class IList_1;
 }
 // Completed forward declares

@@ -17,6 +17,7 @@
 // Type namespace: System.Runtime.CompilerServices
 namespace System::Runtime::CompilerServices {
   // Forward declaring type: TrueReadOnlyCollection`1<T>
+  template<typename T>
   class TrueReadOnlyCollection_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

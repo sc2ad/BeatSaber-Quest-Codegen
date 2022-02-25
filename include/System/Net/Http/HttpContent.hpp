@@ -26,6 +26,7 @@ namespace System::Net::Http::Headers {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Nullable`1<T>
+  template<typename T>
   struct Nullable_1;
 }
 // Forward declaring namespace: System::IO
@@ -38,6 +39,7 @@ namespace System::Threading::Tasks {
   // Forward declaring type: Task
   class Task;
   // Forward declaring type: Task`1<TResult>
+  template<typename TResult>
   class Task_1;
 }
 // Forward declaring namespace: System::Net

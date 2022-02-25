@@ -28,18 +28,23 @@ namespace LiteNetLib::Utils {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: System
 namespace System {
   // Skipping declaration: ValueType because it is already included!
   // Forward declaring type: Action`2<T1, T2>
+  template<typename T1, typename T2>
   class Action_2;
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Func`1<TResult>
+  template<typename TResult>
   class Func_1;
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: LiteNetLib
@@ -67,24 +72,33 @@ namespace LiteNetLib::Utils {
   class NetPacketProcessor : public ::Il2CppObject {
     public:
     // Nested type: LiteNetLib::Utils::NetPacketProcessor::HashCache_1<T>
+    template<typename T>
     class HashCache_1;
     // Nested type: LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate
     class SubscribeDelegate;
     // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass25_0_1<T>
+    template<typename T>
     class $$c__DisplayClass25_0_1;
     // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass26_0_2<T, TUserData>
+    template<typename T, typename TUserData>
     class $$c__DisplayClass26_0_2;
     // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass27_0_1<T>
+    template<typename T>
     class $$c__DisplayClass27_0_1;
     // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass28_0_2<T, TUserData>
+    template<typename T, typename TUserData>
     class $$c__DisplayClass28_0_2;
     // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass29_0_2<T, TUserData>
+    template<typename T, typename TUserData>
     class $$c__DisplayClass29_0_2;
     // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass30_0_1<T>
+    template<typename T>
     class $$c__DisplayClass30_0_1;
     // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass31_0_2<T, TUserData>
+    template<typename T, typename TUserData>
     class $$c__DisplayClass31_0_2;
     // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass32_0_1<T>
+    template<typename T>
     class $$c__DisplayClass32_0_1;
     #ifdef USE_CODEGEN_FIELDS
     public:

@@ -19,6 +19,7 @@ namespace System {
   // Forward declaring type: Type
   class Type;
   // Forward declaring type: Func`1<TResult>
+  template<typename TResult>
   class Func_1;
 }
 // Completed forward declares

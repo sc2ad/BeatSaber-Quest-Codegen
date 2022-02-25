@@ -26,6 +26,7 @@ namespace Zenject {
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: ScriptableObjectInstaller`2<TParam1, TDerived>
+  template<typename TParam1, typename TDerived>
   class ScriptableObjectInstaller_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

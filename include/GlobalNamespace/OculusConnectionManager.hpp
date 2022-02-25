@@ -20,10 +20,13 @@ namespace System {
   // Forward declaring type: Action
   class Action;
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
   // Forward declaring type: Action`2<T1, T2>
+  template<typename T1, typename T2>
   class Action_2;
   // Forward declaring type: Action`3<T1, T2, T3>
+  template<typename T1, typename T2, typename T3>
   class Action_3;
 }
 // Forward declaring namespace: GlobalNamespace
@@ -33,11 +36,13 @@ namespace GlobalNamespace {
   // Forward declaring type: IConnection
   class IConnection;
   // Forward declaring type: IConnectionInitParams`1<T>
+  template<typename T>
   class IConnectionInitParams_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: LiteNetLib::Utils
@@ -50,6 +55,7 @@ namespace LiteNetLib::Utils {
 // Forward declaring namespace: Oculus::Platform
 namespace Oculus::Platform {
   // Forward declaring type: Message`1<T>
+  template<typename T>
   class Message_1;
   // Forward declaring type: SendPolicy
   struct SendPolicy;

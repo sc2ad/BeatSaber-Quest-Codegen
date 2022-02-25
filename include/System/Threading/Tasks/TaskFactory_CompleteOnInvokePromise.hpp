@@ -24,6 +24,7 @@ namespace System::Threading::Tasks {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IList`1<T>
+  template<typename T>
   class IList_1;
 }
 // Completed forward declares

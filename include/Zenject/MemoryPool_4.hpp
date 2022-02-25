@@ -27,6 +27,7 @@ namespace Zenject {
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: MemoryPool`4<TParam1, TParam2, TParam3, TValue>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TValue>
   class MemoryPool_4;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

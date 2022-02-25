@@ -42,6 +42,7 @@ namespace System::Threading::Tasks {
   // Forward declaring type: Task
   class Task;
   // Forward declaring type: Task`1<TResult>
+  template<typename TResult>
   class Task_1;
 }
 // Forward declaring namespace: System::Security::Authentication
@@ -52,6 +53,7 @@ namespace System::Security::Authentication {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: LiteNetLib::Utils
@@ -93,12 +95,14 @@ namespace BGNet::Core::Messages {
     // Nested type: BGNet::Core::Messages::BaseClientUnconnectedMessageHandler::$SendOrderedAuthenticatedRequestAsync$d__22
     struct $SendOrderedAuthenticatedRequestAsync$d__22;
     // Nested type: BGNet::Core::Messages::BaseClientUnconnectedMessageHandler::$SendAuthenticatedRequestAsync$d__23_1<T>
+    template<typename T>
     struct $SendAuthenticatedRequestAsync$d__23_1;
     // Nested type: BGNet::Core::Messages::BaseClientUnconnectedMessageHandler::$SendAuthenticatedRequestAsync$d__24
     struct $SendAuthenticatedRequestAsync$d__24;
     // Nested type: BGNet::Core::Messages::BaseClientUnconnectedMessageHandler::$OnSendFailed$d__25
     struct $OnSendFailed$d__25;
     // Nested type: BGNet::Core::Messages::BaseClientUnconnectedMessageHandler::$OnSendFailedAwaitResponse$d__26_1<T>
+    template<typename T>
     struct $OnSendFailedAwaitResponse$d__26_1;
     // Nested type: BGNet::Core::Messages::BaseClientUnconnectedMessageHandler::$ReauthenticateWithServer$d__27
     struct $ReauthenticateWithServer$d__27;

@@ -48,6 +48,7 @@ namespace System::Globalization {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IList`1<T>
+  template<typename T>
   class IList_1;
 }
 // Completed forward declares
@@ -71,8 +72,10 @@ namespace System::Reflection {
     // Nested type: System::Reflection::MonoProperty::GetterAdapter
     class GetterAdapter;
     // Nested type: System::Reflection::MonoProperty::Getter_2<T, R>
+    template<typename T, typename R>
     class Getter_2;
     // Nested type: System::Reflection::MonoProperty::StaticGetter_1<R>
+    template<typename R>
     class StaticGetter_1;
     #ifdef USE_CODEGEN_FIELDS
     public:

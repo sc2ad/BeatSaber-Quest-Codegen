@@ -17,6 +17,7 @@
 // Type namespace: OnlineServices.API
 namespace OnlineServices::API {
   // Forward declaring type: ApiResponse`1<T>
+  template<typename T>
   struct ApiResponse_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

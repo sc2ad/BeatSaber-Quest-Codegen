@@ -26,6 +26,7 @@ namespace Zenject {
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: PlaceholderFactoryBindingFinalizer`1<TContract>
+  template<typename TContract>
   class PlaceholderFactoryBindingFinalizer_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

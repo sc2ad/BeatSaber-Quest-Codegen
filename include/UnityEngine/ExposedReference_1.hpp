@@ -25,6 +25,7 @@ namespace UnityEngine {
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Forward declaring type: ExposedReference`1<T>
+  template<typename T>
   struct ExposedReference_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

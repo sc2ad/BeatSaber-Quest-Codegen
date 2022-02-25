@@ -42,6 +42,7 @@ namespace UnityEngine::Timeline {
   // Forward declaring type: IMarker
   class IMarker;
   // Forward declaring type: IntervalTree`1<T>
+  template<typename T>
   class IntervalTree_1;
   // Forward declaring type: RuntimeElement
   class RuntimeElement;
@@ -53,6 +54,7 @@ namespace System {
   // Forward declaring type: String
   class String;
   // Forward declaring type: Action`3<T1, T2, T3>
+  template<typename T1, typename T2, typename T3>
   class Action_3;
   // Forward declaring type: Type
   class Type;
@@ -69,12 +71,16 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: IList`1<T>
+  template<typename T>
   class IList_1;
 }
 // Forward declaring namespace: UnityEngine::Playables

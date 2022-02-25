@@ -30,6 +30,7 @@ namespace System {
   // Forward declaring type: Uri
   class Uri;
   // Forward declaring type: Nullable`1<T>
+  template<typename T>
   struct Nullable_1;
 }
 // Completed forward declares

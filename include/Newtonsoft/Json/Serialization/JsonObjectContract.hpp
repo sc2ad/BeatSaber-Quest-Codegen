@@ -31,11 +31,13 @@ namespace Newtonsoft::Json::Serialization {
   // Forward declaring type: ExtensionDataGetter
   class ExtensionDataGetter;
   // Forward declaring type: ObjectConstructor`1<T>
+  template<typename T>
   class ObjectConstructor_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Type
   class Type;

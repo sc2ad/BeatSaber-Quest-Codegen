@@ -40,11 +40,13 @@ namespace System::Net {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`5<T1, T2, T3, T4, TResult>
+  template<typename T1, typename T2, typename T3, typename T4, typename TResult>
   class Func_5;
 }
 // Forward declaring namespace: System::Threading::Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: Task`1<TResult>
+  template<typename TResult>
   class Task_1;
 }
 // Completed forward declares

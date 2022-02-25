@@ -22,6 +22,7 @@ namespace System {
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {
   // Forward declaring type: ContinuationResultTaskFromResultTask`2<TAntecedentResult, TResult>
+  template<typename TAntecedentResult, typename TResult>
   class ContinuationResultTaskFromResultTask_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

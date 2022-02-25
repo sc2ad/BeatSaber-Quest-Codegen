@@ -23,8 +23,10 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IList`1<T>
+  template<typename T>
   class IList_1;
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: UnityEngine::ProBuilder

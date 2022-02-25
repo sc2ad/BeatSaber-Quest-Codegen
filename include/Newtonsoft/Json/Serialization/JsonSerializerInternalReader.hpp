@@ -48,6 +48,7 @@ namespace Newtonsoft::Json::Serialization {
   // Forward declaring type: JsonDynamicContract
   class JsonDynamicContract;
   // Forward declaring type: ObjectConstructor`1<T>
+  template<typename T>
   class ObjectConstructor_1;
 }
 // Forward declaring namespace: System
@@ -77,8 +78,10 @@ namespace System::Collections {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Completed forward declares

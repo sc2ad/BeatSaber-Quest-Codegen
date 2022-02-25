@@ -21,6 +21,7 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: MultiplayerSyncState`3<TStateTable, TType, TState>
+  template<typename TStateTable, typename TType, typename TState>
   class MultiplayerSyncState_3;
 }
 // Completed forward declares

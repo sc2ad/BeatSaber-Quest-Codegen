@@ -25,6 +25,7 @@ namespace System::Collections {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerator`1<T>
+  template<typename T>
   class IEnumerator_1;
 }
 // Forward declaring namespace: System
@@ -36,6 +37,7 @@ namespace System {
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Forward declaring type: CollectionWrapper`1<T>
+  template<typename T>
   class CollectionWrapper_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

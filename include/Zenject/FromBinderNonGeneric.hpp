@@ -16,9 +16,11 @@
 // Forward declaring namespace: Zenject
 namespace Zenject {
   // Forward declaring type: IFactory`1<TValue>
+  template<typename TValue>
   class IFactory_1;
   // Skipping declaration: ScopeConcreteIdArgConditionCopyNonLazyBinder because it is already included!
   // Forward declaring type: ConcreteBinderGeneric`1<TContract>
+  template<typename TContract>
   class ConcreteBinderGeneric_1;
   // Forward declaring type: InjectContext
   class InjectContext;
@@ -32,13 +34,16 @@ namespace Zenject {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -65,6 +70,7 @@ namespace Zenject {
   class FromBinderNonGeneric : public Zenject::FromBinder {
     public:
     // Nested type: Zenject::FromBinderNonGeneric::$$c__1_2<TConcrete, TFactory>
+    template<typename TConcrete, typename TFactory>
     class $$c__1_2;
     // public Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder FromFactory()
     // Offset: 0xFFFFFFFF

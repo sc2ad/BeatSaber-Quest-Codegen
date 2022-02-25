@@ -15,6 +15,7 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEqualityComparer`1<T>
+  template<typename T>
   class IEqualityComparer_1;
 }
 // Forward declaring namespace: UnityEngine

@@ -13,6 +13,7 @@
 // Type namespace: Newtonsoft.Json
 namespace Newtonsoft::Json {
   // Forward declaring type: IArrayPool`1<T>
+  template<typename T>
   class IArrayPool_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

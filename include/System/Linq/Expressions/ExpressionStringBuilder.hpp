@@ -22,6 +22,7 @@ namespace System::Text {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: System::Linq::Expressions
@@ -37,6 +38,7 @@ namespace System::Linq::Expressions {
   // Forward declaring type: BinaryExpression
   class BinaryExpression;
   // Forward declaring type: Expression`1<TDelegate>
+  template<typename TDelegate>
   class Expression_1;
   // Forward declaring type: ConditionalExpression
   class ConditionalExpression;
@@ -72,6 +74,7 @@ namespace System::Linq::Expressions {
 // Forward declaring namespace: System::Collections::ObjectModel
 namespace System::Collections::ObjectModel {
   // Forward declaring type: ReadOnlyCollection`1<T>
+  template<typename T>
   class ReadOnlyCollection_1;
 }
 // Forward declaring namespace: System::Reflection

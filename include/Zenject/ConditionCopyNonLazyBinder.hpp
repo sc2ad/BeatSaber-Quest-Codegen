@@ -52,8 +52,10 @@ namespace Zenject {
     // Nested type: Zenject::ConditionCopyNonLazyBinder::$$c__DisplayClass3_1
     class $$c__DisplayClass3_1;
     // Nested type: Zenject::ConditionCopyNonLazyBinder::$$c__4_1<T>
+    template<typename T>
     class $$c__4_1;
     // Nested type: Zenject::ConditionCopyNonLazyBinder::$$c__5_1<T>
+    template<typename T>
     class $$c__5_1;
     // public Zenject.CopyNonLazyBinder When(Zenject.BindingCondition condition)
     // Offset: 0x16DC4F0

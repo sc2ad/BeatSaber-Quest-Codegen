@@ -22,10 +22,12 @@ namespace UnityEngine {
 // Forward declaring namespace: Zenject
 namespace Zenject {
   // Forward declaring type: IPoolable`5<TParam1, TParam2, TParam3, TParam4, TParam5>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5>
   class IPoolable_5;
   // Forward declaring type: IMemoryPool
   class IMemoryPool;
   // Forward declaring type: MemoryPoolInitialSizeMaxSizeBinder`1<TContract>
+  template<typename TContract>
   class MemoryPoolInitialSizeMaxSizeBinder_1;
   // Forward declaring type: InjectTypeInfo
   class InjectTypeInfo;
@@ -33,6 +35,7 @@ namespace Zenject {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
 }
 // Completed forward declares

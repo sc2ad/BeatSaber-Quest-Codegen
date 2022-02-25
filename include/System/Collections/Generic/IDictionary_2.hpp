@@ -16,6 +16,7 @@
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IDictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class IDictionary_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

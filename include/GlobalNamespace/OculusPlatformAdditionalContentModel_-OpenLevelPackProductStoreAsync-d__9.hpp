@@ -27,6 +27,7 @@
 // Forward declaring namespace: Oculus::Platform
 namespace Oculus::Platform {
   // Forward declaring type: Message`1<T>
+  template<typename T>
   class Message_1;
 }
 // Forward declaring namespace: Oculus::Platform::Models

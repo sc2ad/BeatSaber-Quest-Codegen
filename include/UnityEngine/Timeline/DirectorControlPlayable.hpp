@@ -18,6 +18,7 @@ namespace UnityEngine::Playables {
   // Forward declaring type: PlayableDirector
   class PlayableDirector;
   // Forward declaring type: ScriptPlayable`1<T>
+  template<typename T>
   struct ScriptPlayable_1;
   // Forward declaring type: PlayableGraph
   struct PlayableGraph;

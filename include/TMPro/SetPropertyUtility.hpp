@@ -19,6 +19,7 @@ namespace UnityEngine {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: IEquatable`1<T>
+  template<typename T>
   class IEquatable_1;
   // Forward declaring type: ValueType
   class ValueType;

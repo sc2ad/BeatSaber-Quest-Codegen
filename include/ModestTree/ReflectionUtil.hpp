@@ -21,29 +21,40 @@ namespace System {
   // Forward declaring type: Action
   class Action;
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
   // Forward declaring type: Action`2<T1, T2>
+  template<typename T1, typename T2>
   class Action_2;
   // Forward declaring type: Action`3<T1, T2, T3>
+  template<typename T1, typename T2, typename T3>
   class Action_3;
   // Forward declaring type: Action`4<T1, T2, T3, T4>
+  template<typename T1, typename T2, typename T3, typename T4>
   class Action_4;
   // Forward declaring type: Action`5<T1, T2, T3, T4, T5>
+  template<typename T1, typename T2, typename T3, typename T4, typename T5>
   class Action_5;
   // Forward declaring type: Action`6<T1, T2, T3, T4, T5, T6>
+  template<typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
   class Action_6;
   // Forward declaring type: Func`1<TResult>
+  template<typename TResult>
   class Func_1;
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Func`3<T1, T2, TResult>
+  template<typename T1, typename T2, typename TResult>
   class Func_3;
   // Forward declaring type: Func`4<T1, T2, T3, TResult>
+  template<typename T1, typename T2, typename T3, typename TResult>
   class Func_4;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: System::Collections

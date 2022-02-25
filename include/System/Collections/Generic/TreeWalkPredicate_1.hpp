@@ -26,6 +26,7 @@ namespace System {
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
   // Forward declaring type: TreeWalkPredicate`1<T>
+  template<typename T>
   class TreeWalkPredicate_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

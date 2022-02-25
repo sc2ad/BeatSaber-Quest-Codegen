@@ -14,6 +14,7 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Tuple`2<T1, T2>
+  template<typename T1, typename T2>
   class Tuple_2;
 }
 // Completed forward declares

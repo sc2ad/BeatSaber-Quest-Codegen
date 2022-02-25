@@ -31,8 +31,10 @@ namespace System {
   // Forward declaring type: Type
   class Type;
   // Forward declaring type: Predicate`1<T>
+  template<typename T>
   class Predicate_1;
   // Forward declaring type: Action`2<T1, T2>
+  template<typename T1, typename T2>
   class Action_2;
 }
 // Forward declaring namespace: Newtonsoft::Json::Serialization

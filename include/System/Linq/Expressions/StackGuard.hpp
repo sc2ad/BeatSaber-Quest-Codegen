@@ -17,8 +17,10 @@ namespace System::Linq::Expressions {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`2<T1, T2>
+  template<typename T1, typename T2>
   class Action_2;
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Completed forward declares
@@ -39,6 +41,7 @@ namespace System::Linq::Expressions {
   class StackGuard : public ::Il2CppObject {
     public:
     // Nested type: System::Linq::Expressions::StackGuard::$$c__3_2<T1, T2>
+    template<typename T1, typename T2>
     class $$c__3_2;
     #ifdef USE_CODEGEN_FIELDS
     public:

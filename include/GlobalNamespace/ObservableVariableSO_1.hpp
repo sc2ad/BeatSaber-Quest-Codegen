@@ -26,6 +26,7 @@ namespace System {
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: ObservableVariableSO`1<T>
+  template<typename T>
   class ObservableVariableSO_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

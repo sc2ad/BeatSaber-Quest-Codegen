@@ -29,6 +29,7 @@ namespace UnityEngine::Events {
 // Type namespace: UnityEngine.Events
 namespace UnityEngine::Events {
   // Forward declaring type: UnityEvent`4<T0, T1, T2, T3>
+  template<typename T0, typename T1, typename T2, typename T3>
   class UnityEvent_4;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -19,6 +19,7 @@ namespace System::Runtime::Serialization {
 // Forward declaring namespace: System::Collections::Concurrent
 namespace System::Collections::Concurrent {
   // Forward declaring type: ConcurrentDictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class ConcurrentDictionary_2;
 }
 // Forward declaring namespace: System::Reflection

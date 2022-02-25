@@ -24,6 +24,7 @@ namespace System {
 // Type namespace: System
 namespace System {
   // Forward declaring type: EventHandler`1<TEventArgs>
+  template<typename TEventArgs>
   class EventHandler_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

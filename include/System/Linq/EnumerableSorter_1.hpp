@@ -14,6 +14,7 @@
 // Type namespace: System.Linq
 namespace System::Linq {
   // Forward declaring type: EnumerableSorter`1<TElement>
+  template<typename TElement>
   class EnumerableSorter_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

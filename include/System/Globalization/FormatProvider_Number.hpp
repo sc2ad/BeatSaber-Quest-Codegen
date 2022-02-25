@@ -26,6 +26,7 @@ namespace System::Text {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: ReadOnlySpan`1<T>
+  template<typename T>
   struct ReadOnlySpan_1;
 }
 // Completed forward declares

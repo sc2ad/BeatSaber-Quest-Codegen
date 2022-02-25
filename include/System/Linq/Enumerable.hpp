@@ -15,26 +15,34 @@
 // Forward declaring namespace: System::Linq
 namespace System::Linq {
   // Forward declaring type: IOrderedEnumerable`1<TElement>
+  template<typename TElement>
   class IOrderedEnumerable_1;
   // Forward declaring type: IGrouping`2<TKey, TElement>
+  template<typename TKey, typename TElement>
   class IGrouping_2;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
   // Forward declaring type: IEqualityComparer`1<T>
+  template<typename T>
   class IEqualityComparer_1;
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Func`3<T1, T2, TResult>
+  template<typename T1, typename T2, typename TResult>
   class Func_3;
 }
 // Forward declaring namespace: System::Collections
@@ -61,50 +69,72 @@ namespace System::Linq {
   class Enumerable : public ::Il2CppObject {
     public:
     // Nested type: System::Linq::Enumerable::Iterator_1<TSource>
+    template<typename TSource>
     class Iterator_1;
     // Nested type: System::Linq::Enumerable::WhereEnumerableIterator_1<TSource>
+    template<typename TSource>
     class WhereEnumerableIterator_1;
     // Nested type: System::Linq::Enumerable::WhereArrayIterator_1<TSource>
+    template<typename TSource>
     class WhereArrayIterator_1;
     // Nested type: System::Linq::Enumerable::WhereListIterator_1<TSource>
+    template<typename TSource>
     class WhereListIterator_1;
     // Nested type: System::Linq::Enumerable::WhereSelectEnumerableIterator_2<TSource, TResult>
+    template<typename TSource, typename TResult>
     class WhereSelectEnumerableIterator_2;
     // Nested type: System::Linq::Enumerable::WhereSelectArrayIterator_2<TSource, TResult>
+    template<typename TSource, typename TResult>
     class WhereSelectArrayIterator_2;
     // Nested type: System::Linq::Enumerable::WhereSelectListIterator_2<TSource, TResult>
+    template<typename TSource, typename TResult>
     class WhereSelectListIterator_2;
     // Nested type: System::Linq::Enumerable::$$c__DisplayClass6_0_1<TSource>
+    template<typename TSource>
     class $$c__DisplayClass6_0_1;
     // Nested type: System::Linq::Enumerable::$$c__DisplayClass7_0_3<TSource, TMiddle, TResult>
+    template<typename TSource, typename TMiddle, typename TResult>
     class $$c__DisplayClass7_0_3;
     // Nested type: System::Linq::Enumerable::$SelectManyIterator$d__17_2<TSource, TResult>
+    template<typename TSource, typename TResult>
     class $SelectManyIterator$d__17_2;
     // Nested type: System::Linq::Enumerable::$TakeIterator$d__25_1<TSource>
+    template<typename TSource>
     class $TakeIterator$d__25_1;
     // Nested type: System::Linq::Enumerable::$SkipIterator$d__31_1<TSource>
+    template<typename TSource>
     class $SkipIterator$d__31_1;
     // Nested type: System::Linq::Enumerable::$ConcatIterator$d__59_1<TSource>
+    template<typename TSource>
     class $ConcatIterator$d__59_1;
     // Nested type: System::Linq::Enumerable::$AppendIterator$d__61_1<TSource>
+    template<typename TSource>
     class $AppendIterator$d__61_1;
     // Nested type: System::Linq::Enumerable::$DistinctIterator$d__68_1<TSource>
+    template<typename TSource>
     class $DistinctIterator$d__68_1;
     // Nested type: System::Linq::Enumerable::$UnionIterator$d__71_1<TSource>
+    template<typename TSource>
     class $UnionIterator$d__71_1;
     // Nested type: System::Linq::Enumerable::$ExceptIterator$d__77_1<TSource>
+    template<typename TSource>
     class $ExceptIterator$d__77_1;
     // Nested type: System::Linq::Enumerable::$ReverseIterator$d__79_1<TSource>
+    template<typename TSource>
     class $ReverseIterator$d__79_1;
     // Nested type: System::Linq::Enumerable::$DefaultIfEmptyIterator$d__95_1<TSource>
+    template<typename TSource>
     class $DefaultIfEmptyIterator$d__95_1;
     // Nested type: System::Linq::Enumerable::$OfTypeIterator$d__97_1<TResult>
+    template<typename TResult>
     class $OfTypeIterator$d__97_1;
     // Nested type: System::Linq::Enumerable::$CastIterator$d__99_1<TResult>
+    template<typename TResult>
     class $CastIterator$d__99_1;
     // Nested type: System::Linq::Enumerable::$RangeIterator$d__115
     class $RangeIterator$d__115;
     // Nested type: System::Linq::Enumerable::$RepeatIterator$d__117_1<TResult>
+    template<typename TResult>
     class $RepeatIterator$d__117_1;
     // static public System.Collections.Generic.IEnumerable`1<TSource> Where(System.Collections.Generic.IEnumerable`1<TSource> source, System.Func`2<TSource,System.Boolean> predicate)
     // Offset: 0xFFFFFFFF

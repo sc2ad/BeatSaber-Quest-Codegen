@@ -12,6 +12,7 @@ namespace Oculus::Platform {
   // Forward declaring type: Request
   class Request;
   // Forward declaring type: Request`1<T>
+  template<typename T>
   class Request_1;
   // Forward declaring type: RichPresenceOptions
   class RichPresenceOptions;

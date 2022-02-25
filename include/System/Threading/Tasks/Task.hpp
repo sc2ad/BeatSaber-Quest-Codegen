@@ -44,22 +44,28 @@ namespace System::Threading::Tasks {
   // Forward declaring type: ITaskCompletionAction
   class ITaskCompletionAction;
   // Forward declaring type: Task`1<TResult>
+  template<typename TResult>
   class Task_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
   // Forward declaring type: Func`1<TResult>
+  template<typename TResult>
   class Func_1;
   // Forward declaring type: Predicate`1<T>
+  template<typename T>
   class Predicate_1;
   // Forward declaring type: AggregateException
   class AggregateException;
@@ -70,6 +76,7 @@ namespace System {
   // Forward declaring type: Action
   class Action;
   // Forward declaring type: Action`2<T1, T2>
+  template<typename T1, typename T2>
   class Action_2;
   // Forward declaring type: OperationCanceledException
   class OperationCanceledException;
@@ -94,6 +101,7 @@ namespace System::Threading {
 // Forward declaring namespace: System::Collections::ObjectModel
 namespace System::Collections::ObjectModel {
   // Forward declaring type: ReadOnlyCollection`1<T>
+  template<typename T>
   class ReadOnlyCollection_1;
 }
 // Forward declaring namespace: System::Runtime::ExceptionServices
@@ -138,6 +146,7 @@ namespace System::Threading::Tasks {
     // Nested type: System::Threading::Tasks::Task::WhenAllPromise
     class WhenAllPromise;
     // Nested type: System::Threading::Tasks::Task::WhenAllPromise_1<T>
+    template<typename T>
     class WhenAllPromise_1;
     // Nested type: System::Threading::Tasks::Task::$$c__DisplayClass178_0
     class $$c__DisplayClass178_0;

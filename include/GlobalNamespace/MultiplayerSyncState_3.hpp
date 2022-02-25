@@ -14,10 +14,13 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: IStateTable`3<TStateTable, TType, TState>
+  template<typename TStateTable, typename TType, typename TState>
   class IStateTable_3;
   // Forward declaring type: IEquatableByReference`1<T>
+  template<typename T>
   class IEquatableByReference_1;
   // Forward declaring type: StateBuffer`3<TStateTable, TType, TState>
+  template<typename TStateTable, typename TType, typename TState>
   class StateBuffer_3;
   // Forward declaring type: IConnectedPlayer
   class IConnectedPlayer;
@@ -38,6 +41,7 @@ namespace System {
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: MultiplayerSyncState`3<TStateTable, TType, TState>
+  template<typename TStateTable, typename TType, typename TState>
   class MultiplayerSyncState_3;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

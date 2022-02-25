@@ -37,8 +37,10 @@ namespace System::Linq::Expressions::Interpreter {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: System::Reflection
@@ -62,6 +64,7 @@ namespace System {
 // Forward declaring namespace: System::Runtime::CompilerServices
 namespace System::Runtime::CompilerServices {
   // Forward declaring type: StrongBox`1<T>
+  template<typename T>
   class StrongBox_1;
 }
 // Completed forward declares

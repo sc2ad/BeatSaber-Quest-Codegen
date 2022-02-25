@@ -41,6 +41,7 @@ namespace GlobalNamespace {
   class RemoteProcedureCall : public ::Il2CppObject/*, public GlobalNamespace::IRemoteProcedureCall*/ {
     public:
     // Nested type: GlobalNamespace::RemoteProcedureCall::TypeWrapper_1<T>
+    template<typename T>
     class TypeWrapper_1;
     #ifdef USE_CODEGEN_FIELDS
     public:

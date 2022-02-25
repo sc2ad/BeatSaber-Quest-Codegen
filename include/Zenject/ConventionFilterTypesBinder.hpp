@@ -28,11 +28,13 @@ namespace System {
   // Forward declaring type: Attribute
   class Attribute;
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: System::Text::RegularExpressions
@@ -69,6 +71,7 @@ namespace Zenject {
     // Nested type: Zenject::ConventionFilterTypesBinder::$$c__DisplayClass8_0
     class $$c__DisplayClass8_0;
     // Nested type: Zenject::ConventionFilterTypesBinder::$$c__DisplayClass9_0_1<T>
+    template<typename T>
     class $$c__DisplayClass9_0_1;
     // Nested type: Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_0
     class $$c__DisplayClass13_0;

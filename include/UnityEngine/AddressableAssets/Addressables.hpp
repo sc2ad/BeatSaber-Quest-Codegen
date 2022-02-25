@@ -42,12 +42,14 @@ namespace System {
   // Forward declaring type: String
   class String;
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Exception
   class Exception;
   // Forward declaring type: Type
   class Type;
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
 }
 // Forward declaring namespace: UnityEngine::ResourceManagement
@@ -70,10 +72,13 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
   // Forward declaring type: IList`1<T>
+  template<typename T>
   class IList_1;
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: UnityEngine::AddressableAssets::ResourceLocators

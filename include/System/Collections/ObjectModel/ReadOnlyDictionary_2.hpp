@@ -9,6 +9,7 @@
 // Type namespace: System.Collections.ObjectModel
 namespace System::Collections::ObjectModel {
   // Forward declaring type: ReadOnlyDictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class ReadOnlyDictionary_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

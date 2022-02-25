@@ -23,8 +23,10 @@ namespace System::Linq::Expressions {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: HashSet`1<T>
+  template<typename T>
   class HashSet_1;
   // Forward declaring type: Stack`1<T>
+  template<typename T>
   class Stack_1;
 }
 // Completed forward declares

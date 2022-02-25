@@ -18,6 +18,7 @@ struct Il2CppObject;
 // Type namespace: System
 namespace System {
   // Forward declaring type: Nullable`1<T>
+  template<typename T>
   struct Nullable_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

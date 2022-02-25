@@ -25,6 +25,7 @@ namespace System::Data {
   // Forward declaring type: DataRow
   class DataRow;
   // Forward declaring type: Listeners`1<TElem>
+  template<typename TElem>
   class Listeners_1;
   // Forward declaring type: DataViewListener
   class DataViewListener;
@@ -38,6 +39,7 @@ namespace System::Data {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Comparison`1<T>
+  template<typename T>
   class Comparison_1;
   // Forward declaring type: WeakReference
   class WeakReference;
@@ -52,6 +54,7 @@ namespace System::ComponentModel {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Completed forward declares

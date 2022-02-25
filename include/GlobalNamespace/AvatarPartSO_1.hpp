@@ -18,6 +18,7 @@
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: AvatarPartSO`1<T>
+  template<typename T>
   class AvatarPartSO_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

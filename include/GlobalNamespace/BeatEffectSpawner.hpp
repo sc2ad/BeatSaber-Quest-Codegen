@@ -30,6 +30,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SongController
   class SongController;
   // Forward declaring type: MemoryPoolContainer`1<T>
+  template<typename T>
   class MemoryPoolContainer_1;
   // Forward declaring type: NoteController
   class NoteController;

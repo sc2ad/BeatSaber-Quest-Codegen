@@ -28,6 +28,7 @@
 namespace UnityEngine::Timeline {
   // Skipping declaration: TimelineClip because it is already included!
   // Forward declaring type: IntervalTree`1<T>
+  template<typename T>
   class IntervalTree_1;
   // Forward declaring type: RuntimeElement
   class RuntimeElement;
@@ -57,10 +58,13 @@ namespace System {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Queue`1<T>
+  template<typename T>
   class Queue_1;
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: UnityEngine::Playables

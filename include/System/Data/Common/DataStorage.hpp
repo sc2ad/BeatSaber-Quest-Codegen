@@ -31,8 +31,10 @@ namespace System {
   // Forward declaring type: Type
   class Type;
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Tuple`4<T1, T2, T3, T4>
+  template<typename T1, typename T2, typename T3, typename T4>
   class Tuple_4;
   // Forward declaring type: IFormatProvider
   class IFormatProvider;
@@ -45,6 +47,7 @@ namespace System::Collections {
 // Forward declaring namespace: System::Collections::Concurrent
 namespace System::Collections::Concurrent {
   // Forward declaring type: ConcurrentDictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class ConcurrentDictionary_2;
 }
 // Forward declaring namespace: System::Xml

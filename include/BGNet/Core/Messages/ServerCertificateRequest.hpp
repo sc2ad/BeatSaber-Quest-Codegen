@@ -24,11 +24,13 @@ namespace GlobalNamespace {
   // Forward declaring type: ByteArrayNetSerializable
   class ByteArrayNetSerializable;
   // Forward declaring type: PacketPool`1<T>
+  template<typename T>
   class PacketPool_1;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: LiteNetLib::Utils

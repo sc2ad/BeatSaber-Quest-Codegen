@@ -16,8 +16,10 @@
 // Forward declaring namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
   // Forward declaring type: IEquivable`1<T>
+  template<typename T>
   class IEquivable_1;
   // Forward declaring type: IEquivableWrapperClass`1<T>
+  template<typename T>
   class IEquivableWrapperClass_1;
 }
 // Forward declaring namespace: System
@@ -33,6 +35,7 @@ namespace UnityEngine {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Completed forward declares
@@ -53,8 +56,10 @@ namespace HoudiniEngineUnity {
   class HEU_TestHelpers : public ::Il2CppObject {
     public:
     // Nested type: HoudiniEngineUnity::HEU_TestHelpers::RequireStruct_1<T>
+    template<typename T>
     class RequireStruct_1;
     // Nested type: HoudiniEngineUnity::HEU_TestHelpers::RequireClass_1<T>
+    template<typename T>
     class RequireClass_1;
     // static public System.Boolean AssertTrueLogEquivalent(T a, T b, ref System.Boolean result, System.String header, System.String subject, System.String optional1, System.String optional2, System.String optional3, HoudiniEngineUnity.HEU_TestHelpers/HoudiniEngineUnity.RequireStruct`1<T> _)
     // Offset: 0xFFFFFFFF

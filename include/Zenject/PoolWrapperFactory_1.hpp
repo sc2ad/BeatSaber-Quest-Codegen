@@ -22,6 +22,7 @@ namespace System {
 // Forward declaring namespace: Zenject
 namespace Zenject {
   // Forward declaring type: IMemoryPool`1<TValue>
+  template<typename TValue>
   class IMemoryPool_1;
   // Forward declaring type: InjectTypeInfo
   class InjectTypeInfo;
@@ -30,6 +31,7 @@ namespace Zenject {
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: PoolWrapperFactory`1<T>
+  template<typename T>
   class PoolWrapperFactory_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

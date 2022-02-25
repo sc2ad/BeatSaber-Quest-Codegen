@@ -18,8 +18,10 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: Zenject
@@ -29,6 +31,7 @@ namespace Zenject {
   // Forward declaring type: DiContainer
   class DiContainer;
   // Forward declaring type: IFactory`2<TParam1, TValue>
+  template<typename TParam1, typename TValue>
   class IFactory_2;
   // Forward declaring type: InjectContext
   class InjectContext;
@@ -37,6 +40,7 @@ namespace Zenject {
 // Type namespace: Zenject.Internal
 namespace Zenject::Internal {
   // Forward declaring type: DecoratorProvider`1<TContract>
+  template<typename TContract>
   class DecoratorProvider_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

@@ -31,8 +31,10 @@ namespace Zenject {
   // Forward declaring type: SubContainerBinder
   class SubContainerBinder;
   // Forward declaring type: ConcreteBinderGeneric`1<TContract>
+  template<typename TContract>
   class ConcreteBinderGeneric_1;
   // Forward declaring type: IFactory`1<TValue>
+  template<typename TValue>
   class IFactory_1;
   // Forward declaring type: InjectContext
   class InjectContext;
@@ -44,6 +46,7 @@ namespace Zenject {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: System
@@ -51,8 +54,10 @@ namespace System {
   // Forward declaring type: Type
   class Type;
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: UnityEngine
@@ -86,6 +91,7 @@ namespace Zenject {
     // Nested type: Zenject::FromBinder::$$c__DisplayClass22_0
     class $$c__DisplayClass22_0;
     // Nested type: Zenject::FromBinder::$$c__DisplayClass28_0_1<TContract>
+    template<typename TContract>
     class $$c__DisplayClass28_0_1;
     // Nested type: Zenject::FromBinder::$$c__DisplayClass29_0
     class $$c__DisplayClass29_0;
@@ -154,10 +160,13 @@ namespace Zenject {
     // Nested type: Zenject::FromBinder::$$c__DisplayClass68_0
     class $$c__DisplayClass68_0;
     // Nested type: Zenject::FromBinder::$$c__DisplayClass69_0_1<TConcrete>
+    template<typename TConcrete>
     class $$c__DisplayClass69_0_1;
     // Nested type: Zenject::FromBinder::$$c__DisplayClass70_0_1<TConcrete>
+    template<typename TConcrete>
     class $$c__DisplayClass70_0_1;
     // Nested type: Zenject::FromBinder::$$c__DisplayClass71_0_2<TObj, TResult>
+    template<typename TObj, typename TResult>
     class $$c__DisplayClass71_0_2;
     // Nested type: Zenject::FromBinder::$$c__DisplayClass72_0
     class $$c__DisplayClass72_0;

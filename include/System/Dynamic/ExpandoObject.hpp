@@ -38,6 +38,7 @@ namespace System::Reflection {
 namespace System::Collections::Generic {
   // Skipping declaration: ICollection`1 because it is already included!
   // Forward declaring type: IEnumerator`1<T>
+  template<typename T>
   class IEnumerator_1;
 }
 // Forward declaring namespace: System::Linq::Expressions

@@ -103,11 +103,13 @@ namespace HoudiniEngineUnity {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Forward declaring namespace: UnityEngine::Events
 namespace UnityEngine::Events {
   // Forward declaring type: UnityAction`3<T0, T1, T2>
+  template<typename T0, typename T1, typename T2>
   class UnityAction_3;
 }
 // Completed forward declares

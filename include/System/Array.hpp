@@ -25,12 +25,16 @@ namespace System {
   // Forward declaring type: Type
   class Type;
   // Forward declaring type: Converter`2<TInput, TOutput>
+  template<typename TInput, typename TOutput>
   class Converter_2;
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
   // Forward declaring type: Comparison`1<T>
+  template<typename T>
   class Comparison_1;
   // Forward declaring type: Predicate`1<T>
+  template<typename T>
   class Predicate_1;
   // Forward declaring type: Exception
   class Exception;
@@ -38,6 +42,7 @@ namespace System {
 // Forward declaring namespace: System::Collections::ObjectModel
 namespace System::Collections::ObjectModel {
   // Forward declaring type: ReadOnlyCollection`1<T>
+  template<typename T>
   class ReadOnlyCollection_1;
 }
 // Forward declaring namespace: System::Collections
@@ -52,8 +57,10 @@ namespace System::Collections {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IComparer`1<T>
+  template<typename T>
   class IComparer_1;
   // Forward declaring type: IEnumerator`1<T>
+  template<typename T>
   class IEnumerator_1;
 }
 // Completed forward declares
@@ -76,8 +83,10 @@ namespace System {
     // Nested type: System::Array::ArrayEnumerator
     class ArrayEnumerator;
     // Nested type: System::Array::InternalEnumerator_1<T>
+    template<typename T>
     struct InternalEnumerator_1;
     // Nested type: System::Array::EmptyInternalEnumerator_1<T>
+    template<typename T>
     class EmptyInternalEnumerator_1;
     // Nested type: System::Array::SorterObjectArray
     struct SorterObjectArray;

@@ -49,6 +49,7 @@ namespace System::Linq::Expressions {
   // Forward declaring type: LabelExpression
   class LabelExpression;
   // Forward declaring type: Expression`1<TDelegate>
+  template<typename TDelegate>
   class Expression_1;
   // Forward declaring type: LoopExpression
   class LoopExpression;
@@ -68,6 +69,7 @@ namespace System::Linq::Expressions {
 // Forward declaring namespace: System::Dynamic::Utils
 namespace System::Dynamic::Utils {
   // Forward declaring type: CacheDict`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class CacheDict_2;
 }
 // Forward declaring namespace: System
@@ -75,6 +77,7 @@ namespace System {
   // Forward declaring type: Type
   class Type;
   // Forward declaring type: Func`5<T1, T2, T3, T4, TResult>
+  template<typename T1, typename T2, typename T3, typename T4, typename TResult>
   class Func_5;
 }
 // Forward declaring namespace: System::Reflection
@@ -97,18 +100,22 @@ namespace System::Reflection {
 // Forward declaring namespace: System::Collections::ObjectModel
 namespace System::Collections::ObjectModel {
   // Forward declaring type: ReadOnlyCollection`1<T>
+  template<typename T>
   class ReadOnlyCollection_1;
 }
 // Forward declaring namespace: System::Runtime::CompilerServices
 namespace System::Runtime::CompilerServices {
   // Forward declaring type: ConditionalWeakTable`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class ConditionalWeakTable_2;
 }
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
   // Forward declaring type: IReadOnlyList`1<T>
+  template<typename T>
   class IReadOnlyList_1;
 }
 // Completed forward declares

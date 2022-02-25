@@ -26,12 +26,14 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: MemoryPoolContainer`1<T>
+  template<typename T>
   class MemoryPoolContainer_1;
   // Forward declaring type: NoteCutInfoNetSerializable
   class NoteCutInfoNetSerializable;
   // Forward declaring type: ObstacleSpawnInfoNetSerializable
   class ObstacleSpawnInfoNetSerializable;
   // Forward declaring type: MemoryPoolContainer`2<T0, T1>
+  template<typename T0, typename T1>
   class MemoryPoolContainer_2;
   // Forward declaring type: NoteSpawnInfoNetSerializable
   class NoteSpawnInfoNetSerializable;
@@ -47,6 +49,7 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
 }
 // Completed forward declares

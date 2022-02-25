@@ -39,6 +39,7 @@ namespace System::Xml::Serialization {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Nullable`1<T>
+  template<typename T>
   struct Nullable_1;
 }
 // Forward declaring namespace: System::Reflection

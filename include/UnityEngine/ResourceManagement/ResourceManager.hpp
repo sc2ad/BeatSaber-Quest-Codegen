@@ -23,14 +23,18 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Forward declaring type: Action`4<T1, T2, T3, T4>
+  template<typename T1, typename T2, typename T3, typename T4>
   class Action_4;
   // Forward declaring type: Type
   class Type;
   // Forward declaring type: Action`2<T1, T2>
+  template<typename T1, typename T2>
   class Action_2;
   // Forward declaring type: Exception
   class Exception;
@@ -54,8 +58,10 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: ListWithEvents`1<T>
+  template<typename T>
   class ListWithEvents_1;
   // Forward declaring type: DelegateList`1<T>
+  template<typename T>
   class DelegateList_1;
 }
 // Forward declaring namespace: UnityEngine::ResourceManagement::ResourceProviders
@@ -77,12 +83,16 @@ namespace UnityEngine::ResourceManagement::Util {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: HashSet`1<T>
+  template<typename T>
   class HashSet_1;
   // Forward declaring type: IList`1<T>
+  template<typename T>
   class IList_1;
 }
 // Forward declaring namespace: UnityEngine::ResourceManagement::AsyncOperations
@@ -90,6 +100,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   // Forward declaring type: IAsyncOperation
   class IAsyncOperation;
   // Forward declaring type: AsyncOperationBase`1<TObject>
+  template<typename TObject>
   class AsyncOperationBase_1;
   // Forward declaring type: GroupOperation
   class GroupOperation;
@@ -127,10 +138,12 @@ namespace UnityEngine::ResourceManagement {
     // Nested type: UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext
     struct DiagnosticEventContext;
     // Nested type: UnityEngine::ResourceManagement::ResourceManager::CompletedOperation_1<TObject>
+    template<typename TObject>
     class CompletedOperation_1;
     // Nested type: UnityEngine::ResourceManagement::ResourceManager::InstanceOperation
     class InstanceOperation;
     // Nested type: UnityEngine::ResourceManagement::ResourceManager::$$c__DisplayClass83_0_1<TObject>
+    template<typename TObject>
     class $$c__DisplayClass83_0_1;
     // Size: 0x4
     #pragma pack(push, 1)

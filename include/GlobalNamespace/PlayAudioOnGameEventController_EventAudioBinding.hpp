@@ -23,6 +23,7 @@ namespace GlobalNamespace {
   // Forward declaring type: AudioClipQueue
   class AudioClipQueue;
   // Forward declaring type: RandomObjectPicker`1<T>
+  template<typename T>
   class RandomObjectPicker_1;
 }
 // Completed forward declares

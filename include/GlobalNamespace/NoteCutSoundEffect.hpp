@@ -21,12 +21,15 @@ namespace GlobalNamespace {
   // Forward declaring type: NoteController
   class NoteController;
   // Forward declaring type: RandomObjectPicker`1<T>
+  template<typename T>
   class RandomObjectPicker_1;
   // Forward declaring type: LazyCopyHashSet`1<T>
+  template<typename T>
   class LazyCopyHashSet_1;
   // Forward declaring type: INoteCutSoundEffectDidFinishEvent
   class INoteCutSoundEffectDidFinishEvent;
   // Forward declaring type: ILazyCopyHashSet`1<T>
+  template<typename T>
   class ILazyCopyHashSet_1;
   // Forward declaring type: NoteCutInfo
   struct NoteCutInfo;

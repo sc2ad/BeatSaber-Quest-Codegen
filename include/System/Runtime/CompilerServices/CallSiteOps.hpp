@@ -15,10 +15,12 @@
 // Forward declaring namespace: System::Runtime::CompilerServices
 namespace System::Runtime::CompilerServices {
   // Forward declaring type: CallSite`1<T>
+  template<typename T>
   class CallSite_1;
   // Forward declaring type: CallSite
   class CallSite;
   // Forward declaring type: RuleCache`1<T>
+  template<typename T>
   class RuleCache_1;
   // Forward declaring type: CallSiteBinder
   class CallSiteBinder;

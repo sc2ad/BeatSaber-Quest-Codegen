@@ -18,6 +18,7 @@ namespace Newtonsoft::Json::Utilities {
   // Forward declaring type: TypeInformation
   class TypeInformation;
   // Forward declaring type: ThreadSafeStore`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class ThreadSafeStore_2;
   // Forward declaring type: ParseResult
   struct ParseResult;
@@ -25,6 +26,7 @@ namespace Newtonsoft::Json::Utilities {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
 }
 // Forward declaring namespace: System
@@ -32,6 +34,7 @@ namespace System {
   // Forward declaring type: Type
   class Type;
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
   // Skipping declaration: IConvertible because it is already included!
   // Forward declaring type: TimeSpan

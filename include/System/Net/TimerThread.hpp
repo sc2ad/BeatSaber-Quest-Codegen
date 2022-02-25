@@ -14,6 +14,7 @@ namespace System::Net {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: LinkedList`1<T>
+  template<typename T>
   class LinkedList_1;
 }
 // Forward declaring namespace: System

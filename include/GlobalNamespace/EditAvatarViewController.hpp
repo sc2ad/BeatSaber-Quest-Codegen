@@ -26,14 +26,17 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`4<T1, T2, T3, T4>
+  template<typename T1, typename T2, typename T3, typename T4>
   class Action_4;
   // Forward declaring type: Action
   class Action;
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
   // Forward declaring type: String
   class String;
   // Forward declaring type: Func`1<TResult>
+  template<typename TResult>
   class Func_1;
 }
 // Forward declaring namespace: GlobalNamespace
@@ -41,6 +44,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SkinColorSO
   class SkinColorSO;
   // Forward declaring type: AvatarPartCollection`1<T>
+  template<typename T>
   class AvatarPartCollection_1;
   // Forward declaring type: ColorPickerButtonController
   class ColorPickerButtonController;
@@ -68,6 +72,7 @@ namespace HMUI {
   // Forward declaring type: CurvedTextMeshPro
   class CurvedTextMeshPro;
   // Forward declaring type: ValueChangedBinder`1<T>
+  template<typename T>
   class ValueChangedBinder_1;
 }
 // Forward declaring namespace: UnityEngine
@@ -98,6 +103,7 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::EditAvatarViewController::$$c__DisplayClass60_0
     class $$c__DisplayClass60_0;
     // Nested type: GlobalNamespace::EditAvatarViewController::$$c__DisplayClass61_0_1<T>
+    template<typename T>
     class $$c__DisplayClass61_0_1;
     // Size: 0x4
     #pragma pack(push, 1)

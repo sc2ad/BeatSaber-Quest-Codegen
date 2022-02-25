@@ -19,6 +19,7 @@
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Lazy`1<T>
+  template<typename T>
   class Lazy_1;
 }
 // Forward declaring namespace: NUnit::Framework::Constraints

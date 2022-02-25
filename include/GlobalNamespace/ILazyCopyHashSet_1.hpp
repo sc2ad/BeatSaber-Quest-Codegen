@@ -12,6 +12,7 @@
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: ILazyCopyHashSet`1<T>
+  template<typename T>
   class ILazyCopyHashSet_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

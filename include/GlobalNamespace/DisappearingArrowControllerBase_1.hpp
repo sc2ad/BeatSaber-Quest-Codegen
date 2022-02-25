@@ -17,6 +17,7 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: ICubeNoteControllerInitializable`1<T>
+  template<typename T>
   class ICubeNoteControllerInitializable_1;
   // Forward declaring type: ICubeNoteTypeProvider
   class ICubeNoteTypeProvider;
@@ -36,6 +37,7 @@ namespace UnityEngine {
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: DisappearingArrowControllerBase`1<T>
+  template<typename T>
   class DisappearingArrowControllerBase_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

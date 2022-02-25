@@ -50,8 +50,10 @@ namespace GlobalNamespace {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: IReadOnlyDictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class IReadOnlyDictionary_2;
 }
 // Forward declaring namespace: System::Threading
@@ -62,6 +64,7 @@ namespace System::Threading {
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
 }
 // Completed forward declares

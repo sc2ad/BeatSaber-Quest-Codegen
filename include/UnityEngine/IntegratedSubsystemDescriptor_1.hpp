@@ -22,6 +22,7 @@ namespace UnityEngine {
 // Type namespace: UnityEngine
 namespace UnityEngine {
   // Forward declaring type: IntegratedSubsystemDescriptor`1<TSubsystem>
+  template<typename TSubsystem>
   class IntegratedSubsystemDescriptor_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

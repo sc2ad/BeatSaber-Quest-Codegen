@@ -19,6 +19,7 @@
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
   // Forward declaring type: MemoryPoolContainer`1<T>
+  template<typename T>
   class MemoryPoolContainer_1;
 }
 // Forward declaring namespace: UnityEngine

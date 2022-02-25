@@ -12,6 +12,7 @@
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: IReferenceCountingCache`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class IReferenceCountingCache_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

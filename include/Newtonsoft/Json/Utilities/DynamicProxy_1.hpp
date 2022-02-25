@@ -15,12 +15,14 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
 }
 // Completed forward declares
 // Type namespace: Newtonsoft.Json.Utilities
 namespace Newtonsoft::Json::Utilities {
   // Forward declaring type: DynamicProxy`1<T>
+  template<typename T>
   class DynamicProxy_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

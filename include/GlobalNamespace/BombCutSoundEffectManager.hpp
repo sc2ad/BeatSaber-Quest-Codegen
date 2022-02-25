@@ -28,6 +28,7 @@ namespace GlobalNamespace {
   // Forward declaring type: SaberManager
   class SaberManager;
   // Forward declaring type: RandomObjectPicker`1<T>
+  template<typename T>
   class RandomObjectPicker_1;
   // Forward declaring type: NoteController
   class NoteController;

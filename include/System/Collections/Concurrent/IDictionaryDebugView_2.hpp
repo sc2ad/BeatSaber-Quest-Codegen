@@ -9,6 +9,7 @@
 // Type namespace: System.Collections.Concurrent
 namespace System::Collections::Concurrent {
   // Forward declaring type: IDictionaryDebugView`2<K, V>
+  template<typename K, typename V>
   class IDictionaryDebugView_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

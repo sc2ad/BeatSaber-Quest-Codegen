@@ -11,6 +11,7 @@
 // Type namespace: MS.Internal.Xml.Linq.ComponentModel
 namespace MS::Internal::Xml::Linq::ComponentModel {
   // Forward declaring type: XTypeDescriptionProvider`1<T>
+  template<typename T>
   class XTypeDescriptionProvider_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

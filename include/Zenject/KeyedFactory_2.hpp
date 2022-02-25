@@ -17,6 +17,7 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: System
@@ -33,6 +34,7 @@ namespace Zenject {
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: KeyedFactory`2<TBase, TKey>
+  template<typename TBase, typename TKey>
   class KeyedFactory_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

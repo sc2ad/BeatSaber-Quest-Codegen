@@ -22,8 +22,10 @@ namespace Newtonsoft::Json::Linq {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: IEqualityComparer`1<T>
+  template<typename T>
   class IEqualityComparer_1;
   // Skipping declaration: ICollection`1 because it is already included!
 }

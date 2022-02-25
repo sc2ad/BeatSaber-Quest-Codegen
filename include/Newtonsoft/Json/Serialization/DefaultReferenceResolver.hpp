@@ -17,6 +17,7 @@
 // Forward declaring namespace: Newtonsoft::Json::Utilities
 namespace Newtonsoft::Json::Utilities {
   // Forward declaring type: BidirectionalDictionary`2<TFirst, TSecond>
+  template<typename TFirst, typename TSecond>
   class BidirectionalDictionary_2;
 }
 // Completed forward declares

@@ -18,11 +18,13 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Stack`1<T>
+  template<typename T>
   class Stack_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
   // Forward declaring type: Type
   class Type;
@@ -31,6 +33,7 @@ namespace System {
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: StaticMemoryPoolBaseBase`1<TValue>
+  template<typename TValue>
   class StaticMemoryPoolBaseBase_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

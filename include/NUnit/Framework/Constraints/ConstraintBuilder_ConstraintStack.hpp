@@ -12,6 +12,7 @@
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Stack`1<T>
+  template<typename T>
   class Stack_1;
 }
 // Forward declaring namespace: NUnit::Framework::Constraints

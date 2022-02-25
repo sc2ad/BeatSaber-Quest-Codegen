@@ -33,6 +33,7 @@ namespace System {
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: FactoryToChoiceBinder`1<TContract>
+  template<typename TContract>
   class FactoryToChoiceBinder_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

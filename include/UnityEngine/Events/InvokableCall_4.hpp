@@ -17,6 +17,7 @@
 // Forward declaring namespace: UnityEngine::Events
 namespace UnityEngine::Events {
   // Forward declaring type: UnityAction`4<T0, T1, T2, T3>
+  template<typename T0, typename T1, typename T2, typename T3>
   class UnityAction_4;
 }
 // Forward declaring namespace: System::Reflection
@@ -28,6 +29,7 @@ namespace System::Reflection {
 // Type namespace: UnityEngine.Events
 namespace UnityEngine::Events {
   // Forward declaring type: InvokableCall`4<T1, T2, T3, T4>
+  template<typename T1, typename T2, typename T3, typename T4>
   class InvokableCall_4;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

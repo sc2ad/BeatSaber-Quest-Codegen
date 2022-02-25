@@ -20,6 +20,7 @@ namespace System::IO {
 // Type namespace: System.IO
 namespace System::IO {
   // Forward declaring type: SearchResultHandler`1<TSource>
+  template<typename TSource>
   class SearchResultHandler_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

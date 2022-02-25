@@ -41,16 +41,19 @@ namespace Zenject {
   // Forward declaring type: Installer
   class Installer;
   // Forward declaring type: DecoratorToChoiceFromBinder`1<TContract>
+  template<typename TContract>
   class DecoratorToChoiceFromBinder_1;
   // Forward declaring type: InjectTypeInfo
   class InjectTypeInfo;
   // Forward declaring type: GameObjectCreationParameters
   class GameObjectCreationParameters;
   // Forward declaring type: ConcreteBinderGeneric`1<TContract>
+  template<typename TContract>
   class ConcreteBinderGeneric_1;
   // Forward declaring type: ConcreteBinderNonGeneric
   class ConcreteBinderNonGeneric;
   // Forward declaring type: ConcreteIdBinderGeneric`1<TContract>
+  template<typename TContract>
   class ConcreteIdBinderGeneric_1;
   // Forward declaring type: ConcreteIdBinderNonGeneric
   class ConcreteIdBinderNonGeneric;
@@ -65,40 +68,57 @@ namespace Zenject {
   // Forward declaring type: IFactory
   class IFactory;
   // Forward declaring type: FactoryToChoiceIdBinder`1<TContract>
+  template<typename TContract>
   class FactoryToChoiceIdBinder_1;
   // Forward declaring type: PlaceholderFactory`1<TValue>
+  template<typename TValue>
   class PlaceholderFactory_1;
   // Forward declaring type: MemoryPoolIdInitialSizeMaxSizeBinder`1<TContract>
+  template<typename TContract>
   class MemoryPoolIdInitialSizeMaxSizeBinder_1;
   // Forward declaring type: IMemoryPool
   class IMemoryPool;
   // Forward declaring type: FactoryToChoiceIdBinder`2<TParam1, TContract>
+  template<typename TParam1, typename TContract>
   class FactoryToChoiceIdBinder_2;
   // Forward declaring type: PlaceholderFactory`2<TParam1, TValue>
+  template<typename TParam1, typename TValue>
   class PlaceholderFactory_2;
   // Forward declaring type: FactoryToChoiceIdBinder`3<TParam1, TParam2, TContract>
+  template<typename TParam1, typename TParam2, typename TContract>
   class FactoryToChoiceIdBinder_3;
   // Forward declaring type: PlaceholderFactory`3<TParam1, TParam2, TValue>
+  template<typename TParam1, typename TParam2, typename TValue>
   class PlaceholderFactory_3;
   // Forward declaring type: FactoryToChoiceIdBinder`4<TParam1, TParam2, TParam3, TContract>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TContract>
   class FactoryToChoiceIdBinder_4;
   // Forward declaring type: PlaceholderFactory`4<TParam1, TParam2, TParam3, TValue>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TValue>
   class PlaceholderFactory_4;
   // Forward declaring type: FactoryToChoiceIdBinder`5<TParam1, TParam2, TParam3, TParam4, TContract>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract>
   class FactoryToChoiceIdBinder_5;
   // Forward declaring type: PlaceholderFactory`5<TParam1, TParam2, TParam3, TParam4, TValue>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue>
   class PlaceholderFactory_5;
   // Forward declaring type: FactoryToChoiceIdBinder`6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
   class FactoryToChoiceIdBinder_6;
   // Forward declaring type: PlaceholderFactory`6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue>
   class PlaceholderFactory_6;
   // Forward declaring type: FactoryToChoiceIdBinder`7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
   class FactoryToChoiceIdBinder_7;
   // Forward declaring type: PlaceholderFactory`7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
   class PlaceholderFactory_7;
   // Forward declaring type: FactoryToChoiceIdBinder`11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10, typename TContract>
   class FactoryToChoiceIdBinder_11;
   // Forward declaring type: PlaceholderFactory`11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TValue>
+  template<typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10, typename TValue>
   class PlaceholderFactory_11;
   // Forward declaring type: ITickable
   class ITickable;
@@ -118,14 +138,19 @@ namespace Zenject {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Dictionary`2<TKey, TValue>
+  template<typename TKey, typename TValue>
   class Dictionary_2;
   // Forward declaring type: List`1<T>
+  template<typename T>
   class List_1;
   // Forward declaring type: HashSet`1<T>
+  template<typename T>
   class HashSet_1;
   // Forward declaring type: Queue`1<T>
+  template<typename T>
   class Queue_1;
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
 }
 // Forward declaring namespace: System
@@ -133,8 +158,10 @@ namespace System {
   // Forward declaring type: Type
   class Type;
   // Forward declaring type: Nullable`1<T>
+  template<typename T>
   struct Nullable_1;
   // Forward declaring type: Action`1<T>
+  template<typename T>
   class Action_1;
   // Forward declaring type: IDisposable
   class IDisposable;
@@ -195,6 +222,7 @@ namespace Zenject {
     // Nested type: Zenject::DiContainer::$$c__DisplayClass178_0
     class $$c__DisplayClass178_0;
     // Nested type: Zenject::DiContainer::$$c__DisplayClass203_0_1<TContract>
+    template<typename TContract>
     class $$c__DisplayClass203_0_1;
     #ifdef USE_CODEGEN_FIELDS
     public:

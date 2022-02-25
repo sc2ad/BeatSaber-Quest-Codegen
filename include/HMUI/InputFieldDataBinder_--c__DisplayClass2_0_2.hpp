@@ -19,11 +19,13 @@ namespace GlobalNamespace {
   // Forward declaring type: IObservableChange
   class IObservableChange;
   // Forward declaring type: IValue`1<T>
+  template<typename T>
   class IValue_1;
 }
 // Forward declaring namespace: System
 namespace System {
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: UnityEngine::UI

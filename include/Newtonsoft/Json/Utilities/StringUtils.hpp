@@ -22,6 +22,7 @@ namespace System {
   // Forward declaring type: IFormatProvider
   class IFormatProvider;
   // Forward declaring type: Func`2<T, TResult>
+  template<typename T, typename TResult>
   class Func_2;
 }
 // Forward declaring namespace: System::IO
@@ -32,6 +33,7 @@ namespace System::IO {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IEnumerable`1<T>
+  template<typename T>
   class IEnumerable_1;
 }
 // Completed forward declares
@@ -55,6 +57,7 @@ namespace Newtonsoft::Json::Utilities {
   class StringUtils : public ::Il2CppObject {
     public:
     // Nested type: Newtonsoft::Json::Utilities::StringUtils::$$c__DisplayClass14_0_1<TSource>
+    template<typename TSource>
     class $$c__DisplayClass14_0_1;
     // static public System.Boolean IsNullOrEmpty(System.String value)
     // Offset: 0x29F8A80

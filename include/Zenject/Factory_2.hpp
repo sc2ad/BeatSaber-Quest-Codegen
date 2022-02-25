@@ -23,6 +23,7 @@ namespace Zenject {
 // Type namespace: Zenject
 namespace Zenject {
   // Forward declaring type: Factory`2<TParam1, TValue>
+  template<typename TParam1, typename TValue>
   class Factory_2;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

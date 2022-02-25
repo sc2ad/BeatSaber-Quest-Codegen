@@ -23,12 +23,14 @@ namespace System::Linq::Expressions {
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: IReadOnlyList`1<T>
+  template<typename T>
   class IReadOnlyList_1;
 }
 // Completed forward declares
 // Type namespace: System.Linq.Expressions
 namespace System::Linq::Expressions {
   // Forward declaring type: FullExpression`1<TDelegate>
+  template<typename TDelegate>
   class FullExpression_1;
 }
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
