@@ -22,6 +22,8 @@
 namespace GlobalNamespace {
   // Forward declaring type: IConnectedPlayer
   class IConnectedPlayer;
+  // Forward declaring type: SessionType
+  struct MultiplayerSessionManager_SessionType;
   // Forward declaring type: ConnectedPlayerManager
   class ConnectedPlayerManager;
   // Forward declaring type: INetworkPacketSubSerializer`1<TData>
@@ -162,7 +164,7 @@ namespace GlobalNamespace {
     void SetMaxPlayerCount(int maxPlayerCount);
     // public System.Void StartSession(MultiplayerSessionManager/SessionType sessionType, ConnectedPlayerManager connectedPlayerManager)
     // Offset: 0xFFFFFFFF
-    void StartSession(GlobalNamespace::MultiplayerSessionManager::SessionType sessionType, GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager);
+    void StartSession(GlobalNamespace::MultiplayerSessionManager_SessionType sessionType, GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager);
     // public System.Void EndSession()
     // Offset: 0xFFFFFFFF
     void EndSession();
@@ -517,7 +519,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerSessionManager::StartSession
 // Il2CppName: StartSession
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerSessionManager::*)(GlobalNamespace::MultiplayerSessionManager::SessionType, GlobalNamespace::ConnectedPlayerManager*)>(&GlobalNamespace::IMultiplayerSessionManager::StartSession)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerSessionManager::*)(GlobalNamespace::MultiplayerSessionManager_SessionType, GlobalNamespace::ConnectedPlayerManager*)>(&GlobalNamespace::IMultiplayerSessionManager::StartSession)> {
   static const MethodInfo* get() {
     static auto* sessionType = &::il2cpp_utils::GetClassFromName("", "MultiplayerSessionManager/SessionType")->byval_arg;
     static auto* connectedPlayerManager = &::il2cpp_utils::GetClassFromName("", "ConnectedPlayerManager")->byval_arg;

@@ -9,12 +9,6 @@
 #include "GlobalNamespace/StandaloneMonobehavior.hpp"
 // Including type: IMultiplayerSessionManager
 #include "GlobalNamespace/IMultiplayerSessionManager.hpp"
-// Including type: MultiplayerSessionManager/MessageType
-#include "GlobalNamespace/MultiplayerSessionManager_MessageType.hpp"
-// Including type: ConnectionFailedReason
-#include "GlobalNamespace/ConnectionFailedReason.hpp"
-// Including type: DisconnectedReason
-#include "GlobalNamespace/DisconnectedReason.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
@@ -22,23 +16,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: GlobalNamespace
-namespace GlobalNamespace {
-  // Forward declaring type: NetworkPacketSerializer`2<TType, TData>
-  template<typename TType, typename TData>
-  class NetworkPacketSerializer_2;
-  // Forward declaring type: IConnectedPlayer
-  class IConnectedPlayer;
-  // Forward declaring type: SynchronizedActionQueue
-  class SynchronizedActionQueue;
-  // Forward declaring type: ConnectedPlayerManager
-  class ConnectedPlayerManager;
-  // Forward declaring type: INetworkPacketSubSerializer`1<TData>
-  template<typename TData>
-  class INetworkPacketSubSerializer_1;
-  // Forward declaring type: UpdateConnectionStateReason
-  struct UpdateConnectionStateReason;
-}
 // Forward declaring namespace: System::Collections::Generic
 namespace System::Collections::Generic {
   // Forward declaring type: Queue`1<T>
@@ -53,6 +30,25 @@ namespace System::Collections::Generic {
   // Forward declaring type: IReadOnlyList`1<T>
   template<typename T>
   class IReadOnlyList_1;
+}
+// Forward declaring namespace: GlobalNamespace
+namespace GlobalNamespace {
+  // Forward declaring type: NetworkPacketSerializer`2<TType, TData>
+  template<typename TType, typename TData>
+  class NetworkPacketSerializer_2;
+  // Forward declaring type: IConnectedPlayer
+  class IConnectedPlayer;
+  // Forward declaring type: SynchronizedActionQueue
+  class SynchronizedActionQueue;
+  // Forward declaring type: ConnectedPlayerManager
+  class ConnectedPlayerManager;
+  // Forward declaring type: INetworkPacketSubSerializer`1<TData>
+  template<typename TData>
+  class INetworkPacketSubSerializer_1;
+  // Forward declaring type: SessionType
+  struct MultiplayerSessionManager_SessionType;
+  // Forward declaring type: UpdateConnectionStateReason
+  struct UpdateConnectionStateReason;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -94,8 +90,6 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x34 to desired offset: 0x38
     char ___base_padding[0x4] = {};
-    // Nested type: GlobalNamespace::MultiplayerSessionManager::SessionType
-    struct SessionType;
     // Nested type: GlobalNamespace::MultiplayerSessionManager::ConnectionState
     struct ConnectionState;
     // Nested type: GlobalNamespace::MultiplayerSessionManager::$$c__DisplayClass96_0
@@ -436,7 +430,7 @@ namespace GlobalNamespace {
     }
     // public System.Void StartSession(MultiplayerSessionManager/SessionType sessionType, ConnectedPlayerManager connectedPlayerManager)
     // Offset: 0x2CA8C00
-    void StartSession(GlobalNamespace::MultiplayerSessionManager::SessionType sessionType, GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager);
+    void StartSession(GlobalNamespace::MultiplayerSessionManager_SessionType sessionType, GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager);
     // public System.Void SetMaxPlayerCount(System.Int32 maxPlayerCount)
     // Offset: 0x2CA9094
     void SetMaxPlayerCount(int maxPlayerCount);
@@ -893,7 +887,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::StartSession
 // Il2CppName: StartSession
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSessionManager::*)(GlobalNamespace::MultiplayerSessionManager::SessionType, GlobalNamespace::ConnectedPlayerManager*)>(&GlobalNamespace::MultiplayerSessionManager::StartSession)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSessionManager::*)(GlobalNamespace::MultiplayerSessionManager_SessionType, GlobalNamespace::ConnectedPlayerManager*)>(&GlobalNamespace::MultiplayerSessionManager::StartSession)> {
   static const MethodInfo* get() {
     static auto* sessionType = &::il2cpp_utils::GetClassFromName("", "MultiplayerSessionManager/SessionType")->byval_arg;
     static auto* connectedPlayerManager = &::il2cpp_utils::GetClassFromName("", "ConnectedPlayerManager")->byval_arg;
