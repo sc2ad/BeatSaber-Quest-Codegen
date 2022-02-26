@@ -67,7 +67,7 @@ namespace System::Linq::Expressions {
     static_assert(sizeof(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*) == 0x8);
     public:
     // Deleting conversion operator: operator ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>*
-    // Cannot delete conversion operator because it seems to have a generic type in the definition! This may not be defined!
+    constexpr operator ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>*() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<System.Linq.Expressions.Expression> _body
     ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*& dyn__body();
     // protected System.Collections.Generic.IReadOnlyList`1<System.Linq.Expressions.Expression> get_Body()

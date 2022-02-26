@@ -96,7 +96,7 @@ namespace Org::BouncyCastle::Math::EC {
     static_assert(sizeof(::Org::BouncyCastle::Math::EC::F2mPoint*) == 0x8);
     public:
     // Deleting conversion operator: operator ::ArrayW<::Org::BouncyCastle::Math::BigInteger*>
-    // Cannot delete conversion operator because it seems to have a generic type in the definition! This may not be defined!
+    constexpr operator ::ArrayW<::Org::BouncyCastle::Math::BigInteger*>() const noexcept = delete;
     // Get instance field reference: private readonly System.Int32 m
     int& dyn_m();
     // Get instance field reference: private readonly System.Int32 k1

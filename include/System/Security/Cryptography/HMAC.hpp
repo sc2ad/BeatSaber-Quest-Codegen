@@ -92,7 +92,7 @@ namespace System::Security::Cryptography {
     static_assert(sizeof(bool) == 0x1);
     public:
     // Deleting conversion operator: operator ::ArrayW<uint8_t>
-    // Cannot delete conversion operator because it seems to have a generic type in the definition! This may not be defined!
+    constexpr operator ::ArrayW<uint8_t>() const noexcept = delete;
     // Get instance field reference: private System.Int32 blockSizeValue
     int& dyn_blockSizeValue();
     // Get instance field reference: System.String m_hashName

@@ -77,7 +77,7 @@ namespace Org::BouncyCastle::Asn1 {
       return *reinterpret_cast<::System::Collections::IEnumerable*>(this);
     }
     // Deleting conversion operator: operator ::ArrayW<uint8_t>
-    // Cannot delete conversion operator because it seems to have a generic type in the definition! This may not be defined!
+    constexpr operator ::ArrayW<uint8_t>() const noexcept = delete;
     // Get static field: static private readonly System.Int32 DefaultChunkSize
     static int _get_DefaultChunkSize();
     // Set static field: static private readonly System.Int32 DefaultChunkSize

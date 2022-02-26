@@ -798,7 +798,7 @@ namespace System::Xml {
     static_assert(sizeof(::System::Xml::SecureStringHasher*) == 0x8);
     public:
     // Deleting conversion operator: operator ::ArrayW<::Il2CppChar>
-    // Cannot delete conversion operator because it seems to have a generic type in the definition! This may not be defined!
+    constexpr operator ::ArrayW<::Il2CppChar>() const noexcept = delete;
     // Get static field: static readonly System.String[] stateName
     static ::ArrayW<::StringW> _get_stateName();
     // Set static field: static readonly System.String[] stateName

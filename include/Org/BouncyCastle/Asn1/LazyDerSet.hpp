@@ -60,7 +60,7 @@ namespace Org::BouncyCastle::Asn1 {
     static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     public:
     // Deleting conversion operator: operator ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*>
-    // Cannot delete conversion operator because it seems to have a generic type in the definition! This may not be defined!
+    constexpr operator ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*>() const noexcept = delete;
     // Get instance field reference: private System.Byte[] encoded
     ::ArrayW<uint8_t>& dyn_encoded();
     // System.Void .ctor(System.Byte[] encoded)

@@ -140,7 +140,7 @@ namespace System::Security::Cryptography::X509Certificates {
     static_assert(sizeof(::Mono::Security::X509::X509Certificate*) == 0x8);
     public:
     // Deleting conversion operator: operator ::ArrayW<uint8_t>
-    // Cannot delete conversion operator because it seems to have a generic type in the definition! This may not be defined!
+    constexpr operator ::ArrayW<uint8_t>() const noexcept = delete;
     // Get static field: static private System.String empty_error
     static ::StringW _get_empty_error();
     // Set static field: static private System.String empty_error

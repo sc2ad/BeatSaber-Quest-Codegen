@@ -67,7 +67,7 @@ namespace System::Linq::Expressions {
     static_assert(sizeof(::Il2CppObject*) == 0x8);
     public:
     // Deleting conversion operator: operator ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>*
-    // Cannot delete conversion operator because it seems to have a generic type in the definition! This may not be defined!
+    constexpr operator ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>*() const noexcept = delete;
     // Get instance field reference: private System.Object _body
     ::Il2CppObject*& dyn__body();
     // System.Void .ctor(System.Collections.Generic.IReadOnlyList`1<System.Linq.Expressions.ParameterExpression> variables, System.Linq.Expressions.Expression body)
